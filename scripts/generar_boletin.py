@@ -24,14 +24,19 @@ def leer(path):
         return ""
 
 def extraer_acuerdos(acta):
-    """Extrae líneas de acuerdos con veredicto del acta."""
+    """Extrae acuerdos del acta: filas de tabla con veredicto o líneas 'Nombre: APROBADO'."""
     filas = []
+    # formato tabla: | Propuesta | **APROBADO**... | motivo |
     for linea in acta.splitlines():
-        m = re.match(r"\s*[-*]\s*(.+?):\s*\*?\*?(APROBADO|APLAZADO|RECHAZADO)", linea, re.I)
-        if m:
-            ver = m.group(2).lower()
-            titulo = m.group(1)[:160]
-            filas.append(f'<li><span class="badge {ver}">{m.group(2)}</span> {esc(titulo[:160])}</li>')
+        m = re.match(r"\|\s*([^|]+?)\s*\|\s*\*?\*?(APROBADO(?: CON CONDICIÓN)?|APLAZADO(?:AS)?|RECHAZADO(?:AS)?)", linea, re.I)
+        if m and "---" not in linea:
+            ver = m.group(2).lower().split()[0]
+            filas.append(f'<li><span class="badge {ver}">{m.group(2)}</span> {esc(m.group(1)[:160])}</li>')
+            continue
+        m2 = re.match(r"\s*[-*]\s*(.+?):\s*\*?\*?(APROBADO|APLAZADO|RECHAZADO)", linea, re.I)
+        if m2:
+            ver = m2.group(2).lower()
+            filas.append(f'<li><span class="badge {ver}">{m2.group(2)}</span> {esc(m2.group(1)[:160])}</li>')
     return "".join(filas)
 
 def extraer_seccion(texto, titulo):
@@ -51,7 +56,7 @@ def bullets(texto, limite=5):
 def tabla_veredictos(aud):
     filas = []
     for linea in aud.splitlines():
-        m = re.match(r"\|\s*(.+?)\s*\|\s*(VALIDADA(?: CON OBSERVACIONES)?|RECHAZADA)\s*\|", linea, re.I)
+        m = re.match(r"\|\s*([^|]+?)\s*\|\s*\*?\*?(VALIDADA CON OBSERVACIONES|VALIDADA|RECHAZADA)\*?\*?\s*\|", linea, re.I)
         if m and "---" not in linea:
             cls = "validada" if "OBSERVACIONES" in m.group(2).upper() else m.group(2).lower()
             cls = "observaciones" if "OBSERVACIONES" in m.group(2).upper() else cls
