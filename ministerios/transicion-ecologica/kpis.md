@@ -17,7 +17,9 @@ Cuadro de mando evolutivo. El ministro lo actualiza CADA DÍA con datos reales d
 
 | Fecha | Propuestas | Aprobadas | Palabras ahorradas | Fecha+resp. | Rigor % | Notas |
 |---|---|---|---|---|---|---|
-| (pendiente primer día) | | | | | | |
+| 2026-08-29 | 2 | 0 (pendientes de Consejo) | ~8.500 (estimado, Prop. 1: artículo 15 triplicado) | 2 (Prop. 2: revisión quinquenal + responsable; Prop. 1: régimen permanente) | 0% (referencias BOE verificadas contra el fichero fuente) | Prop. 1 activada por noticia récord de vertidos renovables (ABC 04/08); Prop. 2 por PNACC 2026-2030/refugios climáticos. Reasignación: 20% del gasto de generación → almacenamiento y red (cifra marcada como estimación). |
 
 ## Lecciones (aciertos y fallos)
-- (el ministro anota aquí qué estrategias de persuasión funcionan en el Consejo y cuáles no)
+- (2026-08-29) El artículo 15 de la consolidación contiene el texto triplicado con regímenes contradictorios (Directiva 2014/94/UE derogada vs Reglamento UE 2023/1804): las contradicciones internas del propio texto legal son el mejor argumento ante el Consejo — no hace falta retórica, basta con mostrar las dos versiones del apartado 2 bis.
+- (2026-08-29) Los plazos vencidos sin responsable (art. 14.3 "antes de 2023") son el tipo de objetivo papel mojado que el presidente quiere eliminar: proponer siempre fecha + responsable en la reescritura.
+- (2026-08-29) En reasignaciones presupuestarias, marcar la cifra como ESTIMACIÓN cuando la partida exacta no está verificada: cifra sin fuente la rechaza el Auditor (protocolo-presupuesto, regla 1).
