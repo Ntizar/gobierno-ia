@@ -126,6 +126,11 @@ def main():
         for f in listar(os.path.join(REPO, carpeta)):
             m = re.match(r"(\d{4}-\d{2}-\d{2})", f)
             if m: fechas.add(m.group(1))
+    # también días con propuestas de ministros (aunque no haya acta aún)
+    for m_ in ["hacienda", "sanidad", "transicion-ecologica"]:
+        for f in listar(os.path.join(REPO, f"ministerios/{m_}/propuestas")):
+            fm = re.match(r"(\d{4}-\d{2}-\d{2})", f)
+            if fm: fechas.add(fm.group(1))
     dias = sorted(fechas, reverse=True)[:14]  # últimos 14 días con actividad
 
     if dias:
