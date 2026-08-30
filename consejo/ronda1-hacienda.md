@@ -1,9 +1,3 @@
-# Ronda 1 — Hacienda
+# Ronda 1 — Hacienda (2026-08-30)
 
-Un dato medido esta mañana: de las 153.008 palabras de la Ley General Tributaria consolidada, **51.719 —el 34%— son copias literales de párrafos ya presentes en el mismo bloque**. El artículo 2 está duplicado íntegro, título incluido; el apartado 2 del artículo 5 aparece tres veces. No es culpa del BOE: es nuestra carga de datos.
-
-Propuesta: conservar una única copia de cada párrafo y rótulo, en su orden original, aplicando el criterio a los 271 bloques afectados ([a2] como piloto operativo).
-
-Por qué es segura: no se toca ni una coma de contenido normativo — cero riesgo jurídico. Elimina la ambigüedad de quién lee un apartado tres veces sin saber si hay variantes. Y cumple el art. 9.3 CE: una norma que se lee el doble de larga de lo que es no da seguridad jurídica. La simplificación de mayor ratio valor/riesgo de todo el bloque.
-
-Referencia: `ministerios/hacienda/propuestas/2026-08-29.md`, Propuesta 1; bloque [a2] de `leyes/BOE-A-2003-23186.md`.
+Propuesta estrella: art. 95 LGT, bloque [a95], «Carácter reservado de los datos con trascendencia tributaria». El bloque trae 204 párrafos: el encabezado figura 8 veces y el apartado 1 completo, con las letras a) a k) —los supuestos de cesión—, está repetido dos veces, verificado por hash sha256. Son 5.491 palabras duplicadas de 7.800: el 70% del bloque. Cero cambio normativo: se suprime exactamente el mismo texto. ¿Por qué importa? Porque es la norma más sensible en protección de datos tributarios (límite del art. 18.4 CE) y porque el Plan de Control Tributario 2026 de la AEAT (BOE-A-2026-5843) intensifica el intercambio de información —inmobiliario, plataformas, Seguridad Social— justo este año. Dos copias de los supuestos de cesión invitan a leer si la segunda amplía la primera: inseguridad gratuita. Deduplicación pura, sin afectar a ningún ministerio. Mantengo la propuesta tal cual.
