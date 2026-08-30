@@ -77,7 +77,7 @@ def dia_md(d):
     props = {m: leer(os.path.join(REPO, f"ministerios/{m}/propuestas", f"{iso}.md"))
              for m in ["hacienda", "sanidad", "transicion-ecologica"]}
     kpis = {m: leer(os.path.join(REPO, f"ministerios/{m}/kpis.md")) for m in props}
-    hay = acta or aud or any(props.values())
+    hay = acta or aud or any(props.values()) or inf
     if not hay: return ""
 
     bloques = [f'<div class="dia"><h2>{fecha_humana(d)}</h2>']
