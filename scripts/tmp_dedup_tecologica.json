@@ -1,0 +1,32 @@
+[
+ {
+  "ref": "a1-7",
+  "titulo": "Artículo 15",
+  "lineas_fichero": [
+   379,
+   474
+  ],
+  "parr_dups": 26,
+  "palabras": 3989,
+  "palabras_dup": 2012,
+  "primeras_dups": [
+   "Artículo 15. Instalación de puntos de recarga eléctrica.",
+   "Artículo 15. Instalación de puntos de recarga eléctrica.",
+   "2. Quienes ostenten la titularidad de las instalaciones de suministro de combustibles y ca"
+  ]
+ },
+ {
+  "ref": "da-6",
+  "titulo": "Disposición adicional sexta",
+  "lineas_fichero": [
+   861,
+   875
+  ],
+  "parr_dups": 1,
+  "palabras": 153,
+  "palabras_dup": 5,
+  "primeras_dups": [
+   "Disposición adicional sexta. Transporte Ferroviario."
+  ]
+ }
+]
