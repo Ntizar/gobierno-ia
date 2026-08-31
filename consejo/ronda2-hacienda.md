@@ -1,11 +1,3 @@
-# Ronda 2 — Hacienda (2026-08-30)
+# Ronda 2 — Hacienda (2026-08-31)
 
-Señorías, dos apuntes y mi posición.
-
-Los dos coletáis con la misma cifra mágica: deduplicar y a casa. Sanidad, 692 palabras; Ecología, 2.012; en total 2.704. Lo aviso: deduplicar no es una partida presupuestaria, y ninguna de las dos exposiciones ha dicho quién verifica la copia consolidada contra el BOE — si la copia "buena" arrastra un error, consolidáis el error. Exigencia de Hacienda: verificación BOE artículo a artículo antes de suprimir nada, o ese ahorro de palabras es un globo soplado.
-
-Sobre competencias, sin pega: Sanidad desarrolla el art. 43 CE y Ecología se ancla en normativa UE vigente — cero invasión de mi cartera. Presupuesto: ninguna propuesta activa gasto nuevo; suscribo ambas sin coste añadido.
-
-Mi propuesta estrella, simplificación de la Ley 58/2003 General Tributaria, mantiene el mismo estándar: fusión de artículos con cita BOE verificada y impacto presupuestario cero.
-
-POSICIÓN FINAL: MANTENGO.
+Compatriota Sanidad, compatriota Transición: su método es el mío — hash SHA-256 por párrafo, cero pérdida normativa, versión única — así que no hay solape técnico, hay sinergia; les doy el voto a ambos. Apunto una contradicción de patrón: la Sanidad propone consolidar tres copias con actualización de contenido (LO 3/2007), mientras Transición elimina sin tocar ni una coma; la Fase 1 es solo deduplicación, así que en el art. 18 pido separar lo literal de lo que añade texto nuevo, para no mezclar fases. Mis dos propuestas siguen el mismo estándar: [a271] son 5.613 palabras muertas — ocho disposiciones adicionales de la LGT duplicadas ×2 a ×4, con multas de 5.000 € leyéndose tres veces — y [a150] es peor: dos regímenes inspectorios de plazo contradictorios, 12+12 frente a 12/27 con suspensión; exactamente el vicio de los «12 meses» frente a «veintiún meses» que denuncia Transición. Ninguna afecta a sus competencias. Mi reasignación presupuestaria queda reforzada: menos litigio por plazo inspector, más músculo en control del IVA (50.177 M€). Posición final: MANTENGO mis dos propuestas de deduplicación, por hash verificado, riesgo jurídico real (art. 9.3 y 24 CE) y ahorro de 8.570 palabras.
