@@ -1,0 +1,85 @@
+{
+ "LGT": {
+  "total_headers": 335,
+  "numeric_headers": 271,
+  "total_words": 153008
+ },
+ "LGT_a150": {
+  "paras": 111,
+  "dup_paras": 67,
+  "dup_words": 2957,
+  "words": 5041,
+  "old_12m_x2": 2,
+  "new_x3": 3
+ },
+ "LGT_region_a271": {
+  "paras": 364,
+  "dup_paras": 131,
+  "dup_words": 5624,
+  "words": 16098,
+  "n_subregion_headers": 27,
+  "DA5_x": 2,
+  "DA6_x": 4,
+  "DA11_x": 2,
+  "DA18_x": 3,
+  "DA20_x": 2,
+  "DA22_x": 3,
+  "DA23_header_x": 0,
+  "DA24_header_x": 0,
+  "multa_5000_x": 5
+ },
+ "LGT_region_a271_ministro_metodo": {
+  "paras": 357,
+  "words": 16073,
+  "dup_words": 5613
+ },
+ "LGT_global_perblock": {
+  "dup_words_all_headers": 52652,
+  "blocks_with_dup": 115
+ },
+ "LGS": {
+  "total_headers": 151,
+  "total_words": 24728,
+  "dup_words_global": 3314,
+  "blocks_with_dup": 21
+ },
+ "LGS_art18": {
+  "paras": 56,
+  "dup_paras": 31,
+  "dup_words": 817,
+  "words": 1445,
+  "header_x": 3
+ },
+ "LGS_art35": {
+  "paras": 34,
+  "dup_paras": 16,
+  "dup_words": 292,
+  "words": 631,
+  "registro_x": 1,
+  "sin_1a": true
+ },
+ "L7": {
+  "total_headers": 71,
+  "total_words": 27268,
+  "dup_words_global": 2017,
+  "blocks_with_dup": 2
+ },
+ "L7_art15": {
+  "paras": 47,
+  "dup_paras": 26,
+  "dup_words": 2012,
+  "words": 3989,
+  "label_x": 3,
+  "v1_words_387_414": 1152,
+  "v2_words_415_443": 1380,
+  "v3_words_445_473": 1433,
+  "plazo_12_x": 1,
+  "plazo_21_x": 5,
+  "dir_2014_94_x": 3
+ },
+ "listas_b_sin_a": {
+  "LGT": 239,
+  "LGS": 21,
+  "L7": 22
+ }
+}
