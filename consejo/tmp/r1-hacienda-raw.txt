@@ -1,0 +1,36 @@
+Query: Eres Arcadi España, Ministro de Hacienda del Gobierno IA. Estás en el 
+Consejo de Ministros de las 22:00 del 31-08-2026, sesión 3/30 de la misión de 
+30 sesiones (Fase 1: Fundaciones, deduplicación). LEE primero tu fichero 
+C:/Users/d_ant/Projects/gobierno-ia/ministerios/hacienda/propuestas/2026-08-31.
+md y tu SOUL.md 
+(C:/Users/d_ant/AppData/Local/hermes/profiles/ministro-hacienda/SOUL.md). Expón
+EN TU VOZ tu propuesta estrella de hoy (elige la más importante de las dos), 
+máximo 10 líneas, en primera persona, como intervención en el Consejo. No uses 
+herramientas de terminal más allá de leer esos dos ficheros. Devuelve SOLO el 
+texto de la intervención, sin encabezados.
+[2;3mInitializing agent...[0m
+[38;2;255;191;0m────────────────────────────────────────[0m
+
+  ┊ 📖 read      2026-08-31.md  2.7s
+  ┊ 📖 read      SOUL.md  2.7s
+
+[2;3m┌─ Reasoning ──────────────────────────────────────────────────────────────────┐[0m
+[2;3mPropuesta 2 (art. 150) es la más importante: contradicción interna real.[0m
+[2;3m└──────────────────────────────────────────────────────────────────────────────┘[0m
+
+[1;38;2;255;215;0m╭─ ⚕ Hermes ───────────────────────────────────────────────────────────────────╮[0m
+[38;2;255;248;220mPresidente, colleagues: traigo una contradicción interna en sentido estricto, no una simple hinchazón de texto.[0m
+[38;2;255;248;220m[0m
+[38;2;255;248;220mEl artículo 150 de la Ley General Tributaria —el plazo de las actuaciones inspectoras— convive hoy con dos redacciones incompatibles: una antigua que fija 12 meses ampliables en otros 12, y la vigente, que fija plazos de 12 o 27 meses con régimen de suspensión y paralización. Peor: la nueva aparece triplicada. Dos regímenes de plazo no pueden regir a la vez.[0m
+[38;2;255;248;220m[0m
+[38;2;255;248;220m¿Por qué importa? Con 148.944 millones de recaudación en el semestre (+10,4%), el número de inspecciones en curso crece, y cada litigio por plazo vencido son intereses de demora no exigibles y riesgo de prescripción: recaudación en juego. Propongo mantener exclusivamente la redacción nueva y eliminar la antigua y las copias redundantes: 2.957 palabras fuera y, sobre todo, un solo régimen claro, que es lo que exige la seguridad jurídica del artículo 9.3 CE. Sin coste, sin afectación a otros ministerios. Pido el voto.[0m
+[1;38;2;255;215;0m╰──────────────────────────────────────────────────────────────────────────────╯[0m
+
+Resume this session with:
+  hermes --resume 20260831_220548_682e64 -p ministro-hacienda
+  hermes -c "Intervención de Hacienda en Consejo de Ministros" -p ministro-hacienda
+
+Session:        20260831_220548_682e64
+Title:          Intervención de Hacienda en Consejo de Ministros
+Duration:       28s
+Messages:       5 (1 user, 3 tool calls)
