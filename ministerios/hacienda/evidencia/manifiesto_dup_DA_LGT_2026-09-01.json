@@ -1,0 +1,624 @@
+{
+ "[daquinta]": {
+  "palabras_bloque": 1886,
+  "parrafos": 38,
+  "bloques_dup": 18,
+  "palabras_dup": 841,
+  "manifiesto": [
+   {
+    "sha256": "9538154cafaf56f1b6349f0d4ebf17d5225aff3a8af6070b9b7f1e25a0545188",
+    "palabras": 107,
+    "veces": 2,
+    "inicio": "1. Las personas o entidades que desarrollen o vayan a desarrollar en territorio "
+   },
+   {
+    "sha256": "1d15aa0fd1125ea704337d7e94ad7488d6b0aa3064acd2b6540c04ec23cc19b8",
+    "palabras": 107,
+    "veces": 2,
+    "inicio": "b) El número de identificación fiscal si se trata de una persona física que lo t"
+   },
+   {
+    "sha256": "92b378e33976def45dd41312fb988603013728149d4df193da7323535ead5560",
+    "palabras": 88,
+    "veces": 2,
+    "inicio": "g) La condición de persona o entidad residente o no residente. En este último ca"
+   },
+   {
+    "sha256": "865ccb4176870d66e5a6489ddb03574786d88c332f90b5465e8a42b2a5b8bb12",
+    "palabras": 78,
+    "veces": 2,
+    "inicio": "i) El régimen de tributación en el Impuesto sobre el Valor Añadido, con referenc"
+   },
+   {
+    "sha256": "248f0223e564e8bf363a87f9bb71729628417853e896764183c9b04f1d2fcb94",
+    "palabras": 70,
+    "veces": 2,
+    "inicio": "Las declaraciones censales servirán, asimismo, para comunicar el inicio de las a"
+   },
+   {
+    "sha256": "2776bd5dd4c08a3378b8be6411edde5ba268f18aa145ecef171e29297806f071",
+    "palabras": 56,
+    "veces": 2,
+    "inicio": "6. La Administración tributaria llevará conjuntamente con el Censo de Empresario"
+   },
+   {
+    "sha256": "afccc749d62e6705a5e150e28362f277fdc17815a78601da640048eb94f8ed13",
+    "palabras": 55,
+    "veces": 2,
+    "inicio": "f) El ámbito territorial en el que vaya a desarrollar sus actividades económicas"
+   },
+   {
+    "sha256": "698eec91dff343791b374699ad532eba1ff9d1aac27f45f125ff44bd5a38f33a",
+    "palabras": 55,
+    "veces": 2,
+    "inicio": "h) El régimen de tributación en el Impuesto sobre Sociedades, en el Impuesto sob"
+   },
+   {
+    "sha256": "60b976d19233f8b3f73c414f28ab2a35f78790227fb43634f984037f78d6a5a7",
+    "palabras": 36,
+    "veces": 2,
+    "inicio": "7. Las personas o entidades a que se refiere el apartado uno de este artículo po"
+   },
+   {
+    "sha256": "b58aa6dd9b9f23e8c3574538edde59d01e31d261159ac8cbe0d0b2f665cec425",
+    "palabras": 34,
+    "veces": 2,
+    "inicio": "k) En el caso en que se trate de entidades en constitución, la declaración de al"
+   },
+   {
+    "sha256": "550b32ffe094e4b490ff648a645dc1839a25b19ac8272a527f2be9d27bd9b7de",
+    "palabras": 32,
+    "veces": 2,
+    "inicio": "5. La declaración censal de baja se presentará cuando se produzca el cese efecti"
+   },
+   {
+    "sha256": "1caab104ad35a5f780968819bd3f71303278c99cf7f7586bb1b343b7439fffff",
+    "palabras": 31,
+    "veces": 2,
+    "inicio": "d) La relación de establecimientos y locales en los que vaya a desarrollar activ"
+   },
+   {
+    "sha256": "47aef68f6e8bb8bb7e17e0b66ffb3fbe0c32328d5e1f20cd32897b84c30122e8",
+    "palabras": 24,
+    "veces": 2,
+    "inicio": "e) La clasificación de las actividades económicas que vaya a desarrollar según l"
+   },
+   {
+    "sha256": "bb72a32cd8ce613fb61df2b4b5998c79a6952f947b68d68c8bfc064771400a1d",
+    "palabras": 20,
+    "veces": 2,
+    "inicio": "3. La declaración censal de alta en el Censo de Empresarios, Profesionales y Ret"
+   },
+   {
+    "sha256": "56dee9634cd2c9ce2ae4b29c0fdda5f69ab647a8cfd1e45236a79d83b304dcda",
+    "palabras": 18,
+    "veces": 2,
+    "inicio": "2. Reglamentariamente se regulará el contenido, la forma y los plazos para la pr"
+   },
+   {
+    "sha256": "a8bde5ceaf347c4cab0d93d8e50a44307d42d59009851b3ca48ebbd815c6d44d",
+    "palabras": 13,
+    "veces": 2,
+    "inicio": "c) El domicilio fiscal, y su domicilio social, cuando sea distinto de aquél."
+   },
+   {
+    "sha256": "9ba30f846d7e55710c066cc07f2fef04149ebe8d004241b830bf7b86a0f1acbd",
+    "palabras": 12,
+    "veces": 2,
+    "inicio": "j) El régimen de tributación en los impuestos que se determinen reglamentariamen"
+   },
+   {
+    "sha256": "1064b88d4d4af1ef695c8c7bdfd0999c51a0dee75e782c94268bb206c2a86748",
+    "palabras": 5,
+    "veces": 2,
+    "inicio": "Disposición adicional quinta. Declaraciones censales."
+   }
+  ]
+ },
+ "[dasexta]": {
+  "palabras_bloque": 2191,
+  "parrafos": 53,
+  "bloques_dup": 10,
+  "palabras_dup": 1089,
+  "manifiesto": [
+   {
+    "sha256": "4744b10aecbf67193c730e4bf36d9884fcf84ec0a8a540f5a1ad3d9078c71c2c",
+    "palabras": 80,
+    "veces": 4,
+    "inicio": "De igual manera, las entidades de crédito exigirán la comunicación del número de"
+   },
+   {
+    "sha256": "142098495fc06110b58c0ac2dcdcac5df037266ff0306dcc66842ed49c95669b",
+    "palabras": 53,
+    "veces": 4,
+    "inicio": "2. En particular, quienes entreguen o confíen a entidades de crédito fondos, bie"
+   },
+   {
+    "sha256": "3074130c3c810281e0a878f7e90ff4937121fc69c918fce79ae906974d52f274",
+    "palabras": 51,
+    "veces": 4,
+    "inicio": "3. Las entidades de crédito no podrán librar cheques contra la entrega de efecti"
+   },
+   {
+    "sha256": "7c70e6b9ff0437cbf7b9b46692e67d44cec19a2a73f70da7873e01fbd3cf4287",
+    "palabras": 40,
+    "veces": 4,
+    "inicio": "1. Toda persona física o jurídica, así como las entidades sin personalidad a que"
+   },
+   {
+    "sha256": "134c2849f7e1199a78745f24306e34aef1eccd04a12485570be56c00789c97ba",
+    "palabras": 32,
+    "veces": 4,
+    "inicio": "Reglamentariamente se regulará el procedimiento de asignación y revocación, la c"
+   },
+   {
+    "sha256": "4de2888bad418538102b33fab7a078ca15b19b428d5eedb6989ac4eb9c0b3db6",
+    "palabras": 29,
+    "veces": 4,
+    "inicio": "Reglamentariamente se establecerá la forma en que las entidades de crédito deber"
+   },
+   {
+    "sha256": "1e6fae049678f4655abd8411201a8831427d9629433671ed451c2ee6e1dbdd74",
+    "palabras": 28,
+    "veces": 4,
+    "inicio": "Reglamentariamente se podrán establecer reglas especiales y excepciones a la cit"
+   },
+   {
+    "sha256": "08f7e54da38f36f07ad66a5eba73ae27b8504c95111a5c0326606a221262cc45",
+    "palabras": 23,
+    "veces": 4,
+    "inicio": "La citada obligación será exigible aunque las operaciones activas o pasivas que "
+   },
+   {
+    "sha256": "3dd6e78314db0959a4bb06d45974b1e184c7c33f10d15f6effa98d585a821173",
+    "palabras": 20,
+    "veces": 4,
+    "inicio": "Este número de identificación fiscal será facilitado por la Administración Gener"
+   },
+   {
+    "sha256": "9597a08fea64f4ed92cee6503ab7f48f39082e72e4ca637dc85b7cb5a993851f",
+    "palabras": 7,
+    "veces": 4,
+    "inicio": "Disposición adicional sexta. Número de identificación fiscal."
+   }
+  ]
+ },
+ "[daundecima]": {
+  "palabras_bloque": 626,
+  "parrafos": 27,
+  "bloques_dup": 13,
+  "palabras_dup": 303,
+  "manifiesto": [
+   {
+    "sha256": "7b076c145cfd85706bc183b2048315dc8e1663366648489a00ed3e8e76ca666a",
+    "palabras": 42,
+    "veces": 2,
+    "inicio": "7. Podrán interponer el recurso extraordinario de revisión las personas u órgano"
+   },
+   {
+    "sha256": "638a1190e43fcfbe34158c9154b2e4fd06d676667515eb51ea8bc60e4ee964f6",
+    "palabras": 39,
+    "veces": 2,
+    "inicio": "b) El reconocimiento o la liquidación por autoridades u organismos de los Minist"
+   },
+   {
+    "sha256": "b376eee9800fa323907a8420cd7791ef0f912624685ff8a95ec87ca1ba9d5793",
+    "palabras": 34,
+    "veces": 2,
+    "inicio": "1. Podrá interponerse reclamación económico-administrativa, previa interposición"
+   },
+   {
+    "sha256": "2f50fe48b3f36da784806985845eb173636c9700c22c64979f0ce7eae634032f",
+    "palabras": 34,
+    "veces": 2,
+    "inicio": "8. Salvo lo dispuesto en los apartados anteriores, en las reclamaciones económic"
+   },
+   {
+    "sha256": "0ca7704321904f7b516714236d30ef509ab133e8b93f66f25c92593820662489",
+    "palabras": 30,
+    "veces": 2,
+    "inicio": "e) Los organismos u órganos que hayan dictado el acto impugnado, así como cualqu"
+   },
+   {
+    "sha256": "db3a067cbeed298f3e81c10fbe73b032cc5bd1d5b09c8e51e667298ee93c0d99",
+    "palabras": 28,
+    "veces": 2,
+    "inicio": "6. Podrán interponer el recurso extraordinario de alzada para la unificación de "
+   },
+   {
+    "sha256": "310d86a3b50ce0869676c107e6ff0c9395e05fd6aedca0e292f70ec9fcb2be32",
+    "palabras": 23,
+    "veces": 2,
+    "inicio": "4. No estarán legitimados para interponer reclamación económico-administrativa c"
+   },
+   {
+    "sha256": "dedf4171b30608da52f7940988fac2658662d1b8556d615bf658135300ff9e88",
+    "palabras": 20,
+    "veces": 2,
+    "inicio": "b) Los dictados en procedimientos en los que esté reservada al ministro competen"
+   },
+   {
+    "sha256": "1af823c2a0368cd2bd2ca389c8101a5c29e858cc6bf0dc35383ddeb1514b85d7",
+    "palabras": 17,
+    "veces": 2,
+    "inicio": "b) Los particulares cuando obren por delegación de la Administración o como agen"
+   },
+   {
+    "sha256": "9e02fb823d631aea9f518a2f7db631a25981e4c5d47634e406670c349113701a",
+    "palabras": 14,
+    "veces": 2,
+    "inicio": "c) Los dictados en virtud de una ley que los excluya de reclamación económico-ad"
+   },
+   {
+    "sha256": "1b377af85fb6ff8c0fdc8d0815b92ac489234b5b7b3515152dfeb10db8c2073b",
+    "palabras": 11,
+    "veces": 2,
+    "inicio": "d) Los que asuman obligaciones en virtud de pacto o contrato."
+   },
+   {
+    "sha256": "2f5ea44a6403d21e47a07091668159a2da27f625e25240c24ed715a1c22dd0e1",
+    "palabras": 8,
+    "veces": 2,
+    "inicio": "Disposición adicional undécima. Reclamaciones económico-administrativas en otras"
+   },
+   {
+    "sha256": "8f1e262f21e567d6109fa5890242e2da03a328f4b4a765b5638d122644c2bb66",
+    "palabras": 3,
+    "veces": 2,
+    "inicio": "c) Los denunciantes."
+   }
+  ]
+ },
+ "[dadecimoctava]": {
+  "palabras_bloque": 1694,
+  "parrafos": 34,
+  "bloques_dup": 9,
+  "palabras_dup": 534,
+  "manifiesto": [
+   {
+    "sha256": "203e34301cd803c4f8bae670ce33500a092074d5292503d77cb0b5047a694ad3",
+    "palabras": 93,
+    "veces": 3,
+    "inicio": "b) Información de cualesquiera títulos, activos, valores o derechos representati"
+   },
+   {
+    "sha256": "c64b6bbbeafda0096e602de96437aaaa3c73ae34c83ab110995760e97d929d6e",
+    "palabras": 78,
+    "veces": 2,
+    "inicio": "c) En el caso de incumplimiento de la obligación de informar sobre bienes inmueb"
+   },
+   {
+    "sha256": "b1da6f7d00bc91e49c54727cd7e7d8a02cff7eb37f047d872734fe992f69c170",
+    "palabras": 76,
+    "veces": 2,
+    "inicio": "b) En el caso de incumplimiento de la obligación de informar sobre títulos, acti"
+   },
+   {
+    "sha256": "92195b8189a6eada093f247e165f47295e406bfaf66af7172a81f110a4c512fe",
+    "palabras": 63,
+    "veces": 2,
+    "inicio": "d) Información sobre las monedas virtuales situadas en el extranjero de las que "
+   },
+   {
+    "sha256": "0844b22bff4490238cc678b6e13fff2082be6f52d3cb196af4ffdeb1daa27f2d",
+    "palabras": 30,
+    "veces": 2,
+    "inicio": "También constituirá infracción tributaria la presentación de las mismas por medi"
+   },
+   {
+    "sha256": "56e54acdd49bd2f2fdd18410c7c36df7da75e28631281d2878136107747afb27",
+    "palabras": 18,
+    "veces": 3,
+    "inicio": "c) Información sobre los bienes inmuebles y derechos sobre bienes inmuebles de s"
+   },
+   {
+    "sha256": "8ab1e69affcb695bc118ed40c78de719eb2936261474b8163fbd8ef416f875d0",
+    "palabras": 23,
+    "veces": 2,
+    "inicio": "Las infracciones y sanciones reguladas en esta disposición adicional serán incom"
+   },
+   {
+    "sha256": "9cb5ce07e7480fb31ac3fe4c12407c6e6d7d932d9060defb7599f9befb682218",
+    "palabras": 14,
+    "veces": 3,
+    "inicio": "Disposición adicional decimoctava. Obligación de información sobre bienes y dere"
+   },
+   {
+    "sha256": "342952a1d8758e3e432c3a5a11cd06a7d981b2bf809ad402ae368091f04c7d1d",
+    "palabras": 14,
+    "veces": 2,
+    "inicio": "Las anteriores infracciones serán muy graves y se sancionarán conforme a las sig"
+   }
+  ]
+ },
+ "[davigesima]": {
+  "palabras_bloque": 716,
+  "parrafos": 15,
+  "bloques_dup": 7,
+  "palabras_dup": 349,
+  "manifiesto": [
+   {
+    "sha256": "bc4f3d11acc9063855b274e096e983cc9267b5eb9722ac1c93a35f838b4c0d09",
+    "palabras": 85,
+    "veces": 2,
+    "inicio": "b) En los procedimientos de aplicación de los tributos, los efectos del incumpli"
+   },
+   {
+    "sha256": "5c955c6f24d63a9d1e7ebfced072801c46abae04e8df1d7bd5e7a1fdc2a6a8bd",
+    "palabras": 70,
+    "veces": 2,
+    "inicio": "c) Cuando el acto de aplicación de los tributos haya sido dictado sin someter la"
+   },
+   {
+    "sha256": "6cb18a16eb3513c42891debb9d512e76eb89d048fef124dd0a8d81fa7d9f60b8",
+    "palabras": 57,
+    "veces": 2,
+    "inicio": "d) Lo anterior se entiende sin perjuicio del derecho de los interesados a la int"
+   },
+   {
+    "sha256": "8a73c079304b012125a0f50c0fb4b2e455168995e233b1e312d6873af5f998e5",
+    "palabras": 52,
+    "veces": 2,
+    "inicio": "1. Conforme a lo derivado del artículo 7.1, lo dispuesto en esta Ley será de apl"
+   },
+   {
+    "sha256": "e779d81336cf8dddf30c7839f21d6049fbdbdfdadccddc9d880db88293a98cec",
+    "palabras": 48,
+    "veces": 2,
+    "inicio": "c) La comprobación de valores regulada en la subsección 4.ª de la sección 2.ª de"
+   },
+   {
+    "sha256": "5c6319d901787fcaa8356efa3b6f16bbe591b7b5951097881c2bae36aa90f477",
+    "palabras": 28,
+    "veces": 2,
+    "inicio": "b) Cuando el acto de aplicación de los tributos esté vinculado a una Decisión ad"
+   },
+   {
+    "sha256": "dad049a48747fcccf9041b426255d4fb3e5d8b24b544e7ec85ba3b77ff074c9f",
+    "palabras": 9,
+    "veces": 2,
+    "inicio": "Disposición adicional vigésima. Tributos integrantes de la deuda aduanera."
+   }
+  ]
+ },
+ "[davigesimosegunda]": {
+  "palabras_bloque": 2558,
+  "parrafos": 39,
+  "bloques_dup": 13,
+  "palabras_dup": 1504,
+  "manifiesto": [
+   {
+    "sha256": "eaffe08b1e11cd5450d43389944770e68528e52d8b79aaeaac0b2ee9a6c14bcb",
+    "palabras": 111,
+    "veces": 3,
+    "inicio": "1. Las instituciones financieras deberán identificar la residencia de las person"
+   },
+   {
+    "sha256": "61778a9aade7faa0d37ad4df817e689d0357514a993d8a7c01172f334553a829",
+    "palabras": 93,
+    "veces": 3,
+    "inicio": "5. En relación con las declaraciones que resulten exigibles a las personas que o"
+   },
+   {
+    "sha256": "9b129210812407e13dea021e866d7759d23c57ff136cd039df8c9d4bb8e89ef8",
+    "palabras": 85,
+    "veces": 3,
+    "inicio": "Asimismo, las personas que ostenten la titularidad o el control de las cuentas f"
+   },
+   {
+    "sha256": "e7372b5db71b75fb099eb2af9577e80b691ae7bc61d5021071d2ebf399aca5c5",
+    "palabras": 71,
+    "veces": 3,
+    "inicio": "Asimismo, en el caso de cuentas abiertas durante el año 2015 respecto de las que"
+   },
+   {
+    "sha256": "b1d9875bacc8f1c557cfe0dab841baec4d107f7c4ca3d8b21662d008fe74c57c",
+    "palabras": 65,
+    "veces": 3,
+    "inicio": "3. Constituye infracción tributaria el incumplimiento de la obligación de identi"
+   },
+   {
+    "sha256": "bff3d19ac0afb10c00eb240056fe55407b042bc512ac2af939976c2094031bd9",
+    "palabras": 65,
+    "veces": 3,
+    "inicio": "8. Lo dispuesto en los apartados 5 y 6 será igualmente de aplicación en relación"
+   },
+   {
+    "sha256": "e4fde58357c04de06e43abdf31f65a6b126f9bf4a4495942ea98d25e989ce3c8",
+    "palabras": 91,
+    "veces": 2,
+    "inicio": "7. Toda institución financiera obligada a comunicar información conforme a la Di"
+   },
+   {
+    "sha256": "3b08ef88c8ab63f6efa031eddc63aa4934e00a1fd3b1eff1a33babfcddc3c44e",
+    "palabras": 60,
+    "veces": 3,
+    "inicio": "Constituye infracción tributaria comunicar a la institución financiera datos fal"
+   },
+   {
+    "sha256": "be9ae0bbe8fbeda6f411d76eca22c05e93fbcc59b2ee9fc3e435586468efa047",
+    "palabras": 75,
+    "veces": 2,
+    "inicio": "6. Las pruebas documentales, las declaraciones que resulten exigibles a las pers"
+   },
+   {
+    "sha256": "95d98d49f5af85c681a367f07157e2eacfe683b3ee15dedef8f2a10f03d723e7",
+    "palabras": 37,
+    "veces": 3,
+    "inicio": "4. La infracción tributaria señalada en el primer párrafo del apartado anterior "
+   },
+   {
+    "sha256": "a0f336c856e19bb3eb49cb74716e1197f30e819b2c359d17b96c0ae311e8f2bd",
+    "palabras": 36,
+    "veces": 3,
+    "inicio": "2. Las infracciones y sanciones derivadas del incumplimiento de la obligación de"
+   },
+   {
+    "sha256": "7cac43f5d486d8f0916d2edd591789b559f8067ad39c12bfa2af079a2a7cab11",
+    "palabras": 24,
+    "veces": 3,
+    "inicio": "La infracción tributaria señalada en el segundo párrafo del apartado anterior se"
+   },
+   {
+    "sha256": "aeec1d077cfc47a8342e1bbab18732cfb233c1e758115a45300a0437aa973943",
+    "palabras": 22,
+    "veces": 3,
+    "inicio": "Disposición adicional vigésimo segunda. Obligaciones de información y de diligen"
+   }
+  ]
+ },
+ "[da]": {
+  "palabras_bloque": 2059,
+  "parrafos": 45,
+  "bloques_dup": 17,
+  "palabras_dup": 853,
+  "manifiesto": [
+   {
+    "sha256": "085be0ca55eab2f7088405466a9ae5ebac5b1588261b9d3701169a8d5cb92654",
+    "palabras": 104,
+    "veces": 2,
+    "inicio": "La infracción será grave y la sanción consistirá en multa pecuniaria fija de 2.0"
+   },
+   {
+    "sha256": "1d8161d3902866a4238f43b82123b24acb59268fb504b7d7945521776ea2f0d6",
+    "palabras": 100,
+    "veces": 2,
+    "inicio": "La infracción será grave y la sanción consistirá en multa pecuniaria fija de 2.0"
+   },
+   {
+    "sha256": "0358d73f7ec114f0b491cc3b862280ce863efbfd97152f70e1124b00ce5ddc3a",
+    "palabras": 50,
+    "veces": 4,
+    "inicio": "En caso de no existencia de honorarios, el límite se referirá al valor de mercad"
+   },
+   {
+    "sha256": "e4345f37972832e11f02606149d3d1901a5c96a5f8439402f0c7d95c5bef150a",
+    "palabras": 74,
+    "veces": 2,
+    "inicio": "Si se hubieran presentado en plazo declaraciones incompletas, inexactas o con da"
+   },
+   {
+    "sha256": "5d71bbdaf2a48b2d1c018936426a69d45e25123b9ee81bd9dbb98a0ba447b314",
+    "palabras": 45,
+    "veces": 2,
+    "inicio": "No obstante lo anterior, cuando un mecanismo transfronterizo carezca de valor en"
+   },
+   {
+    "sha256": "382b9a1197a0090fbb74d434c4a7ba61b2b4a79e910276b60aed7a8b69bb6ae2",
+    "palabras": 45,
+    "veces": 2,
+    "inicio": "No obstante lo anterior, cuando un mecanismo transfronterizo carezca de valor en"
+   },
+   {
+    "sha256": "601b49ee5634691af109692a7b44f5ade0c4cae8833ae3cc989b4c65b33fdbdd",
+    "palabras": 45,
+    "veces": 2,
+    "inicio": "La infracción será grave y la sanción consistirá en multa pecuniaria fija de 250"
+   },
+   {
+    "sha256": "a3e498a3a2eb2474617732a01bb527daf8da09787d9b5a6a069848f9b3ccfcfb",
+    "palabras": 44,
+    "veces": 2,
+    "inicio": "A los efectos de esta obligación de información, no tendrán la consideración de "
+   },
+   {
+    "sha256": "09335be38e2f1f3e8da440a6f060a1aa208b3aa1e7a9639409b2353b5b603fb7",
+    "palabras": 22,
+    "veces": 4,
+    "inicio": "A efectos de la aplicación de los límites máximos anteriores, el sujeto infracto"
+   },
+   {
+    "sha256": "adbbd75e5eba013a1f159003b601b4135a013d705d33a5f25828e7442c803589",
+    "palabras": 35,
+    "veces": 2,
+    "inicio": "c) La presentación de las declaraciones informativas a que se refiere esta dispo"
+   },
+   {
+    "sha256": "faac90dc5b84e0b53fa76806f148520ebb83c74cbca8f76e517a53a319d35236",
+    "palabras": 33,
+    "veces": 2,
+    "inicio": "La sanción y los límites mínimo y máximo previstos en este párrafo se reducirán "
+   },
+   {
+    "sha256": "91ce48b37e4cee3048415c98eaa409203ee9848a3d870f1df781387fbbda3983",
+    "palabras": 25,
+    "veces": 2,
+    "inicio": "El intermediario obligado por el deber de secreto profesional podrá quedar liber"
+   },
+   {
+    "sha256": "4f13bd10498e9beb48807ca44bfd198d81c49934e932577b706b03d6ab1aec65",
+    "palabras": 24,
+    "veces": 2,
+    "inicio": "c) Información de la utilización en España de los mecanismos transfronterizos de"
+   },
+   {
+    "sha256": "8f28a0287310c9155e8f660428d1ef4f650d97a004086d93f4396c562005f507",
+    "palabras": 24,
+    "veces": 2,
+    "inicio": "d) Las infracciones y sanciones reguladas en esta disposición adicional serán in"
+   },
+   {
+    "sha256": "8399b211157989d0af13f361888dfe11c4d9d870de758f43d71ee5eccf479f25",
+    "palabras": 22,
+    "veces": 2,
+    "inicio": "b) La presentación de forma incompleta, inexacta o con datos falsos de las decla"
+   },
+   {
+    "sha256": "01b9fb7a5bcd1a4bb9162d775fad92e74953670584b2e7baa9d4811495463c59",
+    "palabras": 13,
+    "veces": 2,
+    "inicio": "Disposición adicional vigésima tercera. Obligación de información sobre mecanism"
+   },
+   {
+    "sha256": "d2c68e41cdbcd0367319860cbef6dba3e1e6898c23d42c58d508577dd692ea53",
+    "palabras": 4,
+    "veces": 2,
+    "inicio": "4. Constituyen infracciones tributarias:"
+   }
+  ]
+ },
+ "[da-2]": {
+  "palabras_bloque": 617,
+  "parrafos": 16,
+  "bloques_dup": 6,
+  "palabras_dup": 151,
+  "manifiesto": [
+   {
+    "sha256": "0d641bf4d8eb8acd01cf511fe36ef06ee956c12e40da4c82ad8cdcac8f65b5e1",
+    "palabras": 56,
+    "veces": 2,
+    "inicio": "2. Las personas o entidades que tuvieran la condición legal de obligados a decla"
+   },
+   {
+    "sha256": "908b717ea77669a8f2556a9fc21ea916117783d68f9e8e6ed141eb52bf1e20a2",
+    "palabras": 36,
+    "veces": 2,
+    "inicio": "b) La falta de comunicación a la que se refiere el apartado 2 de esta disposició"
+   },
+   {
+    "sha256": "570b871f7b6e79f2a7e1afc1295fcc6c4bef3829f11d27035bb2a12fb2d5afd0",
+    "palabras": 20,
+    "veces": 2,
+    "inicio": "Disposición adicional vigésima cuarta. Obligaciones entre particulares derivadas"
+   },
+   {
+    "sha256": "1c9a442cb662e353a0c15dfa858368163875ef3bd706c571272e2858ef1df418",
+    "palabras": 19,
+    "veces": 2,
+    "inicio": "La infracción de este artículo será considerada leve y se sancionará con una mul"
+   },
+   {
+    "sha256": "986f156cb141559af92cb73112e0fdd14ad86c91d8b8b2e148f1b27aeae820f5",
+    "palabras": 16,
+    "veces": 2,
+    "inicio": "La infracción será considerada leve y se sancionará con una multa pecuniaria fij"
+   },
+   {
+    "sha256": "0b9c567d7486d5e756b4d438ea293887bc4064be2f77eb3b805e4b8e4bf7dce6",
+    "palabras": 4,
+    "veces": 2,
+    "inicio": "3. Constituyen infracciones tributarias:"
+   }
+  ]
+ }
+}

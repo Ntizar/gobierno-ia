@@ -1,0 +1,10 @@
+# Registro SHA-256 — evidencia de Hacienda — 2026-09-01 (cadena de custodia)
+# Generado con: sha256 de cada fichero del directorio al cierre de la sesion 4/30 (manana).
+
+b29db001d1a71f01c0c76e72a3c5a7a87982044d2d22e2d05a77e5b084da2ba2  boe_consolidado_BOE-A-2003-23186.html
+9f65a2e772ddeba46ff9d59a2d1872338bf99afb71c51882145522e250a25969  diff_restitucion_a150_2026-09-01.md
+e5f29d6a5429ca7b2e412a79d63a6241773f9fca93ddfb12507076dda2d8b4d6  fidelidad_LGT_total_2026-09-01.json
+3f5e6e006c064ee690a6acd19b98a0745ae8f8c0bd5058bf75717208038b01bc  fidelidad_letras_a_2026-09-01.json
+e1ac3038750bf5170c0b296a787063dd386e322b194d4b525f420f2a1a15a62d  fidelidad_muestra_2026-09-01.json
+ca3bd4dc0050b2954b8afba78f94e2563d79b22100acc718c977ad4167b68168  manifiesto_aplicacion_2026-09-01.json
+6a8c2b357d3ddb95f1c7e2e8354df22fdef00b1b5b31ad0c24f0d749473f8dce  manifiesto_dup_DA_LGT_2026-09-01.json
