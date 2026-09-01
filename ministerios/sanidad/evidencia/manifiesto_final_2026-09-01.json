@@ -1,0 +1,279 @@
+{
+ "adieciocho": {
+  "paras": 56,
+  "paras_distintos": 25,
+  "triplicados": 13,
+  "duplicados": 5,
+  "pal_eliminables": 817,
+  "manifiesto_hash": [
+   {
+    "sha": "b55902a2a6a8aafe",
+    "copia": "3x",
+    "pal": 63,
+    "ini": "6. La promoción y la mejora de los sistemas de s"
+   },
+   {
+    "sha": "870d3c551efbed5c",
+    "copia": "1x",
+    "pal": 44,
+    "ini": "1. Adopción sistemática de acciones para la educ"
+   },
+   {
+    "sha": "9cfe66a4f1da058b",
+    "copia": "3x",
+    "pal": 42,
+    "ini": "12. Promoción y mejora de las actividades de Vet"
+   },
+   {
+    "sha": "e3795ced0d6d8e8b",
+    "copia": "3x",
+    "pal": 38,
+    "ini": "2. La atención primaria integral de la salud, in"
+   },
+   {
+    "sha": "9ec89591e0e2e23b",
+    "copia": "3x",
+    "pal": 37,
+    "ini": "11. El control sanitario de los productos farmac"
+   },
+   {
+    "sha": "dd1195d7c773f6d6",
+    "copia": "1x",
+    "pal": 36,
+    "ini": "18. La promoción, extensión y mejora de los sist"
+   },
+   {
+    "sha": "6aa24afad3cf9936",
+    "copia": "3x",
+    "pal": 35,
+    "ini": "5. Los programas de atención a grupos de poblaci"
+   },
+   {
+    "sha": "5bacc15510c947bf",
+    "copia": "2x",
+    "pal": 35,
+    "ini": "14. La mejora y adecuación de las necesidades de"
+   },
+   {
+    "sha": "f956860678eb732e",
+    "copia": "2x",
+    "pal": 32,
+    "ini": "17. El tratamiento de los datos contenidos en re"
+   },
+   {
+    "sha": "0aef4c3d557523d9",
+    "copia": "3x",
+    "pal": 25,
+    "ini": "10. El control sanitario y la prevención de los "
+   },
+   {
+    "sha": "562b4ea869e18b7c",
+    "copia": "2x",
+    "pal": 24,
+    "ini": "15. El fomento de la investigación científica en"
+   },
+   {
+    "sha": "46fedde7fcf141f5",
+    "copia": "2x",
+    "pal": 23,
+    "ini": "9. La protección, promoción y mejora de la salud"
+   },
+   {
+    "sha": "19007dc75de56881",
+    "copia": "3x",
+    "pal": 22,
+    "ini": "Las Administraciones Públicas, a través de sus S"
+   },
+   {
+    "sha": "be60e9914930f2c6",
+    "copia": "1x",
+    "pal": 21,
+    "ini": "1. Adopción sistemática de acciones para la educ"
+   },
+   {
+    "sha": "e259af2cf44f25ef",
+    "copia": "3x",
+    "pal": 20,
+    "ini": "13. La difusión de la información epidemiológica"
+   },
+   {
+    "sha": "33cb951083bd8be5",
+    "copia": "3x",
+    "pal": 19,
+    "ini": "7. Los programas de orientación en el campo de l"
+   },
+   {
+    "sha": "d604415cb31b7690",
+    "copia": "1x",
+    "pal": 19,
+    "ini": "14. La mejora y adecuación de las necesidades de"
+   },
+   {
+    "sha": "fd0fcadb6e6d9ee3",
+    "copia": "2x",
+    "pal": 17,
+    "ini": "4. La prestación de los productos terapéuticos p"
+   },
+   {
+    "sha": "df77b90376fcca3f",
+    "copia": "1x",
+    "pal": 16,
+    "ini": "15. El fomento de la investigación científica en"
+   },
+   {
+    "sha": "90a66a06797beff5",
+    "copia": "3x",
+    "pal": 16,
+    "ini": "16. El control y mejora de la calidad de la asis"
+   },
+   {
+    "sha": "a24753d986ccfeef",
+    "copia": "3x",
+    "pal": 15,
+    "ini": "3. La asistencia sanitaria especializada, que in"
+   },
+   {
+    "sha": "9ff28e29b3c9ae1b",
+    "copia": "1x",
+    "pal": 10,
+    "ini": "9. La protección, promoción y mejora de la salud"
+   },
+   {
+    "sha": "4a4c7eec19b2f78c",
+    "copia": "3x",
+    "pal": 9,
+    "ini": "8. La promoción y mejora de la salud mental."
+   },
+   {
+    "sha": "4d14448432b12714",
+    "copia": "1x",
+    "pal": 8,
+    "ini": "4. La prestación de los productos terapéuticos p"
+   },
+   {
+    "sha": "88d9949708899fc3",
+    "copia": "3x",
+    "pal": 2,
+    "ini": "Artículo dieciocho"
+   }
+  ]
+ },
+ "atreintaycinco": {
+  "paras": 34,
+  "paras_distintos": 18,
+  "triplicados": 0,
+  "duplicados": 16,
+  "pal_eliminables": 292,
+  "manifiesto_hash": [
+   {
+    "sha": "665ec901898289a6",
+    "copia": "2x",
+    "pal": 34,
+    "ini": "7.ª Las que, en razón de los elementos contempla"
+   },
+   {
+    "sha": "47bbbf1b928e91b4",
+    "copia": "2x",
+    "pal": 28,
+    "ini": "3.ª Las que, en razón de los criterios contempla"
+   },
+   {
+    "sha": "e861fc0166f82686",
+    "copia": "2x",
+    "pal": 28,
+    "ini": "6.ª Las que, en razón de los elementos contempla"
+   },
+   {
+    "sha": "7011f808b3cd8a02",
+    "copia": "1x",
+    "pal": 28,
+    "ini": "5.ª La resistencia a suministrar datos, facilita"
+   },
+   {
+    "sha": "8b1ab83e3e1ceffe",
+    "copia": "2x",
+    "pal": 22,
+    "ini": "2.ª Las que se produzcan por falta de controles "
+   },
+   {
+    "sha": "bddb153242af83d8",
+    "copia": "2x",
+    "pal": 21,
+    "ini": "6.ª La resistencia, coacción, amenaza, represali"
+   },
+   {
+    "sha": "bd8b59a7a7179a2d",
+    "copia": "2x",
+    "pal": 19,
+    "ini": "4.ª El incumplimiento de los requerimientos espe"
+   },
+   {
+    "sha": "9ef8f070216e6732",
+    "copia": "1x",
+    "pal": 19,
+    "ini": "5.ª La resistencia a suministrar datos, facilita"
+   },
+   {
+    "sha": "89b0a9e22e1e3ca3",
+    "copia": "2x",
+    "pal": 19,
+    "ini": "3.ª Las que sean concurrentes con otras infracci"
+   },
+   {
+    "sha": "a6c73c5852fdebf9",
+    "copia": "2x",
+    "pal": 18,
+    "ini": "2.ª Las cometidas por simple negligencia, siempr"
+   },
+   {
+    "sha": "af23b931d18a0115",
+    "copia": "2x",
+    "pal": 17,
+    "ini": "3.ª Las que sean concurrentes con otras infracci"
+   },
+   {
+    "sha": "83bdb262080dd953",
+    "copia": "2x",
+    "pal": 17,
+    "ini": "2.ª Las que se realicen de forma consciente y de"
+   },
+   {
+    "sha": "1f3c0b9ce7cf9a89",
+    "copia": "2x",
+    "pal": 17,
+    "ini": "5.ª La negativa absoluta a facilitar información"
+   },
+   {
+    "sha": "c225dad7a7e3cf33",
+    "copia": "2x",
+    "pal": 14,
+    "ini": "7.ª La reincidencia en la comisión de infraccion"
+   },
+   {
+    "sha": "7a806d3c11340fbd",
+    "copia": "2x",
+    "pal": 14,
+    "ini": "8.ª La reincidencia en la comisión de faltas gra"
+   },
+   {
+    "sha": "18ac1753ac525724",
+    "copia": "2x",
+    "pal": 13,
+    "ini": "4.ª El incumplimiento reiterado de los requerimi"
+   },
+   {
+    "sha": "4ef1d20cc28ff9e1",
+    "copia": "2x",
+    "pal": 7,
+    "ini": "Se tipifican como infracciones sanitarias las si"
+   },
+   {
+    "sha": "8e3dd62d7139fa55",
+    "copia": "2x",
+    "pal": 4,
+    "ini": "Artículo treinta y cinco"
+   }
+  ]
+ },
+ "nota": "Hash SHA-256 (16 hex primeros) sobre el parrafo normalizado: sin markdown, sin acentos, espacios colapsados, minusculas. Criterio identico a dedup_scan.py para que el Consejo pueda reejecutarlo."
+}

@@ -1,0 +1,376 @@
+{
+ "manifiesto_art18": [
+  {
+   "copia": 1,
+   "ap": "?",
+   "hash": "19007dc75de56881",
+   "pal": 22,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "1",
+   "hash": "a441a195cd0c1572",
+   "pal": 21,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "2",
+   "hash": "d9b20133d587dac7",
+   "pal": 38,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "3",
+   "hash": "259d314a2146b93d",
+   "pal": 15,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "4",
+   "hash": "f23a448f340515b0",
+   "pal": 8,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "5",
+   "hash": "e44099ddcaf67c40",
+   "pal": 35,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "6",
+   "hash": "334e2324380570f3",
+   "pal": 63,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "7",
+   "hash": "06aeb642c38eb426",
+   "pal": 19,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "8",
+   "hash": "b1f607191d29a5cc",
+   "pal": 9,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "9",
+   "hash": "9ebfd516299a8a56",
+   "pal": 10,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "10",
+   "hash": "1710efb37772e1ff",
+   "pal": 25,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "11",
+   "hash": "a2e57099804231f2",
+   "pal": 37,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "12",
+   "hash": "c8be370f3bfa654e",
+   "pal": 42,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "13",
+   "hash": "2033978eb36c676a",
+   "pal": 20,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "14",
+   "hash": "cb4f28840e4d1b35",
+   "pal": 19,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "15",
+   "hash": "75395d53dee86b03",
+   "pal": 16,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 1,
+   "ap": "16",
+   "hash": "3db9dce8d137c6a1",
+   "pal": 16,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 2,
+   "ap": "?",
+   "hash": "19007dc75de56881",
+   "pal": 22,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 2,
+   "ap": "1",
+   "hash": "e099b5c012778ef9",
+   "pal": 44,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 2,
+   "ap": "2",
+   "hash": "d9b20133d587dac7",
+   "pal": 38,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 2,
+   "ap": "3",
+   "hash": "259d314a2146b93d",
+   "pal": 15,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 2,
+   "ap": "4",
+   "hash": "5914767ca03438d8",
+   "pal": 17,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 2,
+   "ap": "5",
+   "hash": "e44099ddcaf67c40",
+   "pal": 35,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 2,
+   "ap": "6",
+   "hash": "334e2324380570f3",
+   "pal": 63,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 2,
+   "ap": "7",
+   "hash": "06aeb642c38eb426",
+   "pal": 19,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 2,
+   "ap": "8",
+   "hash": "b1f607191d29a5cc",
+   "pal": 9,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 2,
+   "ap": "9",
+   "hash": "eb62ae7595cf17c2",
+   "pal": 23,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 2,
+   "ap": "10",
+   "hash": "1710efb37772e1ff",
+   "pal": 25,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 2,
+   "ap": "11",
+   "hash": "a2e57099804231f2",
+   "pal": 37,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 2,
+   "ap": "12",
+   "hash": "c8be370f3bfa654e",
+   "pal": 42,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 2,
+   "ap": "13",
+   "hash": "2033978eb36c676a",
+   "pal": 20,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 2,
+   "ap": "14",
+   "hash": "08cda6e283eafec5",
+   "pal": 35,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 2,
+   "ap": "15",
+   "hash": "d1379f9bfca1a6a2",
+   "pal": 24,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 2,
+   "ap": "16",
+   "hash": "3db9dce8d137c6a1",
+   "pal": 16,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 2,
+   "ap": "17",
+   "hash": "4cd73d65607f6ed7",
+   "pal": 32,
+   "estado": "UNICA"
+  },
+  {
+   "copia": 3,
+   "ap": "?",
+   "hash": "19007dc75de56881",
+   "pal": 22,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 3,
+   "ap": "2",
+   "hash": "d9b20133d587dac7",
+   "pal": 38,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 3,
+   "ap": "3",
+   "hash": "259d314a2146b93d",
+   "pal": 15,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 3,
+   "ap": "4",
+   "hash": "5914767ca03438d8",
+   "pal": 17,
+   "estado": "DUP-LITERAL de copia 2"
+  },
+  {
+   "copia": 3,
+   "ap": "5",
+   "hash": "e44099ddcaf67c40",
+   "pal": 35,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 3,
+   "ap": "6",
+   "hash": "334e2324380570f3",
+   "pal": 63,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 3,
+   "ap": "7",
+   "hash": "06aeb642c38eb426",
+   "pal": 19,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 3,
+   "ap": "8",
+   "hash": "b1f607191d29a5cc",
+   "pal": 9,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 3,
+   "ap": "9",
+   "hash": "eb62ae7595cf17c2",
+   "pal": 23,
+   "estado": "DUP-LITERAL de copia 2"
+  },
+  {
+   "copia": 3,
+   "ap": "10",
+   "hash": "1710efb37772e1ff",
+   "pal": 25,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 3,
+   "ap": "11",
+   "hash": "a2e57099804231f2",
+   "pal": 37,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 3,
+   "ap": "12",
+   "hash": "c8be370f3bfa654e",
+   "pal": 42,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 3,
+   "ap": "13",
+   "hash": "2033978eb36c676a",
+   "pal": 20,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 3,
+   "ap": "14",
+   "hash": "08cda6e283eafec5",
+   "pal": 35,
+   "estado": "DUP-LITERAL de copia 2"
+  },
+  {
+   "copia": 3,
+   "ap": "15",
+   "hash": "d1379f9bfca1a6a2",
+   "pal": 24,
+   "estado": "DUP-LITERAL de copia 2"
+  },
+  {
+   "copia": 3,
+   "ap": "16",
+   "hash": "3db9dce8d137c6a1",
+   "pal": 16,
+   "estado": "DUP-LITERAL de copia 1"
+  },
+  {
+   "copia": 3,
+   "ap": "17",
+   "hash": "4cd73d65607f6ed7",
+   "pal": 32,
+   "estado": "DUP-LITERAL de copia 2"
+  },
+  {
+   "copia": 3,
+   "ap": "18",
+   "hash": "51abf9ee3f8bb54c",
+   "pal": 36,
+   "estado": "UNICA"
+  }
+ ],
+ "palabras_lit_dup": 813
+}

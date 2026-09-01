@@ -1,0 +1,187 @@
+{
+ "paras": 34,
+ "distintos": 18,
+ "duplicados": 16,
+ "unicos": 2,
+ "pal_eliminables": 292,
+ "manifiesto": [
+  {
+   "sha": "8e3dd62d7139fa55",
+   "n": 2,
+   "lin": [
+    687,
+    689
+   ],
+   "pal": 4,
+   "ini": "Artículo treinta y cinco"
+  },
+  {
+   "sha": "4ef1d20cc28ff9e1",
+   "n": 2,
+   "lin": [
+    691,
+    723
+   ],
+   "pal": 7,
+   "ini": "Se tipifican como infracciones sanitarias las siguientes:"
+  },
+  {
+   "sha": "a6c73c5852fdebf9",
+   "n": 2,
+   "lin": [
+    693,
+    725
+   ],
+   "pal": 18,
+   "ini": "2.ª Las cometidas por simple negligencia, siempre que la alt"
+  },
+  {
+   "sha": "47bbbf1b928e91b4",
+   "n": 2,
+   "lin": [
+    695,
+    727
+   ],
+   "pal": 28,
+   "ini": "3.ª Las que, en razón de los criterios contemplados en este "
+  },
+  {
+   "sha": "8b1ab83e3e1ceffe",
+   "n": 2,
+   "lin": [
+    697,
+    729
+   ],
+   "pal": 22,
+   "ini": "2.ª Las que se produzcan por falta de controles y precaucion"
+  },
+  {
+   "sha": "af23b931d18a0115",
+   "n": 2,
+   "lin": [
+    699,
+    731
+   ],
+   "pal": 17,
+   "ini": "3.ª Las que sean concurrentes con otras infracciones sanitar"
+  },
+  {
+   "sha": "bd8b59a7a7179a2d",
+   "n": 2,
+   "lin": [
+    701,
+    733
+   ],
+   "pal": 19,
+   "ini": "4.ª El incumplimiento de los requerimientos específicos que "
+  },
+  {
+   "sha": "e861fc0166f82686",
+   "n": 2,
+   "lin": [
+    705,
+    737
+   ],
+   "pal": 28,
+   "ini": "6.ª Las que, en razón de los elementos contemplados en este "
+  },
+  {
+   "sha": "c225dad7a7e3cf33",
+   "n": 2,
+   "lin": [
+    707,
+    739
+   ],
+   "pal": 14,
+   "ini": "7.ª La reincidencia en la comisión de infracciones leves en "
+  },
+  {
+   "sha": "83bdb262080dd953",
+   "n": 2,
+   "lin": [
+    709,
+    741
+   ],
+   "pal": 17,
+   "ini": "2.ª Las que se realicen de forma consciente y deliberada, si"
+  },
+  {
+   "sha": "89b0a9e22e1e3ca3",
+   "n": 2,
+   "lin": [
+    711,
+    743
+   ],
+   "pal": 19,
+   "ini": "3.ª Las que sean concurrentes con otras infracciones sanitar"
+  },
+  {
+   "sha": "18ac1753ac525724",
+   "n": 2,
+   "lin": [
+    713,
+    745
+   ],
+   "pal": 13,
+   "ini": "4.ª El incumplimiento reiterado de los requerimientos especí"
+  },
+  {
+   "sha": "1f3c0b9ce7cf9a89",
+   "n": 2,
+   "lin": [
+    715,
+    747
+   ],
+   "pal": 17,
+   "ini": "5.ª La negativa absoluta a facilitar información o prestar c"
+  },
+  {
+   "sha": "bddb153242af83d8",
+   "n": 2,
+   "lin": [
+    717,
+    749
+   ],
+   "pal": 21,
+   "ini": "6.ª La resistencia, coacción, amenaza, represalia, desacato "
+  },
+  {
+   "sha": "665ec901898289a6",
+   "n": 2,
+   "lin": [
+    719,
+    751
+   ],
+   "pal": 34,
+   "ini": "7.ª Las que, en razón de los elementos contemplados en este "
+  },
+  {
+   "sha": "7a806d3c11340fbd",
+   "n": 2,
+   "lin": [
+    721,
+    753
+   ],
+   "pal": 14,
+   "ini": "8.ª La reincidencia en la comisión de faltas graves en los ú"
+  },
+  {
+   "sha": "9ef8f070216e6732",
+   "n": 1,
+   "lin": [
+    703
+   ],
+   "pal": 19,
+   "ini": "5.ª La resistencia a suministrar datos, facilitar informació"
+  },
+  {
+   "sha": "7011f808b3cd8a02",
+   "n": 1,
+   "lin": [
+    735
+   ],
+   "pal": 28,
+   "ini": "5.ª La resistencia a suministrar datos, facilitar informació"
+  }
+ ]
+}

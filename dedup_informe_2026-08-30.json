@@ -1,0 +1,447 @@
+[
+ {
+  "id": "atres",
+  "title": "Artículo tres",
+  "start": 27,
+  "extra": 4,
+  "words_extra": 67,
+  "examples": [
+   [
+    "Artículo tres",
+    2
+   ],
+   [
+    "1. Los medios y actuaciones del sistema sanitario estarán orientados prioritaria",
+    2
+   ],
+   [
+    "2. La asistencia sanitaria pública se extenderá a toda la población española. El",
+    2
+   ],
+   [
+    "3. La política de salud estará orientada a la superación de los desequilibrios t",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "aseis",
+  "title": "Artículo seis",
+  "start": 63,
+  "extra": 5,
+  "words_extra": 78,
+  "examples": [
+   [
+    "Artículo seis",
+    2
+   ],
+   [
+    "2. A promover el interés individual, familiar y social por la salud mediante la ",
+    2
+   ],
+   [
+    "3. A garantizar que cuantas acciones sanitarias se desarrollen estén dirigidas a",
+    2
+   ],
+   [
+    "4. A garantizar la asistencia sanitaria en todos los casos de pérdida de la salu",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "adiez",
+  "title": "Artículo diez",
+  "start": 113,
+  "extra": 27,
+  "words_extra": 692,
+  "examples": [
+   [
+    "Artículo diez",
+    3
+   ],
+   [
+    "Todos tienen los siguientes derechos con respecto a las distintas administracion",
+    3
+   ],
+   [
+    "1. Al respeto a su personalidad, dignidad humana e intimidad, sin que pueda ser ",
+    2
+   ],
+   [
+    "2. A la información sobre los servicios sanitarios a que puede acceder y sobre l",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "aonce",
+  "title": "Artículo once",
+  "start": 223,
+  "extra": 4,
+  "words_extra": 67,
+  "examples": [
+   [
+    "Artículo once",
+    2
+   ],
+   [
+    "Serán obligaciones de los ciudadanos con las instituciones y organismos del sist",
+    2
+   ],
+   [
+    "2. Cuidar las instalaciones y colaborar en el mantenimiento de la habitabilidad ",
+    2
+   ],
+   [
+    "3. Responsabilizarse del uso adecuado de las prestaciones ofrecidas por el siste",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "adieciocho",
+  "title": "Artículo dieciocho",
+  "start": 285,
+  "extra": 31,
+  "words_extra": 817,
+  "examples": [
+   [
+    "Artículo dieciocho",
+    3
+   ],
+   [
+    "Las Administraciones Públicas, a través de sus Servicios de Salud y de los Órgan",
+    3
+   ],
+   [
+    "2. La atención primaria integral de la salud, incluyendo, además de las acciones",
+    3
+   ],
+   [
+    "3. La asistencia sanitaria especializada, que incluye la asistencia domiciliaria",
+    3
+   ]
+  ]
+ },
+ {
+  "id": "adiecinueve",
+  "title": "Artículo diecinueve",
+  "start": 399,
+  "extra": 15,
+  "words_extra": 92,
+  "examples": [
+   [
+    "Artículo diecinueve",
+    2
+   ],
+   [
+    "2. Las autoridades sanitarias propondrán o participarán con otros Departamentos ",
+    2
+   ],
+   [
+    "a) Calidad del aire.",
+    2
+   ],
+   [
+    "b) Aguas.",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "aveintiuno",
+  "title": "Artículo veintiuno",
+  "start": 485,
+  "extra": 11,
+  "words_extra": 289,
+  "examples": [
+   [
+    "Artículo veintiuno",
+    3
+   ],
+   [
+    "a) Promover con carácter general la salud integral del trabajador.",
+    2
+   ],
+   [
+    "b) Actuar en los aspectos sanitarios de la prevención de los riesgos profesional",
+    2
+   ],
+   [
+    "c) Asimismo se vigilarán las condiciones de trabajo y ambientales que puedan res",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "aveintidos",
+  "title": "Artículo veintidós",
+  "start": 536,
+  "extra": 1,
+  "words_extra": 2,
+  "examples": [
+   [
+    "Artículo veintidós",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "aveinticinco",
+  "title": "Artículo veinticinco",
+  "start": 559,
+  "extra": 6,
+  "words_extra": 199,
+  "examples": [
+   [
+    "Artículo veinticinco.",
+    2
+   ],
+   [
+    "2. Las autorizaciones sanitarias y los registros obligatorios que se establezcan",
+    2
+   ],
+   [
+    "b) Deberán estar justificados en la protección de la salud pública.",
+    2
+   ],
+   [
+    "c) Se cuidará que el régimen que se establezca sea el instrumento adecuado para ",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "aveintisiete",
+  "title": "Artículo veintisiete",
+  "start": 609,
+  "extra": 1,
+  "words_extra": 2,
+  "examples": [
+   [
+    "Artículo veintisiete",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "atreintaycinco",
+  "title": "Artículo treinta y cinco",
+  "start": 685,
+  "extra": 16,
+  "words_extra": 292,
+  "examples": [
+   [
+    "Artículo treinta y cinco",
+    2
+   ],
+   [
+    "Se tipifican como infracciones sanitarias las siguientes:",
+    2
+   ],
+   [
+    "2.ª Las cometidas por simple negligencia, siempre que la alteración o riesgo san",
+    2
+   ],
+   [
+    "3.ª Las que, en razón de los criterios contemplados en este artículo, merezcan l",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "atreintayseis",
+  "title": "Artículo treinta y seis",
+  "start": 755,
+  "extra": 3,
+  "words_extra": 51,
+  "examples": [
+   [
+    "Artículo treinta y seis",
+    2
+   ],
+   [
+    "1. Las infracciones en materia de sanidad serán sancionadas con multas de acuerd",
+    2
+   ],
+   [
+    "3. Las cuantías señaladas anteriormente deberán ser revisadas y actualizadas per",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "acuarentaytres",
+  "title": "Artículo cuarenta y tres",
+  "start": 869,
+  "extra": 1,
+  "words_extra": 4,
+  "examples": [
+   [
+    "Artículo cuarenta y tres",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "acuarentaysiete",
+  "title": "Artículo cuarenta y siete",
+  "start": 932,
+  "extra": 7,
+  "words_extra": 163,
+  "examples": [
+   [
+    "Artículo cuarenta y siete",
+    3
+   ],
+   [
+    "1. Se crea el Consejo Interterritorial del Sistema Nacional de Salud, que estará",
+    2
+   ],
+   [
+    "2. El Consejo Interterritorial del Sistema Nacional de Salud será el órgano perm",
+    2
+   ],
+   [
+    "3. El Consejo Interterritorial del Sistema Nacional de Salud ejercerá también la",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "asesentayuno",
+  "title": "Artículo sesenta y uno",
+  "start": 1111,
+  "extra": 1,
+  "words_extra": 4,
+  "examples": [
+   [
+    "Artículo sesenta y uno",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "asetentaynueve",
+  "title": "Artículo setenta y nueve",
+  "start": 1304,
+  "extra": 7,
+  "words_extra": 97,
+  "examples": [
+   [
+    "Artículo setenta y nueve",
+    2
+   ],
+   [
+    "1. La financiación de la asistencia prestada se realizará con cargo a:",
+    2
+   ],
+   [
+    "b) Transferencias del Estado, que abarcarán:",
+    2
+   ],
+   [
+    "La compensación por la extensión de la asistencia sanitaria de la Seguridad Soci",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "aochentaydos",
+  "title": "Artículo ochenta y dos",
+  "start": 1356,
+  "extra": 4,
+  "words_extra": 78,
+  "examples": [
+   [
+    "Artículo ochenta y dos",
+    3
+   ],
+   [
+    "La financiación de los servicios de asistencia sanitaria de la Seguridad Social ",
+    2
+   ],
+   [
+    "Las Comunidades Autónomas que tengan asumida la gestión de los servicios de asis",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "aochentaycuatro",
+  "title": "Artículo ochenta y cuatro",
+  "start": 1398,
+  "extra": 3,
+  "words_extra": 101,
+  "examples": [
+   [
+    "Artículo ochenta y cuatro",
+    2
+   ],
+   [
+    "3. Las normas de las Comunidades Autónomas en materia de personal se ajustarán a",
+    2
+   ],
+   [
+    "4. En las Comunidades Autónomas con lengua oficial propia, en el proceso de sele",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "aciento",
+  "title": "Artículo ciento",
+  "start": 1560,
+  "extra": 4,
+  "words_extra": 88,
+  "examples": [
+   [
+    "Artículo ciento",
+    2
+   ],
+   [
+    "1. La Administración del Estado exigirá la licencia previa a las personas física",
+    2
+   ],
+   [
+    "2. La Administración del Estado establecerá normas de elaboración, fabricación, ",
+    2
+   ],
+   [
+    "3. Los laboratorios fabricantes y los mayoristas contarán con un Director Técnic",
+    2
+   ]
+  ]
+ },
+ {
+  "id": "acientodos",
+  "title": "Artículo ciento dos",
+  "start": 1588,
+  "extra": 4,
+  "words_extra": 122,
+  "examples": [
+   [
+    "Artículo ciento dos.",
+    3
+   ],
+   [
+    "1. La información y promoción de los medicamentos y los productos sanitarios dir",
+    3
+   ]
+  ]
+ },
+ {
+  "id": "acientocinco",
+  "title": "Artículo ciento cinco",
+  "start": 1644,
+  "extra": 3,
+  "words_extra": 9,
+  "examples": [
+   [
+    "Artículo ciento cinco",
+    4
+   ]
+  ]
+ }
+]

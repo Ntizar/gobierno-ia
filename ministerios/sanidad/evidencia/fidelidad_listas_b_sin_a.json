@@ -1,0 +1,104 @@
+[
+ {
+  "block": "aveintiocho",
+  "title": "Artículo veintiocho",
+  "first_b_line": 625,
+  "n_b_items": 1
+ },
+ {
+  "block": "atreintayuno",
+  "title": "Artículo treinta y uno",
+  "first_b_line": 655,
+  "n_b_items": 1
+ },
+ {
+  "block": "acuarentaydos",
+  "title": "Artículo cuarenta y dos",
+  "first_b_line": 859,
+  "n_b_items": 1
+ },
+ {
+  "block": "acuarentayseis",
+  "title": "Artículo cuarenta y seis",
+  "first_b_line": 924,
+  "n_b_items": 1
+ },
+ {
+  "block": "acincuentayseis",
+  "title": "Artículo cincuenta y seis",
+  "first_b_line": 1039,
+  "n_b_items": 1
+ },
+ {
+  "block": "acincuentayocho",
+  "title": "Artículo cincuenta y ocho",
+  "first_b_line": 1065,
+  "n_b_items": 2
+ },
+ {
+  "block": "acincuentaynueve",
+  "title": "Artículo cincuenta y nueve",
+  "first_b_line": 1089,
+  "n_b_items": 1
+ },
+ {
+  "block": "asesentaydos",
+  "title": "Artículo sesenta y dos",
+  "first_b_line": 1130,
+  "n_b_items": 1
+ },
+ {
+  "block": "asesentaycuatro",
+  "title": "Artículo sesenta y cuatro",
+  "first_b_line": 1152,
+  "n_b_items": 1
+ },
+ {
+  "block": "asesentaysiete",
+  "title": "Artículo sesenta y siete",
+  "first_b_line": 1196,
+  "n_b_items": 1
+ },
+ {
+  "block": "asetenta",
+  "title": "Artículo setenta",
+  "first_b_line": 1234,
+  "n_b_items": 1
+ },
+ {
+  "block": "anoventaydos",
+  "title": "Artículo noventa y dos",
+  "first_b_line": 1492,
+  "n_b_items": 1
+ },
+ {
+  "block": "acientotres",
+  "title": "Artículo ciento tres",
+  "first_b_line": 1620,
+  "n_b_items": 1
+ },
+ {
+  "block": "acientoseis-2",
+  "title": "Artículo ciento seis",
+  "first_b_line": 1716,
+  "n_b_items": 1
+ },
+ {
+  "block": "acientoquince",
+  "title": "Artículo ciento quince",
+  "first_b_line": 1782,
+  "n_b_items": 1
+ },
+ {
+  "block": "tercera-3",
+  "title": "Disposición final tercera",
+  "first_b_line": 1968,
+  "n_b_items": 1
+ },
+ {
+  "block": "decimotercera",
+  "title": "Disposición final decimotercera",
+  "first_b_line": 2058,
+  "n_b_items": 1
+ }
+]
