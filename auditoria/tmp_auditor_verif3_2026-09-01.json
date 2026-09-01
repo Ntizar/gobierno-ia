@@ -1,0 +1,151 @@
+{
+ "LGT_a547104_has_a150_letter_a": false,
+ "LGT_a547104_has_a271_letter_a": false,
+ "LGT_a547104_total_words": 153008,
+ "LGT_8493826_has_a150_letter_a": true,
+ "LGT_8493826_has_a271_letter_a": true,
+ "LGT_8493826_total_words": 143839,
+ "LGT_backup_has_a150_letter_a": false,
+ "LGT_backup_has_a271_letter_a": false,
+ "manifest_per_block": {
+  "[daquinta]": 841,
+  "[dasexta]": 1089,
+  "[daundecima]": 303,
+  "[dadecimoctava]": 534,
+  "[davigesima]": 349,
+  "[davigesimosegunda]": 1504,
+  "[da]": 853,
+  "[da-2]": 151,
+  "[a150]": 3641
+ },
+ "manifest_total": 9265,
+ "current_DA150_271_dupcheck": {
+  "a150": {
+   "dup_paras": 0,
+   "dup_words": 0,
+   "n_paras": 34
+  },
+  "a271": {
+   "dup_paras": 0,
+   "dup_words": 0,
+   "n_paras": 6
+  },
+  "daquinta": {
+   "dup_paras": 0,
+   "dup_words": 0,
+   "n_paras": 20
+  },
+  "dasexta": {
+   "dup_paras": 0,
+   "dup_words": 0,
+   "n_paras": 23
+  },
+  "daundecima": {
+   "dup_paras": 0,
+   "dup_words": 0,
+   "n_paras": 14
+  },
+  "dadecimoctava": {
+   "dup_paras": 4,
+   "dup_words": 250,
+   "n_paras": 22
+  },
+  "davigesima": {
+   "dup_paras": 0,
+   "dup_words": 0,
+   "n_paras": 8
+  },
+  "davigesimosegunda": {
+   "dup_paras": 0,
+   "dup_words": 0,
+   "n_paras": 15
+  },
+  "da": {
+   "dup_paras": 0,
+   "dup_words": 0,
+   "n_paras": 24
+  },
+  "da-2": {
+   "dup_paras": 0,
+   "dup_words": 0,
+   "n_paras": 10
+  }
+ },
+ "fidelidad_LGT_n": 161,
+ "fidelidad_LGT_by_v": {
+  "contenido_perdido": 135,
+  "no_localizable_en_bloque_BOE": 12,
+  "solo_marca_perdida": 11,
+  "BOE_sin_a_legitimo": 3
+ },
+ "fidelidad_LGT_words_contenido_perdido": 3805,
+ "fidelidad_LGT_blocks_contenido_perdido": 76,
+ "san_n": 21,
+ "san_all_verified": true,
+ "plano_has_LO3_2007_note": true,
+ "plano_has_Ley26_2011_note": true,
+ "plano_has_Ley3_2014_note": true,
+ "plano_has_infracciones_leves_3005": true,
+ "plano_has_colab_voluntaria": true,
+ "html_actualizacion_stamp": [
+  "Última actualización publicada el 23/03/2023",
+  "Última actualización publicada el 23/03/2023"
+ ],
+ "html_real_ultimo_dato": [
+  "Real Decreto 1591/2009, de 16 de",
+  "Real Decreto 2015/1978, de "
+ ],
+ "lgs_repo_has_3005_06_line": false,
+ "lgs_repo_has_a_infracciones_leves": true,
+ "lgs_repo_has_preferencia": false,
+ "L7_v1_387_413_words": 1152,
+ "L7_v2_414_443_words": 1380,
+ "L7_v3_445_473_words": 1433,
+ "L7_lines_379_386": [
+  [
+   379,
+   "## [a1-7] Artículo 15"
+  ],
+  [
+   380,
+   ""
+  ],
+  [
+   381,
+   "Artículo 15. Instalación de puntos de recarga eléctrica."
+  ],
+  [
+   382,
+   ""
+  ],
+  [
+   383,
+   "Artículo 15. Instalación de puntos de recarga eléctrica."
+  ],
+  [
+   384,
+   ""
+  ],
+  [
+   385,
+   "Artículo 15. Instalación de puntos de recarga eléctrica."
+  ],
+  [
+   386,
+   ""
+  ]
+ ],
+ "L7_df4_last_content_line": "Se modifica la letra c) del artículo 20.1 del texto refundido de la Ley de Suelo y Rehabilitación Urbana, aprobado por e",
+ "L7_df4_words": 68,
+ "L7_readme_sha_lines": [
+  "ba5008021417c6ac83233da88b9d89f6decd0f0bd1a544eed2bf9be19f2f1440",
+  "8ba092a1bc3bc16869e37e6f4852e38655ef06e1adca9d8b884a86896c041ab6",
+  "ca5799679549cb1b81e3a391a5fb2a3d5cc045f1596e16299120c0c8ddc94dce"
+ ],
+ "L7_evidence_sha_actual": "ba5008021417c6ac83233da88b9d89f6decd0f0bd1a544eed2bf9be19f2f1440",
+ "L7_omisiones_type": "dict",
+ "L7_omisiones_keys": [
+  "omisiones",
+  "parciales"
+ ]
+}

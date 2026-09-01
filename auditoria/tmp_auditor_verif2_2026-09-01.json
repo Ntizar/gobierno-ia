@@ -1,0 +1,94 @@
+{
+ "git_status": "?? auditoria/tmp_auditor_verif2_2026-09-01.json\n?? auditoria/tmp_auditor_verif2_2026-09-01.py\n?? auditoria/tmp_auditor_verif_2026-09-01.json\n?? auditoria/tmp_auditor_verif_2026-09-01.py\n?? auditoria/tmp_prompt_2026-09-01.txt",
+ "git_diff_LGT_stat": "",
+ "HEAD_LGT_has_18meses": true,
+ "HEAD_LGT_total_words": 143839,
+ "HEAD_LGT_word_delta_vs_worktree": 0,
+ "DA_backup_audit": {
+  "daquinta": 841,
+  "dasexta": 1089,
+  "daundecima": 303,
+  "dadecimoctava": 784,
+  "davigesima": 349,
+  "davigesimosegunda": 1504,
+  "da": 853,
+  "da-2": 151
+ },
+ "DA_audit_total": 5874,
+ "DA_claim_total": 5624,
+ "manifest_structure": {
+  "[daquinta]": "dict",
+  "[dasexta]": "dict",
+  "[daundecima]": "dict",
+  "[dadecimoctava]": "dict",
+  "[davigesima]": "dict",
+  "[davigesimosegunda]": "dict",
+  "[da]": "dict",
+  "[da-2]": "dict",
+  "[a150]": "dict"
+ },
+ "manifest_sample": "{\"n_eliminados\": 18, \"palabras_eliminadas\": 841, \"detalle\": [{\"idx\": 2, \"sha256\": \"1064b88d4d4af1ef695c8c7bdfd0999c51a0dee75e782c94268bb206c2a86748\", \"palabras\": 5, \"inicio\": \"Disposición adicional quinta. Declaraciones censales.\"}, {\"idx\": 21, \"sha256\": \"9538154cafaf56f1b6349f0d4ebf17d5225aff3a8af6070b9b7f1e25a0545188\", \"palabras\": 107, \"inicio\": \"1. Las personas o entidades que desarrollen o vayan a desarrollar en t\"}, {\"idx\": 22, \"sha256\": \"248f0223e564e8bf363a87f9bb71729628417853e896764183c9",
+ "manifest_n_entries": 9,
+ "manifest_total_words": 0,
+ "manifest_per_block_top": {
+  "[daquinta]": 0,
+  "[dasexta]": 0,
+  "[daundecima]": 0,
+  "[dadecimoctava]": 0,
+  "[davigesima]": 0,
+  "[davigesimosegunda]": 0,
+  "[da]": 0,
+  "[da-2]": 0,
+  "[a150]": 0
+ },
+ "restitution_added_lines": 4,
+ "restitution_added_words": 96,
+ "fidelidad_LGT_keys": [
+  {
+   "bloque": "[a7]",
+   "idx": 2,
+   "texto": "b) Por los tratados o convenios internacionales que contengan cláusulas de naturaleza trib",
+   "v": "contenido_perdido",
+   "letra_a": "Por la Constitución . b)",
+   "palabras": 5
+  },
+  {
+   "bloque": "[a8]",
+   "idx": 2,
+   "texto": "b) Los supuestos que dan lugar al nacimiento de las obligaciones tributarias de realizar p",
+   "v": "contenido_perdido",
+   "letra_a": "La delimitación del hecho imponible, del devengo, de la base imponible y liquidable, la fijación del",
+   "palabras": 46
+  }
+ ],
+ "fidelidad_mentions": {
+  "contenido_ausente": 0,
+  "solo_marcador": 0,
+  "boe_sin_a": 0,
+  "fragmentado": 0,
+  "135": 0,
+  "139": 2,
+  "3805": 0,
+  "3.805": 0
+ },
+ "san_json_type": "list",
+ "san_json_keys": null,
+ "san_n": 21,
+ "san_sample": {
+  "linea": 593,
+  "b": "b) Deberán estar justificados en la protección de la salud pública.",
+  "a_BOE": "a) No resultarán discriminatorios ni directa ni indirectamente en función de la nacionalidad o, por lo que se refiere a sociedades, por razón de ubicación del domicilio social. b) Deberán estar justif",
+  "verificada": true
+ },
+ "SHA256SUMS_check": {
+  "Registro SHA-256 — evidencia de Hacienda — 2026-09-01 (cadena de custodia)": "FILE_NOT_FOUND",
+  "Generado con: sha256 de cada fichero del directorio al cierre de la sesion 4/30 (manana).": "FILE_NOT_FOUND",
+  "boe_consolidado_BOE-A-2003-23186.html": true,
+  "diff_restitucion_a150_2026-09-01.md": true,
+  "fidelidad_LGT_total_2026-09-01.json": true,
+  "fidelidad_letras_a_2026-09-01.json": true,
+  "fidelidad_muestra_2026-09-01.json": true,
+  "manifiesto_aplicacion_2026-09-01.json": true,
+  "manifiesto_dup_DA_LGT_2026-09-01.json": true
+ }
+}

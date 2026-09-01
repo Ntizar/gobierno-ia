@@ -1,0 +1,49 @@
+{
+ "DA18_residual_dups": [
+  {
+   "words": 34,
+   "n": 2,
+   "head": "1. los obligados tributarios deberán suministrar a la administración tributaria, conforme a lo dispuesto en los artículos 29 y 93 de esta le"
+  },
+  {
+   "words": 67,
+   "n": 2,
+   "head": "la sanción será de 100 euros por cada dato o conjunto de datos referidos a una misma cuenta, con un mínimo de 1.500 euros, cuando la declara"
+  },
+  {
+   "words": 72,
+   "n": 2,
+   "head": "la sanción será de 100 euros por cada dato o conjunto de datos referidos a cada elemento patrimonial individualmente considerado según su cl"
+  },
+  {
+   "words": 77,
+   "n": 2,
+   "head": "la sanción será de 100 euros por cada dato o conjunto de datos referidos a un mismo bien inmueble o a un mismo derecho sobre un bien inmuebl"
+  }
+ ],
+ "DA18_backup_dupgroups": {
+  "disposición adicional decimoctava. obligación de información": 3,
+  "1. los obligados tributarios deberán suministrar a la admini": 2,
+  "b) información de cualesquiera títulos, activos, valores o d": 3,
+  "c) información sobre los bienes inmuebles y derechos sobre b": 3,
+  "también constituirá infracción tributaria la presentación de": 2,
+  "las anteriores infracciones serán muy graves y se sancionará": 2,
+  "la sanción será de 100 euros por cada dato o conjunto de dat": 2,
+  "b) en el caso de incumplimiento de la obligación de informar": 2,
+  "c) en el caso de incumplimiento de la obligación de informar": 2,
+  "las infracciones y sanciones reguladas en esta disposición a": 2,
+  "d) información sobre las monedas virtuales situadas en el ex": 2
+ },
+ "san_line_check_ok": 21,
+ "san_line_check_bad": [],
+ "L7_omisiones_n": 64,
+ "L7_parciales_n": 36,
+ "L7_omisiones_sample": "{\"bloque\": \"Disposición final decimoquinta\", \"linea\": \"Incluye la corrección de errores publicada en BOE núm. 169, de 16 de julio de 2021.\", \"palabras\": 16}",
+ "L7_lineas_ausentes_n": 120,
+ "L7_lineas_ausentes_words_sample_keys": [
+  "bloque",
+  "linea",
+  "palabras"
+ ],
+ "L7_lineas_ausentes_total_words": 0
+}

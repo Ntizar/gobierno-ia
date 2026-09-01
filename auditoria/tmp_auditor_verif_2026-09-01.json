@@ -1,0 +1,83 @@
+{
+ "LGT_current": {
+  "headers_total": 335,
+  "headers_numeric": 271,
+  "dup_blocks": 108,
+  "dup_words": 45662,
+  "total_words": 143839
+ },
+ "LGT_backup": {
+  "headers_total": 335,
+  "headers_numeric": 271,
+  "dup_blocks": 116,
+  "dup_words": 54243,
+  "total_words": 153008
+ },
+ "LGT_words_removed_by_diffs": 9169,
+ "LGT_backup_DA_detail": {
+  "[daquinta]": "sin dup",
+  "[dasexta]": "sin dup",
+  "[daundecima]": "sin dup",
+  "[dadecimoctava]": "sin dup",
+  "[davigesima]": "sin dup",
+  "[davigesimosegunda]": "sin dup",
+  "[da]": "sin dup",
+  "[da-2]": "sin dup"
+ },
+ "LGT_art150_label_count_current": 1,
+ "LGT_art150_label_count_backup": 5,
+ "LGT_a150_has_18meses_general": true,
+ "LGT_a150_has_18meses_backup": false,
+ "LGT_orphan_b_heuristic": {
+  "orphan_b_lines": 134,
+  "blocks_affected": 82
+ },
+ "LGS_current": {
+  "headers_total": 151,
+  "headers_numeric": 0,
+  "dup_blocks": 21,
+  "dup_words": 3372,
+  "total_words": 24728
+ },
+ "LGS_art18_header_count": 0,
+ "LGS_art35_header_count": 0,
+ "LGS_colab_voluntaria_present": false,
+ "LGS_registro_estatal_count": 1,
+ "LGS_orphan_b_heuristic": {
+  "orphan_b_lines": 18,
+  "blocks_affected": 17
+ },
+ "LGS_lines_285_292": [
+  "## [adieciocho] Artículo dieciocho",
+  "",
+  "Artículo dieciocho",
+  "",
+  "Artículo dieciocho",
+  "",
+  "Artículo dieciocho",
+  ""
+ ],
+ "L7_current": {
+  "headers_total": 71,
+  "headers_numeric": 9,
+  "dup_blocks": 2,
+  "dup_words": 2017,
+  "total_words": 27268
+ },
+ "L7_art15_label_count": 3,
+ "L7_df4_terminates_in_preamble": true,
+ "L7_embates_marinos_present": false,
+ "L7_directiva_2014_94_present": true,
+ "L7_v3_marker_21_meses_count": 5,
+ "L7_v2_marker_12_meses_art15": 2,
+ "L7_a1_7_lines_range": [
+  379,
+  474
+ ],
+ "L7_a1_7_word_count": 3993,
+ "LGT_manifest_keys": [
+  "generado",
+  "ley",
+  "eliminaciones"
+ ]
+}
