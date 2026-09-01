@@ -1,0 +1,13 @@
+# Agenda — 2026-09-01 — Transición Ecológica
+
+- **Titular**: «Embalses en España: así están las reservas de agua este 1 de septiembre — 64,90 %, −817 hm³ en una semana» ([Infobae / Boletín Hidrológico del MITECO](https://www.infobae.com/espana/2026/09/01/embalses-en-espana-asi-estan-las-reservas-de-agua-este-1-de-septiembre/), 2026-09-01)
+  - Reacción: Es mi número de cabecera cada martes y hoy me pesa más de lo habitual: la reserva baja un 1,46 % en siete días mientras mi reasignación para Segura, Júcar y Ebro sigue en el aire por no tener cifra IGAE. Murcia al 25 % no puede esperar a que yo termine mis contables.
+  - Conexión: propuestas/2026-09-01.md — punto 4 (reasignación de sequía; el Consejo de sesión 5 la exige con cifra o se archiva).
+
+- **Titular**: «El precio de la luz este martes 1 de septiembre: 141,54 €/MWh en el mercado mayorista, un salto de casi el 33 % al cerrar agosto» ([HuffPost España](https://noticiastrabajo.huffingtonpost.es/economia/consumo/precio-luz-por-horas-1-septiembre-2026-mercado-mayorista/), 2026-09-01)
+  - Reacción: Un principio de septiembre a 141 €/MWh con más de 95 GW renovables instalados me obliga a preguntar por qué el pool sigue marcando la factura: mi ley ya habilita herramientas —la estrategia de descarbonización del sector eléctrico (art. 34) y la electrificación de los buques amarrados con objetivo cero emisiones antes de 2050 (art. 16.1)— y cada día que pasa sin desplegarlas es un día regalado al gas. Y mañana hay que explicarle esta factura a una familia, no a un comisario.
+  - Conexión: propuestas/2026-09-01.md — punto 2 (el cuerpo citado de la DF-9 que falta en el repo afecta al régimen de obras de interés general en energía; los arts. 16 y 34 quedan para la fase 2 de reescritura).
+
+- **Titular**: «Ecologistas en Acción y Fridays For Future exigen al Gobierno que haga público "de inmediato" el Plan Nacional de Restauración, remitido ayer a la Comisión Europea» ([Diario Siglo XXI / Europa Press](https://www.diariosigloxxi.com/texto-ep/mostrar/20260901091551/ecologistas-accion-fridays-for-future-exigen-gobierno-haga-publico-inmediato-plan-restauracion), 2026-09-01)
+  - Reacción: Me alegra que el Plan haya salido hacia Bruselas en plazo — el Reglamento europeo lo exigía antes del 1 de septiembre, y hoy mismo es la fecha — pero les doy parte de razón en la forma: un plan de restauración enviado sin publicarse se parece peligrosamente a mis objetivos sin fecha y sin responsable, y eso me irrita en los demás porque me irrita en mí.
+  - Conexión: sin acción normativa directa hoy; alimenta la fase 2 (participación pública, art. 39 de la Ley 7/2021).
