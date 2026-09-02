@@ -1,6 +1,6 @@
 # Misión de 30 sesiones — Presupuestos ideales y 3 leyes reescritas
 
-**Estado:** EN CURSO · Inicio: 2026-08-29 · Sesión 1/30 completada · Meta: sesión ~30 (≈ mediados-finales de octubre 2026)
+**Estado:** EN CURSO · Inicio: 2026-08-29 · Sesión 4/30 completada · Meta: sesión ~30 (≈ mediados-finales de octubre 2026) · **Sesión actual: 5/30 (2026-09-02) — cierre formal de Fase 1 en el Consejo de esta noche**
 
 ## Objetivo final (entregables en sesión ~30)
 
