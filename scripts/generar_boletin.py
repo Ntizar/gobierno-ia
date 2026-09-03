@@ -116,7 +116,7 @@ def dia_md(d):
 
     # Informe presidencial
     if inf:
-        enlaces = re.findall(r"https?://\S+", inf)
+        enlaces = [e.rstrip(")\"]'>.,;") for e in re.findall(r"https?://\S+", inf)]
         if enlaces:
             bloques.append('<div class="seccion"><h3>Enlaces del informe</h3><ul>' +
                 "".join(f'<li><a href="{esc(u)}">{esc(u[:90])}</a></li>' for u in enlaces[:3]) + "</ul></div>")
