@@ -1,0 +1,21 @@
+Bloques totales: 109
+Bloques con repeticion interna: 18
+Palabras duplicadas: 1924
+[adiez] (linea 113) extra=27 words=692 :: Artículo diez
+[aveintiuno] (linea 413) extra=11 words=289 :: Artículo veintiuno
+[acuarentaysiete] (linea 826) extra=7 words=163 :: Artículo cuarenta y siete
+[acientodos] (linea 1486) extra=4 words=122 :: Artículo ciento dos
+[aochentaycuatro] (linea 1294) extra=3 words=101 :: Artículo ochenta y cuatro
+[adiecinueve] (linea 327) extra=15 words=92 :: Artículo diecinueve
+[aciento] (linea 1458) extra=4 words=88 :: Artículo ciento
+[aseis] (linea 63) extra=5 words=78 :: Artículo seis
+[aochentaydos] (linea 1252) extra=4 words=78 :: Artículo ochenta y dos
+[atres] (linea 27) extra=4 words=67 :: Artículo tres
+[aonce] (linea 223) extra=4 words=67 :: Artículo once
+[atreintayseis] (linea 643) extra=3 words=51 :: Artículo treinta y seis
+[atreintaycinco] (linea 595) extra=1 words=15 :: Artículo treinta y cinco
+[acientocinco] (linea 1544) extra=3 words=9 :: Artículo ciento cinco
+[acuarentaytres] (linea 761) extra=1 words=4 :: Artículo cuarenta y tres
+[asesentayuno] (linea 1013) extra=1 words=4 :: Artículo sesenta y uno
+[aveintidos] (linea 464) extra=1 words=2 :: Artículo veintidós
+[aveintisiete] (linea 515) extra=1 words=2 :: Artículo veintisiete

@@ -1,0 +1,84 @@
+diff --git a/ministerios/sanidad/leyes/BOE-A-1986-10499.md b/ministerios/sanidad/leyes/BOE-A-1986-10499.md
+index db973d2..4d414de 100644
+--- a/ministerios/sanidad/leyes/BOE-A-1986-10499.md
++++ b/ministerios/sanidad/leyes/BOE-A-1986-10499.md
+@@ -485,20 +485,9 @@ Artículo veinticuatro
+ Las actividades públicas y privadas que, directa o indirectamente, puedan tener consecuencias negativas para la salud, serán sometidas por los órganos competentes a limitaciones preventivas de carácter administrativo, de acuerdo con la normativa básica del Estado.
+ 
+ ## [aveinticinco] Artículo veinticinco
+-
+-Artículo veinticinco
+-
+-Artículo veinticinco.
+-
+ Artículo veinticinco.
+ 
+-1. La exigencia de autorizaciones sanitarias, así como la obligación de someter a registro por razones sanitarias a las Empresas o productos, serán establecidas reglamentariamente, tomando como base lo dispuesto en la presente Ley.
+-
+-2. Deberán establecerse, asimismo, prohibiciones y requisitos mínimos para el uso y tráfico de los bienes, cuando supongan un riesgo o daño para la salud.
+-
+-3. Cuando la actividad desarrollada tenga una repercusión excepcional y negativa en la salud de los ciudadanos, las Administraciones Públicas, a través de sus órganos competentes podrán decretar la intervención administrativa pertinente, con el objeto de eliminar aquélla. La intervención sanitaria no tendrá más objetivo que la eliminación de los riesgos para la salud colectiva y cesará tan pronto como aquéllos queden excluidos.
+-
+-1. La exigencia de autorizaciones sanitarias, así como la obligación de someter a registro por razones sanitarias a las empresas o productos, serán establecidas reglamentariamente, tomando como base lo dispuesto en la presente Ley.
++1. La exigencia de autorizaciones sanitarias, así como la obligación de someter a registro por razones sanitarias a las empresas o productos, serán establecidas reglamentariamente, tomando como base lo dispuesto en la presente ley, así como lo establecido en la Ley General de Salud Pública.
+ 
+ 2. Las autorizaciones sanitarias y los registros obligatorios que se establezcan, en virtud de la habilitación prevista en el apartado 1 del presente artículo, deberán cumplir las condiciones siguientes:
+ 
+@@ -514,19 +503,6 @@ d) Los procedimientos y trámites para la obtención de las autorizaciones o reg
+ 
+ 4. Cuando la actividad desarrollada tenga una repercusión excepcional y negativa en la salud de los ciudadanos, las Administraciones Públicas, a través de sus órganos competentes podrán decretar la intervención administrativa pertinente, con el objeto de eliminar aquélla. La intervención sanitaria no tendrá más objetivo que la eliminación de los riesgos para la salud colectiva y cesará tan pronto como aquéllos queden excluidos.
+ 
+-1. La exigencia de autorizaciones sanitarias, así como la obligación de someter a registro por razones sanitarias a las empresas o productos, serán establecidas reglamentariamente, tomando como base lo dispuesto en la presente ley, así como lo establecido en la Ley General de Salud Pública.
+-
+-2. Las autorizaciones sanitarias y los registros obligatorios que se establezcan, en virtud de la habilitación prevista en el apartado 1 del presente artículo, deberán cumplir las condiciones siguientes:
+-
+-a) No resultarán discriminatorios ni directa ni indirectamente en función de la nacionalidad o, por lo que se refiere a sociedades, por razón de ubicación del domicilio social.
+-
+-b) Deberán estar justificados en la protección de la salud pública.
+-
+-c) Se cuidará que el régimen que se establezca sea el instrumento adecuado para garantizar la consecución del objetivo de protección de la salud pública, y no vaya más allá de lo necesario para conseguirlo, así como que no pueda sustituirse por otras medidas menos restrictivas que permitan obtener el mismo resultado.
+-
+-d) Los procedimientos y trámites para la obtención de las autorizaciones o registros a los que se refiere esta ley deberán ser claros e inequívocos, objetivos, transparentes, proporcionados al objetivo de protección de la salud pública y darse a conocer con antelación.
+-
+-4. Cuando la actividad desarrollada tenga una repercusión excepcional y negativa en la salud de los ciudadanos, las Administraciones Públicas, a través de sus órganos competentes podrán decretar la intervención administrativa pertinente, con el objeto de eliminar aquélla. La intervención sanitaria no tendrá más objetivo que la eliminación de los riesgos para la salud colectiva y cesará tan pronto como aquéllos queden excluidos.
+ 
+ ## [aveintiseis] Artículo veintiséis
+ 
+@@ -1236,9 +1212,6 @@ Artículo setenta y ocho
+ Los Presupuestos del Estado, Comunidades Autónomas, Corporaciones Locales y Seguridad Social consignarán las partidas precisas para atender las necesidades sanitarias de todos los Organismos e Instituciones dependientes de las Administraciones Públicas y para el desarrollo de sus competencias.
+ 
+ ## [asetentaynueve] Artículo setenta y nueve
+-
+-Artículo setenta y nueve
+-
+ Artículo setenta y nueve
+ 
+ 1. La financiación de la asistencia prestada se realizará con cargo a:
+@@ -1257,25 +1230,12 @@ c) Tasas por la prestación de determinados servicios.
+ 
+ d) Por aportaciones de las Comunidades Autónomas y de las Corporaciones Locales.
+ 
++e) Tributos estatales cedidos.
++
+ 2. La participación en la financiación de los servicios de las Corporaciones Locales que deban ser asumidos por las Comunidades Autónomas se llevará a efecto, por un lado, por las propias Corporaciones Locales y, por otro, con cargo al Fondo Nacional de Cooperación con las Corporaciones Locales.
+ 
+ Las Corporaciones Locales deberán establecer, además, en sus presupuestos las consignaciones precisas para atender a las responsabilidades sanitarias que la Ley les atribuye.
+ 
+-1. La financiación de la asistencia prestada se realizará con cargo a:
+-
+-a) Cotizaciones sociales.
+-
+-b) Transferencias del Estado, que abarcarán:
+-
+-La compensación por la extensión de la asistencia sanitaria de la Seguridad Social a aquellas personas sin recursos económicos.
+-
+-La compensación por la integración, en su caso, de los hospitales de las Corporaciones Locales en el Sistema Nacional de Salud.
+-
+-d) Por aportaciones de las Comunidades Autónomas y de las Corporaciones Locales.
+-
+-e) Tributos estatales cedidos.
+-
+-Las Corporaciones Locales deberán establecer, además, en sus presupuestos las consignaciones precisas para atender a las responsabilidades sanitarias que la Ley les atribuye.
+ 
+ ## [aochenta] Artículo ochenta
+ 

@@ -1,0 +1,44 @@
+{
+ "aveinticinco": {
+  "parrafos": 9,
+  "dup_rest": 0,
+  "fuera_BOE": []
+ },
+ "asetentaynueve": {
+  "parrafos": 12,
+  "dup_rest": 0,
+  "fuera_BOE": []
+ },
+ "orden_25_ok": [
+  1,
+  2,
+  7,
+  8
+ ],
+ "a_25_unica": 1,
+ "a_79_unica": 1,
+ "e_79_tras_d": [
+  "a) C",
+  "b) T",
+  "c) T",
+  "d) P",
+  "e) T"
+ ],
+ "total_ley_dup": 1924,
+ "bloques_con_dup": 18,
+ "suprimido": {
+  "fecha": "2026-09-03",
+  "aveinticinco": {
+   "lineas_antes": 43,
+   "lineas_despues": 18,
+   "palabras_suprimidas": 385,
+   "suprimido_detalle": "ver diff"
+  },
+  "asetentaynueve": {
+   "lineas_antes": 41,
+   "lineas_despues": 24,
+   "palabras_suprimidas": 96,
+   "nota": "copia A conservada y COMPLETADA con e) tras d) (Ley 21/2001 art. 68.1)"
+  }
+ }
+}

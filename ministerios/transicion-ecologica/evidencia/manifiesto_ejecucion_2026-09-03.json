@@ -1,0 +1,155 @@
+{
+ "fecha": "2026-09-03",
+ "sha256_antes": "95804d1950230d80494297f289d46e08eea179c656f5f0d65ae35136d2fde2f1",
+ "palabras_antes": 27268,
+ "lineas_antes": 1053,
+ "acuerdo_16_art15": {
+  "eliminan_lineas": "382-444 (antes del diff)",
+  "lineas": 63,
+  "palabras_eliminadas": 2548,
+  "sha256_tras_paso1": "e7b553637324be3499ee8df400e6d2a734b6a223ae36eb8eca76ea1c062c0550",
+  "v3_conservada_palabras": 1433
+ },
+ "acuerdo_15_restituciones": [
+  {
+   "bloque": "df-4",
+   "lineas_insertadas": 7,
+   "palabras": 208,
+   "posicion": 895
+  },
+  {
+   "bloque": "df-5",
+   "lineas_insertadas": 1,
+   "palabras": 19,
+   "posicion": 909
+  },
+  {
+   "bloque": "df-9",
+   "lineas_insertadas": 1,
+   "palabras": 70,
+   "posicion": 935
+  }
+ ],
+ "acuerdo_22_letras_a": [
+  {
+   "bloque": "## [a2]",
+   "linea_b": 183,
+   "palabras": 3
+  },
+  {
+   "bloque": "## [a3]",
+   "linea_b": 218,
+   "palabras": 29
+  },
+  {
+   "bloque": "## [a4]",
+   "linea_b": 247,
+   "palabras": 52
+  },
+  {
+   "bloque": "## [a6]",
+   "linea_b": 266,
+   "palabras": 52
+  },
+  {
+   "bloque": "## [a1-4]",
+   "linea_b": 335,
+   "palabras": 38
+  },
+  {
+   "bloque": "## [a1-6]",
+   "linea_b": 360,
+   "palabras": 11
+  },
+  {
+   "bloque": "## [a1-8]",
+   "linea_b": 436,
+   "palabras": 37
+  },
+  {
+   "bloque": "## [a1-9]",
+   "linea_b": 449,
+   "palabras": 11
+  },
+  {
+   "bloque": "## [a1-11]",
+   "linea_b": 488,
+   "palabras": 50
+  },
+  {
+   "bloque": "## [a2-2]",
+   "linea_b": 519,
+   "palabras": 16
+  },
+  {
+   "bloque": "## [a2-3]",
+   "linea_b": 532,
+   "palabras": 20
+  },
+  {
+   "bloque": "## [a2-9]",
+   "linea_b": 597,
+   "palabras": 22
+  },
+  {
+   "bloque": "## [a2-10]",
+   "linea_b": 616,
+   "palabras": 13
+  },
+  {
+   "bloque": "## [a3-3]",
+   "linea_b": 657,
+   "palabras": 12
+  },
+  {
+   "bloque": "## [a3-4]",
+   "linea_b": 684,
+   "palabras": 34
+  },
+  {
+   "bloque": "## [da-3]",
+   "linea_b": 789,
+   "palabras": 14
+  },
+  {
+   "bloque": "## [df-11]",
+   "linea_b": 967,
+   "palabras": 20
+  }
+ ],
+ "letras_a_ya_presentes_o_sin_b": [
+  {
+   "bloque": "## [a3]",
+   "nota": "ya presente"
+  },
+  {
+   "bloque": "## [a1-4]",
+   "nota": "ya presente"
+  },
+  {
+   "bloque": "## [a1-9]",
+   "nota": "ya presente"
+  },
+  {
+   "bloque": "## [a1-11]",
+   "nota": "ya presente"
+  },
+  {
+   "bloque": "## [a3-3]",
+   "nota": "ya presente"
+  }
+ ],
+ "letras_a_insertadas": 17,
+ "palabras_letras_a": 434,
+ "sha256_despues": "af2e435f814fa02f796bc2911d51109bb9fa0499d0cfb8525c1d916d9a19e6a7",
+ "palabras_despues": 25451,
+ "lineas_despues": 1019,
+ "neto_palabras": -1817,
+ "reparacion_segunda_pasada": {
+  "insertadas": 5,
+  "palabras": 150,
+  "sha_antes": "643f677f9c5377bd40557ee14db8e9fe3694df6c644398c26928543d4df687bb",
+  "sha_despues": "af2e435f814fa02f796bc2911d51109bb9fa0499d0cfb8525c1d916d9a19e6a7",
+  "listas_sin_a_restantes": 0
+ }
+}

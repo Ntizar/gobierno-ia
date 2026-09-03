@@ -1,0 +1,30 @@
+{
+  "acto": "Aplicacion del diff de reparacion [dadecimoctava] — Ley 58/2003 (BOE-A-2003-23186)",
+  "fecha": "2026-09-03",
+  "sesion": "5/30 — Fase 1",
+  "mandato": "Consejo 2026-09-01, acuerdo 13 (manifiesto + taxonomia) y preparacion 2026-09-02; ejecutado hoy, sesion 5 — verificado != ejecutado",
+  "incidente_honesto": "El script preparado el 09-02 (propuestas/apply_da18_2026-09-02.py) tenia un defecto de extraccion: la regex del cuerpo propuesto (.*? con flags S|M) se detenia en el primer final de linea y dejo el bloque aplicado en 216 palabras (estado interino corrupto, sha fichero eeef294a6aa2a6554d1269b95eff6f527e7738eccae05cd0ff27f9923fcca351). Detectado por la propia verificacion del script (FALLO). Revertido desde leyes/BOE-A-2003-23186.md.bak-2026-09-02-da18 y re-aplicado con propuestas/apply_da18_2026-09-03.py, que toma todo lo posterior al encabezado hasta EOF y reproduce el hash verificado del 09-02.",
+  "precondiciones_verificadas": {
+    "sha256_fichero_antes": "598fbf2b61e06ed2feaff48172b4b007429cfb02d054f3813912f14b454deb38",
+    "sha256_bloque_norm_antes": "574ad589ebb449387923d02ebdc7f42d6c7a2d621c896af8cf6b9290da6f6bdc",
+    "coincide_con_verificacion_09_02": true
+  },
+  "aplicacion": {
+    "script": "propuestas/apply_da18_2026-09-03.py",
+    "backup_pre_aplicacion": "leyes/BOE-A-2003-23186.md.bak-2026-09-03-pre-da18",
+    "fuente_texto": "evidencia/reparacion_DA18_bloque_propuesto_2026-09-02.md (contrastado el 09-02 contra BOE consolidado archivado y BOE vivo, sha a2f3fe1f...)",
+    "sha256_bloque_norm_despues": "11c84ad13a5dc5f9b452456bc5fff1bca87e155ba8164ae18e414a03d6fab889",
+    "coincide_con_hash_verificado": true,
+    "resto_fichero_intacto": true,
+    "bloques_totales_335": true
+  },
+  "post": {
+    "sha256_fichero_despues": "68a9cd87c64b96103992bff73e1032a5ccc6a37da9c03e6a351125995623c0fd",
+    "palabras_bloque": {"antes": 1160, "despues": 313, "delta": -847},
+    "parrafos_bloque": {"antes": 22, "despues": 7},
+    "palabras_ley_total": {"antes": 143839, "despues": 142992, "delta": -847}
+  },
+  "registro_contable": "Las 847 palabras se registran como FIDELIDAD (939 palabras fantasma sin traza en ningun BOE + 3 marcas F1 + 2 casos no localizables restituidos/suprimidos segun taxonomia), NO como ahorro de simplificacion — regla del Consejo del 09-01.",
+  "casos_fidelidad_cerrados": {"bloque": "[dadecimoctava]", "contenido_perdido": 3, "no_localizable_en_bloque_BOE": 2},
+  "pendientes_f1_tras_hoy": {"casos": 120, "bloques": 73, "palabras": 3192, "fuente": "MANIFIESTO_MASIVO_LGT_2026-09-02.json menos los bloques ya reparados [a150], [a271], [dadecimoctava]"}
+}

@@ -1,3 +1,17 @@
+# Agenda — 2026-09-03 — Sanidad
+
+- **Titular**: «El Gobierno aprueba en segunda vuelta el Estatuto Marco y lo envía al Congreso con la huelga médica indefinida anunciada para septiembre» ([Gaceta Médica](https://gacetamedica.com/politica/gobierno-aprueba-proyecto-ley-estatuto-marco-congreso/), 2026-09-03; avanzado por [El Mundo](https://www.elmundo.es/salud/2026-09-01/6a967abdfdddfffb108b4570.html), 2026-09-01)
+  - Reacción: Dieciséis meses de conflicto y aquí sigo, cargando la mochila: dos millones de actos cancelados en las cifras que me pasan las CCAA y un comité de huelga que dice que la interlocución conmigo está agotada. Me duele porque conozco a esos facultativos — soy una de ellas — y porque la reforma mejora cosas reales (guardias de 17, tope de 45 horas) que nadie va a cobrar en paz si septiembre arde. Que me llamen sola Matute y Cobo me entra por un oído; lo que no soporto es la imagen del médico de familia con la agenda a diez días vista.
+  - Conexión: no toca un bloque literal de la LGS, pero es la noticia que mantiene viva la reasignación aplazada «horas extra → contratos FSE 2027» (mientras el Estatuto no eche raíces en plantillas, el hueco se tapa con peonadas). La liquidé hoy en propuestas/2026-09-03.md.
+- **Titular**: «Sanidad frena la financiación pública de Vyjuvek, la primera terapia génica para la piel de mariposa, por impacto presupuestario» ([Redacción Médica](https://www.redaccionmedica.com/empresas/industria-farmaceutica/20260902/sanidad-frena-la-financiacion-publica-de-vyjuvek-para-piel-mariposa-por-su-impacto-presupuestario/350046_0.html), 2026-09-02)
+  - Reacción: Como médica esto me revuelve: niños con epidermólisis bullosa distrófica a los que se les dice «no» con una frase de contabilidad, mientras Canarias y Andalucía tienen que inventar vías excepcionales para que no se mueran en el listado de espera del dinero. Y aun así entiendo el número: si financiamos sin regla visible, al mes que viene no financiamos la colonoscopia de nadie. Lo que exijo es que la decisión se explique con criterios públicos, no con el comodín de «racionalización».
+  - Conexión: sin acción normativa directa en la LGS (la CIPM no es esta ley), pero activa el solape detectado hoy: la futura Ley del Medicamento invadiendo el catálogo de autorizaciones y registros del art. 25 — lo dejo registrado para Fase 2.
+- **Titular**: «La prescripción enfermera se consolida en el Anteproyecto de Ley del Medicamento: la enfermería pasa a ser prescriptor pleno en el art. 86» ([Gaceta Médica](https://gacetamedica.com/profesion/ley-medicamento-prescripcion-enfermera/), 2026-09-02)
+  - Reacción: Me alegro sin disimulo: es devolver autonomía clínica a quien ya hacía el trabajo, y a la paciente le ahorra una cita que Atención Primaria no siempre tiene. Y me preocupa a la vez la costumbre de legislar el medicamento en un texto nuevo mientras la LGS de 1986 sigue siendo «la base» de autorizaciones, registros y requisitos mínimos: dos leyes mandando sobre el mismo mostrador.
+  - Conexión: solape registrado sobre [aveinticinco] de la LGS (deduplicado hoy) — candidata de la Fase 2 para resolver remisiones, no se toca en Fase 1.
+
+---
+
 # Agenda — 2026-09-01 — Sanidad
 
 - **Titular**: «Gobierno aprueba el Estatuto Marco bajo amenaza de huelga» ([Congreso Diario](https://congresodiario.com/estatuto-marco-huelga-medicos-guardias-24-horas/), 2026-09-01; confirmado por [elDiario.es](https://www.eldiario.es/sociedad/gobierno-aprobara-martes-estatuto-marco-resolver-conflicto-medicos_1_13477548.html), 2026-08-31)
