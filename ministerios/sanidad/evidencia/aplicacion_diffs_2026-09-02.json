@@ -1,0 +1,25 @@
+{
+ "aplicado_2026-09-02": true,
+ "art35": {
+  "lineas_antes": 35,
+  "lineas_despues": 24
+ },
+ "art18": {
+  "lineas_antes": 57,
+  "lineas_despues": 21
+ },
+ "restituciones_a": {
+  "insertadas": 19,
+  "ya_estaban": 0,
+  "fallos": [
+   [
+    "b) Deberán estar justificados en la protección de la salud p",
+    2
+   ],
+   [
+    "b) Transferencias del Estado, que abarcarán:",
+    2
+   ]
+  ]
+ }
+}

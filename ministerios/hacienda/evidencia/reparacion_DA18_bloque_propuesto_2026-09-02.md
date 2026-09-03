@@ -1,0 +1,18 @@
+<!-- BLOQUE PROPUESTO PARA [dadecimoctava] — verificado contra BOE consolidado
+     archivado 2026-09-01 (sha256 b29db001...) y descargado 2026-09-02 (sha256 a2f3fe1f...),
+     contenido identico en ambos. Firma: Arcadi España, 2026-09-02. -->
+
+## [dadecimoctava] Disposición adicional decimoctava
+Disposición adicional decimoctava. Obligación de información sobre bienes y derechos situados en el extranjero.
+
+Los obligados tributarios deberán suministrar a la Administración Tributaria, conforme a lo dispuesto en los artículos 29 y 93 de esta ley y en los términos que reglamentariamente se establezcan, la siguiente información:
+
+a) Información sobre las cuentas situadas en el extranjero abiertas en entidades que se dediquen al tráfico bancario o crediticio de las que sean titulares o beneficiarios o en las que figuren como autorizados o de alguna otra forma ostenten poder de disposición.
+
+b) Información de cualesquiera títulos, activos, valores o derechos representativos del capital social, fondos propios o patrimonio de todo tipo de entidades, o de la cesión a terceros de capitales propios, de los que sean titulares y que se encuentren depositados o situados en el extranjero, así como de los seguros de vida o invalidez de los que sean tomadores y de las rentas vitalicias o temporales de las que sean beneficiarios como consecuencia de la entrega de un capital en dinero, bienes muebles o inmuebles, contratados con entidades establecidas en el extranjero.
+
+c) Información sobre los bienes inmuebles y derechos sobre bienes inmuebles de su titularidad situados en el extranjero.
+
+d) Información sobre las monedas virtuales situadas en el extranjero de las que se sea titular, o respecto de las cuales se tenga la condición de beneficiario o autorizado o de alguna otra forma se ostente poder de disposición, custodiadas por personas o entidades que proporcionan servicios para salvaguardar claves criptográficas privadas en nombre de terceros, para mantener, almacenar y transferir monedas virtuales.
+
+Las obligaciones previstas en los párrafos anteriores se extenderán a quienes tengan la consideración de titulares reales de acuerdo con lo previsto en el apartado 2 del artículo 4 de la Ley 10/2010, de 28 de abril, de prevención del blanqueo de capitales y de la financiación del terrorismo.

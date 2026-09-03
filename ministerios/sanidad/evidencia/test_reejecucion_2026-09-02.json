@@ -1,0 +1,37 @@
+{
+ "fecha": "2026-09-02",
+ "test": "reejecucion universal Fase 1",
+ "dedup_18_35": {
+  "adieciocho": {
+   "antes_palabras": 817,
+   "despues_palabras": 0
+  },
+  "atreintaycinco": {
+   "antes_palabras": 292,
+   "despues_palabras": 15
+  }
+ },
+ "total_ley_antes": 3314,
+ "total_ley_despues": 2251,
+ "fidelidad_hash": {
+  "adieciocho": {
+   "parrafos": 20,
+   "hash_en_BOE": 20,
+   "no_coinciden": []
+  },
+  "atreintaycinco": {
+   "parrafos": 23,
+   "hash_en_BOE": 23,
+   "no_coinciden": []
+  }
+ },
+ "restituciones": {
+  "letras_a_BOE_presentes": "21/21",
+  "lineas_1a_art35": 3,
+  "preferencia_colaboracion_art28": true,
+  "cabeceras_art18": 1,
+  "cabeceras_art35": 1
+ },
+ "pasos": 10,
+ "nota_15pal": "Las 15 pal. restantes del art. 35 son el par 1.ª B)=1.ª C), idéntico por ley en el propio BOE — no es basura editorial, no se borra."
+}
