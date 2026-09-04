@@ -1,0 +1,72 @@
+{
+ "ley": "BOE-A-2003-23186 (Ley 58/2003 General Tributaria)",
+ "fecha": "2026-09-04",
+ "sesion": "6/30 — cierre Fase 1",
+ "mandato": "Acuerdo 23 Consejo 2026-09-03 (APROBADO): tramo F1 arts. 1-30, orden numérico, manifiesto frase a frase",
+ "metodo": "restitución BOE literal, anclada antes de cada b) huérfana del apartado legal; idempotente; convención 335",
+ "sha256_antes_crudo": "68a9cd87c64b96103992bff73e1032a5ccc6a37da9c03e6a351125995623c0fd",
+ "sha256_despues_crudo": "917ee1224cd30321680af8fb2bbe59aed418f1a2cc83b4ac1df7b59ed63840ee",
+ "backup": "leyes/BOE-A-2003-23186.md.bak-2026-09-04",
+ "bloques_vivos": 335,
+ "palabras_ley_antes": 142322,
+ "palabras_ley_despues": 142423,
+ "delta_palabras": 101,
+ "AHLORRO_EJECUTADO": 0,
+ "FIDELIDAD_RESTITUIDA": 101,
+ "bloques": {
+  "[a7]": {
+   "letra_restituida": "a) Por la Constitución.",
+   "palabras_restituidas": 4,
+   "sha256_letra_norm": "dc3aadb5d2aceb4d20142e67cf4e5270c605370d0273446098ad59c52f1a282b",
+   "copias_b_huerfana_en_bloque": 1,
+   "nota": "1 restitución (apartado legal único); el resto de copias son duplicación D1, no omisión"
+  },
+  "[a8]": {
+   "letra_restituida": "a) La delimitación del hecho imponible, del devengo, de la base imponible y liquidable, la fijación del tipo de gravamen y de los demás elementos directamente determinantes de la cuantía de la deuda tributaria, así como el establecimiento de presunciones que no admitan prueba en contrario.",
+   "palabras_restituidas": 46,
+   "sha256_letra_norm": "7dbca13a8cdddde0a06cbe7b9a61c853373c1ae264599c48f03fd7ed04bfe7ae",
+   "copias_b_huerfana_en_bloque": 1,
+   "nota": "1 restitución (apartado legal único); el resto de copias son duplicación D1, no omisión"
+  },
+  "[a15]": {
+   "letra_restituida": "a) Que, individualmente considerados o en su conjunto, sean notoriamente artificiosos o impropios para la consecución del resultado obtenido.",
+   "palabras_restituidas": 19,
+   "sha256_letra_norm": "8e5866bc69f446435d00aa21213e864922dc270634be6fe3654d9e90f4082fce",
+   "copias_b_huerfana_en_bloque": 2,
+   "nota": "1 restitución (apartado legal único); el resto de copias son duplicación D1, no omisión"
+  },
+  "[a27]": {
+   "letra_restituida": "a) Que la declaración o autoliquidación se presente en el plazo de seis meses a contar desde el día siguiente a aquél en que la liquidación se notifique o se entienda notificada.",
+   "palabras_restituidas": 32,
+   "sha256_letra_norm": "66a6d19877dc02c955a9fbb67d42c6da353055876e8443e14c5df484af5351be",
+   "copias_b_huerfana_en_bloque": 1,
+   "nota": "1 restitución (apartado legal único); el resto de copias son duplicación D1, no omisión"
+  }
+ },
+ "verificacion_letra_unica": {
+  "[a7]": 1,
+  "[a8]": 1,
+  "[a15]": 1,
+  "[a27]": 1
+ },
+ "cuadre_vs_mandato": {
+  "anunciadas_acta_23": {
+   "[a7]": 5,
+   "[a8]": 46,
+   "[a15]": 38,
+   "[a27]": 32,
+   "total": 121
+  },
+  "ejecutadas_fichero": {
+   "[a7]": 4,
+   "[a8]": 46,
+   "[a15]": 19,
+   "[a27]": 32
+  },
+  "total_ejecutado": 101,
+  "diferencia": 20,
+  "explicacion": "20 palabras de diferencia, dos causas, ambas declaradas: (1) [a7]: el manifiesto contaba 5 porque el texto del caso incluia el token 'b)' inicial; el BOE da 'a) Por la Constitucion.' = 4 palabras. (2) [a15]: el manifiesto contaba 2 casos F1 (19+19=38 pal.) porque el bloque tiene DOS copias del apartado 1 y a las dos les falta su 'a)'; el BOE tiene un solo apartado 1, luego la ley solo admite UNA letra. Insertarla dos veces seria fabricar duplicacion para cuadrar un inventario diagnostico: se restituye 1 (19 pal.) y la copia de mas se liquidara con el diff D1 del bloque. El inventario decia 121; la ley admite 101. Cada numero, con su denominador."
+ },
+ "eol_fichero": "LF (el fichero de la ley usa LF; primera pasada del script de hoy CRLF-izaba todo el fichero -> revertida y corregida, declarada en el acta)",
+ "nota_incidente": "Primera ejecucion del script escribio con CRLF y recreo todo el fichero (diff git de 17.706 lineas); detectado al contrastar con git diff, revertido desde el .bak (sha 68a9cd87... recuperado al byte) y re-ejecutado con EOL preservado. Diff final: 8 inserciones, 0 supresiones."
+}

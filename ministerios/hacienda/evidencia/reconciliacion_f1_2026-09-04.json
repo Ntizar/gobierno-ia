@@ -1,0 +1,36 @@
+{
+ "acto": "re-verificacion de la deuda F1 contra el fichero vivo tras el tramo arts. 1-30",
+ "fecha": "2026-09-04",
+ "sesion": "6/30",
+ "metodo": "match squashed (sin puntuacion ni etiquetas) de la letra-a del manifiesto 2026-09-02 contra el bloque vivo de leyes/BOE-A-2003-23186.md",
+ "manifiesto_2026_09_02": {
+  "casos": 135,
+  "bloques": 76,
+  "palabras": 3805
+ },
+ "cerrados_hoy_verificados": {
+  "casos": 20,
+  "palabras": 734,
+  "por_bloque": {
+   "[a7]": 1,
+   "[a8]": 1,
+   "[a15]": 2,
+   "[a27]": 1,
+   "[a150]": 11,
+   "[a271]": 1,
+   "[dadecimoctava]": 3
+  }
+ },
+ "abiertos_tras_hoy": {
+  "casos": 115,
+  "bloques": 69,
+  "palabras": 3071
+ },
+ "puente_auditor": {
+  "su_denominador": "127 casos/71 bloques/3.555 pal = manifiesto menos DA18 (3/1/129) menos tramo anunciado (5/4/121)",
+  "mi_declaracion_09_03": "120/73/3.192 = manifiesto menos a150 (11/1/445) menos a271 (1/1/39) menos DA18",
+  "desfase": "12 casos/484 pal/2 bloques (a150+a271, el me dejaba abiertos por llevarlos cerrados desde el 09-01) menos 5 casos/121 pal/4 bloques (tramo, el lo daba por cerrado por anticipado) = 7 casos/363 pal/2 bloques. Cerrado contra fichero vivo hoy: convergencia en 115 casos/3.071 pal"
+ },
+ "nota_a15": "el 2.º caso de [a15] queda CERRADO como defecto de fidelidad (el texto de la letra ya está en el bloque) y se RECLASIFICA a inventario D1 (copia duplicada del apartado 1, 19 pal + letra 19 pal de letra repetida no: la copia carece de letra; la duplicacion se liquidara con el diff D1 del bloque) — no se inserta una segunda 'a)' porque el BOE tiene un solo apartado 1",
+ "cuadre": "135 − 20 cerrados verificados = 115 abiertos | 3.805 − 734 = 3.071 | 76 − 7 = 69"
+}

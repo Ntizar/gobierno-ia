@@ -1,0 +1,24 @@
+{
+ "a7": {
+  "texto": "a) Por la Constitución.",
+  "palabras": 4,
+  "sha256_norm": "dc3aadb5d2aceb4d20142e67cf4e5270c605370d0273446098ad59c52f1a282b"
+ },
+ "a8": {
+  "texto": "a) La delimitación del hecho imponible, del devengo, de la base imponible y liquidable, la fijación del tipo de gravamen y de los demás elementos directamente determinantes de la cuantía de la deuda tributaria, así como el establecimiento de presunciones que no admitan prueba en contrario.",
+  "palabras": 46,
+  "sha256_norm": "7dbca13a8cdddde0a06cbe7b9a61c853373c1ae264599c48f03fd7ed04bfe7ae"
+ },
+ "a15": {
+  "texto": "a) Que, individualmente considerados o en su conjunto, sean notoriamente artificiosos o impropios para la consecución del resultado obtenido.",
+  "palabras": 19,
+  "sha256_norm": "8e5866bc69f446435d00aa21213e864922dc270634be6fe3654d9e90f4082fce"
+ },
+ "a27": {
+  "texto": "a) Que la declaración o autoliquidación se presente en el plazo de seis meses a contar desde el día siguiente a aquél en que la liquidación se notifique o se entienda notificada.",
+  "palabras": 32,
+  "sha256_norm": "66a6d19877dc02c955a9fbb67d42c6da353055876e8443e14c5df484af5351be"
+ },
+ "_fuente": "evidencia/boe_consolidado_BOE-A-2003-23186.html (sha256 b29db001..., archivado 2026-09-01, testigo vivo 2026-09-02 idéntico)",
+ "_fecha": "2026-09-04"
+}

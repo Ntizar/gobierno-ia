@@ -1,0 +1,152 @@
+{
+ "test": "cruzado Hacienda->L7",
+ "fecha": "2026-09-04",
+ "bloques": 71,
+ "D1_parrafos": 1,
+ "D1_palabras": 5,
+ "D1_bloques": [
+  "[da-6]"
+ ],
+ "fantasmas_boe": [
+  {
+   "bloque": "[a2]",
+   "parrafo": 2,
+   "palabras": 25,
+   "texto": "a) Desarrollo sostenible. b) Descarbonización de la economía española, entendiendo por tal la consecución de u"
+  },
+  {
+   "bloque": "[a3]",
+   "parrafo": 0,
+   "palabras": 17,
+   "texto": "Artículo 3. Objetivos de reducción de emisiones de gases de efecto invernadero, energías renovables y eficienc"
+  },
+  {
+   "bloque": "[a1-6]",
+   "parrafo": 4,
+   "palabras": 49,
+   "texto": "a) El establecimiento de zonas de bajas emisiones antes de 2023. b) Medidas para facilitar los desplazamientos"
+  },
+  {
+   "bloque": "[a1-7]",
+   "parrafo": 0,
+   "palabras": 118,
+   "texto": "Artículo 15. Instalación de puntos de recarga eléctrica. 1. El Gobierno pondrá a disposición del público la in"
+  },
+  {
+   "bloque": "[a1-9]",
+   "parrafo": 3,
+   "palabras": 36,
+   "texto": "a) La elaboración de escenarios climáticos regionalizados para la geografía española. b) La recopilación, anál"
+  },
+  {
+   "bloque": "[a2-2]",
+   "parrafo": 0,
+   "palabras": 15,
+   "texto": "Artículo 20. Consideración del cambio climático en la planificación y gestión del dominio público marítimo-ter"
+  },
+  {
+   "bloque": "[a2-3]",
+   "parrafo": 0,
+   "palabras": 32,
+   "texto": "Artículo 21. Consideración del cambio climático en la planificación y gestión territorial y urbanística, así c"
+  },
+  {
+   "bloque": "[a2-10]",
+   "parrafo": 4,
+   "palabras": 33,
+   "texto": "a) Una evaluación del estado de vulnerabilidad del área geográfica o colectivo afectado. b) Compromisos de las"
+  },
+  {
+   "bloque": "[a3-3]",
+   "parrafo": 3,
+   "palabras": 36,
+   "texto": "a) Requisitos de máxima calificación energética de las edificaciones que se liciten. b) Ahorro y eficiencia en"
+  },
+  {
+   "bloque": "[a3-4]",
+   "parrafo": 0,
+   "palabras": 32,
+   "texto": "Artículo 32. Integración del riesgo del cambio climático por entidades cuyos valores estén admitidos a negocia"
+  },
+  {
+   "bloque": "[da]",
+   "parrafo": 0,
+   "palabras": 30,
+   "texto": "Disposición adicional primera. Exclusión del ámbito de la ley de los equipos, sistemas de armas, instalaciones"
+  },
+  {
+   "bloque": "[da-6]",
+   "parrafo": 2,
+   "palabras": 39,
+   "texto": "1. El Gobierno promoverá el uso del ferrocarril de viajeros en el ámbito de la futura Ley de movilidad sosteni"
+  },
+  {
+   "bloque": "[da-6]",
+   "parrafo": 3,
+   "palabras": 59,
+   "texto": "2. En el ámbito del transporte de mercancías, y con el fin de mejorar la eficiencia energética y la competitiv"
+  },
+  {
+   "bloque": "[da-6]",
+   "parrafo": 4,
+   "palabras": 44,
+   "texto": "El Gobierno elaborará una Estrategia de impulso del transporte de mercancías por ferrocarril, en el marco de s"
+  },
+  {
+   "bloque": "[da-9]",
+   "parrafo": 0,
+   "palabras": 15,
+   "texto": "Disposición adicional novena. Plan de reducción de consumo energético en la Administración General del Estado."
+  },
+  {
+   "bloque": "[dt-3]",
+   "parrafo": 0,
+   "palabras": 27,
+   "texto": "Disposición transitoria tercera. Consideración del cambio climático en el desarrollo de la planificación y ges"
+  },
+  {
+   "bloque": "[df]",
+   "parrafo": 0,
+   "palabras": 68,
+   "texto": "Disposición final primera. Modificación de la Ley 34/1998, de 7 de octubre, del sector de hidrocarburos, la Le"
+  },
+  {
+   "bloque": "[df-2]",
+   "parrafo": 0,
+   "palabras": 19,
+   "texto": "Disposición final segunda. Modificación de la Ley 15/2012, de 27 de diciembre, de medidas fiscales para la sos"
+  },
+  {
+   "bloque": "[df-3]",
+   "parrafo": 0,
+   "palabras": 50,
+   "texto": "Disposición final tercera. Modificación de la Ley 3/2013, de 4 de junio, de creación de la Comisión Nacional d"
+  },
+  {
+   "bloque": "[df-4]",
+   "parrafo": 0,
+   "palabras": 26,
+   "texto": "Disposición final cuarta. Modificación del texto refundido de la Ley de Suelo y Rehabilitación Urbana, aprobad"
+  },
+  {
+   "bloque": "[df-7]",
+   "parrafo": 0,
+   "palabras": 15,
+   "texto": "Disposición final séptima. Desarrollo normativo de la Ley 43/2003, de 21 de noviembre, de Montes."
+  },
+  {
+   "bloque": "[df-9]",
+   "parrafo": 0,
+   "palabras": 19,
+   "texto": "Disposición final novena. Modificación del artículo 38 bis de la Ley 25/1964, de 29 de abril, sobre Energía Nu"
+  },
+  {
+   "bloque": "[df-12]",
+   "parrafo": 0,
+   "palabras": 20,
+   "texto": "Disposición final duodécima. Huella de carbono y planes de reducción de emisiones de gases de efecto invernade"
+  }
+ ],
+ "b_huerfanas": [],
+ "rotulos_dup": 0
+}
