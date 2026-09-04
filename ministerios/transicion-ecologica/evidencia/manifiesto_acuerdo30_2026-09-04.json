@@ -1,0 +1,25 @@
+{
+ "fecha": "2026-09-04",
+ "acuerdo": 30,
+ "objeto": "restitucion de las 532 palabras de omision real con fuerza obligatoria (22 lineas, evidencia/textos_restitucion_532_2026-09-04.json) + supresion rotulo dupe [da-6] (5 palabras, observacion Auditor acuerdo 29)",
+ "script": "scripts/s6_ejecutar_acuerdo30.py",
+ "backup": "leyes/BOE-A-2021-8447.md.bak-2026-09-04",
+ "sha256_antes": "af2e435f814fa02f796bc2911d51109bb9fa0499d0cfb8525c1d916d9a19e6a7",
+ "sha256_despues": "715fee2597145e233d7e1351896ea0437493a8de7fb4453e28867ffdeb40893e",
+ "palabras_antes": 25601,
+ "palabras_despues": 26541,
+ "lineas_antes": 1024,
+ "lineas_despues": 1071,
+ "anclajes": "todos unicos y verificados contra BOE archivado 2026-08-31 (modif 04/12/2025); fusion de enlaces <a> en k4/k10/k13+14/k15(822)/k17(826-829)/k20+21(845-848) verificada literal contra el HTML",
+ "test_reejecucion": "reejecutar el script sobre el fichero ya ejecutado ABORTA con 'el texto k4 YA estaba en el repo' sin escribir (verificado 2026-09-04, no se creo s6_reexec.md)",
+ "registro": "FIDELIDAD (no computa como ahorro)",
+ "titulos_restituidos": [
+  "TÍTULO I",
+  "TÍTULO II",
+  "TÍTULO III",
+  "TÍTULO IV",
+  "TÍTULO VI",
+  "TÍTULO IX"
+ ],
+ "deuda_fase3_restante": "rotulos TITULO V, VII y VIII (no estan en el JSON 532) + 306 palabras de clasificacion metadato/formula/artefacto del 2026-09-03"
+}

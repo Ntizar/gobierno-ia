@@ -1,0 +1,11 @@
+{
+ "fecha": "2026-09-04",
+ "tipo": "sellado_ciego_previo_a_lectura",
+ "hora_sellado_utc": "2026-09-04T12:00:47+00:00",
+ "fichero": "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
+ "bytes": 154231,
+ "lineas": 1887,
+ "palabras": 22493,
+ "sha256": "2059aae8955c83681593accfa7bf0ba3c985acb35c0ff6453fc6348a6c94ce35",
+ "nota": "Hash calculado y persistido ANTES de abrir el fichero o cualquier otro documento de Sanidad de hoy. Es mi hash/diff ciego del acuerdo 32 (encargo del Consejo): analizo por fuera primero, leo por dentro despues."
+}

@@ -1,0 +1,70 @@
+{
+ "fecha": "2026-09-04",
+ "acuerdo": 32,
+ "tipo": "hash_diff_ciego_Ley_14_1986",
+ "sellado_previo": "evidencia/s6_sellado_ciego_1986_2026-09-04.json (12:00:47Z, sha256 2059aae8…ce35)",
+ "metodo": "hash SHA-256 por parrafo dentro de cada bloque ## [ y entre bloques; deteccion difusa por prefijo comun >=200 caracteres; lectura cero de ficheros de analisis de Sanidad de hoy",
+ "bloques": 151,
+ "palabras": 22493,
+ "hallazgos": {
+  "dup_intra_bloque": {
+   "parrafos_repetidos": 57,
+   "palabras_exceso": 1140,
+   "tasa_pct": 5.07,
+   "bloques_afectados": 16
+  },
+  "rotulo_precepto_repetido": {
+   "bloques": 7,
+   "exceso_lineas": 8,
+   "nota": "veintiuno x4, tres/seis/once/veintidos/veintisiete/ciento x2 — artefacto de consolidacion con versiones acumuladas"
+  },
+  "dup_difuso": {
+   "parrafos": 3,
+   "nota": "ochenta y cuatro (Estatuto-Marco, 2 versiones ~70w) y ciento cinco (conciertos 102w y acreditacion 83w) — mismo inicio, final divergente: DOS REGLAS CONVIVIENDO"
+  },
+  "dup_entre_bloques": {
+   "parrafos": 1,
+   "nota": "unico compartido: la marca (Derogado) repetida en 5 bloques — artefacto, no contenido"
+  },
+  "muerto_vivo": {
+   "bloques_con_marca_derogado": 8,
+   "palabras_texto_normativo_bajo_marca": 2629,
+   "nota": "el diagnostico que Arcadi hizo a MI DA 6.ª (142 palabras vivas bajo '(Derogada)') es ENDEMICO en la 14/1986: 8 bloques, ~2.600 palabras de precepto con vigencia dudosa sin fecha ni norma derogatoria visible"
+  }
+ },
+ "top_dup": [
+  {
+   "bloque": "## [aveintiuno] Artículo veintiuno",
+   "palabras_duplicadas": 289
+  },
+  {
+   "bloque": "## [acuarentaysiete] Artículo cuarenta y siete",
+   "palabras_duplicadas": 163
+  },
+  {
+   "bloque": "## [acientodos] Artículo ciento dos",
+   "palabras_duplicadas": 122
+  },
+  {
+   "bloque": "## [aochentaycuatro] Artículo ochenta y cuatro",
+   "palabras_duplicadas": 101
+  },
+  {
+   "bloque": "## [aciento] Artículo ciento",
+   "palabras_duplicadas": 88
+  },
+  {
+   "bloque": "## [aseis] Artículo seis",
+   "palabras_duplicadas": 78
+  },
+  {
+   "bloque": "## [aochentaydos] Artículo ochenta y dos",
+   "palabras_duplicadas": 78
+  },
+  {
+   "bloque": "## [atres] Artículo tres",
+   "palabras_duplicadas": 67
+  }
+ ],
+ "cifras_sede_hoy": "sin tocar: solo hash, cero ediciones en la ley de Mónica"
+}
