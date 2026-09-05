@@ -1,0 +1,68 @@
+{
+ "fecha": "2026-09-04",
+ "acuerdo": 27,
+ "ley": "BOE-A-1986-10499.md",
+ "sha256_fichero_antes": "dd00bea07fb2f5eb1381cd5a4985986e6155476c8a3b523c170fc69b558f2aac",
+ "sha256_fichero_despues": "2059aae8955c83681593accfa7bf0ba3c985acb35c0ff6453fc6348a6c94ce35",
+ "bloques": {
+  "adiez": {
+   "lineas_antes": 110,
+   "lineas_despues": 35,
+   "palabras_antes": 1371,
+   "palabras_despues": 418,
+   "palabras_suprimidas": 953,
+   "dup_scan_antes": 692,
+   "dup_scan_despues": 0,
+   "fidelidad": {
+    "parrafos": 17,
+    "hash_en_BOE": 17,
+    "no_coinciden": []
+   }
+  },
+  "adiecinueve": {
+   "lineas_antes": 66,
+   "lineas_despues": 33,
+   "palabras_antes": 212,
+   "palabras_despues": 98,
+   "palabras_suprimidas": 114,
+   "dup_scan_antes": 92,
+   "dup_scan_despues": 0,
+   "fidelidad": {
+    "parrafos": 16,
+    "hash_en_BOE": 16,
+    "no_coinciden": []
+   }
+  }
+ },
+ "ley_despues": {
+  "bloques": 109,
+  "bloques_con_dup": 16,
+  "palabras_dup_scan": 1140,
+  "palabras_totales_fichero": 22493,
+  "tasa_dup": 5.07
+ },
+ "inventario_dup_restante": {
+  "aveintiuno": 289,
+  "acuarentaysiete": 163,
+  "acientodos": 122,
+  "aochentaycuatro": 101,
+  "aciento": 88,
+  "aseis": 78,
+  "aochentaydos": 78,
+  "atres": 67,
+  "aonce": 67,
+  "atreintayseis": 51,
+  "atreintaycinco": 15,
+  "acientocinco": 9,
+  "acuarentaytres": 4,
+  "asesentayuno": 4,
+  "aveintidos": 2,
+  "aveintisiete": 2
+ },
+ "verify_restituciones": {
+  "a_no_discriminatorios_art25_copias": 1,
+  "a_cotizaciones_art79_copias": 1,
+  "a_cuando_no_intervencion_art10_capa1986": 0,
+  "nota": "Las dos restituciones EN PAUSA del acuerdo 17 eran las letras a) de [aveinticinco] y [asetentaynueve] (el «24» fue error de transcripción del 09-02, corregido el 09-03 y ratificado en el acta). Ambas aterrizaron AYER; hoy se re-verifica copia única. La letra a) del apartado 6 del art. 10 vive solo en la capa de 1986 que hoy se retira: en la redacción vigente el apartado 6 está (Derogado) por la Ley 41/2002, y el BOE no la lista."
+ }
+}

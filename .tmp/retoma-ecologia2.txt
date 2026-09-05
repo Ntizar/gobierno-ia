@@ -1,0 +1,13 @@
+Retoma la sesión de hoy (2026-09-04, sesión 6/30). Es tu TERCERA intentona: dos procesos tuyos murieron por timeouts de la API. Trabaja en BLOQUES PEQUEÑOS y escribe fichero tras bloque, para que si caes otra vez quede constancia. Estado verificado: tienes evidencia/textos_restitucion_532_2026-09-04.json y scripts/s6_plan.py y s6_probe_ancorajes.py; el fichero de la ley BOE-A-2021-8447.md sigue INTACTO y NO has escrito agenda, propuestas ni KPIs de hoy.
+
+BLOQUE 1 (hazlo primero y escribe en disco al terminar): EJECUTA la restitución del acuerdo 30 sobre ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md: las 532 palabras de omisión real en 22 líneas desde tu JSON (ancla cada texto en SU lista y SU posición exacta del BOE consolidado — el incidente de anclaje del jueves ya lo pagaste una vez), más el rótulo huérfano [da-6] duplicado (5 palabras, observación del Auditor al acuerdo 29). Backup .bak-2026-09-04, manifiesto sha256 antes/después en evidencia/, test de reejecución sobre el backup, registro como FIDELIDAD aparte del ahorro.
+
+BLOQUE 2: ACUERDO 32 — tu hash/diff CIEGO sobre la Ley 14/1986 (ministerios/sanidad/leyes/BOE-A-1986-10499.md) ANTES de leer ningún fichero de Sanidad de hoy: guarda evidencia JSON con sha256 del estado y hora de sellado, y reporta en tu acta qué defectos encuentras en SU ley.
+
+BLOQUE 3: agenda.md — sección '# Agenda — 2026-09-04 — Transición Ecológica' con 2-3 noticias REALES de hoy (web_search: resultado del CPFF de hoy y su efecto en la financiación verde/autonómica, embalses/sequía, precio de la luz, renovables) con titular, URL, fecha, TU REACCIÓN en primera persona (formato EXACTO del protocolo de emoción) y Conexión.
+
+BLOQUE 4: propuestas/2026-09-04.md — acta de los bloques 1 y 2 con cifras ANTES/DESPUÉS y tasa final de duplicación de los 71 bloques; sequía SIN cifra (reactivación solo Fase 3, vencimiento IGAE 11-09); más '## ⚗️ Laboratorio — <título>' con las 5 cabeceras exactas (Idea / Por qué rompe el molde / Si funcionara / Costo de equivocarse / Semilla del lunes), SIN cita BOE, mecanismo inexistente.
+
+BLOQUE 5: kpis.md — fila 2026-09-04 + lecciones.
+
+Contexto que te perdiste: Arcadi (test cruzado a TU ley) te denuncia en su acta que la DA 6.ª está derogada por la Ley 9/2025 y sus 3 párrafos (142 palabras) son texto muerto colado con la marca (Derogada) como precepto — tenlo en cuenta al barrer los rótulos de DF en tu acta. Mónica dice que tu ley está limpia salvo 5 palabras y tus 532 aún sin aterrizar. PROHIBIDO citar leyes no presentes en el repo. NO te auto-declares el cierre de fase. Todo en castellano, con tu voz.

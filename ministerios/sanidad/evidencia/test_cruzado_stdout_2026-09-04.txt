@@ -1,0 +1,207 @@
+sha256 de este output (sellado antes de leer el informe ajeno): 455c2025e01e2b780e648a7b8d9914dc01ccfee34eff9eab669b28bbc7ee7f50
+{
+ "LGT (hacienda)": {
+  "fichero": "ministerios/hacienda/leyes/BOE-A-2003-23186.md",
+  "sha256_fichero": "917ee1224cd30321680af8fb2bbe59aed418f1a2cc83b4ac1df7b59ed63840ee",
+  "bloques": 335,
+  "palabras_fichero": 143093,
+  "T1_dup_literal_estricto": {
+   "palabras": 43274,
+   "bloques": 106
+  },
+  "T1_dup_normalizado_tags_NBSP": {
+   "palabras": 44071,
+   "bloques": 106
+  },
+  "T1_mayores_10": [
+   [
+    "a95",
+    5072,
+    "Artículo 95"
+   ],
+   [
+    "a43",
+    3362,
+    "Artículo 43"
+   ],
+   [
+    "a29",
+    1951,
+    "Artículo 29"
+   ],
+   [
+    "a26",
+    1876,
+    "Artículo 26"
+   ],
+   [
+    "a81",
+    1854,
+    "Artículo 81"
+   ],
+   [
+    "a68",
+    1622,
+    "Artículo 68"
+   ],
+   [
+    "a203",
+    1250,
+    "Artículo 203"
+   ],
+   [
+    "a199",
+    1228,
+    "Artículo 199"
+   ],
+   [
+    "a233",
+    1228,
+    "Artículo 233"
+   ],
+   [
+    "a65",
+    1182,
+    "Artículo 65"
+   ]
+  ],
+  "T2_huerfanas_b_sin_a": {
+   "total": 211,
+   "muestra": [
+    [
+     "a2",
+     "Se entenderá que los servicios se presta"
+    ],
+    [
+     "a2",
+     "2. Los tributos, cualquiera que sea su d"
+    ],
+    [
+     "a15",
+     "1. Se entenderá que existe conflicto en "
+    ],
+    [
+     "a26",
+     "2. El interés de demora se exigirá, entr"
+    ],
+    [
+     "a26",
+     "2. El interés de demora se exigirá, entr"
+    ],
+    [
+     "a26",
+     "2. El interés de demora se exigirá, entr"
+    ],
+    [
+     "a29",
+     "2. Además de las restantes que puedan le"
+    ],
+    [
+     "a29",
+     "2. Además de las restantes que puedan le"
+    ],
+    [
+     "a29",
+     "2. Además de las restantes que puedan le"
+    ],
+    [
+     "a34",
+     "1. Constituyen derechos de los obligados"
+    ],
+    [
+     "a35",
+     "2. Entre otros, son obligados tributario"
+    ],
+    [
+     "a42",
+     "1. Serán responsables solidarios de la d"
+    ]
+   ]
+  },
+  "T2_huerfanas_2_sin_1": {
+   "total": 151
+  },
+  "T3_cabeceras_repetidas_en_bloque": {
+   "total": 101,
+   "muestra": [
+    [
+     "a1",
+     2
+    ],
+    [
+     "a2",
+     2
+    ],
+    [
+     "a3",
+     2
+    ],
+    [
+     "a5",
+     4
+    ],
+    [
+     "a12",
+     2
+    ],
+    [
+     "a15",
+     2
+    ],
+    [
+     "a17",
+     2
+    ],
+    [
+     "a26",
+     4
+    ],
+    [
+     "a27",
+     3
+    ],
+    [
+     "a28",
+     2
+    ]
+   ]
+  }
+ },
+ "L7/2021 (transicion)": {
+  "fichero": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
+  "sha256_fichero": "af2e435f814fa02f796bc2911d51109bb9fa0499d0cfb8525c1d916d9a19e6a7",
+  "bloques": 71,
+  "palabras_fichero": 25601,
+  "T1_dup_literal_estricto": {
+   "palabras": 5,
+   "bloques": 1
+  },
+  "T1_dup_normalizado_tags_NBSP": {
+   "palabras": 5,
+   "bloques": 1
+  },
+  "T1_mayores_10": [
+   [
+    "da-6",
+    5,
+    "Disposición adicional sexta"
+   ]
+  ],
+  "T2_huerfanas_b_sin_a": {
+   "total": 0,
+   "muestra": []
+  },
+  "T2_huerfanas_2_sin_1": {
+   "total": 3
+  },
+  "T3_cabeceras_repetidas_en_bloque": {
+   "total": 1,
+   "muestra": [
+    [
+     "da-6",
+     2
+    ]
+   ]
+  }
+ }
+}
