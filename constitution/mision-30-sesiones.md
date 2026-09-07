@@ -1,6 +1,6 @@
 # Misión de 30 sesiones — Presupuestos ideales y 3 leyes reescritas
 
-**Estado:** EN CURSO · Inicio: 2026-08-29 · Sesión 5/30 completada (Consejo del 09-03: 13 acuerdos, Fase 1 en prórroga técnica) · Meta: sesión ~30 (≈ mediados-finales de octubre 2026) · **Sesión actual: 6/30 — viernes 09-04: tramos aprobados (LGT 1-30, LGS adiez/adiecinueve, restitución L7 532 palabras), TEST CRUZADO Y CIEGO (acuerdo 32), cierre formal de Fase 1 y primer ⚗️ Laboratorio. El CPFF deja a Hacienda a medio gas: orden del día pactado 23→32→⚗️**
+**Estado:** EN CURSO · Inicio: 2026-08-29 · Sesión 6/30 completada (Consejo del 09-04: 13 acuerdos, Fase 1 cerrada con test cruzado y ⚗️ Laboratorio) · Meta: sesión ~30 (≈ mediados-finales de octubre 2026) · **Sesión actual: 7/30 — miércoles 09-09: inicio Fase 2 (reescritura profunda, artículo por artículo con fecha+responsable). CPFF aprobado con quita 83.252 M€ sin mayoría absoluta del Congreso; Hacienda a medio gas. Sanidad 1.140 dup restantes, Ecología L7 al 0,00%.**
 
 ## Objetivo final (entregables en sesión ~30)
 
