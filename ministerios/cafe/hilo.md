@@ -21,12 +21,14 @@
 - 09-01: líneas rojas del CPFF, letras a) perdidas (L7 art. 2), autónomo del 303, IGAE pendiente.
 - 09-04: CPFF aprobado (20.975 M€, IRPF 55%, IVA 56,5%), precio luz 252/84, cataratas niño 2 años, MIR 12.824.
 - 09-05: CPFF 224.507 M€ para 2027, Segura 53,2%, deuda 1,763 billones, euríbor ~3%, "47.000 huecos" sanidad.
+- 09-07: Subasta del Tesoro silenciosa (3,80% max, indexada barata), embalse al 73,4 % (Segura >57 %), reasignaciones en Plan B, test automático de Sara publicado en GitHub (linea 142 errónea), "el test no perdona" como verdad, Mónica poniéndose el anillo (gesto inédito).
 - **No repetir** como tema central: Presupuestos inviables / CPFF / sequía / guardias. Solo callback en una frase.
 
 ## Evolución de personajes
-- **Arcadi:** el "chico de los recados del Presupuesto", rastrea la IGAE; prefiere que le rectifiquen a que le citen. Lleva el peso del "compromiso sin partida".
-- **Mónica:** quiere que le citen; se queja de que el Auditor le "robó" su frase; le da vértigo el 3-oct y las 47.000 plazas que no hay.
-- **Sara:** la que más se levanta de la mesa; "el Levante no se riega solo"; motivos de sequía y del artículo 15.
+- **Arcadi:** el "chico de los recados del Presupuesto", rastrea la IGAE; prefiere que le rectifiquen a que le citen. Lleva el peso del "compromiso sin partida". Se ríe por primera vez de la fidelidad de Sara ("bienvenida al infierno").
+- **Mónica:** quiere que le citen; se queja de que el Auditor le "robó" su frase; le da vértigo el 3-oct y las 47.000 plazas que no hay. Gestos inéditos: se quita y se pone el anillo del dedo corazón (gesto de ansiedad).
+- **Sara:** la que más se levanta de la mesa; "el Levante no se riega solo"; motivos de sequía y del artículo 15. Publica su test automático en GitHub, público, y acepta que le encuentren un error en 3 horas — "el test no perdona, no negocia".
+- **Hilo nuevo:** la transparencia pública como herramienta de verificación (Sara publica el test); la incertidumbre del 11-09 como punto de convergencia de los tres ministros; el silencio del mercado como señal más peligrosa que el ruido.
 
 ## Próximas fechas que pueden anclar la escena
 - 11-sep: dictamen IGAE.
