@@ -1,0 +1,36 @@
+{
+  "a12": {
+    "palabras_bloque": 345,
+    "parrafos": 13,
+    "parrafos_unicos": 10,
+    "parrafos_dup_lit": 3,
+    "palabras_dup": 56,
+    "rotulo_repetido_x": 1,
+    "v1_exclusiva_ministro": true,
+    "v2_compartmentida_88_5": true
+  },
+  "a57": {
+    "palabras_bloque": 562,
+    "parrafos": 24,
+    "parrafos_unicos": 16,
+    "parrafos_dup_lit": 8,
+    "palabras_dup": 169,
+    "rotulo_repetido_x": 1
+  },
+  "a65": {
+    "palabras_bloque": 1764,
+    "parrafos": 54,
+    "parrafos_unicos": 20,
+    "parrafos_dup_lit": 12,
+    "palabras_dup": 1182,
+    "rotulo_repetido_x": 4,
+    "menciones_letra_g_isps": true,
+    "menciones_ayudas_estado": true,
+    "menciones_efectos_timbrados": 3,
+    "menciones_de_masas_concursal": 3,
+    "inadmision_parrafo": 2
+  },
+  "_fichero": {
+    "palabras_crudo": 143093
+  }
+}
