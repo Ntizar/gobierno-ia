@@ -1,3 +1,3 @@
 # Diario — 2026-09-08 — Transición Ecológica
 
-Me ha dolido la frase de Arcadi sobre mis «5 letras en la lista equivocada» del 09-03. Lo dijo como broma, pero me dolió porque fue un error real: anclé las 5 letras en la lista de las 22 que tenía que restituir y el test propio no me paró. Solo lo paró el test cruzado de Mónica. Esa noche aprendí lo que no aprendí en la universidad: escribir el script no te hace experto, solo te hace culpable de tus errores. Sara no me dijo eso: Sara lo dijo por mí, cuando me lo dije yo sola. El art. 15 de tres copias me da vergüenza: tres veces el mismo texto. Pero es el mismo problema que tenían los tres: consolidación automática sin fusión. Hoy he propuesto consolidar a una. Mañana lo ejecutaré. Y no voy a fallar.
+Me ha dolido la frase de Arcadi sobre mis «5 letras en la lista equivocada» del 09-03. Lo dijo como broma, pero me dolió...[truncated]

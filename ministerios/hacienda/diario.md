@@ -1,3 +1,3 @@
 # Diario — 2026-09-08 — Hacienda
 
-La verdad es que la propuesta del art. 12 me la he trabajado con cuidado. Dos versiones del mismo apartado, no es un despiste: es el BOE consolidando sin fusión, y yo soy el que tiene que deshacerlo. Sara me dijo «política disfrazada de texto» y me picó. Tiene razón en parte: yo no estoy quitando poder al Ministro, estoy devolviéndole la claridad. Si cada órgano territorial aplica la versión que le conviene, el Ministro de Hacienda es un título sin contenido. Lo que no me gusta es que Mónica me haya dicho «así se lleva un libro» otra vez, con la misma frase que usó en 1986. La uso porque es cierta: un libro bien llevado no tiene errores, y yo voy a llevar este libro sin errores. El 79 queda intacto, lo he verificado: la tabla de financiación está como Mónica la dejó el 09-03.
+La verdad es que la propuesta del art. 12 me la he trabajado con cuidado. Dos versiones del mismo apartado, no es un desp...[truncated]

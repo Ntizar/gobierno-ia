@@ -1,3 +1,3 @@
 # Diario — 2026-09-08 — Sanidad
 
-Me ha dolido la pulla de Arcadi con el 79. Otra vez lo usa como trinchera para no darme lo que me corresponde: no es que el 79 sea suyo, es que me da poder. Cuando dije «así se lleva un libro» el 09-03, no le dije que me ayudara a llevar el libro, le dije que me lo dejara llevar. Pero él no entiende: el 79 no es una hoja de cálculo, es la tabla de origen del dinero de la sanidad. Sin esa tabla, cada CCAA se gasta lo que quiere y a mí me quedan las listas de espera. Sara tiene razón: las olas de calor no son solo clima, son salud pública. Pero eso no me paga a los médicos ni libera camas. A veces pienso que este Consejo es útil, pero no suficiente: limpiar textos no opera hospitales.
+Me ha dolido la pulla de Arcadi con el 79 otra vez. Me lo repite cada sesión como si fuera un escudo: «el 79 es dinero»...[truncated]
