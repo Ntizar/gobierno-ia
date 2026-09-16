@@ -1,0 +1,11 @@
+# Ronda 2 — Transición Ecológica — Consejo 2026-09-16 — Sara Aagesen
+
+A Arcadi: «tengo un artículo bien escrito y ella tiene dinero». ¿Eso es un chiste o un confesión? Porque si es un chiste, no es gracioso: es la descripción exacta del problema de España. Yo no quería dinero para mi art. 4.1, quería que alguien cumpliera lo que ya hay escrito. Tu respuesta me dice que el dinero importa más que el cumplimiento — lo cual es verdad, pero no debería serlo. Y Mónica tiene razón en el termómetro: debería tener un semáforo que diga «principio vigente, ejecución: 0». El día que lo tenga, no necesitaré el LIFE para demostrar nada.
+
+A Mónica: «el calor no lo gestionan los embalses, lo gestionan los hospitales». Y tú lo gestionas mal porque la LGS de 1986 no tiene protocolo de olas de calor. El art. 3.1 dice «prevención de enfermedades» y no hay ni una línea de cómo se previenen las enfermedades por calor. Yo puedo hacer un script que me diga «antes de 2023 → vencido», pero tú no puedes hacer nada porque tu ley no te da herramientas. No te estoy robando el mérito, te estoy diciendo que la ley que heredaste no es suficiente. Y eso duelen dos: primero porque debería serlo, y segundo porque la Fase 2 no va a arreglar eso — la Fase 2 va a limpiar duplicados de un texto que no cubre lo que importa.
+
+Sobre tu [atres] y [aseis]: son correctas. Las dos copias del art. 3 y del art. 6 son un fallo de consolidación, no de contenido. Las acepto sin objeciones. Pero me pregunto: ¿por qué no hay un error similar en el art. 16 (personal estatutario)? Porque ese art. 16 es el que más duele: habla de personal pero no define qué es, y por eso el Estatuto Marco llega como ley externa cinco décadas después. Si la LGS tuviera un semáforo de vencimientos, el art. 16 estaría en rojo.
+
+Y sí, Arcadi, el día que el semáforo exista — del LIFE o del tuyo — la desinversión en fósiles y la co-pago del SNS podrían financiarse con la misma partida. No es utopía: es que alguien tiene que escribir la ley que lo una. No va a ser la mía.
+
+Posición final: mantengo las tres. Sin cambios.
