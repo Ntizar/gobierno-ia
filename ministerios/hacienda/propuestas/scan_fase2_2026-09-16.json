@@ -1,0 +1,413 @@
+{
+ "fichero": "BOE-A-2003-23186.md",
+ "fecha": "2026-09-16",
+ "total_bloques_defecto": 114,
+ "sum_dup": 45154,
+ "top": [
+  {
+   "bloque": "a95",
+   "lineas": "2809-3128",
+   "palabras": 6313,
+   "rot_dup": 7,
+   "num_dup": 30,
+   "palabras_dup": 5072,
+   "ratio": 0.803
+  },
+  {
+   "bloque": "a43",
+   "lineas": "1179-1384",
+   "palabras": 4442,
+   "rot_dup": 5,
+   "num_dup": 14,
+   "palabras_dup": 3342,
+   "ratio": 0.752
+  },
+  {
+   "bloque": "a29",
+   "lineas": "611-782",
+   "palabras": 2632,
+   "rot_dup": 5,
+   "num_dup": 12,
+   "palabras_dup": 1951,
+   "ratio": 0.741
+  },
+  {
+   "bloque": "a81",
+   "lineas": "2253-2468",
+   "palabras": 3665,
+   "rot_dup": 4,
+   "num_dup": 24,
+   "palabras_dup": 1924,
+   "ratio": 0.525
+  },
+  {
+   "bloque": "a26",
+   "lineas": "383-502",
+   "palabras": 2751,
+   "rot_dup": 3,
+   "num_dup": 15,
+   "palabras_dup": 1861,
+   "ratio": 0.676
+  },
+  {
+   "bloque": "a68",
+   "lineas": "1939-2098",
+   "palabras": 3012,
+   "rot_dup": 3,
+   "num_dup": 15,
+   "palabras_dup": 1644,
+   "ratio": 0.546
+  },
+  {
+   "bloque": "a233",
+   "lineas": "7159-7316",
+   "palabras": 2740,
+   "rot_dup": 3,
+   "num_dup": 34,
+   "palabras_dup": 1264,
+   "ratio": 0.461
+  },
+  {
+   "bloque": "a203",
+   "lineas": "6151-6298",
+   "palabras": 2640,
+   "rot_dup": 2,
+   "num_dup": 11,
+   "palabras_dup": 1250,
+   "ratio": 0.473
+  },
+  {
+   "bloque": "a199",
+   "lineas": "5869-5980",
+   "palabras": 2569,
+   "rot_dup": 3,
+   "num_dup": 21,
+   "palabras_dup": 1228,
+   "ratio": 0.478
+  },
+  {
+   "bloque": "a65",
+   "lineas": "1747-1856",
+   "palabras": 1764,
+   "rot_dup": 4,
+   "num_dup": 23,
+   "palabras_dup": 1182,
+   "ratio": 0.67
+  },
+  {
+   "bloque": "a93",
+   "lineas": "2699-2790",
+   "palabras": 1796,
+   "rot_dup": 2,
+   "num_dup": 6,
+   "palabras_dup": 1135,
+   "ratio": 0.632
+  },
+  {
+   "bloque": "a112",
+   "lineas": "3549-3638",
+   "palabras": 2560,
+   "rot_dup": 3,
+   "num_dup": 9,
+   "palabras_dup": 1074,
+   "ratio": 0.42
+  },
+  {
+   "bloque": "a27",
+   "lineas": "503-574",
+   "palabras": 1909,
+   "rot_dup": 2,
+   "num_dup": 9,
+   "palabras_dup": 893,
+   "ratio": 0.468
+  },
+  {
+   "bloque": "a200",
+   "lineas": "5981-6064",
+   "palabras": 1388,
+   "rot_dup": 1,
+   "num_dup": 3,
+   "palabras_dup": 779,
+   "ratio": 0.561
+  },
+  {
+   "bloque": "a174",
+   "lineas": "4915-5002",
+   "palabras": 1297,
+   "rot_dup": 3,
+   "num_dup": 16,
+   "palabras_dup": 768,
+   "ratio": 0.592
+  },
+  {
+   "bloque": "a135",
+   "lineas": "4005-4052",
+   "palabras": 1456,
+   "rot_dup": 1,
+   "num_dup": 4,
+   "palabras_dup": 608,
+   "ratio": 0.418
+  },
+  {
+   "bloque": "a5",
+   "lineas": "83-144",
+   "palabras": 1039,
+   "rot_dup": 3,
+   "num_dup": 15,
+   "palabras_dup": 589,
+   "ratio": 0.567
+  },
+  {
+   "bloque": "a180",
+   "lineas": "5257-5328",
+   "palabras": 1267,
+   "rot_dup": 3,
+   "num_dup": 11,
+   "palabras_dup": 572,
+   "ratio": 0.451
+  },
+  {
+   "bloque": "a239",
+   "lineas": "7485-7602",
+   "palabras": 1823,
+   "rot_dup": 2,
+   "num_dup": 14,
+   "palabras_dup": 568,
+   "ratio": 0.312
+  },
+  {
+   "bloque": "a221",
+   "lineas": "6665-6730",
+   "palabras": 984,
+   "rot_dup": 2,
+   "num_dup": 12,
+   "palabras_dup": 552,
+   "ratio": 0.561
+  },
+  {
+   "bloque": "a99",
+   "lineas": "3251-3308",
+   "palabras": 1221,
+   "rot_dup": 1,
+   "num_dup": 8,
+   "palabras_dup": 549,
+   "ratio": 0.45
+  },
+  {
+   "bloque": "a41",
+   "lineas": "1061-1124",
+   "palabras": 998,
+   "rot_dup": 2,
+   "num_dup": 12,
+   "palabras_dup": 526,
+   "ratio": 0.527
+  },
+  {
+   "bloque": "a67",
+   "lineas": "1883-1938",
+   "palabras": 1154,
+   "rot_dup": 2,
+   "num_dup": 2,
+   "palabras_dup": 523,
+   "ratio": 0.453
+  },
+  {
+   "bloque": "a224",
+   "lineas": "6759-6820",
+   "palabras": 1010,
+   "rot_dup": 2,
+   "num_dup": 8,
+   "palabras_dup": 502,
+   "ratio": 0.497
+  },
+  {
+   "bloque": "a198",
+   "lineas": "5805-5868",
+   "palabras": 1157,
+   "rot_dup": 1,
+   "num_dup": 6,
+   "palabras_dup": 492,
+   "ratio": 0.425
+  },
+  {
+   "bloque": "a211",
+   "lineas": "6447-6494",
+   "palabras": 1020,
+   "rot_dup": 1,
+   "num_dup": 5,
+   "palabras_dup": 481,
+   "ratio": 0.472
+  },
+  {
+   "bloque": "a229",
+   "lineas": "6993-7094",
+   "palabras": 2263,
+   "rot_dup": 1,
+   "num_dup": 5,
+   "palabras_dup": 448,
+   "ratio": 0.198
+  },
+  {
+   "bloque": "a82",
+   "lineas": "2469-2514",
+   "palabras": 790,
+   "rot_dup": 2,
+   "num_dup": 4,
+   "palabras_dup": 442,
+   "ratio": 0.559
+  },
+  {
+   "bloque": "a104",
+   "lineas": "3387-3446",
+   "palabras": 1024,
+   "rot_dup": 1,
+   "num_dup": 4,
+   "palabras_dup": 437,
+   "ratio": 0.427
+  },
+  {
+   "bloque": "a95bis",
+   "lineas": "3129-3216",
+   "palabras": 1489,
+   "rot_dup": 1,
+   "num_dup": 5,
+   "palabras_dup": 419,
+   "ratio": 0.281
+  },
+  {
+   "bloque": "a181",
+   "lineas": "5329-5414",
+   "palabras": 654,
+   "rot_dup": 3,
+   "num_dup": 6,
+   "palabras_dup": 417,
+   "ratio": 0.638
+  },
+  {
+   "bloque": "a170",
+   "lineas": "4811-4866",
+   "palabras": 1058,
+   "rot_dup": 1,
+   "num_dup": 4,
+   "palabras_dup": 399,
+   "ratio": 0.377
+  },
+  {
+   "bloque": "a236",
+   "lineas": "7405-7446",
+   "palabras": 1016,
+   "rot_dup": 1,
+   "num_dup": 6,
+   "palabras_dup": 387,
+   "ratio": 0.381
+  },
+  {
+   "bloque": "a155",
+   "lineas": "4445-4498",
+   "palabras": 1061,
+   "rot_dup": 1,
+   "num_dup": 5,
+   "palabras_dup": 357,
+   "ratio": 0.336
+  },
+  {
+   "bloque": "a159",
+   "lineas": "4587-4624",
+   "palabras": 780,
+   "rot_dup": 1,
+   "num_dup": 7,
+   "palabras_dup": 350,
+   "ratio": 0.449
+  },
+  {
+   "bloque": "a42",
+   "lineas": "1125-1178",
+   "palabras": 880,
+   "rot_dup": 1,
+   "num_dup": 2,
+   "palabras_dup": 333,
+   "ratio": 0.378
+  },
+  {
+   "bloque": "a136",
+   "lineas": "4053-4104",
+   "palabras": 919,
+   "rot_dup": 2,
+   "num_dup": 6,
+   "palabras_dup": 331,
+   "ratio": 0.36
+  },
+  {
+   "bloque": "a179",
+   "lineas": "5221-5256",
+   "palabras": 672,
+   "rot_dup": 1,
+   "num_dup": 2,
+   "palabras_dup": 300,
+   "ratio": 0.446
+  },
+  {
+   "bloque": "a62",
+   "lineas": "1663-1728",
+   "palabras": 1201,
+   "rot_dup": 1,
+   "num_dup": 5,
+   "palabras_dup": 297,
+   "ratio": 0.247
+  },
+  {
+   "bloque": "a142",
+   "lineas": "4189-4230",
+   "palabras": 774,
+   "rot_dup": 1,
+   "num_dup": 4,
+   "palabras_dup": 294,
+   "ratio": 0.38
+  },
+  {
+   "bloque": "a188",
+   "lineas": "5561-5620",
+   "palabras": 722,
+   "rot_dup": 2,
+   "num_dup": 2,
+   "palabras_dup": 293,
+   "ratio": 0.406
+  },
+  {
+   "bloque": "a235",
+   "lineas": "7355-7404",
+   "palabras": 1142,
+   "rot_dup": 1,
+   "num_dup": 4,
+   "palabras_dup": 287,
+   "ratio": 0.251
+  },
+  {
+   "bloque": "a46",
+   "lineas": "1401-1438",
+   "palabras": 726,
+   "rot_dup": 1,
+   "num_dup": 7,
+   "palabras_dup": 273,
+   "ratio": 0.376
+  },
+  {
+   "bloque": "a242",
+   "lineas": "7703-7746",
+   "palabras": 1015,
+   "rot_dup": 2,
+   "num_dup": 8,
+   "palabras_dup": 271,
+   "ratio": 0.267
+  },
+  {
+   "bloque": "a151",
+   "lineas": "4367-4406",
+   "palabras": 567,
+   "rot_dup": 1,
+   "num_dup": 5,
+   "palabras_dup": 260,
+   "ratio": 0.459
+  }
+ ]
+}
