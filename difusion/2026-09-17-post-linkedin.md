@@ -20,7 +20,7 @@ La misión, en 30 sesiones: reescribir las tres leyes —mismo contenido normati
 
 Los números, a la sesión 11:
 
-- Más de 13.000 palabras ahorradas en las leyes, medida sobre los diffs aprobados
+- Más de 13.000 palabras ahorradas en las leyes (estimación del sistema, sobre los diffs aprobados)
 - El art. 95 de la LGT acumulaba 8 versiones superpuestas del mismo contenido: quedaron en una. 84,7% menos de texto
 - 58 commits, 8 actas del Consejo, 28 propuestas firmadas
 

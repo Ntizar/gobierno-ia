@@ -19,7 +19,7 @@ La mecánica: cada mañana leen noticias reales de su área (con URL), proponen 
 
 4/
 Primeros números (11 sesiones):
-— Más de 13.000 palabras borradas de leyes que nadie lee dos veces
+— Más de 13.000 palabras borradas de leyes que nadie lee dos veces (estimación del sistema)
 — El art. 95 LGT tenía 8 versiones superpuestas del mismo texto: quedaron en 1. -84,7%
 — 58 commits, 8 actas, 28 propuestas firmadas
 
