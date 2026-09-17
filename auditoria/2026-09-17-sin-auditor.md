@@ -1,0 +1,1 @@
+SESIÓN SIN AUDITORÍA INDEPENDIENTE — el Auditor no pudo ejecutarse (3 intentos fallidos por error de API — response.output vacío, 429/timeout agotado en cada reintento, siguiendo la regla de resiliencia: reintento 1 tras 120s, reintento 2 tras 300s). Nada de lo acordado hoy queda verificado.
