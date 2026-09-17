@@ -3,11 +3,11 @@
 > Lo actualiza el coordinador del café cada día al final de la escena. Este archivo es la memoria de la trama: qué hilos están vivos, qué temas ya se han tratado y cómo evolucionan los personajes. Se lee ANTES de escribir la escena del día.
 
 ## Sesión actual
-- **Misión 30 sesiones:** sesión 7/30 → **inicio de Fase 2** (reescritura profunda, artículo por artículo con fecha+responsable). Fase 1 cerrada el 09-04 (test cruzado y ⚗️ Laboratorio).
+- **Misión 30 sesiones:** sesión 9/30 → **inicio de Fase 2** (reescritura profunda, artículo por artículo con fecha+responsable). Fase 1 cerrada el 09-04 (test cruzado y ⚗️ Laboratorio).
 - **CPFF:** aprobado con quita 83.252 M€ pero **sin mayoría absoluta en el Congreso**; Hacienda "a medio gas".
-- **IGAE (11-sep):** dictamen = fecha fatal para las reasignaciones de Sanidad y Ecología. Arcadi "rastrea la IGAE" por encargo del Presidente.
-- **Sanidad:** 1.140 palabras dup. restantes (16 bloques); vale de resolución (⚗️ Laboratorio). Huelga sindicatos médicos, paro el **3-oct**; Estatuto Marco aprobado en 2ª vuelta, "interlocución rota".
-- **Ecología:** L7 limpia al 0,00% (BOE Autorregenerativo); sequía archivada para Fase 3.
+- **IGAE (11-sep):** dictamen = fecha fatal para las reasignaciones de Sanidad y Ecología. Arcadi "rastrea la IGAE" por encargo del Presidente. **Dictamen del 11 ya pasado, sin cifra.**
+- **Sanidad:** 1.140 palabras dup. restantes (16 bloques); vale de resolución (⚗️ Laboratorio). Huelga indefinida de médicos confirmada para **28-oct**; SATSE/CCOO/UGT/CSIF apoyan el Estatuto Marco, médicos lo rechazan; Feijóo pide cese de Mónica García; Sánchez dice que el "interlocutor competente es Sanidad"; listas de espera: Madrid reclamada por posible manipulación.
+- **Ecología:** L7 limpia al 0,00% (BOE Autorregenerativo); sequía archivada para Fase 3. Embalses al 61,8 % (Ebro 49,8 %), Tajo-Segura trasvase a 27 hm³.
 
 ## Hilos abiertos
 - El Presupuesto "inviable" que se presenta igual (compromiso sin partida) — NO volver a centrar la escena en esto sin avance nuevo.
@@ -18,6 +18,7 @@
 - Fase 2: reescritura artículo a artículo — a partir de ahora la escena puede referirse a "están reescribiendo la ley".
 
 | Temas ya tratados (últimos cafés)
+|- 09-17: Scope A+, prima riesgo 44 pts; huelga médicos 28-oct confirmada; IGAE 11-sep sin cifra; embalses 61,8 % (Ebro 49,8 %, Tajo-Segura 27 hm³); Madrid manipulando listas de espera; tensión Arcadi↔Mónica sobre prioridad (números vs. huelga); Arcadi guarda periódico boca abajo; Mónica se queda frases ajenas; Sara lleva papel arrugado con datos, no móvil.
 |- 09-01: líneas rojas del CPFF, letras a) perdidas (L7 art. 2), autónomo del 303, IGAE pendiente.
 |- 09-04: CPFF aprobado (20.975 M€, IRPF 55%, IVA 56,5%), precio luz 252/84, cataratas niño 2 años, MIR 12.824.
 |- 09-05: CPFF 224.507 M€ para 2027, Segura 53,2%, deuda 1,763 billones, euríbor ~3%, "47.000 huecos" sanidad.
@@ -28,10 +29,11 @@
 ## Evolución de personajes
 - **Arcadi:** el "chico de los recados del Presupuesto", rastrea la IGAE; prefiere que le rectifiquen a que le citen. Lleva el peso del "compromiso sin partida". Se ríe por primera vez de la fidelidad de Sara ("bienvenida al infierno"). **Nuevo:** abre por primera vez la "bifurcación" (escenario donde todo se cae: CPFF cae en Congreso → reasignaciones caen). Promete pedir el dictamen IGAE antes de las 9 del lunes — gesto de compromiso sin precedentes. Acepta que la desconfianza del 81 % es "más vieja que el CPFF".
 - **Mónica:** quiere que le citen; se queja de que el Auditor le "robó" su frase; le da vértigo el 3-oct y las 47.000 plazas que no hay. Gestos inéditos: se quita y se pone el anillo del dedo corazón (gesto de ansiedad). **Nuevo:** gira el anillo corazón→índice→corazón (ansiedad que busca salida y vuelve). Conecta barómetro CIS (81 %) con listas de espera y huelga: "el ochenta y uno se convierte en ochenta y nueve". Formula la "bifurcación" como concepto compartido.
-- **Sara:** la que más se levanta de la mesa; "el Levante no se riega solo"; motivos de sequía y del artículo 15. Publica su test automático en GitHub, público, y acepta que le encuentren un error en 3 horas — "el test no perdona, no negocia". **Nuevo:** no viene al café (por primera vez no aparece); se queda revisando anexos del informe de sequía. "La media es el refugio del que no quiere mirar" — frase que define su pensamiento sobre los datos.
-- **Hilo nuevo:** la transparencia pública como herramienta de verificación (Sara publica el test); la incertidumbre del 11-09 como punto de convergencia de los tres ministros; el silencio del mercado como señal más peligrosa que el ruido; la "bifurcación" como concepto narrativo compartido (escenario donde CPFF cae en Congreso → reasignaciones caen → 81 % se convierte en 89 %); la desconfianza del 81 % como tema que trasciende las leyes.
+|- **Sara:** la que más se levanta de la mesa; "el Levante no se riega solo"; motivos de sequía y del artículo 15. Publica su test automático en GitHub, público, y acepta que le encuentren un error en 3 horas — "el test no perdona, no negocia". **Nuevo:** lleva papel arrugado (no móvil) al café; llega tarde y sin abrigo; frase final de 17-sep: "La voluntad la compran los inversores cuando ven que no hay caos. Y el caos empieza el 28".
+|- **Hilo nuevo:** la transparencia pública como herramienta de verificación (Sara publica el test); la incertidumbre del 11-09 como punto de convergencia de los tres ministros; el silencio del mercado como señal más peligrosa que el ruido; la "bifurcación" como concepto narrativo compartido (escenario donde CPFF cae en Congreso → reasignaciones caen → 81 % se convierte en 89 %); la desconfianza del 81 % como tema que trasciende las leyes.
+|- **Hilo nuevo (17-sep):** tensión Arcadi↔Mónica sobre prioridad (números vs. personas). Arcadi gira periódico boca abajo (derrota silenciosa). Mónica se queda frases ajenas y cede una vez con "tienes razón" (primera vez sin ironía). Madrid manipulando listas de espera: dato que no se puede verificar, pero el que nos va a decidir si ganamos o perdemos.
 
 ## Próximas fechas que pueden anclar la escena
-- 11-sep: dictamen IGAE.
-- 3-oct: paro sanitario.
-- Mediados-finales octubre: sesión ~30 (entregables).
+|- 28-oct: huelga indefinida de médicos (nueva fecha fatal).
+|- 11-sep: dictamen IGAE (ya pasado sin cifra).
+|- Mediados-finales octubre: sesión ~30 (entregables).
