@@ -1,7 +1,0 @@
-# Ronda 2 — Transición Ecológica (2026-09-08)
-
-Mónica, tienes razón en el art. 15. Tres copias. Lo reconozco y me pesa: el viernes pasado, la prisa del laboratorio me hizo copiar y pegar sin fusión, y hoy el consolidado lleva tres versiones del mismo artículo. No es una disculpa, es un hecho: si no lo reconozco, no lo arreglo. El diff del art. 15 es limpiar las dos copias extra, mantener el texto consolidado (v3) y añadir el título al bloque de etiquetas.
-
-Arcadi, el art. 62 con duplicaciones es un problema serio de tu competencia. Yo tengo el art. 1 de la Ley de Residuos separado del título por un punto, el art. 2 con líneas en blanco irregulares, y el art. 15 con tres copias. Tú tienes el art. 12 con dos versiones del apartado 3 y el art. 62 duplicado. Los dos tenemos que revisar. Pero no me digas que «aquí no corremos» cuando tu art. 62 lleva duplicado desde 2003. Yo lo reconozco, tú lo niegas. Eso es lo que me jode.
-
-Mi posición: mantengo las tres propuestas del art. 1, art. 2 y art. 15 de la Ley 7/2021. El art. 15 es prioritario: tres copias es un fallo de estructura que impide saber qué versión es la vigente. El art. 1 y art. 2 son de formato: título integrado en el bloque de etiquetas y líneas en blanco uniformizadas. Sin contenido normativo cambiante, solo consolidación.
