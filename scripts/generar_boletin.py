@@ -152,7 +152,7 @@ def main():
         cuerpo = '<div class="dia"><h2>Pendiente de la primera jornada</h2><div class="seccion"><ul><li>Primer pase de lista: mañana a las 10:00.</li></ul></div></div>'
 
     plantilla = leer(os.path.join(REPO, "docs/index.html"))
-    nuevo = re.sub(r"<!-- GENERADO.*?-->[\s\S]*?(?=<footer>)", "<!-- GENERADO -->" + cuerpo + "\n  ", plantilla, flags=re.S)
+    nuevo = re.sub(r"<!-- GENERADO.*?-->[\s\S]*?(?=<footer>)", "<!-- GENERADO -->" + cuerpo + "\n  </div>\n  ", plantilla, flags=re.S)
     # actualizar el aviso "pendiente" solo si no hay días
     open(os.path.join(REPO, "docs/index.html"), "w", encoding="utf-8").write(nuevo)
     print("OK, días renderizados:", len(dias))
