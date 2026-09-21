@@ -21,6 +21,8 @@ def leer(rel, fuente):
     if fuente == "head":
         return subprocess.run(["git", "show", "HEAD:" + rel], cwd=RAIZ,
                               capture_output=True).stdout.decode("utf-8", "replace")
+    if fuente == "bak":
+        rel = rel + ".bak-2026-09-21"
     with io.open(os.path.join(RAIZ, rel), encoding="utf-8", errors="replace") as f:
         return f.read()
 

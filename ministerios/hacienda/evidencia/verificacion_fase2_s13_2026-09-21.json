@@ -1,0 +1,165 @@
+{
+ "fuente": "worktree",
+ "leyes": {
+  "hacienda": {
+   "fichero": "ministerios/hacienda/leyes/BOE-A-2003-23186.md",
+   "palabras_fichero": 133861,
+   "sha256": "14aeb1ca76b631cd",
+   "bloques": {
+    "a12": {
+     "linea_cabecera": 225,
+     "cabeceras_cuerpo": [
+      "Artículo 12. Interpretación de las normas tributarias."
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 168,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 60.15,
+     "palabras_sin_traza_boe": 7,
+     "ancla_boe_encontrada": true
+    },
+    "a43": {
+     "linea_cabecera": 1165,
+     "cabeceras_cuerpo": [
+      "Artículo 43. Responsables subsidiarios."
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 1079,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 83.81,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    },
+    "a62": {
+     "linea_cabecera": 1489,
+     "cabeceras_cuerpo": [
+      "Artículo 62. Plazos para el pago."
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 813,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 85.61,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    },
+    "a95": {
+     "linea_cabecera": 2613,
+     "cabeceras_cuerpo": [
+      "Artículo 95. Carácter reservado de los datos con trascendencia tributaria."
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 993,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 80.5,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    }
+   }
+  },
+  "sanidad": {
+   "fichero": "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
+   "palabras_fichero": 22482,
+   "sha256": "b60a808323a3c012",
+   "bloques": {
+    "atres": {
+     "linea_cabecera": 27,
+     "cabeceras_cuerpo": [
+      "Artículo tres"
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 113,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 63.64,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    },
+    "aseis": {
+     "linea_cabecera": 55,
+     "cabeceras_cuerpo": [
+      "Artículo seis"
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 127,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 64.76,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    },
+    "adieciseis": {
+     "linea_cabecera": 175,
+     "cabeceras_cuerpo": [
+      "Artículo dieciséis"
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 401,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 83.65,
+     "palabras_sin_traza_boe": 96,
+     "ancla_boe_encontrada": true
+    },
+    "aveinte": {
+     "linea_cabecera": 283,
+     "cabeceras_cuerpo": [
+      "Artículo veinte"
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 204,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 77.78,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    }
+   }
+  },
+  "transicion-ecologica": {
+   "fichero": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
+   "palabras_fichero": 26537,
+   "sha256": "28d6bfbd636761a2",
+   "bloques": {
+    "a1": {
+     "linea_cabecera": 169,
+     "cabeceras_cuerpo": [],
+     "n_copias": 0,
+     "palabras_bloque": 139,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 93.02,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    },
+    "a2": {
+     "linea_cabecera": 175,
+     "cabeceras_cuerpo": [],
+     "n_copias": 0,
+     "palabras_bloque": 320,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 95.38,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    },
+    "a1-7": {
+     "linea_cabecera": 398,
+     "cabeceras_cuerpo": [
+      "Artículo 15. Instalación de puntos de recarga eléctrica."
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 1441,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 90.59,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    }
+   }
+  }
+ }
+}

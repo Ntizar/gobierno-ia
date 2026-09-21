@@ -47,7 +47,17 @@ def leer_git(rel):
                          capture_output=True)
     if out.returncode != 0:
         raise SystemExit("git show fallo para %s: %s" % (rel, out.stderr.decode("utf-8", "replace")))
-    return out.stdout.decode("utf-8", "replace")
+    return out.stdout
+
+
+def leer_bytes(rel, fuente):
+    """Bytes crudos (comparables con sha256sum / con los manifiestos)."""
+    if fuente == "head":
+        return leer_git(rel)
+    if fuente == "bak":
+        rel = rel + ".bak-2026-09-21"
+    with io.open(os.path.join(RAIZ, rel), "rb") as f:
+        return f.read()
 
 
 def normalizar(texto):
@@ -141,12 +151,13 @@ def main():
 
     salida = {"fuente": fuente, "leyes": {}}
     for min_, cfg in VERIF.items():
-        ley_txt = leer_git(cfg["ley"]) if fuente == "head" else leer(os.path.join(RAIZ, cfg["ley"]))
+        crudo = leer_bytes(cfg["ley"], fuente)
+        ley_txt = crudo.decode("utf-8", "replace")
         boe_raw = leer(os.path.join(RAIZ, cfg["boe"]))
         info = {
             "fichero": cfg["ley"],
             "palabras_fichero": len(ley_txt.split()),
-            "sha256": hashlib.sha256(ley_txt.encode("utf-8")).hexdigest()[:16],
+            "sha256_raw": hashlib.sha256(crudo).hexdigest(),
             "bloques": analiza(ley_txt, boe_raw, cfg["objetivo"]),
         }
         salida["leyes"][min_] = info

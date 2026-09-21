@@ -1,0 +1,335 @@
+{
+ "ley": "Ley 58/2003 General Tributaria (BOE-A-2003-23186)",
+ "fecha": "2026-09-21",
+ "sesion": "13/30",
+ "ministerio": "hacienda",
+ "fichero": "ministerios/hacienda/leyes/BOE-A-2003-23186.md",
+ "script": "ministerios/hacienda/propuestas/apply_fase2_2026-09-21.py",
+ "copia_seguridad": {
+  "ruta": "ministerios/hacienda/leyes/BOE-A-2003-23186.md.bak-2026-09-21",
+  "sha256": "917ee1224cd30321680af8fb2bbe59aed418f1a2cc83b4ac1df7b59ed63840ee"
+ },
+ "fuente_acuerdo": "consejo/actas/2026-09-08.md (arts. 12 y 62) y consejo/actas/2026-09-16.md (arts. 95 y 43)",
+ "fuente_verdad_fidelidad": "ministerios/hacienda/evidencia/boe_consolidado_BOE-A-2003-23186.html",
+ "evidencia_sha256": {
+  "boe_consolidado_BOE-A-2003-23186.html": "b29db001d1a71f01c0c76e72a3c5a7a87982044d2d22e2d05a77e5b084da2ba2",
+  "propuestas/2026-09-08.md": "c2fce9dff8cc2d6f3f161c31d97e550877b7a0c07f020ecc7f8f7b75cf965691",
+  "propuestas/2026-09-16.md": "eb57b490c6024cb40b4c05015489c97fdaf5b11bf136f10ba94f28b4db56ac1b"
+ },
+ "verificacion_independiente": "scripts/verifica_diffs_s13.py (herramienta de Presidencia) — salida archivada en evidencia/verificacion_fase2_s13_2026-09-21.json",
+ "sha256_antes": "917ee1224cd30321680af8fb2bbe59aed418f1a2cc83b4ac1df7b59ed63840ee",
+ "sha256_despues": "14aeb1ca76b631cd23f7f3f8b90df1262705666f803e3e5e0f1df9820efb3d8d",
+ "palabras_antes": 143093,
+ "palabras_despues": 133861,
+ "lineas_antes": 8858,
+ "lineas_despues": 8392,
+ "eol": "LF preservado (escritura con newline=''); sin BOM",
+ "ahorro_total_palabras": 9232,
+ "diffs": [
+  {
+   "etiqueta": "a12",
+   "titulo": "Artículo 12. Interpretación de las normas tributarias.",
+   "acuerdo": "Unificar en un solo texto el apartado 3 (facultad interpretativa exclusiva del Ministro de Hacienda; los organos del art. 88.5 dictan criterios de aplicacion interna)",
+   "fuente_texto": "ministerios/hacienda/propuestas/2026-09-08.md (Propuesta 1)",
+   "lineas_antes": [
+    225,
+    252
+   ],
+   "lineas_despues": [
+    225,
+    238
+   ],
+   "n_lineas_antes": 28,
+   "n_lineas_despues": 14,
+   "palabras_antes": 345,
+   "palabras_despues": 172,
+   "ahorro_palabras": 173,
+   "cabeceras_antes": 2,
+   "cabeceras_despues": 1,
+   "sha256_bloque_antes": "1f813bd2b61ad1130d7985f05af1f5b361d95e4bba2927ef2f682565519950e1",
+   "sha256_bloque_despues": "903339f7b72c74a936f8935f0f24c6bb29633625cd4c9e3e40e94ba0c18d5e2a",
+   "copias_antes": [
+    {
+     "n": 1,
+     "lineas": [
+      231,
+      238
+     ],
+     "palabras": 109,
+     "sha256": "fa47cd9e75d56aba76151232608cfd99de747501ac2c5e561c5d137ce1813a02",
+     "primera_linea": "1. Las normas tributarias se interpretarán con arreglo a lo dispuesto en el apartado 1 del artículo 3 del Código Civil."
+    },
+    {
+     "n": 2,
+     "lineas": [
+      239,
+      252
+     ],
+     "palabras": 218,
+     "sha256": "eedead8453fbd02f0dd837432938603b06d87ea35c9dc3723cc69c908559f617",
+     "primera_linea": "1. Las normas tributarias se interpretarán con arreglo a lo dispuesto en el apartado 1 del artículo 3 del Código Civil."
+    }
+   ],
+   "copia_conservada": 2,
+   "texto_eliminado_200": "## [a12] Artículo 12\n\nArtículo 12. Interpretación de las normas tributarias.\n\nArtículo 12. Interpretación de las normas tributarias.\n\n1. Las normas tributarias se interpretarán con arreglo a lo dispue",
+   "texto_anadido_200": "## [a12] Artículo 12\n\nArtículo 12. Interpretación de las normas tributarias.\n\n1. Las normas tributarias se interpretarán con arreglo a lo dispuesto en el apartado 1 del artículo 3 del Código Civil.\n\n2",
+   "nota": "De las 2 copias del apartado 1-3, la copia 2 es la que coincide LITERALMENTE con el BOE consolidado archivado (art. 12.3 = Ministro de Hacienda y Administraciones Públicas + órganos del art. 88.5). Se conservan de ella los apartados 1 y 2 (literal BOE) y se sustituyen las DOS versiones del apartado 3 por el texto unico aprobado por el Consejo el 08-09 (Auditoria 09-08: VALIDADA, 'sin perdida de contenido normativo'). AVISO DE FIDELIDAD PARA EL AUDITOR: el texto aprobado atribuye la facultad interpretativa de forma EXCLUSIVA al Ministro de Hacienda, mientras el BOE consolidado la atribuye al Ministro y a los órganos del art. 88.5; es, por tanto, un cambio normativo aprobado, no una restauracion literal. El texto literal del BOE se reproduce en 'boe_literal_apartado_3'.",
+   "boe_literal_apartado_3": "3. En el ámbito de las competencias del Estado, la facultad de dictar disposiciones interpretativas o aclaratorias de las leyes y demás normas en materia tributaria corresponde al Ministro de Hacienda y Administraciones Públicas y a los órganos de la Administración Tributaria a los que se refiere el artículo 88.5 de esta Ley."
+  },
+  {
+   "etiqueta": "a62",
+   "titulo": "Artículo 62. Plazos para el pago.",
+   "acuerdo": "Consolidar plazos de pago duplicados SIN perder contenido normativo (condicion del acuerdo): texto literal del BOE consolidado",
+   "fuente_texto": "BOE consolidado archivado + numeracion de la propuesta 2026-09-08.md (Propuesta 2)",
+   "lineas_antes": [
+    1663,
+    1728
+   ],
+   "lineas_despues": [
+    1489,
+    1532
+   ],
+   "n_lineas_antes": 66,
+   "n_lineas_despues": 44,
+   "palabras_antes": 1201,
+   "palabras_despues": 817,
+   "ahorro_palabras": 384,
+   "cabeceras_antes": 2,
+   "cabeceras_despues": 1,
+   "sha256_bloque_antes": "65939beff7eec176aa436979a3599ffb3e4bbc8008f5cc0bd231520ab31f8258",
+   "sha256_bloque_despues": "8e2eab6cd23842a05b8bc1f54fbea0482436cf35b984f98ed74286a1964604a6",
+   "copias_antes": [
+    {
+     "n": 1,
+     "lineas": [
+      1669,
+      1700
+     ],
+     "palabras": 626,
+     "sha256": "27af50dca4fb91e5e040f0bbbc30e4b6f30708e2c80fc4927eb173f84bc9e8e9",
+     "primera_linea": "1. Las deudas tributarias resultantes de una autoliquidación deberán pagarse en los plazos que establezca la normativa d"
+    },
+    {
+     "n": 2,
+     "lineas": [
+      1701,
+      1728
+     ],
+     "palabras": 559,
+     "sha256": "5f5f9ce04a9821b7d7c3c9c83e8658a9ac18d85b8abf4d68b04be8373cd232d5",
+     "primera_linea": "1. Las deudas tributarias resultantes de una autoliquidación deberán pagarse en los plazos que establezca la normativa d"
+    }
+   ],
+   "copia_conservada": 1,
+   "texto_eliminado_200": "## [a62] Artículo 62\n\nArtículo 62. Plazos para el pago.\n\nArtículo 62. Plazos para el pago.\n\n1. Las deudas tributarias resultantes de una autoliquidación deberán pagarse en los plazos que establezca la",
+   "texto_anadido_200": "## [a62] Artículo 62\n\nArtículo 62. Plazos para el pago.\n\n1. Las deudas tributarias resultantes de una autoliquidación deberán pagarse en los plazos que establezca la normativa de cada tributo.\n\n2. En ",
+   "nota": "Duplicacion evidente: la copia 1 esta completa salvo el apartado 6 del BOE (asistencia mutua) y la copia 2 es un duplicado parcial (solo letras b) de los apartados 2, 5, 6 y los apartados 8 y 9). Acuerdo del Consejo 09-08: APROBADO CON CONDICION ('verificar que no se pierda contenido normativo al consolidar; requiere hash/diff antes de aplicar') + observacion del Auditor 09-08 ('verificar que las lineas 7 y 8 --suspension de pago y doble imposicion-- no se vean afectadas por la reordenacion'). El texto literal de la propuesta del 08-09 (redaccion resumida, 10 parrafos) NO se ha aplicado porque suprime el apartado 6 (asistencia mutua) y resume los apartados 8 y 9, incumpliendo la condicion del acuerdo. Ejecutado: art. 62 del BOE consolidado LITERAL, 9 apartados (20 parrafos), con la numeracion 1-9 que ya usaba la propuesta aprobada. Cero perdida de contenido normativo.",
+   "texto_propuesto_aprobado_NO_aplicado": "Artículo 62. Plazos para el pago.\n\n1. Las deudas tributarias resultantes de autoliquidación se pagarán en los plazos que establezca la normativa de cada tributo.\n\n2. Las deudas resultantes de liquidaciones practicadas por la Administración se pagarán en período voluntario:\n   a) Si la notificación se realiza entre el día 1 y 15 de cada mes: desde la fecha de notificación hasta el día 20 del mes siguiente, o si no fuera hábil, el inmediato hábil siguiente.\n   b) Si la notificación se realiza entre el día 16 y el último de cada mes: desde la fecha de notificación hasta el día 5 del segundo mes siguiente, o si no fuera hábil, el inmediato hábil siguiente.\n\n3. La Administración tributaria competente podrá ampliar el plazo del apartado 2 anterior, pero no podrá reducirlo a menos de dos meses.\n\n4. Las deudas de notificación colectiva y periódica sin otro plazo establecido se pagarán entre el día 1 de septiembre y el 20 de noviembre, o si no fuera hábil, el inmediato hábil siguiente.\n\n5. Las deudas que deban abonarse mediante efectos timbrados se pagarán en el momento de la realización del hecho imponible, si no se dispone otro plazo.\n\n6. Una vez iniciado el período ejecutivo y notificada la providencia de apremio:\n   a) Notificación entre día 1 y 15: pago hasta el día 20 del mismo mes, o si no fuera hábil, el inmediato hábil siguiente.\n   b) Notificación entre día 16 y último: pago hasta el día 5 del mes siguiente, o si no fuera hábil, el inmediato hábil siguiente.\n\n7. Las deudas tributarias aduaneras y fiscales derivadas de operaciones de comercio exterior se pagarán en el plazo establecido por su propia normativa.\n\n8. El pago de una deuda podrá suspenderse sin garantía a solicitud del obligado, si otro obligado presenta autoliquidación con cantidad a devolver, destinándose el importe devuelto a cancelar la deuda suspendida (no podrá exceder la suspensión el importe de la devolución).\n\n9. Se suspenderá sin garantía cuando se compruebe que por la misma operación se ha satisfecho a otra Administración una deuda incompatible, y el sujeto pasivo no tenga derecho a la completa deducción del importe soportado. Reglamentariamente se regulará el procedimiento de extinción y compensación entre Administraciones.",
+   "motivo_no_aplicado": "El Consejo aprobo [a62] CON CONDICION (consejo/actas/2026-09-08.md): 'verificar que no se pierda contenido normativo al consolidar; requiere hash/diff antes de aplicar', y el Auditor anadio (auditoria/2026-09-08.md): 'verificar que las lineas 7 y 8 (suspension de pago, doble imposicion) no se vean afectadas por la reordenacion'. El texto literal de la propuesta, al resumir los apartados 8 y 9 y suprimir el apartado 6 (asistencia mutua), incumplia esa condicion; por eso se ejecuto el art. 62 del BOE consolidado literal (9 apartados, 20 parrafos) con la misma numeracion 1-9 de la propuesta aprobada. Se reproduce aqui el texto de la propuesta para que Presidencia/Auditoria pueda cotejarlo."
+  },
+  {
+   "etiqueta": "a95",
+   "titulo": "Artículo 95. Carácter reservado de los datos con trascendencia tributaria.",
+   "acuerdo": "Restitucion integra a un unico texto fiel al BOE consolidado hasta la Ley 13/2023 (restaura letra a) y apartado 2; conserva letras d) y n))",
+   "fuente_texto": "ministerios/hacienda/propuestas/2026-09-16.md (Propuesta 1)",
+   "lineas_antes": [
+    2809,
+    3128
+   ],
+   "lineas_despues": [
+    2613,
+    2662
+   ],
+   "n_lineas_antes": 320,
+   "n_lineas_despues": 50,
+   "palabras_antes": 6313,
+   "palabras_despues": 997,
+   "ahorro_palabras": 5316,
+   "cabeceras_antes": 8,
+   "cabeceras_despues": 1,
+   "sha256_bloque_antes": "a1673e96ae63317cde7e0304e6a3c687a43c047b8c9c0ad39704b3f51ab3b787",
+   "sha256_bloque_despues": "74bff1fee19c7ca1b13c059d9c58ee5faa6388bd4b3c701804bfc507e0062f51",
+   "copias_antes": [
+    {
+     "n": 1,
+     "lineas": [
+      2827,
+      2862
+     ],
+     "palabras": 716,
+     "sha256": "eba1e0a575d1ea061890d6c77d2f0f425ecb9f0dbf7eb5a1bd2b4f51a9e3f956",
+     "primera_linea": "1. Los datos, informes o antecedentes obtenidos por la Administración tributaria en el desempeño de sus funciones tienen"
+    },
+    {
+     "n": 2,
+     "lineas": [
+      2863,
+      2898
+     ],
+     "palabras": 738,
+     "sha256": "edbda9c2b2fa4fc0380ee7aa9981fa871d27ebcd40ebbf9b484228d69dca4eeb",
+     "primera_linea": "1. Los datos, informes o antecedentes obtenidos por la Administración tributaria en el desempeño de sus funciones tienen"
+    },
+    {
+     "n": 3,
+     "lineas": [
+      2899,
+      2936
+     ],
+     "palabras": 763,
+     "sha256": "6b1462c122d221391cd57a14ed82d8a134a9c937a00720dcd65c554aa8125725",
+     "primera_linea": "1. Los datos, informes o antecedentes obtenidos por la Administración tributaria en el desempeño de sus funciones tienen"
+    },
+    {
+     "n": 4,
+     "lineas": [
+      2937,
+      2970
+     ],
+     "palabras": 698,
+     "sha256": "1b4348201b6c2e3c3f02a198705e627f1ae264ce47e1f519ed2052e783af2ae9",
+     "primera_linea": "1. Los datos, informes o antecedentes obtenidos por la Administración tributaria en el desempeño de sus funciones tienen"
+    },
+    {
+     "n": 5,
+     "lineas": [
+      2971,
+      3006
+     ],
+     "palabras": 750,
+     "sha256": "807790af18ea99cafbdd63d3a85ab6abeec7dc02e2fec765b42a63084c00e303",
+     "primera_linea": "1. Los datos, informes o antecedentes obtenidos por la Administración tributaria en el desempeño de sus funciones tienen"
+    },
+    {
+     "n": 6,
+     "lineas": [
+      3007,
+      3046
+     ],
+     "palabras": 819,
+     "sha256": "3b4cdd470b60bb1cfeb66c3003f72ddbfe641c6f79aef939e267855498bb8611",
+     "primera_linea": "1. Los datos, informes o antecedentes obtenidos por la Administración tributaria en el desempeño de sus funciones tienen"
+    },
+    {
+     "n": 7,
+     "lineas": [
+      3047,
+      3086
+     ],
+     "palabras": 849,
+     "sha256": "44026d108f9970de4c2020fd38e9f996ea1d6ec6196e7c863fdfd49a142cc71c",
+     "primera_linea": "1. Los datos, informes o antecedentes obtenidos por la Administración tributaria en el desempeño de sus funciones tienen"
+    },
+    {
+     "n": 8,
+     "lineas": [
+      3087,
+      3128
+     ],
+     "palabras": 896,
+     "sha256": "edb3151884901742e0cf5d4caf4d71c31547f5b3657959896e3959a227b316d6",
+     "primera_linea": "1. Los datos, informes o antecedentes obtenidos por la Administración tributaria en el desempeño de sus funciones tienen"
+    }
+   ],
+   "copia_conservada": null,
+   "texto_eliminado_200": "## [a95] Artículo 95\n\nArtículo 95. Carácter reservado de los datos con trascendencia tributaria.\n\nArtículo 95. Carácter reservado de los datos con trascendencia tributaria.\n\nArtículo 95. Carácter rese",
+   "texto_anadido_200": "## [a95] Artículo 95\n\nArtículo 95. Carácter reservado de los datos con trascendencia tributaria.\n\n1. Los datos, informes o antecedentes obtenidos por la Administración tributaria en el desempeño de su",
+   "nota": "Ninguna de las 8 copias contenia el articulo completo (la mas reciente, copia 8, carece de la letra a) y del apartado 2). Ejecutada la restitucion integra desde el texto aprobado (verificado parrafo a parrafo == BOE consolidado, 0 diferencias, 23 parrafos): se restauran la letra a) y el apartado 2 y se conservan las letras d) (antifraude, Ley 31/2022) y n) (conflicto de interes, Ley 13/2023).",
+   "ahorro_declarado_en_el_acuerdo": 5350,
+   "ahorro_real": 5316,
+   "nota_cifra": "el acuerdo declaraba 5.350 palabras; la ejecucion real ahorra 5316 (el denominador del acuerdo era una estimacion del sistema: 6.313 -> 997 palabras medidas sobre el fichero)"
+  },
+  {
+   "etiqueta": "a43",
+   "titulo": "Artículo 43. Responsables subsidiarios.",
+   "acuerdo": "Restituir letra a) ausente en 5 de 6 copias, corregir e) (representantes aduaneros, Ley 34/2015) y renumerar los apartados 2 y 4",
+   "fuente_texto": "ministerios/hacienda/propuestas/2026-09-16.md (Propuesta 2)",
+   "lineas_antes": [
+    1179,
+    1384
+   ],
+   "lineas_despues": [
+    1165,
+    1210
+   ],
+   "n_lineas_antes": 206,
+   "n_lineas_despues": 46,
+   "palabras_antes": 4442,
+   "palabras_despues": 1083,
+   "ahorro_palabras": 3359,
+   "cabeceras_antes": 6,
+   "cabeceras_despues": 1,
+   "sha256_bloque_antes": "5d6ae8fe9df17052efe7b91e2d51efcd948b5262e95cd1520aa1d454b3389868",
+   "sha256_bloque_despues": "fd8d4db43d77890ac524279b882a4d5ab3a49d12c57bffe3cb4a929134e3190c",
+   "copias_antes": [
+    {
+     "n": 1,
+     "lineas": [
+      1193,
+      1218
+     ],
+     "palabras": 554,
+     "sha256": "531e50f3104c0968587031cfd3e19cedcd9e399160d85ad77a8102a58d20caed",
+     "primera_linea": "1. Serán responsables subsidiarios de la deuda tributaria las siguientes personas o entidades:"
+    },
+    {
+     "n": 2,
+     "lineas": [
+      1219,
+      1250
+     ],
+     "palabras": 740,
+     "sha256": "c3982cfe0aa995b80fe12878be74357cab3d0a3a233a8ca08c087cfa8ea8ac1e",
+     "primera_linea": "1. Serán responsables subsidiarios de la deuda tributaria las siguientes personas o entidades:"
+    },
+    {
+     "n": 3,
+     "lineas": [
+      1251,
+      1282
+     ],
+     "palabras": 751,
+     "sha256": "8b9cde764511075711a85ce8657371aec9d91240ca445429b9c5a2c1831c7c0b",
+     "primera_linea": "1. Serán responsables subsidiarios de la deuda tributaria las siguientes personas o entidades:"
+    },
+    {
+     "n": 4,
+     "lineas": [
+      1283,
+      1320
+     ],
+     "palabras": 909,
+     "sha256": "764866d9ed0dce9e42059a59f716bdc9206175b801355b097dd7a589cb7caafc",
+     "primera_linea": "1. Serán responsables subsidiarios de la deuda tributaria las siguientes personas o entidades:"
+    },
+    {
+     "n": 5,
+     "lineas": [
+      1321,
+      1358
+     ],
+     "palabras": 906,
+     "sha256": "0f94710fbd6c0e7296ed6de789113823dd4d4178ac02e9b8a6ad47d057b478a7",
+     "primera_linea": "1. Serán responsables subsidiarios de la deuda tributaria las siguientes personas o entidades:"
+    },
+    {
+     "n": 6,
+     "lineas": [
+      1359,
+      1384
+     ],
+     "palabras": 554,
+     "sha256": "531e50f3104c0968587031cfd3e19cedcd9e399160d85ad77a8102a58d20caed",
+     "primera_linea": "1. Serán responsables subsidiarios de la deuda tributaria las siguientes personas o entidades:"
+    }
+   ],
+   "copia_conservada": null,
+   "texto_eliminado_200": "## [a43] Artículo 43\n\nArtículo 43. Responsables subsidiarios.\n\nArtículo 43. Responsables subsidiarios.\n\nArtículo 43. Responsables subsidiarios.\n\nArtículo 43. Responsables subsidiarios.\n\nArtículo 43. R",
+   "texto_anadido_200": "## [a43] Artículo 43\n\nArtículo 43. Responsables subsidiarios.\n\n1. Serán responsables subsidiarios de la deuda tributaria las siguientes personas o entidades:\n\na) Sin perjuicio de lo dispuesto en el pá",
+   "nota": "Ninguna de las 6 copias contenia el articulo completo (solo la copia 1 tenia la letra a)). Ejecutada la restitucion integra desde el texto aprobado (verificado parrafo a parrafo == BOE consolidado, 0 diferencias, 21 parrafos): letra a) restituida, letra e) corregida a 'representantes aduaneros' (Ley 34/2015) y apartados renumerados 2, 3 y 4 como en el BOE.",
+   "ahorro_declarado_en_el_acuerdo": 3180,
+   "ahorro_real": 3359,
+   "nota_cifra": "el acuerdo declaraba 3.180 palabras; la ejecucion real ahorra 3359 (el denominador del acuerdo era una estimacion del sistema: 4.442 -> 1.083 palabras medidas sobre el fichero)"
+  }
+ ]
+}

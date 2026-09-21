@@ -1,10 +1,10 @@
 {
- "fuente": "bak",
+ "fuente": "worktree",
  "leyes": {
   "hacienda": {
    "fichero": "ministerios/hacienda/leyes/BOE-A-2003-23186.md",
    "palabras_fichero": 143093,
-   "sha256_raw": "917ee1224cd30321680af8fb2bbe59aed418f1a2cc83b4ac1df7b59ed63840ee",
+   "sha256": "917ee1224cd30321",
    "bloques": {
     "a12": {
      "linea_cabecera": 225,
@@ -89,7 +89,7 @@
   "sanidad": {
    "fichero": "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
    "palabras_fichero": 22493,
-   "sha256_raw": "2059aae8955c83681593accfa7bf0ba3c985acb35c0ff6453fc6348a6c94ce35",
+   "sha256": "2059aae8955c8368",
    "bloques": {
     "atres": {
      "linea_cabecera": 27,
@@ -156,7 +156,7 @@
   "transicion-ecologica": {
    "fichero": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
    "palabras_fichero": 26541,
-   "sha256_raw": "715fee2597145e233d7e1351896ea0437493a8de7fb4453e28867ffdeb40893e",
+   "sha256": "68a68b15896aa62f",
    "bloques": {
     "a1": {
      "linea_cabecera": 169,

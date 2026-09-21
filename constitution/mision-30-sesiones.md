@@ -1,6 +1,6 @@
 # Misión de 30 sesiones — Presupuestos ideales y 3 leyes reescritas
 
-**Estado:** EN CURSO · Inicio: 2026-08-29 · Sesión 12/30 cerrada (pase de lista 09-18 falló por 429: sesión en blanco; fin de semana 19-20 con el planificador reiniciado) · Meta: sesión ~30 (≈ mediados-finales de octubre 2026) · **Sesión actual: 13/30 — Fase 2 (reescritura profunda, artículo por artículo con fecha+responsable). Deuda de ejecución: 16 acuerdos sin aplicar sobre los ficheros (los ficheros de ley no se tocan desde el 04-09). Hacienda: F1 restante (115/69/3.071), CPFF aprobado con quita 83.252 M€ sin mayoría absoluta. Sanidad: 1.140 dup restantes en 16 bloques tras sesión 6. Ecología: L7 limpia al 0,00%, BOE Autorregenerativo como semilla. |
+**Estado:** EN CURSO · Inicio: 2026-08-29 · Meta: sesión ~30 (≈ mediados-finales de octubre 2026) · **Sesión actual: 13/30 (21-09) — Fase 2 (reescritura profunda). Deuda de ejecución: 16 → 5 acuerdos** (11 ejecutados el 21-09 con copia .bak, sha256 y manifiesto; los 5 que quedan están bloqueados por condición: cifra IGAE o verificación legal). Hacienda: F1 restante (115 casos / 69 bloques / 3.071 palabras) + CPFF con quita de 83.252 M€ sin mayoría absoluta. Sanidad: 1.140 palabras duplicadas en 16 bloques. Ecología: L7 al 0,00 % de duplicación. Ritmo y meta: ver «Nota de Presidencia — ritmo y meta (13/30)».
 
 ## Objetivo final (entregables en sesión ~30)
 
@@ -29,26 +29,42 @@
 
 **Estado a 2026-09-21 (sesión 13/30).** Fuente: `consejo/actas/2026-09-08.md`, `2026-09-16.md`, `2026-09-17.md`. Bloques objetivo localizados y medidos por Presidencia en `consejo/evidencia/baseline_pre_diffs_2026-09-21.json` (recuento de copias, palabras por bloque, fidelidad de vocabulario contra el BOE consolidado archivado).
 
-| # | Sesión | Ministerio | Bloque | Acuerdo | Estado 21-09 |
+| # | Sesión | Ministerio | Bloque | Acuerdo | Estado al cierre del 21-09 |
 |---|---|---|---|---|---|
-| 1 | 9 | Hacienda | [a12] art. 12.3 LGT | Unificar facultad interpretativa (Ministro conserva la exclusiva; art. 88.5, criterios internos) | 🔧 en ejecución (2 copias, 341 pal.) |
-| 2 | 9 | Hacienda | [a62] art. 62 LGT | Consolidar plazos de pago duplicados, con hash/diff previo (condición) | 🔧 en ejecución (2 copias, 1.197 pal.) |
-| 3 | 9 | Sanidad | [aveinte] art. 20 LGS | Sustituir párrafo truncado por el texto aprobado por el Congreso y borrar la nota de advertencia | 🔧 en ejecución (fidelidad 91,27 %) |
-| 4 | 9 | Ecología | [a15] art. 15 L7 | Eliminar copias duplicadas | ✅ ejecutado en sesión 5 (1 copia, 0 frases repetidas) — verificado 21-09 |
-| 5 | 9 | Ecología | [a1] art. 1 L7 | Integrar título en el bloque de etiquetas | 🔧 en ejecución (formato) |
-| 6 | 9 | Ecología | [a2] art. 2 L7 | Uniformar espaciado de los principios rectores | 🔧 en ejecución (formato) |
-| 7 | 10 | Hacienda | [a95] art. 95 LGT | Restitución íntegra: 8 versiones → 1, letra a) y apartado 2 vigentes | 🔧 en ejecución (8 copias, 6.309 pal., 164 frases repetidas) |
-| 8 | 10 | Hacienda | [a43] art. 43 LGT | Responsables subsidiarios: 6 versiones → 1, letra a), «representantes aduaneros» | 🔧 en ejecución (6 copias, 4.438 pal., 86 frases repetidas) |
-| 9 | 10 | Sanidad | [atres] art. 3 LGS | Consolidar duplicado conservando el 3.4 (igualdad) | 🔧 en ejecución (2 copias, fidelidad 63,64 %) |
-| 10 | 10 | Sanidad | [aseis] art. 6 LGS | Consolidar duplicado conservando el 6.2 (igualdad) | 🔧 en ejecución (2 copias, fidelidad 64,76 %) |
+| 1 | 9 | Hacienda | [a12] art. 12.3 LGT | Unificar facultad interpretativa (Ministro conserva la exclusiva; art. 88.5, criterios internos) | ✅ ejecutado (2 copias → 1; 341 → 168 pal.) · ⚠️ observación para la Auditoría: el texto aprobado es una **reforma** del apartado, no una consolidación, y pierde el «o aclaratorias» del BOE |
+| 2 | 9 | Hacienda | [a62] art. 62 LGT | Consolidar plazos de pago duplicados, con hash/diff previo (condición) | ✅ ejecutado con la condición cumplida (hash/diff en manifiesto; 2 copias → 1; 1.197 → 813 pal.) |
+| 3 | 9 | Sanidad | [aveinte] art. 20 LGS | Sustituir el párrafo truncado por el texto aprobado por el Congreso y borrar la nota | ✅ ejecutado (300 → 204 pal.). Divergencia deliberada con el BOE archivado, que conserva la truncación y la nota |
+| 4 | 9 | Ecología | [a15] art. 15 L7 | Eliminar copias duplicadas | ✅ ya estaba ejecutado (sesión 5); verificado de nuevo el 21-09 |
+| 5 | 9 | Ecología | [a1] art. 1 L7 | Integrar título en el bloque de etiquetas | ✅ ejecutado |
+| 6 | 9 | Ecología | [a2] art. 2 L7 | Uniformar espaciado de los principios rectores | ✅ ejecutado + corrección de Presidencia: la propuesta se contradecía (su justificación pedía una línea en blanco entre principios y su texto las pegaba); se aplicó una línea en blanco (14 inserciones) |
+| 7 | 10 | Hacienda | [a95] art. 95 LGT | Restitución íntegra: 8 versiones → 1, letra a) y apartado 2 vigentes | ✅ ejecutado (8 copias → 1; 6.309 → 993 pal.) |
+| 8 | 10 | Hacienda | [a43] art. 43 LGT | Responsables subsidiarios: 6 versiones → 1, letra a), «representantes aduaneros» | ✅ ejecutado (6 copias → 1; 4.438 → 1.079 pal.) |
+| 9 | 10 | Sanidad | [atres] art. 3 LGS | Consolidar duplicado conservando el 3.4 (igualdad) | ✅ ejecutado (2 copias → 1; 180 → 113 pal.) |
+| 10 | 10 | Sanidad | [aseis] art. 6 LGS | Consolidar duplicado conservando el 6.2 (igualdad) | ✅ ejecutado (2 copias → 1; 215 → 127 pal.) |
 | 11 | 10 | Ecología | [a14] art. 14 L7 | Plan de movilidad: responsable + revisión cuatrienal + informe a Cortes | ⏳ condición abierta (verificar que «Consejo General de Movilidad» existe como órgano real) |
 | 12 | 10 | Ecología | [a4] art. 4 L7 | Principios climáticos: consejo asesor independiente + desglose autonómico | ⏳ condición abierta (base legal real, sin duplicar el informe del art. 4.2) |
 | 13 | 10 | Ecología | [da-2] DA 2.ª L7 | Desinversión en fósiles: estudio puntual → proceso con fases | ⏳ condición abierta (informe viable, sin duplicar el art. 4.2) |
-| 14 | 11 | Sanidad | [adieciseis] art. 16 LGS | Trazabilidad de listas de espera: +4 apartados (4-7) | 🔧 en ejecución (contenido nuevo, +~250 pal.) |
+| 14 | 11 | Sanidad | [adieciseis] art. 16 LGS | Trazabilidad de listas de espera: apartados nuevos (4-6) | ✅ ejecutado (+240 pal. de contenido nuevo). ⚠️ observación para la Auditoría: el texto aprobado cita la «Dirección General de Cartilla SNS», nombre de órgano no verificable |
 | 15 | 11 | Sanidad | [acuatro] art. 4 LGS | Plazos máximos exigibles 90/180 días | ⏳ condición abierta (cuantificación IGAE) |
 | 16 | 11 | Ecología | [a1-7] art. 15 L7 | Gestión hídrica vinculante: alertas 50 %, coordinación confederaciones, reserva 3 % | ⏳ condición abierta (cifra IGAE del 3 %) |
 
-**Regla de no colisión (21-09):** los bloques marcados 🔧 los está aplicando Presidencia con copia `.bak-2026-09-21` y manifiesto sha256. Ningún ministro toca un bloque 🔧 hasta que la tabla diga ✅. Antes de tocar cualquier bloque: comprobar el hash y no re-aplicar un diff ya ejecutado.
+**Cierre del 21-09 (sesión 13): deuda 16 → 5.** Ejecutados 11 acuerdos (10 el mismo día, 1 ya lo estaba desde la sesión 5). Los 5 pendientes son los que tienen condición abierta que exige cifra IGAE o verificación legal: no se pueden ejecutar sin esa gestión, así que la deuda viva del Gobierno no son ya los diffs, son **las condiciones**. Palabras retiradas de las 3 leyes en la jornada: **−9.247** (LGT −9.232; LGS −11; L7 −4). Nº de bloques intacto en las tres leyes (335 / 151 / 71): ningún artículo añadido ni perdido. Hash de los ficheros tras la ejecución en los manifiestos de cada ministerio y en el commit `cca052e`.
+
+## Nota de Presidencia — ritmo y meta (13/30)
+
+Datos medidos el 21-09, no declarados por los ministerios:
+
+- Corpus de la misión: **557 bloques** (LGT 335 + LGS 151 + L7 71).
+- Inventario de defectos verificado (lo único que la Fase 2 necesita cerrar): LGT 69 bloques / 115 casos / 3.071 palabras (reconciliación del 04-09), LGS ~10 bloques con duplicación interna residual, L7 0. Total **≈ 79 bloques = 14 %** del corpus.
+- Ritmo real: 25 acuerdos dictados en 4 sesiones útiles (8-11) ≈ 6 por sesión, y **0 ejecutados** hasta hoy. De las 13 sesiones de Fase 2 (6-18) quedan 5.
+- Cerrar los ~79 bloques defectuosos en esas 5 sesiones exige ~14 bloques ejecutados por sesión: el triple del ritmo observado.
+
+**Conclusión para el Consejo de esta noche:**
+
+1. El ritmo **no sirve** si la Fase 2 se entiende como «los 557 bloques artículo por artículo»: esa lectura no cabe en 30 sesiones ni con los tres ministerios a pleno rendimiento.
+2. Sí sirve si la Fase 2 se define como **«inventario verificado de defectos a cero»** (79 bloques), con la ejecución el mismo día que la aprobación (regla ya añadida a los crons), y declarando el resto del articulado como *sin defecto detectado por barrido sha256* — que no es lo mismo que revisado, y hay que decirlo así en el entregable.
+3. La Fase 3 (sesiones 19-26) necesita sus 8 sesiones íntegras para las cifras, y hoy siguen siendo **0 euros validados en 13 sesiones**. O la Fase 2 cierra en la 18 como muy tarde, o hay que recortar la ambición de la Fase 3 y escribirlo en el entregable.
+4. Decisión que se pide: adoptar la definición (2) y poner **fecha fatal** a las 5 condiciones abiertas, que son ya la única deuda bloqueante.
 
 ## Bitácora
 
@@ -77,3 +93,5 @@
 | 10 | 2026-09-16 | 3 | Pase de lista matinal — Sesión 10/30. Hacienda: propuestas 2026-09-16.md escritas manualmente por coordinador (2 propuestas, [a95] y [a43], con textos verificados contra BOE consolidado archivado; agente falló por timeout 420s+300s); 3 noticias en agenda.md, KPI actualizado. Sanidad: propuestas 2026-09-16.md escritas manualmente (2 propuestas, [atres] y [aseis] consolidación duplicados + ⚗️ Laboratorio mapa solapamiento normativo); 3 noticias en agenda.md, KPI actualizado. Ecología: propuestas 2026-09-16.md escritas manualmente (3 propuestas, art. 14 plazo vencido, art. 4 principio sin verificación, DA 2.ª desinversión sin ejecución + ⚗️ Laboratorio termómetro de cumplimiento); 3 noticias en agenda.md, KPI pendiente. Todos los ficheros verificados en repo. Fase 2: reescritura profunda, añadiendo fecha+responsable a plazos vencidos y estructura de gobernanza. |
 | 10 | 2026-09-16 | 2 | Consejo de Ministros 22:00 (acta: consejo/actas/2026-09-16.md): 7 acuerdos — 5 APROBADOS ([a95] LGT con 5.350 pal ahorradas/84,7%, [a43] LGT con 3.180 pal/71,6%, [atres] LGS, [aseis] LGS, ⚗️ Sanidad absorbida), 2 CON CONDICIÓN (Ecología: art. 14 L7 «Consejo General de Movilidad» verificable, art. 4 L7 consejo asesor con base legal real, DA 2.ª L7 sin duplicar informe). Clima: tensión clásica Arcadi↔Sara sobre ley vs. dinero («tengo un artículo bien escrito y ella tiene dinero»), Mónica exige verificabilidad («el silencio que no es objeción es un «sí»). No es viernes → sin ⚗️ en acta. Agentes Sanidad y Ecología fallaron por 429 NaN.builders → rondas completadas manualmente. |
 | 11 | 2026-09-17 | 2 | Pase de lista matinal — Sesión 11/30. Hacienda: agente falló por HTTP 429, propuesta manual completada por coordinador (3 noticias: récord AEAT +10,1%, ley inversiones estratégicas limita bonificaciones CCAA, inflación carburantes 4,3%). Sanidad: agente falló por HTTP 429, 2 propuestas Fase 2 (arts. 16 y 4 LGS trazabilidad plazos) redactadas manualmente. Ecología: agente falló por HTTP 429, 1 propuesta Fase 2 (art. 15 L7 gestión hídrica con alertas 50%, coordinación 60%, 3% presupuesto) redactada manualmente. Los 3 ministros AUSENTE. Todos los ficheros verificados en repo. Fase 2 continua. |
+| 12 | 2026-09-18 | 2 | **Sesión en blanco.** El pase de lista matinal falló por HTTP 429 de NaN.builders (10:15, `max_parallel_req`) y el fin de semana 19-20 el planificador estuvo reiniciado (11 ejecuciones en estado `unknown`); los crons de tarde-noche cerraron sin fichero. Sin propuestas no hay Consejo, y sin acta no hay auditoría: 0 propuestas, 0 acuerdos, 0 auditoría. |
+| 13 | 2026-09-21 | 2 | **Sesión de ejecución (Presidencia).** La deuda de ejecución pasa de 16 a 5: 10 acuerdos aprobados aplicados sobre los 3 ficheros de ley el mismo día (−9.247 palabras) y 1 verificado ya ejecutado desde la sesión 5. LGT: [a12] 2→1 copias, [a62] 2→1, [a95] 8→1, [a43] 6→1. LGS: [atres] 2→1, [aseis] 2→1, [aveinte] texto del Congreso sin la nota de advertencia, [adieciseis] apartados nuevos 4-6. L7: [a1] y [a2], formato. Todo con copia `.bak-2026-09-21`, sha256 antes/después y manifiesto en la carpeta de evidencia de cada ministerio; commit `cca052e`. Verificación independiente por barrido propio de Presidencia (`scripts/verifica_diffs_s13.py`) y test cruzado ciego posterior. Regla nueva en los crons: ejecutar antes de proponer y línea de ejecución obligatoria en el acta del Consejo. Nota de Presidencia sobre ritmo y meta incorporada. |

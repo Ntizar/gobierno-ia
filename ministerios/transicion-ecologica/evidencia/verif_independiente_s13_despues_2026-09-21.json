@@ -1,10 +1,10 @@
 {
- "fuente": "bak",
+ "fuente": "worktree",
  "leyes": {
   "hacienda": {
    "fichero": "ministerios/hacienda/leyes/BOE-A-2003-23186.md",
    "palabras_fichero": 143093,
-   "sha256_raw": "917ee1224cd30321680af8fb2bbe59aed418f1a2cc83b4ac1df7b59ed63840ee",
+   "sha256": "917ee1224cd30321",
    "bloques": {
     "a12": {
      "linea_cabecera": 225,
@@ -88,66 +88,58 @@
   },
   "sanidad": {
    "fichero": "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
-   "palabras_fichero": 22493,
-   "sha256_raw": "2059aae8955c83681593accfa7bf0ba3c985acb35c0ff6453fc6348a6c94ce35",
+   "palabras_fichero": 22482,
+   "sha256": "b60a808323a3c012",
    "bloques": {
     "atres": {
      "linea_cabecera": 27,
      "cabeceras_cuerpo": [
-      "Artículo tres",
       "Artículo tres"
      ],
-     "n_copias": 2,
-     "palabras_bloque": 180,
-     "frases_repetidas": 4,
-     "muestra_repetida": [
-      "los medios y actuaciones del sistema sanitario estarán orientados prioritariamente a la promoción de la salud ",
-      "la asistencia sanitaria pública se extenderá a toda la población española."
-     ],
+     "n_copias": 1,
+     "palabras_bloque": 113,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
      "fidelidad_vocab_pct": 63.64,
      "palabras_sin_traza_boe": 0,
      "ancla_boe_encontrada": true
     },
     "aseis": {
-     "linea_cabecera": 63,
+     "linea_cabecera": 55,
      "cabeceras_cuerpo": [
-      "Artículo seis",
       "Artículo seis"
      ],
-     "n_copias": 2,
-     "palabras_bloque": 215,
-     "frases_repetidas": 4,
-     "muestra_repetida": [
-      "a promover el interés individual, familiar y social por la salud mediante la adecuada educación sanitaria de l",
-      "a garantizar que cuantas acciones sanitarias se desarrollen estén dirigidas a la prevención de las enfermedade"
-     ],
+     "n_copias": 1,
+     "palabras_bloque": 127,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
      "fidelidad_vocab_pct": 64.76,
      "palabras_sin_traza_boe": 0,
      "ancla_boe_encontrada": true
     },
     "adieciseis": {
-     "linea_cabecera": 195,
+     "linea_cabecera": 175,
      "cabeceras_cuerpo": [
       "Artículo dieciséis"
      ],
      "n_copias": 1,
-     "palabras_bloque": 161,
+     "palabras_bloque": 401,
      "frases_repetidas": 0,
      "muestra_repetida": [],
-     "fidelidad_vocab_pct": 82.69,
-     "palabras_sin_traza_boe": 0,
+     "fidelidad_vocab_pct": 83.65,
+     "palabras_sin_traza_boe": 96,
      "ancla_boe_encontrada": true
     },
     "aveinte": {
-     "linea_cabecera": 287,
+     "linea_cabecera": 283,
      "cabeceras_cuerpo": [
       "Artículo veinte"
      ],
      "n_copias": 1,
-     "palabras_bloque": 300,
+     "palabras_bloque": 204,
      "frases_repetidas": 0,
      "muestra_repetida": [],
-     "fidelidad_vocab_pct": 91.27,
+     "fidelidad_vocab_pct": 77.78,
      "palabras_sin_traza_boe": 0,
      "ancla_boe_encontrada": true
     }
@@ -155,37 +147,33 @@
   },
   "transicion-ecologica": {
    "fichero": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
-   "palabras_fichero": 26541,
-   "sha256_raw": "715fee2597145e233d7e1351896ea0437493a8de7fb4453e28867ffdeb40893e",
+   "palabras_fichero": 26537,
+   "sha256": "bd802a47322af274",
    "bloques": {
     "a1": {
      "linea_cabecera": 169,
-     "cabeceras_cuerpo": [
-      "Artículo 1. Objeto de la Ley."
-     ],
-     "n_copias": 1,
-     "palabras_bloque": 145,
+     "cabeceras_cuerpo": [],
+     "n_copias": 0,
+     "palabras_bloque": 139,
      "frases_repetidas": 0,
      "muestra_repetida": [],
-     "fidelidad_vocab_pct": 94.19,
+     "fidelidad_vocab_pct": 93.02,
      "palabras_sin_traza_boe": 0,
      "ancla_boe_encontrada": true
     },
     "a2": {
-     "linea_cabecera": 177,
-     "cabeceras_cuerpo": [
-      "Artículo 2. Principios rectores."
-     ],
-     "n_copias": 1,
-     "palabras_bloque": 324,
+     "linea_cabecera": 175,
+     "cabeceras_cuerpo": [],
+     "n_copias": 0,
+     "palabras_bloque": 320,
      "frases_repetidas": 0,
      "muestra_repetida": [],
-     "fidelidad_vocab_pct": 96.53,
+     "fidelidad_vocab_pct": 95.38,
      "palabras_sin_traza_boe": 0,
      "ancla_boe_encontrada": true
     },
     "a1-7": {
-     "linea_cabecera": 401,
+     "linea_cabecera": 384,
      "cabeceras_cuerpo": [
       "Artículo 15. Instalación de puntos de recarga eléctrica."
      ],
