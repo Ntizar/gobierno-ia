@@ -1,0 +1,138 @@
+{
+ "fecha": "2026-09-21",
+ "sesion": "13/30",
+ "fase": "Fase 2 (reescritura frase por frase)",
+ "ministerio": "transicion-ecologica",
+ "ley": "Ley 7/2021, de 20 de mayo, de cambio climatico y transicion energetica (BOE-A-2021-8447)",
+ "fichero": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
+ "script": "scripts/s13_ejecutar_diffs_tecologica.py",
+ "backup": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md.bak-2026-09-21",
+ "fuente_acuerdo": "consejo/actas/2026-09-08.md (filas APROBADO de Sara Aagesen)",
+ "fuente_texto_literal": "ministerios/transicion-ecologica/propuestas/2026-09-08.md",
+ "sha256_antes": "715fee2597145e233d7e1351896ea0437493a8de7fb4453e28867ffdeb40893e",
+ "sha256_despues": "5c9ebdb31fac3ae2f9d9273b3ca0a23feaffcacb6388973be5d6c8e53c00a451",
+ "lineas_antes": 1071,
+ "lineas_despues": 1054,
+ "palabras_antes": 26541,
+ "palabras_despues": 26537,
+ "fuera_de_bloques_1_2": "cero cambios (un unico opcode de reemplazo, lineas 169-171, dentro de a1/a2; git diff: 1 hunk, 2 inserciones / 19 borrados)",
+ "diffs": [
+  {
+   "etiqueta": "a1",
+   "acuerdo": "Integrar título en bloque de etiquetas",
+   "tipo": "formato (sin tocar texto normativo)",
+   "linea_cabecera_antes": 169,
+   "linea_cabecera_despues": 169,
+   "lineas_bloque_antes": 8,
+   "lineas_bloque_despues": 6,
+   "palabras_bloque_antes": 149,
+   "palabras_bloque_despues": 147,
+   "sha256_bloque_antes": "a09338154409592cc3d33110b19bd5a73c4da93fdba61d7a808036642babd82f",
+   "sha256_bloque_despues": "1fb46a792e4abe7f08288f13c2f336f0d62e2de0957e33e9bae6e8f3488aa5c8",
+   "texto_eliminado_200": "## [a1] Artículo 1\n\nArtículo 1. Objeto de la Ley.",
+   "texto_anadido_200": "## [a1] Artículo 1. Objeto de la Ley",
+   "justificacion": "el titulo 'Artículo 1. Objeto de la Ley.' estaba como linea suelta separada del numero por un punto; se integra en la cabecera de etiqueta. No se altera ni una palabra del cuerpo del articulo (los 2 parrafos quedan intactos)."
+  },
+  {
+   "etiqueta": "a2",
+   "acuerdo": "Unificar principios rectores",
+   "tipo": "formato (sin tocar texto normativo)",
+   "linea_cabecera_antes": 177,
+   "linea_cabecera_despues": 175,
+   "lineas_bloque_antes": 38,
+   "lineas_bloque_despues": 23,
+   "palabras_bloque_antes": 328,
+   "palabras_bloque_despues": 326,
+   "sha256_bloque_antes": "d9a443325dcaf61fb49296efbaa4113ac7cd5660d9472b75e84e0f5fdf2b0219",
+   "sha256_bloque_despues": "d35ea862b6d39c02811bbf61c86547c405176261420cdd4f50e54196a41478f0",
+   "texto_eliminado_200": "## [a2] Artículo 2\n\nArtículo 2. Principios rectores. || a) Desarrollo sostenible.\nb) Descarbonización de la economía española, entendiendo por tal la consecución de un modelo socioeconómico sin emisio",
+   "texto_anadido_200": "## [a2] Artículo 2. Principios rectores || a) Desarrollo sostenible.\nb) Descarbonización de la economía española, entendiendo por tal la consecución de un modelo socioeconómico sin emisiones de gases ",
+   "justificacion": "cabecera de etiqueta con titulo integrado + espaciado uniforme: se quitan las 13 lineas en blanco irregulares entre a) y ñ) y los 15 principios quedan consecutivos. El texto literal de los 15 principios y del parrafo introductorio es identico.",
+   "principios_conservados": 15,
+   "principios_antes": 15
+  }
+ ],
+ "verificacion_art15": {
+  "etiqueta": "a1-7",
+  "pregunta": "¿el diff 'eliminar copias duplicadas del art. 15' (acuerdo sesion 9/30) ya esta ejecutado?",
+  "veredicto": "SI — ya ejecutado (en la sesion 5/30, commit 290efa0, 2026-09-03)",
+  "cabeceras_art15_en_fichero": 1,
+  "copias_del_cuerpo_art15": 1,
+  "rotulos_articulo_15": 1,
+  "rotulo_unico": "Artículo 15. Instalación de puntos de recarga eléctrica.",
+  "linea_bloque": "384-416 (antes 401-433)",
+  "sha256_bloque_art15": "84f0fb636bdbae200044ce8f4b7d40fba2371e2f9b1f035ff228fd622c2c3c3b",
+  "sha256_bloque_art15_antes_de_esta_sesion": "84f0fb636bdbae200044ce8f4b7d40fba2371e2f9b1f035ff228fd622c2c3c3b",
+  "bloque_intacto_en_esta_sesion": true,
+  "contradiccion_12_vs_21_meses": {
+   "estado": "MUERTA",
+   "prueba": "el apartado 2 bis vigente dice 'veintiún meses' en sus dos supuestos y coincide palabra a palabra con el BOE consolidado (modificado por el RDL 18/2026). La redaccion antigua con '12 meses' solo existia en la copia duplicada, eliminada en la sesion 5.",
+   "linea_2bis_hoy": "2. bis. Quienes ostenten la titularidad de las instalaciones de suministro de combustibles y carburantes a vehículos cuy...",
+   "plazo_repo": "veintiún meses",
+   "plazo_boe": "NO COINCIDE",
+   "menciones_doce_meses_en_fichero": 1,
+   "menciones_doce_meses_fuera_del_art15": "1 (linea 1000, art. distinto: no pertenece al art. 15)"
+  },
+  "fidelidad_contra_BOE_consolidado": {
+   "fichero_boe": "ministerios/transicion-ecologica/evidencia/BOE-A-2021-8447_consolidado_2026-08-31.html",
+   "similitud_palabra_a_palabra": 0.9651,
+   "divergencias": [
+    "delete: MD='## [a1-7] Artículo 15' BOE=''",
+    "replace: MD='diciembre,' BOE='diciembre ,'",
+    "replace: MD='2023,' BOE='2023 ,'",
+    "replace: MD='2014/94/UE,' BOE='2014/94/UE ,'",
+    "replace: MD='Edificación.' BOE='Edificación .'",
+    "insert: MD='' BOE='Se modifican los apartados 2.bis y 8 por el art. 3 del Real Decreto-ley 18/2026, de 29 de junio. Ref. BOE-A-2026-14112 S'"
+   ],
+   "interpretacion": "las divergencias son SOLO artefactos del HTML (espacio antes de coma por el centinela <em> </em> y el pie de bloque 'Se modifican los apartados...Subir [Bloque 23: #a1-12]'). El texto normativo es identico, incluido el apartado 2 bis y el 8."
+  },
+  "prueba_duplicacion_previa": {
+   "bak_2026-09-03_sha256": "95804d1950230d80494297f289d46e08eea179c656f5f0d65ae35136d2fde2f1",
+   "bak_2026-09-03_rotulos_articulo_15": 3,
+   "bak_2026-09-04_rotulos_articulo_15": 1,
+   "comentario": "el .bak-2026-09-03 (estado al cerrar la sesion del 03-09) tiene 3 rotulos y 3 copias del art. 15; el .bak-2026-09-04 (estado al abrir la sesion 6) ya tiene 1. La desduplicacion se ejecuto y quedo registrada en el commit 290efa0 del 2026-09-03."
+  }
+ },
+ "verificacion_independiente": {
+  "herramienta": "scripts/verifica_diffs_s13.py (Presidencia, no la escribe el ministerio)",
+  "antes": {
+   "a1": {
+    "n_copias": 1,
+    "palabras": 145
+   },
+   "a2": {
+    "n_copias": 1,
+    "palabras": 324
+   },
+   "a1-7": {
+    "n_copias": 1,
+    "palabras": 1441,
+    "frases_repetidas": 0,
+    "palabras_sin_traza_boe": 0
+   }
+  },
+  "despues": {
+   "a1": {
+    "n_copias": 0,
+    "palabras": 139
+   },
+   "a2": {
+    "n_copias": 0,
+    "palabras": 320
+   },
+   "a1-7": {
+    "n_copias": 1,
+    "palabras": 1441,
+    "frases_repetidas": 0,
+    "palabras_sin_traza_boe": 0
+   }
+  },
+  "nota": "en a1/a2 el contador de 'copias del rotulo en el cuerpo' pasa a 0 porque el titulo ya no esta en el cuerpo sino en la cabecera. a1-7 permanece identico."
+ },
+ "observaciones": [
+  "La propuesta 2026-09-08 describe el art. 15 como 'Autoconsumo y almacenamiento energético' con 3 copias de 5 apartados: ese texto NO existe en el fichero ni en el BOE. El art. 15 real es 'Instalación de puntos de recarga eléctrica' y su duplicacion (3 rotulos + 3 copias, con el apartado 2 bis discrepante '12 meses' vs 'veintiún meses') SI existia y YA fue eliminada en la sesion 5/30. La accion aprobada estaba bien; el texto de ejemplo de la propuesta estaba equivocado.",
+  "La justificacion de la propuesta afirma que el titulo dentro de la cabecera es 'el formato del resto de bloques consolidados': no es exacto. Los otros 68 bloques del fichero mantienen el titulo como linea del cuerpo. Se ejecuta igualmente porque es literalmente lo aprobado por el Consejo.",
+  "La justificacion del art. 2 dice a la vez 'las lineas en blanco se eliminan' y 'separados por linea en blanco simple'. Se ha aplicado el bloque literal de 'Texto propuesto' (principios consecutivos, sin lineas en blanco): la verificacion automatica comprueba igualdad exacta con ese bloque.",
+  "Registro: FIDELIDAD/FORMATO (no computa como ahorro de contenido normativo). Palabras -4 (solo rotulos redundantes)."
+ ]
+}

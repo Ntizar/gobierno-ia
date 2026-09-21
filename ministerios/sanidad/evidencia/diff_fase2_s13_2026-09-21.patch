@@ -1,0 +1,81 @@
+diff --git a/ministerios/sanidad/leyes/BOE-A-1986-10499.md b/ministerios/sanidad/leyes/BOE-A-1986-10499.md
+index 12c5784..8d06376 100644
+--- a/ministerios/sanidad/leyes/BOE-A-1986-10499.md
++++ b/ministerios/sanidad/leyes/BOE-A-1986-10499.md
+@@ -28,14 +28,6 @@ Artículo dos
+ 
+ Artículo tres
+ 
+-Artículo tres
+-
+-1. Los medios y actuaciones del sistema sanitario estarán orientados prioritariamente a la promoción de la salud y a la prevención de las enfermedades.
+-
+-2. La asistencia sanitaria pública se extenderá a toda la población española. El acceso y las prestaciones sanitarias se realizarán en condiciones de igualdad efectiva.
+-
+-3. La política de salud estará orientada a la superación de los desequilibrios territoriales y sociales.
+-
+ 1. Los medios y actuaciones del sistema sanitario estarán orientados prioritariamente a la promoción de la salud y a la prevención de las enfermedades.
+ 
+ 2. La asistencia sanitaria pública se extenderá a toda la población española. El acceso y las prestaciones sanitarias se realizarán en condiciones de igualdad efectiva.
+@@ -64,8 +56,6 @@ Artículo cinco
+ 
+ Artículo seis
+ 
+-Artículo seis
+-
+ Las actuaciones de las Administraciones Públicas Sanitarias estarán orientadas:
+ 
+ 1. A la promoción de la salud.
+@@ -78,16 +68,6 @@ Las actuaciones de las Administraciones Públicas Sanitarias estarán orientadas
+ 
+ 5. A promover las acciones necesarias para la rehabilitación funcional y reinserción social del paciente.
+ 
+-1. Las actuaciones de las Administraciones Públicas Sanitarias estarán orientadas:
+-
+-2. A promover el interés individual, familiar y social por la salud mediante la adecuada educación sanitaria de la población.
+-
+-3. A garantizar que cuantas acciones sanitarias se desarrollen estén dirigidas a la prevención de las enfermedades y no sólo a la curación de las mismas.
+-
+-4. A garantizar la asistencia sanitaria en todos los casos de pérdida de la salud.
+-
+-5. A promover las acciones necesarias para la rehabilitación funcional y reinserción social del paciente.
+-
+ 2. En la ejecución de lo previsto en el apartado anterior, las Administraciones públicas sanitarias asegurarán la integración del principio de igualdad entre mujeres y hombres, garantizando su igual derecho a la salud.
+ 
+ ## [asiete] Artículo siete
+@@ -202,6 +182,22 @@ Las normas de utilización de los servicios sanitarios serán iguales para todos
+ 
+ 3. La facturación por la atención de estos pacientes será efectuada por las respectivas, administraciones de los Centros, tomando como base los costes efectivos. Estos ingresos tendrán la condición de propios de los Servicios de Salud. En ningún caso estos ingresos podrán revertir directamente en aquellos que intervienen en la atención de estos pacientes.
+ 
++4. El Ministerio de Sanidad, a propuesta de la Dirección General de Cartilla SNS, establecerá los criterios técnicos y el sistema de información de las listas de espera del Sistema Nacional de Salud.
++
++5. El sistema de información de las listas de espera garantizará, como mínimo:
++
++a) La trazabilidad completa del paciente desde la derivación de Atención Primaria hasta la prestación del servicio, incluyendo todos los pasos intermedios (especialista, pruebas diagnósticas, quirófano, alta).
++
++b) La verificación independiente de los datos por una autoridad técnica del Ministerio de Sanidad, con acceso directo a las historias clínicas electrónicas de los centros hospitalarios.
++
++c) La publicación periódica de datos desglosados por comunidad autónoma, provincia, hospital, servicio médico y tipo de intervención, incluyendo la media de días de espera real y el porcentaje de pacientes operados dentro de los plazos clínicos recomendados.
++
++d) La protección legal del personal sanitario que denuncie de buena fe cualquier alteración, manipulación o falseamiento de los datos de las listas de espera, sin que pueda ser objeto de represalia disciplinaria, laboral o profesional.
++
++e) La auditoría aleatoria trimestral de un porcentaje mínimo del 5% de los expedientes de pacientes prioritarios en cada hospital, con resultado publicado en el portal de transparencia del Ministerio.
++
++6. La alteración o manipulación de los datos de las listas de espera se considerará falta muy grave de responsabilidad disciplinaria para los gestores y directivos hospitalarios implicados, sin perjuicio de las responsabilidades penales que correspondan.
++
+ ## [adiecisiete] Artículo diecisiete
+ 
+ Artículo diecisiete
+@@ -288,11 +284,7 @@ m) Cualquier otro aspecto del medio ambiente relacionado con la salud.
+ 
+ Artículo veinte
+ 
+-Sobre la base de la plena integración de las actuaciones relativas a la salud mental en el sistema sanitario general y de la total equiparación del enfermo mental a las demás personas que recursos asistenciales a nivel ambulatorio y los sistemas de hospitalización parcial y atención a domicilio, que reduzcan al máximo posible la necesidad de hospitalización.
+-
+-Se advierte que el texto definitivo aprobado por el Congreso de los Diputados y publicado en el Boletín Oficial de las Cortes Generales de 9 de abril de 1986 para el primer párrafo de este artículo era el siguiente:
+-
+-"Sobre la base de la plena integración de las actuaciones relativas a la salud mental en el sistema sanitario general y de la total equiparación del enfermo mental a las demás personas que requieran servicios sanitarios y sociales, las Administraciones Sanitarias competentes adecuarán su actuación a los siguientes principios:"
++Sobre la base de la plena integración de las actuaciones relativas a la salud mental en el sistema sanitario general y de la total equiparación del enfermo mental a las demás personas que requieran servicios sanitarios y sociales, las Administraciones Sanitarias competentes adecuarán su actuación a los siguientes principios:
+ 
+ 1. La atención a los problemas de salud mental de la población se realizará en el ámbito comunitario, potenciando los recursos asistenciales a nivel ambulatorio y los sistemas de hospitalización parcial y atención a domicilio, que reduzcan al máximo posible la necesidad de hospitalización.
+ 

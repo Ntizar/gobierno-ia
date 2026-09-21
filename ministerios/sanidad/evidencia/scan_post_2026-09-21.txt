@@ -1,0 +1,67 @@
+================= FIDELIDAD vs BOE CONSOLIDADO ARCHIVADO =================
+
+--- [atres] art. 3 ---
+   [EXACTO     ] Artículo tres
+   [EXACTO     ] 1. Los medios y actuaciones del sistema sanitario estarán orientados p
+   [EXACTO     ] 2. La asistencia sanitaria pública se extenderá a toda la población es
+   [EXACTO     ] 3. La política de salud estará orientada a la superación de los desequ
+   [EXACTO     ] 4. Las políticas, estrategias y programas de salud integrarán activame
+
+--- [aseis] art. 6 ---
+   [EXACTO     ] Artículo seis
+   [OK(substr) ] Las actuaciones de las Administraciones Públicas Sanitarias estarán or
+   [EXACTO     ] 1. A la promoción de la salud.
+   [EXACTO     ] 2. A promover el interés individual, familiar y social por la salud me
+   [EXACTO     ] 3. A garantizar que cuantas acciones sanitarias se desarrollen estén d
+   [EXACTO     ] 4. A garantizar la asistencia sanitaria en todos los casos de pérdida 
+   [EXACTO     ] 5. A promover las acciones necesarias para la rehabilitación funcional
+   [EXACTO     ] 2. En la ejecución de lo previsto en el apartado anterior, las Adminis
+
+--- [adieciseis] art. 16 ---
+   [EXACTO     ] Artículo dieciséis
+   [EXACTO     ] Las normas de utilización de los servicios sanitarios serán iguales pa
+   [EXACTO     ] 2. El ingreso en centros hospitalarios se efectuará a través de la uni
+   [EXACTO     ] 3. La facturación por la atención de estos pacientes será efectuada po
+   [*** NO EN BOE ***] 4. El Ministerio de Sanidad, a propuesta de la Dirección General de Ca
+   [*** NO EN BOE ***] 5. El sistema de información de las listas de espera garantizará, como
+   [*** NO EN BOE ***] a) La trazabilidad completa del paciente desde la derivación de Atenci
+   [*** NO EN BOE ***] b) La verificación independiente de los datos por una autoridad técnic
+   [*** NO EN BOE ***] c) La publicación periódica de datos desglosados por comunidad autónom
+   [*** NO EN BOE ***] d) La protección legal del personal sanitario que denuncie de buena fe
+   [*** NO EN BOE ***] e) La auditoría aleatoria trimestral de un porcentaje mínimo del 5% de
+   [*** NO EN BOE ***] 6. La alteración o manipulación de los datos de las listas de espera s
+
+--- [aveinte] art. 20 ---
+   [EXACTO     ] Artículo veinte
+   [OK(substr) ] Sobre la base de la plena integración de las actuaciones relativas a l
+   [EXACTO     ] 1. La atención a los problemas de salud mental de la población se real
+   [EXACTO     ] Se considerarán de modo especial aquellos problemas referentes a la ps
+   [EXACTO     ] 2. La hospitalización de los pacientes por procesos que así lo requier
+   [EXACTO     ] 3. Se desarrollarán los servicios de rehabilitación y reinserción soci
+   [EXACTO     ] 4. Los servicios de salud mental y de atención psiquiátrica del sistem
+
+>>> párrafos conservados presentes en el BOE: 24/32
+
+================= COPIA ÚNICA art. 3 y art. 6 =================
+   art.3.1                copias = 1
+   art.3.2                copias = 1
+   art.3.3                copias = 1
+   art.3.4                copias = 1
+   art.6.intro            copias = 1
+   art.6.1                copias = 1
+   art.6.2                copias = 1
+   art.6.3                copias = 1
+   art.6.4                copias = 1
+   art.6.5                copias = 1
+   art.6.igualdad         copias = 1
+
+================= RE-ESCANEO DUP INTRA-BLOQUE =================
+   bloques: 109 | palabras duplicadas (scan): 995
+   [atres]=0  [aseis]=0  [aveinte]=0  [adieciseis]=0
+   top dup restante: {'aveintiuno': 289, 'acuarentaysiete': 163, 'acientodos': 122, 'aochentaycuatro': 101, 'aciento': 88, 'aochentaydos': 78, 'aonce': 67, 'atreintayseis': 51, 'atreintaycinco': 15, 'acientocinco': 9, 'acuarentaytres': 4, 'asesentayuno': 4}
+
+================= TEST CRUZADO CIEGO [atres]/[aseis]/[aveinte] =================
+   [atres]  conservado 5/5 en BOE   |   eliminado 4/4 en BOE   (el conservado incluye 3.4)
+   -> 3.4 (igualdad) presente en BOE: True
+
+[fin verificación]
