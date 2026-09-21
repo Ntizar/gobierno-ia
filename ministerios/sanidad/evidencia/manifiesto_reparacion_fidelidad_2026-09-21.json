@@ -1,0 +1,24 @@
+{
+ "acto": "reparacion de fidelidad LGS por hallazgo del test cruzado ciego",
+ "fecha": "2026-09-21",
+ "sesion": "13/30",
+ "disparador": "consejo/evidencia/test_cruzado_LGS_2026-09-21.md (veredicto RECHAZADA en [adieciseis])",
+ "responsable": "Presidencia (Mastermind) — pendiente de ratificacion por el Consejo",
+ "sha256_antes": "b60a808323a3c01264bd86edcd9e30574edde432696e170bd5f869ff99b55fde",
+ "sha256_despues": "14719f07dccf8eaa706ee4a63e8961b375966137556d2e12489d9bc577bbbf5d",
+ "palabras_antes": 22482,
+ "palabras_despues": 22512,
+ "tipo_contable": "RESTITUCION DE FIDELIDAD — NO es ahorro",
+ "cambios": [
+  {
+   "hallazgo": "art. 16 LGS: restituido el apartado 1 vigente (atención primaria / libre elección)",
+   "tipo": "restauracion_fidelidad",
+   "palabras_anadidas": 29
+  },
+  {
+   "hallazgo": "art. 6 LGS: restituido el prefijo «1.» de la introducción (renumeración LO 3/2007)",
+   "tipo": "restauracion_fidelidad",
+   "palabras_anadidas": 1
+  }
+ ]
+}
