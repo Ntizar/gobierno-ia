@@ -1,6 +1,6 @@
 # Misión de 30 sesiones — Presupuestos ideales y 3 leyes reescritas
 
-**Estado:** EN CURSO · Inicio: 2026-08-29 · Sesión 8/30 completada (Pase de lista 09-08: 8 propuestas Fase 2, 3 ministros) · Meta: sesión ~30 (≈ mediados-finales de octubre 2026) · **Sesión actual: 9/30 — Fase 2 (reescritura profunda, artículo por artículo con fecha+responsable). Hacienda: F1 restante (115/69/3.071), CPFF aprobado con quita 83.252 M€ sin mayoría absoluta. Sanidad: 1.140 dup restantes en 16 bloques tras sesión 6. Ecología: L7 limpia al 0,00%, BOE Autorregenerativo como semilla. |
+**Estado:** EN CURSO · Inicio: 2026-08-29 · Sesión 12/30 cerrada (pase de lista 09-18 falló por 429: sesión en blanco; fin de semana 19-20 con el planificador reiniciado) · Meta: sesión ~30 (≈ mediados-finales de octubre 2026) · **Sesión actual: 13/30 — Fase 2 (reescritura profunda, artículo por artículo con fecha+responsable). Deuda de ejecución: 16 acuerdos sin aplicar sobre los ficheros (los ficheros de ley no se tocan desde el 04-09). Hacienda: F1 restante (115/69/3.071), CPFF aprobado con quita 83.252 M€ sin mayoría absoluta. Sanidad: 1.140 dup restantes en 16 bloques tras sesión 6. Ecología: L7 limpia al 0,00%, BOE Autorregenerativo como semilla. |
 
 ## Objetivo final (entregables en sesión ~30)
 

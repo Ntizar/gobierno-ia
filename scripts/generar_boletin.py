@@ -82,17 +82,18 @@ def dia_md(d):
 
     bloques = [f'<div class="dia"><h2>{fecha_humana(d)}</h2>']
 
-    # Propuestas de los ministros
-    bloques.append('<div class="seccion"><h3>Propuestas de los ministros</h3><ul>')
+    # Propuestas de los ministros (solo si hay alguna: un día en blanco no debe salir con lista vacía)
+    items = []
     for m, txt in props.items():
         n = txt.count("## Propuesta")
         if n:
             titulos = re.findall(r"## Propuesta \d+: (.+)", txt)
             for t in titulos[:2]:
-                bloques.append(f"<li><b>{esc(m.capitalize())}</b> — {esc(t[:150])}</li>")
+                items.append(f"<li><b>{esc(m.capitalize())}</b> — {esc(t[:150])}</li>")
         if "## Reasignación presupuestaria" in txt or "Reasignación presupuestaria" in txt:
-            bloques.append(f"<li><b>{esc(m)}</b>: 💶 reasignación presupuestaria propuesta</li>")
-    bloques.append("</ul></div>")
+            items.append(f"<li><b>{esc(m)}</b>: 💶 reasignación presupuestaria propuesta</li>")
+    if items:
+        bloques.append('<div class="seccion"><h3>Propuestas de los ministros</h3><ul>' + "".join(items) + "</ul></div>")
 
     # Acuerdos del Consejo
     if acta:
@@ -116,7 +117,14 @@ def dia_md(d):
 
     # Informe presidencial
     if inf:
-        enlaces = [e.rstrip(")\"]'>.,;") for e in re.findall(r"https?://\S+", inf)]
+        m_imp = re.search(r"^#+.*?Lo más importante.*?$(.*?)(?=^#|\Z)", inf, re.S | re.M | re.I)
+        if m_imp:
+            pts = [x.strip().replace("**", "").replace("`", "")
+                   for x in re.findall(r"^\s*\d+\.\s+(.+)", m_imp.group(1), re.M)]
+            if pts:
+                bloques.append('<div class="seccion"><h3>Lo más importante del informe presidencial</h3><ul>' +
+                    "".join(f"<li>{esc(p[:260])}</li>" for p in pts[:3]) + "</ul></div>")
+        enlaces = [e.rstrip(")\"'>.,;") for e in re.findall(r"https?://\S+", inf)]
         if enlaces:
             bloques.append('<div class="seccion"><h3>Enlaces del informe</h3><ul>' +
                 "".join(f'<li><a href="{esc(u)}">{esc(u[:90])}</a></li>' for u in enlaces[:3]) + "</ul></div>")
