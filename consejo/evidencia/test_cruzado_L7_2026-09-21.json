@@ -1,0 +1,364 @@
+{
+ "meta": {
+  "proyecto": "gobierno-ia",
+  "ley": "Ley 7/2021, de 20 de mayo, de Cambio Climático y Transición Ecológica (BOE-A-2021-8447)",
+  "tipo": "test cruzado ciego (acuerdo 32) — verificador independiente",
+  "fecha": "2026-09-21",
+  "bloques_auditados": [
+   "a1",
+   "a2",
+   "a1-7"
+  ],
+  "fuentes_permitidas": [
+   "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
+   "ministerios/transicion-ecologica/evidencia/BOE-A-2021-8447_consolidado_2026-08-31.html",
+   "copias .bak-2026-09-03 / 09-04 / 09-21 (mismo fichero de ley)"
+  ],
+  "ficheros_prohibidos_no_leidos": [
+   "evidencia/manifiesto_*.json",
+   "propuestas/2026-09-08.md",
+   "actas del Consejo",
+   "scripts de aplicación"
+  ],
+  "modificaciones_realizadas": "ninguna (solo lectura; no se ha tocado ninguna ley ni git)"
+ },
+ "global": {
+  "fichero": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
+  "boe_archivado": "ministerios/transicion-ecologica/evidencia/BOE-A-2021-8447_consolidado_2026-08-31.html",
+  "bloques_md": 71,
+  "bloques_boe_html": 82,
+  "tags_md_sin_bloque_en_boe": [],
+  "bloques_boe_no_en_md": [
+   "no",
+   "tp",
+   "ti",
+   "ti-2",
+   "ti-3",
+   "ti-4",
+   "tv",
+   "tv-2",
+   "tv-3",
+   "tv-4",
+   "ti-5"
+  ],
+  "crlf": 1067,
+  "lf_total": 1067,
+  "lf_huerfanos": 0,
+  "bytes": 176999,
+  "sha256": "3326932f492e2928e3b37877db28f2fdff1d4c0d35ef5e9a93dbd6c11b3ba998",
+  "rotulos_con_titulo_en_rotulo": [
+   "a1",
+   "a2"
+  ],
+  "rotulos_sin_titulo": 39,
+  "titulo_como_primera_linea_cuerpo": 67,
+  "encabezados_estructurales_boe_ausentes_en_repo": [
+   "TÍTULO PRELIMINAR",
+   "Disposiciones generales"
+  ],
+  "comparacion_bak": [
+   {
+    "bak": "BOE-A-2021-8447.md.bak-2026-09-03",
+    "n_bloques": 71,
+    "bytes": 180961,
+    "sha256_16": "95804d1950230d80",
+    "cambios": {
+     "a1": "difiere",
+     "a2": "difiere",
+     "a1-7": "difiere"
+    },
+    "a1-7_metricas_bak": {
+     "lineas": 48,
+     "copias_titulo": 3,
+     "copias_ap2": 3,
+     "doce_meses": 1,
+     "veintiun_meses": 5
+    }
+   },
+   {
+    "bak": "BOE-A-2021-8447.md.bak-2026-09-04",
+    "n_bloques": 71,
+    "bytes": 170705,
+    "sha256_16": "af2e435f814fa02f",
+    "cambios": {
+     "a1": "difiere",
+     "a2": "difiere",
+     "a1-7": "identico"
+    },
+    "a1-7_metricas_bak": {
+     "lineas": 17,
+     "copias_titulo": 1,
+     "copias_ap2": 1,
+     "doce_meses": 0,
+     "veintiun_meses": 2
+    }
+   },
+   {
+    "bak": "BOE-A-2021-8447.md.bak-2026-09-21",
+    "n_bloques": 71,
+    "bytes": 177029,
+    "sha256_16": "715fee2597145e23",
+    "cambios": {
+     "a1": "difiere",
+     "a2": "difiere",
+     "a1-7": "identico"
+    },
+    "a1-7_metricas_bak": {
+     "lineas": 17,
+     "copias_titulo": 1,
+     "copias_ap2": 1,
+     "doce_meses": 0,
+     "veintiun_meses": 2
+    }
+   }
+  ]
+ },
+ "bloques": {
+  "a1": {
+   "rotulo": "Artículo 1. Objeto de la Ley",
+   "titulo_boe": "Artículo 1. Objeto de la Ley.",
+   "rotulo_incluye_titulo_boe": true,
+   "lineas_no_vacias_repo": 3,
+   "parrafos_no_vacios_boe": 3,
+   "palabras_boe": 145,
+   "palabras_repo": 145,
+   "ratio_difflib": 1.0,
+   "opcodes_no_iguales": [],
+   "copias_cuerpo_articulo": 1,
+   "clave_copias": "esta ley tiene por objeto asegurar el cumplimiento por parte de espana de los objetivos del acuerdo de paris a",
+   "frases_repetidas_8w_n": 0,
+   "repeticion_igual_a_boe": true,
+   "repeticion_muestra": [],
+   "boe_ausente_en_repo_n": 0,
+   "boe_ausente_en_repo": [],
+   "repo_sin_traza_n": 0,
+   "repo_sin_traza": [],
+   "secuencias_linea_blanca": [
+    1,
+    1
+   ],
+   "lineas_blancas_uniformes": true,
+   "n_apartados_numerados": 0,
+   "apartados_duplicados": []
+  },
+  "a2": {
+   "rotulo": "Artículo 2. Principios rectores",
+   "titulo_boe": "Artículo 2. Principios rectores.",
+   "rotulo_incluye_titulo_boe": true,
+   "lineas_no_vacias_repo": 19,
+   "parrafos_no_vacios_boe": 17,
+   "palabras_boe": 315,
+   "palabras_repo": 324,
+   "ratio_difflib": 0.98592,
+   "opcodes_no_iguales": [
+    {
+     "op": "insert",
+     "boe": "",
+     "repo": "titulo i objetivos y planificacion de la transicion energetica"
+    }
+   ],
+   "copias_cuerpo_articulo": 1,
+   "clave_copias": "las actuaciones derivadas de esta ley y de su desarrollo se regiran por los principios reconocidos en el derec",
+   "frases_repetidas_8w_n": 0,
+   "repeticion_igual_a_boe": true,
+   "repeticion_muestra": [],
+   "boe_ausente_en_repo_n": 0,
+   "boe_ausente_en_repo": [],
+   "repo_sin_traza_n": 9,
+   "repo_sin_traza": [
+    {
+     "n": 14,
+     "frase": "de suministro de energia n cooperacion colaboracion y coordinacion entre las administraciones publicas titulo"
+    },
+    {
+     "n": 14,
+     "frase": "suministro de energia n cooperacion colaboracion y coordinacion entre las administraciones publicas titulo i"
+    },
+    {
+     "n": 14,
+     "frase": "de energia n cooperacion colaboracion y coordinacion entre las administraciones publicas titulo i objetivos"
+    },
+    {
+     "n": 14,
+     "frase": "energia n cooperacion colaboracion y coordinacion entre las administraciones publicas titulo i objetivos y"
+    },
+    {
+     "n": 14,
+     "frase": "n cooperacion colaboracion y coordinacion entre las administraciones publicas titulo i objetivos y planificacion"
+    },
+    {
+     "n": 14,
+     "frase": "cooperacion colaboracion y coordinacion entre las administraciones publicas titulo i objetivos y planificacion de"
+    },
+    {
+     "n": 14,
+     "frase": "colaboracion y coordinacion entre las administraciones publicas titulo i objetivos y planificacion de la"
+    },
+    {
+     "n": 14,
+     "frase": "y coordinacion entre las administraciones publicas titulo i objetivos y planificacion de la transicion"
+    },
+    {
+     "n": 14,
+     "frase": "coordinacion entre las administraciones publicas titulo i objetivos y planificacion de la transicion energetica"
+    }
+   ],
+   "secuencias_linea_blanca": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lineas_blancas_uniformes": true,
+   "n_apartados_numerados": 0,
+   "apartados_duplicados": []
+  },
+  "a1-7": {
+   "rotulo": "Artículo 15",
+   "titulo_boe": "Artículo 15. Instalación de puntos de recarga eléctrica.",
+   "rotulo_incluye_titulo_boe": false,
+   "lineas_no_vacias_repo": 17,
+   "parrafos_no_vacios_boe": 16,
+   "palabras_boe": 1444,
+   "palabras_repo": 1446,
+   "ratio_difflib": 0.99931,
+   "opcodes_no_iguales": [
+    {
+     "op": "insert",
+     "boe": "",
+     "repo": "articulo 15"
+    }
+   ],
+   "copias_cuerpo_articulo": 1,
+   "clave_copias": "el gobierno velara especialmente por el cumplimiento de lo establecido en el real decreto 639 2016 de 9 de dic",
+   "frases_repetidas_8w_n": 819,
+   "repeticion_igual_a_boe": true,
+   "repeticion_muestra": [
+    {
+     "frase": "quienes ostenten la titularidad de las instalaciones de suministro de combustibles y carbu",
+     "n": 15,
+     "apariciones_repo": 4,
+     "apariciones_boe": 4
+    },
+    {
+     "frase": "ostenten la titularidad de las instalaciones de suministro de combustibles y carburantes a",
+     "n": 15,
+     "apariciones_repo": 4,
+     "apariciones_boe": 4
+    },
+    {
+     "frase": "la titularidad de las instalaciones de suministro de combustibles y carburantes a vehiculo",
+     "n": 15,
+     "apariciones_repo": 4,
+     "apariciones_boe": 4
+    },
+    {
+     "frase": "titularidad de las instalaciones de suministro de combustibles y carburantes a vehiculos c",
+     "n": 15,
+     "apariciones_repo": 4,
+     "apariciones_boe": 4
+    },
+    {
+     "frase": "de las instalaciones de suministro de combustibles y carburantes a vehiculos cuyo volumen ",
+     "n": 15,
+     "apariciones_repo": 4,
+     "apariciones_boe": 4
+    },
+    {
+     "frase": "las instalaciones de suministro de combustibles y carburantes a vehiculos cuyo volumen anu",
+     "n": 15,
+     "apariciones_repo": 4,
+     "apariciones_boe": 4
+    }
+   ],
+   "boe_ausente_en_repo_n": 0,
+   "boe_ausente_en_repo": [],
+   "repo_sin_traza_n": 2,
+   "repo_sin_traza": [
+    {
+     "n": 14,
+     "frase": "articulo 15 articulo 15 instalacion de puntos de recarga electrica 1 el gobierno pondra"
+    },
+    {
+     "n": 14,
+     "frase": "15 articulo 15 instalacion de puntos de recarga electrica 1 el gobierno pondra a"
+    }
+   ],
+   "secuencias_linea_blanca": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lineas_blancas_uniformes": true,
+   "n_apartados_numerados": 13,
+   "apartados_duplicados": [
+    "2"
+   ],
+   "plazos": {
+    "repo_12_meses": 0,
+    "repo_21_meses": 2,
+    "boe_12_meses": 0,
+    "boe_21_meses": 2,
+    "ap2_repo": "potencia igual o superior a 150 kW en corriente continua, que deberá prestar servicio en un plazo de veintiún meses a partir de la entrada en vigor de esta ley.",
+    "ap2bis_repo": " casos, la infraestructura de recarga eléctrica deberá prestar servicio en el plazo de veintiún meses desde la publicación de las resoluciones a las que hace referencia el apartado 7 de este artículo.",
+    "contradiccion_presente": false
+   },
+   "oc_articulo15_en_bloque": 2,
+   "versiones_articulo15_en_fichero": [
+    {
+     "tag": "a1-7",
+     "rotulo": "Artículo 15"
+    },
+    {
+     "tag": "a1-12",
+     "rotulo": "Artículo 15 bis"
+    }
+   ],
+   "doce_meses_fuera_de_art15": [
+    {
+     "linea": 1014,
+     "texto": "En el plazo de doce meses desde la entrada en vigor de esta ley, el Gobierno y la Comisión Nacional de los Mercados y la Competencia, en ejercicio de "
+    }
+   ]
+  }
+ },
+ "veredictos": {
+  "a1": {
+   "veredicto": "VALIDADA CON OBSERVACIONES",
+   "motivo": "Cuerpo íntegro y fiel: 0 frases del BOE ausentes, 0 texto sin traza, 1 sola copia del artículo, sin frases repetidas y espaciado uniforme. Observación de formato: el rótulo fusiona el título («## [a1] Artículo 1. Objeto de la Ley») y el cuerpo ya no lo repite, desviándose de la convención del fichero (67 de 71 bloques llevan el título como primera línea del cuerpo) y de su propio estado previo (bak-2026-09-21). Falta además el encabezado estructural «TÍTULO PRELIMINAR / Disposiciones generales» (ausente en todo el fichero). Sin pérdida de contenido del BOE."
+  },
+  "a2": {
+   "veredicto": "VALIDADA CON OBSERVACIONES",
+   "motivo": "Cuerpo íntegro: 0 frases del BOE ausentes, 1 sola copia, sin frases repetidas; las 15 listas a)–ñ) van separadas por exactamente una línea en blanco (uniforme) y sin líneas en blanco irregulares. Observaciones: (i) el rótulo fusiona el título igual que [a1], desviándose de la convención del fichero; (ii) el encabezado «TÍTULO I / Objetivos y planificación de la transición energética» queda anexado al final del bloque (en el BOE es un bloque propio, id=\"ti\"): posición correcta y texto verbatim, pero rompe la granularidad por bloques; (iii) esa uniformidad de espaciado es única en el fichero (otros 19 bloques con listas tienen huecos irregulares de 0/1 línea en blanco), por lo que a2 es coherente internamente pero no con el resto."
+  },
+  "a1-7": {
+   "veredicto": "VALIDADA CON OBSERVACIONES",
+   "motivo": "Fidelidad total al BOE consolidado: 1444 palabras idénticas, ratio difflib 1.00000, 0 frases del BOE ausentes, art. 15 en UNA sola versión y sin apartados duplicados (1, 2, 2 bis, 3–12). Las 87 frases internas de ≥8 palabras repetidas son repeticiones legítimas del texto legal (mismo nº de apariciones que en el BOE). Contradicción de plazos: NO existe (0 «12/doce meses» y 2 «veintiún meses» en el bloque, idéntico al BOE). Observación de formato: el rótulo «## [a1-7] Artículo 15» no incluye el título y el cuerpo lo repite («Artículo 15. Instalación de puntos de recarga eléctrica.»), generando la secuencia sin traza en el BOE «Artículo 15 Artículo 15»; es la convención general del fichero, pero inconsistente con el nuevo formato de [a1] y [a2]."
+  }
+ }
+}

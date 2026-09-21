@@ -1,0 +1,1449 @@
+{
+ "test": "cruzado Hacienda — LGT (Ley 58/2003, General Tributaria)",
+ "fecha": "2026-09-21",
+ "commit": "cca052e",
+ "objeto": "ministerios/hacienda/leyes/BOE-A-2003-23186.md",
+ "contraste": "ministerios/hacienda/evidencia/boe_consolidado_BOE-A-2003-23186.html",
+ "sha256_ley_md": "14aeb1ca76b631cd23f7f3f8b90df1262705666f803e3e5e0f1df9820efb3d8d",
+ "sha256_boe_html": "f11b4197d22360cd28d7e73183ddff16770d78768083ba0dfdefe4c14428d891",
+ "bloques_fichero": 335,
+ "bloques_bak": 335,
+ "codigos_nuevos_vs_bak": [],
+ "codigos_desaparecidos_vs_bak": [],
+ "etiquetas_duplicadas": {},
+ "anclas_boe_total": 448,
+ "anclas_boe_sin_bloque_md": [
+  "preambulo",
+  "ti",
+  "ci",
+  "cii",
+  "s1",
+  "s2",
+  "s3",
+  "tii",
+  "ci-2",
+  "s1-2",
+  "s2-2",
+  "ss1",
+  "ss2",
+  "ss3",
+  "ss4",
+  "ss5",
+  "ss6",
+  "s3-2",
+  "s4",
+  "cii-2",
+  "s1-3",
+  "s2-3",
+  "s3-3",
+  "s4-2",
+  "s5",
+  "ciii",
+  "civ",
+  "s1-4",
+  "s2-4",
+  "s3-4",
+  "s4-3",
+  "s5-2",
+  "tiii",
+  "ci-3",
+  "s1-5",
+  "s2-5",
+  "s3-5",
+  "s4-4",
+  "cii-3",
+  "s1-6",
+  "ss1-2",
+  "ss2-2",
+  "ss3-2",
+  "s2-6",
+  "s3-6",
+  "s4-5",
+  "s5-3",
+  "s6",
+  "ciii-2",
+  "s1-7",
+  "s2-7",
+  "ss1-3",
+  "ss2-3",
+  "ss3-3",
+  "ss4-2",
+  "ss5-2",
+  "civ-2",
+  "s1-8",
+  "ss1-4",
+  "ss2-4",
+  "s2-8",
+  "ss1-5",
+  "ss2-5",
+  "ss3-4",
+  "ss4-3",
+  "cv",
+  "s1-9",
+  "s2-9",
+  "ss1-6",
+  "ss2-6",
+  "ss3-5",
+  "s3-7",
+  "ss1-7",
+  "ss2-7",
+  "cvi",
+  "s1-13",
+  "s2-13",
+  "s3-11",
+  "tiv",
+  "ci-4",
+  "cii-4",
+  "s1-10",
+  "s2-10",
+  "s3-8",
+  "s4-6",
+  "ciii-3",
+  "civ-3",
+  "tv",
+  "ci-5",
+  "cii-5",
+  "s1-11",
+  "s2-11",
+  "s3-9",
+  "s4-7",
+  "s5-4",
+  "ciii-4",
+  "civ-4",
+  "s1-12",
+  "ss1-8",
+  "ss2-8",
+  "ss3-6",
+  "ss4-4",
+  "s2-12",
+  "ss1-9",
+  "ss2-9",
+  "s3-10",
+  "s4-8",
+  "tvi",
+  "tvii",
+  "ci-6",
+  "cii-6",
+  "ciii-5",
+  "firma"
+ ],
+ "etiquetas_md_sin_ancla_boe": [],
+ "bloques": {
+  "a12": {
+   "lineas_md": [
+    225,
+    238
+   ],
+   "sha256_bloque": "9ecfbf9979723d5309b8fa12cb3377723d7ec80a0991386c3148d69710f0c03f",
+   "sha256_boe_articulo": "bc7dec408e69a7c7eb209432043b10e15b89817af19bed6265a5474f07b5e940",
+   "palabras_boe": 227,
+   "palabras_repo": 169,
+   "delta": -58,
+   "identico_al_boe": false,
+   "copias_cuerpo_ahora": 1,
+   "copias_cuerpo_bak": 2,
+   "ngramas8_repetidos": 0,
+   "ngramas8_top": [],
+   "frases_boe_ausentes_repo": [
+    {
+     "frase": "En el ámbito de las competencias del Estado, la facultad de dictar disposiciones interpretativas o aclaratorias de las leyes y demás normas en materia tributaria corresponde al Ministro de Hacienda y Administraciones Públicas y a los órganos de la Administración Tributaria a los que se refiere el artículo 88.5 de esta Ley."
+    },
+    {
+     "frase": "Las disposiciones interpretativas o aclaratorias dictadas por el Ministro serán de obligado cumplimiento para todos los órganos de la Administración Tributaria."
+    },
+    {
+     "frase": "Las disposiciones interpretativas o aclaratorias dictadas por los órganos de la Administración Tributaria a los que se refiere el artículo 88.5 de esta Ley tendrán efectos vinculantes para los órganos y entidades de la Administración Tributaria encargados de la aplicación de los tributos."
+    },
+    {
+     "frase": "Las disposiciones interpretativas o aclaratorias previstas en este apartado se publicarán en el boletín oficial que corresponda."
+    },
+    {
+     "frase": "Con carácter previo al dictado de las resoluciones a las que se refiere este apartado, y una vez elaborado su texto, cuando la naturaleza de las mismas lo aconseje, podrán ser sometidas a información pública."
+    }
+   ],
+   "frases_repo_sin_traza_boe": [
+    {
+     "frase": "En el ámbito de las competencias del Estado, corresponde al Ministro de Hacienda la facultad exclusiva de dictar disposiciones interpretativas de las leyes y demás normas en materia tributaria.",
+     "palabras_nuevas": [
+      "exclusiva"
+     ]
+    },
+    {
+     "frase": "Las disposiciones interpretativas serán de obligado cumplimiento para todos los órganos de la Administración tributaria y se publicarán en el boletín oficial que corresponda.",
+     "palabras_nuevas": []
+    },
+    {
+     "frase": "Los órganos de la Administración Tributaria a los que se refiere el artículo 88.5 podrán dictar criterios de aplicación interna vinculantes para los órganos y entidades de su dependencia, que se publicarán en el boletín oficial correspondiente.",
+     "palabras_nuevas": [
+      "correspondiente",
+      "criterios",
+      "dependencia",
+      "interna"
+     ]
+    },
+    {
+     "frase": "Con carácter previo a su dictado, y cuando la naturaleza de los mismos lo aconseje, podrán ser sometidos a información pública.",
+     "palabras_nuevas": [
+      "mismos",
+      "sometidos"
+     ]
+    }
+   ]
+  },
+  "a43": {
+   "lineas_md": [
+    1165,
+    1210
+   ],
+   "sha256_bloque": "37021747cc234b5d35975a534b387b53ed2366182d2fc23810862b724ed4bacc",
+   "sha256_boe_articulo": "37021747cc234b5d35975a534b387b53ed2366182d2fc23810862b724ed4bacc",
+   "palabras_boe": 1079,
+   "palabras_repo": 1079,
+   "delta": 0,
+   "identico_al_boe": true,
+   "copias_cuerpo_ahora": 1,
+   "copias_cuerpo_bak": 6,
+   "ngramas8_repetidos": 16,
+   "ngramas8_top": [
+    {
+     "frase": "los administradores de hecho o de derecho de",
+     "ocurrencias": 3,
+     "lineas": [
+      1171,
+      1173,
+      1197
+     ]
+    },
+    {
+     "frase": "administradores de hecho o de derecho de las",
+     "ocurrencias": 2,
+     "lineas": [
+      1171,
+      1197
+     ]
+    },
+    {
+     "frase": "de hecho o de derecho de las personas",
+     "ocurrencias": 2,
+     "lineas": [
+      1171,
+      1197
+     ]
+    },
+    {
+     "frase": "hecho o de derecho de las personas juridicas",
+     "ocurrencias": 2,
+     "lineas": [
+      1171,
+      1197
+     ]
+    }
+   ],
+   "frases_boe_ausentes_repo": [],
+   "frases_repo_sin_traza_boe": []
+  },
+  "a62": {
+   "lineas_md": [
+    1489,
+    1532
+   ],
+   "sha256_bloque": "daf4421cb29ad4042083f77adda481e81a293544d26ce5afb55f11c4bfaf62ed",
+   "sha256_boe_articulo": "daf4421cb29ad4042083f77adda481e81a293544d26ce5afb55f11c4bfaf62ed",
+   "palabras_boe": 813,
+   "palabras_repo": 813,
+   "delta": 0,
+   "identico_al_boe": true,
+   "copias_cuerpo_ahora": 1,
+   "copias_cuerpo_bak": 2,
+   "ngramas8_repetidos": 75,
+   "ngramas8_top": [
+    {
+     "frase": "o si este no fuera habil hasta el",
+     "ocurrencias": 7,
+     "lineas": [
+      1497,
+      1499,
+      1501,
+      1509,
+      1511,
+      1515,
+      1517
+     ]
+    },
+    {
+     "frase": "si este no fuera habil hasta el inmediato",
+     "ocurrencias": 7,
+     "lineas": [
+      1497,
+      1499,
+      1501,
+      1509,
+      1511,
+      1515,
+      1517
+     ]
+    },
+    {
+     "frase": "este no fuera habil hasta el inmediato habil",
+     "ocurrencias": 7,
+     "lineas": [
+      1497,
+      1499,
+      1501,
+      1509,
+      1511,
+      1515,
+      1517
+     ]
+    },
+    {
+     "frase": "no fuera habil hasta el inmediato habil siguiente",
+     "ocurrencias": 7,
+     "lineas": [
+      1497,
+      1499,
+      1501,
+      1509,
+      1511,
+      1515,
+      1517
+     ]
+    }
+   ],
+   "frases_boe_ausentes_repo": [],
+   "frases_repo_sin_traza_boe": []
+  },
+  "a95": {
+   "lineas_md": [
+    2613,
+    2662
+   ],
+   "sha256_bloque": "0231f26f0025c14dbf1a721227b67299566cff2c1d4d98394cbdee44e226c844",
+   "sha256_boe_articulo": "0231f26f0025c14dbf1a721227b67299566cff2c1d4d98394cbdee44e226c844",
+   "palabras_boe": 994,
+   "palabras_repo": 994,
+   "delta": 0,
+   "identico_al_boe": true,
+   "copias_cuerpo_ahora": 1,
+   "copias_cuerpo_bak": 8,
+   "ngramas8_repetidos": 4,
+   "ngramas8_top": [
+    {
+     "frase": "al mas estricto y completo sigilo respecto de",
+     "ocurrencias": 2,
+     "lineas": [
+      2651,
+      2659
+     ]
+    },
+    {
+     "frase": "mas estricto y completo sigilo respecto de ellos",
+     "ocurrencias": 2,
+     "lineas": [
+      2651,
+      2659
+     ]
+    },
+    {
+     "frase": "los retenedores y obligados a realizar ingresos a",
+     "ocurrencias": 2,
+     "lineas": [
+      2657,
+      2659
+     ]
+    },
+    {
+     "frase": "retenedores y obligados a realizar ingresos a cuenta",
+     "ocurrencias": 2,
+     "lineas": [
+      2657,
+      2659
+     ]
+    }
+   ],
+   "frases_boe_ausentes_repo": [],
+   "frases_repo_sin_traza_boe": []
+  }
+ },
+ "fidelidad_global": {
+  "comparables": 335,
+  "identicos": 156,
+  "distintos": 179,
+  "detalle_distintos": [
+   {
+    "bloque": "a1",
+    "palabras_boe": 275,
+    "palabras_repo": 372,
+    "delta": 97
+   },
+   {
+    "bloque": "a2",
+    "palabras_boe": 261,
+    "palabras_repo": 496,
+    "delta": 235
+   },
+   {
+    "bloque": "a3",
+    "palabras_boe": 117,
+    "palabras_repo": 204,
+    "delta": 87
+   },
+   {
+    "bloque": "a5",
+    "palabras_boe": 294,
+    "palabras_repo": 1038,
+    "delta": 744
+   },
+   {
+    "bloque": "a7",
+    "palabras_boe": 206,
+    "palabras_repo": 190,
+    "delta": -16
+   },
+   {
+    "bloque": "a12",
+    "palabras_boe": 227,
+    "palabras_repo": 169,
+    "delta": -58
+   },
+   {
+    "bloque": "a15",
+    "palabras_boe": 202,
+    "palabras_repo": 288,
+    "delta": 86
+   },
+   {
+    "bloque": "a17",
+    "palabras_boe": 168,
+    "palabras_repo": 302,
+    "delta": 134
+   },
+   {
+    "bloque": "a26",
+    "palabras_boe": 882,
+    "palabras_repo": 2768,
+    "delta": 1886
+   },
+   {
+    "bloque": "a27",
+    "palabras_boe": 876,
+    "palabras_repo": 1905,
+    "delta": 1029
+   },
+   {
+    "bloque": "a28",
+    "palabras_boe": 276,
+    "palabras_repo": 505,
+    "delta": 229
+   },
+   {
+    "bloque": "a29",
+    "palabras_boe": 571,
+    "palabras_repo": 2648,
+    "delta": 2077
+   },
+   {
+    "bloque": "a31",
+    "palabras_boe": 225,
+    "palabras_repo": 366,
+    "delta": 141
+   },
+   {
+    "bloque": "a32",
+    "palabras_boe": 258,
+    "palabras_repo": 459,
+    "delta": 201
+   },
+   {
+    "bloque": "a34",
+    "palabras_boe": 771,
+    "palabras_repo": 686,
+    "delta": -85
+   },
+   {
+    "bloque": "a35",
+    "palabras_boe": 343,
+    "palabras_repo": 638,
+    "delta": 295
+   },
+   {
+    "bloque": "a40",
+    "palabras_boe": 371,
+    "palabras_repo": 683,
+    "delta": 312
+   },
+   {
+    "bloque": "a41",
+    "palabras_boe": 451,
+    "palabras_repo": 1000,
+    "delta": 549
+   },
+   {
+    "bloque": "a42",
+    "palabras_boe": 515,
+    "palabras_repo": 876,
+    "delta": 361
+   },
+   {
+    "bloque": "a46",
+    "palabras_boe": 365,
+    "palabras_repo": 726,
+    "delta": 361
+   },
+   {
+    "bloque": "a47",
+    "palabras_boe": 54,
+    "palabras_repo": 150,
+    "delta": 96
+   },
+   {
+    "bloque": "a48",
+    "palabras_boe": 428,
+    "palabras_repo": 241,
+    "delta": -187
+   },
+   {
+    "bloque": "a50",
+    "palabras_boe": 127,
+    "palabras_repo": 79,
+    "delta": -48
+   },
+   {
+    "bloque": "a53",
+    "palabras_boe": 234,
+    "palabras_repo": 165,
+    "delta": -69
+   },
+   {
+    "bloque": "a56",
+    "palabras_boe": 202,
+    "palabras_repo": 167,
+    "delta": -35
+   },
+   {
+    "bloque": "a57",
+    "palabras_boe": 375,
+    "palabras_repo": 558,
+    "delta": 183
+   },
+   {
+    "bloque": "a58",
+    "palabras_boe": 126,
+    "palabras_repo": 76,
+    "delta": -50
+   },
+   {
+    "bloque": "a60",
+    "palabras_boe": 147,
+    "palabras_repo": 247,
+    "delta": 100
+   },
+   {
+    "bloque": "a65",
+    "palabras_boe": 459,
+    "palabras_repo": 1767,
+    "delta": 1308
+   },
+   {
+    "bloque": "a66",
+    "palabras_boe": 99,
+    "palabras_repo": 84,
+    "delta": -15
+   },
+   {
+    "bloque": "a66bis",
+    "palabras_boe": 416,
+    "palabras_repo": 401,
+    "delta": -15
+   },
+   {
+    "bloque": "a67",
+    "palabras_boe": 447,
+    "palabras_repo": 1146,
+    "delta": 699
+   },
+   {
+    "bloque": "a68",
+    "palabras_boe": 1061,
+    "palabras_repo": 3016,
+    "delta": 1955
+   },
+   {
+    "bloque": "a69",
+    "palabras_boe": 73,
+    "palabras_repo": 146,
+    "delta": 73
+   },
+   {
+    "bloque": "a70",
+    "palabras_boe": 196,
+    "palabras_repo": 341,
+    "delta": 145
+   },
+   {
+    "bloque": "a73",
+    "palabras_boe": 237,
+    "palabras_repo": 432,
+    "delta": 195
+   },
+   {
+    "bloque": "a77",
+    "palabras_boe": 104,
+    "palabras_repo": 226,
+    "delta": 122
+   },
+   {
+    "bloque": "a81",
+    "palabras_boe": 1121,
+    "palabras_repo": 3667,
+    "delta": 2546
+   },
+   {
+    "bloque": "a82",
+    "palabras_boe": 277,
+    "palabras_repo": 795,
+    "delta": 518
+   },
+   {
+    "bloque": "a83",
+    "palabras_boe": 172,
+    "palabras_repo": 306,
+    "delta": 134
+   },
+   {
+    "bloque": "a85",
+    "palabras_boe": 115,
+    "palabras_repo": 97,
+    "delta": -18
+   },
+   {
+    "bloque": "a92",
+    "palabras_boe": 275,
+    "palabras_repo": 380,
+    "delta": 105
+   },
+   {
+    "bloque": "a93",
+    "palabras_boe": 814,
+    "palabras_repo": 1793,
+    "delta": 979
+   },
+   {
+    "bloque": "a95bis",
+    "palabras_boe": 1059,
+    "palabras_repo": 1491,
+    "delta": 432
+   },
+   {
+    "bloque": "a97",
+    "palabras_boe": 65,
+    "palabras_repo": 30,
+    "delta": -35
+   },
+   {
+    "bloque": "a99",
+    "palabras_boe": 668,
+    "palabras_repo": 1217,
+    "delta": 549
+   },
+   {
+    "bloque": "a101",
+    "palabras_boe": 345,
+    "palabras_repo": 443,
+    "delta": 98
+   },
+   {
+    "bloque": "a102",
+    "palabras_boe": 259,
+    "palabras_repo": 217,
+    "delta": -42
+   },
+   {
+    "bloque": "a104",
+    "palabras_boe": 649,
+    "palabras_repo": 1020,
+    "delta": 371
+   },
+   {
+    "bloque": "a106",
+    "palabras_boe": 239,
+    "palabras_repo": 645,
+    "delta": 406
+   },
+   {
+    "bloque": "a108",
+    "palabras_boe": 321,
+    "palabras_repo": 564,
+    "delta": 243
+   },
+   {
+    "bloque": "a112",
+    "palabras_boe": 381,
+    "palabras_repo": 2563,
+    "delta": 2182
+   },
+   {
+    "bloque": "a113",
+    "palabras_boe": 140,
+    "palabras_repo": 195,
+    "delta": 55
+   },
+   {
+    "bloque": "a115",
+    "palabras_boe": 452,
+    "palabras_repo": 611,
+    "delta": 159
+   },
+   {
+    "bloque": "a117",
+    "palabras_boe": 256,
+    "palabras_repo": 478,
+    "delta": 222
+   },
+   {
+    "bloque": "a118",
+    "palabras_boe": 65,
+    "palabras_repo": 49,
+    "delta": -16
+   },
+   {
+    "bloque": "a119",
+    "palabras_boe": 176,
+    "palabras_repo": 294,
+    "delta": 118
+   },
+   {
+    "bloque": "a120",
+    "palabras_boe": 402,
+    "palabras_repo": 666,
+    "delta": 264
+   },
+   {
+    "bloque": "a122",
+    "palabras_boe": 258,
+    "palabras_repo": 514,
+    "delta": 256
+   },
+   {
+    "bloque": "a123",
+    "palabras_boe": 84,
+    "palabras_repo": 42,
+    "delta": -42
+   },
+   {
+    "bloque": "a130",
+    "palabras_boe": 125,
+    "palabras_repo": 180,
+    "delta": 55
+   },
+   {
+    "bloque": "a131",
+    "palabras_boe": 125,
+    "palabras_repo": 107,
+    "delta": -18
+   },
+   {
+    "bloque": "a133",
+    "palabras_boe": 175,
+    "palabras_repo": 137,
+    "delta": -38
+   },
+   {
+    "bloque": "a135",
+    "palabras_boe": 818,
+    "palabras_repo": 1456,
+    "delta": 638
+   },
+   {
+    "bloque": "a136",
+    "palabras_boe": 378,
+    "palabras_repo": 915,
+    "delta": 537
+   },
+   {
+    "bloque": "a138",
+    "palabras_boe": 175,
+    "palabras_repo": 297,
+    "delta": 122
+   },
+   {
+    "bloque": "a139",
+    "palabras_boe": 173,
+    "palabras_repo": 121,
+    "delta": -52
+   },
+   {
+    "bloque": "a141",
+    "palabras_boe": 287,
+    "palabras_repo": 264,
+    "delta": -23
+   },
+   {
+    "bloque": "a142",
+    "palabras_boe": 404,
+    "palabras_repo": 770,
+    "delta": 366
+   },
+   {
+    "bloque": "a147",
+    "palabras_boe": 71,
+    "palabras_repo": 31,
+    "delta": -40
+   },
+   {
+    "bloque": "a150",
+    "palabras_boe": 1790,
+    "palabras_repo": 1466,
+    "delta": -324
+   },
+   {
+    "bloque": "a151",
+    "palabras_boe": 361,
+    "palabras_repo": 564,
+    "delta": 203
+   },
+   {
+    "bloque": "a153",
+    "palabras_boe": 217,
+    "palabras_repo": 209,
+    "delta": -8
+   },
+   {
+    "bloque": "a155",
+    "palabras_boe": 584,
+    "palabras_repo": 1059,
+    "delta": 475
+   },
+   {
+    "bloque": "a156",
+    "palabras_boe": 251,
+    "palabras_repo": 216,
+    "delta": -35
+   },
+   {
+    "bloque": "a157",
+    "palabras_boe": 164,
+    "palabras_repo": 337,
+    "delta": 173
+   },
+   {
+    "bloque": "a158",
+    "palabras_boe": 819,
+    "palabras_repo": 803,
+    "delta": -16
+   },
+   {
+    "bloque": "a159",
+    "palabras_boe": 376,
+    "palabras_repo": 776,
+    "delta": 400
+   },
+   {
+    "bloque": "a160",
+    "palabras_boe": 80,
+    "palabras_repo": 57,
+    "delta": -23
+   },
+   {
+    "bloque": "a161",
+    "palabras_boe": 370,
+    "palabras_repo": 498,
+    "delta": 128
+   },
+   {
+    "bloque": "a164",
+    "palabras_boe": 460,
+    "palabras_repo": 790,
+    "delta": 330
+   },
+   {
+    "bloque": "a167",
+    "palabras_boe": 208,
+    "palabras_repo": 155,
+    "delta": -53
+   },
+   {
+    "bloque": "a169",
+    "palabras_boe": 407,
+    "palabras_repo": 289,
+    "delta": -118
+   },
+   {
+    "bloque": "a170",
+    "palabras_boe": 655,
+    "palabras_repo": 1054,
+    "delta": 399
+   },
+   {
+    "bloque": "a171",
+    "palabras_boe": 323,
+    "palabras_repo": 624,
+    "delta": 301
+   },
+   {
+    "bloque": "a173",
+    "palabras_boe": 104,
+    "palabras_repo": 48,
+    "delta": -56
+   },
+   {
+    "bloque": "a174",
+    "palabras_boe": 381,
+    "palabras_repo": 1295,
+    "delta": 914
+   },
+   {
+    "bloque": "a175",
+    "palabras_boe": 223,
+    "palabras_repo": 111,
+    "delta": -112
+   },
+   {
+    "bloque": "a177quater",
+    "palabras_boe": 243,
+    "palabras_repo": 336,
+    "delta": 93
+   },
+   {
+    "bloque": "a177quinquies",
+    "palabras_boe": 463,
+    "palabras_repo": 654,
+    "delta": 191
+   },
+   {
+    "bloque": "a179",
+    "palabras_boe": 420,
+    "palabras_repo": 668,
+    "delta": 248
+   },
+   {
+    "bloque": "a180",
+    "palabras_boe": 176,
+    "palabras_repo": 1263,
+    "delta": 1087
+   },
+   {
+    "bloque": "a181",
+    "palabras_boe": 211,
+    "palabras_repo": 650,
+    "delta": 439
+   },
+   {
+    "bloque": "a182",
+    "palabras_boe": 191,
+    "palabras_repo": 372,
+    "delta": 181
+   },
+   {
+    "bloque": "a184",
+    "palabras_boe": 460,
+    "palabras_repo": 380,
+    "delta": -80
+   },
+   {
+    "bloque": "a186",
+    "palabras_boe": 480,
+    "palabras_repo": 707,
+    "delta": 227
+   },
+   {
+    "bloque": "a187",
+    "palabras_boe": 588,
+    "palabras_repo": 531,
+    "delta": -57
+   },
+   {
+    "bloque": "a188",
+    "palabras_boe": 509,
+    "palabras_repo": 719,
+    "delta": 210
+   },
+   {
+    "bloque": "a189",
+    "palabras_boe": 187,
+    "palabras_repo": 146,
+    "delta": -41
+   },
+   {
+    "bloque": "a191",
+    "palabras_boe": 851,
+    "palabras_repo": 774,
+    "delta": -77
+   },
+   {
+    "bloque": "a192",
+    "palabras_boe": 506,
+    "palabras_repo": 435,
+    "delta": -71
+   },
+   {
+    "bloque": "a193",
+    "palabras_boe": 422,
+    "palabras_repo": 351,
+    "delta": -71
+   },
+   {
+    "bloque": "a198",
+    "palabras_boe": 622,
+    "palabras_repo": 1161,
+    "delta": 539
+   },
+   {
+    "bloque": "a199",
+    "palabras_boe": 767,
+    "palabras_repo": 2586,
+    "delta": 1819
+   },
+   {
+    "bloque": "a200",
+    "palabras_boe": 555,
+    "palabras_repo": 1398,
+    "delta": 843
+   },
+   {
+    "bloque": "a201",
+    "palabras_boe": 372,
+    "palabras_repo": 284,
+    "delta": -88
+   },
+   {
+    "bloque": "a2-2",
+    "palabras_boe": 436,
+    "palabras_repo": 389,
+    "delta": -47
+   },
+   {
+    "bloque": "a202",
+    "palabras_boe": 266,
+    "palabras_repo": 482,
+    "delta": 216
+   },
+   {
+    "bloque": "a203",
+    "palabras_boe": 1561,
+    "palabras_repo": 2671,
+    "delta": 1110
+   },
+   {
+    "bloque": "a206bis",
+    "palabras_boe": 426,
+    "palabras_repo": 290,
+    "delta": -136
+   },
+   {
+    "bloque": "a207",
+    "palabras_boe": 48,
+    "palabras_repo": 31,
+    "delta": -17
+   },
+   {
+    "bloque": "a208",
+    "palabras_boe": 295,
+    "palabras_repo": 406,
+    "delta": 111
+   },
+   {
+    "bloque": "a209",
+    "palabras_boe": 140,
+    "palabras_repo": 372,
+    "delta": 232
+   },
+   {
+    "bloque": "a211",
+    "palabras_boe": 554,
+    "palabras_repo": 1016,
+    "delta": 462
+   },
+   {
+    "bloque": "a212",
+    "palabras_boe": 313,
+    "palabras_repo": 484,
+    "delta": 171
+   },
+   {
+    "bloque": "a213",
+    "palabras_boe": 184,
+    "palabras_repo": 101,
+    "delta": -83
+   },
+   {
+    "bloque": "a215",
+    "palabras_boe": 155,
+    "palabras_repo": 143,
+    "delta": -12
+   },
+   {
+    "bloque": "a216",
+    "palabras_boe": 41,
+    "palabras_repo": 33,
+    "delta": -8
+   },
+   {
+    "bloque": "a217",
+    "palabras_boe": 473,
+    "palabras_repo": 312,
+    "delta": -161
+   },
+   {
+    "bloque": "a220",
+    "palabras_boe": 219,
+    "palabras_repo": 178,
+    "delta": -41
+   },
+   {
+    "bloque": "a221",
+    "palabras_boe": 359,
+    "palabras_repo": 986,
+    "delta": 627
+   },
+   {
+    "bloque": "a224",
+    "palabras_boe": 401,
+    "palabras_repo": 1007,
+    "delta": 606
+   },
+   {
+    "bloque": "a225",
+    "palabras_boe": 397,
+    "palabras_repo": 676,
+    "delta": 279
+   },
+   {
+    "bloque": "a226",
+    "palabras_boe": 88,
+    "palabras_repo": 132,
+    "delta": 44
+   },
+   {
+    "bloque": "a227",
+    "palabras_boe": 385,
+    "palabras_repo": 672,
+    "delta": 287
+   },
+   {
+    "bloque": "a228",
+    "palabras_boe": 164,
+    "palabras_repo": 239,
+    "delta": 75
+   },
+   {
+    "bloque": "a229",
+    "palabras_boe": 1547,
+    "palabras_repo": 2329,
+    "delta": 782
+   },
+   {
+    "bloque": "a230",
+    "palabras_boe": 399,
+    "palabras_repo": 409,
+    "delta": 10
+   },
+   {
+    "bloque": "a232",
+    "palabras_boe": 310,
+    "palabras_repo": 226,
+    "delta": -84
+   },
+   {
+    "bloque": "a233",
+    "palabras_boe": 902,
+    "palabras_repo": 2755,
+    "delta": 1853
+   },
+   {
+    "bloque": "a234",
+    "palabras_boe": 418,
+    "palabras_repo": 624,
+    "delta": 206
+   },
+   {
+    "bloque": "a235",
+    "palabras_boe": 692,
+    "palabras_repo": 1142,
+    "delta": 450
+   },
+   {
+    "bloque": "a236",
+    "palabras_boe": 569,
+    "palabras_repo": 1012,
+    "delta": 443
+   },
+   {
+    "bloque": "a237",
+    "palabras_boe": 310,
+    "palabras_repo": 394,
+    "delta": 84
+   },
+   {
+    "bloque": "a238",
+    "palabras_boe": 92,
+    "palabras_repo": 186,
+    "delta": 94
+   },
+   {
+    "bloque": "a239",
+    "palabras_boe": 943,
+    "palabras_repo": 1839,
+    "delta": 896
+   },
+   {
+    "bloque": "a240",
+    "palabras_boe": 123,
+    "palabras_repo": 269,
+    "delta": 146
+   },
+   {
+    "bloque": "a241",
+    "palabras_boe": 470,
+    "palabras_repo": 812,
+    "delta": 342
+   },
+   {
+    "bloque": "a241bis",
+    "palabras_boe": 355,
+    "palabras_repo": 320,
+    "delta": -35
+   },
+   {
+    "bloque": "a241ter",
+    "palabras_boe": 297,
+    "palabras_repo": 281,
+    "delta": -16
+   },
+   {
+    "bloque": "a242",
+    "palabras_boe": 420,
+    "palabras_repo": 1034,
+    "delta": 614
+   },
+   {
+    "bloque": "a243",
+    "palabras_boe": 382,
+    "palabras_repo": 603,
+    "delta": 221
+   },
+   {
+    "bloque": "a244",
+    "palabras_boe": 258,
+    "palabras_repo": 403,
+    "delta": 145
+   },
+   {
+    "bloque": "a245",
+    "palabras_boe": 110,
+    "palabras_repo": 203,
+    "delta": 93
+   },
+   {
+    "bloque": "a246",
+    "palabras_boe": 198,
+    "palabras_repo": 205,
+    "delta": 7
+   },
+   {
+    "bloque": "a247",
+    "palabras_boe": 182,
+    "palabras_repo": 391,
+    "delta": 209
+   },
+   {
+    "bloque": "a251",
+    "palabras_boe": 537,
+    "palabras_repo": 463,
+    "delta": -74
+   },
+   {
+    "bloque": "a253",
+    "palabras_boe": 977,
+    "palabras_repo": 818,
+    "delta": -159
+   },
+   {
+    "bloque": "a257",
+    "palabras_boe": 660,
+    "palabras_repo": 607,
+    "delta": -53
+   },
+   {
+    "bloque": "a258",
+    "palabras_boe": 392,
+    "palabras_repo": 377,
+    "delta": -15
+   },
+   {
+    "bloque": "a259",
+    "palabras_boe": 717,
+    "palabras_repo": 538,
+    "delta": -179
+   },
+   {
+    "bloque": "a260",
+    "palabras_boe": 194,
+    "palabras_repo": 338,
+    "delta": 144
+   },
+   {
+    "bloque": "a261",
+    "palabras_boe": 144,
+    "palabras_repo": 72,
+    "delta": -72
+   },
+   {
+    "bloque": "a262",
+    "palabras_boe": 211,
+    "palabras_repo": 156,
+    "delta": -55
+   },
+   {
+    "bloque": "a265",
+    "palabras_boe": 250,
+    "palabras_repo": 192,
+    "delta": -58
+   },
+   {
+    "bloque": "a268",
+    "palabras_boe": 284,
+    "palabras_repo": 185,
+    "delta": -99
+   },
+   {
+    "bloque": "a271",
+    "palabras_boe": 249,
+    "palabras_repo": 167,
+    "delta": -82
+   },
+   {
+    "bloque": "daprimera",
+    "palabras_boe": 180,
+    "palabras_repo": 252,
+    "delta": 72
+   },
+   {
+    "bloque": "daquinta",
+    "palabras_boe": 993,
+    "palabras_repo": 1048,
+    "delta": 55
+   },
+   {
+    "bloque": "dasexta",
+    "palabras_boe": 683,
+    "palabras_repo": 1103,
+    "delta": 420
+   },
+   {
+    "bloque": "dadecima",
+    "palabras_boe": 215,
+    "palabras_repo": 404,
+    "delta": 189
+   },
+   {
+    "bloque": "daundecima",
+    "palabras_boe": 530,
+    "palabras_repo": 328,
+    "delta": -202
+   },
+   {
+    "bloque": "dadecimotercera",
+    "palabras_boe": 348,
+    "palabras_repo": 484,
+    "delta": 136
+   },
+   {
+    "bloque": "davigesima",
+    "palabras_boe": 567,
+    "palabras_repo": 370,
+    "delta": -197
+   },
+   {
+    "bloque": "davigesimosegunda",
+    "palabras_boe": 942,
+    "palabras_repo": 1063,
+    "delta": 121
+   },
+   {
+    "bloque": "da",
+    "palabras_boe": 1415,
+    "palabras_repo": 1237,
+    "delta": -178
+   },
+   {
+    "bloque": "da-2",
+    "palabras_boe": 337,
+    "palabras_repo": 466,
+    "delta": 129
+   },
+   {
+    "bloque": "da-3",
+    "palabras_boe": 1278,
+    "palabras_repo": 1206,
+    "delta": -72
+   },
+   {
+    "bloque": "dttercera",
+    "palabras_boe": 378,
+    "palabras_repo": 268,
+    "delta": -110
+   },
+   {
+    "bloque": "dtcuarta",
+    "palabras_boe": 214,
+    "palabras_repo": 190,
+    "delta": -24
+   },
+   {
+    "bloque": "ddunica",
+    "palabras_boe": 360,
+    "palabras_repo": 299,
+    "delta": -61
+   },
+   {
+    "bloque": "dfprimera",
+    "palabras_boe": 117,
+    "palabras_repo": 42,
+    "delta": -75
+   },
+   {
+    "bloque": "dfsegunda",
+    "palabras_boe": 108,
+    "palabras_repo": 62,
+    "delta": -46
+   },
+   {
+    "bloque": "dftercera",
+    "palabras_boe": 217,
+    "palabras_repo": 46,
+    "delta": -171
+   },
+   {
+    "bloque": "dfcuarta",
+    "palabras_boe": 266,
+    "palabras_repo": 47,
+    "delta": -219
+   },
+   {
+    "bloque": "dfquinta",
+    "palabras_boe": 560,
+    "palabras_repo": 29,
+    "delta": -531
+   },
+   {
+    "bloque": "dfsexta",
+    "palabras_boe": 2059,
+    "palabras_repo": 29,
+    "delta": -2030
+   },
+   {
+    "bloque": "dfseptima",
+    "palabras_boe": 82,
+    "palabras_repo": 46,
+    "delta": -36
+   },
+   {
+    "bloque": "dfoctava",
+    "palabras_boe": 782,
+    "palabras_repo": 53,
+    "delta": -729
+   }
+  ]
+ }
+}

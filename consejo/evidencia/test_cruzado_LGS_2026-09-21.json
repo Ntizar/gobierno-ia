@@ -1,0 +1,128 @@
+{
+  "test": "test cruzado y ciego (acuerdo 32) - LGS Ley 14/1986 General de Sanidad",
+  "fecha": "2026-09-21",
+  "verificador": "subagente verificador independiente y ciego",
+  "regla_ceguera": "No se leyeron manifiesto_*.json, ni ministerios/sanidad/propuestas/2026-09-08.md | 2026-09-16.md | 2026-09-17.md, ni actas del Consejo, ni scripts de aplicacion de diffs.",
+  "fuentes_usadas": [
+    "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
+    "ministerios/sanidad/evidencia/boe_consolidado_BOE-A-1986-10499.html",
+    "ministerios/sanidad/evidencia/boe_texto_plano.txt"
+  ],
+  "hashes": {
+    "ley_md_sha256": "b60a808323a3c01264bd86edcd9e30574edde432696e170bd5f869ff99b55fde",
+    "boe_html_sha256": "2e42587547cc59b2dda56a5dd2312bc42ead99aa5973f6839f848e42cf701ab7",
+    "boe_plano_sha256": "92c3445cea6fa43b15cbae9625a293887c98c054959de12436620eea03b08007"
+  },
+  "coherencia_fichero": {
+    "bloques_md": 151,
+    "bloques_anclas_boe": 183,
+    "labels_duplicados": [],
+    "labels_md_no_en_boe": [],
+    "anclas_boe_no_en_md": "32 bloques estructurales no articulados (preambulo, titulos ti-tvii, capitulos ci-cvi..., firma): 183-32=151",
+    "conclusion": "151 bloques '## [', sin duplicados, sin bloques nuevos ni desaparecidos; los 4 bloques objetivo existen y conservan su ancla."
+  },
+  "bloques": {
+    "atres": {
+      "articulo": "3",
+      "lineas": "27-38",
+      "copias_cuerpo": 1,
+      "frases_repetidas_mayor_igual_8_pal": [],
+      "boe_ausente_en_repo": [
+        "Nota de pie del BOE (presente en el HTML, omitida en el MD): 'Se anade el apartado 4 por la disposicion adicional 8.1 de la Ley Organica 3/2007, de 22 de marzo.' La omision de notas de pie es sistematica en todo el fichero."
+      ],
+      "texto_sin_traza": [],
+      "contradicciones_internas": [],
+      "veredicto": "VALIDADA",
+      "motivo": "Una sola copia y sin repeticiones. Los 4 apartados (incluido el 4 anadido por la LO 3/2007) son literalmente identicos al BOE consolidado y ninguna frase carece de traza. Unica diferencia, la nota de pie editorial del BOE, omitida sistematicamente en todo el fichero (no es texto articulado)."
+    },
+    "aseis": {
+      "articulo": "6",
+      "lineas": "55-72",
+      "copias_cuerpo": 1,
+      "frases_repetidas_mayor_igual_8_pal": [],
+      "boe_ausente_en_repo": [
+        "Nota de pie del BOE (omitida en el MD, patron sistematico): 'Se numera como apartado 1 y se anade el apartado 2 por la disposicion adicional 8.2 de la Ley Organica 3/2007, de 22 de marzo.'",
+        "El BOE consolidado escribe la introduccion numerada: '1. Las actuaciones de las Administraciones Publicas Sanitarias estaran orientadas:'; el MD la reproduce sin el prefijo '1.'"
+      ],
+      "texto_sin_traza": [],
+      "contradicciones_internas": [],
+      "veredicto": "VALIDADA CON OBSERVACIONES",
+      "motivo": "Contenido completo y fiel: introduccion + apartados 1-5 + apartado 2 anadido por la LO 3/2007, todos literales frente al BOE; 0 frases sin traza. Observaciones de forma: se pierde el prefijo numerico '1.' que el BOE da a la introduccion (efecto de la renumeracion de 2007) y se omite la nota de pie; ninguna afecta al contenido normativo."
+    },
+    "adieciseis": {
+      "articulo": "16",
+      "lineas": "175-200",
+      "copias_cuerpo": 1,
+      "frases_repetidas_mayor_igual_8_pal": [
+        { "frase": "el sistema de informacion de las listas de espera", "lineas": [185, 187] },
+        { "frase": "de los datos de las listas de espera", "lineas": [195, 199] }
+      ],
+      "boe_ausente_en_repo": [
+        "Apartado 1 completo del BOE vigente: 'Por lo que se refiere a la atencion primaria, se les aplicaran las mismas normas sobre asignacion de equipos y libre eleccion que al resto de los usuarios.' Ocurrencias: 1 en el HTML del BOE, 1 en el texto plano, 0 en el MD. El bloque arranca en '2.', numeracion huerfana que evidencia el corte."
+      ],
+      "texto_sin_traza": [
+        {
+          "lineas": [185],
+          "tipo": "nuevo apartado 4",
+          "texto": "4. El Ministerio de Sanidad, a propuesta de la Direccion General de Cartilla SNS, establecera los criterios tecnicos y el sistema de informacion de las listas de espera del Sistema Nacional de Salud.",
+          "palabras_nuevas": ["cartilla"]
+        },
+        {
+          "lineas": [187, 189, 191, 193, 195, 197],
+          "tipo": "nuevo apartado 5 con letras a)-e)",
+          "texto": "5. El sistema de informacion de las listas de espera garantizara, como minimo: a) trazabilidad completa del paciente desde la derivacion de Atencion Primaria hasta la prestacion del servicio; b) verificacion independiente de los datos por una autoridad tecnica del Ministerio con acceso a las historias clinicas electronicas; c) publicacion periodica desglosada por comunidad autonoma, provincia, hospital, servicio medico y tipo de intervencion, con media de dias de espera real y porcentaje de pacientes operados dentro de los plazos clinicos recomendados; d) proteccion legal del personal sanitario que denuncie de buena fe alteraciones o falseamiento de los datos, sin represalia disciplinaria, laboral o profesional; e) auditoria aleatoria trimestral de un minimo del 5% de los expedientes de pacientes prioritarios en cada hospital, con resultado publicado en el portal de transparencia del Ministerio.",
+          "palabras_nuevas": ["trazabilidad", "derivacion", "diagnosticas", "quirofano", "verificacion", "independiente", "historias", "clinicas", "electronicas", "desglosados", "operados", "porcentaje", "recomendados", "denuncie", "manipulacion", "falseamiento", "disciplinaria", "aleatoria", "auditoria", "expedientes", "prioritarios", "trimestral"]
+        },
+        {
+          "lineas": [199],
+          "tipo": "nuevo apartado 6",
+          "texto": "6. La alteracion o manipulacion de los datos de las listas de espera se considerara falta muy grave de responsabilidad disciplinaria para los gestores y directivos hospitalarios implicados, sin perjuicio de las responsabilidades penales que correspondan.",
+          "palabras_nuevas": ["considerara", "manipulacion", "disciplinaria", "gestores", "directivos", "implicados"]
+        }
+      ],
+      "comprobacion_especifica_art16": "La LGS vigente regula el uso de los servicios sanitarios SIN mecanismos de verificacion de listas de espera. El bloque contiene apartados nuevos sobre listas de espera (4), trazabilidad y verificacion independiente (5.a, 5.b), auditoria aleatoria (5.e) y proteccion del denunciante (5.d), ademas de un regimen sancionador (6). El BOE solo contiene la expresion 'lista de espera unica' del apartado 2. Contraste de vocabulario en la evidencia archivada: 'trazabilidad'=0, 'auditoria'=0, 'Cartilla'=0, 'denuncie'=0, 'lista(s) de espera'=1. Todo ello queda registrado como TEXTO SIN TRAZA; puede corresponder a una decision aprobada: se reporta, no se corrige.",
+      "contradicciones_internas": [
+        "Numeracion huerfana: el bloque empieza en '2.' por ausencia del apartado 1 del BOE. No hay dos versiones del mismo apartado, pero si un corte de contenido evidente."
+      ],
+      "veredicto": "RECHAZADA",
+      "motivo": "Doble hallazgo forense: (1) perdida de contenido vigente - falta el apartado 1 del BOE (atencion primaria, asignacion de equipos y libre eleccion), confirmado con 1 ocurrencia en HTML y en plano del BOE y 0 en el MD, con numeracion huerfana; (2) adicion de 8 frases >=6 palabras sin traza en el BOE archivado (apartados 4, 5.a-5.e y 6 sobre listas de espera, trazabilidad, verificacion independiente, auditoria y proteccion del denunciante). El bloque no es reproduccion fiel del BOE consolidado."
+    },
+    "aveinte": {
+      "articulo": "20",
+      "lineas": "283-298",
+      "copias_cuerpo": 1,
+      "frases_repetidas_mayor_igual_8_pal": [],
+      "boe_ausente_en_repo": [
+        "Primer parrafo tal como figura en el cuerpo principal del BOE consolidado (texto corrupto/truncado): 'Sobre la base de la plena integracion ... del enfermo mental a las demas personas que recursos asistenciales a nivel ambulatorio y los sistemas de hospitalizacion parcial...'. Ocurrencias: 1 HTML, 1 plano, 0 MD.",
+        "Nota del BOE: 'Se advierte que el texto definitivo aprobado por el Congreso de los Diputados y publicado en el Boletin Oficial de las Cortes Generales de 9 de abril de 1986 para el primer parrafo de este articulo era el siguiente:'. Ocurrencias: 1 HTML, 1 plano, 0 MD."
+      ],
+      "texto_sin_traza": [],
+      "observacion_clave": "El primer parrafo del MD (L287) NO es texto sin traza: coincide literalmente con el texto definitivo que el propio BOE archiva en el blockquote del mismo bloque (1 ocurrencia en HTML, 1 en plano). Es una sustitucion documentada del parrafo corrupto del cuerpo principal por la version que el BOE reconoce como definitiva, no una invencion.",
+      "contradicciones_internas": [],
+      "veredicto": "VALIDADA CON OBSERVACIONES",
+      "motivo": "Cuerpo articulado fiel: apartados 1-4 literales frente al BOE, una sola copia, sin repeticiones ni contradicciones internas. Observaciones: (a) el primer parrafo sustituye el texto corrupto del cuerpo principal del BOE por el texto definitivo del blockquote del propio bloque (con traza en el BOE, aunque no en el cuerpo principal); (b) se omite la nota 'Se advierte...' que documenta la sustitucion, de modo que la eleccion queda sin justificacion visible en el fichero."
+    }
+  },
+  "contenido_boe_ausente_resumen": {
+    "atres": "1 frase (nota de pie editorial, omision sistematica)",
+    "aseis": "1 frase (nota de pie) + prefijo numerico '1.' de la introduccion",
+    "adieciseis": "1 frase: apartado 1 vigente (perdida de contenido articulado)",
+    "aveinte": "2 frases: parrafo corrupto del cuerpo principal y nota 'Se advierte...' (el texto del repo si tiene traza en el blockquote del BOE)"
+  },
+  "texto_sin_traza_resumen": {
+    "atres": 0, "aseis": 0, "adieciseis": 8, "aveinte": 0
+  },
+  "recuento_copias_y_repeticiones": [
+    { "bloque": "atres", "articulo": 3, "lineas": "27-38", "copias": 1, "frases_repetidas_8pal": 0, "frases_sin_traza": 0, "veredicto": "VALIDADA" },
+    { "bloque": "aseis", "articulo": 6, "lineas": "55-72", "copias": 1, "frases_repetidas_8pal": 0, "frases_sin_traza": 0, "veredicto": "VALIDADA CON OBSERVACIONES" },
+    { "bloque": "adieciseis", "articulo": 16, "lineas": "175-200", "copias": 1, "frases_repetidas_8pal": 2, "frases_sin_traza": 8, "veredicto": "RECHAZADA" },
+    { "bloque": "aveinte", "articulo": 20, "lineas": "283-298", "copias": 1, "frases_repetidas_8pal": 0, "frases_sin_traza": 0, "veredicto": "VALIDADA CON OBSERVACIONES" }
+  ],
+  "bloques_totales_fichero": 151,
+  "ficheros_escritos": [
+    "consejo/evidencia/test_cruzado_LGS_2026-09-21.md",
+    "consejo/evidencia/test_cruzado_LGS_2026-09-21.json"
+  ],
+  "sin_modificaciones_de_ley": true,
+  "sin_commit": true
+}
