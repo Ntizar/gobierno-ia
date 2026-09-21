@@ -52,6 +52,12 @@
   ],
   "rotulos_sin_titulo": 39,
   "titulo_como_primera_linea_cuerpo": 67,
+  "bloques_sin_nombre_en_cuerpo": [
+   "pr",
+   "a1",
+   "a2",
+   "fi"
+  ],
   "encabezados_estructurales_boe_ausentes_en_repo": [
    "TÍTULO PRELIMINAR",
    "Disposiciones generales"
@@ -123,6 +129,8 @@
    "palabras_boe": 145,
    "palabras_repo": 145,
    "ratio_difflib": 1.0,
+   "ratio_difflib_cuerpo_sin_rotulo": 1.0,
+   "ratio_difflib_parrafos": 1.0,
    "opcodes_no_iguales": [],
    "copias_cuerpo_articulo": 1,
    "clave_copias": "esta ley tiene por objeto asegurar el cumplimiento por parte de espana de los objetivos del acuerdo de paris a",
@@ -139,6 +147,7 @@
    ],
    "lineas_blancas_uniformes": true,
    "n_apartados_numerados": 0,
+   "apartados": [],
    "apartados_duplicados": []
   },
   "a2": {
@@ -150,6 +159,8 @@
    "palabras_boe": 315,
    "palabras_repo": 324,
    "ratio_difflib": 0.98592,
+   "ratio_difflib_cuerpo_sin_rotulo": 0.98574,
+   "ratio_difflib_parrafos": 0.98574,
    "opcodes_no_iguales": [
     {
      "op": "insert",
@@ -224,6 +235,7 @@
    ],
    "lineas_blancas_uniformes": true,
    "n_apartados_numerados": 0,
+   "apartados": [],
    "apartados_duplicados": []
   },
   "a1-7": {
@@ -235,6 +247,8 @@
    "palabras_boe": 1444,
    "palabras_repo": 1446,
    "ratio_difflib": 0.99931,
+   "ratio_difflib_cuerpo_sin_rotulo": 0.99722,
+   "ratio_difflib_parrafos": 1.0,
    "opcodes_no_iguales": [
     {
      "op": "insert",
@@ -244,44 +258,38 @@
    ],
    "copias_cuerpo_articulo": 1,
    "clave_copias": "el gobierno velara especialmente por el cumplimiento de lo establecido en el real decreto 639 2016 de 9 de dic",
-   "frases_repetidas_8w_n": 819,
+   "frases_repetidas_8w_n": 80,
    "repeticion_igual_a_boe": true,
    "repeticion_muestra": [
     {
-     "frase": "quienes ostenten la titularidad de las instalaciones de suministro de combustibles y carbu",
+     "frase": "de suministro de combustibles y carburantes a vehiculos cuyo volumen anual agregado de ven",
      "n": 15,
-     "apariciones_repo": 4,
-     "apariciones_boe": 4
+     "apariciones_repo": 5,
+     "apariciones_boe": 5
     },
     {
-     "frase": "ostenten la titularidad de las instalaciones de suministro de combustibles y carburantes a",
+     "frase": "suministro de combustibles y carburantes a vehiculos cuyo volumen anual agregado de ventas",
      "n": 15,
-     "apariciones_repo": 4,
-     "apariciones_boe": 4
+     "apariciones_repo": 5,
+     "apariciones_boe": 5
     },
     {
-     "frase": "la titularidad de las instalaciones de suministro de combustibles y carburantes a vehiculo",
+     "frase": "de combustibles y carburantes a vehiculos cuyo volumen anual agregado de ventas de gasolin",
      "n": 15,
-     "apariciones_repo": 4,
-     "apariciones_boe": 4
+     "apariciones_repo": 5,
+     "apariciones_boe": 5
     },
     {
-     "frase": "titularidad de las instalaciones de suministro de combustibles y carburantes a vehiculos c",
+     "frase": "combustibles y carburantes a vehiculos cuyo volumen anual agregado de ventas de gasolina y",
      "n": 15,
-     "apariciones_repo": 4,
-     "apariciones_boe": 4
+     "apariciones_repo": 5,
+     "apariciones_boe": 5
     },
     {
-     "frase": "de las instalaciones de suministro de combustibles y carburantes a vehiculos cuyo volumen ",
+     "frase": "y carburantes a vehiculos cuyo volumen anual agregado de ventas de gasolina y gasoleo a",
      "n": 15,
-     "apariciones_repo": 4,
-     "apariciones_boe": 4
-    },
-    {
-     "frase": "las instalaciones de suministro de combustibles y carburantes a vehiculos cuyo volumen anu",
-     "n": 15,
-     "apariciones_repo": 4,
-     "apariciones_boe": 4
+     "apariciones_repo": 5,
+     "apariciones_boe": 5
     }
    ],
    "boe_ausente_en_repo_n": 0,
@@ -316,9 +324,22 @@
    ],
    "lineas_blancas_uniformes": true,
    "n_apartados_numerados": 13,
-   "apartados_duplicados": [
-    "2"
+   "apartados": [
+    "1",
+    "2",
+    "2bis",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
    ],
+   "apartados_duplicados": [],
    "plazos": {
     "repo_12_meses": 0,
     "repo_21_meses": 2,
@@ -350,15 +371,15 @@
  "veredictos": {
   "a1": {
    "veredicto": "VALIDADA CON OBSERVACIONES",
-   "motivo": "Cuerpo íntegro y fiel: 0 frases del BOE ausentes, 0 texto sin traza, 1 sola copia del artículo, sin frases repetidas y espaciado uniforme. Observación de formato: el rótulo fusiona el título («## [a1] Artículo 1. Objeto de la Ley») y el cuerpo ya no lo repite, desviándose de la convención del fichero (67 de 71 bloques llevan el título como primera línea del cuerpo) y de su propio estado previo (bak-2026-09-21). Falta además el encabezado estructural «TÍTULO PRELIMINAR / Disposiciones generales» (ausente en todo el fichero). Sin pérdida de contenido del BOE."
+   "motivo": "Cuerpo íntegro y fiel: ratio difflib 1.00000 (145/145 palabras, cero diferencias palabra a palabra con el bloque del BOE), 0 frases del BOE ausentes, 0 texto sin traza, 1 sola copia del artículo, sin frases repetidas y espaciado uniforme. Observación de formato: el rótulo fusiona el título («## [a1] Artículo 1. Objeto de la Ley») y el cuerpo ya no lo repite, desviándose de la convención del fichero (los 39 bloques de artículo llevan «Artículo N» en el rótulo y el título como primera línea del cuerpo) y de su propio estado previo (bak-2026-09-21). Falta además el encabezado estructural «TÍTULO PRELIMINAR / Disposiciones generales» (ausente en todo el fichero). No hay pérdida de contenido del BOE."
   },
   "a2": {
    "veredicto": "VALIDADA CON OBSERVACIONES",
-   "motivo": "Cuerpo íntegro: 0 frases del BOE ausentes, 1 sola copia, sin frases repetidas; las 15 listas a)–ñ) van separadas por exactamente una línea en blanco (uniforme) y sin líneas en blanco irregulares. Observaciones: (i) el rótulo fusiona el título igual que [a1], desviándose de la convención del fichero; (ii) el encabezado «TÍTULO I / Objetivos y planificación de la transición energética» queda anexado al final del bloque (en el BOE es un bloque propio, id=\"ti\"): posición correcta y texto verbatim, pero rompe la granularidad por bloques; (iii) esa uniformidad de espaciado es única en el fichero (otros 19 bloques con listas tienen huecos irregulares de 0/1 línea en blanco), por lo que a2 es coherente internamente pero no con el resto."
+   "motivo": "Cuerpo íntegro: 0 frases del BOE ausentes, 1 sola copia, sin frases repetidas; las 15 listas a)–ñ) van separadas por exactamente una línea en blanco (uniforme) y sin líneas en blanco irregulares. El único delta palabra a palabra contra el BOE es una inserción de 9 palabras (ratio 0.98592 en el bloque, 0.98574 en los párrafos): el encabezado «TÍTULO I / Objetivos y planificación de la transición energética», que existe verbatim en el BOE pero como bloque propio (id=\"ti\"); en el fichero viaja anexado al final del bloque a2, en la posición correcta (justo antes de [a3]). Observaciones: (i) el rótulo fusiona el título igual que [a1], desviándose de la convención del fichero; (ii) el encabezado TÍTULO I no constituye bloque propio, lo que rompe la granularidad por bloques; (iii) la uniformidad de espaciado es única en el fichero (los otros 19 bloques con listas tienen huecos irregulares de 0/1 línea en blanco): a2 es coherente internamente pero no con el resto."
   },
   "a1-7": {
    "veredicto": "VALIDADA CON OBSERVACIONES",
-   "motivo": "Fidelidad total al BOE consolidado: 1444 palabras idénticas, ratio difflib 1.00000, 0 frases del BOE ausentes, art. 15 en UNA sola versión y sin apartados duplicados (1, 2, 2 bis, 3–12). Las 87 frases internas de ≥8 palabras repetidas son repeticiones legítimas del texto legal (mismo nº de apariciones que en el BOE). Contradicción de plazos: NO existe (0 «12/doce meses» y 2 «veintiún meses» en el bloque, idéntico al BOE). Observación de formato: el rótulo «## [a1-7] Artículo 15» no incluye el título y el cuerpo lo repite («Artículo 15. Instalación de puntos de recarga eléctrica.»), generando la secuencia sin traza en el BOE «Artículo 15 Artículo 15»; es la convención general del fichero, pero inconsistente con el nuevo formato de [a1] y [a2]."
+   "motivo": "Fidelidad total al BOE consolidado: los párrafos del artículo son idénticos palabra a palabra (ratio difflib 1.00000, 1444/1444 palabras, 0 frases del BOE ausentes), art. 15 en UNA sola versión y sin apartados duplicados (1, 2, 2 bis, 3–12). Las 80 secuencias internas distintas de 15 palabras con ≥2 apariciones son repeticiones legítimas del texto legal, con el MISMO número de apariciones que en el BOE (4/4, 5/5…), no duplicación de bloque. Contradicción de plazos: NO existe (0 «12/doce meses» y 2 «veintiún meses» en el bloque, idéntico al BOE). Observación de formato: el rótulo «## [a1-7] Artículo 15» no incluye el título y el cuerpo lo repite («Artículo 15. Instalación de puntos de recarga eléctrica.»), generando la secuencia «Artículo 15 Artículo 15» sin traza en el BOE (1446 palabras en el repo frente a 1444 en el BOE, ratio 0.99931 con el rótulo incluido); es la convención general del fichero, pero inconsistente con el nuevo formato de [a1] y [a2]."
   }
  }
 }
