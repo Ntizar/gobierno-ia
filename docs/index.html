@@ -50,10 +50,10 @@
     </ul>
     <h3>Reglas de verificación</h3>
     <ul>
-      <li><b>Ejecutar antes de proponer:</b> los acuerdos aprobados aterrizan el mismo día sobre el fichero de la ley con copia <code>.bak</code>, sha256 antes/después y manifiesto JSON en <code>evidencia/</code>; prohibido re-aplicar un diff ya ejecutado.</li>
+      <li><b>Ejecutar antes de proponer:</b> los acuerdos aprobados aterrizan el mismo día sobre la copia de trabajo con <code>.bak</code>, sha256 antes/después y manifiesto JSON en <code>evidencia/</code>; prohibido re-aplicar un diff ya ejecutado.</li>
       <li><b>Test cruzado y ciego:</b> cada ministro audita la ley del otro sin leer manifiestos — solo el fichero y el BOE archivado. Ya encontró un artículo que creíamos sano y no lo estaba.</li>
       <li><b>Fidelidad ≠ ahorro:</b> restituir texto legal perdido se registra aparte; adelgazar no vale romper la norma.</li>
-      <li><b>Corpus inmutable:</b> el BOE oficial vive en <code>data/</code> con hashes verificados por script; el todo es auditable con <code>git log -- ministerios/*/leyes/</code>.</li>
+      <li><b>Corpus inmutable + parches versionados:</b> el BOE oficial vive congelado en <code>data/raw/</code> y <code>data/canonical/</code> con hashes; el paquete <code>gobierno_ia</code> valida, aplica y audita parches que solo escriben en <code>runs/</code>. Verificadores + <b>45/45 tests</b> corriendo en CI. El ledger de corrupción (13.367 pal. de duplicación / 19.334 de cambio editorial en las copias de trabajo) se declara como cicatriz, no como ahorro.</li>
     </ul>
     <h3>Estado del experimento — 2026-09-21 · sesión 13/30 (43 %) · Fase 2</h3>
     <table>

@@ -2,50 +2,57 @@
 
 **Simulación multiagente de un gobierno de España creado con IA, cuyo objetivo es un Estado al máximo de simple: legislación eficaz, corta y clara, y el dinero donde hay problemas medidos.**
 
-> ⚠️ **Proyecto de experimentación — no es uso jurídico.** Los "ministros" son agentes de IA con personalidad inspirada en los ministros reales (Arcadi España, Mónica García, Sara Aagesen) pero **no** son ellos ni representan al Gobierno de España. Los textos legales son reales (BOE); las propuestas y los acuerdos, ficticios y en pilota humano: los ficheros de ley del repo han sido modificados por los agentes bajo su propio protocolo de ejecución y **no sustituyen a la publicación oficial**.
+> ⚠️ **Proyecto de experimentación — NO PARA USO JURÍDICO.** Los "ministros" son agentes de IA con personalidad inspirada en los ministros reales (Arcadi España, Mónica García, Sara Aagesen) pero **no** son ellos ni representan al Gobierno de España. El texto legal oficial está **congelado y verificado por hash** en `data/`; las copias de trabajo de los agentes están etiquetadas como mutadas y **no sustituyen a la publicación oficial** (un test de integridad vigila que ninguna etiqueta mienta).
 
-**Estado (2026-09-21, sesión 13/30 · 43 %):** Fase 2 (reescritura profunda) · deuda de ejecución 16 → **5** acuerdos (los 5 restantes bloqueados por condición: cifra IGAE o verificación legal) · **−9.247 palabras ejecutadas en la sesión 13** (LGT −9.232 · LGS −11 · L7 −4) · **0 €** de reasignación validada con sello IGAE en 13 sesiones (declarado: es el mayor riesgo de la Fase 3). Detalle vivo en [`constitution/mision-30-sesiones.md`](constitution/mision-30-sesiones.md).
+**Estado (2026-09-21, sesión 13/30 · 43 %):** Fase 2 de la misión (reescritura profunda) · deuda de ejecución 16 → **5** acuerdos (los 5 restantes bloqueados por condición: cifra IGAE o verificación legal) · **−9.247 palabras ejecutadas en la sesión 13** · **0 €** de reasignación validada con sello IGAE (declarado como riesgo de la Fase 3) · y el mismo 21-09 quedó fusionado el **rescate de ingeniería**: corpus inmutable + parches versionados + 45/45 tests + CI. Bitácora viva: [`constitution/mision-30-sesiones.md`](constitution/mision-30-sesiones.md) · informe del rescate: [`reports/rescate/resultado-final.md`](reports/rescate/resultado-final.md).
 
-## La misión (30 sesiones)
+## Las dos capas del proyecto
 
-Un experimento con fecha de cierre: ~sesión 30 (mediados-finales de octubre de 2026). Dos entregables:
+### 1. Capa de simulación de gobierno (el experimento diario)
 
-1. **Presupuestos Generales del Estado ideales** — reasignaciones acumuladas y validadas de los 3 ministerios: dónde está el dinero, dónde debería estar, con fuente, indicador de éxito y plazo por partida.
-2. **Las 3 leyes reescritas** — versión final "perfecta" de la Ley 58/2003 General Tributaria, la Ley 14/1986 General de Sanidad y la Ley 7/2021 de Cambio Climático: mismo contenido normativo, texto simplificado, deduplicado, sin obsolescencias, con fecha+responsable en cada objetivo.
+Todo está orquestado con perfiles de Hermes Agent + cron (prompts en [`constitution/prompts-cron/`](constitution/prompts-cron)); el avance se mide en una misión de 30 sesiones (~octubre 2026) con dos entregables: **Presupuestos Generales ideales** (reasignaciones con fuente, indicador y plazo) y **las 3 leyes reescritas** (mismo contenido normativo, texto simplificado, deduplicado, fecha+responsable en cada objetivo).
 
-| Fase | Sesiones | Trabajo |
+| Hora | Qué pasa | Dónde queda |
 |---|---|---|
-| 1. Fundaciones | 1-5 | Deduplicación completa con sha256, verificación BOE de cuantías, protocolo de reescritura — cerrada con prórroga técnica en la 6 |
-| 2. Reescritura profunda | 6-18 | Artículo por artículo: fusión, despiece, fecha+responsable, eliminación de remisiones en cascada — **en curso (13)** |
-| 3. Presupuestos | 19-26 | Reasignaciones con cifras verificadas (IGAE/AEAT/MITECO) |
-| 4. Consolidación final | 27-30 | Presupuestos ideales, 3 leyes finales, auditoría global, informe de cierre |
+| ≈10:00 | **Pase de lista**: cada ministro busca 2-3 noticias **reales del día** de su área, revisa su ley y escribe propuestas frase por frase + una **reasignación presupuestaria** (de X € → a Y € con cifra y fuente; sin fuente, el Auditor la rechaza). Actualiza su fila de KPIs. | `ministerios/<m>/agenda.md`, `propuestas/YYYY-MM-DD.md`, `kpis.md` |
+| 22:00 | **Consejo de Ministros**: 3 rondas (exposición → réplica cruzada → decisión presidencial): APROBADO / APLAZADO / RECHAZADO con motivo. | `consejo/actas/` |
+| 23:30 | **Auditoría del Estado**: un auditor independiente valida o rechaza cada acuerdo y los KPIs, y señala los 3 mayores riesgos no atendidos. | `auditoria/` |
+| 08:00 | **Informe presidencial** (máx. 2 páginas): lo importante, qué se simplificó, qué está atascado, cuadro de KPIs — con los fallos, no solo los éxitos. | `presidencia/informes/` → boletín |
 
-El avance se registra sesión a sesión en la bitácora de `mision-30-sesiones.md`, con una **tabla de deuda de ejecución** (qué acuerdo aprobado está ya aplicado sobre la ley y cuál no) y notas presidenciales de ritmo y meta.
+Además: cada noche el ministro escribe **diario personal** en `ministerios/<m>/diario.md` (protocolo de emoción: la simulación está habitada; el Presidente lee el clima, nadie cita pasajes) y los viernes hay ⚗️ **Laboratorio**: una medida disruptiva sin cita BOE, etiquetada (`constitution/protocolo-laboratorio.md`).
 
-## Cómo funciona el día
+**Regla de ejecución (vigente desde el 21-09): ejecutar antes de proponer.** Los acuerdos aprobados se aplican **el mismo día** sobre la copia de trabajo de la ley con copia `.bak-YYYY-MM-DD`, sha256 antes/después y **manifiesto JSON** en `ministerios/<m>/evidencia/`, con verificación de que el bloque queda con una sola copia; **prohibido re-aplicar un diff ya ejecutado** (se comprueba el hash del bloque primero). Verificación presidencial independiente: `scripts/verifica_diffs_s13.py`.
 
-Todo está orquestado con perfiles de Hermes Agent + cron (los prompts viven en [`constitution/prompts-cron/`](constitution/prompts-cron)):
+**Test cruzado y ciego (acuerdo 32, permanente):** cada ministro audita la ley del otro **sin leer manifiestos ni propuestas** — solo el fichero y el BOE archivado. Ya encontró un defecto grave invisible para todos (apartado 1 del art. 16 LGS perdido; restituido el mismo día). Informes: `consejo/evidencia/`.
 
-1. **≈10:00 — Pase de lista.** Cada ministro busca 2-3 noticias **reales del día** de su área (`web_search`) y las anota en su `agenda.md` con reacción personal y bloque afectado; revisa su ley; escribe 1-3 propuestas en `ministerios/<m>/propuestas/YYYY-MM-DD.md` y una **reasignación presupuestaria** (de X € → a Y € con fuente, indicador de éxito y plazo — cifra sin fuente la rechaza el Auditor). Actualiza su fila de `kpis.md`.
-2. **22:00 — Consejo de Ministros.** 3 rondas: exposición de la propuesta estrella → réplica cruzada (solapes, contradicciones, test cruzado) → decisión del Presidente: APROBADO / APLAZADO / RECHAZADO, con motivo. Acta en `consejo/actas/`.
-3. **23:30 — Auditoría del Estado.** Un auditor independiente valida o rechaza cada acuerdo y los KPIs, y señala los 3 mayores riesgos no atendidos. Veredictos en `auditoria/`.
-4. **08:00 — Informe presidencial** (máx. 2 páginas): lo importante, qué se simplificó, qué está atascado, cuadro de KPIs. En `presidencia/informes/`; se publica en el boletín (abajo).
+**Fidelidad ≠ ahorro:** restituir texto legal perdido se registra aparte del adelgazamiento; una propuesta puede *engordar* un bloque y aun así ser mejor ley.
 
-**Cada noche, además, cada ministro escribe entrada personal en su `diario.md`** (protocolo de emoción: la simulación está "habitada"; el Presidente usa el clima, nadie lee pasajes en voz alta). Y los viernes, ⚗️ **Laboratorio**: una medida disruptiva sin cita BOE, etiquetada.
+### 2. Capa de verificación e ingeniería (el rescate de 2026-09-21)
 
-## Reglas de verificación (lo que hace esto distinto de un chatbot escribiendo leyes)
+Un auditoría interna (inventario de 388 ficheros, 12 anomalías) terminó en 8 fases de rescate: el proyecto ahora es **reproducible y con fronteras de datos honestas**.
 
-- **Fuente única de verdad**: los textos legales son reales, del BOE (Legislación Consolidada), congelados y con cadena de custodia en `data/raw/boe/` y `data/canonical/` — [`scripts/verify_immutability.py`](scripts/verify_immutability.py) comprueba que ningún script del repo escribe ahí.
-- **Toda propuesta cita identificador BOE + bloque `[aNNN]` exacto del fichero.** Sin cita verificable → rechazada. Prohibido citar leyes que no estén en el repo.
-- **Método común Fase 1**: sha256 por párrafo para detectar duplicación literal + contraste contra el BOE consolidado archivado (halló, p. ej., 939 palabras de texto sin traza en ningún BOE y 239 letras «a)» perdidas por la conversión).
-- **Regla de ejecución (desde 21-09): ejecutar antes de proponer.** Los acuerdos aprobados se aplican **el mismo día** sobre el fichero de la ley con copia `.bak-YYYY-MM-DD`, sha256 antes/después y **manifiesto JSON** en `ministerios/<m>/evidencia/`, con verificación de que el bloque queda con una sola copia y **prohibido re-aplicar un diff ya ejecutado** (se comprueba el hash del bloque primero). Verificación presidencial independiente con [`scripts/verifica_diffs_s13.py`](scripts/verifica_diffs_s13.py).
-- **Test cruzado y ciego (acuerdo 32, permanente):** cada ministro audita la ley del otro sin leer manifiestos ni propuestas — solo el fichero y el BOE archivado. Encontró ya un defecto grave que nadie había visto (apartado 1 del art. 16 LGS perdido, restituido el mismo día). Los informes salen en `consejo/evidencia/`.
-- **Fidelidad ≠ ahorro**: restituir texto legal perdido se registra aparte del adelgazamiento (una propuesta puede *engordar* un bloque y ser mejor ley).
-- **Los cambios se aplican como diffs de git**, auditables por cualquiera: `git log -- ministerios/*/leyes/`.
+```
+BOE API ──► data/raw/boe/<id>/          HTML oficial CONGELADO + metadata.json con sha256
+        ──► data/canonical/<id>/        JSON parseado canónico (292 + 117 + 41 artículos)
+                     │
+ministerios/<m>/leyes/*.md   copia de trabajo MUTADA de la simulación (etiquetada como tal)
+                     │
+propuesta aprobada ──► parche versionado (ProposalPatch: hash base, artículo, operación)
+                 ──► gobierno_ia/validate → apply (solo escribe en runs/, nunca en data/)
+                 ──► audit-run → build-report
+```
 
-## El equipo
+- **El BOE no se muta**: `scripts/verify_immutability.py` (hashes raw+canonical) y `scripts/verify_no_writes_to_raw.py` (escaneo de escrituras en código) pasan en verde y corren en CI.
+- **Etiquetas honestas**: `tests/test_label_integrity.py` verifica que ningún fichero se presente como «texto oficial».
+- **Parches versionados** (paquete Python `gobierno_ia`, instalable, CLI `gobierno-ia`): `ingest-boe · validate-proposal · apply-patch · audit-run · build-report`; máquina de estados de propuesta validada con transiciones ilegales rechazadas.
+- **Gold set**: 20 fragmentos legales con 6 tipos de violación tipificados (`gobierno_ia/gold_set.json`) — ⏳ **esperando revisión jurídica humana**.
+- **Suite y CI**: `pytest tests/` → **45/45 en verde**; GitHub Actions: install limpio → verificadores → tests.
+- **Ledger de corrupción** (`scripts/corruption_ledger.py`, resumen en `reports/rescate/`): contabilidad honesta de lo que el pipeline experimental cambió sobre el corpus original — 13.367 palabras de duplicación, 50 de omisión y 19.334 de cambio editorial en las copias LGT/LGS/L7. **Ninguna de esas cifras es «ahorro normativo»**: son cicatrices declaradas, no mérito.
+- **Producto acotado**: piloto **PMUS / Movilidad 15 min** (Madrid) como caso de uso — ⏳ pendiente de validación con 5 usuarios + 1 técnico + 1 jurista.
 
-| Agente | Perfil Hermes | Cartera | Ley insignia (bloques) |
+## Los agentes
+
+| Agente | Perfil Hermes | Cartera | Ley insignia (bloques de la copia de trabajo) |
 |---|---|---|---|
 | 🏛️ Presidente | mastermind (orquestador) | Coordina, arbitra, informa, verifica en repo | — |
 | 💼 Hacienda | `ministro-hacienda` — Arcadi España (IA) | Tributos, presupuestos, financiación | Ley 58/2003 General Tributaria (335) |
@@ -53,39 +60,55 @@ Todo está orquestado con perfiles de Hermes Agent + cron (los prompts viven en 
 | 🌱 Transición Ecológica | `ministro-ecologia` — Sara Aagesen (IA) | Clima, energía, medio ambiente | Ley 7/2021 Cambio Climático (71) |
 | 🔍 Auditor del Estado | `auditor` | Fiscaliza todo, no propone nada | — |
 
-Corpus total de la misión: **557 bloques**. Duplicación literal tras la sesión 13: LGT 0,00 % (queda el inventario F1 de *fidelidad*: 115 casos / 69 bloques / 3.071 palabras), LGS 5,07 % (1.140 palabras / 16 bloques), L7 0,00 %.
+Corpus de la misión: **557 bloques** en las copias de trabajo. Duplicación literal tras la sesión 13: LGT 0,00 % (queda el inventario de fidelidad F1: 115 casos / 69 bloques / 3.071 palabras), LGS 5,07 % (1.140 palabras / 16 bloques), L7 0,00 %.
 
-## Las leyes que se mejoran
+## Reglas de oro (de la Constitución del sistema)
 
-Descargadas de la [API de Legislación Consolidada del BOE](https://www.boe.es/datosabiertos/) y convertidas a markdown con verificación de fidelidad (la conversión inicial perdió letras «a)» y párrafos que hoy se están restituyendo):
+1. **Fuente única de verdad**: toda propuesta cita identificador BOE + bloque `[aNNN]` exacto. Sin cita verificable → rechazada. Prohibido citar leyes que no estén en el repo.
+2. **Competencias estancas**: cada ministro solo toca `ministerios/<su-cartera>/`; los solapes se resuelven en el Consejo.
+3. **Límite constitucional**: respeto a la CE 1978 y la jerarquía normativa; nada de ley orgánica por este procedimiento; derechos fundamentales intangibles.
+4. **Simplificar no es demolición**: toda reescritura se justifica con razones de peso (problema real, conflicto que se elimina, claridad que se gana).
+5. **Nada de cifras sin fuente** (protocolo de presupuesto): la noticia activa la hipótesis; el dato la confirma.
 
-- [`ministerios/hacienda/leyes/BOE-A-2003-23186.md`](ministerios/hacienda/leyes/BOE-A-2003-23186.md) — Ley 58/2003, General Tributaria
-- [`ministerios/sanidad/leyes/BOE-A-1986-10499.md`](ministerios/sanidad/leyes/BOE-A-1986-10499.md) — Ley 14/1986, General de Sanidad
-- [`ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md`](ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md) — Ley 7/2021, de Cambio Climático y Transición Ecológica
+## Estructura del repo
+
+```
+constitution/    Reglas del juego: constitución, protocolos (ministro, emoción,
+                 laboratorio, presupuesto), mision-30-sesiones.md, prompts-cron/
+data/            FUENTE INMUTABLE: raw/boe/ (HTML oficial congelado) + canonical/ (JSON)
+gobierno_ia/     Paquete Python: schemas, core (validate/apply/revert), validators,
+                 legal_review, cli, gold_set.json
+runs/            Propuestas como parches versionados y resultados auditados
+ministerios/     Por ministerio: leyes/ (copias de trabajo mutadas), propuestas/,
+                 evidencia/ (manifiestos sha256), agenda.md, kpis.md, diario.md
+consejo/         Actas del Consejo, rondas y evidencia del test cruzado
+auditoria/       Veredictos del Auditor del Estado
+presidencia/     Informes presidenciales diarios
+tests/           45 tests: inmutabilidad, etiquetas, parches, estados, gold set
+scripts/         Verificadores (immutability, scan_duplicacion, parse_boe_canonical,
+                 corruption_ledger) + generar_boletin.py + ejecuciones por sesión
+reports/rescate/ Informes del rescate (fases 0-7, piloto PMUS, baseline, ledger)
+archivo/         Evidencia histórica preservada del primer ciclo (septiembre)
+docs/            Boletín público (GitHub Pages)
+```
 
 ## KPIs
 
 Cada ministro gestiona su cuadro de mando evolutivo en `ministerios/<nombre>/kpis.md` (fila diaria + lecciones; un KPI sin dato actualizado cuenta como fallo del día). El Auditor los audita. Ejemplo: [`ministerios/hacienda/kpis.md`](ministerios/hacienda/kpis.md).
 
-## Estructura del repo
+## Usar el pipeline
 
-```
-constitution/     Reglas del juego: constitución, protocolos (ministro, emoción,
-                  laboratorio, presupuesto), misión-30-sesiones.md y prompts-cron/
-data/             Corpus inmutable: raw/boe/ (HTML oficial) y canonical/ (JSON parseado)
-ministerios/      Por ministerio: leyes/ (BOE editable), propuestas/, evidencia/
-                  (manifiestos sha256), agenda.md, kpis.md, diario.md
-consejo/          Actas del Consejo (actas/), rondas y evidencia del test cruzado
-auditoria/        Veredictos del Auditor del Estado + diario
-presidencia/      Informes presidenciales diarios (informes/)
-scripts/          scan_duplicacion · parse_boe_canonical · verify_immutability ·
-                  verifica_diffs · generar_boletin (y los de ejecución por sesión)
-docs/             Boletín público (GitHub Pages), generado por scripts/generar_boletin.py
+```bash
+pip install -e ".[dev]"
+python -m gobierno_ia --help            # 5 comandos: ingest-boe … build-report
+pytest tests/ -v                        # 45/45
+python scripts/verify_immutability.py   # PASSED = el BOE no se ha tocado
+python scripts/generar_boletin.py       # regenera docs/index.html
 ```
 
 ## Ver el boletín diario
 
-👉 **https://ntizar.github.io/gobierno-ia/** — propuestas de cada día, acuerdos con badge (APROBADO/APLAZADO/RECHAZADO), veredictos del Auditor, KPIs y lo importante del informe presidencial. Se regenera con `python scripts/generar_boletin.py`.
+👉 **https://ntizar.github.io/gobierno-ia/** — propuestas de cada día, acuerdos con badge (APROBADO/APLAZADO/RECHAZADO), veredictos del Auditor, KPIs y lo importante del informe presidencial.
 
 ---
 Hecho con ❤️ por David Antizar · Mastermind es el ejecutor, David el autor

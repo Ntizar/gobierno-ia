@@ -12,6 +12,9 @@ dependencies = []
 [project.optional-dependencies]
 dev = ["pytest>=7.0"]
 
+[tool.setuptools]
+packages = ["gobierno_ia"]
+
 [project.scripts]
 gobierno-ia = "gobierno_ia.cli:main"
 
