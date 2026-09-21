@@ -23,6 +23,33 @@
 - Los entregables finales van a `entregables/` y al boletín público (docs/index.html).
 - Todo en castellano.
 
+## Deuda de ejecución (registro vivo)
+
+**Qué es:** acuerdos aprobados por el Consejo que todavía NO están aplicados sobre el fichero de la ley. Una propuesta aprobada y no ejecutada es deuda, no avance. Este registro se actualiza cada sesión: si un número no baja, el Gobierno lo declara como fallo.
+
+**Estado a 2026-09-21 (sesión 13/30).** Fuente: `consejo/actas/2026-09-08.md`, `2026-09-16.md`, `2026-09-17.md`. Bloques objetivo localizados y medidos por Presidencia en `consejo/evidencia/baseline_pre_diffs_2026-09-21.json` (recuento de copias, palabras por bloque, fidelidad de vocabulario contra el BOE consolidado archivado).
+
+| # | Sesión | Ministerio | Bloque | Acuerdo | Estado 21-09 |
+|---|---|---|---|---|---|
+| 1 | 9 | Hacienda | [a12] art. 12.3 LGT | Unificar facultad interpretativa (Ministro conserva la exclusiva; art. 88.5, criterios internos) | 🔧 en ejecución (2 copias, 341 pal.) |
+| 2 | 9 | Hacienda | [a62] art. 62 LGT | Consolidar plazos de pago duplicados, con hash/diff previo (condición) | 🔧 en ejecución (2 copias, 1.197 pal.) |
+| 3 | 9 | Sanidad | [aveinte] art. 20 LGS | Sustituir párrafo truncado por el texto aprobado por el Congreso y borrar la nota de advertencia | 🔧 en ejecución (fidelidad 91,27 %) |
+| 4 | 9 | Ecología | [a15] art. 15 L7 | Eliminar copias duplicadas | ✅ ejecutado en sesión 5 (1 copia, 0 frases repetidas) — verificado 21-09 |
+| 5 | 9 | Ecología | [a1] art. 1 L7 | Integrar título en el bloque de etiquetas | 🔧 en ejecución (formato) |
+| 6 | 9 | Ecología | [a2] art. 2 L7 | Uniformar espaciado de los principios rectores | 🔧 en ejecución (formato) |
+| 7 | 10 | Hacienda | [a95] art. 95 LGT | Restitución íntegra: 8 versiones → 1, letra a) y apartado 2 vigentes | 🔧 en ejecución (8 copias, 6.309 pal., 164 frases repetidas) |
+| 8 | 10 | Hacienda | [a43] art. 43 LGT | Responsables subsidiarios: 6 versiones → 1, letra a), «representantes aduaneros» | 🔧 en ejecución (6 copias, 4.438 pal., 86 frases repetidas) |
+| 9 | 10 | Sanidad | [atres] art. 3 LGS | Consolidar duplicado conservando el 3.4 (igualdad) | 🔧 en ejecución (2 copias, fidelidad 63,64 %) |
+| 10 | 10 | Sanidad | [aseis] art. 6 LGS | Consolidar duplicado conservando el 6.2 (igualdad) | 🔧 en ejecución (2 copias, fidelidad 64,76 %) |
+| 11 | 10 | Ecología | [a14] art. 14 L7 | Plan de movilidad: responsable + revisión cuatrienal + informe a Cortes | ⏳ condición abierta (verificar que «Consejo General de Movilidad» existe como órgano real) |
+| 12 | 10 | Ecología | [a4] art. 4 L7 | Principios climáticos: consejo asesor independiente + desglose autonómico | ⏳ condición abierta (base legal real, sin duplicar el informe del art. 4.2) |
+| 13 | 10 | Ecología | [da-2] DA 2.ª L7 | Desinversión en fósiles: estudio puntual → proceso con fases | ⏳ condición abierta (informe viable, sin duplicar el art. 4.2) |
+| 14 | 11 | Sanidad | [adieciseis] art. 16 LGS | Trazabilidad de listas de espera: +4 apartados (4-7) | 🔧 en ejecución (contenido nuevo, +~250 pal.) |
+| 15 | 11 | Sanidad | [acuatro] art. 4 LGS | Plazos máximos exigibles 90/180 días | ⏳ condición abierta (cuantificación IGAE) |
+| 16 | 11 | Ecología | [a1-7] art. 15 L7 | Gestión hídrica vinculante: alertas 50 %, coordinación confederaciones, reserva 3 % | ⏳ condición abierta (cifra IGAE del 3 %) |
+
+**Regla de no colisión (21-09):** los bloques marcados 🔧 los está aplicando Presidencia con copia `.bak-2026-09-21` y manifiesto sha256. Ningún ministro toca un bloque 🔧 hasta que la tabla diga ✅. Antes de tocar cualquier bloque: comprobar el hash y no re-aplicar un diff ya ejecutado.
+
 ## Bitácora
 
 | Sesión | Fecha | Fase | Avance |

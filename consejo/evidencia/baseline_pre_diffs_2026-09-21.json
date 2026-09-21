@@ -1,0 +1,203 @@
+{
+ "fuente": "head",
+ "leyes": {
+  "hacienda": {
+   "fichero": "ministerios/hacienda/leyes/BOE-A-2003-23186.md",
+   "palabras_fichero": 143093,
+   "sha256": "917ee1224cd30321",
+   "bloques": {
+    "a12": {
+     "linea_cabecera": 225,
+     "cabeceras_cuerpo": [
+      "Artículo 12. Interpretación de las normas tributarias.",
+      "Artículo 12. Interpretación de las normas tributarias."
+     ],
+     "n_copias": 2,
+     "palabras_bloque": 341,
+     "frases_repetidas": 2,
+     "muestra_repetida": [
+      "las normas tributarias se interpretarán con arreglo a lo dispuesto en el apartado 1 del artículo 3 del código ",
+      "en tanto no se definan por la normativa tributaria, los términos empleados en sus normas se entenderán conform"
+     ],
+     "fidelidad_vocab_pct": 74.44,
+     "palabras_sin_traza_boe": 2,
+     "ancla_boe_encontrada": true
+    },
+    "a43": {
+     "linea_cabecera": 1179,
+     "cabeceras_cuerpo": [
+      "Artículo 43. Responsables subsidiarios.",
+      "Artículo 43. Responsables subsidiarios.",
+      "Artículo 43. Responsables subsidiarios.",
+      "Artículo 43. Responsables subsidiarios.",
+      "Artículo 43. Responsables subsidiarios.",
+      "Artículo 43. Responsables subsidiarios."
+     ],
+     "n_copias": 6,
+     "palabras_bloque": 4438,
+     "frases_repetidas": 86,
+     "muestra_repetida": [
+      "serán responsables subsidiarios de la deuda tributaria las siguientes personas o entidades:\n\na) sin perjuicio ",
+      "su responsabilidad también se extenderá a las sanciones."
+     ],
+     "fidelidad_vocab_pct": 80.24,
+     "palabras_sin_traza_boe": 3,
+     "ancla_boe_encontrada": true
+    },
+    "a62": {
+     "linea_cabecera": 1663,
+     "cabeceras_cuerpo": [
+      "Artículo 62. Plazos para el pago.",
+      "Artículo 62. Plazos para el pago."
+     ],
+     "n_copias": 2,
+     "palabras_bloque": 1197,
+     "frases_repetidas": 8,
+     "muestra_repetida": [
+      "las deudas tributarias resultantes de una autoliquidación deberán pagarse en los plazos que establezca la norm",
+      "la administración tributaria competente podrá modificar el plazo señalado en el párrafo anterior siempre que d"
+     ],
+     "fidelidad_vocab_pct": 80.81,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    },
+    "a95": {
+     "linea_cabecera": 2809,
+     "cabeceras_cuerpo": [
+      "Artículo 95. Carácter reservado de los datos con trascendencia tributaria.",
+      "Artículo 95. Carácter reservado de los datos con trascendencia tributaria.",
+      "Artículo 95. Carácter reservado de los datos con trascendencia tributaria.",
+      "Artículo 95. Carácter reservado de los datos con trascendencia tributaria.",
+      "Artículo 95. Carácter reservado de los datos con trascendencia tributaria.",
+      "Artículo 95. Carácter reservado de los datos con trascendencia tributaria.",
+      "Artículo 95. Carácter reservado de los datos con trascendencia tributaria.",
+      "Artículo 95. Carácter reservado de los datos con trascendencia tributaria."
+     ],
+     "n_copias": 8,
+     "palabras_bloque": 6309,
+     "frases_repetidas": 164,
+     "muestra_repetida": [
+      "carácter reservado de los datos con trascendencia tributaria.",
+      "carácter reservado de los datos con trascendencia tributaria."
+     ],
+     "fidelidad_vocab_pct": 80.5,
+     "palabras_sin_traza_boe": 1,
+     "ancla_boe_encontrada": true
+    }
+   }
+  },
+  "sanidad": {
+   "fichero": "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
+   "palabras_fichero": 22493,
+   "sha256": "2059aae8955c8368",
+   "bloques": {
+    "atres": {
+     "linea_cabecera": 27,
+     "cabeceras_cuerpo": [
+      "Artículo tres",
+      "Artículo tres"
+     ],
+     "n_copias": 2,
+     "palabras_bloque": 180,
+     "frases_repetidas": 4,
+     "muestra_repetida": [
+      "los medios y actuaciones del sistema sanitario estarán orientados prioritariamente a la promoción de la salud ",
+      "la asistencia sanitaria pública se extenderá a toda la población española."
+     ],
+     "fidelidad_vocab_pct": 63.64,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    },
+    "aseis": {
+     "linea_cabecera": 63,
+     "cabeceras_cuerpo": [
+      "Artículo seis",
+      "Artículo seis"
+     ],
+     "n_copias": 2,
+     "palabras_bloque": 215,
+     "frases_repetidas": 4,
+     "muestra_repetida": [
+      "a promover el interés individual, familiar y social por la salud mediante la adecuada educación sanitaria de l",
+      "a garantizar que cuantas acciones sanitarias se desarrollen estén dirigidas a la prevención de las enfermedade"
+     ],
+     "fidelidad_vocab_pct": 64.76,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    },
+    "adieciseis": {
+     "linea_cabecera": 195,
+     "cabeceras_cuerpo": [
+      "Artículo dieciséis"
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 161,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 82.69,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    },
+    "aveinte": {
+     "linea_cabecera": 287,
+     "cabeceras_cuerpo": [
+      "Artículo veinte"
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 300,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 91.27,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    }
+   }
+  },
+  "transicion-ecologica": {
+   "fichero": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
+   "palabras_fichero": 26541,
+   "sha256": "68a68b15896aa62f",
+   "bloques": {
+    "a1": {
+     "linea_cabecera": 169,
+     "cabeceras_cuerpo": [
+      "Artículo 1. Objeto de la Ley."
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 145,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 94.19,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    },
+    "a2": {
+     "linea_cabecera": 177,
+     "cabeceras_cuerpo": [
+      "Artículo 2. Principios rectores."
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 324,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 96.53,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    },
+    "a1-7": {
+     "linea_cabecera": 401,
+     "cabeceras_cuerpo": [
+      "Artículo 15. Instalación de puntos de recarga eléctrica."
+     ],
+     "n_copias": 1,
+     "palabras_bloque": 1441,
+     "frases_repetidas": 0,
+     "muestra_repetida": [],
+     "fidelidad_vocab_pct": 90.59,
+     "palabras_sin_traza_boe": 0,
+     "ancla_boe_encontrada": true
+    }
+   }
+  }
+ }
+}
