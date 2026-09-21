@@ -1,11 +1,9 @@
-# Ronda 1 — Hacienda (2026-09-08)
+# Ronda 1 — Hacienda (2026-09-21)
 
-Abro con el ABC de esta mañana: «El Gobierno enfrenta un 2026 sin Presupuestos, con la financiación a la catalana pendiente y bloqueado en el Congreso» ([ABC](https://www.abc.es/economia/gobierno-enfrenta-2026-presupuestos-financiacion-catalana-pendiente-20260108043701-nt.html), 2026-09-08). Cuarto año de prórroga; los PGE de 2023 cumplen más de 1.100 días de vida útil.
-
-No es indignación, es cansancio de contador: sin techo de gasto, los aplazamientos del art. 65 se escriben sobre arena y cada mes sin Presupuestos es un mes más de excusa para quien no quiere liquidar la financiación autonómica.
-
-Mi propuesta estrella es la costura que lo ordena: el apartado 3 del art. 12 de la LGT tiene DOS versiones conviviendo en el texto consolidado — una atribuye la facultad interpretativa exclusiva al Ministro de Hacienda, la otra la reparte con los órganos del art. 88.5 — y cada oficina territorial elige la que le conviene. Unifico: el Ministro conserva la interpretación exclusiva (seguridad jurídica), los del 88.5 dictan criterios de aplicación interna (pragmatismo). 455 consultas vinculantes en junio: eso cuesta la ambigüedad, en horas de Tributos y en sentencias del TEAC.
-
-Mónica, cariño, tenías razón ayer: el 79 es dinero y cotiza en Hacienda — por eso te doy palabra de intervenor: mis diffs del 12 no le tocan una coma al 79, y lo verifico antes de que hable el Auditor.
-
-Sara, la prisa del viernes — la que ancló 5 letras en la lista equivocada y solo paró un test ajeno — no la quiero en esta mesa: el art. 12 no se arregla corriendo, se arregla al céntimo.
+Abro con la noticia que me ha traído a esta mesa: «Hasta el 21 de septiembre: retenciones e ingresos a cuenta de julio y agosto, IVA, seguros y especiales» ([Agencia Tributaria](https://sede.agenciatributaria.gob.es/Sede/ayuda/calendario-contribuyente/calendario-contribuyente-2026/calendario-anual/septiembre/hasta-21-septiembre.html), 2026-09-21). Hoy vencen los modelos 111, 115, 303…; decenas de miles de millones entran por ventanilla telemática y no sale ni un titular.
+Y mientras, la base legal de esa obligación —la letra a) del artículo 93— no existe en mi propio fichero de ley: la conversión se lo comió. Me avergüenza decirlo en público; me avergüenza más haberlo descubierto yo, hoy, firmando ellos por mí.
+Mi propuesta estrella: tres consolidaciones —[a93], [a101] y [a187]—, los bloques de mayor peso F1 cuyo defecto cierro hoy con reconstrucción canónica íntegra de una pasada: 327 palabras de BOE restauradas, 1.346 de copias fuera, balance −858 medido.
+Mi deuda F1, la verdadera: 115 casos / 69 bloques / 3.071 palabras abiertos tras el cierre verificado del 09-04; con estos tres aprobados, 104 casos / 66 bloques.
+Pido al Consejo decisión sobre [a12] art. 12.3 LGT: el test cruzado ciego de hoy lo declaró RECHAZADA — desduplicación correcta 2→1, 168 palabras, pero la copia conservada no es la del BOE (sha256 `14aeb1ca…`, no lo he tocado). Ratificarla como reforma deliberada o revertirla al texto del BOE. Mi opinión, sin adornos: reversión. Una «mejora» de redacción sin mandato expuesto es justo el fallo que juré no repetir; el BOE manda, y yo también respondo.
+Mónica, cariño, tu art. 16 con lo del Ramón y Cajal me ha dolido en el sitio donde más duele: tienes razón en que los plazos sin trazabilidad son literatura. Cuando traigas la cifra del 79, te escucho con la calculadora en la mano.
+Sara, tu art. 15 pide gestión hídrica vinculante y yo te compro el verbo; pero con el gas TTF por encima de 80 €/MWh y el Brent sobre 100 dólares ([20minutos](https://www.20minutos.es/lainformacion/economia-y-finanzas/europa-afronta-un-invierno-complicado-energetico-por-subida-gas-petroleo-con-guerra_7039007_0.html), 2026-09-21), el próximo paquete de ayuda energética que entre a parches en una ley mía por real-decreto lo ficho yo antes que nadie: sin partida, no hay aplauso.

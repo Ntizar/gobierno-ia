@@ -1,0 +1,104 @@
+{
+ "ley": "Ley 58/2003 General Tributaria (BOE-A-2003-23186)",
+ "fecha": "2026-09-21",
+ "sesion": "13/30",
+ "ministerio": "hacienda",
+ "ejecutor": "Presidencia (Mastermind) — el agente del ministro de Hacienda fallo por timeout en dos intentos a las 23:05 y 23:20; Presidencia ejecuta los acuerdos aprobados en la ronda 3 de la sesion 13 con el texto canonico verificado",
+ "fichero": "ministerios/hacienda/leyes/BOE-A-2003-23186.md",
+ "fuente_verdad_fidelidad": "ministerios/hacienda/evidencia/boe_canonico_a93_a101_a187_2026-09-21.txt (canonico BOE archivado)",
+ "fuente_acuerdo": "consejo/actas/2026-09-21.md (ronda 3, sesion 13/30)",
+ "copia_seguridad": "ministerios/hacienda/leyes/BOE-A-2003-23186.md.bak-2026-09-21-ronda3",
+ "sha256_fichero_antes": "3433f59b85b2a61fe6bfe3b66ab9312bd8ab0762a4c18daf588010591e0ce5bc",
+ "sha256_fichero_despues": "021ba5a01f04135c2e530ef609a2754394fcf7c8b8313340d06eae8731d9367c",
+ "eol": "CRLF preservado (split/join con CRLF)",
+ "canonico_comprobado": {
+  "a93": {
+   "palabras": 808,
+   "sha256_nl": "f7c84ce70f3a6c705aae1569a0f7327a5ce3766a1dfd35c83aa4d0a357cda6c9",
+   "sha256_crlf": "32876aec280e1723",
+   "lineas": 37
+  },
+  "a101": {
+   "palabras": 336,
+   "sha256_nl": "f9d680d0cc9673f3cb0b63a93dae00426eb7dc89a8f864ec21e477b17474d4d5",
+   "sha256_crlf": "4f523a75142c5f62",
+   "lineas": 21
+  },
+  "a187": {
+   "palabras": 576,
+   "sha256_nl": "410a9fd3ea9670c8b358ffd92473f5af7e29b3a5503e8f834f3b2f96d54ed7e6",
+   "sha256_crlf": "b93c80582a78ba7d",
+   "lineas": 49
+  }
+ },
+ "bloques": [
+  {
+   "bloque": "a93",
+   "linea_antes": 2503,
+   "linea_despues": 2503,
+   "lineas_bloque_antes": 92,
+   "lineas_bloque_despues": 43,
+   "palabras_cuerpo_antes": 1792,
+   "palabras_cuerpo_despues": 874,
+   "palabras_canonico": 808,
+   "rotulos_antes": 3,
+   "rotulos_despues": 1,
+   "sha256_cuerpo_antes": "732bfdbe49b0c8070382aeb47292033e4e8acd6abf35c1940cf4fdc0c5fa8c35",
+   "sha256_cuerpo_despues": "66f2e4bc97bdbb2493ec06993cccd32db67e1371da3d567101ebddf063cbfd0e"
+  },
+  {
+   "bloque": "a101",
+   "linea_antes": 2851,
+   "linea_despues": 2851,
+   "lineas_bloque_antes": 36,
+   "lineas_bloque_despues": 27,
+   "palabras_cuerpo_antes": 442,
+   "palabras_cuerpo_despues": 402,
+   "palabras_canonico": 336,
+   "rotulos_antes": 2,
+   "rotulos_despues": 1,
+   "sha256_cuerpo_antes": "002f3af76b4bf57b445e9428af3bed6ff133b5ef94bfde9b0ec4131e9961b511",
+   "sha256_cuerpo_despues": "0013339750d2bd2321527ac8023184cf2d10aef2a9c0ca3ebedfb2a36a62b67b"
+  },
+  {
+   "bloque": "a187",
+   "linea_antes": 5051,
+   "linea_despues": 5051,
+   "lineas_bloque_antes": 44,
+   "lineas_bloque_despues": 55,
+   "palabras_cuerpo_antes": 529,
+   "palabras_cuerpo_despues": 629,
+   "palabras_canonico": 576,
+   "rotulos_antes": 1,
+   "rotulos_despues": 1,
+   "sha256_cuerpo_antes": "03c2c3124f00f2c5267c9246014eb0fc9d43df16ff6d7db53292e187a3191c2d",
+   "sha256_cuerpo_despues": "985940182de41e0bc532e9c1866a8c0b47e70a567c5188174e4ef9981c34ac9d"
+  }
+ ],
+ "verificacion": [
+  {
+   "bloque": "a93",
+   "rotulos": 1,
+   "palabras_cuerpo": 874,
+   "canonico_presente_literal": true,
+   "canonico_lineas": 37,
+   "lineas_bloque": 43
+  },
+  {
+   "bloque": "a101",
+   "rotulos": 1,
+   "palabras_cuerpo": 402,
+   "canonico_presente_literal": true,
+   "canonico_lineas": 21,
+   "lineas_bloque": 27
+  },
+  {
+   "bloque": "a187",
+   "rotulos": 1,
+   "palabras_cuerpo": 629,
+   "canonico_presente_literal": true,
+   "canonico_lineas": 49,
+   "lineas_bloque": 55
+  }
+ ]
+}
