@@ -1,0 +1,272 @@
+{
+  "fecha_generacion": "2026-09-21T18:17:13.714582",
+  "commit_partida": "4412d4d",
+  "rama": "rescate/fase0-inventario",
+  "total_ficheros": 388,
+  "corpus_juridico": {
+    "LGT": {
+      "ruta": "ministerios/hacienda/leyes/BOE-A-2003-23186.md",
+      "sha256": "14aeb1ca76b631cd23f7f3f8b90df1262705666f803e3e5e0f1df9820efb3d8d",
+      "bytes": 897275,
+      "lineas": 8391
+    },
+    "LGS": {
+      "ruta": "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
+      "sha256": "14719f07dccf8eaa706ee4a63e8961b375966137556d2e12489d9bc577bbbf5d",
+      "bytes": 154431,
+      "lineas": 1880
+    },
+    "L7": {
+      "ruta": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
+      "sha256": "3326932f492e2928e3b37877db28f2fdff1d4c0d35ef5e9a93dbd6c11b3ba998",
+      "bytes": 176999,
+      "lineas": 1067
+    }
+  },
+  "boe_html": {
+    "LGT": {
+      "ruta": "ministerios/hacienda/evidencia/boe_consolidado_BOE-A-2003-23186.html",
+      "sha256": "b29db001d1a71f01c0c76e72a3c5a7a87982044d2d22e2d05a77e5b084da2ba2",
+      "bytes": 1493013
+    },
+    "LGS": {
+      "ruta": "ministerios/sanidad/evidencia/boe_consolidado_BOE-A-1986-10499.html",
+      "sha256": "2e42587547cc59b2dda56a5dd2312bc42ead99aa5973f6839f848e42cf701ab7",
+      "bytes": 807821
+    },
+    "L7": {
+      "ruta": "ministerios/transicion-ecologica/evidencia/BOE-A-2021-8447_consolidado_2026-08-31.html",
+      "sha256": "ba5008021417c6ac83233da88b9d89f6decd0f0bd1a544eed2bf9be19f2f1440",
+      "bytes": 305236
+    }
+  },
+  "scripts_principales": {
+    "audit_crons.py": {
+      "ruta": "scripts\\audit_crons.py",
+      "dependencias_locales": true,
+      "lineas": 21
+    },
+    "diag_deuda.py": {
+      "ruta": "scripts\\diag_deuda.py",
+      "dependencias_locales": false,
+      "lineas": 44
+    },
+    "fix_a2_formato_L7.py": {
+      "ruta": "scripts\\fix_a2_formato_L7.py",
+      "dependencias_locales": false,
+      "lineas": 54
+    },
+    "generar_boletin.py": {
+      "ruta": "scripts\\generar_boletin.py",
+      "dependencias_locales": false,
+      "lineas": 162
+    },
+    "parche_crons_ejecucion.py": {
+      "ruta": "scripts\\parche_crons_ejecucion.py",
+      "dependencias_locales": true,
+      "lineas": 61
+    },
+    "reparacion_fidelidad_LGS_2026-09-21.py": {
+      "ruta": "scripts\\reparacion_fidelidad_LGS_2026-09-21.py",
+      "dependencias_locales": false,
+      "lineas": 94
+    },
+    "s13_ejecutar_diffs_tecologica.py": {
+      "ruta": "scripts\\s13_ejecutar_diffs_tecologica.py",
+      "dependencias_locales": false,
+      "lineas": 222
+    },
+    "s13_manifiesto_fase2_tecologica.py": {
+      "ruta": "scripts\\s13_manifiesto_fase2_tecologica.py",
+      "dependencias_locales": false,
+      "lineas": 202
+    },
+    "scan_duplicacion.py": {
+      "ruta": "scripts\\scan_duplicacion.py",
+      "dependencias_locales": false,
+      "lineas": 95
+    },
+    "tmp_dedup_entre_bloques.py": {
+      "ruta": "scripts\\tmp_dedup_entre_bloques.py",
+      "dependencias_locales": false,
+      "lineas": 27
+    },
+    "tmp_dedup_transicion.py": {
+      "ruta": "scripts\\tmp_dedup_transicion.py",
+      "dependencias_locales": false,
+      "lineas": 53
+    },
+    "verifica_diffs_s13.py": {
+      "ruta": "scripts\\verifica_diffs_s13.py",
+      "dependencias_locales": false,
+      "lineas": 170
+    }
+  },
+  "scripts_temp": [
+    "auditoria\\tmp_auditor_verif2_2026-09-01.py",
+    "auditoria\\tmp_auditor_verif2_2026-09-03.py",
+    "auditoria\\tmp_auditor_verif3_2026-09-01.py",
+    "auditoria\\tmp_auditor_verif3_2026-09-03.py",
+    "auditoria\\tmp_auditor_verif4_2026-09-01.py",
+    "auditoria\\tmp_auditor_verif4_2026-09-03.py",
+    "auditoria\\tmp_auditor_verif5_2026-09-01.py",
+    "auditoria\\tmp_auditor_verif5_2026-09-03.py",
+    "auditoria\\tmp_auditor_verif6_2026-09-03.py",
+    "auditoria\\tmp_auditor_verif_2026-08-31.py",
+    "auditoria\\tmp_auditor_verif_2026-09-01.py",
+    "auditoria\\tmp_auditor_verif_2026-09-03.py"
+  ],
+  "backups": [
+    "ministerios\\hacienda\\leyes\\BOE-A-2003-23186.md.bak-2026-09-01",
+    "ministerios\\hacienda\\leyes\\BOE-A-2003-23186.md.bak-2026-09-02-da18",
+    "ministerios\\hacienda\\leyes\\BOE-A-2003-23186.md.bak-2026-09-03-pre-da18",
+    "ministerios\\hacienda\\leyes\\BOE-A-2003-23186.md.bak-2026-09-04",
+    "ministerios\\hacienda\\leyes\\BOE-A-2003-23186.md.bak-2026-09-21",
+    "ministerios\\sanidad\\leyes\\BOE-A-1986-10499.md.bak-2026-09-04-pre-10-19",
+    "ministerios\\sanidad\\leyes\\BOE-A-1986-10499.md.bak-2026-09-21",
+    "ministerios\\sanidad\\leyes\\BOE-A-1986-10499.md.bak-2026-09-21b-reparacion",
+    "ministerios\\transicion-ecologica\\leyes\\BOE-A-2021-8447.md.bak-2026-09-03",
+    "ministerios\\transicion-ecologica\\leyes\\BOE-A-2021-8447.md.bak-2026-09-04",
+    "ministerios\\transicion-ecologica\\leyes\\BOE-A-2021-8447.md.bak-2026-09-21"
+  ],
+  "ficheros_tmp": [
+    "scratch_a12.py",
+    "auditoria\\tmp_auditor_verif2_2026-09-01.json",
+    "auditoria\\tmp_auditor_verif2_2026-09-01.py",
+    "auditoria\\tmp_auditor_verif2_2026-09-03.py",
+    "auditoria\\tmp_auditor_verif3_2026-09-01.json",
+    "auditoria\\tmp_auditor_verif3_2026-09-01.py",
+    "auditoria\\tmp_auditor_verif3_2026-09-03.py",
+    "auditoria\\tmp_auditor_verif4_2026-09-01.json",
+    "auditoria\\tmp_auditor_verif4_2026-09-01.py",
+    "auditoria\\tmp_auditor_verif4_2026-09-03.py",
+    "auditoria\\tmp_auditor_verif5_2026-09-01.py",
+    "auditoria\\tmp_auditor_verif5_2026-09-03.py",
+    "auditoria\\tmp_auditor_verif6_2026-09-03.py",
+    "auditoria\\tmp_auditor_verif_2026-08-31.json",
+    "auditoria\\tmp_auditor_verif_2026-08-31.py",
+    "auditoria\\tmp_auditor_verif_2026-09-01.json",
+    "auditoria\\tmp_auditor_verif_2026-09-01.py",
+    "auditoria\\tmp_auditor_verif_2026-09-03.py",
+    "ministerios\\hacienda\\evidencia\\tmp_sec43.txt",
+    "ministerios\\hacienda\\evidencia\\tmp_sec95.txt",
+    "ministerios\\hacienda\\leyes\\BOE-A-2003-23186.md.bak-2026-09-01",
+    "ministerios\\hacienda\\leyes\\BOE-A-2003-23186.md.bak-2026-09-02-da18",
+    "ministerios\\hacienda\\leyes\\BOE-A-2003-23186.md.bak-2026-09-03-pre-da18",
+    "ministerios\\hacienda\\leyes\\BOE-A-2003-23186.md.bak-2026-09-04",
+    "ministerios\\hacienda\\leyes\\BOE-A-2003-23186.md.bak-2026-09-21",
+    "ministerios\\sanidad\\leyes\\.tmp_keep.md",
+    "ministerios\\sanidad\\leyes\\.tmp_reejec_bak.md",
+    "ministerios\\sanidad\\leyes\\BOE-A-1986-10499.md.bak-2026-09-04-pre-10-19",
+    "ministerios\\sanidad\\leyes\\BOE-A-1986-10499.md.bak-2026-09-21",
+    "ministerios\\sanidad\\leyes\\BOE-A-1986-10499.md.bak-2026-09-21b-reparacion",
+    "ministerios\\transicion-ecologica\\leyes\\BOE-A-2021-8447.md.bak-2026-09-03",
+    "ministerios\\transicion-ecologica\\leyes\\BOE-A-2021-8447.md.bak-2026-09-04",
+    "ministerios\\transicion-ecologica\\leyes\\BOE-A-2021-8447.md.bak-2026-09-21",
+    "ministerios\\transicion-ecologica\\scripts\\tmp_art15_s3.py",
+    "ministerios\\transicion-ecologica\\scripts\\tmp_boe_check.py",
+    "ministerios\\transicion-ecologica\\scripts\\tmp_boe_listas.py",
+    "ministerios\\transicion-ecologica\\scripts\\tmp_dedup_s3.py",
+    "ministerios\\transicion-ecologica\\scripts\\tmp_dif_art15_v2.py",
+    "ministerios\\transicion-ecologica\\scripts\\tmp_fidelidad_cierre.py",
+    "ministerios\\transicion-ecologica\\scripts\\tmp_fidelidad_final.py",
+    "ministerios\\transicion-ecologica\\scripts\\tmp_listas_s3.py",
+    "ministerios\\transicion-ecologica\\scripts\\tmp_verif_a.py",
+    "scripts\\tmp_dedup_entre_bloques.py",
+    "scripts\\tmp_dedup_tecologica.json",
+    "scripts\\tmp_dedup_transicion.py"
+  ],
+  "archivos_clave": {
+    "README": {
+      "ruta": "README.md",
+      "sha256": "7355d1e1d4f84d34a7b04f3c9b862979a7c7cafbb657e6dad4cf1029b33d930f",
+      "bytes": 3467
+    },
+    "CONSTITUCION": {
+      "ruta": "constitution/constitucion.md",
+      "sha256": "383f4a401068bdfbea567a965b37163459c23764545462bbb29a201a8164441b",
+      "bytes": 2909
+    },
+    "MISION": {
+      "ruta": "constitution/mision-30-sesiones.md",
+      "sha256": "1246a5633cd54f89aac8c56d3576d246f05e1e42107877ab1c0d4b23e24291d0",
+      "bytes": 30788
+    }
+  },
+  "anomalias_conocidas": [
+    {
+      "id": "A001",
+      "tipo": "falsamente_label_oficial",
+      "descripcion": "Leyes MD rotuladas como 'texto oficial del BOE' pero han sido modificadas por el pipeline",
+      "archivos": [
+        "ministerios/hacienda/leyes/BOE-A-2003-23186.md:5",
+        "ministerios/sanidad/leyes/BOE-A-1986-10499.md:5",
+        "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md:5"
+      ]
+    },
+    {
+      "id": "A002",
+      "tipo": "duplicacion_LGT",
+      "descripcion": "105/335 bloques con duplicación interna en LGT (11.12% palabras)",
+      "evidencia": "scripts/scan_duplicacion.py stdout"
+    },
+    {
+      "id": "A003",
+      "tipo": "verificador_engañoso",
+      "descripcion": "scan_duplicacion.py termina con código 0 aunque detecte duplicación",
+      "evidencia": "scripts/scan_duplicacion.py:90-94"
+    },
+    {
+      "id": "A004",
+      "tipo": "verificador_engañoso",
+      "descripcion": "verifica_diffs_s13.py termina con código 0 aunque haya anomalías",
+      "evidencia": "scripts/verifica_diffs_s13.py:165-169"
+    },
+    {
+      "id": "A005",
+      "tipo": "parser_incompleto",
+      "descripcion": "diag_deuda.py no reconoce 'Artículo tres' (solo busca numerales arábigos)",
+      "evidencia": "scripts/diag_deuda.py:11-13 → LGS muestra 0 cabeceras para todos los artículos"
+    },
+    {
+      "id": "A006",
+      "tipo": "dependencia_ruta_local",
+      "descripcion": "audit_crons.py y parche_crons_ejecucion.py dependen de $LOCALAPPDATA/hermes/cron/jobs.json",
+      "archivos": [
+        "scripts/audit_crons.py:3",
+        "scripts/parche_crons_ejecucion.py:11"
+      ]
+    },
+    {
+      "id": "A007",
+      "tipo": "sin_gitignore",
+      "descripcion": "No existe .gitignore — temporales, backups y caches se trackean"
+    },
+    {
+      "id": "A008",
+      "tipo": "sin_ci",
+      "descripcion": "No existe .github/workflows/ — ni CI ni tests automatizados"
+    },
+    {
+      "id": "A009",
+      "tipo": "sin_paquete",
+      "descripcion": "No existe pyproject.toml ni requirements.txt — el paquete no es instalable"
+    },
+    {
+      "id": "A010",
+      "tipo": "sin_avisos_simulacion",
+      "descripcion": "Ninguna salida dice 'Texto simulado, sin validez jurídica'"
+    },
+    {
+      "id": "A011",
+      "tipo": "corrupcion_21-09",
+      "descripcion": "El 21/09 se borró contenido normativo (art.16.1 LGS y prefijo art.6) y hubo que restaurar",
+      "evidencia": "commits cca052e, bad0e4d, 9b58f21"
+    },
+    {
+      "id": "A012",
+      "tipo": "sin_suite_tests",
+      "descripcion": "18 ficheros con 'test' en el nombre, pero no hay tests/ ejecutable ni runner"
+    }
+  ]
+}
