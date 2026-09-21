@@ -66,6 +66,23 @@ Datos medidos el 21-09, no declarados por los ministerios:
 3. La Fase 3 (sesiones 19-26) necesita sus 8 sesiones íntegras para las cifras, y hoy siguen siendo **0 euros validados en 13 sesiones**. O la Fase 2 cierra en la 18 como muy tarde, o hay que recortar la ambición de la Fase 3 y escribirlo en el entregable.
 4. Decisión que se pide: adoptar la definición (2) y poner **fecha fatal** a las 5 condiciones abiertas, que son ya la única deuda bloqueante.
 
+## Hallazgos del test cruzado ciego (21-09) — para el Consejo
+
+Tres verificadores independientes auditaron los bloques ejecutados **sin leer manifiestos ni propuestas** (solo el fichero de ley y el BOE consolidado archivado). Informes: `consejo/evidencia/test_cruzado_LGT|LGS|L7_2026-09-21.md`.
+
+| Bloque | Veredicto ciego | Qué pasa |
+|---|---|---|
+| [a43], [a62], [a95] LGT | **VALIDADA** | Idénticos palabra por palabra al BOE consolidado (1.079 / 813 / 994 palabras), 0 pérdidas, 0 texto sin traza |
+| [a12] LGT | **RECHAZADA** | La desduplicación está bien (2 → 1), pero **se eliminó la copia fiel al BOE y sobrevive una redacción que no está en el BOE**: 5 frases del apartado 3 vigente perdidas y 4 sin traza, una de ellas un párrafo entero nuevo |
+| [atres] LGS | VALIDADA | 1 copia, literal al BOE, incluido el 3.4 de igualdad |
+| [adieciseis] LGS | **RECHAZADA** | Faltaba el **apartado 1 vigente** del art. 16 (atención primaria / libre elección): el bloque arrancaba en «2.» → **reparado el mismo 21-09** (restitución, +29 palabras) y se restituyó el prefijo «1.» del art. 6 (+1) |
+| [aveinte] LGS | VALIDADA C/OBS | El párrafo sustituto es texto real del BOE (vive en el blockquote del propio bloque), no una invención; la elección queda sin justificación visible porque el acuerdo ordenó borrar la nota |
+| [a1], [a2], [a1-7] L7 | VALIDADA C/OBS | Contenido íntegro; el art. 15 está saneado (una sola versión, sin la contradicción 12/21 meses). Observaciones de estructura: el rótulo de [a1] y [a2] fusiona el título y ya no sigue la convención de los otros 67 bloques; el encabezado «TÍTULO I» viaja al final del bloque [a2]; falta el encabezado «TÍTULO PRELIMINAR / Disposiciones generales» |
+
+**Decisiones que se piden al Consejo:** (1) ratificar el art. 12 LGT como **enmienda deliberada** —y entonces el entregable final debe decir que ese apartado se reforma, no que se consolida— o revertirlo al texto del BOE; (2) fijar una **convención única de rótulo** (título dentro del rótulo o repetido en el cuerpo) y reparar los encabezados de título de la L7 en una sesión de estructura; (3) confirmar la reparación del art. 16 LGS como restitución de fidelidad.
+
+**Nota de método:** el test ciego encontró un defecto grave que ni los ministerios ni la Presidencia habíamos visto (el apartado 1 del art. 16 LGS). El mecanismo funciona y debería repetirse en cada sesión de ejecución, no solo cuando alguien se acuerda.
+
 ## Bitácora
 
 | Sesión | Fecha | Fase | Avance |

@@ -1445,5 +1445,342 @@
     "delta": -729
    }
   ]
+ },
+ "verificador": "subagente independiente y ciego (acuerdo 32: test cruzado y ciego)",
+ "ceguera_cumplida": true,
+ "ceguera_nota": "No se abrieron manifiestos de aplicacion, propuestas, actas del Consejo ni scripts de aplicacion.",
+ "metodo": "Extraccion de parrafos del div.bloque del BOE (parrafo/parrafo_2/articulo), descartando aparato editorial (Se modifica/Se anade/Ultima actualizacion/Modificacion publicada/Vease/Texto anadido/Subir/[Bloque n]); normalizacion (minusculas, sin tildes ni puntuacion) y comparacion por subsecuencia contigua de palabras: frases >=6 palabras y n-gramas de 8.",
+ "veredictos": {
+  "a12": {
+   "veredicto": "RECHAZADA",
+   "lineas_md": "225-237",
+   "copias_cuerpo": 1,
+   "copias_cuerpo_bak": 2,
+   "ngramas8_repetidos": 0,
+   "palabras_boe": 227,
+   "palabras_repo": 169,
+   "delta": -58,
+   "frases_boe_ausentes": 5,
+   "frases_sin_traza": 4,
+   "motivo": "Desduplicacion correcta (2 copias -> 1) pero se elimino la copia fiel al BOE del apartado 3 y sobrevive una redaccion sin traza: se pierden las 5 frases del art. 12.3 vigente y aparecen 4 frases no presentes en el BOE (una de ellas parrafo nuevo sobre \"criterios de aplicacion interna\"). En el mismo commit los otros tres bloques quedaron identicos al BOE, luego la desviacion es anomala y no tiene justificacion visible en el fichero.",
+   "contradicciones": "Ahora no conviven dos versiones; en el bak existian DOS versiones distintas del apartado 3 (una \"de forma exclusiva\" y otra = BOE).",
+   "caveat": "Si el Consejo aprobo re-redactar el art. 12.3, debe registrarse como enmienda deliberada: pasaria a VALIDADA CON OBSERVACIONES.",
+   "lineas_sin_traza": [
+    233,
+    235,
+    237
+   ],
+   "palabras_nuevas": [
+    "exclusiva",
+    "criterios",
+    "interna",
+    "dependencia",
+    "correspondiente",
+    "mismos",
+    "sometidos"
+   ]
+  },
+  "a43": {
+   "veredicto": "VALIDADA",
+   "lineas_md": "1165-1209",
+   "copias_cuerpo": 1,
+   "copias_cuerpo_bak": 6,
+   "ngramas8_repetidos": 16,
+   "palabras_boe": 1079,
+   "palabras_repo": 1079,
+   "delta": 0,
+   "frases_boe_ausentes": 0,
+   "frases_sin_traza": 0,
+   "motivo": "Secuencia de palabras identica al BOE consolidado (apartados 1 a)-h), 2, 3 y 4); las 16 repeticiones >=8 palabras son clausulas paralelas del propio texto legal (lineas 1171, 1173 y 1197). Solo se omiten notas de pie editoriales, omision sistematica en el fichero."
+  },
+  "a62": {
+   "veredicto": "VALIDADA",
+   "lineas_md": "1489-1531",
+   "copias_cuerpo": 1,
+   "copias_cuerpo_bak": 2,
+   "ngramas8_repetidos": 75,
+   "palabras_boe": 813,
+   "palabras_repo": 813,
+   "delta": 0,
+   "frases_boe_ausentes": 0,
+   "frases_sin_traza": 0,
+   "motivo": "Secuencia identica al BOE (apartados 1-9); las 75 repeticiones >=8 palabras son las clausulas de plazo paralelas inherentes al articulo (lineas 1497, 1499, 1501, 1509, 1511, 1515, 1517), presentes en el BOE."
+  },
+  "a95": {
+   "veredicto": "VALIDADA",
+   "lineas_md": "2613-2661",
+   "copias_cuerpo": 1,
+   "copias_cuerpo_bak": 8,
+   "ngramas8_repetidos": 4,
+   "palabras_boe": 994,
+   "palabras_repo": 994,
+   "delta": 0,
+   "frases_boe_ausentes": 0,
+   "frases_sin_traza": 0,
+   "motivo": "Secuencia identica al BOE (apartado 1 a)-n), 2, 3, 4, 5 y 6); las 4 repeticiones >=8 palabras son el boilerplate de sigilo del articulo (lineas 2651, 2657 y 2659), presente en el BOE."
+  }
+ },
+ "resumen": {
+  "bloques_fichero": 335,
+  "etiquetas_duplicadas": 0,
+  "bloques_nuevos_vs_bak": 0,
+  "bloques_desaparecidos_vs_bak": 0,
+  "anclas_boe": 448,
+  "anclas_estructura_sin_bloque_md": 113,
+  "etiquetas_md_sin_ancla_boe": 0,
+  "veredictos": {
+   "VALIDADA": 3,
+   "VALIDADA_CON_OBSERVACIONES": 0,
+   "RECHAZADA": 1
+  },
+  "desduplicacion": "los 4 bloques tenian 2/6/2/8 copias del cuerpo y ahora tienen 1",
+  "contenido_boe_ausente_total_frases": 5,
+  "texto_sin_traza_total_frases": 4
+ },
+ "contraste_externo_secundario": {
+  "nota": "No forma parte de la evidencia archivada; verificado a titulo de contexto.",
+  "hallazgo": "La redaccion del art. 12.3 del BOE archivado corresponde a la vigente (post Ley 34/2015) y la anterior publicada decia \"corresponde de forma exclusiva al Ministro de Hacienda\"; el texto actual del repo no coincide literalmente con ninguna de las dos."
+ },
+ "ficheros_escritos": [
+  "consejo/evidencia/test_cruzado_LGT_2026-09-21.md",
+  "consejo/evidencia/test_cruzado_LGT_2026-09-21.json"
+ ],
+ "sin_modificaciones_de_ley": true,
+ "detalle_por_bloque": {
+  "a12": {
+   "lineas_md": [
+    225,
+    238
+   ],
+   "sha256_bloque": "9ecfbf9979723d5309b8fa12cb3377723d7ec80a0991386c3148d69710f0c03f",
+   "sha256_boe_articulo": "bc7dec408e69a7c7eb209432043b10e15b89817af19bed6265a5474f07b5e940",
+   "palabras_boe": 227,
+   "palabras_repo": 169,
+   "delta": -58,
+   "identico_al_boe": false,
+   "copias_cuerpo_ahora": 1,
+   "copias_cuerpo_bak": 2,
+   "ngramas8_repetidos": 0,
+   "ngramas8_top": [],
+   "frases_boe_ausentes_repo": [
+    {
+     "frase": "En el ámbito de las competencias del Estado, la facultad de dictar disposiciones interpretativas o aclaratorias de las leyes y demás normas en materia tributaria corresponde al Ministro de Hacienda y Administraciones Públicas y a los órganos de la Administración Tributaria a los que se refiere el artículo 88.5 de esta Ley."
+    },
+    {
+     "frase": "Las disposiciones interpretativas o aclaratorias dictadas por el Ministro serán de obligado cumplimiento para todos los órganos de la Administración Tributaria."
+    },
+    {
+     "frase": "Las disposiciones interpretativas o aclaratorias dictadas por los órganos de la Administración Tributaria a los que se refiere el artículo 88.5 de esta Ley tendrán efectos vinculantes para los órganos y entidades de la Administración Tributaria encargados de la aplicación de los tributos."
+    },
+    {
+     "frase": "Las disposiciones interpretativas o aclaratorias previstas en este apartado se publicarán en el boletín oficial que corresponda."
+    },
+    {
+     "frase": "Con carácter previo al dictado de las resoluciones a las que se refiere este apartado, y una vez elaborado su texto, cuando la naturaleza de las mismas lo aconseje, podrán ser sometidas a información pública."
+    }
+   ],
+   "frases_repo_sin_traza_boe": [
+    {
+     "frase": "En el ámbito de las competencias del Estado, corresponde al Ministro de Hacienda la facultad exclusiva de dictar disposiciones interpretativas de las leyes y demás normas en materia tributaria.",
+     "palabras_nuevas": [
+      "exclusiva"
+     ]
+    },
+    {
+     "frase": "Las disposiciones interpretativas serán de obligado cumplimiento para todos los órganos de la Administración tributaria y se publicarán en el boletín oficial que corresponda.",
+     "palabras_nuevas": []
+    },
+    {
+     "frase": "Los órganos de la Administración Tributaria a los que se refiere el artículo 88.5 podrán dictar criterios de aplicación interna vinculantes para los órganos y entidades de su dependencia, que se publicarán en el boletín oficial correspondiente.",
+     "palabras_nuevas": [
+      "correspondiente",
+      "criterios",
+      "dependencia",
+      "interna"
+     ]
+    },
+    {
+     "frase": "Con carácter previo a su dictado, y cuando la naturaleza de los mismos lo aconseje, podrán ser sometidos a información pública.",
+     "palabras_nuevas": [
+      "mismos",
+      "sometidos"
+     ]
+    }
+   ]
+  },
+  "a43": {
+   "lineas_md": [
+    1165,
+    1210
+   ],
+   "sha256_bloque": "37021747cc234b5d35975a534b387b53ed2366182d2fc23810862b724ed4bacc",
+   "sha256_boe_articulo": "37021747cc234b5d35975a534b387b53ed2366182d2fc23810862b724ed4bacc",
+   "palabras_boe": 1079,
+   "palabras_repo": 1079,
+   "delta": 0,
+   "identico_al_boe": true,
+   "copias_cuerpo_ahora": 1,
+   "copias_cuerpo_bak": 6,
+   "ngramas8_repetidos": 16,
+   "ngramas8_top": [
+    {
+     "frase": "los administradores de hecho o de derecho de",
+     "ocurrencias": 3,
+     "lineas": [
+      1171,
+      1173,
+      1197
+     ]
+    },
+    {
+     "frase": "administradores de hecho o de derecho de las",
+     "ocurrencias": 2,
+     "lineas": [
+      1171,
+      1197
+     ]
+    },
+    {
+     "frase": "de hecho o de derecho de las personas",
+     "ocurrencias": 2,
+     "lineas": [
+      1171,
+      1197
+     ]
+    },
+    {
+     "frase": "hecho o de derecho de las personas juridicas",
+     "ocurrencias": 2,
+     "lineas": [
+      1171,
+      1197
+     ]
+    }
+   ],
+   "frases_boe_ausentes_repo": [],
+   "frases_repo_sin_traza_boe": []
+  },
+  "a62": {
+   "lineas_md": [
+    1489,
+    1532
+   ],
+   "sha256_bloque": "daf4421cb29ad4042083f77adda481e81a293544d26ce5afb55f11c4bfaf62ed",
+   "sha256_boe_articulo": "daf4421cb29ad4042083f77adda481e81a293544d26ce5afb55f11c4bfaf62ed",
+   "palabras_boe": 813,
+   "palabras_repo": 813,
+   "delta": 0,
+   "identico_al_boe": true,
+   "copias_cuerpo_ahora": 1,
+   "copias_cuerpo_bak": 2,
+   "ngramas8_repetidos": 75,
+   "ngramas8_top": [
+    {
+     "frase": "o si este no fuera habil hasta el",
+     "ocurrencias": 7,
+     "lineas": [
+      1497,
+      1499,
+      1501,
+      1509,
+      1511,
+      1515,
+      1517
+     ]
+    },
+    {
+     "frase": "si este no fuera habil hasta el inmediato",
+     "ocurrencias": 7,
+     "lineas": [
+      1497,
+      1499,
+      1501,
+      1509,
+      1511,
+      1515,
+      1517
+     ]
+    },
+    {
+     "frase": "este no fuera habil hasta el inmediato habil",
+     "ocurrencias": 7,
+     "lineas": [
+      1497,
+      1499,
+      1501,
+      1509,
+      1511,
+      1515,
+      1517
+     ]
+    },
+    {
+     "frase": "no fuera habil hasta el inmediato habil siguiente",
+     "ocurrencias": 7,
+     "lineas": [
+      1497,
+      1499,
+      1501,
+      1509,
+      1511,
+      1515,
+      1517
+     ]
+    }
+   ],
+   "frases_boe_ausentes_repo": [],
+   "frases_repo_sin_traza_boe": []
+  },
+  "a95": {
+   "lineas_md": [
+    2613,
+    2662
+   ],
+   "sha256_bloque": "0231f26f0025c14dbf1a721227b67299566cff2c1d4d98394cbdee44e226c844",
+   "sha256_boe_articulo": "0231f26f0025c14dbf1a721227b67299566cff2c1d4d98394cbdee44e226c844",
+   "palabras_boe": 994,
+   "palabras_repo": 994,
+   "delta": 0,
+   "identico_al_boe": true,
+   "copias_cuerpo_ahora": 1,
+   "copias_cuerpo_bak": 8,
+   "ngramas8_repetidos": 4,
+   "ngramas8_top": [
+    {
+     "frase": "al mas estricto y completo sigilo respecto de",
+     "ocurrencias": 2,
+     "lineas": [
+      2651,
+      2659
+     ]
+    },
+    {
+     "frase": "mas estricto y completo sigilo respecto de ellos",
+     "ocurrencias": 2,
+     "lineas": [
+      2651,
+      2659
+     ]
+    },
+    {
+     "frase": "los retenedores y obligados a realizar ingresos a",
+     "ocurrencias": 2,
+     "lineas": [
+      2657,
+      2659
+     ]
+    },
+    {
+     "frase": "retenedores y obligados a realizar ingresos a cuenta",
+     "ocurrencias": 2,
+     "lineas": [
+      2657,
+      2659
+     ]
+    }
+   ],
+   "frases_boe_ausentes_repo": [],
+   "frases_repo_sin_traza_boe": []
+  }
  }
 }
