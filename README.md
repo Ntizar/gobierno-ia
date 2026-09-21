@@ -25,7 +25,7 @@ Cada día, automáticamente:
 
 ## Las leyes que mejoran
 
-Texto consolidado real descargado de la [API de Legislación Consolidada del BOE](https://www.boe.es/datosabiertos/):
+Texto descargado de la [API de Legislación Consolidada del BOE](https://www.boe.es/datosabiertos/) y modificado experimentalmente (ver separación en data/canonical/ para el corpus inmutable):
 
 - [`ministerios/hacienda/leyes/BOE-A-2003-23186.md`](ministerios/hacienda/leyes/BOE-A-2003-23186.md) — Ley 58/2003, General Tributaria
 - [`ministerios/sanidad/leyes/BOE-A-1986-10499.md`](ministerios/sanidad/leyes/BOE-A-1986-10499.md) — Ley 14/1986, General de Sanidad

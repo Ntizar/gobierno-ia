@@ -1,0 +1,202 @@
+[
+  {
+    "id": "GS-001",
+    "boe_id": "BOE-A-1986-10499",
+    "article_id": "atres",
+    "original_text": "1. Los medios y actuaciones del sistema sanitario estarán orientados prioritariamente a la promoción de la salud y a la prevención de las enfermedades. 2. La asistencia sanitaria pública se extenderá a toda la población española. El acceso y las prestaciones sanitarias se realizarán en condiciones de igualdad y, como regla general, con gratuidad, salvo en los supuestos establecidos por las leyes.",
+    "proposed_text": "Los medios y actuaciones del sistema sanitario estarán orientados prioritariamente a la promoción de la salud y a la prevención de las enfermedades. La asistencia sanitaria pública se extenderá a toda la población española. El acceso y las prestaciones sanitarias se realizarán en condiciones de igualdad y, como regla general, con gratuidad, salvo en los supuestos establecidos por las leyes.",
+    "expected_verdict": "violation",
+    "violation_type": "excepcion_perdida",
+    "description": "Se eliminan los prefijos numerados '1.' y '2.' que delimitan los apartados, eliminando la estructura excepcional."
+  },
+  {
+    "id": "GS-002",
+    "boe_id": "BOE-A-1986-10499",
+    "article_id": "aseis",
+    "original_text": "1. Las actuaciones de las Administraciones Públicas Sanitarias estarán orientadas: 2. A promover el interés individual, familiar y social por la salud mediante la adecuada educación sanitaria de la población. 3. A garantizar que cuantas acciones sanitarias se desarrollen estén dirigidas a la prevención de las enfermedades y no sólo a la curación de las mismas. 4. A garantizar la asistencia sanitaria en todos los casos de pérdida de la salud. 5. A promover las acciones necesarias para la rehabilitación funcional y reinserción social del paciente. 2. En la ejecución de lo previsto en el apartado anterior, las Administraciones públicas sanitarias asegurarán la integración del principio de igualdad entre mujeres y hombres, garantizando su igual derecho a la salud.",
+    "proposed_text": "Las actuaciones de las Administraciones Públicas Sanitarias estarán orientadas a promover el interés individual, familiar y social por la salud mediante la adecuada educación sanitaria de la población. A garantizar que cuantas acciones sanitarias se desarrollen estén dirigidas a la prevención de las enfermedades y no sólo a la curación de las mismas. A garantizar la asistencia sanitaria en todos los casos de pérdida de la salud. A promover las acciones necesarias para la rehabilitación funcional y reinserción social del paciente.",
+    "expected_verdict": "violation",
+    "violation_type": "excepcion_perdida",
+    "description": "art.6 LGS: se eliminan prefijos '1.', '2.', '3.', '4.', '5.' y se pierde el apartado 2 sobre igualdad mujeres-hombres."
+  },
+  {
+    "id": "GS-003",
+    "boe_id": "BOE-A-1986-10499",
+    "article_id": "adieciseis",
+    "original_text": "Las normas de utilización de los servicios sanitarios serán iguales para todos, independientemente de la condición en que se acceda a los mismos. En consecuencia, los usuarios sin derecho a la asistencia de los Servicios de Salud, así como los previstos en el artículo 80, podrán acceder a los servicios sanitarios con la consideración de pacientes privados, de acuerdo con los siguientes criterios: 2. El ingreso en centros hospitalarios se efectuará a través de la unidad de admisión del hospital, por medio de una lista de espera única, por lo que no existirá un sistema de acceso y hospitalización diferenciado según la condición del paciente.",
+    "proposed_text": "Las normas de utilización de los servicios sanitarios serán iguales para todos, independientemente de la condición en que se acceda a los mismos. Los usuarios sin derecho a la asistencia de los Servicios de Salud podrán acceder a los servicios sanitarios con la consideración de pacientes privados, de acuerdo con los siguientes criterios. El ingreso en centros hospitalarios se efectuará a través de la unidad de admisión del hospital, por medio de una lista de espera única, por lo que no existirá un sistema de acceso y hospitalización diferenciado según la condición del paciente.",
+    "expected_verdict": "violation",
+    "violation_type": "excepcion_perdida",
+    "description": "art.16 LGS: se eliminan prefijos '2.' y se pierde la referencia al artículo 80."
+  },
+  {
+    "id": "GS-004",
+    "boe_id": "BOE-A-2003-23186",
+    "article_id": "a12",
+    "original_text": "1. Las normas tributarias se interpretarán con arreglo a lo dispuesto en el apartado 1 del artículo 3 del Código Civil. 2. En tanto no se definan por la normativa tributaria, los términos empleados en sus normas se entenderán conforme a su sentido jurídico, técnico o usual, según proceda. 3. En el ámbito de la interpretación de las normas tributarias no procederá en ningún caso la aplicación analógica para extender más allá de los supuestos expresamente comprendidos en cada tributo.",
+    "proposed_text": "Las normas tributarias se interpretarán con arreglo a lo dispuesto en el apartado 1 del artículo 3 del Código Civil. En tanto no se definan por la normativa tributaria, los términos empleados en sus normas se entenderán conforme a su sentido jurídico, técnico o usual, según proceda. En el ámbito de la interpretación de las normas tributarias no procederá en ningún caso la aplicación analógica para extender más allá de los supuestos expresamente comprendidos en cada tributo.",
+    "expected_verdict": "violation",
+    "violation_type": "excepcion_perdida",
+    "description": "art.12 LGT: se eliminan prefijos '1.', '2.', '3.' eliminando la estructura excepcional de los apartados."
+  },
+  {
+    "id": "GS-005",
+    "boe_id": "BOE-A-2021-8447",
+    "article_id": "a4",
+    "original_text": "1. El Plan Nacional Integrado de Energía y Clima (PNIEC) es la herramienta de planificación estratégica nacional que integra la política de energía y clima, y refleja la contribución de España a la consecución de los objetivos establecidos en el seno de la Unión Europea en materia de energía y clima. 2. El PNIEC establecerá la hoja de ruta para alcanzar los objetivos de reducción de emisiones de gases de efecto invernadero, energías renovables y eficiencia energética previstos en esta ley.",
+    "proposed_text": "El Plan Nacional Integrado de Energía y Clima (PNIEC) es la herramienta de planificación estratégica nacional que integra la política de energía y clima, y refleja la contribución de España a la consecución de los objetivos establecidos en el seno de la Unión Europea en materia de energía y clima. El PNIEC establecerá la hoja de ruta para alcanzar los objetivos de reducción de emisiones de gases de efecto invernadero, energías renovables y eficiencia energética previstos en esta ley.",
+    "expected_verdict": "violation",
+    "violation_type": "excepcion_perdida",
+    "description": "art.4 L7: se eliminan prefijos '1.' y '2.' eliminando la estructura excepcional."
+  },
+  {
+    "id": "GS-006",
+    "boe_id": "BOE-A-1986-10499",
+    "article_id": "atres",
+    "original_text": "1. Los medios y actuaciones del sistema sanitario estarán orientados prioritariamente a la promoción de la salud y a la prevención de las enfermedades. 2. La asistencia sanitaria pública se extenderá a toda la población española. El acceso y las prestaciones sanitarias se realizarán en condiciones de igualdad y, como regla general, con gratuidad, salvo en los supuestos establecidos por las leyes.",
+    "proposed_text": "1. Los medios y actuaciones del sistema sanitario estarán orientados prioritariamente a la promoción de la salud y a la prevención de las enfermedades. 2. La asistencia sanitaria pública se extenderá a todos los residentes en territorio nacional. El acceso y las prestaciones sanitarias se realizarán en condiciones de igualdad y, como regla general, con gratuidad, salvo en los supuestos establecidos por las leyes.",
+    "expected_verdict": "violation",
+    "violation_type": "sujeto_obligado_alterado",
+    "description": "art.3 LGS: se cambia 'toda la población española' por 'todos los residentes en territorio nacional', alterando el sujeto obligado (población española incluye emigrados)."
+  },
+  {
+    "id": "GS-007",
+    "boe_id": "BOE-A-1986-10499",
+    "article_id": "aveinte",
+    "original_text": "Sobre la base de la plena integración de las actuaciones relativas a la salud mental en el sistema sanitario general y de la total equiparación del enfermo mental a las demás personas quePrecisos recursos asistenciales a nivel ambulatorio y los sistemas de hospitalización parcial y atención a domicilio, que Articulados a través de los centros de salud mental, asegurarán la continuidad asistencial del enfermo mental y evitarán su institucionalización.",
+    "proposed_text": "Sobre la base de la plena integración de las actuaciones relativas a la salud mental en el sistema sanitario general y de la total equiparación del enfermo mental a las demás personas quePrecisos recursos asistenciales a nivel ambulatorio y los sistemas de hospitalización parcial y atención a domicilio, que Articulados a través de los centros de salud mental, asegurarán la continuidad asistencial del enfermo mental y evitarán su institucionalización. Estas actuaciones serán gestionadas por las Comunidades Autónomas.",
+    "expected_verdict": "violation",
+    "violation_type": "sujeto_obligado_alterado",
+    "description": "art.20 LGS: se añade frase que atribuye gestión a las Comunidades Autónomas, alterando el sujeto obligado implícito."
+  },
+  {
+    "id": "GS-008",
+    "boe_id": "BOE-A-2003-23186",
+    "article_id": "a43",
+    "original_text": "1. Serán responsables subsidiarios de la deuda tributaria las siguientes personas o entidades: b) Los administradores de hecho o de derecho de aquellas personas jurídicas que hayan cesado en sus actividades, por las obligaciones tributarias devengadas de éstas que se encuentren pendientes en el momento del cese.",
+    "proposed_text": "1. Serán responsables subsidiarios de la deuda tributaria las siguientes personas o entidades: b) Los administradores de derecho de aquellas personas jurídicas que hayan cesado en sus actividades, por las obligaciones tributarias devengadas de éstas que se encuentren pendientes en el momento del cese.",
+    "expected_verdict": "violation",
+    "violation_type": "sujeto_obligado_alterado",
+    "description": "art.43 LGT: se elimina 'de hecho o' del literal, restringiendo la responsabilidad a administradores de derecho exclusivamente."
+  },
+  {
+    "id": "GS-009",
+    "boe_id": "BOE-A-1986-10499",
+    "article_id": "aseis",
+    "original_text": "1. Las actuaciones de las Administraciones Públicas Sanitarias estarán orientadas: 2. A promover el interés individual, familiar y social por la salud mediante la adecuada educación sanitaria de la población. 3. A garantizar que cuantas acciones sanitarias se desarrollen estén dirigidas a la prevención de las enfermedades y no sólo a la curación de las mismas. 4. A garantizar la asistencia sanitaria en todos los casos de pérdida de la salud. 5. A promover las acciones necesarias para la rehabilitación funcional y reinserción social del paciente. 2. En la ejecución de lo previsto en el apartado anterior, las Administraciones públicas sanitarias asegurarán la integración del principio de igualdad entre mujeres y hombres, garantizando su igual derecho a la salud.",
+    "proposed_text": "1. Las actuaciones de las Administraciones Públicas Sanitarias estarán orientadas: 2. A promover el interés individual, familiar y social por la salud mediante la adecuada educación sanitaria de la población. 3. A garantizar que cuantas acciones sanitarias se desarrollen estén dirigidas a la prevención de las enfermedades y no sólo a la curación de las mismas. 4. A garantizar la asistencia sanitaria en todos los casos de pérdida de la salud. 2. En la ejecución de lo previsto en el apartado anterior, las Administraciones públicas sanitarias asegurarán la integración del principio de igualdad entre mujeres y hombres, garantizando su igual derecho a la salud.",
+    "expected_verdict": "violation",
+    "violation_type": "sujeto_obligado_alterado",
+    "description": "art.6 LGS: se elimina el apartado 5 sobre rehabilitación funcional, modificando las obligaciones del sistema sanitario."
+  },
+  {
+    "id": "GS-010",
+    "boe_id": "BOE-A-2021-8447",
+    "article_id": "a1",
+    "original_text": "Esta ley tiene por objeto asegurar el cumplimiento, por parte de España, de los objetivos del Acuerdo de París, adoptado el 12 de diciembre de 2015, firmado por España el 22 de abril de 2016 y publicado en el «Boletín Oficial del Estado» el 2 de febrero de 2017; facilitar la descarbonización de la economía española en consonancia con el pacto verde europeo y la Estrategia a largo plazo para la reducción de emisiones de gases de efecto invernadero de España.",
+    "proposed_text": "Esta ley tiene por objeto asegurar el cumplimiento, por parte de España, de los objetivos del Acuerdo de París, adoptado el 12 de diciembre de 2015, firmado por España el 22 de abril de 2016 y publicado en el «Boletín Oficial del Estado» el 2 de febrero de 2017; facilitar la descarbonización de la economía española en consonancia con el pacto verde europeo y la Estrategia a largo plazo para la reducción de emisiones de gases de efecto invernadero de España. La Administración General del Estado será la encargada de coordinar las actuaciones.",
+    "expected_verdict": "violation",
+    "violation_type": "sujeto_obligado_alterado",
+    "description": "art.1 L7: se añade frase que atribuye la coordinación a la AGE, alterando el sujeto obligado."
+  },
+  {
+    "id": "GS-011",
+    "boe_id": "BOE-A-2003-23186",
+    "article_id": "a62",
+    "original_text": "1. Las deudas tributarias resultantes de una autoliquidación deberán pagarse en los plazos que establezca la normativa de cada tributo. 2. En el caso de deudas tributarias resultantes de liquidaciones practicadas por la Administración, el pago en período voluntario deberá hacerse en los siguientes plazos: a) Si la notificación de la liquidación se realiza entre los días 1 y 15 de cada mes, dentro de los veinte primeros días naturales siguientes a la notificación. b) Si la notificación se realiza entre los días 16 y último de cada mes, dentro de los veinte primeros días naturales del mes siguiente.",
+    "proposed_text": "1. Las deudas tributarias resultantes de una autoliquidación deberán pagarse en los plazos que establezca la normativa de cada tributo. 2. En el caso de deudas tributarias resultantes de liquidaciones practicadas por la Administración, el pago en período voluntario deberá hacerse en los siguientes plazos: a) Si la notificación de la liquidación se realiza entre los días 1 y 15 de cada mes, dentro de los quince primeros días naturales siguientes a la notificación. b) Si la notificación se realiza entre los días 16 y último de cada mes, dentro de los quince primeros días naturales del mes siguiente.",
+    "expected_verdict": "violation",
+    "violation_type": "plazo_alterado",
+    "description": "art.62 LGT: se cambia 'veinte' por 'quince' días en los plazos de pago en período voluntario."
+  },
+  {
+    "id": "GS-012",
+    "boe_id": "BOE-A-2003-23186",
+    "article_id": "a62",
+    "original_text": "1. Las deudas tributarias resultantes de una autoliquidación deberán pagarse en los plazos que establezca la normativa de cada tributo. 2. En el caso de deudas tributarias resultantes de liquidaciones practicadas por la Administración, el pago en período voluntario deberá hacerse en los siguientes plazos: a) Si la notificación de la liquidación se realiza entre los días 1 y 15 de cada mes, dentro de los veinte primeros días naturales siguientes a la notificación. b) Si la notificación se realiza entre los días 16 y último de cada mes, dentro de los veinte primeros días naturales del mes siguiente.",
+    "proposed_text": "1. Las deudas tributarias resultantes de una autoliquidación deberán pagarse en los plazos que establezca la normativa de cada tributo. 2. En el caso de deudas tributarias resultantes de liquidaciones practicadas por la Administración, el pago en período voluntario deberá hacerse en los siguientes plazos: a) Si la notificación de la liquidación se realiza entre los días 1 y 15 de cada mes, dentro de los treinta primeros días naturales siguientes a la notificación. b) Si la notificación se realiza entre los días 16 y último de cada mes, dentro de los treinta primeros días naturales del mes siguiente.",
+    "expected_verdict": "violation",
+    "violation_type": "plazo_alterado",
+    "description": "art.62 LGT: se cambia 'veinte' por 'treinta' días, ampliando el plazo de pago."
+  },
+  {
+    "id": "GS-013",
+    "boe_id": "BOE-A-2003-23186",
+    "article_id": "a12",
+    "original_text": "1. Las normas tributarias se interpretarán con arreglo a lo dispuesto en el apartado 1 del artículo 3 del Código Civil. 2. En tanto no se definan por la normativa tributaria, los términos empleados en sus normas se entenderán conforme a su sentido jurídico, técnico o usual, según proceda. 3. En el ámbito de la interpretación de las normas tributarias no procederá en ningún caso la aplicación analógica para extender más allá de los supuestos expresamente comprendidos en cada tributo.",
+    "proposed_text": "1. Las normas tributarias se interpretarán con arreglo a lo dispuesto en el apartado 1 del artículo 3 del Código Civil. 2. En tanto no se definan por la normativa tributaria, los términos empleados en sus normas se entenderán conforme a su sentido jurídico, técnico o usual, según proceda. 3. En el ámbito de la interpretación de las normas tributarias no procederá en ningún caso la aplicación analógica para extender más allá de los supuestos expresamente comprendidos en cada tributo.",
+    "expected_verdict": "ok",
+    "violation_type": "plazo_alterado",
+    "description": "art.12 LGT: caso sin cambio (control). El plazo 'dentro del mes siguiente' no se modifica."
+  },
+  {
+    "id": "GS-014",
+    "boe_id": "BOE-A-1986-10499",
+    "article_id": "adieciseis",
+    "original_text": "Las normas de utilización de los servicios sanitarios serán iguales para todos, independientemente de la condición en que se acceda a los mismos. En consecuencia, los usuarios sin derecho a la asistencia de los Servicios de Salud, así como los previstos en el artículo 80, podrán acceder a los servicios sanitarios con la consideración de pacientes privados, de acuerdo con los siguientes criterios: 2. El ingreso en centros hospitalarios se efectuará a través de la unidad de admisión del hospital, por medio de una lista de espera única, por lo que no existirá un sistema de acceso y hospitalización diferenciado según la condición del paciente. 3. La facturación por la atención de estos pacientes será efectuada por las respectivas, administraciones de los Centros, tomando como base los costes efectivos. Estos ingresos tendrán la condición de propios de los Servicios de Salud. En ningún caso estos ingresos podrán revertir directamente en aquellos que intervienen en la atención de estos pacientes.",
+    "proposed_text": "Las normas de utilización de los servicios sanitarios serán iguales para todos, independientemente de la condición en que se acceda a los mismos. En consecuencia, los usuarios sin derecho a la asistencia de los Servicios de Salud podrán acceder a los servicios sanitarios con la consideración de pacientes privados, de acuerdo con los siguientes criterios: 2. El ingreso en centros hospitalarios se efectuará a través de la unidad de admisión del hospital, por medio de una lista de espera única, por lo que no existirá un sistema de acceso y hospitalización diferenciado según la condición del paciente. 3. La facturación por la atención de estos pacientes será efectuada por las respectivas, administraciones de los Centros, tomando como base los costes efectivos. Estos ingresos tendrán la condición de propios de los Servicios de Salud. En ningún caso estos ingresos podrán revertir directamente en aquellos que intervienen en la atención de estos pacientes.",
+    "expected_verdict": "violation",
+    "violation_type": "remision_rota",
+    "description": "art.16 LGS: se elimina la remisión al 'artículo 80', rompiendo la referencia legislativa."
+  },
+  {
+    "id": "GS-015",
+    "boe_id": "BOE-A-2003-23186",
+    "article_id": "a12",
+    "original_text": "1. Las normas tributarias se interpretarán con arreglo a lo dispuesto en el apartado 1 del artículo 3 del Código Civil. 2. En tanto no se definan por la normativa tributaria, los términos empleados en sus normas se entenderán conforme a su sentido jurídico, técnico o usual, según proceda. 3. En el ámbito de la interpretación de las normas tributarias no procederá en ningún caso la aplicación analógica para extender más allá de los supuestos expresamente comprendidos en cada tributo.",
+    "proposed_text": "1. Las normas tributarias se interpretarán con arreglo a lo dispuesto en el apartado 1 del Código Civil. 2. En tanto no se definan por la normativa tributaria, los términos empleados en sus normas se entenderán conforme a su sentido jurídico, técnico o usual, según proceda. 3. En el ámbito de la interpretación de las normas tributarias no procederá en ningún caso la aplicación analógica para extender más allá de los supuestos expresamente comprendidos en cada tributo.",
+    "expected_verdict": "violation",
+    "violation_type": "remision_rota",
+    "description": "art.12 LGT: se elimina la referencia al 'artículo 3' del Código Civil, rompiendo la remisión normativa."
+  },
+  {
+    "id": "GS-016",
+    "boe_id": "BOE-A-1986-10499",
+    "article_id": "atres",
+    "original_text": "1. Los medios y actuaciones del sistema sanitario estarán orientados prioritariamente a la promoción de la salud y a la prevención de las enfermedades. 2. La asistencia sanitaria pública se extenderá a toda la población española. El acceso y las prestaciones sanitarias se realizarán en condiciones de igualdad y, como regla general, con gratuidad, salvo en los supuestos establecidos por las leyes.",
+    "proposed_text": "1. Los medios y actuaciones del sistema sanitario estarán orientados prioritariamente a la promoción de la salud y a la prevención de las enfermedades. 2. La asistencia sanitaria pública se extenderá a toda la población española. El acceso y las prestaciones sanitarias se realizarán en condiciones de igualdad y, como regla general, con gratuidad, salvo en los supuestos establecidos por las leyes.",
+    "expected_verdict": "ok",
+    "violation_type": "remision_rota",
+    "description": "art.3 LGS: caso sin cambio (control). No se altera ninguna remisión."
+  },
+  {
+    "id": "GS-017",
+    "boe_id": "BOE-A-2003-23186",
+    "article_id": "a43",
+    "original_text": "1. Serán responsables subsidiarios de la deuda tributaria las siguientes personas o entidades: b) Los administradores de hecho o de derecho de aquellas personas jurídicas que hayan cesado en sus actividades, por las obligaciones tributarias devengadas de éstas que se encuentren pendientes en el momento del cese.",
+    "proposed_text": "1. Serán responsables subsidiarios de la deuda tributaria las siguientes personas o entidades: b) Los administradores de hecho o de derecho de aquellas personas jurídicas que hayan cesado en sus actividades, por las obligaciones tributarias devengadas de éstas que se encuentren pendientes en el momento del cese. En todo caso, la responsabilidad se limitará al valor neto de los bienes y derechos inventariados.",
+    "expected_verdict": "violation",
+    "violation_type": "carga_probatoria_modificada",
+    "description": "art.43 LGT: se añade frase que limita la responsabilidad al valor neto inventariado, modificando la carga probatoria del responsable."
+  },
+  {
+    "id": "GS-018",
+    "boe_id": "BOE-A-1986-10499",
+    "article_id": "aseis",
+    "original_text": "1. Las actuaciones de las Administraciones Públicas Sanitarias estarán orientadas: 2. A promover el interés individual, familiar y social por la salud mediante la adecuada educación sanitaria de la población. 3. A garantizar que cuantas acciones sanitarias se desarrollen estén dirigidas a la prevención de las enfermedades y no sólo a la curación de las mismas. 4. A garantizar la asistencia sanitaria en todos los casos de pérdida de la salud. 5. A promover las acciones necesarias para la rehabilitación funcional y reinserción social del paciente. 2. En la ejecución de lo previsto en el apartado anterior, las Administraciones públicas sanitarias asegurarán la integración del principio de igualdad entre mujeres y hombres, garantizando su igual derecho a la salud.",
+    "proposed_text": "1. Las actuaciones de las Administraciones Públicas Sanitarias estarán orientadas: 2. A promover el interés individual, familiar y social por la salud mediante la adecuada educación sanitaria de la población. 3. A garantizar que cuantas acciones sanitarias se desarrollen estén dirigidas a la prevención de las enfermedades y no sólo a la curación de las mismas. 4. A garantizar la asistencia sanitaria en todos los casos de pérdida de la salud. 5. A promover las acciones necesarias para la rehabilitación funcional y reinserción social del paciente. 2. En la ejecución de lo previsto en el apartado anterior, las Administraciones públicas sanitarias asegurarán la integración del principio de igualdad entre mujeres y hombres, garantizando su igual derecho a la salud. La Administración probará el cumplimiento de este principio.",
+    "expected_verdict": "violation",
+    "violation_type": "carga_probatoria_modificada",
+    "description": "art.6 LGS: se añade frase que impone la carga de la prueba a la Administración, alterando la distribución de la carga probatoria."
+  },
+  {
+    "id": "GS-019",
+    "boe_id": "BOE-A-2021-8447",
+    "article_id": "a1",
+    "original_text": "Esta ley tiene por objeto asegurar el cumplimiento, por parte de España, de los objetivos del Acuerdo de París, adoptado el 12 de diciembre de 2015, firmado por España el 22 de abril de 2016 y publicado en el «Boletín Oficial del Estado» el 2 de febrero de 2017; facilitar la descarbonización de la economía española en consonancia con el pacto verde europeo y la Estrategia a largo plazo para la reducción de emisiones de gases de efecto invernadero de España.",
+    "proposed_text": "Esta ley tiene por objeto asegurar el cumplimiento, por parte de España, de los objetivos del Acuerdo de París, adoptado el 12 de diciembre de 2015, firmado por España el 22 de abril de 2016 y publicado en el «Boletín Oficial del Estado» el 2 de febrero de 2017; facilitar la descarbonización de la economía española en consonancia con el pacto verde europeo y la Estrategia a largo plazo para la reducción de emisiones de gases de efecto invernadero de España. El incumplimiento de los objetivos establecidos será sancionado administrativamente.",
+    "expected_verdict": "violation",
+    "violation_type": "carga_probatoria_modificada",
+    "description": "art.1 L7: se añade frase que introduce sanción administrativa por incumplimiento, modificando el régimen de responsabilidad."
+  },
+  {
+    "id": "GS-020",
+    "boe_id": "BOE-A-2003-23186",
+    "article_id": "a12",
+    "original_text": "1. Las normas tributarias se interpretarán con arreglo a lo dispuesto en el apartado 1 del artículo 3 del Código Civil. 2. En tanto no se definan por la normativa tributaria, los términos empleados en sus normas se entenderán conforme a su sentido jurídico, técnico o usual, según proceda. 3. En el ámbito de la interpretación de las normas tributarias no procederá en ningún caso la aplicación analógica para extender más allá de los supuestos expresamente comprendidos en cada tributo.",
+    "proposed_text": "1. Las normas tributarias se interpretarán con arreglo a lo dispuesto en el apartado 1 del artículo 3 del Código Civil. 2. En tanto no se definan por la normativa tributaria, los términos empleados en sus normas se entenderán conforme a su sentido jurídico, técnico o usual, según proceda. 3. En el ámbito de la interpretación de las normas tributarias no procederá en ningún caso la aplicación analógica para extender más allá de los supuestos expresamente comprendidos en cada tributo. El Tribunal Supremo será competente para dirimir las cuestiones interpretativas.",
+    "expected_verdict": "violation",
+    "violation_type": "remision_rota",
+    "description": "art.12 LGT: se añade frase que atribuye competencia al TS, alterando el régimen interpretativo."
+  }
+]

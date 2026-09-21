@@ -3,7 +3,7 @@
 Reglas supremas. Ningún agente puede violarlas.
 
 ## 1. Fuente única de verdad
-- Las leyes viven en `ministerios/<ministerio>/leyes/*.md`, con texto **oficial del BOE** (Legislación Consolidada, descargada vía API oficial).
+- Las leyes viven en `ministerios/<ministerio>/leyes/*.md`, con texto descargado del BOE y modificado experimentalmente. La fuente canónica inmutable está en `data/raw/boe/` y `data/canonical/`.
 - Toda propuesta de modificación debe citar **identificador BOE + bloque (artículo)** exacto del fichero fuente.
 - **Prohibido inventar o citar leyes que no estén en el repo.** Propuesta sin referencia verificable → rechazada.
 

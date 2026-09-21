@@ -1,0 +1,40 @@
+{
+  "fecha": "2026-09-21T18:17:26.749476",
+  "verificadores": {
+    "scan_duplicacion": {
+      "comando": "python scripts/scan_duplicacion.py",
+      "exit_code": 0,
+      "stdout_length": 2637,
+      "stderr": "",
+      "resultado_primera_linea": "{"
+    },
+    "diag_deuda": {
+      "comando": "python scripts/diag_deuda.py",
+      "exit_code": 0,
+      "stdout_length": 2697,
+      "stderr": "",
+      "resultado_primera_linea": "{"
+    },
+    "verifica_diffs_s13": {
+      "comando": "python scripts/verifica_diffs_s13.py",
+      "exit_code": 0,
+      "stdout_length": 4336,
+      "stderr": "",
+      "resultado_primera_linea": "{"
+    },
+    "audit_crons": {
+      "comando": "python scripts/audit_crons.py",
+      "exit_code": 0,
+      "stdout_length": 2924,
+      "stderr": "",
+      "resultado_primera_linea": "total jobs: 16"
+    },
+    "parche_crons_ejecucion": {
+      "comando": "python scripts/parche_crons_ejecucion.py",
+      "exit_code": 0,
+      "stdout_length": 94,
+      "stderr": "",
+      "resultado_primera_linea": "7f86939758e2 | YA TIENE LA REGLA (sin cambios)"
+    }
+  }
+}

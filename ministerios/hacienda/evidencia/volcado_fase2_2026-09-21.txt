@@ -1,0 +1,213 @@
+##########################################################################################
+[a93] — PÁRRAFOS DEL BOE FALTANTES EN EL BLOQUE DEL REPO
+[FALTA] a) Los retenedores y los obligados a realizar ingresos a cuenta deberán presentar relaciones de los pagos dinerarios o en especie realizados a otras personas o entidades.
+[FALTA] 2. Las obligaciones a las que se refiere el apartado anterior deberán cumplirse con carácter general en la forma y plazos que reglamentariamente se determinen, o mediante requerimiento individualizado de la Administración tributaria que podrá efectuarse en cualquier momento posterior a la realización de las operaciones relacionadas con los datos o antecedentes requeridos.
+[FALTA] a) El secreto del contenido de la correspondencia.
+[FALTA] 5. La obligación de los demás profesionales de facilitar información con trascendencia tributaria a la Administración tributaria no alcanzará a los datos privados no patrimoniales que conozcan por razón del ejercicio de su actividad cuya revelación atente contra el honor o la intimidad personal y familiar. Tampoco alcanzará a aquellos datos confidenciales de sus clientes de los que tengan conocimiento como consecuencia de la prestación de servicios profesionales de asesoramiento o defensa.
+[FALTA] Se añade la letra e) al apartado 1 por el art. único.1 de la Ley 13/2023, de 24 de mayo.
+[FALTA] Ref. BOE-A-2023-12204
+[FALTA] Se añade la letra d) al apartado 1 por la disposición final 1 de la Ley 5/2021, de 12 de abril.
+[FALTA] Ref. BOE-A-2021-5773
+[FALTA] Subir
+[FALTA] [Bloque 134: #a94]
+
+==========================================================================================
+[a93] — CUERPO ACTUAL DEL REPO
+
+
+Artículo 93. Obligaciones de información.
+
+Artículo 93. Obligaciones de información.
+
+Artículo 93. Obligaciones de información.
+
+1. Las personas físicas o jurídicas, públicas o privadas, así como las entidades mencionadas en el apartado 4 del artículo 35 de esta ley, estarán obligadas a proporcionar a la Administración tributaria toda clase de datos, informes, antecedentes y justificantes con trascendencia tributaria relacionados con el cumplimiento de sus propias obligaciones tributarias o deducidos de sus relaciones económicas, profesionales o financieras con otras personas.
+
+En particular:
+
+b) Las sociedades, asociaciones, colegios profesionales u otras entidades que, entre sus funciones, realicen la de cobro de honorarios profesionales o de derechos derivados de la propiedad intelectual, industrial, de autor u otros por cuenta de sus socios, asociados o colegiados, deberán comunicar estos datos a la Administración tributaria.
+
+A la misma obligación quedarán sujetas aquellas personas o entidades, incluidas las bancarias, crediticias o de mediación financiera en general que, legal, estatutaria o habitualmente, realicen la gestión o intervención en el cobro de honorarios profesionales o en el de comisiones, por las actividades de captación, colocación, cesión o mediación en el mercado de capitales.
+
+c) Las personas o entidades depositarias de dinero en efectivo o en cuentas, valores u otros bienes de deudores a la Administración tributaria en período ejecutivo estarán obligadas a informar a los órganos de recaudación y a cumplir los requerimientos efectuados por los mismos en el ejercicio de sus funciones.
+
+3. El incumplimiento de las obligaciones establecidas en este artículo no podrá ampararse en el secreto bancario.
+
+Los requerimientos individualizados relativos a los movimientos de cuentas corrientes, depósitos de ahorro y a plazo, cuentas de préstamos y créditos y demás operaciones activas y pasivas, incluidas las que se reflejen en cuentas transitorias o se materialicen en la emisión de cheques u otras órdenes de pago, de los bancos, cajas de ahorro, cooperativas de crédito y cuantas entidades se dediquen al tráfico bancario o crediticio, podrán efectuarse en el ejercicio de las funciones de inspección o recaudación, previa autorización del órgano de la Administración tributaria que reglamentariamente se determine.
+
+Los requerimientos individualizados deberán precisar los datos identificativos del cheque u orden de pago de que se trate, o bien las operaciones objeto de investigación, los obligados tributarios afectados, titulares o autorizados, y el período de tiempo al que se refieren.
+
+La investigación realizada según lo dispuesto en este apartado podrá afectar al origen y destino de los movimientos o de los cheques u otras órdenes de pago, si bien en estos casos no podrá exceder de la identificación de las personas y de las cuentas en las que se encuentre dicho origen y destino.
+
+4. Los funcionarios públicos, incluidos los profesionales oficiales, estarán obligados a colaborar con la Administración tributaria suministrando toda clase de información con trascendencia tributaria de la que dispongan, salvo que sea aplicable:
+
+b) El secreto de los datos que se hayan suministrado a la Administración para una finalidad exclusivamente estadística.
+
+c) El secreto del protocolo notarial, que abarcará los instrumentos públicos a los que se refieren los artículos 34 y 35 de la Ley de 28 de mayo de 1862, del Notariado, y los relativos a cuestiones matrimoniales, con excepción de los referentes al régimen económico de la sociedad conyugal.
+
+Los profesionales no podrán invocar el secreto profesional para impedir la comprobación de su propia situación tributaria.
+
+1. Las personas físicas o jurídicas, públicas o privadas, así como las entidades mencionadas en el apartado 4 del artículo 35 de esta ley, estarán obligadas a proporcionar a la Administración tributaria toda clase de datos, informes, antecedentes y justificantes con trascendencia tributaria relacionados con el cumplimiento de sus propias obligaciones tributarias o deducidos de sus relaciones económicas, profesionales o financieras con otras personas.
+
+En particular:
+
+b) Las sociedades, asociaciones, colegios profesionales u otras entidades que, entre sus funciones, realicen la de cobro de honorarios profesionales o de derechos derivados de la propiedad intelectual, industrial, de autor u otros por cuenta de sus socios, asociados o colegiados, deberán comunicar estos datos a la Administración tributaria.
+
+A la misma obligación quedarán sujetas aquellas personas o entidades, incluidas las bancarias, crediticias o de mediación financiera en general que, legal, estatutaria o habitualmente, realicen la gestión o intervención en el cobro de honorarios profesionales o en el de comisiones, por las actividades de captación, colocación, cesión o mediación en el mercado de capitales.
+
+c) Las personas o entidades depositarias de dinero en efectivo o en cuentas, valores u otros bienes de deudores a la Administración tributaria en período ejecutivo estarán obligadas a informar a los órganos de recaudación y a cumplir los requerimientos efectuados por los mismos en el ejercicio de sus funciones.
+
+d) Las personas y entidades que, por aplicación de la normativa vigente, conocieran o estuvieran en disposición de conocer la identificación de los beneficiarios últimos de las acciones deberán cumplir ante la Administración tributaria con los requerimientos u obligaciones de información que reglamentariamente se establezcan respecto a dicha identificación.
+
+3. El incumplimiento de las obligaciones establecidas en este artículo no podrá ampararse en el secreto bancario.
+
+Los requerimientos individualizados relativos a los movimientos de cuentas corrientes, depósitos de ahorro y a plazo, cuentas de préstamos y créditos y demás operaciones activas y pasivas, incluidas las que se reflejen en cuentas transitorias o se materialicen en la emisión de cheques u otras órdenes de pago, de los bancos, cajas de ahorro, cooperativas de crédito y cuantas entidades se dediquen al tráfico bancario o crediticio, podrán efectuarse en el ejercicio de las funciones de inspección o recaudación, previa autorización del órgano de la Administración tributaria que reglamentariamente se determine.
+
+Los requerimientos individualizados deberán precisar los datos identificativos del cheque u orden de pago de que se trate, o bien las operaciones objeto de investigación, los obligados tributarios afectados, titulares o autorizados, y el período de tiempo al que se refieren.
+
+La investigación realizada según lo dispuesto en este apartado podrá afectar al origen y destino de los movimientos o de los cheques u otras órdenes de pago, si bien en estos casos no podrá exceder de la identificación de las personas y de las cuentas en las que se encuentre dicho origen y destino.
+
+4. Los funcionarios públicos, incluidos los profesionales oficiales, estarán obligados a colaborar con la Administración tributaria suministrando toda clase de información con trascendencia tributaria de la que dispongan, salvo que sea aplicable:
+
+b) El secreto de los datos que se hayan suministrado a la Administración para una finalidad exclusivamente estadística.
+
+c) El secreto del protocolo notarial, que abarcará los instrumentos públicos a los que se refieren los artículos 34 y 35 de la Ley de 28 de mayo de 1862, del Notariado, y los relativos a cuestiones matrimoniales, con excepción de los referentes al régimen económico de la sociedad conyugal.
+
+Los profesionales no podrán invocar el secreto profesional para impedir la comprobación de su propia situación tributaria.
+
+1. Las personas físicas o jurídicas, públicas o privadas, así como las entidades mencionadas en el apartado 4 del artículo 35 de esta ley, estarán obligadas a proporcionar a la Administración tributaria toda clase de datos, informes, antecedentes y justificantes con trascendencia tributaria relacionados con el cumplimiento de sus propias obligaciones tributarias o deducidos de sus relaciones económicas, profesionales o financieras con otras personas.
+
+En particular:
+
+b) Las sociedades, asociaciones, colegios profesionales u otras entidades que, entre sus funciones, realicen la de cobro de honorarios profesionales o de derechos derivados de la propiedad intelectual, industrial, de autor u otros por cuenta de sus socios, asociados o colegiados, deberán comunicar estos datos a la Administración tributaria.
+
+A la misma obligación quedarán sujetas aquellas personas o entidades, incluidas las bancarias, crediticias o de mediación financiera en general que, legal, estatutaria o habitualmente, realicen la gestión o intervención en el cobro de honorarios profesionales o en el de comisiones, por las actividades de captación, colocación, cesión o mediación en el mercado de capitales.
+
+c) Las personas o entidades depositarias de dinero en efectivo o en cuentas, valores u otros bienes de deudores a la Administración tributaria en período ejecutivo estarán obligadas a informar a los órganos de recaudación y a cumplir los requerimientos efectuados por los mismos en el ejercicio de sus funciones.
+
+d) Las personas y entidades que, por aplicación de la normativa vigente, conocieran o estuvieran en disposición de conocer la identificación de los beneficiarios últimos de las acciones deberán cumplir ante la Administración tributaria con los requerimientos u obligaciones de información que reglamentariamente se establezcan respecto a dicha identificación.
+
+e) Las personas jurídicas o entidades deberán comunicar a la Administración tributaria la identificación de los titulares reales de las mismas. A tal efecto, tendrán la consideración de titulares reales los definidos conforme al apartado 2 del artículo 4 de la Ley 10/2010, de 28 de abril, de prevención del blanqueo de capitales y de la financiación del terrorismo.
+
+3. El incumplimiento de las obligaciones establecidas en este artículo no podrá ampararse en el secreto bancario.
+
+Los requerimientos individualizados relativos a los movimientos de cuentas corrientes, depósitos de ahorro y a plazo, cuentas de préstamos y créditos y demás operaciones activas y pasivas, incluidas las que se reflejen en cuentas transitorias o se materialicen en la emisión de cheques u otras órdenes de pago, de los bancos, cajas de ahorro, cooperativas de crédito y cuantas entidades se dediquen al tráfico bancario o crediticio, podrán efectuarse en el ejercicio de las funciones de inspección o recaudación, previa autorización del órgano de la Administración tributaria que reglamentariamente se determine.
+
+Los requerimientos individualizados deberán precisar los datos identificativos del cheque u orden de pago de que se trate, o bien las operaciones objeto de investigación, los obligados tributarios afectados, titulares o autorizados, y el período de tiempo al que se refieren.
+
+La investigación realizada según lo dispuesto en este apartado podrá afectar al origen y destino de los movimientos o de los cheques u otras órdenes de pago, si bien en estos casos no podrá exceder de la identificación de las personas y de las cuentas en las que se encuentre dicho origen y destino.
+
+4. Los funcionarios públicos, incluidos los profesionales oficiales, estarán obligados a colaborar con la Administración tributaria suministrando toda clase de información con trascendencia tributaria de la que dispongan, salvo que sea aplicable:
+
+b) El secreto de los datos que se hayan suministrado a la Administración para una finalidad exclusivamente estadística.
+
+c) El secreto del protocolo notarial, que abarcará los instrumentos públicos a los que se refieren los artículos 34 y 35 de la Ley de 28 de mayo de 1862, del Notariado, y los relativos a cuestiones matrimoniales, con excepción de los referentes al régimen económico de la sociedad conyugal.
+
+Los profesionales no podrán invocar el secreto profesional para impedir la comprobación de su propia situación tributaria.
+
+
+##########################################################################################
+[a101] — PÁRRAFOS DEL BOE FALTANTES EN EL BLOQUE DEL REPO
+[FALTA] a) Las practicadas en el procedimiento inspector previa comprobación e investigación de la totalidad de los elementos de la obligación tributaria, salvo lo dispuesto en el apartado 4 de este artículo.
+[FALTA] 4. En los demás casos, las liquidaciones tributarias tendrán el carácter de provisionales.
+[FALTA] a) Cuando alguno de los elementos de la obligación tributaria se determine en función de los correspondientes a otras obligaciones que no hubieran sido comprobadas, que hubieran sido regularizadas mediante liquidación provisional o mediante liquidación definitiva que no fuera firme, o cuando existan elementos de la obligación tributaria cuya comprobación con carácter definitivo no hubiera sido posible durante el procedimiento, en los términos que se establezcan reglamentariamente.
+[FALTA] Se añade la letra c) al apartado 4 por el art. único.19 de la Ley 34/2015, de 21 de septiembre.
+[FALTA] Ref. BOE-A-2015-10143
+[FALTA] Subir
+[FALTA] [Bloque 148: #a102]
+
+==========================================================================================
+[a101] — CUERPO ACTUAL DEL REPO
+
+
+Artículo 101. Las liquidaciones tributarias: concepto y clases.
+
+Artículo 101. Las liquidaciones tributarias: concepto y clases.
+
+1. La liquidación tributaria es el acto resolutorio mediante el cual el órgano competente de la Administración realiza las operaciones de cuantificación necesarias y determina el importe de la deuda tributaria o de la cantidad que, en su caso, resulte a devolver o a compensar de acuerdo con la normativa tributaria.
+
+La Administración tributaria no estará obligada a ajustar las liquidaciones a los datos consignados por los obligados tributarios en las autoliquidaciones, declaraciones, comunicaciones, solicitudes o cualquier otro documento.
+
+2. Las liquidaciones tributarias serán provisionales o definitivas.
+
+3. Tendrán la consideración de definitivas:
+
+b) Las demás a las que la normativa tributaria otorgue tal carácter.
+
+Podrán dictarse liquidaciones provisionales en el procedimiento de inspección en los siguientes supuestos:
+
+b) Cuando proceda formular distintas propuestas de liquidación en relación con una misma obligación tributaria. Se entenderá que concurre esta circunstancia cuando el acuerdo al que se refiere el artículo 155 de esta ley no incluya todos los elementos de la obligación tributaria, cuando la conformidad del obligado no se refiera a toda la propuesta de regularización, cuando se realice una comprobación de valor y no sea el objeto único de la regularización y en el resto de supuestos que estén previstos reglamentariamente.
+
+1. La liquidación tributaria es el acto resolutorio mediante el cual el órgano competente de la Administración realiza las operaciones de cuantificación necesarias y determina el importe de la deuda tributaria o de la cantidad que, en su caso, resulte a devolver o a compensar de acuerdo con la normativa tributaria.
+
+La Administración tributaria no estará obligada a ajustar las liquidaciones a los datos consignados por los obligados tributarios en las autoliquidaciones, declaraciones, comunicaciones, solicitudes o cualquier otro documento.
+
+2. Las liquidaciones tributarias serán provisionales o definitivas.
+
+3. Tendrán la consideración de definitivas:
+
+b) Las demás a las que la normativa tributaria otorgue tal carácter.
+
+Podrán dictarse liquidaciones provisionales en el procedimiento de inspección en los siguientes supuestos:
+
+b) Cuando proceda formular distintas propuestas de liquidación en relación con una misma obligación tributaria. Se entenderá que concurre esta circunstancia cuando el acuerdo al que se refiere el artículo 155 de esta ley no incluya todos los elementos de la obligación tributaria, cuando la conformidad del obligado no se refiera a toda la propuesta de regularización, cuando se realice una comprobación de valor y no sea el objeto único de la regularización y en el resto de supuestos que estén previstos reglamentariamente.
+
+c) En todo caso tendrán el carácter de provisionales las liquidaciones dictadas al amparo de lo dispuesto en el artículo 250.2 de esta Ley.
+
+
+##########################################################################################
+[a187] — PÁRRAFOS DEL BOE FALTANTES EN EL BLOQUE DEL REPO
+[FALTA] a) Comisión repetida de infracciones tributarias.
+[FALTA] 1.º La base de la sanción; y
+[FALTA] c) Incumplimiento sustancial de la obligación de facturación o documentación.
+[FALTA] 2. Los criterios de graduación son aplicables simultáneamente.
+[FALTA] Subir
+[FALTA] [Bloque 289: #a188]
+
+==========================================================================================
+[a187] — CUERPO ACTUAL DEL REPO
+
+
+Artículo 187. Criterios de graduación de las sanciones tributarias.
+
+1. Las sanciones tributarias se graduarán exclusivamente conforme a los siguientes criterios, en la medida en que resulten aplicables:
+
+Se entenderá producida esta circunstancia cuando el sujeto infractor hubiera sido sancionado por una infracción de la misma naturaleza, ya sea leve, grave o muy grave, en virtud de resolución firme en vía administrativa dentro de los cuatro años anteriores a la comisión de la infracción.
+
+A estos efectos se considerarán de la misma naturaleza las infracciones previstas en un mismo artículo del capítulo III de este título. No obstante, las infracciones previstas en los artículos 191, 192 y 193 de esta ley se considerarán todas ellas de la misma naturaleza.
+
+Cuando concurra esta circunstancia, la sanción mínima se incrementará en los siguientes porcentajes, salvo que se establezca expresamente otra cosa:
+
+Cuando el sujeto infractor hubiera sido sancionado por una infracción leve, el incremento será de cinco puntos porcentuales.
+
+Cuando el sujeto infractor hubiera sido sancionado por una infracción grave, el incremento será de 15 puntos porcentuales.
+
+Cuando el sujeto infractor hubiera sido sancionado por una infracción muy grave, el incremento será de 25 puntos porcentuales.
+
+b) Perjuicio económico para la Hacienda Pública.
+
+El perjuicio económico se determinará por el porcentaje resultante de la relación existente entre:
+
+2.º La cuantía total que hubiera debido ingresarse en la autoliquidación o por la adecuada declaración del tributo o el importe de la devolución inicialmente obtenida.
+
+Cuando concurra esta circunstancia, la sanción mínima se incrementará en los siguientes porcentajes:
+
+Cuando el perjuicio económico sea superior al 25 por ciento e inferior o igual al 50 por ciento, el incremento será de 15 puntos porcentuales.
+
+Cuando el perjuicio económico sea superior al 50 por ciento e inferior o igual al 75 por ciento, el incremento será de 20 puntos porcentuales.
+
+Cuando el perjuicio económico sea superior al 75 por ciento, el incremento será de 25 puntos porcentuales.
+
+Se entenderá producida esta circunstancia cuando dicho incumplimiento afecte a más del 20 por ciento del importe de las operaciones sujetas al deber de facturación en relación con el tributo u obligación tributaria y período objeto de la comprobación o investigación o cuando, como consecuencia de dicho incumplimiento, la Administración tributaria no pueda conocer el importe de las operaciones sujetas al deber de facturación.
+
+En el supuesto previsto en el apartado 4 del artículo 201 de esta ley, se entenderá producida esta circunstancia cuando el incumplimiento afecte a más del 20 por ciento de los documentos de circulación expedidos o utilizados en el período objeto de comprobación o investigación.
+
+d) Acuerdo o conformidad del interesado.
+
+En los procedimientos de verificación de datos y comprobación limitada, salvo que se requiera la conformidad expresa, se entenderá producida la conformidad siempre que la liquidación resultante no sea objeto de recurso o reclamación económico-administrativa.
+
+En el procedimiento de inspección se aplicará este criterio de graduación cuando el obligado tributario suscriba un acta con acuerdo o un acta de conformidad.
+
+Cuando concurra esta circunstancia, la sanción que resulte de la aplicación de los criterios previstos en los párrafos anteriores de este apartado se reducirá de acuerdo con lo dispuesto en el artículo siguiente.
+
+
