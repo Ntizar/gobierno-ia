@@ -1,0 +1,40 @@
+{
+ "fecha": "2026-09-21 (sesión 13/30, tarde — propuestas para el Consejo de esta noche)",
+ "objeto": "verificación previa de estado de bloques con acuerdo ejecutado y localización de bloques propuestos",
+ "ley": "LGT",
+ "sha256_fichero": "14aeb1ca76b631cd23f7f3f8b90df1262705666f803e3e5e0f1df9820efb3d8d",
+ "identico_al_cierre_ejecucion_21_09": true,
+ "bloques_acuerdos_ejecutados": {
+  "[a12]": {
+   "titulo": "Interpretación de las normas tributarias.",
+   "rotulos": 1,
+   "palabras": 168,
+   "sha256_cuerpo": "9a78cd4599cf31311e7b8e36386bed6b68874d65ffcb01edcd2efe1720817bdb"
+  },
+  "[a43]": {
+   "titulo": "Responsables subsidiarios.",
+   "rotulos": 1,
+   "palabras": 1079,
+   "sha256_cuerpo": "30564db21be5dd237373a41972558bd68672ebb7d97a787464c52bc0fd0879b2"
+  },
+  "[a62]": {
+   "titulo": "Plazos para el pago.",
+   "rotulos": 1,
+   "palabras": 813,
+   "sha256_cuerpo": "b2e0f0b2ff7508e313901e216437d4f0dd6530be863b57df7038f8d8245a335e"
+  },
+  "[a95]": {
+   "titulo": "Carácter reservado de los datos con trascendencia tributaria.",
+   "rotulos": 1,
+   "palabras": 993,
+   "sha256_cuerpo": "f1fb345e31a1d626b0bc0a0760b18647a6ac5a3fec8597ea1037e0948c0dd00b"
+  }
+ },
+ "declaracion_a12": "[a12] 1 sola copia, 168 palabras: la desduplicación está ejecutada; su redacción divergente del BOE queda PENDIENTE DE DECISIÓN DEL CONSEJO (ratificar reforma deliberada o revertir). No se toca.",
+ "bloques_propuestos_hoy": {
+  "[a93]": "líneas 2503-2594, sha a6de8aa8ca2bcbde, 1792 pal, 3 rótulos",
+  "[a101]": "líneas 2851-2886, sha 3caf1602bfc79005, 442 pal, 2 rótulos",
+  "[a187]": "líneas 5051-5094, sha 8192011a38bde204, 529 pal, 1 rótulo"
+ },
+ "ejecuciones_hoy": "0 diffs aplicados al fichero de ley (0 propuestas aprobadas pendientes de ejecución propias; las 3 nuevas esperan Consejo)"
+}

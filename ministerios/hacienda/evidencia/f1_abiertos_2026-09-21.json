@@ -1,0 +1,286 @@
+{
+ "fuente": "MANIFIESTO_MASIVO_LGT_2026-09-02.json (F1=contenido_perdido) menos 20 casos/734 pal cerrados y verificados el 2026-09-04",
+ "total": {
+  "casos": 115,
+  "bloques": 69,
+  "palabras": 3071
+ },
+ "bloques": {
+  "[a101]": {
+   "casos": 4,
+   "palabras": 196
+  },
+  "[a187]": {
+   "casos": 1,
+   "palabras": 172
+  },
+  "[daundecima]": {
+   "casos": 4,
+   "palabras": 162
+  },
+  "[davigesima]": {
+   "casos": 2,
+   "palabras": 154
+  },
+  "[a104]": {
+   "casos": 4,
+   "palabras": 116
+  },
+  "[a93]": {
+   "casos": 6,
+   "palabras": 105
+  },
+  "[a82]": {
+   "casos": 3,
+   "palabras": 96
+  },
+  "[a253]": {
+   "casos": 1,
+   "palabras": 91
+  },
+  "[a158]": {
+   "casos": 3,
+   "palabras": 84
+  },
+  "[a92]": {
+   "casos": 2,
+   "palabras": 80
+  },
+  "[a201]": {
+   "casos": 1,
+   "palabras": 80
+  },
+  "[a175]": {
+   "casos": 2,
+   "palabras": 78
+  },
+  "[a48]": {
+   "casos": 1,
+   "palabras": 77
+  },
+  "[a136]": {
+   "casos": 3,
+   "palabras": 72
+  },
+  "[a244]": {
+   "casos": 2,
+   "palabras": 72
+  },
+  "[a95bis]": {
+   "casos": 2,
+   "palabras": 70
+  },
+  "[a246]": {
+   "casos": 1,
+   "palabras": 64
+  },
+  "[a200]": {
+   "casos": 3,
+   "palabras": 63
+  },
+  "[a161]": {
+   "casos": 2,
+   "palabras": 60
+  },
+  "[a259]": {
+   "casos": 1,
+   "palabras": 56
+  },
+  "[a208]": {
+   "casos": 1,
+   "palabras": 54
+  },
+  "[a151]": {
+   "casos": 2,
+   "palabras": 48
+  },
+  "[a217]": {
+   "casos": 3,
+   "palabras": 46
+  },
+  "[a206bis]": {
+   "casos": 2,
+   "palabras": 42
+  },
+  "[a191]": {
+   "casos": 2,
+   "palabras": 40
+  },
+  "[a192]": {
+   "casos": 2,
+   "palabras": 40
+  },
+  "[a193]": {
+   "casos": 2,
+   "palabras": 40
+  },
+  "[a232]": {
+   "casos": 2,
+   "palabras": 39
+  },
+  "[a211]": {
+   "casos": 2,
+   "palabras": 38
+  },
+  "[a97]": {
+   "casos": 1,
+   "palabras": 35
+  },
+  "[dttercera]": {
+   "casos": 1,
+   "palabras": 35
+  },
+  "[a117]": {
+   "casos": 2,
+   "palabras": 34
+  },
+  "[a230]": {
+   "casos": 2,
+   "palabras": 34
+  },
+  "[a139]": {
+   "casos": 2,
+   "palabras": 33
+  },
+  "[a179]": {
+   "casos": 2,
+   "palabras": 30
+  },
+  "[a251]": {
+   "casos": 1,
+   "palabras": 28
+  },
+  "[a53]": {
+   "casos": 2,
+   "palabras": 26
+  },
+  "[a262]": {
+   "casos": 1,
+   "palabras": 25
+  },
+  "[a34]": {
+   "casos": 1,
+   "palabras": 24
+  },
+  "[a265]": {
+   "casos": 1,
+   "palabras": 24
+  },
+  "[a133]": {
+   "casos": 1,
+   "palabras": 23
+  },
+  "[a141]": {
+   "casos": 1,
+   "palabras": 23
+  },
+  "[a160]": {
+   "casos": 1,
+   "palabras": 23
+  },
+  "[a65]": {
+   "casos": 2,
+   "palabras": 22
+  },
+  "[a173]": {
+   "casos": 1,
+   "palabras": 21
+  },
+  "[a220]": {
+   "casos": 1,
+   "palabras": 21
+  },
+  "[daquinta]": {
+   "casos": 2,
+   "palabras": 20
+  },
+  "[a169]": {
+   "casos": 2,
+   "palabras": 19
+  },
+  "[a261]": {
+   "casos": 1,
+   "palabras": 19
+  },
+  "[a85]": {
+   "casos": 1,
+   "palabras": 18
+  },
+  "[a130]": {
+   "casos": 2,
+   "palabras": 18
+  },
+  "[a131]": {
+   "casos": 1,
+   "palabras": 18
+  },
+  "[a207]": {
+   "casos": 1,
+   "palabras": 17
+  },
+  "[a118]": {
+   "casos": 1,
+   "palabras": 16
+  },
+  "[a66]": {
+   "casos": 1,
+   "palabras": 15
+  },
+  "[a167]": {
+   "casos": 1,
+   "palabras": 14
+  },
+  "[a2-2]": {
+   "casos": 1,
+   "palabras": 14
+  },
+  "[a123]": {
+   "casos": 1,
+   "palabras": 13
+  },
+  "[a215]": {
+   "casos": 1,
+   "palabras": 12
+  },
+  "[a56]": {
+   "casos": 1,
+   "palabras": 10
+  },
+  "[da-3]": {
+   "casos": 1,
+   "palabras": 9
+  },
+  "[a153]": {
+   "casos": 1,
+   "palabras": 8
+  },
+  "[a216]": {
+   "casos": 1,
+   "palabras": 8
+  },
+  "[a102]": {
+   "casos": 1,
+   "palabras": 6
+  },
+  "[a213]": {
+   "casos": 1,
+   "palabras": 6
+  },
+  "[a58]": {
+   "casos": 1,
+   "palabras": 5
+  },
+  "[a156]": {
+   "casos": 1,
+   "palabras": 4
+  },
+  "[a50]": {
+   "casos": 1,
+   "palabras": 3
+  },
+  "[a147]": {
+   "casos": 1,
+   "palabras": 3
+  }
+ }
+}
