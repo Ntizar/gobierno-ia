@@ -1,0 +1,77 @@
+# === Gobierno IA — .gitignore ===
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporales y scratch (NO trackear)
+tmp_*
+*.tmp
+scratch_*
+*.bak
+*.bak-*
+
+# Datos locales de sesiones anteriores
+.tmp/
+
+# Secretos y credenciales
+.env
+.env.*
+*.pem
+*.key
+secrets/
+
+# Caches
+.cache/
+*.cache
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Heritage: backups de leyes antiguos en ministerios/
+# (conservar como evidencia en archivo/, no en el camino operativo)
+ministerios/*/leyes/*.bak-*
+
+# Heritage: scripts temporales de auditoria/
+auditoria/tmp_*
+
+# Heritage: scripts temp en transicion-ecologica
+ministerios/transicion-ecologica/scripts/tmp_*
+
+# Heritage: tmp en scripts/
+scripts/tmp_*
+
+# Heritage: .tmp_keep y similares en leyes/
+ministerios/*/leyes/.tmp_*
+
+# Heritage: dedup_informe sueltos
+dedup_informe_*.json
+ministerios/sanidad/dedup_informe_*.json
+ministerios/sanidad/propuestas/dedup_informe_*.json
+ministerios/hacienda/propuestas/.dups_*.json
+ministerios/hacienda/propuestas/scan_fase2_*.json
+
+# No trackear el archivo de inventario generado localmente
+# (el reports/rescate/ SÍ se trackea como documentación)
