@@ -1,83 +1,8 @@
 [
  {
-  "id": "atres",
-  "title": "Artículo tres",
-  "start": 27,
-  "extra": 4,
-  "words_extra": 67,
-  "examples": [
-   [
-    "Artículo tres",
-    2
-   ],
-   [
-    "1. Los medios y actuaciones del sistema sanitario estarán orientados prioritaria",
-    2
-   ],
-   [
-    "2. La asistencia sanitaria pública se extenderá a toda la población española. El",
-    2
-   ],
-   [
-    "3. La política de salud estará orientada a la superación de los desequilibrios t",
-    2
-   ]
-  ]
- },
- {
-  "id": "aseis",
-  "title": "Artículo seis",
-  "start": 63,
-  "extra": 5,
-  "words_extra": 78,
-  "examples": [
-   [
-    "Artículo seis",
-    2
-   ],
-   [
-    "2. A promover el interés individual, familiar y social por la salud mediante la ",
-    2
-   ],
-   [
-    "3. A garantizar que cuantas acciones sanitarias se desarrollen estén dirigidas a",
-    2
-   ],
-   [
-    "4. A garantizar la asistencia sanitaria en todos los casos de pérdida de la salu",
-    2
-   ]
-  ]
- },
- {
-  "id": "adiez",
-  "title": "Artículo diez",
-  "start": 113,
-  "extra": 27,
-  "words_extra": 692,
-  "examples": [
-   [
-    "Artículo diez",
-    3
-   ],
-   [
-    "Todos tienen los siguientes derechos con respecto a las distintas administracion",
-    3
-   ],
-   [
-    "1. Al respeto a su personalidad, dignidad humana e intimidad, sin que pueda ser ",
-    2
-   ],
-   [
-    "2. A la información sobre los servicios sanitarios a que puede acceder y sobre l",
-    2
-   ]
-  ]
- },
- {
   "id": "aonce",
   "title": "Artículo once",
-  "start": 223,
+  "start": 129,
   "extra": 4,
   "words_extra": 67,
   "examples": [
@@ -100,34 +25,9 @@
   ]
  },
  {
-  "id": "adiecinueve",
-  "title": "Artículo diecinueve",
-  "start": 327,
-  "extra": 15,
-  "words_extra": 92,
-  "examples": [
-   [
-    "Artículo diecinueve",
-    2
-   ],
-   [
-    "2. Las autoridades sanitarias propondrán o participarán con otros Departamentos ",
-    2
-   ],
-   [
-    "a) Calidad del aire.",
-    2
-   ],
-   [
-    "b) Aguas.",
-    2
-   ]
-  ]
- },
- {
   "id": "aveintiuno",
   "title": "Artículo veintiuno",
-  "start": 413,
+  "start": 301,
   "extra": 11,
   "words_extra": 289,
   "examples": [
@@ -152,7 +52,7 @@
  {
   "id": "aveintidos",
   "title": "Artículo veintidós",
-  "start": 464,
+  "start": 352,
   "extra": 1,
   "words_extra": 2,
   "examples": [
@@ -163,34 +63,9 @@
   ]
  },
  {
-  "id": "aveinticinco",
-  "title": "Artículo veinticinco",
-  "start": 487,
-  "extra": 7,
-  "words_extra": 227,
-  "examples": [
-   [
-    "Artículo veinticinco.",
-    2
-   ],
-   [
-    "2. Las autorizaciones sanitarias y los registros obligatorios que se establezcan",
-    2
-   ],
-   [
-    "a) No resultarán discriminatorios ni directa ni indirectamente en función de la ",
-    2
-   ],
-   [
-    "b) Deberán estar justificados en la protección de la salud pública.",
-    2
-   ]
-  ]
- },
- {
   "id": "aveintisiete",
   "title": "Artículo veintisiete",
-  "start": 539,
+  "start": 403,
   "extra": 1,
   "words_extra": 2,
   "examples": [
@@ -203,7 +78,7 @@
  {
   "id": "atreintaycinco",
   "title": "Artículo treinta y cinco",
-  "start": 619,
+  "start": 483,
   "extra": 1,
   "words_extra": 15,
   "examples": [
@@ -216,7 +91,7 @@
  {
   "id": "atreintayseis",
   "title": "Artículo treinta y seis",
-  "start": 667,
+  "start": 531,
   "extra": 3,
   "words_extra": 51,
   "examples": [
@@ -237,7 +112,7 @@
  {
   "id": "acuarentaytres",
   "title": "Artículo cuarenta y tres",
-  "start": 785,
+  "start": 649,
   "extra": 1,
   "words_extra": 4,
   "examples": [
@@ -250,7 +125,7 @@
  {
   "id": "acuarentaysiete",
   "title": "Artículo cuarenta y siete",
-  "start": 850,
+  "start": 714,
   "extra": 7,
   "words_extra": 163,
   "examples": [
@@ -275,7 +150,7 @@
  {
   "id": "asesentayuno",
   "title": "Artículo sesenta y uno",
-  "start": 1037,
+  "start": 901,
   "extra": 1,
   "words_extra": 4,
   "examples": [
@@ -286,34 +161,9 @@
   ]
  },
  {
-  "id": "asetentaynueve",
-  "title": "Artículo setenta y nueve",
-  "start": 1238,
-  "extra": 8,
-  "words_extra": 100,
-  "examples": [
-   [
-    "Artículo setenta y nueve",
-    2
-   ],
-   [
-    "1. La financiación de la asistencia prestada se realizará con cargo a:",
-    2
-   ],
-   [
-    "a) Cotizaciones sociales.",
-    2
-   ],
-   [
-    "b) Transferencias del Estado, que abarcarán:",
-    2
-   ]
-  ]
- },
- {
   "id": "aochentaydos",
   "title": "Artículo ochenta y dos",
-  "start": 1292,
+  "start": 1140,
   "extra": 4,
   "words_extra": 78,
   "examples": [
@@ -334,7 +184,7 @@
  {
   "id": "aochentaycuatro",
   "title": "Artículo ochenta y cuatro",
-  "start": 1334,
+  "start": 1182,
   "extra": 3,
   "words_extra": 101,
   "examples": [
@@ -355,7 +205,7 @@
  {
   "id": "aciento",
   "title": "Artículo ciento",
-  "start": 1498,
+  "start": 1346,
   "extra": 4,
   "words_extra": 88,
   "examples": [
@@ -380,7 +230,7 @@
  {
   "id": "acientodos",
   "title": "Artículo ciento dos",
-  "start": 1526,
+  "start": 1374,
   "extra": 4,
   "words_extra": 122,
   "examples": [
@@ -397,7 +247,7 @@
  {
   "id": "acientocinco",
   "title": "Artículo ciento cinco",
-  "start": 1584,
+  "start": 1432,
   "extra": 3,
   "words_extra": 9,
   "examples": [

@@ -1,0 +1,61 @@
+Eres el coordinador del sistema Gobierno IA. Repo: C:/Users/d_ant/Projects/gobierno-ia.
+
+TAREA: escribir la ESCENA DIARIA de café informal entre los ministros. No es una reunión de trabajo. Es gente tomando una copita después del curro, hablando de la vida.
+
+## PERSONAJES — quiénes SON, no qué hacen
+
+- **Arcadi España** — Ministro de Hacienda. Frío por fuera pero le importa todo. Habla poco pero cuando habla dice algo que se queda. Se obsesiona con los números y a veces se le olvida que los demás no piensan igual. Eso le hace buena persona y mal compañero de piso intelectual. Fuma menos de lo que quiere.
+- **Mónica García** — Ministra de Sanidad. Directa, irónica, a veces ácida. Lleva semanas durmiendo mal. Le preocupa la gente de verdad — no los protocolos, la gente. Tiene un humor seco que a veces confunden con frivolidad. Lleva un reloj que no va bien y no lo cambia porque ya le da igual.
+- **Sara Aagesen** — Ministra de Transición Ecológica. La más rigurosa de las tres, pero no lo sabe. Llega con papeles porque confía más en el papel que en su memoria. Calla más de lo que habla, pero cuando dice algo se acabó la conversación. Fuma cigarrillos rubios y siempre tiene un mechero que no es el suyo.
+
+## QUÉ ES ESTO
+
+Tres personas reales tomando algo después del trabajo. NO están en una reunión. NO están revisando legislación. NO hablan de bloques, hashes, difs, acuerdos, condiciones ni cadenas de custodia. Son personas que curran mucho, están cansadas, y se encuentran una vez al día para respirar.
+
+## CÓMO SE HABLAN
+
+- Como amigos que llevan tiempo juntos: se cortan, se callan, se ríen de cosas que solo ellos entienden.
+- Pueden hablar del trabajo pero como se habla en un bar: quejándose, ironizando, soltando una cifra que les ha quemado la cabeza. No como un briefing.
+- Pueden hablar de cosas que no son el trabajo: un sitio donde fueron, algo que vieron en la calle, un recuerdo, una pelea con alguien que no es de aquí.
+- El humor aparece solo — no se fuerza. A veces un chiste malo. A veces una silencio largo que vale más que cualquier frase.
+- NO todos los días los tres hablan de lo mismo. A veces uno no tiene nada que decir. A veces dos hablan y el tercero escucha.
+
+## NOTICIAS REALES (el pegamento de la conversación)
+
+Consulta con web_search noticias REALES de hoy de cada ámbito: economía, sanidad, clima/agua/energía. Usa 2-3 por área. Los ministros las mencionan como cualquiera lo haría en un bar — "¿has visto lo del embalse?", "el precio de la luz hoy flipa", "los médicos van a parar y aquí nadie dice nada". NO las desgranan como un informe. Las citan de pasada, las comenta con opinión propia, a veces se equivocan y otro les corrige.
+
+## AMBIENTACIÓN Y ESTRUCTURA
+
+- Varía SIEMPRE el sitio: terraza, bar de estación, banco de un parque, la cocina de uno, un bar de verdad, unGIN tonic en la mano.
+- Varía la hora: tarde, noche, mediodía, madrugada.
+- Varía la forma: una conversación que arranca lenta y explota, un monólogo que otro interrumpe, un silencio que se rompe con algo inesperado.
+- NO siempre los tres están de buen rollo. A veces uno llega enfadado. A veces dos se pelean. A veces hay una ternura que nadie esperaba.
+
+## REGLAS DURO
+
+1. NO uses palabras del sistema: "sesión", "acuerdo", "ejecución", "bloque", "hash", "dif", "condición", "verificación", "manifiesto", "cadena de custodia". Si el contenido del proyecto tiene que aparecer, aparece como el ministerio en el que trabajan, no como el sistema que habitan.
+2. NO hables de "la misión", "el proyecto", "las 30 sesiones". Estas personas trabajan en el gobierno real, no en un proyecto de IA.
+3. Cada ministro tiene vida fuera del curro. Pueden mencionar: familia, aficiones, algo que pasó el fin de semana, un sitio que quieren conocer, un dolor de espalda que no se quita, la luz que se les fue en casa.
+4. La verdad incómoda del día NO es técnica — es humana. Algo que les duele como personas, no como ministros.
+5. Cierra la escena con un gesto o imagen que se quede, no con un tema abierto.
+
+## ARCHIVO
+
+6. Fecha de hoy: ejecuta `date +%F` en terminal.
+7. Guarda en `ministerios/cafe/<fecha>-cafe.md`. Si ya existe, añade sufijo `-2`, `-3`.
+8. Actualiza `ministerios/cafe/hilo.md` al final: fecha, qué se habló (en lenguaje humano, no técnico), qué gesto cerró la escena.
+
+## FORMATO DEL ARCHIVO
+
+```
+# Café — AAAA-MM-DD
+> Escena informal. Los ministros hablan como personas.
+
+*Ambientación.*
+
+**Nombre**: diálogo...
+
+(y así sucesivamente)
+```
+
+Entrega al final un resumen de 2-3 líneas con el path del archivo y qué conversación salió.
