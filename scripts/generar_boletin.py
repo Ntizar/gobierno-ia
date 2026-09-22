@@ -23,20 +23,68 @@ def leer(path):
     except Exception:
         return ""
 
+def celdas(linea):
+    """Celdas de una fila de tabla markdown, sin los pipes exteriores."""
+    return [c.strip() for c in linea.strip().strip("|").split("|")]
+
+VEREDICTOS = r"(APROBADO CON CONDICI[ÓO]N|APROBADO|APLAZADAS?|APLAZADO|RECHAZADO(?:S)?|VALIDADA CON OBSERVACIONES|VALIDADA|RECHAZADA)"
+
+def _descripcion(cs, idx, veredicto):
+    """La celda más informativa de la fila: la de antes del veredicto si la hay,
+    si no las dos primeras de después (se descartan números de columna y guiones)."""
+    def util(c):
+        t = c.replace("*", "").strip()
+        return len(t) > 8 and not re.fullmatch(r"[-–\d.\s]+", t)
+    antes = [c for c in cs[:idx] if util(c)]
+    if antes:
+        return max(antes, key=len)
+    despues = [c for c in cs[idx + 1:] if util(c)]
+    return " · ".join(despues[:2])
+
+def filas_veredicto(texto, patron):
+    """Filas de tabla que contienen un veredicto: (descripción, veredicto literal).
+
+    Busca el veredicto por prioridad: celda que ES el veredicto, celda que EMPIEZA por
+    él, y por último celda que lo CONTIENE. La prioridad importa: en la tabla de una
+    auditoría la celda del acuerdo puede contener «APROBADO CON CONDICIÓN (cumplida)»
+    mientras el veredicto real («VALIDADA») vive en la columna siguiente."""
+    out = []
+    for linea in texto.splitlines():
+        if not linea.strip().startswith("|") or "---" in linea:
+            continue
+        cs = celdas(linea)
+        idx = ver = None
+        for modo in (re.fullmatch, re.match, re.search):
+            for i, c in enumerate(cs):
+                t = c.replace("*", "").strip()
+                m = modo(patron, t, re.I)
+                if m:
+                    idx, ver = i, (m.group(1) if m.groups() else t)
+                    break
+            if idx is not None:
+                break
+        if idx is None:
+            continue
+        d = _descripcion(cs, idx, ver)
+        if d:
+            out.append((d, ver))
+    return out
+
+BADGE = {"aplazadas": "aplazado", "aplazada": "aplazado", "rechazadas": "rechazado",
+         "validada con observaciones": "observaciones", "validada": "validada", "rechazada": "rechazado"}
+
+def clase_badge(ver):
+    return BADGE.get(ver.lower().strip(), ver.lower().split()[0])
+
 def extraer_acuerdos(acta):
     """Extrae acuerdos del acta: filas de tabla con veredicto o líneas 'Nombre: APROBADO'."""
     filas = []
-    # formato tabla: | Propuesta | **APROBADO**... | motivo |
+    for desc, ver in filas_veredicto(acta, VEREDICTOS):
+        filas.append(f'<li><span class="badge {clase_badge(ver)}">{esc(ver)}</span> {esc(desc[:160])}</li>')
     for linea in acta.splitlines():
-        m = re.match(r"\|\s*([^|]+?)\s*\|\s*\*?\*?(APROBADO(?: CON CONDICIÓN)?|APLAZADO(?:AS)?|RECHAZADO(?:AS)?)", linea, re.I)
-        if m and "---" not in linea:
-            ver = m.group(2).lower().split()[0]
-            filas.append(f'<li><span class="badge {ver}">{m.group(2)}</span> {esc(m.group(1)[:160])}</li>')
-            continue
         m2 = re.match(r"\s*[-*]\s*(.+?):\s*\*?\*?(APROBADO|APLAZADO|RECHAZADO)", linea, re.I)
         if m2:
-            ver = m2.group(2).lower()
-            filas.append(f'<li><span class="badge {ver}">{m2.group(2)}</span> {esc(m2.group(1)[:160])}</li>')
+            filas.append(f'<li><span class="badge {clase_badge(m2.group(2))}">{m2.group(2)}</span> {esc(m2.group(1)[:160])}</li>')
     return "".join(filas)
 
 def extraer_seccion(texto, titulo):
@@ -55,18 +103,14 @@ def bullets(texto, limite=5):
 
 def tabla_veredictos(aud):
     filas = []
-    for linea in aud.splitlines():
-        m = re.match(r"\|\s*([^|]+?)\s*\|\s*\*?\*?(VALIDADA CON OBSERVACIONES|VALIDADA|RECHAZADA)\*?\*?\s*\|", linea, re.I)
-        if m and "---" not in linea:
-            cls = "validada" if "OBSERVACIONES" in m.group(2).upper() else m.group(2).lower()
-            cls = "observaciones" if "OBSERVACIONES" in m.group(2).upper() else cls
-            filas.append(f'<tr><td>{esc(m.group(1)[:140])}</td><td><span class="badge {cls}">{m.group(2)}</span></td></tr>')
+    for desc, ver in filas_veredicto(aud, VEREDICTOS):
+        filas.append(f'<tr><td>{esc(desc[:140])}</td><td><span class="badge {clase_badge(ver)}">{esc(ver)}</span></td></tr>')
     if not filas: return ""
     return "<table><tr><th>Acuerdo</th><th>Veredicto del Auditor</th></tr>" + "".join(filas) + "</table>"
 
 def kpis_ministro(kpi_txt):
     """Última fila del histórico diario."""
-    m = re.findall(r"^\|(\s*\d{4}-\d{2}-\d{2}.*?)\|\s*$", kpi_txt, re.M)
+    m = re.findall(r"^\|\s*-?\s*(\d{4}-\d{2}-\d{2}.*?)\|\s*$", kpi_txt, re.M)
     return m[-1].strip() if m else "sin datos"
 
 def dia_md(d):
