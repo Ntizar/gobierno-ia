@@ -1,0 +1,31 @@
+{
+  "fecha": "2026-09-22",
+  "sesion": "14/30",
+  "ejecutor": "Presidencia (ronda 3 del Consejo)",
+  "ley": "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
+  "sha256_fichero_antes": "61c39486edd63956ded362aef464be18c72b7d3b865dfa69cb5b63efb5822256",
+  "sha256_fichero_despues": "eb5434859a0ddc149424610fbe7ee166dcd431fdb012299d9dff10f3b18548b4",
+  "backup": "ministerios/sanidad/leyes/BOE-A-1986-10499.md.bak-2026-09-22",
+  "bloques": [
+    {
+      "clave": "acientodos",
+      "lineas": "1376-1398",
+      "palabras_antes": 322,
+      "palabras_despues": 126,
+      "sha256_bloque_antes": "5873e76eb1b7a0a257b98dfc8f603f17dd460b36ccec84b7ee5692ed1db8d879",
+      "sha256_bloque_despues": "3e3987491b71b99b107832685fda88be7af0f65eadf0ec6d244638c29eec09de",
+      "declarado_por_el_ministerio": "4 capas del ap. 1 -> 1 (-122 palabras)"
+    },
+    {
+      "clave": "aveintiuno",
+      "lineas": "303-347",
+      "palabras_antes": 615,
+      "palabras_despues": 313,
+      "sha256_bloque_antes": "7be11491eafbf921d80729e89fb78998483b8d78528bbbc2c6183fe0bc9995d5",
+      "sha256_bloque_despues": "caf12fc3ac33972696f72b9d44ec221d87c069fa05c9aafea37e827c157b7f6a",
+      "declarado_por_el_ministerio": "2 pasadas completas -> 1 (-289 palabras medidas por dedup_scan.py)"
+    }
+  ],
+  "verificacion": "1 copia por bloque, 1 rótulo por bloque",
+  "nota": "texto del ministerio extraído literal del bloque ```markdown de la propuesta; sólo se retiró el prefijo '### ' del encabezado"
+}

@@ -1,0 +1,44 @@
+{
+  "fecha": "2026-09-22",
+  "sesion": "14/30",
+  "ejecutor": "Presidencia (ronda 3 del Consejo)",
+  "ley": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
+  "sha256_fichero_antes": "cfa41246ebfdedbda303a39337d24b36558e8a79533d8c5581743f8587ff4757",
+  "sha256_fichero_despues": "932e93915a43dc76bf7fec51ed9b90c4a98954e6b7645d3c60cd061b5fcf9beb",
+  "backup": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md.bak-2026-09-22",
+  "bloques": [
+    {
+      "clave": "a1-11",
+      "lineas": "500-500",
+      "palabras_antes": 72,
+      "palabras_despues": 96,
+      "sha256_bloque_antes": "73b32671bc3c67857dfcecb6f6bea5109433be75862a1434ab272ac0f8af02a2",
+      "sha256_bloque_despues": "3761ce484d2ea7b31df5250aab4e96da6dbf47e7b3c65e0e1732abb31faf5cc7",
+      "declarado_por_el_ministerio": "19.2: 72 -> 91 palabras (+19): revisión cuatrienal + Conferencia Sectorial + Cortes"
+    },
+    {
+      "clave": "a1-4",
+      "lineas": "336-345",
+      "palabras_antes": 196,
+      "palabras_despues": 283,
+      "sha256_bloque_antes": "10cb91a963fe3f909ada62c27bb5aab9170d90e5dab8ef533ccbf1d2cec8ad69",
+      "sha256_bloque_despues": "4d519800e2c09a09e8c88861aae5fcc82c6a08605f47e3e9aa10fca5716cf7f4",
+      "declarado_por_el_ministerio": "196 -> 282 palabras (+86): fecha 31/12/2026, responsable DG Energía, informe anual"
+    },
+    {
+      "clave": "a4",
+      "lineas": "242-242",
+      "palabras_antes": 45,
+      "palabras_despues": 71,
+      "sha256_bloque_antes": "ac84279485c67e7bfef51d308d89139cbce5587441077d4c7e5d533e77959ed9",
+      "sha256_bloque_despues": "2d7d7e180260ba9f76c4cfe1c93ba7947e71c7d6188373d03ffb39fc99d0c200",
+      "declarado_por_el_ministerio": "4.2: 47 -> 62 palabras (+15): periodicidad + Consejo Nacional del Clima + Cortes antes del 30/06 (condición resuelta)"
+    }
+  ],
+  "verificacion": "1 copia por bloque, 1 rótulo por bloque",
+  "no_ejecutados": [
+    "a14 (corrección de objeto -> sesión 18)",
+    "da-2 (falta cifra de participaciones fósiles)",
+    "a1-7 (bloqueada: sin cifra IGAE del 3 % de reserva hídrica)"
+  ]
+}

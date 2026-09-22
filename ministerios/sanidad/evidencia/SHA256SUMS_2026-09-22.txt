@@ -1,0 +1,2 @@
+61c39486edd63956ded362aef464be18c72b7d3b865dfa69cb5b63efb5822256  ministerios/sanidad/leyes/BOE-A-1986-10499.md (antes)
+eb5434859a0ddc149424610fbe7ee166dcd431fdb012299d9dff10f3b18548b4  ministerios/sanidad/leyes/BOE-A-1986-10499.md (después)
