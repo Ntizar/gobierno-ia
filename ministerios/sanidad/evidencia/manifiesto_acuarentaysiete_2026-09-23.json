@@ -1,0 +1,35 @@
+{
+  "fecha": "2026-09-23",
+  "sesion": "15/30",
+  "ejecutor": "Mónica García, Ministra de Sanidad (pase de lista, deuda de ejecución)",
+  "acuerdo": "Acta 2026-08-30, acuerdo 6 — Deduplicación art. 47 (Consejo Interterritorial), aprobado 30-08 y no aplicado hasta hoy",
+  "ley": "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
+  "sha256_fichero_antes": "eb5434859a0ddc149424610fbe7ee166dcd431fdb012299d9dff10f3b18548b4",
+  "sha256_fichero_despues": "92ef137244a82d6406f4a6acae5754e11ed58d3769f1092e9ce1597f42ec3542",
+  "backup": "ministerios/sanidad/leyes/BOE-A-1986-10499.md.bak-2026-09-23",
+  "bloque": {
+    "clave": "acuarentaysiete",
+    "lineas_antes": "711-745",
+    "lineas_despues": "711-728 (rótulo [acuarentayocho] en l. 729; verificado por awk al cierre de sesión)",
+    "palabras_bloque_antes": 454,
+    "palabras_bloque_despues": 245,
+    "palabras_retiradas": 209,
+    "sha256_bloque_antes": "9ec2043b6c9d6397bc845d6882924703ce4231cd489a39ac5f70499f3b44a1a7",
+    "sha256_bloque_despues": "53bb726fac11fe3fe9137328be32fc88c65b6ca14f9d1435dd04475a21eb65ba",
+    "estado_antes": {
+      "rotulos_articulo": 3,
+      "copias_apartados_1_4": 2,
+      "versiones_apartado_5": 2,
+      "marcadores_derogado": 1
+    },
+    "estado_despues": {
+      "rotulos_articulo": 1,
+      "copias_apartados_1_4": 1,
+      "versiones_apartado_5": 1,
+      "marcadores_derogado": 1
+    },
+    "detalle": "Se eliminan: 2 rótulos «Artículo cuarenta y siete» repetidos; la segunda copia completa de los apartados 1-4 (byte a byte idéntica a la primera, verificado); y la versión ANTIGUA del apartado 5 («Comité Consultivo ... integrado paritariamente por representantes de las organizaciones empresariales y sindicales más representativas»), anterior a la reforma por la DA 6ª de la Ley 25/1990. Se conserva la redacción reformada del apartado 5 con el marcador <strong>(Derogado)</strong> — derogación por la DF 1ª de la Ley 16/2003, Ref. BOE-A-2003-10715, según el ejemplar consolidado archivado en ministerios/sanidad/evidencia/"
+  },
+  "verificacion": "1 rótulo por bloque, 1 copia de los apartados 1-4, 1 sola versión del apartado 5 (la reformada, vigente hasta la derogación) con su marcador; resto del fichero byte a byte intacto (assert de prefijos/sufijos)",
+  "fuente_consolidado": "ministerios/sanidad/evidencia/boe_consolidado_BOE-A-1986-10499.html — «[Bloque 64: #acuarentaysiete] Artículo cuarenta y siete (Derogado). Se deroga por la disposición derogatoria 1 de la Ley 16/2003, de 28 de mayo. Ref. BOE-A-2003-10715. Se modifica el apartado 5 por la disposición adicional 6 de la Ley [25/]1990, de 20 de diciembre. Ref. BOE-A-1990-30938»"
+}

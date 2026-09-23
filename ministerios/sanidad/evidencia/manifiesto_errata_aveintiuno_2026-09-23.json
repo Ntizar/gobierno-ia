@@ -1,0 +1,11 @@
+{
+  "fecha": "2026-09-23",
+  "sesion": "15/30",
+  "acuerdo_37": "errata marcador (Derogado) huérfano [aveintiuno] — RESUELTO: NO SE BORRA, con cita",
+  "sha256_fichero_hoy": "92ef137244a82d6406f4a6acae5754e11ed58d3769f1092e9ce1597f42ec3542",
+  "backup": "ministerios/sanidad/leyes/BOE-A-1986-10499.md.bak-2026-09-23",
+  "marcadores_derogado_totales": 12,
+  "intentos_ejecucion": "1 intento automatizado, abortado por aserción de seguridad del propio script; 0 bytes cambiados por esa vía. Ningún manifiesto de retirada: no hubo retirada.",
+  "cita_boe": "evidencia/boe_texto_plano.txt l.4018-4026 (y boe_consolidado html / canon JSON): «Artículo veintiuno. (Derogado). Se deroga por la disposición derogatoria única de la Ley 33/2011, de 4 de octubre. Ref. BOE-A-2011-15623.» → el marcador pertenece al propio art. 21 y su retirada habría borrado una derogación vigente.",
+  "hallazgo_colateral": "El párrafo l.340-344 («3. El ejercicio de las competencias…») no aparece en ninguna fuente BOE del repo (0 coincidencias normalizadas). Candidato a retirada COMO PROPUESTA (propuestas/2026-09-23.md D.2), no como errata."
+}
