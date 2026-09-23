@@ -1,0 +1,1245 @@
+{
+ "fuente": "canon data/raw 2026-08-31 vs fichero vivo 2026-09-23 (solo cuerpo normativo; preambulo excluido por diseno del repo)",
+ "metodo": "subsecuencia normalizada por parrafo; convencion hash del Auditor 22-09 para bloques",
+ "preceptos_afectados": {
+  "[a6]": {
+   "casos": 1,
+   "palabras": 4,
+   "ejemplos": [
+    "Sección 1.ª Fuentes normativas"
+   ]
+  },
+  "[a7]": {
+   "casos": 1,
+   "palabras": 16,
+   "ejemplos": [
+    "2. Tendrán carácter supletorio las disposiciones generales del derecho administrativo y lo"
+   ]
+  },
+  "[a9]": {
+   "casos": 1,
+   "palabras": 7,
+   "ejemplos": [
+    "Sección 2.ª Aplicación de las normas tributarias"
+   ]
+  },
+  "[a11]": {
+   "casos": 1,
+   "palabras": 6,
+   "ejemplos": [
+    "Sección 3.ª Interpretación, calificación e integración"
+   ]
+  },
+  "[a15]": {
+   "casos": 2,
+   "palabras": 51,
+   "ejemplos": [
+    "2. Para que la Administración tributaria pueda declarar el conflicto en la aplicación de l",
+    "Téngase en cuenta para su aplicación la disposición transitoria única.1 de la citada Ley."
+   ]
+  },
+  "[a16]": {
+   "casos": 1,
+   "palabras": 5,
+   "ejemplos": [
+    "Sección 1.ª La relación jurídico-tributaria"
+   ]
+  },
+  "[a17]": {
+   "casos": 1,
+   "palabras": 35,
+   "ejemplos": [
+    "Se renumera el apartado 4 como 5 y se añade el apartado 4, con efectos desde el 1 de enero"
+   ]
+  },
+  "[a18]": {
+   "casos": 2,
+   "palabras": 11,
+   "ejemplos": [
+    "Sección 2.ª Las obligaciones tributarias",
+    "Subsección 1.ª La obligación tributaria principal"
+   ]
+  },
+  "[a22]": {
+   "casos": 1,
+   "palabras": 10,
+   "ejemplos": [
+    "Subsección 2.ª La obligación tributaria de realizar pagos a cuenta"
+   ]
+  },
+  "[a23]": {
+   "casos": 1,
+   "palabras": 9,
+   "ejemplos": [
+    "Subsección 3.ª Las obligaciones entre particulares resultantes del tributo"
+   ]
+  },
+  "[a24]": {
+   "casos": 1,
+   "palabras": 6,
+   "ejemplos": [
+    "Subsección 4.ª Las obligaciones tributarias accesorias"
+   ]
+  },
+  "[a26]": {
+   "casos": 2,
+   "palabras": 76,
+   "ejemplos": [
+    "El interés de demora a que se refiere el apartado 6 será el el 4,0625 por ciento hasta el ",
+    "Se reordena el párrafo e) como f) y se añade el párrafo e) del apartado 2, con efectos des"
+   ]
+  },
+  "[a27]": {
+   "casos": 2,
+   "palabras": 35,
+   "ejemplos": [
+    "El incumplimiento de cualquiera de estas circunstancias determinará la exigencia del recar",
+    "Téngase en cuenta, para su aplicación, la disposición transitoria primera.1 de la citada L"
+   ]
+  },
+  "[a28]": {
+   "casos": 1,
+   "palabras": 6,
+   "ejemplos": [
+    "Subsección 5.ª Las obligaciones tributarias formales"
+   ]
+  },
+  "[a29]": {
+   "casos": 2,
+   "palabras": 21,
+   "ejemplos": [
+    "Texto añadido, publicado el 31/12/2011, en vigor a partir del 01/01/2012.",
+    "Sección 3.ª Las obligaciones y deberes de la Administración tributaria"
+   ]
+  },
+  "[a33]": {
+   "casos": 1,
+   "palabras": 10,
+   "ejemplos": [
+    "Sección 4.ª Los derechos y garantías de los obligados tributarios"
+   ]
+  },
+  "[a34]": {
+   "casos": 3,
+   "palabras": 91,
+   "ejemplos": [
+    "a) Derecho a ser informado y asistido por la Administración tributaria sobre el ejercicio ",
+    "2. Integrado en el Ministerio de Hacienda, el Consejo para la Defensa del Contribuyente ve",
+    "Sección 1.ª Clases de obligados tributarios"
+   ]
+  },
+  "[a35]": {
+   "casos": 1,
+   "palabras": 35,
+   "ejemplos": [
+    "Se renumera el apartado 6 como 7 y se añade el apartado 6, con efectos desde el 1 de enero"
+   ]
+  },
+  "[a38]": {
+   "casos": 1,
+   "palabras": 3,
+   "ejemplos": [
+    "Sección 2.ª Sucesores"
+   ]
+  },
+  "[a40]": {
+   "casos": 1,
+   "palabras": 4,
+   "ejemplos": [
+    "Sección 3.ª Responsables tributarios"
+   ]
+  },
+  "[a42]": {
+   "casos": 1,
+   "palabras": 60,
+   "ejemplos": [
+    "2. También serán responsables solidarios del pago de la deuda tributaria pendiente y, en s"
+   ]
+  },
+  "[a43]": {
+   "casos": 2,
+   "palabras": 23,
+   "ejemplos": [
+    "Véase, sobre interpretación del apartado 1.f), la Resolución 2/2004, de 16 de julio.",
+    "Sección 4.ª La capacidad de obrar en el orden tributario"
+   ]
+  },
+  "[a46]": {
+   "casos": 1,
+   "palabras": 4,
+   "ejemplos": [
+    "(*) Actual apartado 7."
+   ]
+  },
+  "[a47]": {
+   "casos": 1,
+   "palabras": 5,
+   "ejemplos": [
+    "Sección 5.ª El domicilio fiscal"
+   ]
+  },
+  "[a48]": {
+   "casos": 3,
+   "palabras": 204,
+   "ejemplos": [
+    "a) Para las personas físicas, el lugar donde tengan su residencia habitual. No obstante, p",
+    "3. Los obligados tributarios deberán comunicar su domicilio fiscal y el cambio del mismo a",
+    "Elementos de cuantificación de la obligación tributaria principal y de la obligación de re"
+   ]
+  },
+  "[a50]": {
+   "casos": 2,
+   "palabras": 48,
+   "ejemplos": [
+    "a) Estimación directa.",
+    "3. Las bases imponibles se determinarán con carácter general a través del método de estima"
+   ]
+  },
+  "[a53]": {
+   "casos": 4,
+   "palabras": 69,
+   "ejemplos": [
+    "a) Falta de presentación de declaraciones o presentación de declaraciones incompletas o in",
+    "2. Las bases o rendimientos se determinarán mediante la aplicación de cualquiera de los si",
+    "a) Aplicación de los datos y antecedentes disponibles que sean relevantes al efecto."
+   ]
+  },
+  "[a56]": {
+   "casos": 2,
+   "palabras": 35,
+   "ejemplos": [
+    "a) Aplicando el tipo de gravamen a la base liquidable.",
+    "2. Para el cálculo de la cuota íntegra podrán utilizarse los métodos de determinación prev"
+   ]
+  },
+  "[a57]": {
+   "casos": 1,
+   "palabras": 4,
+   "ejemplos": [
+    "Sección 1.ª Disposiciones generales"
+   ]
+  },
+  "[a58]": {
+   "casos": 1,
+   "palabras": 45,
+   "ejemplos": [
+    "3. Las sanciones tributarias que puedan imponerse de acuerdo con lo dispuesto en el título"
+   ]
+  },
+  "[a59]": {
+   "casos": 1,
+   "palabras": 4,
+   "ejemplos": [
+    "Sección 2.ª El pago"
+   ]
+  },
+  "[a65]": {
+   "casos": 2,
+   "palabras": 15,
+   "ejemplos": [
+    "a) Aquellas cuya exacción se realice por medio de efectos timbrados.",
+    "Sección 3.ª La prescripción"
+   ]
+  },
+  "[a66]": {
+   "casos": 2,
+   "palabras": 25,
+   "ejemplos": [
+    "Téngase en cuenta para su aplicación la disposición transitoria única.2 de la citada Ley.",
+    "Texto añadido, publicado el 22/09/2015, en vigor a partir del 12/10/2015."
+   ]
+  },
+  "[a68]": {
+   "casos": 2,
+   "palabras": 71,
+   "ejemplos": [
+    "a) Por cualquier acción de la Administración tributaria, realizada con conocimiento formal",
+    "Téngase en cuenta para su aplicación la disposición transitoria única.3 de la citada Ley."
+   ]
+  },
+  "[a70]": {
+   "casos": 2,
+   "palabras": 24,
+   "ejemplos": [
+    "Téngase en cuenta para su aplicación la disposición transitoria única.2 de la citada Ley.",
+    "Sección 4.ª Otras formas de extinción de la deuda tributaria"
+   ]
+  },
+  "[a76]": {
+   "casos": 1,
+   "palabras": 7,
+   "ejemplos": [
+    "Sección 5.ª Garantías de la deuda tributaria"
+   ]
+  },
+  "[a80]": {
+   "casos": 1,
+   "palabras": 11,
+   "ejemplos": [
+    "Texto añadido, publicado el 31/12/2011, en vigor a partir del 01/01/2012."
+   ]
+  },
+  "[a81]": {
+   "casos": 4,
+   "palabras": 232,
+   "ejemplos": [
+    "5. Las medidas cautelares reguladas en este artículo podrán adoptarse durante la tramitaci",
+    "6. Cuando en la tramitación de una solicitud de suspensión con otras garantías distintas d",
+    "a) Que se conviertan en embargos en el procedimiento de apremio o en medidas del apartado "
+   ]
+  },
+  "[a82]": {
+   "casos": 3,
+   "palabras": 38,
+   "ejemplos": [
+    "a) Cuando las deudas tributarias sean de cuantía inferior a la que se fije en la normativa",
+    "Principios generales",
+    "Sección 1.ª Procedimientos tributarios"
+   ]
+  },
+  "[a84]": {
+   "casos": 1,
+   "palabras": 9,
+   "ejemplos": [
+    "Sección 2.ª Información y asistencia a los obligados tributarios"
+   ]
+  },
+  "[a85]": {
+   "casos": 1,
+   "palabras": 18,
+   "ejemplos": [
+    "a) Publicación de textos actualizados de las normas tributarias, así como de la doctrina a"
+   ]
+  },
+  "[a91]": {
+   "casos": 1,
+   "palabras": 10,
+   "ejemplos": [
+    "Sección 3.ª Colaboración social en la aplicación de los tributos"
+   ]
+  },
+  "[a92]": {
+   "casos": 2,
+   "palabras": 68,
+   "ejemplos": [
+    "a) Realización de estudios o informes relacionados con la elaboración y aplicación de disp",
+    "4. La Administración tributaria podrá señalar los requisitos y condiciones para que la col"
+   ]
+  },
+  "[a95]": {
+   "casos": 10,
+   "palabras": 211,
+   "ejemplos": [
+    "a) Que el importe total de las deudas y sanciones tributarias pendientes de ingreso, inclu",
+    "2. En dichos listados se incluirá la siguiente información:",
+    "a) La identificación de los deudores conforme al siguiente detalle:"
+   ]
+  },
+  "[a96]": {
+   "casos": 1,
+   "palabras": 7,
+   "ejemplos": [
+    "Normas comunes sobre actuaciones y procedimientos tributarios"
+   ]
+  },
+  "[a97]": {
+   "casos": 3,
+   "palabras": 52,
+   "ejemplos": [
+    "a) Por las normas especiales establecidas en este título y la normativa reglamentaria dict",
+    "Sección 1.ª Especialidades de los procedimientos administrativos en materia tributaria",
+    "Subsección 1.ª Fases de los procedimientos tributarios"
+   ]
+  },
+  "[a100]": {
+   "casos": 1,
+   "palabras": 4,
+   "ejemplos": [
+    "Subsección 2.ª Liquidaciones tributarias"
+   ]
+  },
+  "[a102]": {
+   "casos": 2,
+   "palabras": 45,
+   "ejemplos": [
+    "3. En los tributos de cobro periódico por recibo, una vez notificada la liquidación corres",
+    "Subsección 3.ª Obligación de resolver y plazos de resolución"
+   ]
+  },
+  "[a104]": {
+   "casos": 5,
+   "palabras": 106,
+   "ejemplos": [
+    "a) En los procedimientos iniciados de oficio, desde la fecha de notificación del acuerdo d",
+    "Queda excluido de lo dispuesto en este apartado el procedimiento de apremio, cuyas actuaci",
+    "a) Si se trata de procedimientos de los que pudiera derivarse el reconocimiento o, en su c"
+   ]
+  },
+  "[a106]": {
+   "casos": 1,
+   "palabras": 22,
+   "ejemplos": [
+    "Se suprime el apartado 5 y se modifica el 4 por el art. único.21 de la Ley 34/2015, de 21 "
+   ]
+  },
+  "[a108]": {
+   "casos": 1,
+   "palabras": 3,
+   "ejemplos": [
+    "Sección 3.ª Notificaciones"
+   ]
+  },
+  "[a112]": {
+   "casos": 2,
+   "palabras": 23,
+   "ejemplos": [
+    "Téngase en cuenta la disposición transitoria 5 de esta ley para su aplicación.",
+    "Sección 4.ª Entrada en el domicilio de los obligados tributarios"
+   ]
+  },
+  "[a113]": {
+   "casos": 1,
+   "palabras": 4,
+   "ejemplos": [
+    "Sección 5.ª Denuncia pública"
+   ]
+  },
+  "[a114]": {
+   "casos": 1,
+   "palabras": 9,
+   "ejemplos": [
+    "Sección 6.ª Potestades y funciones de comprobación e investigación"
+   ]
+  },
+  "[a115]": {
+   "casos": 1,
+   "palabras": 14,
+   "ejemplos": [
+    "Téngase en cuenta para su aplicación la disposición transitoria única.2 de la citada Ley."
+   ]
+  },
+  "[a116]": {
+   "casos": 2,
+   "palabras": 10,
+   "ejemplos": [
+    "Actuaciones y procedimiento de gestión tributaria",
+    "Sección 1.ª Disposiciones generales"
+   ]
+  },
+  "[a117]": {
+   "casos": 2,
+   "palabras": 50,
+   "ejemplos": [
+    "a) La recepción y tramitación de declaraciones, autoliquidaciones, comunicaciones de datos",
+    "2. Las actuaciones y el ejercicio de las funciones a las que se refiere el apartado anteri"
+   ]
+  },
+  "[a118]": {
+   "casos": 1,
+   "palabras": 16,
+   "ejemplos": [
+    "a) Por una autoliquidación, por una comunicación de datos o por cualquier otra clase de de"
+   ]
+  },
+  "[a122]": {
+   "casos": 1,
+   "palabras": 6,
+   "ejemplos": [
+    "Sección 2.ª Procedimientos de gestión tributaria"
+   ]
+  },
+  "[a123]": {
+   "casos": 3,
+   "palabras": 55,
+   "ejemplos": [
+    "a) El procedimiento de devolución iniciado mediante autoliquidación, solicitud o comunicac",
+    "2. Reglamentariamente se podrán regular otros procedimientos de gestión tributaria a los q",
+    "Subsección 1.ª Procedimiento de devolución iniciado mediante autoliquidación, solicitud o "
+   ]
+  },
+  "[a127]": {
+   "casos": 1,
+   "palabras": 6,
+   "ejemplos": [
+    "Subsección 2.ª Procedimiento iniciado mediante declaración"
+   ]
+  },
+  "[a130]": {
+   "casos": 2,
+   "palabras": 16,
+   "ejemplos": [
+    "a) Por liquidación provisional practicada por la Administración tributaria.",
+    "Subsección 3.ª Procedimiento de verificación de datos"
+   ]
+  },
+  "[a131]": {
+   "casos": 1,
+   "palabras": 18,
+   "ejemplos": [
+    "a) Cuando la declaración o autoliquidación del obligado tributario adolezca de defectos fo"
+   ]
+  },
+  "[a133]": {
+   "casos": 3,
+   "palabras": 45,
+   "ejemplos": [
+    "a) Por resolución en la que se indique que no procede practicar liquidación provisional o ",
+    "2. La verificación de datos no impedirá la posterior comprobación del objeto de la misma.",
+    "Subsección 4.ª Procedimiento de comprobación de valores"
+   ]
+  },
+  "[a135]": {
+   "casos": 2,
+   "palabras": 20,
+   "ejemplos": [
+    "Téngase en cuenta para su aplicación la disposición transitoria única.5 de la citada Ley.",
+    "Subsección 5.ª Procedimiento de comprobación limitada"
+   ]
+  },
+  "[a136]": {
+   "casos": 2,
+   "palabras": 63,
+   "ejemplos": [
+    "a) Examen de los datos consignados por los obligados tributarios en sus declaraciones y de",
+    "3. En ningún caso se podrá requerir a terceros información sobre movimientos financieros, "
+   ]
+  },
+  "[a139]": {
+   "casos": 3,
+   "palabras": 52,
+   "ejemplos": [
+    "a) Por resolución expresa de la Administración tributaria, con el contenido al que se refi",
+    "2. La resolución administrativa que ponga fin al procedimiento de comprobación limitada de",
+    "a) Obligación tributaria o elementos de la misma y ámbito temporal objeto de la comprobaci"
+   ]
+  },
+  "[a140]": {
+   "casos": 3,
+   "palabras": 14,
+   "ejemplos": [
+    "Actuaciones y procedimiento de inspección",
+    "Sección 1.ª Disposiciones generales",
+    "Subsección 1.ª Funciones y facultades"
+   ]
+  },
+  "[a141]": {
+   "casos": 1,
+   "palabras": 23,
+   "ejemplos": [
+    "a) La investigación de los supuestos de hecho de las obligaciones tributarias para el desc"
+   ]
+  },
+  "[a142]": {
+   "casos": 1,
+   "palabras": 9,
+   "ejemplos": [
+    "Subsección 2.ª Documentación de las actuaciones de la inspección"
+   ]
+  },
+  "[a144]": {
+   "casos": 2,
+   "palabras": 9,
+   "ejemplos": [
+    "Sección 2.ª Procedimiento de inspección",
+    "Subsección 1.ª Normas generales"
+   ]
+  },
+  "[a146]": {
+   "casos": 1,
+   "palabras": 5,
+   "ejemplos": [
+    "Subsección 2.ª Iniciación y desarrollo"
+   ]
+  },
+  "[a147]": {
+   "casos": 1,
+   "palabras": 37,
+   "ejemplos": [
+    "2. Los obligados tributarios deben ser informados al inicio de las actuaciones del procedi"
+   ]
+  },
+  "[a150]": {
+   "casos": 7,
+   "palabras": 321,
+   "ejemplos": [
+    "1.º Que la Cifra Anual de Negocios del obligado tributario sea igual o superior al requeri",
+    "Cuando se realicen actuaciones inspectoras con diversas personas o entidades vinculadas de",
+    "artículo 18 de la Ley 27/2014, de 27 de noviembre"
+   ]
+  },
+  "[a151]": {
+   "casos": 2,
+   "palabras": 57,
+   "ejemplos": [
+    "a) En el lugar donde el obligado tributario tenga su domicilio fiscal, o en aquel donde su",
+    "2. La inspección podrá personarse sin previa comunicación en las empresas, oficinas, depen"
+   ]
+  },
+  "[a152]": {
+   "casos": 1,
+   "palabras": 7,
+   "ejemplos": [
+    "Subsección 3.ª Terminación de las actuaciones inspectoras"
+   ]
+  },
+  "[a153]": {
+   "casos": 1,
+   "palabras": 8,
+   "ejemplos": [
+    "a) El lugar y fecha de su formalización."
+   ]
+  },
+  "[a156]": {
+   "casos": 2,
+   "palabras": 35,
+   "ejemplos": [
+    "a) Rectificando errores materiales.",
+    "4. Para la imposición de las sanciones que puedan proceder como consecuencia de estas liqu"
+   ]
+  },
+  "[a157]": {
+   "casos": 1,
+   "palabras": 4,
+   "ejemplos": [
+    "Subsección 4.ª Disposiciones especiales"
+   ]
+  },
+  "[a158]": {
+   "casos": 4,
+   "palabras": 189,
+   "ejemplos": [
+    "a) Las causas determinantes de la aplicación del método de estimación indirecta.",
+    "2. La aplicación del método de estimación indirecta no requerirá acto administrativo previ",
+    "a) Los signos, índices y módulos establecidos para el método de estimación objetiva, que s"
+   ]
+  },
+  "[a159]": {
+   "casos": 2,
+   "palabras": 9,
+   "ejemplos": [
+    "Actuaciones y procedimiento de recaudación",
+    "Sección 1.ª Disposiciones generales"
+   ]
+  },
+  "[a160]": {
+   "casos": 1,
+   "palabras": 23,
+   "ejemplos": [
+    "a) En período voluntario, mediante el pago o cumplimiento del obligado tributario en los p"
+   ]
+  },
+  "[a161]": {
+   "casos": 2,
+   "palabras": 56,
+   "ejemplos": [
+    "a) En el caso de deudas liquidadas por la Administración tributaria, el día siguiente al d",
+    "2. La presentación de una solicitud de aplazamiento, fraccionamiento o compensación en per"
+   ]
+  },
+  "[a162]": {
+   "casos": 2,
+   "palabras": 9,
+   "ejemplos": [
+    "Sección 2.ª Procedimiento de apremio",
+    "Subsección 1.ª Normas generales"
+   ]
+  },
+  "[a164]": {
+   "casos": 2,
+   "palabras": 80,
+   "ejemplos": [
+    "1.º Cuando concurra con otros procesos o procedimientos singulares de ejecución, el proced",
+    ", General Presupuestaria, sin que ello impida que se dicte la correspondiente providencia "
+   ]
+  },
+  "[a166]": {
+   "casos": 1,
+   "palabras": 9,
+   "ejemplos": [
+    "Subsección 2.ª Iniciación y desarrollo del procedimiento de apremio"
+   ]
+  },
+  "[a167]": {
+   "casos": 2,
+   "palabras": 53,
+   "ejemplos": [
+    "a) Extinción total de la deuda o prescripción del derecho a exigir el pago.",
+    "4. Si el obligado tributario no efectuara el pago dentro del plazo al que se refiere el ap"
+   ]
+  },
+  "[a169]": {
+   "casos": 4,
+   "palabras": 118,
+   "ejemplos": [
+    "a) El importe de la deuda no ingresada.",
+    "2. Si la Administración y el obligado tributario no hubieran acordado otro orden diferente",
+    "a) Dinero efectivo o en cuentas abiertas en entidades de crédito."
+   ]
+  },
+  "[a172]": {
+   "casos": 1,
+   "palabras": 7,
+   "ejemplos": [
+    "Subsección 3.ª Terminación del procedimiento de apremio"
+   ]
+  },
+  "[a173]": {
+   "casos": 4,
+   "palabras": 71,
+   "ejemplos": [
+    "a) Con el pago de la cantidad debida a que se refiere el apartado 1 del artículo 169 de es",
+    "2. En los casos en que se haya declarado el crédito incobrable, el procedimiento de apremi",
+    "Sección 3.ª Procedimiento frente a responsables y sucesores"
+   ]
+  },
+  "[a174]": {
+   "casos": 1,
+   "palabras": 70,
+   "ejemplos": [
+    "5. En el recurso o reclamación contra el acuerdo de derivación de responsabilidad podrá im"
+   ]
+  },
+  "[a175]": {
+   "casos": 2,
+   "palabras": 167,
+   "ejemplos": [
+    "a) Cuando la responsabilidad haya sido declarada y notificada al responsable en cualquier ",
+    "2. El que pretenda adquirir la titularidad de explotaciones y actividades económicas y al "
+   ]
+  },
+  "[a176]": {
+   "casos": 1,
+   "palabras": 7,
+   "ejemplos": [
+    "Subsección 2.ª Procedimiento frente a los sucesores"
+   ]
+  },
+  "[a177]": {
+   "casos": 2,
+   "palabras": 19,
+   "ejemplos": [
+    "Texto añadido, publicado el 31/12/2011, en vigor a partir del 01/01/2012.",
+    "Principios de la potestad sancionadora en materia tributaria"
+   ]
+  },
+  "[a179]": {
+   "casos": 2,
+   "palabras": 57,
+   "ejemplos": [
+    "a) Cuando se realicen por quienes carezcan de capacidad de obrar en el orden tributario.",
+    "3. Los obligados tributarios que voluntariamente regularicen su situación tributaria o sub"
+   ]
+  },
+  "[a180]": {
+   "casos": 2,
+   "palabras": 17,
+   "ejemplos": [
+    "Disposiciones generales sobre infracciones y sanciones tributarias",
+    "Sección 1.ª Sujetos responsables de las infracciones y sanciones tributarias"
+   ]
+  },
+  "[a182]": {
+   "casos": 1,
+   "palabras": 10,
+   "ejemplos": [
+    "Sección 2.ª Concepto y clases de infracciones y sanciones tributarias"
+   ]
+  },
+  "[a184]": {
+   "casos": 3,
+   "palabras": 79,
+   "ejemplos": [
+    "a) Las anomalías sustanciales en la contabilidad y en los libros o registros establecidos ",
+    "1.º El incumplimiento absoluto de la obligación de llevanza de la contabilidad o de los li",
+    "b) El empleo de facturas, justificantes u otros documentos falsos o falseados, siempre que"
+   ]
+  },
+  "[a186]": {
+   "casos": 1,
+   "palabras": 8,
+   "ejemplos": [
+    "Sección 3.ª Cuantificación de las sanciones tributarias pecuniarias"
+   ]
+  },
+  "[a188]": {
+   "casos": 7,
+   "palabras": 314,
+   "ejemplos": [
+    "a) Un 65 por ciento en los supuestos de actas con acuerdo previstos en el artículo 155 de ",
+    "a) En los supuestos previstos en el párrafo a) del apartado anterior, cuando se haya inter",
+    "3. El importe de la sanción que deba ingresarse por la comisión de cualquier infracción, u"
+   ]
+  },
+  "[a189]": {
+   "casos": 2,
+   "palabras": 41,
+   "ejemplos": [
+    "a) Por cualquier acción de la Administración tributaria, realizada con conocimiento formal",
+    "4. La prescripción se aplicará de oficio por la Administración tributaria, sin necesidad d"
+   ]
+  },
+  "[a190]": {
+   "casos": 1,
+   "palabras": 7,
+   "ejemplos": [
+    "Clasificación de las infracciones y sanciones tributarias"
+   ]
+  },
+  "[a191]": {
+   "casos": 3,
+   "palabras": 57,
+   "ejemplos": [
+    "a) Cuando se hayan utilizado facturas, justificantes o documentos falsos o falseados, aunq",
+    "a) Cuando se hayan utilizado facturas, justificantes o documentos falsos o falseados, sin ",
+    "La utilización de medios fraudulentos determinará que la infracción sea calificada en todo"
+   ]
+  },
+  "[a192]": {
+   "casos": 3,
+   "palabras": 57,
+   "ejemplos": [
+    "a) Cuando se hayan utilizado facturas, justificantes o documentos falsos o falseados, aunq",
+    "a) Cuando se hayan utilizado facturas, justificantes o documentos falsos o falseados, sin ",
+    "La utilización de medios fraudulentos determinará que la infracción sea calificada en todo"
+   ]
+  },
+  "[a193]": {
+   "casos": 3,
+   "palabras": 57,
+   "ejemplos": [
+    "a) Cuando se hayan utilizado facturas, justificantes o documentos falsos o falseados, aunq",
+    "a) Cuando se hayan utilizado facturas, justificantes o documentos falsos o falseados, sin ",
+    "La utilización de medios fraudulentos determinará que la infracción sea calificada en todo"
+   ]
+  },
+  "[a200]": {
+   "casos": 1,
+   "palabras": 21,
+   "ejemplos": [
+    "a) La inexactitud u omisión de operaciones en la contabilidad o en los libros y registros "
+   ]
+  },
+  "[a201]": {
+   "casos": 4,
+   "palabras": 105,
+   "ejemplos": [
+    "a) permitan llevar contabilidades distintas en los términos del artículo 200.1.d) de esta ",
+    "2. Constituye infracción tributaria la tenencia de los sistemas o programas informáticos o",
+    "Esta modificación entra en vigor el 11 de octubre de 2021, transcurridos tres meses desde "
+   ]
+  },
+  "[a203]": {
+   "casos": 9,
+   "palabras": 357,
+   "ejemplos": [
+    "a) Cuando el incumplimiento lo realicen personas o entidades que no desarrollen actividade",
+    "1.º Multa pecuniaria fija de 1.000 euros, si no comparece o no se facilita la actuación ad",
+    "– Si el incumplimiento se refiere a magnitudes monetarias conocidas, en multa pecuniaria p"
+   ]
+  },
+  "[a206]": {
+   "casos": 5,
+   "palabras": 147,
+   "ejemplos": [
+    "a) La falta de ingreso dentro del plazo establecido en la normativa de cada tributo de la ",
+    "2. El incumplimiento a que se refiere el apartado anterior constituirá infracción tributar",
+    "a) Multa pecuniaria proporcional del 50 % de la cuantía no ingresada en el supuesto del ap"
+   ]
+  },
+  "[a207]": {
+   "casos": 1,
+   "palabras": 17,
+   "ejemplos": [
+    "a) Por las normas especiales establecidas en este título y la normativa reglamentaria dict"
+   ]
+  },
+  "[a208]": {
+   "casos": 2,
+   "palabras": 86,
+   "ejemplos": [
+    "a) A ser notificado de los hechos que se le imputen, de las infracciones que tales hechos ",
+    "4. La práctica de notificaciones en el procedimiento sancionador en materia tributaria se "
+   ]
+  },
+  "[a211]": {
+   "casos": 1,
+   "palabras": 19,
+   "ejemplos": [
+    "a) El Consejo de Ministros, si consisten en la suspensión del ejercicio de profesiones ofi"
+   ]
+  },
+  "[a213]": {
+   "casos": 2,
+   "palabras": 81,
+   "ejemplos": [
+    "a) Los procedimientos especiales de revisión.",
+    "2. Las resoluciones firmes de los órganos económico-administrativos, así como los actos de"
+   ]
+  },
+  "[a215]": {
+   "casos": 1,
+   "palabras": 12,
+   "ejemplos": [
+    "a) La inadmisión de escritos de cualquier clase presentados por los interesados."
+   ]
+  },
+  "[a216]": {
+   "casos": 2,
+   "palabras": 19,
+   "ejemplos": [
+    "a) Revisión de actos nulos de pleno derecho.",
+    "Sección 1.ª Procedimiento de revisión de actos nulos de pleno derecho"
+   ]
+  },
+  "[a217]": {
+   "casos": 7,
+   "palabras": 169,
+   "ejemplos": [
+    "a) Que lesionen los derechos y libertades susceptibles de amparo constitucional.",
+    "2. El procedimiento para declarar la nulidad a que se refiere este artículo podrá iniciars",
+    "a) Por acuerdo del órgano que dictó el acto o de su superior jerárquico."
+   ]
+  },
+  "[a218]": {
+   "casos": 1,
+   "palabras": 3,
+   "ejemplos": [
+    "Sección 3.ª Revocación"
+   ]
+  },
+  "[a219]": {
+   "casos": 1,
+   "palabras": 5,
+   "ejemplos": [
+    "Sección 4.ª Rectificación de errores"
+   ]
+  },
+  "[a220]": {
+   "casos": 3,
+   "palabras": 46,
+   "ejemplos": [
+    "a) La caducidad del procedimiento iniciado de oficio, sin que ello impida que pueda inicia",
+    "3. Las resoluciones que se dicten en este procedimiento serán susceptibles de recurso de r",
+    "Sección 5.ª Devolución de ingresos indebidos"
+   ]
+  },
+  "[a224]": {
+   "casos": 1,
+   "palabras": 24,
+   "ejemplos": [
+    "Se renumera el apartado 5 como 6 y se añade un 5 por el art. único.38 de la Ley 34/2015, d"
+   ]
+  },
+  "[a225]": {
+   "casos": 3,
+   "palabras": 41,
+   "ejemplos": [
+    "Se renumeran los apartados 3, 4 y 5 como 4, 5 y 6 y se añade un 3 por el art. único.39 de ",
+    "Sección 1.ª Disposiciones generales",
+    "Subsección 1.ª Ámbito de las reclamaciones económico-administrativas"
+   ]
+  },
+  "[a226]": {
+   "casos": 1,
+   "palabras": 56,
+   "ejemplos": [
+    "a) La aplicación de los tributos del Estado o de los recargos establecidos sobre ellos y l"
+   ]
+  },
+  "[a227]": {
+   "casos": 1,
+   "palabras": 5,
+   "ejemplos": [
+    "Subsección 2.ª Organización y competencias"
+   ]
+  },
+  "[a229]": {
+   "casos": 6,
+   "palabras": 504,
+   "ejemplos": [
+    "a) En única instancia, de las reclamaciones económico-administrativas que se interpongan c",
+    "a) En única instancia, de las reclamaciones que se interpongan contra los actos administra",
+    "3. Cuando existan resoluciones de una Sala desconcentrada de un Tribunal Económico-Adminis"
+   ]
+  },
+  "[a230]": {
+   "casos": 3,
+   "palabras": 117,
+   "ejemplos": [
+    "a) Las interpuestas por un mismo interesado relativas al mismo tributo, que deriven de un ",
+    "2. Fuera de los casos establecidos en el número anterior, el Tribunal, de oficio o a insta",
+    "Téngase en cuenta para su aplicación la disposición transitoria única.7.a) de la citada Le"
+   ]
+  },
+  "[a231]": {
+   "casos": 1,
+   "palabras": 3,
+   "ejemplos": [
+    "Subsección 3.ª Interesados"
+   ]
+  },
+  "[a232]": {
+   "casos": 4,
+   "palabras": 55,
+   "ejemplos": [
+    "a) Los obligados tributarios y los sujetos infractores.",
+    "2. No estarán legitimados:",
+    "3. En el procedimiento económico-administrativo ya iniciado podrán comparecer todos los qu"
+   ]
+  },
+  "[a233]": {
+   "casos": 3,
+   "palabras": 47,
+   "ejemplos": [
+    "Se renumeran los apartados 7 a 12 como 8 a 13 y se añade un 7 por el art. único.42 de la L",
+    "Téngase en cuenta para su aplicación la disposición transitoria única.7.b) de la citada Le",
+    "Sección 2.ª Procedimiento general económico-administrativo"
+   ]
+  },
+  "[a234]": {
+   "casos": 2,
+   "palabras": 22,
+   "ejemplos": [
+    "Téngase en cuenta para su aplicación la disposición transitoria única.7.a) de la citada Le",
+    "Subsección 1.ª Procedimiento en única o primera instancia"
+   ]
+  },
+  "[a235]": {
+   "casos": 1,
+   "palabras": 16,
+   "ejemplos": [
+    "Téngase en cuenta para su aplicación la disposición transitoria única.7.a) y c) de la cita"
+   ]
+  },
+  "[a236]": {
+   "casos": 1,
+   "palabras": 14,
+   "ejemplos": [
+    "Téngase en cuenta para su aplicación la disposición transitoria única.7.d) de la citada Le"
+   ]
+  },
+  "[a239]": {
+   "casos": 2,
+   "palabras": 71,
+   "ejemplos": [
+    "1.ª) El ejercicio de esta facultad deberá ser comunicado por escrito al Tribunal Económico",
+    "Téngase en cuenta para su aplicación la disposición transitoria única.7.e) de la citada Le"
+   ]
+  },
+  "[a240]": {
+   "casos": 1,
+   "palabras": 6,
+   "ejemplos": [
+    "Subsección 2.ª Recursos en vía económico-administrativa"
+   ]
+  },
+  "[a241]": {
+   "casos": 2,
+   "palabras": 25,
+   "ejemplos": [
+    "Téngase en cuenta para su aplicación la disposición transitoria única.7.a) de la citada Le",
+    "Texto añadido, publicado el 22/09/2015, en vigor a partir del 12/10/2015."
+   ]
+  },
+  "[a242]": {
+   "casos": 1,
+   "palabras": 14,
+   "ejemplos": [
+    "Téngase en cuenta para su aplicación la disposición transitoria única.7.a) de la citada Le"
+   ]
+  },
+  "[a244]": {
+   "casos": 3,
+   "palabras": 57,
+   "ejemplos": [
+    "a) Que aparezcan documentos de valor esencial para la decisión del asunto que fueran poste",
+    "2. La legitimación para interponer este recurso será la prevista en el apartado 3 del artí",
+    "Sección 3.ª Procedimiento abreviado"
+   ]
+  },
+  "[a245]": {
+   "casos": 1,
+   "palabras": 14,
+   "ejemplos": [
+    "Téngase en cuenta para su aplicación la disposición transitoria única.7.a) de la citada Le"
+   ]
+  },
+  "[a246]": {
+   "casos": 3,
+   "palabras": 71,
+   "ejemplos": [
+    "a) Identificación del reclamante y del acto o actuación contra el que se reclama, el domic",
+    "2. La reclamación se dirigirá al órgano al que se refieren los apartados 3 y 5 del artícul",
+    "Téngase en cuenta para su aplicación la disposición transitoria única.7.a) de la citada Le"
+   ]
+  },
+  "[a247]": {
+   "casos": 1,
+   "palabras": 14,
+   "ejemplos": [
+    "Téngase en cuenta para su aplicación la disposición transitoria única.7.a) de la citada Le"
+   ]
+  },
+  "[a248]": {
+   "casos": 1,
+   "palabras": 4,
+   "ejemplos": [
+    "Sección 4.ª Recurso contencioso-administrativo"
+   ]
+  },
+  "[a249]": {
+   "casos": 54,
+   "palabras": 1185,
+   "ejemplos": [
+    "Actuaciones y procedimientos de aplicación de los tributos en supuestos de delito contra l",
+    "Téngase en cuenta para su aplicación la disposición transitoria única.8 de la citada Ley.",
+    "Texto añadido, publicado el 22/09/2015, en vigor a partir del 12/10/2015."
+   ]
+  },
+  "[daquinta]": {
+   "casos": 2,
+   "palabras": 45,
+   "ejemplos": [
+    "a) El nombre y apellidos o razón social del declarante.",
+    "4. La declaración censal de modificación contendrá cualquier variación que afecte a los da"
+   ]
+  },
+  "[dadecimotercera]": {
+   "casos": 2,
+   "palabras": 73,
+   "ejemplos": [
+    "a) Mediante el nombramiento de funcionarios de las Comunidades Autónomas y de las Ciudades",
+    "La Sala Especial resolverá todas las reclamaciones que versen sobre los actos dictados por"
+   ]
+  },
+  "[dadecimoseptima]": {
+   "casos": 1,
+   "palabras": 11,
+   "ejemplos": [
+    "Texto añadido, publicado el 31/12/2011, en vigor a partir del 01/01/2012."
+   ]
+  },
+  "[dadecimoctava]": {
+   "casos": 1,
+   "palabras": 11,
+   "ejemplos": [
+    "Texto añadido, publicado el 30/10/2012, en vigor a partir del 31/10/2012."
+   ]
+  },
+  "[dadecimonovena]": {
+   "casos": 1,
+   "palabras": 11,
+   "ejemplos": [
+    "Texto añadido, publicado el 30/10/2012, en vigor a partir del 31/10/2012."
+   ]
+  },
+  "[davigesima]": {
+   "casos": 21,
+   "palabras": 506,
+   "ejemplos": [
+    "Texto añadido, publicado el 22/09/2015, en vigor a partir del 12/10/2015.",
+    "Texto añadido, publicado el 22/09/2015, en vigor a partir del 12/10/2015.",
+    "Esta modificación se aplicará a partir del 1 de enero de 2023, según establece la disposic"
+   ]
+  },
+  "[dttercera]": {
+   "casos": 2,
+   "palabras": 101,
+   "ejemplos": [
+    "a) El apartado 2 del artículo 62 de esta Ley, relativo a los plazos de pago en período vol",
+    "3. Los artículos 15 y 159 de esta ley, relativos a la declaración del conflicto en la apli"
+   ]
+  },
+  "[dtcuarta]": {
+   "casos": 1,
+   "palabras": 24,
+   "ejemplos": [
+    "El apartado 2 de esta disposición transitoria entra en vigor el 19 de diciembre de 2003, s"
+   ]
+  },
+  "[dtquinta]": {
+   "casos": 1,
+   "palabras": 50,
+   "ejemplos": [
+    "2. Las normas reglamentarias dictadas en desarrollo de los textos derogados a los que se r"
+   ]
+  },
+  "[dfprimera]": {
+   "casos": 1,
+   "palabras": 3,
+   "ejemplos": [
+    "\"Artículo 6.º Concepto."
+   ]
+  },
+  "[dfsegunda]": {
+   "casos": 2,
+   "palabras": 43,
+   "ejemplos": [
+    "\"1. A los fines previstos en el artículo anterior, la Hacienda del Estado ostentará, entre",
+    "artículos 77, 78, 79, 80, 93, 94, 109, 110, 111, 112, 160 y 161 de la Ley 58/2003, de 17 d"
+   ]
+  },
+  "[dftercera]": {
+   "casos": 5,
+   "palabras": 170,
+   "ejemplos": [
+    "\"Uno. Los sujetos pasivos no residentes en territorio español vendrán obligados a nombrar ",
+    "Dos. El incumplimiento de la obligación a que se refiere el apartado uno constituirá una i",
+    "La sanción impuesta conforme a los párrafos anteriores se graduará incrementando la cuantí"
+   ]
+  },
+  "[dfcuarta]": {
+   "casos": 10,
+   "palabras": 202,
+   "ejemplos": [
+    "\"2. Los interesados deberán consignar en la declaración que están obligados a presentar se",
+    "Si el valor al que se refiere el párrafo anterior no hubiera sido comunicado, se les conce",
+    "artículo 40 de la Ley 29/1987, de 18 de diciembre"
+   ]
+  },
+  "[dfquinta]": {
+   "casos": 21,
+   "palabras": 513,
+   "ejemplos": [
+    "\"Artículo 170. Infracciones.",
+    "Uno. Sin perjuicio de las disposiciones especiales previstas en este título, las infraccio",
+    "y demás normas de general aplicación."
+   ]
+  },
+  "[dfsexta]": {
+   "casos": 50,
+   "palabras": 2018,
+   "ejemplos": [
+    "\"Artículo 19. Infracciones y sanciones.",
+    "1. El régimen de infracciones y sanciones en materia de impuestos especiales de fabricació",
+    ", en las normas específicas que para cada uno de estos impuestos se establecen en esta ley"
+   ]
+  },
+  "[dfseptima]": {
+   "casos": 2,
+   "palabras": 33,
+   "ejemplos": [
+    "\"3. El incumplimiento de las obligaciones contenidas en los dos apartados anteriores tiene",
+    "para las declaraciones censales.\""
+   ]
+  },
+  "[dfoctava]": {
+   "casos": 31,
+   "palabras": 721,
+   "ejemplos": [
+    "\"Artículo 63. Infracciones y sanciones.",
+    "1. Las infracciones tributarias en este impuesto se calificarán y sancionarán conforme a l",
+    "y demás normas de general aplicación, sin perjuicio de las especialidades previstas en est"
+   ]
+  },
+  "[dfundecima]": {
+   "casos": 18,
+   "palabras": 91,
+   "ejemplos": [
+    "Por tanto, Mando a todos los españoles, particulares y autoridades, que guarden y hagan gu",
+    "Madrid, 17 de diciembre de 2003.",
+    "JUAN CARLOS R."
+   ]
+  }
+ }
+}
