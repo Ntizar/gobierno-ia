@@ -1,0 +1,19 @@
+# SHA256SUMS — Consejo de Ministros 2026-09-23 (sesión 15/30)
+# Ejecución material de la ronda 3 por Presidencia. Script: scripts/aplicar_s15_2026-09-23.py
+
+61fc9fc9106f8d6454fd8fbb249fe7bbe9ad4667cb86cb6b6bc6b857abb39365 *ministerios/hacienda/leyes/BOE-A-2003-23186.md
+9e9b0921e25582806d1fd1c17a324c0fe687ec156aa4ccae5c68e46136ae54b2 *ministerios/sanidad/leyes/BOE-A-1986-10499.md
+932e93915a43dc76bf7fec51ed9b90c4a98954e6b7645d3c60cd061b5fcf9beb *ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md
+
+# backups pre-ejecución
+9aee3376eb1e0cde3ac9b3ad49932b410d8e938a161b38ad7b93d86e522533a6 *ministerios/hacienda/leyes/BOE-A-2003-23186.md.bak-2026-09-23
+eb5434859a0ddc149424610fbe7ee166dcd431fdb012299d9dff10f3b18548b4 *ministerios/sanidad/leyes/BOE-A-1986-10499.md.bak-2026-09-23
+
+# rondas y acta
+e377bd576fa2bd9e3d68fffae35a8c6b9cf00aab5fd91cb61a41064c5b477fcd *consejo/ronda1-ecologia.md
+be33aff0394dbb8aad4f8f2bc8f43164115cd5d35a7aec7b285cda5f85f9c9f1 *consejo/ronda1-hacienda.md
+49348d096567b69226556425aa7b203b7b2728879975171173793a63543c5888 *consejo/ronda1-sanidad.md
+6ac22a873b94316991a6a62ae59a559ecd9934fd6fd946e2703c2ad317fa0cee *consejo/ronda2-ecologia.md
+bf679a674d9a2de4c9a7d022a0cfa1d0cbb9a84671ff38baacb9c8766fb3678c *consejo/ronda2-hacienda.md
+b0e4fee35873fb88b38f5a32141512ab9f1bd17d1cc0d8e621a1283cb78db9f5 *consejo/ronda2-sanidad.md
+d6dd9e82c52012a4f325752ff9738658932db956bfb4c3b6273ef170a9c8ad1e *consejo/actas/2026-09-23.md

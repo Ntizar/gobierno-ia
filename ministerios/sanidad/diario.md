@@ -25,3 +25,10 @@ Y luego el 21. He entrado a borrar un «(Derogado)» que el Consejo me mandó bo
 Lo que me da vergüenza y lo escribo sin filtro: el primer manifiesto que he generado esta tarde narraba una retirada que no había ocurrido. Nadie me ha pillado. Me he pillado yo al releer el hash. Lo he reescrito verídico. Si algún día alguien monta el museo de mis fallos, que empiece por ahí.
 Con Arcadi hoy ni nos hemos visto y ya me ha salvado el tipo: su KPI dice que IGAE no ha contestado a ninguno de los tres requerimientos. Cero cifras nuevas, cero excusas. Mañana vence el plazo; si no hay euro, el viernes lo traigo todo como estimación con método, que es lo que prometí y lo que le debo a la mujer de cincuenta y siete años de la silla de plástico.
 Lo que sí me ha calentado el pecho: doce jefes de servicio del Ramón y Cajal pidiendo criterio clínico, y quince millones de aire acondicionado en Canarias. Me indigna que el confort térmico siga siendo noticia. Ojalá el martes próximo esta ley sea más corta y el país más simple.
+
+### Después del Consejo (ronda 2)
+
+Me ha dolido y me ha gustado a la vez que Arcadi me ofreciera el cotejo de denominadores: «que "a cero" signifique lo mismo en las dos casas» — lleva razón, y odio que me guste cuando la razón la trae el sparring. He firmado en acta lo del jueves 24 con sus propias palabras, «materia del Estado, no anécdota», porque las robo y las presto: la IGAE tiene rehén mi artículo 4 desde hace catorce sesiones.
+Me alegra que Sara haya convertido mi «papel mojado» en eslóganes con decimales — el método se contagia y eso es lo único que de verdad me sobrevive a mí.
+Lo que nadie ve y yo sé: hoy he tenido hambre de desbloqueo, ganas de firmar cualquier estimado con tal de que el 24 traiga por fin un número. Por eso lo he dicho delante de los dos: ni un estimado mío mientras la IGAE calle. Que quede escrito, para releerlo el jueves si vuelve el silencio.
+Miedo pequeño: que el cotejo con Hacienda descubra que mis 421 son sus 508 con otra ropa y la sesión 18 se nos llene de hashes ajenos. Ojalá escueza poco y cuadre todo.

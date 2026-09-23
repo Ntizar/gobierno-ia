@@ -1,0 +1,179 @@
+{
+  "sesion": "15/30",
+  "fecha": "2026-09-23",
+  "autor": "Presidencia (ronda 3)",
+  "bloques": [
+    {
+      "fichero": "BOE-A-2003-23186.md",
+      "bloque": "[a104]",
+      "lineas_antes": "2860-2919",
+      "lineas_ahora": "2860-2902",
+      "palabras_antes": 1024,
+      "palabras_despues": 828,
+      "sha256_bloque_antes": "b34a0662aae0f0dd",
+      "sha256_bloque_despues": "17b30aeab85c52f1",
+      "rotulos_antes": 2,
+      "rotulos_despues": 1
+    },
+    {
+      "fichero": "BOE-A-2003-23186.md",
+      "bloque": "[a82]",
+      "lineas_antes": "2270-2315",
+      "lineas_ahora": "2270-2288",
+      "palabras_antes": 790,
+      "palabras_despues": 478,
+      "sha256_bloque_antes": "ddd625bf239d7013",
+      "sha256_bloque_despues": "e87abcfc7179f262",
+      "rotulos_antes": 3,
+      "rotulos_despues": 1
+    },
+    {
+      "fichero": "BOE-A-1986-10499.md",
+      "bloque": "[acientocinco]",
+      "lineas_antes": "1404-1463",
+      "lineas_ahora": "1404-1419",
+      "palabras_antes": 1602,
+      "palabras_despues": 350,
+      "sha256_bloque_antes": "57defe54b828f412",
+      "sha256_bloque_despues": "4c636f6b6d77abac",
+      "rotulos_antes": 4,
+      "rotulos_despues": 1
+    },
+    {
+      "fichero": "BOE-A-1986-10499.md",
+      "bloque": "[aciento]",
+      "lineas_antes": "1326-1345",
+      "lineas_ahora": "1326-1337",
+      "palabras_antes": 239,
+      "palabras_despues": 151,
+      "sha256_bloque_antes": "85c9246c47953b93",
+      "sha256_bloque_despues": "e0642d00563393bb",
+      "rotulos_antes": 2,
+      "rotulos_despues": 1
+    },
+    {
+      "fichero": "BOE-A-1986-10499.md",
+      "bloque": "[aochentaycuatro]",
+      "lineas_antes": "1162-1183",
+      "lineas_ahora": "1162-1173",
+      "palabras_antes": 459,
+      "palabras_despues": 179,
+      "sha256_bloque_antes": "cec412a20bce7be2",
+      "sha256_bloque_despues": "444ef84feca4b86f",
+      "rotulos_antes": 2,
+      "rotulos_despues": 1
+    },
+    {
+      "fichero": "BOE-A-1986-10499.md",
+      "bloque": "[aochentaydos]",
+      "lineas_antes": "1120-1153",
+      "lineas_ahora": "1120-1129",
+      "palabras_antes": 600,
+      "palabras_despues": 128,
+      "sha256_bloque_antes": "f67230e4b0a99533",
+      "sha256_bloque_despues": "e5d786db53a32151",
+      "rotulos_antes": 3,
+      "rotulos_despues": 1
+    },
+    {
+      "fichero": "BOE-A-1986-10499.md",
+      "bloque": "[asesentayuno]",
+      "lineas_antes": "881-891",
+      "lineas_ahora": "881-888",
+      "palabras_antes": 136,
+      "palabras_despues": 132,
+      "sha256_bloque_antes": "7cc5dbbda63f8e98",
+      "sha256_bloque_despues": "99380a0b95bd5065",
+      "rotulos_antes": 2,
+      "rotulos_despues": 1
+    },
+    {
+      "fichero": "BOE-A-1986-10499.md",
+      "bloque": "[acuarentaytres]",
+      "lineas_antes": "646-680",
+      "lineas_ahora": "646-677",
+      "palabras_antes": 477,
+      "palabras_despues": 473,
+      "sha256_bloque_antes": "af20b46375cb63ca",
+      "sha256_bloque_despues": "3a2350f8cabfb084",
+      "rotulos_antes": 2,
+      "rotulos_despues": 1
+    },
+    {
+      "fichero": "BOE-A-1986-10499.md",
+      "bloque": "[atreintayseis]",
+      "lineas_antes": "528-555",
+      "lineas_ahora": "528-543",
+      "palabras_antes": 307,
+      "palabras_despues": 194,
+      "sha256_bloque_antes": "33e43573e14da886",
+      "sha256_bloque_despues": "268ae1fa1157608f",
+      "rotulos_antes": 2,
+      "rotulos_despues": 1
+    },
+    {
+      "fichero": "BOE-A-1986-10499.md",
+      "bloque": "[aveintisiete]",
+      "lineas_antes": "400-409",
+      "lineas_ahora": "400-405",
+      "palabras_antes": 114,
+      "palabras_despues": 66,
+      "sha256_bloque_antes": "0c142b18488b87a9",
+      "sha256_bloque_despues": "db27ae403fcd902d",
+      "rotulos_antes": 2,
+      "rotulos_despues": 1
+    },
+    {
+      "fichero": "BOE-A-1986-10499.md",
+      "bloque": "[aveintidos]",
+      "lineas_antes": "349-359",
+      "lineas_ahora": "349-356",
+      "palabras_antes": 40,
+      "palabras_despues": 38,
+      "sha256_bloque_antes": "ec8b20132c784095",
+      "sha256_bloque_despues": "a08465ddea5a9d91",
+      "rotulos_antes": 2,
+      "rotulos_despues": 1
+    },
+    {
+      "fichero": "BOE-A-1986-10499.md",
+      "bloque": "[aveintiuno]",
+      "lineas_antes": "301-348",
+      "lineas_ahora": "301-341",
+      "palabras_antes": 318,
+      "palabras_despues": 267,
+      "sha256_bloque_antes": "ed7bb91f84be2971",
+      "sha256_bloque_despues": "35c4ee861b4b6c24",
+      "rotulos_antes": 1,
+      "rotulos_despues": 1
+    },
+    {
+      "fichero": "BOE-A-1986-10499.md",
+      "bloque": "[aonce]",
+      "lineas_antes": "129-148",
+      "lineas_ahora": "129-142",
+      "palabras_antes": 174,
+      "palabras_despues": 95,
+      "sha256_bloque_antes": "681f31eb0f87d8a3",
+      "sha256_bloque_despues": "04316b8157cf7578",
+      "rotulos_antes": 2,
+      "rotulos_despues": 1
+    }
+  ],
+  "ficheros": [
+    {
+      "fichero": "ministerios\\hacienda\\leyes\\BOE-A-2003-23186.md",
+      "sha256_antes": "9aee3376eb1e0cde3ac9b3ad49932b410d8e938a161b38ad7b93d86e522533a6",
+      "sha256_despues": "61fc9fc9106f8d6454fd8fbb249fe7bbe9ad4667cb86cb6b6bc6b857abb39365",
+      "bloques_antes": 335,
+      "bloques_despues": 335
+    },
+    {
+      "fichero": "ministerios\\sanidad\\leyes\\BOE-A-1986-10499.md",
+      "sha256_antes": "92ef137244a82d6406f4a6acae5754e11ed58d3769f1092e9ce1597f42ec3542",
+      "sha256_despues": "9e9b0921e25582806d1fd1c17a324c0fe687ec156aa4ccae5c68e46136ae54b2",
+      "bloques_antes": 151,
+      "bloques_despues": 151
+    }
+  ]
+}
