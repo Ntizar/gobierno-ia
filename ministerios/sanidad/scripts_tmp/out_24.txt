@@ -1,0 +1,108 @@
+BLOQUES TOTALES: 151
+PALABRAS DUPLICADAS HOY: 15 EN 1 BLOQUES
+  [atreintaycinco] extra=1 words_extra=15 ej='1.ª Las que reciban expresamente dicha calificación en la no'
+HASH [adieciseis] bloque l.169-195: 1edc18632d1aaa599cbabec4e5e73a58a6ddff657880228e6ac709dfbc1d9e61 (pal=434)
+----BLOQUE adieciseis----
+## [adieciseis] Artículo dieciséis
+
+Artículo dieciséis
+
+Las normas de utilización de los servicios sanitarios serán iguales para todos, independientemente de la condición en que se acceda a los mismos. En consecuencia, los usuarios sin derecho a la asistencia de los Servicios de Salud, así como los previstos en el artículo 80, podrán acceder a los servicios sanitarios con la consideración de pacientes privados, de acuerdo con los siguientes criterios:
+
+1. Por lo que se refiere a la atención primaria, se les aplicarán las mismas normas sobre asignación de equipos y libre elección que al resto de los usuarios.
+
+2. El ingreso en centros hospitalarios se efectuará a través de la unidad de admisión del hospital, por medio de una lista de espera única, por lo que no existirá un sistema de acceso y hospitalización diferenciado según la condición del paciente.
+
+3. La facturación por la atención de estos pacientes será efectuada por las respectivas, administraciones de los Centros, tomando como base los costes efectivos. Estos ingresos tendrán la condición de propios de los Servicios de Salud. En ningún caso estos ingresos podrán revertir directamente en aquellos que intervienen en la atención de estos pacientes.
+
+4. El Ministerio de Sanidad, a propuesta de la Dirección General de Cartilla SNS, establecerá los criterios técnicos y el sistema de información de las listas de espera del Sistema Nacional de Salud.
+
+5. El sistema de información de las listas de espera garantizará, como mínimo:
+
+a) La trazabilidad completa del paciente desde la derivación de Atención Primaria hasta la prestación del servicio, incluyendo todos los pasos intermedios (especialista, pruebas diagnósticas, quirófano, alta).
+
+b) La verificación independiente de los datos por una autoridad técnica del Ministe
+HASH [aveintiuno] bloque l.295-334: 883f8655081e4ce8c88ee10e24c168d600ef21041a9be0e24ab5a428b0e37adb (pal=267)
+HASH [atreintayseis] bloque l.508-522: 4b6e4a457d636ff9eb4b1e28443946fc866dd13a551d6fcf1ac96abb10446eb2 (pal=194)
+HASH [aochentaycuatro] bloque l.1100-1110: 8dcf5177cc0582d131bf95fa5fc52e8e99f185bab984f8b00c9b5dd84a53fe41 (pal=179)
+----PLANO art16----
+Artículo dieciséis
+ Artículo diecisiete
+ CAPÍTULO II
+ Artículo dieciocho
+ Artículo diecinueve
+ CAPÍTULO III
+ Artículo veinte
+ CAPÍTULO IV
+ Artículo veintiuno
+ Artículo veintidós
+ CAPÍTULO V
+ Artículo veintitrés
+ Artículo veinticuatro
+ Artículo veinticinco
+ Artículo veintiséis
+ Artículo veintisiete
+ Artículo veintiocho
+ Artículo veintinueve
+ Artículo treinta
+ Artículo treinta y uno
+ CAPÍTULO VI
+ Artículo treinta y dos
+ Artículo treinta y tres
+ Artículo treinta y cuatro
+ Artículo treinta y cinco
+ Artículo treinta y seis
+ Artículo treinta y siete
+ TÍTULO II
+ CAPÍTULO I
+ Artículo treinta y ocho
+ Artículo treinta y nueve
+ Artículo cuarenta
+ CAPÍTULO II
+ Artículo cuarenta y uno
+ CAPÍTULO III
+ Artículo cuarenta y dos
+ CAPÍTULO IV
+ Artículo cuarenta y tres
+ TÍTULO III
+ CAPÍTULO I
+ Artículo cuarenta y cuatro
+ Artículo cuarenta y cinco
+ Artículo cuarenta y seis
+ Artículo cuarenta y siete
+ Artículo cuarenta y ocho
+ CAPÍTULO II
+ Artículo cuarenta y nueve
+ Artículo cincuenta
+ Artículo cincuenta y uno
+ Artículo cincuenta y dos
+ Artículo cincuenta y tres
+ Artículo cincuenta y cuatro
+ Artículo cincuenta y cinco
+ CAPÍTULO III
+ Artículo cincuenta y seis
+ Artículo cincuenta y siete
+ Artículo cincuenta y ocho
+ Artículo cincuenta y nueve
+ Artículo sesenta
+ Artículo sesenta y uno
+ Artículo sesenta y dos
+ Artículo sesenta y tres
+ Artículo sesenta y cuatro
+ Artículo sesenta y cinco
+ Artículo sesenta y seis
+ Artículo sesenta y siete
+ A
+Cartilla en plano: 0
+Cartilla en html: 0 | 'sistema de información de las listas' html: 0
+----HTML art16 (texto plano)----
+Artículo dieciséis Artículo diecisiete CAPÍTULO II Artículo dieciocho Artículo diecinueve CAPÍTULO III Artículo veinte CAPÍTULO IV Artículo veintiuno Artículo veintidós CAPÍTULO V Artículo veintitrés Artículo veinticuatro Artículo veinticinco Artículo veintiséis Artículo veintisiete Artículo veintiocho Artículo veintinueve Artículo treinta Artículo treinta y uno CAPÍTULO VI Artículo treinta y dos Artículo treinta y tres Artículo treinta y cuatro Artículo treinta y cinco Artículo treinta y seis Artículo treinta y siete TÍTULO II CAPÍTULO I Artículo treinta y ocho Artículo treinta y nueve Artículo cuarenta CAPÍTULO II Artículo cuarenta y uno CAPÍTULO III Artículo cuarenta y dos <a
+Ocur. 'Sanidad y Consumo' en ley (lineas): [167, 538, 688, 1090, 1260, 1674]
+Ocur. plano 1986 'Sanidad y Consumo': 5 | html consolidado: 5
+----AGENDA TAIL----
+embre arranca en Galicia, País Vasco y Andalucía la campaña de VRS para los bebés nacidos desde ayer hasta marzo. La pasada temporada inmunizaron a 13.075 críos con una cobertura del 95,7 %. Me encanta esta noticia porque es salud pública sin épica: ninguna sala de espera heroica, simplemente planta de Urgencias de Pediatría en noviembre con menos padres durmiendo en silla. Un 90 % menos de ingresos por bronquiolitis es el mejor argumento vivo del artículo 15: los programas de prevención no gastan, evitan el gasto que pagaríamos en boxes de hospitalización. Y de propina: Servimedia celebra hoy en Madrid su diálogo por el Día Mundial del PTTa con el Gregorio Marañón — las enfermedades raras también tienen su martes.
+  - Conexión: (sin acción normativa — la cobertura vacunal de 2025-2026 ya está incorporada en el texto del art. 15; queda como evidencia de que el marco preventivo funciona)
+
+----KPIS TAIL----
+: 454→245; el acta declaraba 163 por conteo de cuerpo — rindo el número gordo con desglose en manifiesto) | dedup_scan reejecutado: 584→**421 palabras en 11 bloques**; C cerraría el inventario F1 a 0 para la sesión 18; obsolescencia: [aochentaydos] arrastra 5 párrafos sin anclaje en NINGUNA fuente BOE del repo | **1 autocorrección declarada**: manifiesto de errata narraba una retirada que el assert del script abortó → reescrito verídico; 0 citas erróneas a terceros (toda cita, del archivo) | [acuatro]: IGAE SIN respuesta a cierre de hoy (confirmado por KPI de Hacienda, fila 23-09; vence mañana 24, fecha fatal sesión 18) — declarado sin cifra. Laguna declarada: el 21 del repo es literal ORIGINAL 1986, la redacción vigente 2007-2011 no está archivada (descarga sesión 16). Noticias activadoras 3/3 del día. Lección: el (Derogado) del 21 era la DEROGACIÓN del propio 21 (Ley 33/2011, Ref. BOE-A-2011-15623, plano l. 4010-4026) — el acuerdo 37 partía de premisa falsa; con cita, NO se borra |
+

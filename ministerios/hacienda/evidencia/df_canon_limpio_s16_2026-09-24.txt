@@ -1,0 +1,254 @@
+#### CANON dfprimera (sha256 cuerpo limpio 68acf450d856)
+Disposición final primera. Modificación de la
+Ley 8/1989, de 13 de abril
+, de Tasas y Precios públicos.
+El
+artículo 6.º de la Ley 8/1989, de 13 de abril
+, de Tasas y Precios Públicos, quedará redactado de la siguiente forma:
+"Artículo 6.º Concepto.
+Tasas son los tributos cuyo hecho imponible consiste en la utilización privativa o el aprovechamiento especial del dominio público, la prestación de servicios o la realización de actividades en régimen de derecho público que se refieran, afecten o beneficien de modo particular al obligado tributario, cuando los servicios o actividades no sean de solicitud o recepción voluntaria para los obligados tributarios o no se presten o realicen por el sector privado."
+
+##----##
+
+#### CANON dfsegunda (sha256 cuerpo limpio 89acb161a318)
+Disposición final segunda. Modificación del
+Real Decreto Legislativo 1091/1988, de 23 de septiembre
+, por el que se aprueba el texto refundido de la Ley General Presupuestaria.
+El apartado 1 del artículo 32 del
+Real Decreto Legislativo 1091/1988, de 23 de septiembre
+, por el que se aprueba el texto refundido de la Ley General Presupuestaria, quedará redactado de la siguiente forma:
+"1. A los fines previstos en el artículo anterior, la Hacienda del Estado ostentará, entre otras, las prerrogativas reguladas en los
+artículos 77, 78, 79, 80, 93, 94, 109, 110, 111, 112, 160 y 161 de la Ley 58/2003, de 17 de diciembre
+, General Tributaria."
+
+##----##
+
+#### CANON dftercera (sha256 cuerpo limpio b009c109a311)
+Disposición final tercera. Modificación de la
+Ley 19/1991, de 6 de junio
+, del Impuesto sobre el Patrimonio.
+Los apartados uno y dos del
+artículo 6 de la Ley 19/1991, de 6 de junio
+, del Impuesto sobre el Patrimonio, quedarán redactados de la siguiente forma:
+"Uno. Los sujetos pasivos no residentes en territorio español vendrán obligados a nombrar una persona física o jurídica con residencia en España para que les represente ante la Administración tributaria en relación con sus obligaciones por este impuesto, cuando operen por mediación de un establecimiento permanente o cuando por la cuantía y características del patrimonio del sujeto pasivo situado en territorio español, así lo requiera la Administración tributaria, y a comunicar dicho nombramiento, debidamente acreditado, antes del fin del plazo de declaración del impuesto.
+Dos. El incumplimiento de la obligación a que se refiere el apartado uno constituirá una infracción tributaria grave y la sanción consistirá en multa pecuniaria fija de 1.000 euros.
+La sanción impuesta conforme a los párrafos anteriores se graduará incrementando la cuantía resultante en un 100 por ciento si se produce la comisión repetida de infracciones tributarias.
+La sanción impuesta de acuerdo con lo previsto en este apartado se reducirá conforme a lo dispuesto en el apartado 3 del
+artículo 188 de la Ley General Tributaria
+."
+
+##----##
+
+#### CANON dfcuarta (sha256 cuerpo limpio 6297abfe296a)
+Disposición final cuarta. Modificación de la
+Ley 29/1987, de 18 de diciembre
+, del Impuesto sobre Sucesiones y Donaciones.
+Uno. El apartado 2 del
+artículo 18 de la Ley 29/1987, de 18 de diciembre
+, del Impuesto sobre Sucesiones y Donaciones, quedará redactado de la siguiente forma:
+"2. Los interesados deberán consignar en la declaración que están obligados a presentar según el artículo 31 el valor real que atribuyen a cada uno de los bienes y derechos incluidos en la declaración del impuesto. Este valor prevalecerá sobre el comprobado si fuese superior.
+Si el valor al que se refiere el párrafo anterior no hubiera sido comunicado, se les concederá un plazo de diez días para que subsanen la omisión."
+Dos. El
+artículo 40 de la Ley 29/1987, de 18 de diciembre
+, del Impuesto sobre Sucesiones y Donaciones, quedará redactado de la siguiente forma:
+"Artículo 40. Régimen sancionador.
+1. Las infracciones tributarias del impuesto regulado en esta ley serán calificadas y sancionadas con arreglo a lo dispuesto en la
+Ley General Tributaria
+, sin perjuicio de las especialidades previstas en esta ley.
+2. El incumplimiento de la obligación a que se refiere el apartado 2 del artículo 18 de esta ley se considerará infracción grave y la sanción consistirá en multa pecuniaria fija de 500 euros.
+La sanción se graduará incrementando la cuantía resultante en un 100 por ciento si se produce la comisión repetida de infracciones tributarias.
+La sanción impuesta de acuerdo con lo previsto en este apartado se reducirá conforme a lo dispuesto en el apartado 3 del
+artículo 188 de la Ley General Tributaria
+."
+
+##----##
+
+#### CANON dfquinta (sha256 cuerpo limpio e4c79f1b50c0)
+Disposición final quinta. Modificación de la
+Ley 37/1992, de 28 de diciembre
+, del Impuesto sobre el Valor Añadido.
+Uno. El artículo 170 quedará redactado de la siguiente forma:
+"Artículo 170. Infracciones.
+Uno. Sin perjuicio de las disposiciones especiales previstas en este título, las infracciones tributarias en este Impuesto se calificarán y sancionarán conforme a lo establecido en la
+Ley General Tributaria
+y demás normas de general aplicación.
+Dos. Constituirán infracciones tributarias:
+1.º La adquisición de bienes por parte de sujetos pasivos acogidos al régimen especial del recargo de equivalencia sin que en las correspondientes facturas figure expresamente consignado el recargo de equivalencia, salvo los casos en que el adquirente hubiera dado cuenta de ello a la Administración en la forma que se determine reglamentariamente.
+2.º La obtención, mediante acción u omisión culposa o dolosa, de una incorrecta repercusión del Impuesto, siempre y cuando el destinatario de la misma no tenga derecho a la deducción total de las cuotas soportadas.
+Serán sujetos infractores las personas o entidades destinatarias de las referidas operaciones que sean responsables de la acción u omisión a que se refiere el párrafo anterior.
+3.º La repercusión improcedente en factura, por personas que no sean sujetos pasivos del Impuesto, de cuotas impositivas sin que se haya procedido al ingreso de las mismas.
+4.º La no consignación en la autoliquidación a presentar por el periodo correspondiente de las cantidades de las que sea sujeto pasivo el destinatario de las operaciones conforme a los números 2.º y 3.º del apartado uno del artículo 84 o del artículo 85 de esta ley."
+Dos. El artículo 171 quedará redactado de la siguiente forma:
+"Artículo 171. Sanciones.
+Uno. Las infracciones contenidas en el apartado dos del artículo anterior serán graves y se sancionarán con arreglo a las normas siguientes:
+1.º Las establecidas en el ordinal 1.º del apartado dos, con multa pecuniaria proporcional del 50 por ciento del importe del recargo de equivalencia que hubiera debido repercutirse, con un importe mínimo de 30 euros por cada una de las adquisiciones efectuadas sin la correspondiente repercusión del recargo de equivalencia.
+2.º Las establecidas en el ordinal 2.º del apartado dos, con multa pecuniaria proporcional del 50 por ciento del beneficio indebidamente obtenido.
+3.º Las establecidas en el ordinal 3.º del apartado dos, con multa pecuniaria proporcional del 100 por ciento de las cuotas indebidamente repercutidas, con un mínimo de 300 euros por cada factura o documento sustitutivo en que se produzca la infracción.
+4.º Las establecidas en el ordinal 4.º del apartado dos, con multa pecuniaria proporcional del 10 por ciento de la cuota correspondiente a las operaciones no consignadas en la autoliquidación.
+Dos. La sanción impuesta de acuerdo con lo previsto en la norma 4.ª del apartado uno de este artículo se reducirá conforme a lo dispuesto en el apartado 1 del
+artículo 188 de la Ley General Tributaria
+.
+Tres. Las sanciones impuestas de acuerdo con lo previsto en el apartado uno de este artículo se reducirán conforme a lo dispuesto en el apartado 3 del
+artículo 188 de la Ley General Tributaria
+.
+Cuatro. La sanción de pérdida del derecho a obtener beneficios fiscales no será de aplicación en relación con las exenciones establecidas en esta ley y demás normas reguladoras del Impuesto sobre el Valor Añadido."
+
+##----##
+
+#### CANON dfsexta (sha256 cuerpo limpio 5337562fbb37)
+Disposición final sexta. Modificación de la
+Ley 38/1992, de 28 de diciembre
+, de Impuestos Especiales.
+Uno. Se modifica el artículo 19 que quedará redactado de la siguiente manera:
+"Artículo 19. Infracciones y sanciones.
+1. El régimen de infracciones y sanciones en materia de impuestos especiales de fabricación se regirá por lo dispuesto en la
+Ley General Tributaria
+, en las normas específicas que para cada uno de estos impuestos se establecen en esta ley y en las contenidas en los siguientes apartados.
+En particular, cuando las sanciones impuestas de acuerdo con lo previsto en esta ley se deriven de la previa regularización de la situación tributaria del obligado, serán aplicables las reducciones reguladas en el apartado 1 del
+artículo 188 de la Ley General Tributaria
+.
+Las sanciones pecuniarias que se impongan de acuerdo con lo previsto en esta ley se reducirán conforme a lo dispuesto en el apartado 3 del
+artículo 188 de la Ley General Tributaria
+.
+2. En todo caso, constituyen infracciones tributarias graves:
+a) La fabricación e importación de productos objeto de los impuestos especiales de fabricación con incumplimiento de las condiciones y requisitos exigidos en esta ley y su reglamento.
+b) La circulación y tenencia de productos objeto de los impuestos especiales de fabricación con fines comerciales cuando se realice sin cumplimiento de lo previsto en el apartado 7 del artículo 15.
+3. Las infracciones a las que se refiere el apartado anterior se sancionarán con multa pecuniaria proporcional del 100 por ciento de las cuotas que corresponderían a las cantidades de los productos, calculadas aplicando el tipo vigente en la fecha de descubrimiento de la infracción.
+Las sanciones se graduarán incrementando la sanción en un 25 por ciento cuando se produzca comisión repetida de infracciones tributarias. Esta circunstancia se apreciará cuando el infractor, dentro de los dos años anteriores a la comisión de la nueva infracción, hubiese sido sancionado por resolución firme en vía administrativa por infringir cualquiera de las prohibiciones establecidas en el apartado anterior.
+Igualmente, las sanciones se graduarán incrementando la sanción en un 25 por ciento cuando la infracción se cometa mediante el quebrantamiento de las normas de control.
+4. Por la comisión de infracciones tributarias graves podrán imponerse, además, las siguientes sanciones:
+a) El cierre temporal de los establecimientos de los que sean titulares los infractores, por un periodo de seis meses, que será acordado, en su caso, por el Ministro de Hacienda, o el cierre definitivo de los mismos, que será acordado, en su caso, por el Consejo de Ministros. Podrá acordarse el cierre definitivo cuando el sujeto infractor hubiese sido sancionado por resolución firme en vía administrativa por la comisión de una infracción grave dentro de los dos años anteriores que hubiese dado lugar a la imposición de la sanción de cierre temporal del establecimiento.
+b) El precintado por un período de seis meses o la incautación definitiva de los aparatos de venta automática, cuando las infracciones se cometan a través de los mismos. Podrá acordarse la incautación definitiva cuando el sujeto infractor hubiese sido sancionado por resolución firme en vía administrativa por la comisión, por medio del aparato de venta automática, de una infracción grave dentro de los dos años anteriores que hubiera dado lugar a la imposición de la sanción de precintado de dicho aparato.
+A efectos de la imposición de las sanciones previstas en la presente letra, tendrán la consideración de sujetos infractores tanto el titular del aparato de venta automática como el titular del establecimiento donde se encuentra ubicado.
+Salvo en los casos establecidos en el párrafo c) siguiente, la imposición de estas sanciones será acordada por el órgano competente para la imposición de la sanción principal.
+c) No obstante, cuando la imposición de las sanciones previstas en el párrafo b) concurra con la imposición de las previstas en el párrafo a) anterior, procederá la incautación definitiva del aparato de venta automática siempre que se acuerde el cierre definitivo del establecimiento. En los casos en que se produzca esta concurrencia, la imposición de las sanciones será acordada por los órganos previstos en el párrafo a).
+5. La circulación de productos objeto de los impuestos especiales de fabricación sin ir acompañados por los documentos que reglamentariamente se establezcan, cuando no constituya infracción tributaria grave, se sancionará, en concepto de infracción tributaria leve, con multa pecuniaria proporcional del 10 por ciento de la cuota que correspondería a los productos en circulación, con un mínimo de 600 euros.
+6. La tenencia, con fines comerciales, de labores del tabaco que no ostenten marcas fiscales o de reconocimiento, cuando tal requisito sea exigible reglamentariamente, se sancionará:
+a) Con multa de 75 euros por cada 1.000 cigarrillos que se tengan con fines comerciales sin ostentar tales marcas, con un importe mínimo de 600 euros por cada infracción cometida.
+b) Con multa de 600 euros por cada infracción cometida respecto de las restantes labores del tabaco.
+Las sanciones establecidas en los párrafos a) y b) anteriores se graduarán incrementando el importe de la multa en un 50 por ciento en caso de comisión repetida de estas infracciones. La comisión repetida se apreciará cuando el sujeto infractor, dentro de los dos años anteriores a la comisión de la nueva infracción, hubiese sido sancionado en virtud de resolución firme en vía administrativa por la comisión de las infracciones contempladas en este apartado."
+Dos. El artículo 35 quedará redactado de la siguiente manera:
+"Artículo 35. Infracciones y sanciones.
+Constituyen infracciones tributarias graves:
+a) La existencia de diferencias en más en relación con el grado alcohólico volumétrico adquirido del vino o las bebidas fermentadas en existencias en una fábrica de productos intermedios o utilizados en la misma.
+La sanción consistirá en multa pecuniaria proporcional del 100 por ciento de la cuota que correspondería a la diferencia expresada en hectolitros de alcohol puro, aplicando el tipo impositivo establecido para el Impuesto sobre el Alcohol y Bebidas Derivadas.
+b) La existencia de diferencias en menos en relación con el grado alcohólico volumétrico adquirido de los productos intermedios en proceso de fabricación, en existencias en fábrica o salidos de ella.
+La sanción consistirá en multa pecuniaria proporcional del 100 por ciento de la cuota que correspondería a la diferencia expresada en hectolitros de alcohol puro, aplicando el tipo impositivo establecido para el Impuesto sobre el Alcohol y Bebidas Derivadas.
+c) La existencia de diferencia en más en primeras materias, distintas del alcohol y las bebidas derivadas, en fábricas de productos intermedios, que excedan de los porcentajes autorizados reglamentariamente.
+La sanción consistirá en multa pecuniaria proporcional del 100 por ciento de la cuota que correspondería a los productos intermedios a cuya fabricación fuesen a destinarse las primeras materias, presumiéndose que, salvo prueba en contrario, los productos intermedios a que iban a destinarse tendrían un grado alcohólico volumétrico adquirido superior al 15 por ciento vol."
+Tres. Los apartados 1 y 2 del artículo 45 quedarán redactados de la siguiente manera:
+"1. En los supuestos que a continuación se indican, que tendrán el carácter de infracciones tributarias graves, se impondrán las sanciones especiales que para cada uno se detallan:
+a) La puesta en funcionamiento de los aparatos productores de alcohol incumpliendo los trámites reglamentariamente establecidos o expirado el plazo de trabajo declarado, se sancionará con multa pecuniaria proporcional del 150 por ciento de la cuota que resultaría de aplicar el tipo impositivo vigente en el momento del descubrimiento de la infracción al volumen de producción, expresado en hectolitros de alcohol puro a la temperatura de 20 oC, que pudiera obtenerse en trabajo ininterrumpido desde que expiró la última declaración de trabajo, si la hubiera, hasta la fecha del descubrimiento, con un máximo de tres meses.
+b) La rotura de precintos que posibilite el funcionamiento de los aparatos productores de alcohol o su extracción de depósitos precintados, se sancionará con multa pecuniaria proporcional del 100 por ciento de las cuotas calculadas según el apartado anterior o de la correspondiente a la capacidad total del depósito, respectivamente, salvo que de dicha rotura se haya dado conocimiento a la Administración con anterioridad a su descubrimiento por ésta.
+c) Las diferencias en más en primeras materias en fábricas de alcohol que excedan de los porcentajes autorizados reglamentariamente, se sancionarán con multa pecuniaria proporcional del 100 por ciento de la cuota que correspondería al alcohol puro que se pudiera fabricar utilizando dichas primeras materias.
+d) La falta de marcas fiscales o de reconocimiento, superior al 0,5 por 1.000 de las utilizadas, en los recuentos efectuados en los establecimientos autorizados para el embotellado de bebidas derivadas, se sancionará con multa pecuniaria proporcional del 150 por ciento de las cuotas que resultarían de aplicar el tipo impositivo vigente en el momento del descubrimiento de la infracción al volumen de alcohol puro correspondiente a la cantidad de bebidas derivadas cuya circulación pudiese haber sido amparada por dichas marcas, supuestas las bebidas con un grado alcohólico volumétrico adquirido de 40 por ciento vol. y embotelladas en los envases de mayor capacidad según tipo de marca."
+"2. La regeneración de alcoholes total o parcialmente desnaturalizados constituirá infracción tributaria grave que se sancionará, sin perjuicio de la exigencia de la cuota tributaria, con multa pecuniaria proporcional del triple de la cuantía resultante de aplicar al volumen de alcohol regenerado, expresado en hectolitros de alcohol puro, a la temperatura de 20 oC, el tipo impositivo vigente en el momento del descubrimiento de la infracción, pudiendo imponerse, además, la sanción del cierre del establecimiento en que se produjo dicha regeneración, de acuerdo con lo previsto en el apartado 4 del artículo 19 de esta ley. Se considerará que el alcohol total o parcialmente desnaturalizado ha sido regenerado cuando no se justifique su uso o destino."
+Cuatro. Los apartados 1, 4 y 5 del artículo 55 quedarán redactados de la siguiente manera:
+"1. Constituirá infracción tributaria grave la inobservancia de las prohibiciones y limitaciones de uso que se establecen en el artículo 54 de esta ley. Dichas infracciones se sancionarán con arreglo a lo que se dispone en el presente artículo, con independencia de las sanciones que pudieran proceder, de acuerdo con lo dispuesto en el artículo 19 de esta ley, por la posible comisión de otras infracciones tributarias."
+"4. La sanción que se imponga al autor o a cada uno de los autores consistirá:
+a) Cuando el motor del vehículo, artefacto o embarcación con el que se ha cometido la infracción tenga hasta 10 CV de potencia fiscal, en multa pecuniaria fija de 600 euros y sanción no pecuniaria de un mes de precintado e inmovilización del vehículo, artefacto o embarcación. Si del precintado e inmovilización se dedujera grave perjuicio para el interés público general, dicha sanción no se impondrá y la sanción consistirá en multa pecuniaria fija de 1.200 euros.
+b) En motores de más de 10 hasta 25 CV de potencia fiscal, en multa pecuniaria fija de 1.800 euros y sanción no pecuniaria de dos meses de precintado e inmovilización del vehículo, artefacto o embarcación. Si del precintado e inmovilización se dedujera grave perjuicio para el interés público general, la sanción consistirá en multa pecuniaria fija de 3.600 euros.
+c) En motores de más de 25 hasta 50 CV de potencia fiscal, en multa pecuniaria fija de 3.600 euros y sanción no pecuniaria de tres meses de precintado e inmovilización del vehículo, artefacto o embarcación. Si del precintado e inmovilización se dedujera grave perjuicio para el interés público general, la sanción consistirá en multa pecuniaria fija de 7.200 euros.
+d) En motores de más de 50 CV de potencia fiscal, en multa pecuniaria fija de 6.000 euros y sanción no pecuniaria de cuatro meses de precintado e inmovilización del vehículo, artefacto o embarcación. Si del precintado e inmovilización se dedujera grave perjuicio para el interés público general, la sanción consistirá en multa pecuniaria fija de 12.000 euros.
+e) En los supuestos contemplados en el párrafo a) del apartado 2 anterior, la sanción consistirá en multa pecuniaria fija de 600 euros."
+"5. En los casos de comisión repetida de esta clase de infracciones se duplicarán los importes y períodos establecidos en el apartado anterior.
+Esta circunstancia se apreciará cuando el infractor, dentro de los dos años anteriores a la comisión de la nueva infracción, hubiera sido sancionado por resolución firme en vía administrativa por infringir cualquiera de las prohibiciones establecidas en el artículo anterior."
+
+##----##
+
+#### CANON dfseptima (sha256 cuerpo limpio d1811f49e972)
+Disposición final séptima. Modificación de la
+Ley 20/1990, de 19 de diciembre
+, sobre Régimen Fiscal de las Cooperativas.
+El apartado 3 del
+artículo 4 de la Ley 20/1990, de 19 de diciembre
+, sobre Régimen Fiscal de las Cooperativas, quedará redactado de la siguiente manera:
+"3. El incumplimiento de las obligaciones contenidas en los dos apartados anteriores tiene la consideración de infracción tributaria leve y se sancionará de acuerdo con lo dispuesto en la
+Ley General Tributaria
+para las declaraciones censales."
+
+##----##
+
+#### CANON dfoctava (sha256 cuerpo limpio 42357c986bc9)
+Disposición final octava. Modificación de la
+Ley 20/1991, de 7 de junio
+, de modificación de los aspectos fiscales del Régimen Económico Fiscal de Canarias.
+El
+artículo 63 de la Ley 20/1991, de 7 de junio
+, de modificación de los aspectos fiscales del Régimen Económico Fiscal de Canarias, quedará redactado como sigue:
+"Artículo 63. Infracciones y sanciones.
+1. Las infracciones tributarias en este impuesto se calificarán y sancionarán conforme a lo establecido en la
+Ley General Tributaria
+y demás normas de general aplicación, sin perjuicio de las especialidades previstas en este título.
+Las sanciones pecuniarias que se impongan de acuerdo con lo previsto en esta Ley se reducirán conforme a lo dispuesto en el apartado 3 del
+artículo 188 de la Ley General Tributaria
+.
+2. Constituye infracción tributaria la expedición de facturas por los sujetos pasivos incluidos en el régimen especial de comerciantes minoristas sin que en las correspondientes facturas figure expresamente consignada su condición de tales.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria fija de 30 euros por cada una de las facturas emitidas sin hacer constar la condición de comerciante minorista.
+3. Constituye infracción tributaria la obtención, mediante acción u omisión culposa o dolosa, de una incorrecta repercusión del impuesto, siempre y cuando el destinatario de la misma no tenga derecho a la deducción total de las cuotas soportadas.
+Serán sujetos infractores las personas o entidades destinatarias de las referidas operaciones que sean responsables de la acción u omisión a que se refiere el párrafo anterior.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria proporcional del 50 por ciento del beneficio indebidamente obtenido.
+4. Constituye infracción tributaria la repercusión improcedente en factura por personas que no sean sujetos pasivos del impuesto, de cuotas impositivas sin que se haya procedido al ingreso de las mismas.
+Igualmente constituye infracción tributaria la repercusión por parte de sujetos pasivos del impuesto de cuotas impositivas a un tipo superior al legalmente establecido y que no hayan sido devueltas a quienes las soportaron ni declaradas en los plazos de presentación de las declaraciones-liquidaciones del impuesto. La sanción derivada de la comisión de esta infracción será compatible con la que proceda por aplicación del
+artículo 191 de la Ley General Tributaria
+.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria proporcional del 100 por ciento de las cuotas indebidamente repercutidas, con un mínimo de 300 euros por cada factura o documento sustitutivo en que se produzca la infracción. Cuando se trate de sujetos pasivos del impuesto, la base de la sanción consistirá en la diferencia entre la cuota derivada de la aplicación del tipo impositivo legalmente aplicable y el indebidamente repercutido.
+5. Constituye infracción tributaria la no consignación en la autoliquidación a presentar por el período correspondiente de las cuotas de las que sea sujeto pasivo el destinatario de las operaciones conforme al apartado 2.º del número 1 del artículo 19 de esta ley y el apartado 2 del artículo 25 de la Ley 19/1994.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria proporcional del 75 por ciento de la cuota tributaria correspondiente a las operaciones no consignadas en la autoliquidación.
+La sanción impuesta de acuerdo con lo previsto en este apartado se reducirá conforme a lo dispuesto en el apartado 1 del
+artículo 188 de la Ley General Tributaria
+.
+6. Constituye infracción tributaria retirar los bienes importados sin que la Administración Tributaria Canaria haya autorizado previamente su levantamiento en los términos previstos reglamentariamente así como disponer de los bienes sin la preceptiva autorización antes de que, por los Servicios de la Administración Tributaria Canaria, se hubiese procedido a su reconocimiento físico o extracción de muestras, en el caso de que se hubiese comunicado por dichos servicios al importador o persona que actúe por su cuenta la intención de efectuar las referidas operaciones.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria fija de 600 euros.
+7. Constituye infracción tributaria desplazar del lugar en que se encuentren los bienes importados en relación a los cuales no se haya concedido su levante, o manipular los mismos sin la preceptiva autorización.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria fija de 1.000 euros.
+8. Constituye infracción tributaria el incumplimiento de los requisitos, condiciones y obligaciones, previstos para la autorización y el funcionamiento de los regímenes especiales, así como de los relativos a las zonas, depósitos francos u otros depósitos autorizados.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria fija de 3.000 euros."
+
+##----##
+
+#### CANON dfnovena (sha256 cuerpo limpio 9de989a97656)
+Disposición final novena. Habilitación normativa.
+El Gobierno dictará cuantas disposiciones sean necesarias para el desarrollo y aplicación de esta ley.
+
+##----##
+
+#### CANON dfdecima (sha256 cuerpo limpio ff5acac3147b)
+Disposición final décima. Desarrollo normativo de actuaciones y procedimientos por medios electrónicos, informáticos y telemáticos y relativos a medios de autenticación.
+En el ámbito de competencias del Estado, el Ministro de Hacienda podrá dictar las correspondientes normas de desarrollo aplicables a las actuaciones y procedimientos tributarios que se realicen por medios electrónicos, informáticos o telemáticos y a las relacionadas con los medios de autenticación utilizados por la Administración tributaria.
+
+##----##
+
+#### CANON dfundecima (sha256 cuerpo limpio 153e17012ffc)
+Disposición final undécima. Entrada en vigor.
+La presente ley entrará en vigor el 1 de julio de 2004 salvo el apartado 2 de la disposición transitoria cuarta que entrará en vigor al día siguiente de la publicación de esta ley en el "Boletín Oficial del Estado".
+Por tanto, Mando a todos los españoles, particulares y autoridades, que guarden y hagan guardar esta ley.
+Madrid, 17 de diciembre de 2003.
+JUAN CARLOS R.
+El Presidente del Gobierno,
+JOSÉ MARÍA AZNAR LÓPEZ
+Este documento es de carácter informativo y no tiene valor jurídico.
+Ayúdenos a mejorar: puede dirigir sus comentarios y sugerencias a nuestro
+Servicio de atención al ciudadano
+Contactar
+Sobre la sede electrónica
+Mapa
+Aviso legal
+Accesibilidad
+Protección de datos
+Sistema Interno de Información
+Tutoriales
+Empleo en la AEBOE
+Agencia Estatal Boletín Oficial del Estado
+Avda.
+de Manoteras, 54 - 28050 Madrid
+
+##----##
+

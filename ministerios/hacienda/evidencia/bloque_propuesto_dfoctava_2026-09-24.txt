@@ -1,0 +1,31 @@
+## [dfoctava] Disposición final octava
+
+Disposición final octava. Modificación de la Ley 20/1991, de 7 de junio, de modificación de los aspectos fiscales del Régimen Económico Fiscal de Canarias.
+El artículo 63 de la Ley 20/1991, de 7 de junio, de modificación de los aspectos fiscales del Régimen Económico Fiscal de Canarias, quedará redactado como sigue:
+"Artículo 63. Infracciones y sanciones.
+1. Las infracciones tributarias en este impuesto se calificarán y sancionarán conforme a lo establecido en la Ley General Tributaria y demás normas de general aplicación, sin perjuicio de las especialidades previstas en este título.
+Las sanciones pecuniarias que se impongan de acuerdo con lo previsto en esta Ley se reducirán conforme a lo dispuesto en el apartado 3 del artículo 188 de la Ley General Tributaria.
+2. Constituye infracción tributaria la expedición de facturas por los sujetos pasivos incluidos en el régimen especial de comerciantes minoristas sin que en las correspondientes facturas figure expresamente consignada su condición de tales.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria fija de 30 euros por cada una de las facturas emitidas sin hacer constar la condición de comerciante minorista.
+3. Constituye infracción tributaria la obtención, mediante acción u omisión culposa o dolosa, de una incorrecta repercusión del impuesto, siempre y cuando el destinatario de la misma no tenga derecho a la deducción total de las cuotas soportadas.
+Serán sujetos infractores las personas o entidades destinatarias de las referidas operaciones que sean responsables de la acción u omisión a que se refiere el párrafo anterior.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria proporcional del 50 por ciento del beneficio indebidamente obtenido.
+4. Constituye infracción tributaria la repercusión improcedente en factura por personas que no sean sujetos pasivos del impuesto, de cuotas impositivas sin que se haya procedido al ingreso de las mismas.
+Igualmente constituye infracción tributaria la repercusión por parte de sujetos pasivos del impuesto de cuotas impositivas a un tipo superior al legalmente establecido y que no hayan sido devueltas a quienes las soportaron ni declaradas en los plazos de presentación de las declaraciones-liquidaciones del impuesto. La sanción derivada de la comisión de esta infracción será compatible con la que proceda por aplicación del artículo 191 de la Ley General Tributaria.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria proporcional del 100 por ciento de las cuotas indebidamente repercutidas, con un mínimo de 300 euros por cada factura o documento sustitutivo en que se produzca la infracción. Cuando se trate de sujetos pasivos del impuesto, la base de la sanción consistirá en la diferencia entre la cuota derivada de la aplicación del tipo impositivo legalmente aplicable y el indebidamente repercutido.
+5. Constituye infracción tributaria la no consignación en la autoliquidación a presentar por el período correspondiente de las cuotas de las que sea sujeto pasivo el destinatario de las operaciones conforme al apartado 2.º del número 1 del artículo 19 de esta ley y el apartado 2 del artículo 25 de la Ley 19/1994.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria proporcional del 75 por ciento de la cuota tributaria correspondiente a las operaciones no consignadas en la autoliquidación.
+La sanción impuesta de acuerdo con lo previsto en este apartado se reducirá conforme a lo dispuesto en el apartado 1 del artículo 188 de la Ley General Tributaria.
+6. Constituye infracción tributaria retirar los bienes importados sin que la Administración Tributaria Canaria haya autorizado previamente su levantamiento en los términos previstos reglamentariamente así como disponer de los bienes sin la preceptiva autorización antes de que, por los Servicios de la Administración Tributaria Canaria, se hubiese procedido a su reconocimiento físico o extracción de muestras, en el caso de que se hubiese comunicado por dichos servicios al importador o persona que actúe por su cuenta la intención de efectuar las referidas operaciones.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria fija de 600 euros.
+7. Constituye infracción tributaria desplazar del lugar en que se encuentren los bienes importados en relación a los cuales no se haya concedido su levante, o manipular los mismos sin la preceptiva autorización.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria fija de 1.000 euros.
+8. Constituye infracción tributaria el incumplimiento de los requisitos, condiciones y obligaciones, previstos para la autorización y el funcionamiento de los regímenes especiales, así como de los relativos a las zonas, depósitos francos u otros depósitos autorizados.
+La infracción prevista en este apartado será grave.
+La sanción consistirá en multa pecuniaria fija de 3.000 euros."
