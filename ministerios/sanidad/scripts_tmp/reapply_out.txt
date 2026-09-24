@@ -1,0 +1,4 @@
+ANTES: rótulos sueltos = 3 | copias del 1. = 2 | apdo 5 antiguo = 1 | apdo 5 reformado = 1 | marcadores Derogado = 1
+DESPUÉS: rótulos = 1 | copia del 1. = 1 | 5 antiguo = 0 | 5 reformado = 1 | Derogado = 1
+PALABRAS BLOQUE: antes 454 -> después 245 | retiradas: 209
+OK manifiesto escrito

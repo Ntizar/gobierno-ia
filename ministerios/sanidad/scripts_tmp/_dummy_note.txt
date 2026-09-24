@@ -1,0 +1,5 @@
+# Restauración del marcador (Derogado) del [aveintiuno]: RETIRO mi propia ejecución de la errata.
+# Motivo (verificado contra las 3 fuentes del repo): el consolidado canónico dice que el art. 21 está
+# DEROGADO ÍNTEGRAMOS por la DF única de la Ley 33/2011 (Ref. BOE-A-2011-15623) => el marcador ES el
+# derogatorio del PROPIO art. 21, no de un apartado ajeno. Borrarlo sería perder una derogación vigente.
+# Se rehace el fichero desde el .bak de sesión aplicando SOLO el acuerdo 6 (dedup

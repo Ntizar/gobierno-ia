@@ -1,0 +1,41 @@
+items: 20
+- Comunidad Madrid | El Hospital Infanta Elena refuerza la seguridad asistencial con una correcta gestión de la medicación | Wed, 23 Sep 2026 13:20:20 +0200
+  https://www.consalud.es/autonomias/c-madrid/el-hospital-infanta-elena-refuerza-la-seguridad-asistencial-con-una-correcta-gestion-de-la-medicacion.html
+- avances | La medicina de precisión revoluciona el tratamiento de pacientes con cáncer de mama metastásico | Wed, 23 Sep 2026 13:18:49 +0200
+  https://www.consalud.es/pacientes/pacientes-avances/la-medicina-de-precision-revoluciona-el-tratamiento-de-pacientes-con-cancer-de-mama-metastasico.html
+- Comunidad Madrid | Biosur toma forma: Madrid abre la consulta pública para su nueva fundación biomédica | Wed, 23 Sep 2026 13:17:03 +0200
+  https://www.consalud.es/autonomias/c-madrid/biosur-toma-forma-madrid-abre-la-consulta-publica-para-su-nueva-fundacion-biomedica.html
+- Comunidad Madrid | Madrid reduce un 65% la lista de espera en Atención Temprana desde el inicio de la Legislatura | Wed, 23 Sep 2026 13:04:15 +0200
+  https://www.consalud.es/autonomias/c-madrid/madrid-reduce-un-65-la-lista-de-espera-de-atencion-temprana-desde-el-inicio-de-la-legislatura.html
+- formación | FP de Laboratorio para trabajar en el ámbito biomédico | Wed, 23 Sep 2026 12:49:25 +0200
+  https://www.consalud.es/formacion/fp-de-laboratorio-para-trabajar-en-el-ambito-biomedico.html
+- profesionales | Más de 23 millones de personas padecen algún tipo de enfermedad neurológica en España: "Su carga sociosanitaria au | Wed, 23 Sep 2026 12:52:40 +0200
+  https://www.consalud.es/profesionales/el-autobus-del-cerebro-promovera-la-salud-cerebral-en-cinco-ciudades-espanolas.html
+- extremadura | Sara García Espada destaca el "papel fundamental" de la Atención Primaria en el sistema sanitario | Wed, 23 Sep 2026 12:48:16 +0200
+  https://www.consalud.es/autonomias/extremadura/sara-garcia-espada-destaca-el-papel-fundamental-de-la-atencion-primaria-en-el-sistema-sanitario.html
+- castilla-la mancha | Castilla- La Mancha inicia el proceso para aprobar la ley que blinda la carrera profesional sanitaria | Wed, 23 Sep 2026 12:41:03 +0200
+  https://www.consalud.es/autonomias/castilla-la-mancha/castilla-la-mancha-inicia-el-proceso-para-aprobar-la-ley-que-blinda-la-carrera-profesional-sanitaria.html
+- baleares | Los hospitales públicos de Baleares atienden cerca de 11.950 consultas y 580 operaciones más que el verano pasado | Wed, 23 Sep 2026 12:38:16 +0200
+  https://www.consalud.es/autonomias/baleares/los-hospitales-publicos-de-baleares-atienden-cerca-de-11950-consultas-y-580-operaciones-mas-que-el-verano-pasado.html
+- Comunidad Madrid | Los jefes de servicio quirúrgico del Ramón y Cajal defienden el "criterio clínico" en las listas de espera | Wed, 23 Sep 2026 11:55:31 +0200
+  https://www.consalud.es/autonomias/c-madrid/los-jefes-de-servicio-quirurgico-del-ramon-y-cajal-cierran-filas-en-defensa-del-criterio-clinico-en-las-listas-de-espera.html
+- medicamentos | La terapia budesonida/glicopirronio/fumarato de formoterol aprobada en la UE para el tratamiento de mantenimiento d | Wed, 23 Sep 2026 12:04:37 +0200
+  https://www.consalud.es/industria/medicamentos/la-terapia-budesonida-glicopirronio-fumarato-de-formoterol-aprobada-en-la-ue-para-el-tratamiento-de-mantenimiento-del-asma.
+- política | Ciencia impulsa un Nodo Nacional de Datos en Cáncer para acelerar la investigación oncológica | Wed, 23 Sep 2026 11:38:58 +0200
+  https://www.consalud.es/politica/ciencia-impulsa-el-desarrollo-de-un-nodo-nacional-de-datos-en-cancer-para-acelerar-la-investigacion-oncologica.html
+- lupa sanitaria | La Princesa celebra el Día Mundial de la Seguridad del Paciente con iniciativas para pacientes y profesionales | Wed, 23 Sep 2026 11:35:41 +0200
+  https://www.consalud.es/lupa-sanitaria/la-princesa-celebra-el-dia-mundial-de-la-seguridad-del-paciente-con-iniciativas-para-pacientes-y-profesionales.html
+- pacientes | Las personas con párkinson reclaman un acceso más fácil al tenis de mesa como terapia | Wed, 23 Sep 2026 11:42:42 +0200
+  https://www.consalud.es/pacientes/las-personas-con-parkinson-reclaman-un-acceso-mas-facil-al-tenis-de-mesa-como-terapia.html
+- canarias | Canarias moviliza 15 millones de euros para modernizar la climatización de los centros sanitarios | Wed, 23 Sep 2026 11:34:39 +0200
+  https://www.consalud.es/autonomias/canarias/canarias-moviliza-15-millones-para-modernizar-las-instalaciones-y-climatizacion-de-hospitales-publicos.html
+- terapias | Un tratamiento personalizado logra frenar una infección multirresistente y evita la amputación de un brazo a un herido  | Wed, 23 Sep 2026 11:13:18 +0200
+  https://www.consalud.es/pacientes/terapias/un-tratamiento-personalizado-logra-frenar-una-infeccion-multirresistente-y-evita-la-amputacion-de-un-brazo-a-un-herido-de-guerr
+- país vasco | Así ha cambiado la cirugía cardíaca: expertos y pacientes debaten los avances | Wed, 23 Sep 2026 11:25:55 +0200
+  https://www.consalud.es/autonomias/pais-vasco/la-policlinica-gipuzkoa-acerca-los-avances-de-la-cirugia-cardiaca-al-publico-en-una-nueva-edicion-de-las-aulas-de-salud.html
+- avances | El Hospital La Luz, pionero en el uso de nuevas tecnologías para tratar la fibrilación auricular | Wed, 23 Sep 2026 10:46:21 +0200
+  https://www.consalud.es/pacientes/pacientes-avances/el-hospital-la-luz-pionero-en-el-uso-de-nuevas-tecnologias-para-tratar-la-fibrilacion-auricular.html
+- castilla-la mancha | Castilla-La Mancha sitúa en el 97% el cumplimiento de sus compromisos y destaca la sanidad | Wed, 23 Sep 2026 10:22:11 +0200
+  https://www.consalud.es/autonomias/castilla-la-mancha/castilla-la-mancha-situa-en-el-97-el-cumplimiento-de-sus-compromisos-y-destaca-la-sanidad.html
+- medicina | Marc Miravitlles, presidente de la Sociedad Europea de Respiratorio: “No se tiene conciencia de la gravedad de estas en | Wed, 23 Sep 2026 11:00:01 +0200
+  https://www.consalud.es/profesionales/medicina/marc-miravitlles-presidente-de-la-sociedad-europea-de-respiratorio-no-se-tiene-conciencia-de-la-gravedad-de-estas-enfermeda
