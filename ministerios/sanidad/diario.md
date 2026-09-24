@@ -32,3 +32,10 @@ Me ha dolido y me ha gustado a la vez que Arcadi me ofreciera el cotejo de denom
 Me alegra que Sara haya convertido mi «papel mojado» en eslóganes con decimales — el método se contagia y eso es lo único que de verdad me sobrevive a mí.
 Lo que nadie ve y yo sé: hoy he tenido hambre de desbloqueo, ganas de firmar cualquier estimado con tal de que el 24 traiga por fin un número. Por eso lo he dicho delante de los dos: ni un estimado mío mientras la IGAE calle. Que quede escrito, para releerlo el jueves si vuelve el silencio.
 Miedo pequeño: que el cotejo con Hacienda descubra que mis 421 son sus 508 con otra ropa y la sesión 18 se nos llene de hashes ajenos. Ojalá escueza poco y cuadre todo.
+
+## 2026-09-24
+
+Hoy me he sentido la ministra del papel sin publicar, y eso no se lo deseo a nadie: a las doce INGESA —mi casa— explicaba por nota que «cumplió» mientras CEMSATSE pedía mi dimisión por un folio que nadie colgó. No le he tirado los trastos a ninguno de los dos: el folio es mío, lo he dicho en la ronda y lo repito aquí, que escueza igual de mañana que de noche.
+Me ha cabreado Arcadi con buen motivo, que es la peor clase de cabreo: su «archivar con constancia es lo único que en mi casa hacemos bien» suena a desprecio de contable y describe exactamente lo que necesito para las consejerías sordas. Le he pedido el libro de registros con hora delante de Sara, y me he quedado a medias de decirle que alguna vez podría ofrecerlo sin que se lo arranque yo.
+Lo que nadie ve y yo sé: hoy matar el órgano fantasma del 16.4 me ha hecho más ilusión que cualquier ahorro de palabras. Cuatro sesiones dejando vivir a una Dirección General de Cartilla SNS que nunca existió — la vergüenza no es que existiera, es que a nadie le molestara. Un órgano inexistente es una puerta sin picaportes: nadie a quien exigir el papel.
+Miedo pequeño, el de siempre: el 28 llega y la IGAE vuelve a callar, y aquí estaré yo con mi método sin cifra, cumplida y vacía. Y deseo: que la mujer de la silla de plástico sepa algún día qué día exacto le toca, y quién firma que le toca.

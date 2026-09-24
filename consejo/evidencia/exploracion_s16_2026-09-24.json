@@ -1,0 +1,124 @@
+{
+ "hacienda": {
+  "fichero": "ministerios/hacienda/leyes/BOE-A-2003-23186.md",
+  "sha256_fichero": "61fc9fc9106f8d6454fd8fbb249fe7bbe9ad4667cb86cb6b6bc6b857abb39365",
+  "lineas": 8318,
+  "crlf": 8317,
+  "n_bloques": 335,
+  "detalle": {
+   "dfquinta": {
+    "lineas": [
+     8277,
+     8282
+    ],
+    "n_lineas": 6,
+    "palabras": 33,
+    "sha256_bloque": "f84f25c09bf905b774e4f800516ea03862809eba8b78e4c2da3f2bd0121ac779",
+    "ev_vivo_sha": "f84f25c09bf905b774e4f800516ea03862809eba8b78e4c2da3f2bd0121ac779",
+    "ev_vivo_coincide": true,
+    "ev_prop_sha": "cb81e60233c181e8b01caf1af603cf6848b1e54dae9dcbc1471fb96ac3a8b491",
+    "ev_prop_palabras": 549,
+    "prop_cabecera": "## [dfquinta] Disposición final quinta",
+    "prop_ultima": "Cuatro. La sanción de pérdida del derecho a obtener benefici"
+   },
+   "dfsexta": {
+    "lineas": [
+     8283,
+     8288
+    ],
+    "n_lineas": 6,
+    "palabras": 33,
+    "sha256_bloque": "a74b562573e65aebec59c7437cced4a8ab014e6f1311f4c7a94cd51c7877c24e",
+    "ev_vivo_sha": "a74b562573e65aebec59c7437cced4a8ab014e6f1311f4c7a94cd51c7877c24e",
+    "ev_vivo_coincide": true,
+    "ev_prop_sha": "c4a2ea7498100be275e5f8820c96cab4a9c35188ec78d89b550776fffe024480",
+    "ev_prop_palabras": 2053,
+    "prop_cabecera": "## [dfsexta] Disposición final sexta",
+    "prop_ultima": "Esta circunstancia se apreciará cuando el infractor, dentro "
+   },
+   "dfoctava": {
+    "lineas": [
+     8295,
+     8300
+    ],
+    "n_lineas": 6,
+    "palabras": 56,
+    "sha256_bloque": "f37b1ed4605a4de06c70f6e4fd91bbeae5000c6fbd10f74976e1fbafd318f7b0",
+    "ev_vivo_sha": "f37b1ed4605a4de06c70f6e4fd91bbeae5000c6fbd10f74976e1fbafd318f7b0",
+    "ev_vivo_coincide": true,
+    "ev_prop_sha": "dd4d8bf43edb144ad38fd4d00ebf912d30b57085acb447de1a9a5c754f577779",
+    "ev_prop_palabras": 780,
+    "prop_cabecera": "## [dfoctava] Disposición final octava",
+    "prop_ultima": "La sanción consistirá en multa pecuniaria fija de 3.000 euro"
+   }
+  }
+ },
+ "sanidad": {
+  "fichero": "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
+  "sha256_fichero": "9e9b0921e25582806d1fd1c17a324c0fe687ec156aa4ccae5c68e46136ae54b2",
+  "lineas": 1729,
+  "crlf": 1728,
+  "n_bloques": 151,
+  "detalle": {
+   "adieciseis": {
+    "lineas": [
+     169,
+     196
+    ],
+    "n_lineas": 28,
+    "palabras": 434,
+    "sha256_bloque": "1edc18632d1aaa599cbabec4e5e73a58a6ddff657880228e6ac709dfbc1d9e61",
+    "ev_prop": "NO EXISTE"
+   },
+   "atreintayseis": {
+    "lineas": [
+     508,
+     523
+    ],
+    "n_lineas": 16,
+    "palabras": 194,
+    "sha256_bloque": "4b6e4a457d636ff9eb4b1e28443946fc866dd13a551d6fcf1ac96abb10446eb2",
+    "ev_prop": "NO EXISTE"
+   }
+  }
+ },
+ "ecologia": {
+  "fichero": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
+  "sha256_fichero": "932e93915a43dc76bf7fec51ed9b90c4a98954e6b7645d3c60cd061b5fcf9beb",
+  "lineas": 1069,
+  "crlf": 1068,
+  "n_bloques": 71,
+  "detalle": {
+   "df-11": {
+    "lineas": [
+     1011,
+     1027
+    ],
+    "n_lineas": 17,
+    "palabras": 140,
+    "sha256_bloque": "839dfbb3da93961cf9faceaaaf657111d4c6fef4d2b5cf2677ede71b8ad74184",
+    "ev_vivo_sha": "839dfbb3da93961cf9faceaaaf657111d4c6fef4d2b5cf2677ede71b8ad74184",
+    "ev_vivo_coincide": true,
+    "ev_prop_sha": "b5e30fba4880def7c4a43380b878f484a238336f668aed871606b5f420e0e644",
+    "ev_prop_palabras": 239,
+    "prop_cabecera": "## [df-11] Disposición final undécima",
+    "prop_ultima": "2. La propuesta de reforma a que se refiere el apartado ante"
+   },
+   "da-7": {
+    "lineas": [
+     860,
+     865
+    ],
+    "n_lineas": 6,
+    "palabras": 57,
+    "sha256_bloque": "690644831e2622d74f6d6228e18438091167a2831e989531a2e44089af2ffdf5",
+    "ev_vivo_sha": "690644831e2622d74f6d6228e18438091167a2831e989531a2e44089af2ffdf5",
+    "ev_vivo_coincide": true,
+    "ev_prop_sha": "f9dacd75bde664ff215bf25c63f5c8bece7fd361d11f1de95b1f79201f0b8f3c",
+    "ev_prop_palabras": 146,
+    "prop_cabecera": "## [da-7] Disposición adicional séptima",
+    "prop_ultima": "3. En todo caso, las modificaciones que se introduzcan en es"
+   }
+  }
+ }
+}

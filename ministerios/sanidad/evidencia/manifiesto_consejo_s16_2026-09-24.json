@@ -1,0 +1,50 @@
+{
+ "sesion": "16/30",
+ "fecha": "2026-09-24",
+ "ejecutor": "Presidencia",
+ "backup": ".bak-2026-09-24",
+ "leyes": {
+  "ministerios/sanidad/leyes/BOE-A-1986-10499.md": {
+   "sha256_antes": "9e9b0921e25582806d1fd1c17a324c0fe687ec156aa4ccae5c68e46136ae54b2",
+   "sha256_despues": "b8db30f8467eff89427b86dcfe0957867981fdd92a3898d98ac9f5db592be1d2",
+   "lineas_antes": 1727,
+   "lineas_despues": 1727,
+   "bloques_antes": 151,
+   "bloques_despues": 151,
+   "detalle": [
+    {
+     "bloque": "atreintayseis",
+     "ministerio": "sanidad",
+     "tipo": "cadena",
+     "referencia": "cadena literal",
+     "lineas_antes": [
+      508,
+      523
+     ],
+     "palabras_antes": 194,
+     "palabras_despues": 215,
+     "sha256_bloque_antes": "4b6e4a457d636ff9eb4b1e28443946fc866dd13a551d6fcf1ac96abb10446eb2",
+     "sha256_bloque_despues": "d6769c685373915704826dd7daa719aad4b520d91213198cea099b60c7be0a2d",
+     "copias_rotulo_antes": 1,
+     "copias_rotulo_despues": 1
+    },
+    {
+     "bloque": "adieciseis",
+     "ministerio": "sanidad",
+     "tipo": "cadena",
+     "referencia": "cadena literal",
+     "lineas_antes": [
+      169,
+      196
+     ],
+     "palabras_antes": 434,
+     "palabras_despues": 440,
+     "sha256_bloque_antes": "1edc18632d1aaa599cbabec4e5e73a58a6ddff657880228e6ac709dfbc1d9e61",
+     "sha256_bloque_despues": "15ab9cb15e57bdfd5f9a0671cdf973bef3a7e00f128946c72bf72b7c90cff928",
+     "copias_rotulo_antes": 1,
+     "copias_rotulo_despues": 1
+    }
+   ]
+  }
+ }
+}

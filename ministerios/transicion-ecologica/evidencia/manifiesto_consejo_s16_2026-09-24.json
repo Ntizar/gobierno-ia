@@ -1,0 +1,59 @@
+{
+ "sesion": "16/30",
+ "fecha": "2026-09-24",
+ "ejecutor": "Presidencia",
+ "backup": ".bak-2026-09-24",
+ "nota": "manifiesto regenerado por Presidencia: el script aplicar_s16 uso la clave 'ecologia' y la carpeta real es 'transicion-ecologica'",
+ "leyes": {
+  "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md": {
+   "sha256_antes": "932e93915a43dc76bf7fec51ed9b90c4a98954e6b7645d3c60cd061b5fcf9beb",
+   "sha256_despues": "ce0c010b9d000f0f088f55e33af44510c2460c65b6557606eef940037d52e336",
+   "lineas_antes": 1069,
+   "lineas_despues": 1073,
+   "bloques_antes": 71,
+   "bloques_despues": 71,
+   "detalle": [
+    {
+     "bloque": "df-11",
+     "ministerio": "transicion-ecologica",
+     "tipo": "bloque (restauracion canon)",
+     "referencia": "ministerios/transicion-ecologica/evidencia/bloque_propuesto_df-11_2026-09-24.txt",
+     "lineas_antes": [
+      1011,
+      1027
+     ],
+     "lineas_despues": [
+      1014,
+      1031
+     ],
+     "palabras_antes": 140,
+     "palabras_despues": 239,
+     "sha256_bloque_antes": "839dfbb3da93961cf9faceaaaf657111d4c6fef4d2b5cf2677ede71b8ad74184",
+     "sha256_bloque_despues": "b5e30fba4880def7c4a43380b878f484a238336f668aed871606b5f420e0e644",
+     "copias_rotulo_antes": 1,
+     "copias_rotulo_despues": 1
+    },
+    {
+     "bloque": "da-7",
+     "ministerio": "transicion-ecologica",
+     "tipo": "bloque (restauracion canon)",
+     "referencia": "ministerios/transicion-ecologica/evidencia/bloque_propuesto_da-7_2026-09-24.txt",
+     "lineas_antes": [
+      860,
+      865
+     ],
+     "lineas_despues": [
+      860,
+      868
+     ],
+     "palabras_antes": 57,
+     "palabras_despues": 146,
+     "sha256_bloque_antes": "690644831e2622d74f6d6228e18438091167a2831e989531a2e44089af2ffdf5",
+     "sha256_bloque_despues": "f9dacd75bde664ff215bf25c63f5c8bece7fd361d11f1de95b1f79201f0b8f3c",
+     "copias_rotulo_antes": 1,
+     "copias_rotulo_despues": 1
+    }
+   ]
+  }
+ }
+}

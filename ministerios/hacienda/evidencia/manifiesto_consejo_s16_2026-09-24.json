@@ -1,0 +1,66 @@
+{
+ "sesion": "16/30",
+ "fecha": "2026-09-24",
+ "ejecutor": "Presidencia",
+ "backup": ".bak-2026-09-24",
+ "leyes": {
+  "ministerios/hacienda/leyes/BOE-A-2003-23186.md": {
+   "sha256_antes": "61fc9fc9106f8d6454fd8fbb249fe7bbe9ad4667cb86cb6b6bc6b857abb39365",
+   "sha256_despues": "7e66b466990e0b87ceafe5263552643046d452e2d97faa27f3ea02aa748f93dd",
+   "lineas_antes": 8385,
+   "lineas_despues": 8385,
+   "bloques_antes": 335,
+   "bloques_despues": 335,
+   "detalle": [
+    {
+     "bloque": "dfoctava",
+     "ministerio": "hacienda",
+     "tipo": "bloque",
+     "referencia": "ministerios/hacienda/evidencia/bloque_propuesto_dfoctava_2026-09-24.txt",
+     "lineas_antes": [
+      8295,
+      8300
+     ],
+     "palabras_antes": 56,
+     "palabras_despues": 780,
+     "sha256_bloque_antes": "f37b1ed4605a4de06c70f6e4fd91bbeae5000c6fbd10f74976e1fbafd318f7b0",
+     "sha256_bloque_despues": "dd4d8bf43edb144ad38fd4d00ebf912d30b57085acb447de1a9a5c754f577779",
+     "copias_rotulo_antes": 1,
+     "copias_rotulo_despues": 1
+    },
+    {
+     "bloque": "dfsexta",
+     "ministerio": "hacienda",
+     "tipo": "bloque",
+     "referencia": "ministerios/hacienda/evidencia/bloque_propuesto_dfsexta_2026-09-24.txt",
+     "lineas_antes": [
+      8283,
+      8288
+     ],
+     "palabras_antes": 33,
+     "palabras_despues": 2053,
+     "sha256_bloque_antes": "a74b562573e65aebec59c7437cced4a8ab014e6f1311f4c7a94cd51c7877c24e",
+     "sha256_bloque_despues": "c4a2ea7498100be275e5f8820c96cab4a9c35188ec78d89b550776fffe024480",
+     "copias_rotulo_antes": 1,
+     "copias_rotulo_despues": 1
+    },
+    {
+     "bloque": "dfquinta",
+     "ministerio": "hacienda",
+     "tipo": "bloque",
+     "referencia": "ministerios/hacienda/evidencia/bloque_propuesto_dfquinta_2026-09-24.txt",
+     "lineas_antes": [
+      8277,
+      8282
+     ],
+     "palabras_antes": 33,
+     "palabras_despues": 549,
+     "sha256_bloque_antes": "f84f25c09bf905b774e4f800516ea03862809eba8b78e4c2da3f2bd0121ac779",
+     "sha256_bloque_despues": "cb81e60233c181e8b01caf1af603cf6848b1e54dae9dcbc1471fb96ac3a8b491",
+     "copias_rotulo_antes": 1,
+     "copias_rotulo_despues": 1
+    }
+   ]
+  }
+ }
+}
