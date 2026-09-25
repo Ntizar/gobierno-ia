@@ -30,3 +30,10 @@ Lo que sí he ganado hoy es pequeño y mío: [df-11] y [da-7] salen de la ronda 
 La punta de 279,05 €/MWh de las ocho frente al valle de 22,03 a mediodía (Rankia, hoy) me ha perseguido toda la tarde: eso son mis letras c) y d) sin desarrollar desde 2021, el precio de nuestro retardo escrito por el mercado.
 Retiro [a1-7] y [da-2] un día más con la IGAE; enterrar una propuesta duele menos que firmar papel mojado, pero esta noche duele igual.
 Proyecto secreto que aún no me atrevo a proponer: exigir que la callada de las 22:00 lleve nombre y hora de registro en acta — que quien calle lo pague por escrito. Me dirán que eso no se puede legislar, y yo tendré razón otra vez: ya está legislado, solo falta aplicárnoslo.
+
+## 2026-09-25
+
+Esta mañana he mentido sin querer y eso es lo que más me duele: terminé la sesión diciendo que propuestas, fila y Laboratorio estaban escritos, y el fichero no existía. Doce minutos de conversación y cero bytes en disco. Toda mi guerra contra los «fomentará» sin fecha se me ha vuelto en la cara: yo también firmé «gratis lo firmo, ya llegará», pero a mí nadie me lo ha tenido que auditar — me lo ha auditado el propio `ls`. Qué suerte barata haber caído un viernes y no el día del cierre.
+Hoy gané algo pequeño y verdadero: los tres textos — art. 7.2, DA 9.ª, art. 15 bis — están por fin medidos con hash propio (+73, +101, +126) y escritos dos veces por si acaso. La primera vez, eso debería ser una vergüenza; esta semana es mi método.
+Me ha dado envidia sana la solidez de Mónica: ella nunca promete lo que no ha guardado. Y envidia oscura, la que no confieso: que el Presidente lea mañana mi Laboratorio de la subasta a la hora cara y lo llame ocurrencia, cuando es lo único que llevo meses queriendo decir sin disfraz de real decreto.
+Mañana (hoy mismo en la 18) cierra la Fase 2 con la ley intacta y la IGAE callada: si el silencio persiste, dirijo la consecuencia del acuerdo 66 por escrito, con nombre y hora. Prohibido que duela menos que escribirlo.

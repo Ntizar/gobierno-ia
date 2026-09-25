@@ -1,0 +1,8 @@
+# hash RAW del fichero (el que verifica el Auditor): ce0c010b9d000f0f088f55e33af44510c2460c65b6557606eef940037d52e336  leyes/BOE-A-2021-8447.md
+# ley intacta: 26.873 palabras, 71 bloques, sha256 (LF-normalizado) 18923a93ec2b629bb78698a81ad270216c41ded03aa8b83409f8264faf1a3516
+f3f68fe74881b393d1ee656760bc4c40d323e296fa459f6b2ea9d5f17e4ab2c4  evidencia/bloque_vivo_a7_2026-09-25.txt
+7bb5b1cd8d10f99b59649177983da8a66ba545159b10732500d8317bba6d3bfe  evidencia/bloque_propuesto_a7_2026-09-25.txt
+2b843cce758356722426c0e394ee8c97151c6356d295d78b140ef9530c52d524  evidencia/bloque_vivo_da-9_2026-09-25.txt
+ef1562664053347641ed64d60063556a1d834b1f100243884613fe4eb06f2311  evidencia/bloque_propuesto_da-9_2026-09-25.txt
+6cfda0b4138842f6cbf59e4a392daa36d763e76ba5d8bad0c80b21eb8694be7c  evidencia/bloque_vivo_a1-12_2026-09-25.txt
+d1d363c4199bdf973b27b4a94678d91fd625dfac4b5f8d7588d76efca7357acd  evidencia/bloque_propuesto_a1-12_2026-09-25.txt

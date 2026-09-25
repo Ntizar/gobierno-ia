@@ -1,0 +1,19 @@
+## [a82] Artículo 82
+
+Artículo 82. Garantías para el aplazamiento y fraccionamiento del pago de la deuda tributaria.
+
+1. Para garantizar los aplazamientos o fraccionamientos de la deuda tributaria, la Administración Tributaria podrá exigir que se constituya a su favor aval solidario de entidad de crédito o sociedad de garantía recíproca o certificado de seguro de caución.
+
+Cuando se justifique que no es posible obtener dicho aval o certificado o que su aportación compromete gravemente la viabilidad de la actividad económica, la Administración podrá admitir garantías que consistan en hipoteca, prenda, fianza personal y solidaria u otra que se estime suficiente, en la forma que se determine reglamentariamente.
+
+En los términos que se establezcan reglamentariamente, el obligado tributario podrá solicitar de la Administración que adopte medidas cautelares en sustitución de las garantías previstas en los párrafos anteriores. En estos supuestos no será de aplicación lo dispuesto en el apartado 6 del artículo anterior de esta Ley.
+
+2. Podrá dispensarse total o parcialmente al obligado tributario de la constitución de las garantías a las que se refiere el apartado anterior en los casos siguientes:
+
+a) Cuando las deudas tributarias sean de cuantía inferior a la que se fije en la normativa tributaria. Esta excepción podrá limitarse a solicitudes formuladas en determinadas fases del procedimiento de recaudación.
+
+b) Cuando el obligado al pago carezca de bienes suficientes para garantizar la deuda y la ejecución de su patrimonio pudiera afectar sustancialmente al mantenimiento de la capacidad productiva y del nivel de empleo de la actividad económica respectiva, o pudiera producir graves quebrantos para los intereses de la Hacienda Pública, en la forma prevista reglamentariamente.
+
+c) En los demás casos que establezca la normativa tributaria.
+
+> Consolidación 2026-09-23 (Ministerio de Hacienda): texto íntegro del BOE consolidado vigente, en una sola copia. El bloque del repo conservaba tres copias del precepto y ninguna con la letra a) del apartado 2 (la dispensa por cuantía); solo la primera copia recogía además la remisión anterior a la reforma del apartado 1 por el art. único.15 de la Ley 34/2015, de 21 de septiembre (en vigor 12/10/2015) — «apartado 5» del artículo anterior —, superada por la vigente («apartado 6») que ya portaban las otras dos. La nota de aparato del BOE consolidado —«Véase la disposición adicional undécima de la Ley 16/2022, de 5 de septiembre, de reforma del texto refundido de la Ley Concursal, en cuanto a aplazamientos y fraccionamientos de deudas tributarias por la Agencia Estatal de Administración Tributaria, que produce efectos desde el 1 de enero de 2023» (Ref. BOE-A-2022-14580)— se reproduce aquí y no en el cuerpo: es aparato, no precepto (en el fichero vivo venía además con una etiqueta HTML colada: «<a class="refPost">»). Las remisiones «reglamentariamente» (apartados 1 y 2.b)) no fijan plazo propio en la ley: no se inventa ninguno. Órgano de aplicación: la Administración tributaria (AEAT, Departamento de Recaudación).

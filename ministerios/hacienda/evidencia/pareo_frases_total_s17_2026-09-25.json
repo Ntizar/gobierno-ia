@@ -1,0 +1,1774 @@
+{
+ "resumen": {
+  "fecha": "2026-09-25",
+  "sesion": 17,
+  "metodo": "test por frases literales (≥15 chars), canon data/canonical 2026-08-31 vs fichero vivo; NFC+espacios+puntuación normalizada",
+  "preceptos_canon": 292,
+  "preceptos_con_texto": 291,
+  "preceptos_con_texto_pct": 99.66,
+  "preceptos_deficientes": [
+   [
+    "a82",
+    "frases ausentes",
+    48
+   ]
+  ],
+  "palabras_litualmente_ausentes": 48
+ },
+ "detalle": {
+  "a1": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a2": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a3": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a4": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a5": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a6": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a7": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a8": {
+   "frases": 13,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a9": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a10": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a11": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a12": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a13": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a14": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a15": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a16": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a17": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a18": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a19": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a20": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a21": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a22": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a23": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a24": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a25": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a26": {
+   "frases": 15,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a27": {
+   "frases": 16,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a28": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a29": {
+   "frases": 16,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a29bis": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a30": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a31": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a32": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a33": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a34": {
+   "frases": 21,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a35": {
+   "frases": 19,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a36": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a37": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a38": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a39": {
+   "frases": 9,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a40": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a41": {
+   "frases": 15,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a42": {
+   "frases": 13,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a43": {
+   "frases": 23,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a44": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a45": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a46": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a47": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a48": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a49": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a50": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a51": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a52": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a53": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a54": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a55": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a56": {
+   "frases": 8,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a57": {
+   "frases": 13,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a58": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a59": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a60": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a61": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a62": {
+   "frases": 14,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a63": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a64": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a65": {
+   "frases": 16,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a66": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a66bis": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a67": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a68": {
+   "frases": 20,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a69": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a70": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a71": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a72": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a73": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a74": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a75": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a76": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a77": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a78": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a79": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a80": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a80bis": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a81": {
+   "frases": 26,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a82": {
+   "frases": 9,
+   "faltan": 1,
+   "pal_faltan": 48,
+   "ejemplos": [
+    "véase la disposición adicional undécima de la ley 16/2022, de 5 de septiembre, de reforma del texto refundido de la ley concursal, en cuanto a aplazamientos y fraccionamientos de deudas tributarias por la agencia estatal de administración tributaria, que produce efectos desde el 1 de enero de 2023."
+   ]
+  },
+  "a83": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a84": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a85": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a86": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a87": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a88": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a89": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a90": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a91": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a92": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a93": {
+   "frases": 15,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a94": {
+   "frases": 12,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a95": {
+   "frases": 27,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a95bis": {
+   "frases": 24,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a96": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a97": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a98": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a99": {
+   "frases": 19,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a100": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a101": {
+   "frases": 9,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a102": {
+   "frases": 9,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a103": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a104": {
+   "frases": 16,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a105": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a106": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a107": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a108": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a109": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a110": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a111": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a112": {
+   "frases": 11,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a113": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a114": {
+   "frases": 8,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a115": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a116": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a117": {
+   "frases": 14,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a118": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a119": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a120": {
+   "frases": 9,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a121": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a122": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a123": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a124": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a125": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a126": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a127": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a128": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a129": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a130": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a131": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a132": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a133": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a134": {
+   "frases": 12,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a135": {
+   "frases": 21,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a136": {
+   "frases": 8,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a137": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a138": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a139": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a140": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a141": {
+   "frases": 11,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a142": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a143": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a144": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a145": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a146": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a147": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a148": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a149": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a150": {
+   "frases": 39,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a151": {
+   "frases": 11,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a152": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a153": {
+   "frases": 8,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a154": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a155": {
+   "frases": 12,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a156": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a157": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a158": {
+   "frases": 20,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a159": {
+   "frases": 9,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a160": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a161": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a162": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a163": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a164": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a165": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a166": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a167": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a168": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a169": {
+   "frases": 17,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a170": {
+   "frases": 18,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a171": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a172": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a173": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a174": {
+   "frases": 11,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a175": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a176": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177bis": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177ter": {
+   "frases": 8,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177quater": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177quinquies": {
+   "frases": 13,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177sexies": {
+   "frases": 8,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177septies": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177octies": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177nonies": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177decies": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177undecies": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177duodecies": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177terdecies": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a177quaterdecies": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a178": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a179": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a180": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a181": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a182": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a183": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a184": {
+   "frases": 9,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a185": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a186": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a187": {
+   "frases": 21,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a188": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a189": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a190": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a191": {
+   "frases": 20,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a192": {
+   "frases": 12,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a193": {
+   "frases": 12,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a194": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a195": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a196": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a197": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a198": {
+   "frases": 15,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a199": {
+   "frases": 16,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a200": {
+   "frases": 14,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a201": {
+   "frases": 11,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a2-2": {
+   "frases": 11,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a202": {
+   "frases": 9,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a203": {
+   "frases": 26,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a204": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a205": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a206": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a206bis": {
+   "frases": 12,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a207": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a208": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a209": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a210": {
+   "frases": 8,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a211": {
+   "frases": 15,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a212": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a213": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a214": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a215": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a216": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a217": {
+   "frases": 14,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a218": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a219": {
+   "frases": 8,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a220": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a221": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a222": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a223": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a224": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a225": {
+   "frases": 12,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a226": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a227": {
+   "frases": 15,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a228": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a229": {
+   "frases": 22,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a230": {
+   "frases": 9,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a231": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a232": {
+   "frases": 9,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a233": {
+   "frases": 21,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a234": {
+   "frases": 11,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a235": {
+   "frases": 19,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a236": {
+   "frases": 15,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a237": {
+   "frases": 8,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a238": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a239": {
+   "frases": 27,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a240": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a241": {
+   "frases": 13,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a241bis": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a241ter": {
+   "frases": 10,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a242": {
+   "frases": 7,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a243": {
+   "frases": 8,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a244": {
+   "frases": 9,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a245": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a246": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a247": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a248": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a249": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a250": {
+   "frases": 8,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a251": {
+   "frases": 12,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a252": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a253": {
+   "frases": 16,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a254": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a255": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a256": {
+   "frases": 1,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a257": {
+   "frases": 16,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a258": {
+   "frases": 9,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a259": {
+   "frases": 12,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a260": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a261": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a262": {
+   "frases": 5,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a263": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a264": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a265": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a266": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a267": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a268": {
+   "frases": 6,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a269": {
+   "frases": 2,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a270": {
+   "frases": 3,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  },
+  "a271": {
+   "frases": 4,
+   "faltan": 0,
+   "pal_faltan": 0,
+   "ejemplos": []
+  }
+ }
+}

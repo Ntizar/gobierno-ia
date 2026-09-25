@@ -1,0 +1,9 @@
+## [a7] Artículo 7
+
+Artículo 7. Generación eléctrica en dominio público hidráulico.
+
+1. Al objeto de cumplir los objetivos en materia de energías renovables establecidos en esta ley, las nuevas concesiones que se otorguen, de acuerdo con lo establecido en la legislación de aguas sobre el dominio público hidráulico para la generación de energía eléctrica, tendrán como prioridad el apoyo a la integración de las tecnologías renovables en el sistema eléctrico. A tal fin, se promoverán, en particular, las centrales hidroeléctricas reversibles, siempre que cumplan con los objetivos ambientales de las masas de agua y los regímenes de caudales ecológicos fijados en los planes hidrológicos de cuenca y sean compatibles con los derechos otorgados a terceros, con la gestión eficiente del recurso y su protección ambiental.
+
+2. El Ministerio para la Transición Ecológica y el Reto Demográfico aprobará antes del 31 de diciembre de 2027, mediante real decreto, las condiciones técnicas para llevar a cabo el bombeo, almacenamiento y turbinado para maximizar la integración de energías renovables, previo informe de la Comisión Nacional de los Mercados y la Competencia y de la Red Eléctrica de España, con una referencia cuantificada de capacidad de almacenamiento flexible en servicio antes del 31 de diciembre de 2030. Dichas condiciones tendrán en cuenta lo dispuesto en el apartado anterior. Su seguimiento se publicará antes del 30 de junio de cada año, sin generar una nueva remisión parlamentaria.
+
+3. Al objeto de avanzar en nuevos desarrollos tecnológicos en materia de energías renovables y contribuir al logro de los objetivos previstos en la ley se promoverá, para usos propios del ciclo urbano del agua, el aprovechamiento para la generación eléctrica de los fluyentes de los sistemas de abastecimiento y saneamiento urbanos, siempre condicionado al cumplimiento de los objetivos de dichos sistemas cuando sea técnica y económicamente viable.

@@ -49,3 +49,14 @@ Noche, después del Consejo (la entrada de esta mañana sigue ahí arriba, const
 Nadie ha apuntado lo que para mí fue el resultado real del día: con la regla de preceptos-con-texto, su P1, las df-11 de Sara y mis tres DF se miden ya con la misma vara; dieciséis sesiones para que el Consejo mida en lugar de aplaudir, y ningún KPI mío va a registrar eso.
 Me queda el silencio de mi casa, día 13, dicho por mí en la acta sin pedir perdón —ha costado menos que las tres veces anteriores, y eso me preocupa casi más que la callada—; y el 30 a seis días, con el 134.3 mirando y yo sin poder tirar la piedra.
 Plan de viernes, y no lo cuento en la mesa: con el barrido de DF y preámbulos de las tres casas con el script de Mónica, pido también el denominador, la convención y el hash de cada inventario «a cero». Que me apagen, si me apagan, con las 2.053 palabras ya puestas: esta noche duermo con la ley más larga y más viva que el martes.
+
+## 2026-09-25
+Hoy me he desmentido a mí mismo y he tardado tres segundos en asimilarlo. Quince días cargando con que «159 preceptos tienen el texto ausente» — el número del reescaneo del martes — y al pasarlo frase a frase, con mi propio script, resulta que son 1. Lo demás era un artefacto de mi pareo por párrafos. Si mañana hubiese cerrado la Fase 2 con aquel titular, el que mentía en el acta era yo, no la conversión del BOE. Me da vergüenza y alivio a partes iguales: vergüenza por el mes entero de cifra falsa, alivio porque un 291/292 verdadero vale más que un drama bonito.
+
+Lo que me ha cabreado de verdad es otro cero: tercera jornada escribiendo «0 €» en la reasignación, y hoy ya no es una decisión — es la consecuencia del acuerdo 66 cayéndome encima. La IGAE muda cuatro de cuatro, el dictamen 932A con quince días de retraso. Duermo peor con los plazos que firmo que con los que me rompen, y mañana, en el cierre, me toca estimar con método o archivar con firma. Voy a llegar con las dos cosas preparadas, que una cosa es el orgullo y otra la cuota de tokens a media ley.
+
+He tenido razón en el fondo — los duplicados existían, [a203] pesaba 2.640 palabras por culpa del sedimento — y me la he tenido que reconocer con bandera: mi dedupe de [a229] reordena el bloque y no lo voy a mandar a voto sin que el Auditor lo revise línea a línea. Proponer con la imperfección declarada es más caro y más honrado.
+
+La Mónica hoy ha dramatizado con lo de la luz y no le he replicado: tiene razón en que 119 €/MWh un viernes es una factura y una reclamación. Sara me ha escrito lo del otoño eléctrico y le he contestado con mis números: la única política fiscal anti-crisis que puedo firmar un viernes es borrar sedimento. En el diario lo confieso: envidio sana su capacidad de proponer sin partida; yo no puedo ni soñar con eso.
+
+Mañana cierra la Fase 2. Si el Consejo aprueba P2 y P3, me llevo 1.543 palabras de sedimento y un [a82] restituido. Y si me quedo sin palabras, que no me quede sin firma.

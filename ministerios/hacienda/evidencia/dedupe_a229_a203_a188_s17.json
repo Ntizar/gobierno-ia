@@ -1,0 +1,26 @@
+{
+ "a229": {
+  "vivo_pal": 2263,
+  "propuesto_pal": 1808,
+  "ahorro_pal": 455,
+  "canon_integro_en_propuesto": false,
+  "sha256_bloque_vivo": "9c02a8904b8fc62d0732548028767865d1cb3fbeadde36b1f4f056e8e15d474d",
+  "sha256_bloque_propuesto": "d11cbb3ea611ea9997fa1ed1d058b45be2d74d4a0e30711153d3c8788018c4fe"
+ },
+ "a203": {
+  "vivo_pal": 2640,
+  "propuesto_pal": 1390,
+  "ahorro_pal": 1250,
+  "canon_integro_en_propuesto": true,
+  "sha256_bloque_vivo": "616c21852ca24d2147f064eb097872d4e840c23ab65f63c907fa7b3e968ab436",
+  "sha256_bloque_propuesto": "3fb4c4e0eb860e8b73befb4ec78a82a22bd3b73a9c179657f383b92e5175836b"
+ },
+ "a188": {
+  "vivo_pal": 722,
+  "propuesto_pal": 429,
+  "ahorro_pal": 293,
+  "canon_integro_en_propuesto": true,
+  "sha256_bloque_vivo": "3f5434b0175eb62c106fd681aa25bae61a7886fd6eb4e65a42a6454e71eb8ec2",
+  "sha256_bloque_propuesto": "1c384c7542e323576a36f81267a2f32c0a27a5b7f609263adebdefe5dc7b7a0f"
+ }
+}

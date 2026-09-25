@@ -1,0 +1,69 @@
+{
+  "fecha": "2026-09-25",
+  "sesion": "17/30",
+  "ministerio": "Hacienda",
+  "ejecucion_en_ley": false,
+  "motivo": "Deuda propia 0. sha256 de la ley idéntico a la apertura (7e66b466…). Ningún diff aprobado pendiente sobre LGT. No se crea .bak porque no se toca el fichero.",
+  "sha256_ley_apertura": "7e66b466990e0b87ceafe5263552643046d452e2d97faa27f3ea02aa748f93dd",
+  "sha256_ley_esperada_referencia": "7e66b466990e0b87ceafe5263552643046d452e2d97faa27f3ea02aa748f93dd",
+  "coincide": true,
+  "bloques_propuestos_pendientes_de_votacion": {
+    "a229": {
+      "vivo": 2263,
+      "propuesto": 1808,
+      "delta": -455
+    },
+    "a203": {
+      "vivo": 2640,
+      "propuesto": 1390,
+      "delta": -1250
+    },
+    "a188": {
+      "vivo": 722,
+      "propuesto": 429,
+      "delta": -293
+    }
+  },
+  "ficheros": {
+    "bloque_vivo_a229_2026-09-25.txt": {
+      "sha256": "9c02a8904b8fc62d0732548028767865d1cb3fbeadde36b1f4f056e8e15d474d",
+      "palabras": 2263
+    },
+    "bloque_propuesto_a229_2026-09-25.txt": {
+      "sha256": "d11cbb3ea611ea9997fa1ed1d058b45be2d74d4a0e30711153d3c8788018c4fe",
+      "palabras": 1808
+    },
+    "bloque_vivo_a203_2026-09-25.txt": {
+      "sha256": "616c21852ca24d2147f064eb097872d4e840c23ab65f63c907fa7b3e968ab436",
+      "palabras": 2640
+    },
+    "bloque_propuesto_a203_2026-09-25.txt": {
+      "sha256": "3fb4c4e0eb860e8b73befb4ec78a82a22bd3b73a9c179657f383b92e5175836b",
+      "palabras": 1390
+    },
+    "bloque_vivo_a188_2026-09-25.txt": {
+      "sha256": "3f5434b0175eb62c106fd681aa25bae61a7886fd6eb4e65a42a6454e71eb8ec2",
+      "palabras": 722
+    },
+    "bloque_propuesto_a188_2026-09-25.txt": {
+      "sha256": "1c384c7542e323576a36f81267a2f32c0a27a5b7f609263adebdefe5dc7b7a0f",
+      "palabras": 429
+    },
+    "bloque_vivo_a82_2026-09-25.txt": {
+      "sha256": "e87abcfc7179f262589859f4627ae2c0a0e1f17053f57537fb138142170f4c6a",
+      "palabras": 478
+    },
+    "bloque_propuesto_a82_2026-09-25.txt": {
+      "sha256": "282d708887f913fd448fdc144f284c72b68b2f24d753b8a1fdaa717326e7ebac",
+      "palabras": 775
+    },
+    "pareo_frases_total_s17_2026-09-25.json": {
+      "sha256": "c5e4f599b1b81631eb76224eed3b918f6e5b8b85238c435f962a5d2dcce7d83f",
+      "palabras": 3305
+    },
+    "canon_a229_s17_2026-09-25.txt": {
+      "sha256": "916eee99051fcca737b200554f0575e3457784eefc6ebde908023e09fb45bb47",
+      "palabras": 989
+    }
+  }
+}
