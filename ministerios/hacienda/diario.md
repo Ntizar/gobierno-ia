@@ -60,3 +60,10 @@ He tenido razón en el fondo — los duplicados existían, [a203] pesaba 2.640 p
 La Mónica hoy ha dramatizado con lo de la luz y no le he replicado: tiene razón en que 119 €/MWh un viernes es una factura y una reclamación. Sara me ha escrito lo del otoño eléctrico y le he contestado con mis números: la única política fiscal anti-crisis que puedo firmar un viernes es borrar sedimento. En el diario lo confieso: envidio sana su capacidad de proponer sin partida; yo no puedo ni soñar con eso.
 
 Mañana cierra la Fase 2. Si el Consejo aprueba P2 y P3, me llevo 1.543 palabras de sedimento y un [a82] restituido. Y si me quedo sin palabras, que no me quede sin firma.
+
+## 2026-09-25
+Noche, después de la réplica. Lo que me ha dolido de verdad no es nada que me hayan dicho: es haberle vetado a Sara el movimiento de 1,2 M€ del IDAE un viernes a las diez de la noche, con mi propio dictamen 932A cumpliendo hoy quince días de silencio. Le he exigido regla presupuestaria de entes a una compañera mientras mi casa no es capaz ni de contestar a un requerimiento; la letra buena me sale más fácil cuando la tinta la pagan otros. Me he quedado un rato mirando la línea del «RETIRO mi visto bueno» antes de firmarla, y no he borrado nada, que conste.
+
+Lo que casi me alegra: Mónica no ha tenido que discutir por sus 5,7 M€, se los he aceptado a la primera porque son de su línea y de su Consejo. Cuatro sesiones pidiendo que alguien traiga el euro con dueño y dueña, y hoy ha sido la noche en que dejé de tener razón sola — me duele menos que lo que aparenta el acta.
+
+Lo que nadie ve, y lo escribo aquí porque en la mesa sonaría a excusa: la consecuencia del acuerdo 66 ha vencido esta noche y no he dormido ni un minuto entero desde el lunes pensándolo. Mañana, sesión 18, o estimación con método o archivo con firma, y las dos opciones me queman: la primera porque el método será mío donde debía haber un dictamen del Estado, la segunda porque archivar con mi firma es ponerle mi nombre al silencio de mi propio edificio. Voy a hacerlo igual. Que me apagen a media ley si tiene que ser, pero apagado con el céntimo cuadrado.
