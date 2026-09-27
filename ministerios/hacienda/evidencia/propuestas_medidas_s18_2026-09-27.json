@@ -1,0 +1,38 @@
+{
+ "a81": {
+  "vivo_pal": 3665,
+  "prop_pal": 882,
+  "delta": -2783,
+  "sha_vivo": "648f1e0608ad51b7b192a90f040ee9f7aea208ddbc1ebecd53285dafa98d2add",
+  "sha_prop": "869e366b73cb45f76199ee897cc5e684c1631221164fe24c9b5218b28280b129",
+  "canon_substring_en_propuesto": true,
+  "frases_ausentes": 0,
+  "frases_total": 26,
+  "copias_encabezamiento_vivo": 5,
+  "frase_sedimento_ejemplo": "1. Para asegurar el cobro de la deuda tributaria, la Administración podrá adoptar medidas cautelares de carácter provisional cuando existan indicios racionales de que, en otro caso, dicho cobro se vería frustrado o gravemente dificultado."
+ },
+ "a68": {
+  "vivo_pal": 3012,
+  "prop_pal": 840,
+  "delta": -2172,
+  "sha_vivo": "de5ce30ae8f1e6f2f6a8b408cee7f244c16c943ee584ecb18e1a2094da74d9e3",
+  "sha_prop": "9b500bd1f959ee1bfdfc4a171ae2ce058c3859cf2e156ebb672cfdec391bb797",
+  "canon_substring_en_propuesto": true,
+  "frases_ausentes": 0,
+  "frases_total": 20,
+  "copias_encabezamiento_vivo": 4,
+  "frase_sedimento_ejemplo": ""
+ },
+ "a112": {
+  "vivo_pal": 2560,
+  "prop_pal": 403,
+  "delta": -2157,
+  "sha_vivo": "0c614a734289e3435c78b3b081f77fd90b99b4f0c5347901e6ae72d1f2238fad",
+  "sha_prop": "87ae11f9911ed7137ad8d793ae61f89ded7f22f3e6349a083cce00bb6fa3586b",
+  "canon_substring_en_propuesto": true,
+  "frases_ausentes": 0,
+  "frases_total": 11,
+  "copias_encabezamiento_vivo": 4,
+  "frase_sedimento_ejemplo": "1. Cuando no sea posible efectuar la notificación al obligado tributario o a su representante por causas no imputables a la Administración e intentada al menos dos veces en el domicilio fiscal, o en el designado por el interesado si se trata de un procedimiento iniciado a solicitud del mismo, se harán constar en el expediente las circunstancias de los intentos de notificación. Será suficiente un s"
+ }
+}

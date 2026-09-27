@@ -1,0 +1,235 @@
+{
+ "a26": {
+  "capas": 4,
+  "pal_ultima": 2727,
+  "pal_vivo": 2751,
+  "frases_vigentes": 17,
+  "frases_vigentes_ausentes_de_ultima_capa": 0,
+  "muestra_ausentes": [],
+  "DEDUPE_SEGURO": true
+ },
+ "a29": {
+  "capas": 6,
+  "pal_ultima": 2598,
+  "pal_vivo": 2632,
+  "frases_vigentes": 24,
+  "frases_vigentes_ausentes_de_ultima_capa": 5,
+  "muestra_ausentes": [
+   "#ss6] subsección 6.ª obligaciones tributarias en el marco de la asistencia mutua",
+   "#a29bis] artículo 29 bis.",
+   "obligaciones tributarias en el marco de la asistencia mutua."
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a65": {
+  "capas": 5,
+  "pal_ultima": 1725,
+  "pal_vivo": 1764,
+  "frases_vigentes": 19,
+  "frases_vigentes_ausentes_de_ultima_capa": 3,
+  "muestra_ausentes": [
+   "aplazamiento y fraccionamiento del pago.",
+   "a) aquellas cuya exacción se realice por medio de efectos timbrados.",
+   "6.2 del real decreto-ley 3/2016, de 2 de diciembre."
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a67": {
+  "capas": 3,
+  "pal_ultima": 1126,
+  "pal_vivo": 1154,
+  "frases_vigentes": 13,
+  "frases_vigentes_ausentes_de_ultima_capa": 2,
+  "muestra_ausentes": [
+   "cómputo de los plazos de prescripción.",
+   "el plazo de prescripción para exigir la obligación de pago a los responsables so"
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a81": {
+  "capas": 5,
+  "pal_ultima": 3641,
+  "pal_vivo": 3665,
+  "frases_vigentes": 33,
+  "frases_vigentes_ausentes_de_ultima_capa": 5,
+  "muestra_ausentes": [
+   "las medidas cautelares reguladas en este artículo podrán adoptarse durante la tr",
+   "cuando en la tramitación de una solicitud de suspensión con otras garantías dist",
+   "a) que se conviertan en embargos en el procedimiento de apremio o en medidas del"
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a99": {
+  "capas": 2,
+  "pal_ultima": 1199,
+  "pal_vivo": 1221,
+  "frases_vigentes": 20,
+  "frases_vigentes_ausentes_de_ultima_capa": 1,
+  "muestra_ausentes": [
+   "desarrollo de las actuaciones y procedimientos tributarios."
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a112": {
+  "capas": 4,
+  "pal_ultima": 2536,
+  "pal_vivo": 2560,
+  "frases_vigentes": 12,
+  "frases_vigentes_ausentes_de_ultima_capa": 1,
+  "muestra_ausentes": [
+   "notificación por comparecencia."
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a135": {
+  "capas": 2,
+  "pal_ultima": 1442,
+  "pal_vivo": 1456,
+  "frases_vigentes": 22,
+  "frases_vigentes_ausentes_de_ultima_capa": 1,
+  "muestra_ausentes": [
+   "tasación pericial contradictoria."
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a174": {
+  "capas": 4,
+  "pal_ultima": 1273,
+  "pal_vivo": 1297,
+  "frases_vigentes": 14,
+  "frases_vigentes_ausentes_de_ultima_capa": 2,
+  "muestra_ausentes": [
+   "declaración de responsabilidad.",
+   "en el recurso o reclamación contra el acuerdo de derivación de responsabilidad p"
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a180": {
+  "capas": 4,
+  "pal_ultima": 1227,
+  "pal_vivo": 1267,
+  "frases_vigentes": 6,
+  "frases_vigentes_ausentes_de_ultima_capa": 1,
+  "muestra_ausentes": [
+   "principio de no concurrencia de sanciones tributarias."
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a199": {
+  "capas": 4,
+  "pal_ultima": 2473,
+  "pal_vivo": 2569,
+  "frases_vigentes": 17,
+  "frases_vigentes_ausentes_de_ultima_capa": 2,
+  "muestra_ausentes": [
+   "infracción tributaria por presentar incorrectamente autoliquidaciones o declarac",
+   "no obstante, el importe mínimo de la sanción que se menciona en el párrafo anter"
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a200": {
+  "capas": 2,
+  "pal_ultima": 1364,
+  "pal_vivo": 1388,
+  "frases_vigentes": 17,
+  "frases_vigentes_ausentes_de_ultima_capa": 3,
+  "muestra_ausentes": [
+   "infracción tributaria por incumplir obligaciones contables y registrales.",
+   "a) la inexactitud u omisión de operaciones en la contabilidad o en los libros y ",
+   "la infracción prevista en este artículo será grave."
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a211": {
+  "capas": 2,
+  "pal_ultima": 998,
+  "pal_vivo": 1020,
+  "frases_vigentes": 17,
+  "frases_vigentes_ausentes_de_ultima_capa": 2,
+  "muestra_ausentes": [
+   "terminación del procedimiento sancionador en materia tributaria.",
+   "a) el consejo de ministros, si consisten en la suspensión del ejercicio de profe"
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a221": {
+  "capas": 3,
+  "pal_ultima": 953,
+  "pal_vivo": 984,
+  "frases_vigentes": 13,
+  "frases_vigentes_ausentes_de_ultima_capa": 1,
+  "muestra_ausentes": [
+   "procedimiento para la devolución de ingresos indebidos."
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a233": {
+  "capas": 4,
+  "pal_ultima": 2688,
+  "pal_vivo": 2740,
+  "frases_vigentes": 24,
+  "frases_vigentes_ausentes_de_ultima_capa": 1,
+  "muestra_ausentes": [
+   "suspensión de la ejecución del acto impugnado en vía económico-administrativa."
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a239": {
+  "capas": 3,
+  "pal_ultima": 1810,
+  "pal_vivo": 1823,
+  "frases_vigentes": 31,
+  "frases_vigentes_ausentes_de_ultima_capa": 2,
+  "muestra_ausentes": [
+   "1.ª) el ejercicio de esta facultad deberá ser comunicado por escrito al tribunal",
+   "igualmente deberá comunicar al reclamado por cualquier medio que deje constancia"
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a27": {
+  "capas": 3,
+  "pal_ultima": 1878,
+  "pal_vivo": 1909,
+  "frases_vigentes": 19,
+  "frases_vigentes_ausentes_de_ultima_capa": 2,
+  "muestra_ausentes": [
+   "recargos por declaración extemporánea sin requerimiento previo.",
+   "el incumplimiento de cualquiera de estas circunstancias determinará la exigencia"
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a198": {
+  "capas": 2,
+  "pal_ultima": 1083,
+  "pal_vivo": 1157,
+  "frases_vigentes": 16,
+  "frases_vigentes_ausentes_de_ultima_capa": 2,
+  "muestra_ausentes": [
+   "infracción tributaria por no presentar en plazo autoliquidaciones o declaracione",
+   "el importe mínimo de la sanción que se menciona en el párrafo anterior se elevar"
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a41": {
+  "capas": 3,
+  "pal_ultima": 982,
+  "pal_vivo": 998,
+  "frases_vigentes": 16,
+  "frases_vigentes_ausentes_de_ultima_capa": 1,
+  "muestra_ausentes": [
+   "responsabilidad tributaria."
+  ],
+  "DEDUPE_SEGURO": false
+ },
+ "a224": {
+  "capas": 3,
+  "pal_ultima": 973,
+  "pal_vivo": 1010,
+  "frases_vigentes": 13,
+  "frases_vigentes_ausentes_de_ultima_capa": 1,
+  "muestra_ausentes": [
+   "suspensión de la ejecución del acto recurrido en reposición."
+  ],
+  "DEDUPE_SEGURO": false
+ }
+}

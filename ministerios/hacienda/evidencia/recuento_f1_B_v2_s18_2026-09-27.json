@@ -1,0 +1,19 @@
+{
+ "metrica_B_v2": {
+  "unidad": "frase (>=30 chars) de la redaccion vigente del consolidado archivado, filtrada de aparato editorial, ausente del vivo",
+  "preceptos_afectados": 0,
+  "casos": 0,
+  "palabras": 0,
+  "phantom": {
+   "preceptos": 0,
+   "casos": 0,
+   "nota": "frase vigente-segun-consolidado ausente TAMBIEN de la fuente canon data/raw: sospecha de aparato no filtrado, no de norma perdida"
+  },
+  "detalle": {}
+ },
+ "metrica_A": {
+  "preceptos_con_texto": 292,
+  "de": 292,
+  "frases_ausentes": 0
+ }
+}

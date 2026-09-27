@@ -1,0 +1,92 @@
+{
+ "a81": {
+  "metodo": "cola_literal_capa_vigente",
+  "vivo_pal": 3665,
+  "prop_pal": 890,
+  "delta": -2775,
+  "sha_vivo": "648f1e0608ad51b7b192a90f040ee9f7aea208ddbc1ebecd53285dafa98d2add",
+  "sha_prop": "94f01709e414afbb150040c699b3b302849489a2e1a9a63acfec82711504ec41",
+  "canon_substring_en_propuesto": true,
+  "frases_ausentes": 0,
+  "frases_total": 26,
+  "head_unica_en_prop": 1,
+  "copias_head_en_vivo": 5,
+  "hitos_ocurrencias": {
+   "Para asegurar el cobro": [
+    true,
+    2,
+    2
+   ],
+   "medidas cautelares podrán consistir": [
+    true,
+    1,
+    1
+   ],
+   "cesarán en el plazo de seis meses": [
+    true,
+    1,
+    1
+   ]
+  }
+ },
+ "a68": {
+  "metodo": "cola_literal_capa_vigente",
+  "vivo_pal": 3012,
+  "prop_pal": 848,
+  "delta": -2164,
+  "sha_vivo": "de5ce30ae8f1e6f2f6a8b408cee7f244c16c943ee584ecb18e1a2094da74d9e3",
+  "sha_prop": "a889a31fd2d7376065220ebb450a6fa526c83cb2f2480a7df9415b7d769c2bb3",
+  "canon_substring_en_propuesto": true,
+  "frases_ausentes": 0,
+  "frases_total": 20,
+  "head_unica_en_prop": 1,
+  "copias_head_en_vivo": 4,
+  "hitos_ocurrencias": {
+   "El plazo de prescripción del derecho": [
+    true,
+    2,
+    2
+   ],
+   "Producida la interrupción": [
+    true,
+    1,
+    1
+   ],
+   "Interrumpido el plazo": [
+    true,
+    1,
+    1
+   ]
+  }
+ },
+ "a112": {
+  "metodo": "canon_byte_a_byte_capa3_viva",
+  "vivo_pal": 2560,
+  "prop_pal": 411,
+  "delta": -2149,
+  "sha_vivo": "0c614a734289e3435c78b3b081f77fd90b99b4f0c5347901e6ae72d1f2238fad",
+  "sha_prop": "b1a80a3fe8bfb9ccd9a1c3080300c8446e7f8848abfdc8cfea9b044f6f6ad38e",
+  "canon_substring_en_propuesto": true,
+  "frases_ausentes": 0,
+  "frases_total": 11,
+  "head_unica_en_prop": 1,
+  "copias_head_en_vivo": 4,
+  "hitos_ocurrencias": {
+   "Cuando no sea posible efectuar la notificación": [
+    true,
+    1,
+    1
+   ],
+   "plazo de 15 días naturales": [
+    true,
+    1,
+    1
+   ],
+   "se entiendan notificados por no haber comparecido": [
+    true,
+    1,
+    1
+   ]
+  }
+ }
+}

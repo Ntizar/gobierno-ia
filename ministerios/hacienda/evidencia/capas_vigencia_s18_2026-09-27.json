@@ -1,0 +1,75 @@
+{
+ "a81": {
+  "n_capas": 5,
+  "pal_capas": [
+   0,
+   0,
+   0,
+   0,
+   3641
+  ],
+  "capas_con_canon_completo_substring": [
+   4
+  ],
+  "capas_con_todas_las_frases": [
+   4
+  ],
+  "capa_elegida": 5,
+  "prop_pal": 3690,
+  "delta_vs_vivo": 25,
+  "sha_prop": "56fc1392920498561e3e2762ecdf4ff114eca6ffa8ea7205a21b988c10b74629",
+  "sha_vivo": "648f1e0608ad51b7b192a90f040ee9f7aea208ddbc1ebecd53285dafa98d2add",
+  "frases_ausentes_en_propuesto": 0,
+  "letras_a_en_propuesto": 4,
+  "letras_a_en_capa": 4,
+  "letras_a_fuera_del_vivo_completo": 4
+ },
+ "a68": {
+  "n_capas": 4,
+  "pal_capas": [
+   0,
+   0,
+   0,
+   2976
+  ],
+  "capas_con_canon_completo_substring": [
+   3
+  ],
+  "capas_con_todas_las_frases": [
+   3
+  ],
+  "capa_elegida": 4,
+  "prop_pal": 3029,
+  "delta_vs_vivo": 17,
+  "sha_prop": "4adf42ad6ca9d5149d616a15454a626ae5b6189437d485941d944f9083c2bfc3",
+  "sha_vivo": "de5ce30ae8f1e6f2f6a8b408cee7f244c16c943ee584ecb18e1a2094da74d9e3",
+  "frases_ausentes_en_propuesto": 0,
+  "letras_a_en_propuesto": 8,
+  "letras_a_en_capa": 8,
+  "letras_a_fuera_del_vivo_completo": 8
+ },
+ "a112": {
+  "n_capas": 4,
+  "pal_capas": [
+   0,
+   0,
+   0,
+   2536
+  ],
+  "capas_con_canon_completo_substring": [
+   3
+  ],
+  "capas_con_todas_las_frases": [
+   3
+  ],
+  "capa_elegida": 4,
+  "prop_pal": 2586,
+  "delta_vs_vivo": 26,
+  "sha_prop": "dac8833d5ca82ec2be9109672cbc9e79199ce772e381dad9c211688a5749c58f",
+  "sha_vivo": "0c614a734289e3435c78b3b081f77fd90b99b4f0c5347901e6ae72d1f2238fad",
+  "frases_ausentes_en_propuesto": 0,
+  "letras_a_en_propuesto": 0,
+  "letras_a_en_capa": 0,
+  "letras_a_fuera_del_vivo_completo": 0
+ }
+}

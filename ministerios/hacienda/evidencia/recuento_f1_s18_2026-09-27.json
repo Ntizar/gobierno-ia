@@ -1,0 +1,743 @@
+{
+ "metrica_B": {
+  "definicion": "frases (>=25 chars) de la redaccion vigente del consolidado archivado (filtrada de aparato), ausentes del fichero vivo PERO presentes en la fuente canon source.html (hueco real) o ausentes de ambos (phantom: no es norma del BOE archivado — doctrina X1)",
+  "preceptos_con_hueco_real": 96,
+  "casos_hueco_real": 221,
+  "palabras_hueco_real": 7141,
+  "preceptos_con_phantom": 68,
+  "casos_phantom": 70,
+  "detalle_huecos": {
+   "a1": [
+    2,
+    74,
+    [
+     "esta ley establece los principios y las normas jurídicas generales del",
+     "la asistencia mutua a la que se refiere este apartado participa de la "
+    ]
+   ],
+   "a2": [
+    1,
+    42,
+    [
+     "los tributos, además de ser medios para obtener los recursos necesario"
+    ]
+   ],
+   "a7": [
+    3,
+    88,
+    [
+     "b) por los tratados o convenios internacionales que contengan cláusula",
+     "c) por las normas que dicte la unión europea y otros organismos intern"
+    ]
+   ],
+   "a12": [
+    1,
+    21,
+    [
+     "las normas tributarias se interpretarán con arreglo a lo dispuesto en "
+    ]
+   ],
+   "a15": [
+    1,
+    36,
+    [
+     "para que la administración tributaria pueda declarar el conflicto en l"
+    ]
+   ],
+   "a27": [
+    1,
+    21,
+    [
+     "el incumplimiento de cualquiera de estas circunstancias determinará la"
+    ]
+   ],
+   "a34": [
+    2,
+    84,
+    [
+     "a) derecho a ser informado y asistido por la administración tributaria",
+     "integrado en el ministerio de hacienda, el consejo para la defensa del"
+    ]
+   ],
+   "a42": [
+    1,
+    59,
+    [
+     "también serán responsables solidarios del pago de la deuda tributaria "
+    ]
+   ],
+   "a46": [
+    1,
+    42,
+    [
+     "cuando, de acuerdo con lo previsto en el apartado 6 (*) del artículo 3"
+    ]
+   ],
+   "a48": [
+    5,
+    186,
+    [
+     "a) para las personas físicas, el lugar donde tengan su residencia habi",
+     "no obstante, para las personas físicas que desarrollen principalmente "
+    ]
+   ],
+   "a50": [
+    2,
+    44,
+    [
+     "las bases imponibles se determinarán con carácter general a través del",
+     "no obstante, la ley podrá establecer los supuestos en que sea de aplic"
+    ]
+   ],
+   "a53": [
+    4,
+    67,
+    [
+     "a) falta de presentación de declaraciones o presentación de declaracio",
+     "las bases o rendimientos se determinarán mediante la aplicación de cua"
+    ]
+   ],
+   "a56": [
+    2,
+    34,
+    [
+     "a) aplicando el tipo de gravamen a la base liquidable.",
+     "para el cálculo de la cuota íntegra podrán utilizarse los métodos de d"
+    ]
+   ],
+   "a58": [
+    1,
+    44,
+    [
+     "las sanciones tributarias que puedan imponerse de acuerdo con lo dispu"
+    ]
+   ],
+   "a65": [
+    1,
+    11,
+    [
+     "a) aquellas cuya exacción se realice por medio de efectos timbrados."
+    ]
+   ],
+   "a66": [
+    1,
+    15,
+    [
+     "a) el derecho de la administración para determinar la deuda tributaria"
+    ]
+   ],
+   "a66bis": [
+    1,
+    15,
+    [
+     "a) el derecho de la administración para determinar la deuda tributaria"
+    ]
+   ],
+   "a67": [
+    1,
+    34,
+    [
+     "el plazo de prescripción para exigir la obligación de pago a los respo"
+    ]
+   ],
+   "a68": [
+    1,
+    57,
+    [
+     "a) por cualquier acción de la administración tributaria, realizada con"
+    ]
+   ],
+   "a77": [
+    1,
+    22,
+    [
+     "en el proceso concursal, los créditos tributarios quedarán sometidos a"
+    ]
+   ],
+   "a81": [
+    5,
+    272,
+    [
+     "las medidas cautelares reguladas en este artículo podrán adoptarse dur",
+     "cuando en la tramitación de una solicitud de suspensión con otras gara"
+    ]
+   ],
+   "a85": [
+    1,
+    18,
+    [
+     "a) publicación de textos actualizados de las normas tributarias, así c"
+    ]
+   ],
+   "a92": [
+    2,
+    67,
+    [
+     "a) realización de estudios o informes relacionados con la elaboración ",
+     "la administración tributaria podrá señalar los requisitos y condicione"
+    ]
+   ],
+   "a94": [
+    1,
+    33,
+    [
+     "en este ámbito no será de aplicación lo dispuesto en el apartado 1 del"
+    ]
+   ],
+   "a95": [
+    5,
+    144,
+    [
+     "a) que el importe total de las deudas y sanciones tributarias pendient",
+     "en dichos listados se incluirá la siguiente información:"
+    ]
+   ],
+   "a95bis": [
+    5,
+    144,
+    [
+     "a) que el importe total de las deudas y sanciones tributarias pendient",
+     "en dichos listados se incluirá la siguiente información:"
+    ]
+   ],
+   "a97": [
+    1,
+    35,
+    [
+     "a) por las normas especiales establecidas en este título y la normativ"
+    ]
+   ],
+   "a102": [
+    2,
+    41,
+    [
+     "a) la identificación del obligado tributario.",
+     "en los tributos de cobro periódico por recibo, una vez notificada la l"
+    ]
+   ],
+   "a106": [
+    1,
+    42,
+    [
+     "en los procedimientos tributarios serán de aplicación las normas que s"
+    ]
+   ],
+   "a117": [
+    2,
+    49,
+    [
+     "a) la recepción y tramitación de declaraciones, autoliquidaciones, com",
+     "las actuaciones y el ejercicio de las funciones a las que se refiere e"
+    ]
+   ],
+   "a118": [
+    1,
+    16,
+    [
+     "a) por una autoliquidación, por una comunicación de datos o por cualqu"
+    ]
+   ],
+   "a123": [
+    2,
+    41,
+    [
+     "a) el procedimiento de devolución iniciado mediante autoliquidación, s",
+     "reglamentariamente se podrán regular otros procedimientos de gestión t"
+    ]
+   ],
+   "a130": [
+    1,
+    9,
+    [
+     "a) por liquidación provisional practicada por la administración tribut"
+    ]
+   ],
+   "a131": [
+    1,
+    18,
+    [
+     "a) cuando la declaración o autoliquidación del obligado tributario ado"
+    ]
+   ],
+   "a133": [
+    2,
+    37,
+    [
+     "a) por resolución en la que se indique que no procede practicar liquid",
+     "la verificación de datos no impedirá la posterior comprobación del obj"
+    ]
+   ],
+   "a136": [
+    2,
+    62,
+    [
+     "a) examen de los datos consignados por los obligados tributarios en su",
+     "en ningún caso se podrá requerir a terceros información sobre movimien"
+    ]
+   ],
+   "a139": [
+    3,
+    51,
+    [
+     "a) por resolución expresa de la administración tributaria, con el cont",
+     "la resolución administrativa que ponga fin al procedimiento de comprob"
+    ]
+   ],
+   "a141": [
+    1,
+    23,
+    [
+     "a) la investigación de los supuestos de hecho de las obligaciones trib"
+    ]
+   ],
+   "a147": [
+    1,
+    36,
+    [
+     "los obligados tributarios deben ser informados al inicio de las actuac"
+    ]
+   ],
+   "a150": [
+    9,
+    406,
+    [
+     "1.º que la cifra anual de negocios del obligado tributario sea igual o",
+     "c) el planteamiento por la administración tributaria que esté desarrol"
+    ]
+   ],
+   "a151": [
+    2,
+    56,
+    [
+     "a) en el lugar donde el obligado tributario tenga su domicilio fiscal,",
+     "la inspección podrá personarse sin previa comunicación en las empresas"
+    ]
+   ],
+   "a153": [
+    1,
+    8,
+    [
+     "a) el lugar y fecha de su formalización."
+    ]
+   ],
+   "a156": [
+    2,
+    34,
+    [
+     "a) rectificando errores materiales.",
+     "para la imposición de las sanciones que puedan proceder como consecuen"
+    ]
+   ],
+   "a158": [
+    7,
+    187,
+    [
+     "a) las causas determinantes de la aplicación del método de estimación ",
+     "la aplicación del método de estimación indirecta no requerirá acto adm"
+    ]
+   ],
+   "a160": [
+    1,
+    23,
+    [
+     "a) en período voluntario, mediante el pago o cumplimiento del obligado"
+    ]
+   ],
+   "a161": [
+    2,
+    55,
+    [
+     "a) en el caso de deudas liquidadas por la administración tributaria, e",
+     "la presentación de una solicitud de aplazamiento, fraccionamiento o co"
+    ]
+   ],
+   "a163": [
+    1,
+    40,
+    [
+     "su iniciación o tramitación no se suspenderá por la iniciación de aqué"
+    ]
+   ],
+   "a164": [
+    2,
+    112,
+    [
+     "1.º cuando concurra con otros procesos o procedimientos singulares de ",
+     "en caso de concurso de acreedores se aplicará lo dispuesto en la ley 2"
+    ]
+   ],
+   "a167": [
+    2,
+    52,
+    [
+     "a) extinción total de la deuda o prescripción del derecho a exigir el ",
+     "si el obligado tributario no efectuara el pago dentro del plazo al que"
+    ]
+   ],
+   "a169": [
+    5,
+    116,
+    [
+     "a) el importe de la deuda no ingresada.",
+     "si la administración y el obligado tributario no hubieran acordado otr"
+    ]
+   ],
+   "a171": [
+    1,
+    50,
+    [
+     "cuando en la cuenta afectada por el embargo se efectúe habitualmente e"
+    ]
+   ],
+   "a173": [
+    2,
+    55,
+    [
+     "a) con el pago de la cantidad debida a que se refiere el apartado 1 de",
+     "en los casos en que se haya declarado el crédito incobrable, el proced"
+    ]
+   ],
+   "a174": [
+    1,
+    69,
+    [
+     "en el recurso o reclamación contra el acuerdo de derivación de respons"
+    ]
+   ],
+   "a175": [
+    5,
+    166,
+    [
+     "a) cuando la responsabilidad haya sido declarada y notificada al respo",
+     "el que pretenda adquirir la titularidad de explotaciones y actividades"
+    ]
+   ],
+   "a179": [
+    2,
+    56,
+    [
+     "a) cuando se realicen por quienes carezcan de capacidad de obrar en el",
+     "los obligados tributarios que voluntariamente regularicen su situación"
+    ]
+   ],
+   "a184": [
+    3,
+    79,
+    [
+     "a) las anomalías sustanciales en la contabilidad y en los libros o reg",
+     "1.º el incumplimiento absoluto de la obligación de llevanza de la cont"
+    ]
+   ],
+   "a188": [
+    5,
+    284,
+    [
+     "a) un 65 por ciento en los supuestos de actas con acuerdo previstos en",
+     "a) en los supuestos previstos en el párrafo a) del apartado anterior, "
+    ]
+   ],
+   "a189": [
+    2,
+    40,
+    [
+     "a) por cualquier acción de la administración tributaria, realizada con",
+     "la prescripción se aplicará de oficio por la administración tributaria"
+    ]
+   ],
+   "a191": [
+    3,
+    57,
+    [
+     "a) cuando se hayan utilizado facturas, justificantes o documentos fals",
+     "a) cuando se hayan utilizado facturas, justificantes o documentos fals"
+    ]
+   ],
+   "a192": [
+    3,
+    57,
+    [
+     "a) cuando se hayan utilizado facturas, justificantes o documentos fals",
+     "a) cuando se hayan utilizado facturas, justificantes o documentos fals"
+    ]
+   ],
+   "a193": [
+    3,
+    57,
+    [
+     "a) cuando se hayan utilizado facturas, justificantes o documentos fals",
+     "a) cuando se hayan utilizado facturas, justificantes o documentos fals"
+    ]
+   ],
+   "a198": [
+    1,
+    69,
+    [
+     "el importe mínimo de la sanción que se menciona en el párrafo anterior"
+    ]
+   ],
+   "a199": [
+    1,
+    73,
+    [
+     "no obstante, el importe mínimo de la sanción que se menciona en el pár"
+    ]
+   ],
+   "a200": [
+    1,
+    21,
+    [
+     "a) la inexactitud u omisión de operaciones en la contabilidad o en los"
+    ]
+   ],
+   "a201": [
+    5,
+    151,
+    [
+     "a) cuando se incumplan los requisitos exigidos por la normativa regula",
+     "entre otros, se considerarán incluidos en esta letra los incumplimient"
+    ]
+   ],
+   "a203": [
+    8,
+    323,
+    [
+     "a) cuando el incumplimiento lo realicen personas o entidades que no de",
+     "1.º multa pecuniaria fija de 1.000 euros, si no comparece o no se faci"
+    ]
+   ],
+   "a206": [
+    4,
+    134,
+    [
+     "a) la falta de ingreso dentro del plazo establecido en la normativa de",
+     "el incumplimiento a que se refiere el apartado anterior constituirá in"
+    ]
+   ],
+   "a206bis": [
+    4,
+    134,
+    [
+     "a) la falta de ingreso dentro del plazo establecido en la normativa de",
+     "el incumplimiento a que se refiere el apartado anterior constituirá in"
+    ]
+   ],
+   "a207": [
+    1,
+    17,
+    [
+     "a) por las normas especiales establecidas en este título y la normativ"
+    ]
+   ],
+   "a208": [
+    1,
+    54,
+    [
+     "a) a ser notificado de los hechos que se le imputen, de las infraccion"
+    ]
+   ],
+   "a211": [
+    1,
+    19,
+    [
+     "a) el consejo de ministros, si consisten en la suspensión del ejercici"
+    ]
+   ],
+   "a212": [
+    1,
+    24,
+    [
+     "a) la ejecución de las sanciones quedará automáticamente suspendida en"
+    ]
+   ],
+   "a213": [
+    2,
+    80,
+    [
+     "a) los procedimientos especiales de revisión.",
+     "las resoluciones firmes de los órganos económico-administrativos, así "
+    ]
+   ],
+   "a215": [
+    1,
+    12,
+    [
+     "a) la inadmisión de escritos de cualquier clase presentados por los in"
+    ]
+   ],
+   "a216": [
+    1,
+    8,
+    [
+     "a) revisión de actos nulos de pleno derecho."
+    ]
+   ],
+   "a217": [
+    6,
+    158,
+    [
+     "a) que lesionen los derechos y libertades susceptibles de amparo const",
+     "el procedimiento para declarar la nulidad a que se refiere este artícu"
+    ]
+   ],
+   "a220": [
+    1,
+    21,
+    [
+     "a) la caducidad del procedimiento iniciado de oficio, sin que ello imp"
+    ]
+   ],
+   "a226": [
+    1,
+    56,
+    [
+     "a) la aplicación de los tributos del estado o de los recargos establec"
+    ]
+   ],
+   "a229": [
+    7,
+    387,
+    [
+     "a) en única instancia, de las reclamaciones económico-administrativas ",
+     "a) en única instancia, de las reclamaciones que se interpongan contra "
+    ]
+   ],
+   "a230": [
+    3,
+    102,
+    [
+     "a) las interpuestas por un mismo interesado relativas al mismo tributo",
+     "fuera de los casos establecidos en el número anterior, el tribunal, de"
+    ]
+   ],
+   "a232": [
+    3,
+    78,
+    [
+     "a) los obligados tributarios y los sujetos infractores.",
+     "a) los funcionarios y empleados públicos, salvo en los casos en que in"
+    ]
+   ],
+   "a239": [
+    2,
+    57,
+    [
+     "1.ª) el ejercicio de esta facultad deberá ser comunicado por escrito a",
+     "igualmente deberá comunicar al reclamado por cualquier medio que deje "
+    ]
+   ],
+   "a241": [
+    1,
+    23,
+    [
+     "también podrá interponerse recurso de anulación contra el acuerdo de a"
+    ]
+   ],
+   "a241bis": [
+    1,
+    23,
+    [
+     "también podrá interponerse recurso de anulación contra el acuerdo de a"
+    ]
+   ],
+   "a241ter": [
+    1,
+    23,
+    [
+     "también podrá interponerse recurso de anulación contra el acuerdo de a"
+    ]
+   ],
+   "a244": [
+    2,
+    52,
+    [
+     "a) que aparezcan documentos de valor esencial para la decisión del asu",
+     "la legitimación para interponer este recurso será la prevista en el ap"
+    ]
+   ],
+   "a246": [
+    2,
+    56,
+    [
+     "a) identificación del reclamante y del acto o actuación contra el que ",
+     "la reclamación se dirigirá al órgano al que se refieren los apartados "
+    ]
+   ],
+   "a251": [
+    2,
+    75,
+    [
+     "a) cuando la tramitación de la liquidación administrativa pueda ocasio",
+     "en los casos anteriormente señalados, junto al escrito de denuncia o d"
+    ]
+   ],
+   "a253": [
+    4,
+    159,
+    [
+     "a) la propuesta de liquidación vinculada a delito comprenderá los elem",
+     "si la declaración presentada hubiera determinado una cuota a ingresar,"
+    ]
+   ],
+   "a257": [
+    1,
+    53,
+    [
+     "a) si en el proceso penal se dictara sentencia condenatoria por delito"
+    ]
+   ],
+   "a259": [
+    4,
+    174,
+    [
+     "a) cuando con arreglo a lo previsto en el apartado 2 de este artículo ",
+     "lo dispuesto en los artículos 251 y 253 de esta ley en relación con la"
+    ]
+   ],
+   "a261": [
+    2,
+    69,
+    [
+     "a) procedimiento de recuperación en supuestos de regularización de los",
+     "la ejecución de las decisiones de recuperación de ayudas de estado tam"
+    ]
+   ],
+   "a262": [
+    2,
+    54,
+    [
+     "a) por cualquier actuación de la comisión o de la administración tribu",
+     "el plazo de prescripción se suspenderá durante el tiempo en que la dec"
+    ]
+   ],
+   "a265": [
+    2,
+    56,
+    [
+     "a) examen de los datos consignados por los obligados tributarios en su",
+     "las actuaciones del procedimiento podrán realizarse fuera de las ofici"
+    ]
+   ],
+   "a268": [
+    5,
+    97,
+    [
+     "a) por resolución expresa de la administración tributaria, que deberá ",
+     "1.º elementos de la obligación tributaria afectados por la decisión de"
+    ]
+   ],
+   "a271": [
+    1,
+    56,
+    [
+     "cuando una resolución judicial aprecie defectos formales y ordene la r"
+    ]
+   ]
+  }
+ },
+ "metrica_A": {
+  "preceptos_con_texto": 292,
+  "de": 292,
+  "frases_ausentes": 0,
+  "fuente": "pareo_frases_total_s18_2026-09-26.json (reproducido hoy con estado_sesion18_2026-09-27.py, hash a5e63375 inalterado)"
+ }
+}

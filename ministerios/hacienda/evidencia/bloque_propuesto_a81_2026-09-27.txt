@@ -1,0 +1,53 @@
+## [a81] Artículo 81
+
+Artículo 81. Medidas cautelares.
+
+1. Para asegurar el cobro de las deudas para cuya recaudación sea competente, la Administración tributaria podrá adoptar medidas cautelares de carácter provisional cuando existan indicios racionales de que, en otro caso, dicho cobro se vería frustrado o gravemente dificultado.
+
+La medida cautelar deberá ser notificada al afectado con expresa mención de los motivos que justifican su aplicación.
+
+2. Cuando se solicite a la Administración tributaria la adopción de medidas cautelares en el marco de la asistencia mutua, el documento procedente del Estado o entidad internacional o supranacional que las solicite que permita la adopción de medidas cautelares no estará sujeto a acto alguno de reconocimiento, adición o sustitución por parte de la Administración tributaria española.
+
+3. Las medidas habrán de ser proporcionadas al daño que se pretenda evitar y en la cuantía estrictamente necesaria para asegurar el cobro de la deuda. En ningún caso se adoptarán aquellas que puedan producir un perjuicio de difícil o imposible reparación.
+
+4. Las medidas cautelares podrán consistir en:
+
+a) La retención del pago de devoluciones tributarias o de otros pagos que deba realizar la Administración tributaria. La retención cautelar total o parcial de una devolución tributaria deberá ser notificada al interesado junto con el acuerdo de devolución.
+
+b) El embargo preventivo de bienes y derechos, del que se practicará, en su caso, anotación preventiva.
+
+c) La prohibición de enajenar, gravar o disponer de bienes o derechos.
+
+d) La retención de un porcentaje de los pagos que las empresas que contraten o subcontraten la ejecución de obras o prestación de servicios correspondientes a su actividad principal realicen a los contratistas o subcontratistas, en garantía de las obligaciones tributarias relativas a tributos que deban repercutirse o cantidades que deban retenerse a trabajadores, profesionales u otros empresarios, en la parte que corresponda a las obras o servicios objeto de la contratación o subcontratación.
+
+e) Cualquier otra legalmente prevista.
+
+Dichas medidas serán levantadas de acuerdo con lo dispuesto en el apartado siguiente, o cuando así lo acuerde el órgano competente para la resolución de la solicitud de suspensión.
+
+7. Los efectos de las medidas cautelares cesarán en el plazo de seis meses desde su adopción, salvo en los siguientes supuestos:
+
+b) Que desaparezcan las circunstancias que motivaron su adopción.
+
+c) Que, a solicitud del interesado, se acordase su sustitución por otra garantía que se estime suficiente.
+
+En todo caso, las medidas cautelares deberán ser levantadas si el obligado tributario presenta aval solidario de entidad de crédito o sociedad de garantía recíproca o certificado de seguro de caución que garantice el cobro de la cuantía de la medida cautelar. Si el obligado procede al pago en período voluntario de la obligación tributaria cuyo cumplimiento aseguraba la medida cautelar, sin mediar suspensión del ingreso, la Administración Tributaria deberá abonar los gastos de la garantía aportada.
+
+d) Que se amplíe dicho plazo mediante acuerdo motivado, sin que la ampliación pueda exceder de seis meses.
+
+e) Que se adopten durante la tramitación del procedimiento descrito en el artículo 253 de esta Ley o tras su conclusión. En estos casos sus efectos cesarán en el plazo de veinticuatro meses desde su adopción.
+
+Si se hubieran adoptado antes del inicio de la tramitación descrita en el artículo 253 de esta Ley, una vez dictada la liquidación a que se refiere el artículo 250.2 de esta Ley, podrá ampliarse el plazo mediante acuerdo motivado, sin que la ampliación total de las medidas adoptadas pueda exceder de 18 meses.
+
+Las medidas a que se refiere este párrafo e) podrán convertirse en embargos del procedimiento de apremio iniciado para el cobro de la liquidación practicada.
+
+Si con posterioridad a su adopción, se solicitara al órgano judicial penal competente la suspensión contemplada en el artículo 305.5 del Código Penal, las medidas adoptadas se notificarán al Ministerio Fiscal y al citado órgano judicial y se mantendrán hasta que este último adopte la decisión procedente sobre su conservación o levantamiento.
+
+9. Cuando con motivo de un procedimiento de comprobación e investigación inspectora se haya formalizado denuncia o querella por delito contra la Hacienda Pública o se haya dirigido proceso judicial por dicho delito sin que se haya dictado la liquidación a que se refiere el artículo 250.2 de esta Ley, podrán adoptarse, por el órgano competente de la Administración Tributaria, las medidas cautelares reguladas en este artículo, sin perjuicio de lo dispuesto en la disposición adicional decimonovena.
+
+Si la investigación del presunto delito no tuviese origen en un procedimiento de comprobación e investigación inspectora, las medidas cautelares podrán adoptarse por el órgano competente de la Administración Tributaria con posterioridad a la incoación de las correspondientes diligencias de investigación desarrolladas por el Ministerio Fiscal o, en su caso, con posterioridad a la incoación de las correspondientes diligencias penales.
+
+En los supuestos a que se refieren los párrafos anteriores, las medidas cautelares podrán dirigirse contra cualquiera de los sujetos identificados en la denuncia o querella como posibles responsables, directos o subsidiarios, del pago de las cuantías a las que se refiere el artículo 126 del Código Penal.
+
+Adoptada, en su caso, la medida cautelar por el órgano competente de la Administración Tributaria, se notificará al interesado, al Ministerio Fiscal y al órgano judicial competente y se mantendrá hasta que este último adopte la decisión procedente sobre su conversión en medida jurisdiccional o levantamiento.
+
+> Consolidación 2026-09-27 (Ministerio de Hacienda): se retiran las cuatro capas históricas; cuerpo = capa vigente byte a byte del texto vivo + letra a) del apartado 4 restituida en su posición desde el sedimento del propio bloque (coincide literalmente con el texto vigente del BOE consolidado archivado). Dos frases vigentes más del art. 81 (apartados 7.in fine y 8 «cuando en la tramitación de una solicitud de suspensión…») NO viven en el fichero: se declaran como hueco de fidelidad aparte, no se cuelan en este dedupe. Aparato del repo, no norma.

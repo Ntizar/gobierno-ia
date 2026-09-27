@@ -1,0 +1,101 @@
+{
+ "f1_relocalizado": {
+  "casos_manifiesto": 135,
+  "pendientes_hoy": 2,
+  "pendientes_lista": [
+   [
+    "[a150]",
+    "b) los ingresos realizados desde el inicio del procedimiento hasta la reanudación de las a",
+    15
+   ],
+   [
+    "[a150]",
+    "b) los ingresos realizados desde el inicio del procedimiento hasta la reanudación de las a",
+    15
+   ]
+  ]
+ },
+ "capas": {
+  "a229": {
+   "n_versiones_consolidado": 1,
+   "pal_versions": [
+    1572
+   ],
+   "pal_ultima_capa_vivo": 2252,
+   "versiones_consolidado_contenidas_en_ultima_capa": [],
+   "DEDUPE_SEGURO": false
+  },
+  "a81": {
+   "n_versiones_consolidado": 1,
+   "pal_versions": [
+    1295
+   ],
+   "pal_ultima_capa_vivo": 3641,
+   "versiones_consolidado_contenidas_en_ultima_capa": [],
+   "DEDUPE_SEGURO": false
+  },
+  "a68": {
+   "n_versiones_consolidado": 1,
+   "pal_versions": [
+    1186
+   ],
+   "pal_ultima_capa_vivo": 2976,
+   "versiones_consolidado_contenidas_en_ultima_capa": [],
+   "DEDUPE_SEGURO": false
+  },
+  "a112": {
+   "n_versiones_consolidado": 1,
+   "pal_versions": [
+    495
+   ],
+   "pal_ultima_capa_vivo": 2536,
+   "versiones_consolidado_contenidas_en_ultima_capa": [],
+   "DEDUPE_SEGURO": false
+  },
+  "a233": {
+   "n_versiones_consolidado": 1,
+   "pal_versions": [
+    1033
+   ],
+   "pal_ultima_capa_vivo": 2688,
+   "versiones_consolidado_contenidas_en_ultima_capa": [],
+   "DEDUPE_SEGURO": false
+  },
+  "a199": {
+   "n_versiones_consolidado": 1,
+   "pal_versions": [
+    875
+   ],
+   "pal_ultima_capa_vivo": 2473,
+   "versiones_consolidado_contenidas_en_ultima_capa": [],
+   "DEDUPE_SEGURO": false
+  },
+  "a65": {
+   "n_versiones_consolidado": 1,
+   "pal_versions": [
+    609
+   ],
+   "pal_ultima_capa_vivo": 1725,
+   "versiones_consolidado_contenidas_en_ultima_capa": [],
+   "DEDUPE_SEGURO": false
+  },
+  "a26": {
+   "n_versiones_consolidado": 1,
+   "pal_versions": [
+    935
+   ],
+   "pal_ultima_capa_vivo": 2727,
+   "versiones_consolidado_contenidas_en_ultima_capa": [],
+   "DEDUPE_SEGURO": false
+  },
+  "a29": {
+   "n_versiones_consolidado": 1,
+   "pal_versions": [
+    829
+   ],
+   "pal_ultima_capa_vivo": 2598,
+   "versiones_consolidado_contenidas_en_ultima_capa": [],
+   "DEDUPE_SEGURO": false
+  }
+ }
+}

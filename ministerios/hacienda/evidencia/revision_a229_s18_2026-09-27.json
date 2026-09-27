@@ -1,0 +1,29 @@
+{
+ "fecha": "2026-09-27",
+ "bloque": "[a229]",
+ "orden": "PREPARACION - no ejecutado, no aprobado (acuerdo 75: aplazado, requiere revision linea a linea del Auditor)",
+ "canon_a229": {
+  "sha256": "c1a8c07328d91719757acb2f5d2672304a28f034ae2d8499c74468d69cb50745",
+  "palabras": 982,
+  "fichero": "ministerios/hacienda/evidencia/canon_a229_s18_2026-09-27.txt"
+ },
+ "vivo": {
+  "palabras": 2263,
+  "lineas_no_vacías": 51,
+  "palabras_lineas_en_canon": 1417,
+  "palabras_lineas_fuera_de_canon": 842,
+  "palabras_rotulo": 4,
+  "frases_canon_ausentes_del_vivo": 0
+ },
+ "propuesto_s17": {
+  "palabras": 1808,
+  "frases_canon_ausentes_del_propuesto": 0,
+  "ejemplos_ausentes": [],
+  "canon_incluido_como_subsecuencia_contigua": false
+ },
+ "reordenamiento_detectado": {
+  "encabezamientos_repetidos": 3,
+  "capas": "tres capas (original 2003, reforma LO 1/2010, reforma Ley 7/2011+34/2015); la vigente NO esta contiguous: le faltan a) del 1, encabezamiento del 2.a) y el encabezamiento del 3 dentro de su capa - el dedupe tiene que reensamblar piezas de capas distintas",
+  "letras_o": "en la capa vigente las letras b) y c) de los apartados 2 y 3 aparecen SIN el encabezamiento que las introduce (lineas 85-87, 91-93): una deduplicacion ingenua por linea mataria norma vigente"
+ }
+}

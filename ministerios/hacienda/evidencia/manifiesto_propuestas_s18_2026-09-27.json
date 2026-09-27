@@ -1,0 +1,32 @@
+{
+ "fecha": "2026-09-27",
+ "sesion": 18,
+ "ejecucion_en_ley": false,
+ "P1_a65": {
+  "vivo_pal": 1764,
+  "prop_pal": 516,
+  "ahorro": 1248,
+  "sha_vivo": "de9c8891c3bbb3c19558a4a86a687c8197cb8392aabc3b00c2eef693446162bc",
+  "sha_prop": "fef142903eb4d45c2700161e269d68792c746130b30a7cb5caa911eec03e6e11",
+  "frases_vigentes_consolidado_ausentes": [
+   "(única ausente = rótulo de sección, aparato)"
+  ]
+ },
+ "P2_a112": {
+  "vivo_pal": 2560,
+  "prop_pal": 451,
+  "ahorro": 2109,
+  "sha_vivo": "0c614a734289e3435c78b3b081f77fd90b99b4f0c5347901e6ae72d1f2238fad",
+  "sha_prop": "ccf815ad6176b0a2ca497d3e18dedbd086029bf1de6bc15a2cd2f46139836185",
+  "frases_vigentes": 13,
+  "frases_ausentes": 1,
+  "ausentes": [
+   "#s4-5] sección 4.ª entrada en el domicilio de los obligados tributarios subir [bloque 163:"
+  ]
+ },
+ "RETIRADOS_CON_BANDERA": {
+  "a81": "canon JSON pierde encabezamientos vigentes del art. 81 (apartado 5 in fine y 8 «cuando en la tramitación de una solicitud de suspensión…» no viven NINGUNA capa del vivo; otras 5 frases vigentes viven SOLO en capas antiguas) — dedupar a la cola mataría norma; resta en inventario de restitución Fase 3",
+  "a68": "canon JSON pierde los encabezamientos vigentes de los apartados 2, 3 y 4 (viven en capas antiguas del vivo) — mismo vicio [a12] potencial",
+  "a229": "medido hoy: la sección vigente filtrada (1.287 pal., 29 frases) tiene 7 frases ausentes del propuesto del 25-09, incluidas dos aperturas «a) En única instancia…» — la bandera del acuerdo 75 queda CONFIRMADA con números; no se ejecuta"
+ }
+}

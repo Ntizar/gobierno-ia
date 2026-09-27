@@ -1,0 +1,96 @@
+{
+ "a81": {
+  "pal_vivo": 3665,
+  "pal_canon": 843,
+  "canon_contiguo_en_vivo": true,
+  "frases_canon": 26,
+  "frases_ausentes": 0,
+  "sha_vivo": "648f1e0608ad51b7",
+  "canon_en_propuesto_substring": true,
+  "frases_ausentes_propuesto": 0,
+  "pal_propuesto": 877,
+  "delta_pal": -2788,
+  "sha_prop": "44c73a7fb3128dcf"
+ },
+ "a26": {
+  "pal_vivo": 2751,
+  "pal_canon": 660,
+  "canon_contiguo_en_vivo": false,
+  "frases_canon": 15,
+  "frases_ausentes": 0,
+  "sha_vivo": "20b88425208c10fd"
+ },
+ "a29": {
+  "pal_vivo": 2632,
+  "pal_canon": 479,
+  "canon_contiguo_en_vivo": false,
+  "frases_canon": 16,
+  "frases_ausentes": 0,
+  "sha_vivo": "ffe850b68a86432e"
+ },
+ "a68": {
+  "pal_vivo": 3012,
+  "pal_canon": 797,
+  "canon_contiguo_en_vivo": true,
+  "frases_canon": 20,
+  "frases_ausentes": 0,
+  "sha_vivo": "de5ce30ae8f1e6f2",
+  "canon_en_propuesto_substring": true,
+  "frases_ausentes_propuesto": 0,
+  "pal_propuesto": 831,
+  "delta_pal": -2181,
+  "sha_prop": "58d1b874e2cffe2c"
+ },
+ "a233": {
+  "pal_vivo": 2740,
+  "pal_canon": 805,
+  "canon_contiguo_en_vivo": true,
+  "frases_canon": 21,
+  "frases_ausentes": 0,
+  "sha_vivo": "9bbb83c93ca900b4",
+  "canon_en_propuesto_substring": true,
+  "frases_ausentes_propuesto": 0,
+  "pal_propuesto": 839,
+  "delta_pal": -1901,
+  "sha_prop": "3a8a0c539839fc3c"
+ },
+ "a199": {
+  "pal_vivo": 2569,
+  "pal_canon": 738,
+  "canon_contiguo_en_vivo": true,
+  "frases_canon": 16,
+  "frases_ausentes": 0,
+  "sha_vivo": "cff34d7ef300ef8c",
+  "canon_en_propuesto_substring": true,
+  "frases_ausentes_propuesto": 0,
+  "pal_propuesto": 772,
+  "delta_pal": -1797,
+  "sha_prop": "2835f255cfa37bb4"
+ },
+ "a65": {
+  "pal_vivo": 1764,
+  "pal_canon": 438,
+  "canon_contiguo_en_vivo": true,
+  "frases_canon": 16,
+  "frases_ausentes": 0,
+  "sha_vivo": "de9c8891c3bbb3c1",
+  "canon_en_propuesto_substring": true,
+  "frases_ausentes_propuesto": 0,
+  "pal_propuesto": 472,
+  "delta_pal": -1292,
+  "sha_prop": "56454ad2c0e53e20"
+ },
+ "a112": {
+  "pal_vivo": 2560,
+  "pal_canon": 363,
+  "canon_contiguo_en_vivo": true,
+  "frases_canon": 11,
+  "frases_ausentes": 0,
+  "sha_vivo": "0c614a734289e343",
+  "canon_en_propuesto_substring": true,
+  "frases_ausentes_propuesto": 0,
+  "pal_propuesto": 397,
+  "delta_pal": -2163,
+  "sha_prop": "22529a3d56dc846a"
+ }
+}

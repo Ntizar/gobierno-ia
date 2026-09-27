@@ -1,0 +1,34 @@
+{
+ "a81": {
+  "vivo_pal": 3665,
+  "propuesto_pal": 1705,
+  "ahorro_pal": 1960,
+  "canon_integro_en_propuesto": true,
+  "sha256_bloque_vivo": "648f1e0608ad51b7b192a90f040ee9f7aea208ddbc1ebecd53285dafa98d2add",
+  "sha256_bloque_propuesto": "a68cf7c7d4b917228bcab7ee7b7deaa8c5adc3de86aa48afea957ff012dc94a0"
+ },
+ "a68": {
+  "vivo_pal": 3012,
+  "propuesto_pal": 1368,
+  "ahorro_pal": 1644,
+  "canon_integro_en_propuesto": true,
+  "sha256_bloque_vivo": "de5ce30ae8f1e6f2f6a8b408cee7f244c16c943ee584ecb18e1a2094da74d9e3",
+  "sha256_bloque_propuesto": "3d8e39065e91079bbb0a4c30ed9fd7fdad631f4ef9272f9b658e07fb4454fd5e"
+ },
+ "a65": {
+  "vivo_pal": 1764,
+  "propuesto_pal": 582,
+  "ahorro_pal": 1182,
+  "canon_integro_en_propuesto": true,
+  "sha256_bloque_vivo": "de9c8891c3bbb3c19558a4a86a687c8197cb8392aabc3b00c2eef693446162bc",
+  "sha256_bloque_propuesto": "392547dd5a457560551a9094139164cac06bb4cdb1bb23af63addc45b1f7bb86"
+ },
+ "a112": {
+  "vivo_pal": 2560,
+  "propuesto_pal": 1486,
+  "ahorro_pal": 1074,
+  "canon_integro_en_propuesto": true,
+  "sha256_bloque_vivo": "0c614a734289e3435c78b3b081f77fd90b99b4f0c5347901e6ae72d1f2238fad",
+  "sha256_bloque_propuesto": "e52de66be8abc3328619460d9133c60390d26176c91cc2488b8564121beb3726"
+ }
+}
