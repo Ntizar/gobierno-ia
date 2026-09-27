@@ -1,0 +1,136 @@
+{
+  "sesion": "18/30",
+  "fecha": "2026-09-27",
+  "ejecutor": "Presidencia (ronda 3)",
+  "dry_run": false,
+  "convencion_hash_bloque": "sha256 de los bytes del rango [linea del rotulo .. linea anterior al siguiente '## ['] unidos por CRLF, sin salto final",
+  "ficheros": {
+    "ministerios/hacienda/leyes/BOE-A-2003-23186.md": {
+      "sha256_antes": "a5e63375fadfcd6d23478b27d5238acedc9fe9a03e0608c926533a0157750f5d",
+      "palabras_antes": 135180,
+      "bloques_antes": 335,
+      "sha256_despues": "d0b7ef2268f9516d4618ece1847e460517075954fc798107f4d68c0f46ed9368",
+      "palabras_despues": 131823,
+      "bloques_despues": 335,
+      "crlf": true,
+      "verificaciones": [
+        {
+          "bloque": "a65",
+          "rotulos": 1,
+          "sha_bloque_despues": "4f425b77a4bbec739cd1e4b9efc2adc1ce045c5071fc897bfc891e44d206d20e",
+          "palabras_bloque_despues": 516,
+          "resultante_igual_propuesto": true
+        },
+        {
+          "bloque": "a112",
+          "rotulos": 1,
+          "sha_bloque_despues": "0b2e560464297e5bcaaae8c5e9af0da6b76d95e0b782598a70bef9624c841295",
+          "palabras_bloque_despues": 451,
+          "resultante_igual_propuesto": true
+        }
+      ],
+      "ruta": "ministerios/hacienda/leyes/BOE-A-2003-23186.md",
+      "bak": "ministerios/hacienda/leyes/BOE-A-2003-23186.md.bak-2026-09-27",
+      "bak_sha256": "a5e63375fadfcd6d23478b27d5238acedc9fe9a03e0608c926533a0157750f5d"
+    },
+    "ministerios/sanidad/leyes/BOE-A-1986-10499.md": {
+      "sha256_antes": "997366bb0030362ae041786025729549a8ede79929fbf2cec7514ae4c0632e3d",
+      "palabras_antes": 19487,
+      "bloques_antes": 151,
+      "sha256_despues": "688912f0b699a0908197c2855d3ea332a9842f56829e8f57fbc7e4f7443ba9f6",
+      "palabras_despues": 19540,
+      "bloques_despues": 151,
+      "crlf": true,
+      "verificaciones": [
+        {
+          "bloque": "acuatro",
+          "rotulos": 1,
+          "sha_bloque_despues": "b9ced958aa29ef6212acc6729d6d6f977ba8badc19341d9bc05249e0db7cde17",
+          "palabras_bloque_despues": 117,
+          "apartado3_una_sola_vez": true,
+          "cadena_90dias_una_sola_vez": true
+        },
+        {
+          "bloque": "aciento.3",
+          "rotulos": 1,
+          "sha_bloque_despues": "9fac50bd90e7992de55bed2a3f3999e80027762fe4235a60e23fe725d0e5da4c",
+          "palabras_bloque_despues": 148,
+          "cee_restante": 0,
+          "parrafo_3_palabras": "29 -> 28",
+          "linea_3_identica_a_propuesta": true
+        }
+      ],
+      "ruta": "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
+      "bak": "ministerios/sanidad/leyes/BOE-A-1986-10499.md.bak-2026-09-27-consejo",
+      "bak_sha256": "997366bb0030362ae041786025729549a8ede79929fbf2cec7514ae4c0632e3d"
+    }
+  },
+  "bloques": [
+    {
+      "fichero": "LGT",
+      "bloque": "a65",
+      "lineas_antes": [
+        1548,
+        1657
+      ],
+      "palabras_antes": 1764,
+      "palabras_despues": 516,
+      "declarado_por_el_ministro": 516,
+      "ya_aplicado": false,
+      "precondicion_bloque_vivo": true,
+      "evidencia_vivo": "evidencia/bloque_vivo_a65_2026-09-27.txt"
+    },
+    {
+      "fichero": "LGT",
+      "bloque": "a112",
+      "lineas_antes": [
+        2980,
+        3069
+      ],
+      "palabras_antes": 2560,
+      "palabras_despues": 451,
+      "declarado_por_el_ministro": 451,
+      "ya_aplicado": false,
+      "precondicion_bloque_vivo": true,
+      "evidencia_vivo": "evidencia/bloque_vivo_a112_2026-09-27.txt"
+    },
+    {
+      "fichero": "LGS",
+      "bloque": "acuatro",
+      "lineas_antes": [
+        39,
+        46
+      ],
+      "palabras_antes": 63,
+      "palabras_despues": 117,
+      "declarado_por_el_ministro": 117,
+      "ya_aplicado": false,
+      "precondicion_bloque_vivo": true,
+      "evidencia_vivo": null
+    },
+    {
+      "fichero": "LGS",
+      "bloque": "aciento.3",
+      "lineas_antes": [
+        1252,
+        1263
+      ],
+      "palabras_antes": 149,
+      "palabras_despues": 148,
+      "declarado_por_el_ministro": 28,
+      "ya_aplicado": false,
+      "precondicion_bloque_vivo": true,
+      "evidencia_vivo": null
+    }
+  ],
+  "resumen": {
+    "ministerios/hacienda/leyes/BOE-A-2003-23186.md": {
+      "palabras": "135180 -> 131823",
+      "sha256": "a5e63375fadfcd6d23478b27d5238acedc9fe9a03e0608c926533a0157750f5d -> d0b7ef2268f9516d4618ece1847e460517075954fc798107f4d68c0f46ed9368"
+    },
+    "ministerios/sanidad/leyes/BOE-A-1986-10499.md": {
+      "palabras": "19487 -> 19540",
+      "sha256": "997366bb0030362ae041786025729549a8ede79929fbf2cec7514ae4c0632e3d -> 688912f0b699a0908197c2855d3ea332a9842f56829e8f57fbc7e4f7443ba9f6"
+    }
+  }
+}

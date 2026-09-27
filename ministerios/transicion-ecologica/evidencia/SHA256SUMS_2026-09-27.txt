@@ -1,0 +1,17 @@
+# Sesión 18/30 — 2026-09-27 (domingo, fecha fatal; sesión recuperada del sábado 26 por avería del cron del Consejo y de la Auditoría)
+# Apertura verificada (sha256sum del fichero, CRLF; coincide con la declarada): 013b8da1aa5667f490e81200b4e3a2f77eedff5600efca620677a4dff0f9ad1f  leyes/BOE-A-2021-8447.md → 27.173 palabras, 71 bloques
+# Cierre medido tras DOS ediciones ([a14] y [da-2]): dc4b46439a587321bc7837f9918abe7d26e9d676a395024ceef81a576a4756a3  leyes/BOE-A-2021-8447.md → 27.307 palabras, 71 bloques
+# Convención de hashes de bloque: scripts/hash_bloques_s18_2026-09-27.py (rótulo ## [x] hasta el siguiente rótulo, LF, sin saltos finales) — reproducible.
+# Nota de proceso: el hash del fichero en Python (e0d8691b… sobre LF normalizado) difiere del de sha256sum (dc4b4643… sobre CRLF) por la convención de finales de línea; cada manifiesto declara la suya. Bloques volcados a txt con LF, por eso sus hashes coinciden con la convención de bloque.
+# Verificaciones vivas registradas: cláusula del [a14] idéntica carácter a carácter a la del modelo del 22-09 (línea 21 de propuestas/2026-09-22.md, a partir de «se revisarán»; el False del primer intento fue artifact del marcador [c] de mi propia nota); los 4 párrafos de [da-2] están contenidos literalmente en el bloque aplicado (4=4).
+# Deuda de la sesión 18 según acuerdos 66 y 85: [a14] EJECUTADO (proceso de revisión, sin cifra) · [da-2] EJECUTADO (proceso en 3 apartados; la cifra pedida a la IGAE pasa a ser OBJETO del estudio, no premisa) · [a1-7] ARCHIVADO CON CONSTANCIA (sin base ni para estimar el 3 %; reactivación Fase 3) · reasignaciones 0,2 M€ y 1,2 M€ ARCHIVADAS CON CONSTANCIA (extracto 932A inexistente; regla de entes LGP 47/2003 no descargada en el repo). Nada de esto se declara aprobado: corresponde al voto del Consejo de esta noche.
+013b8da1aa5667f490e81200b4e3a2f77eedff5600efca620677a4dff0f9ad1f  ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md.bak-2026-09-27
+dc4b46439a587321bc7837f9918abe7d26e9d676a395024ceef81a576a4756a3  ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md
+5a0730e75d8de01b346236ddaeaa5a6386c7aa19bc63aaac0117db86f2c3fe17  evidencia/bloque_vivo_a1-6_2026-09-27.txt
+298a3887b0fdd4b48778ae80d12e36fe330a28df7ece2e71d06b144f2656b120  evidencia/bloque_aplicado_a1-6_2026-09-27.txt
+ab78d28492eb2837b4706b4a9702ad34b31ea95e4a5e1544efdfc89f555f2d41  evidencia/bloque_vivo_da-2_2026-09-27.txt
+c621ce253c275f6db8d0036724bf6d4ec9710a76d8e15c819490810df2235ea5  evidencia/bloque_aplicado_da-2_2026-09-27.txt
+23da7842209c6b2220e02f3afe0994aeb8a020124b2f2ba8351ae2ee81d2d322  evidencia/manifiesto_a14_2026-09-27.json
+c9978c8018d1079e23fee7391c765656566308bac0b2dd931e96d0b75b4372ab  evidencia/manifiesto_da-2_2026-09-27.json
+14c5883ec0e39f5b57be0784f6dcdc627ead0702430485397e7c429a93339c9f  ministerios/transicion-ecologica/scripts/hash_bloques_s18_2026-09-27.py
+7a618eee94577cae26660712d4d9bc347460244dd470aba0f5b9e00dcf47fac9  ministerios/transicion-ecologica/propuestas/2026-09-27.md

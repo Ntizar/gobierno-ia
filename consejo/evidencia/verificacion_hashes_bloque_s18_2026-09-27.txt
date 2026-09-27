@@ -1,0 +1,9 @@
+Convencion A (la de Hacienda): sha256(texto LF .strip())
+Convencion B (la de Presidencia): sha256(bytes del rango con CRLF, sin salto final)
+
+bloque_vivo_a65_2026-09-27.txt             declarado de9c8891 | A de9c8891 OK | B f7b20202
+bloque_propuesto_a65_2026-09-27.txt        declarado fef14290 | A fef14290 OK | B 4f425b77
+bloque_vivo_a112_2026-09-27.txt            declarado 0c614a73 | A 0c614a73 OK | B 850f5645
+bloque_propuesto_a112_2026-09-27.txt       declarado ccf815ad | A ccf815ad OK | B 0b2e5604
+
+RESULTADO: 4/4 reproducidos con la convencion A

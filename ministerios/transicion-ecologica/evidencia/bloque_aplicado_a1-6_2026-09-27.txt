@@ -1,0 +1,38 @@
+## [a1-6] Artículo 14
+
+Artículo 14. Promoción de movilidad sin emisiones.
+
+1. La Administración General del Estado, las Comunidades Autónomas y las Entidades Locales, en el marco de sus respectivas competencias, adoptarán medidas para alcanzar en el año 2050 un parque de turismos y vehículos comerciales ligeros sin emisiones directas de CO<sub>2</sub>, de conformidad con lo establecido por la normativa comunitaria. A estos efectos el Plan Nacional Integrado de Energía y Clima fijará para el año 2030 objetivos de penetración de vehículos matriculados con nulas o bajas emisiones directas de CO<sub>2</sub>, según sus diferentes categorías.
+
+2. En desarrollo de la estrategia de descarbonización a 2050 se adoptarán las medidas necesarias, de acuerdo con la normativa de la Unión Europea, para que los turismos y vehículos comerciales ligeros nuevos, excluidos los matriculados como vehículos históricos, no destinados a usos comerciales, reduzcan paulatinamente sus emisiones, de modo que no más tarde del año 2040 sean vehículos con emisiones de 0 g CO<sub>2</sub>/km de conformidad con lo establecido por la normativa comunitaria. A tal efecto, previa consulta con el sector, se pondrán en marcha medidas que faciliten la penetración de estos vehículos, que incluirán medidas de apoyo a la I+D+i.
+
+3. Los municipios de más de 50.000 habitantes y los territorios insulares adoptarán antes de 2023 planes de movilidad urbana sostenible que introduzcan medidas de mitigación que permitan reducir las emisiones derivadas de la movilidad incluyendo, al menos:
+
+a) El establecimiento de zonas de bajas emisiones antes de 2023.
+b) Medidas para facilitar los desplazamientos a pie, en bicicleta u otros medios de transporte activo, asociándolos con hábitos de vida saludables, así como corredores verdes intraurbanos que conecten los espacios verdes con las grandes áreas verdes periurbanas.
+
+c) Medidas para la mejora y uso de la red de transporte público, incluyendo medidas de integración multimodal.
+
+d) Medidas para la electrificación de la red de transporte público y otros combustibles sin emisiones de gases de efecto invernadero, como el biometano.
+
+e) Medidas para fomentar el uso de medios de transporte eléctricos privados, incluyendo puntos de recarga.
+
+f) Medidas de impulso de la movilidad eléctrica compartida.
+
+g) Medidas destinadas a fomentar el reparto de mercancías y la movilidad al trabajo sostenibles.
+
+h) El establecimiento de criterios específicos para mejorar la calidad del aire alrededor de centros escolares, sanitarios u otros de especial sensibilidad, cuando sea necesario de conformidad con la normativa en materia de calidad del aire.
+
+i) Integrar los planes específicos de electrificación de última milla con las zonas de bajas emisiones municipales.
+
+Lo dispuesto en este apartado será aplicable a los municipios de más de 20.000 habitantes cuando se superen los valores límite de los contaminantes regulados en Real Decreto 102/2011, de 28 de enero, relativo a la mejora de la calidad del aire.
+
+Los planes de movilidad urbana sostenible habrán de ser coherentes con los planes de calidad del aire con los que, en su caso, cuente el municipio con arreglo a lo previsto en el Real Decreto 102/2011, de 28 de enero, relativo a la mejora de la calidad del aire.
+
+Se entiende por zona de baja emisión el ámbito delimitado por una Administración pública, en ejercicio de sus competencias, dentro de su territorio, de carácter continuo, y en el que se aplican restricciones de acceso, circulación y estacionamiento de vehículos para mejorar la calidad del aire y mitigar las emisiones de gases de efecto invernadero, conforme a la clasificación de los vehículos por su nivel de emisiones de acuerdo con lo establecido en el Reglamento General de Vehículos vigente.
+
+Cualquier medida que suponga una regresión de las zonas de bajas emisiones ya existentes deberá contar con el informe previo del órgano autonómico competente en materia de protección del medio ambiente.
+
+4. De acuerdo con la normativa de movilidad limpia aprobada por la Unión Europea y con las revisiones y mejoras posteriores que se acuerden, las Comunidades Autónomas insulares, considerando su vulnerabilidad frente al cambio climático, podrán instar al Estado el establecimiento de medidas de promoción de movilidad limpia, consistentes en restricciones en su ámbito territorial de la circulación de turismos y furgonetas.
+
+5. Los planes de movilidad urbana sostenible aprobados al amparo del apartado 3 se revisarán cada cuatro años por el Ministerio para la Transición Ecológica y el Reto Demográfico, oído el Consejo Nacional del Clima, y el resultado de la revisión se remitirá a las Cortes Generales antes del 30 de junio del año de la revisión.

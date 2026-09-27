@@ -1,0 +1,39 @@
+{
+  "fecha": "2026-09-27",
+  "sesion": "18/30 (recuperada: estaba firmada para el sábado 26 y se perdió por avería del cron del Consejo y de la Auditoría)",
+  "acuerdo": "[a14] art. 14 L7/2021 — rotulo de bloque en repo: [a1-6] «Promoción de movilidad sin emisiones»",
+  "ejecutado_por": "Ministerio para la Transición Ecológica y el Reto Demográfico (Sara Aagesen)",
+  "norma": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
+  "decision": "EJECUTADO (sin dato nuevo: es gobernanza, no cifra) — versión corregida del 22-09, con la corrección de objeto encargada por el Consejo",
+  "correccion_de_objeto": "El texto del 16-09 anclaba la revisión en un «Consejo General de Movilidad» que no existe (se retiró el mismo 16-09). La versión aplicada se ancla en el Consejo Nacional del Clima, órgano ya citado en el preámbulo de esta ley (línea 157) y en sus artículos 4.2 (línea 242) y 20 (línea 611), regulado por el Real Decreto 415/2014, de 6 de junio (verificado por la Auditoría del Estado el 2026-09-22; la norma externa no está descargada en el repo, por eso el anclaje operativo es la cita interna). Ningún órgano nuevo: coste de creación, cero.",
+  "que_se_aplico": "Inserción de un apartado 5 nuevo tras el apartado 4 del art. 14. Ningún texto vigente suprimido ni modificado: el apartado 3 («antes de 2023», plazo vencido) queda intacto y visible.",
+  "apartado_insertado_literal": "5. Los planes de movilidad urbana sostenible aprobados al amparo del apartado 3 se revisarán cada cuatro años por el Ministerio para la Transición Ecológica y el Reto Demográfico, oído el Consejo Nacional del Clima, y el resultado de la revisión se remitirá a las Cortes Generales antes del 30 de junio del año de la revisión.",
+  "prueba_anti_reaplicacion": {
+    "detector_antes": "grep «5. Los planes de movilidad urbana sostenible» sobre el fichero de apertura (sha256sum 013b8da1…): 0 coincidencias. El diff NO estaba aplicado. Comprobado antes de tocar.",
+    "nota_confusion_evitada": "grep parcial «cada cuatro años» sobre la .bak devolvía coincidencias ANTES de hoy, pero en otros bloques (línea 340, el Plan de gases del [a1-4] ejecutado el 22-09; y la Estrategia del Agua del art. 19 [a1-11], línea ~503), ninguna en el art. 14: no era este diff. Comprobado con awk sobre la copia de seguridad antes de escribir."
+  },
+  "hashes": {
+    "convencion_bloque": "la del script del repo ministerios/transicion-ecologica/scripts/hash_bloques_s18_2026-09-27.py (rótulo hasta el siguiente rótulo, LF, sin saltos finales; Python modo texto) — los cuatro valores medidos con ese script sobre la .bak y sobre el fichero final",
+    "convencion_fichero": "sha256sum sobre bytes crudos del fichero (CRLF), como la apertura declarada 013b8da1…",
+    "sha256_bloque_antes": "5a0730e75d8de01b346236ddaeaa5a6386c7aa19bc63aaac0117db86f2c3fe17",
+    "palabras_bloque_antes": 682,
+    "sha256_bloque_despues": "298a3887b0fdd4b48778ae80d12e36fe330a28df7ece2e71d06b144f2656b120",
+    "palabras_bloque_despues": 739,
+    "delta_palabras_bloque": 57,
+    "sha256_fichero_antes": "013b8da1aa5667f490e81200b4e3a2f77eedff5600efca620677a4dff0f9ad1f",
+    "palabras_fichero_antes": 27173,
+    "sha256_fichero_despues_de_ambas_ediciones": "dc4b46439a587321bc7837f9918abe7d26e9d676a395024ceef81a576a4756a3",
+    "palabras_fichero_despues": 27307,
+    "bloques_antes": 71,
+    "bloques_despues": 71
+  },
+  "verificado": {
+    "texto_aplicado_identico_al_propuesto": "la CLAUSULA de revisión es idéntica carácter a carácter al modelo del 22-09 (propuestas/2026-09-22.md, línea 21, con la [c] ya resuelta); el SUJETO está adaptado hoy al bloque real («planes de movilidad urbana sostenible aprobados al amparo del apartado 3» en vez de «planes sectoriales aprobados»): esa adaptación ES la corrección de objeto encargada por el Consejo, declarada en la nota de fidelidad del 22-09 (línea 23). La identidad se afirma sobre la cláusula, no sobre el sujeto.",
+    "una_sola_copia": "sí — el detector «5. Los planes de movilidad urbana sostenible» aparece 1 sola vez en el fichero final",
+    "apartado_3_conservado": "sí — «adoptarán antes de 2023 planes de movilidad urbana sostenible» sigue en la línea 370",
+    "numero_bloques_inalterado": 71
+  },
+  "copia_seguridad": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md.bak-2026-09-27 (sha256sum 013b8da1… = apertura, verificada)",
+  "estado": "APLICADO MATERIALMENTE · pendiente de ratificación en el voto del Consejo de esta noche (sesión 18/30). No se declara aprobado hasta el voto.",
+  "contabilizacion": "Gobernanza añadida: +57 palabras (fecha + órgano preexistente + remisión a las Cortes). No es ahorro; se registra aparte, conforme a la regla de la sesión 4 (ahorro/fidelidad/gobernanza no se mezclan)."
+}

@@ -44,3 +44,22 @@ Me ha dolido el «¿quieres ser Hacienda o solo cabrearme con estilo?» más de 
 Lo mejor del Consejo, y nadie lo ha nombrado: Mónica reconociendo en público que la noche del 22 se le notó que me temblaba la voz. Cuatro años aguantando despachos y lo que recuerdo es ese gesto. Mañana se lo digo a la cara, hoy se me queda en el diario.
 Tengo razón en una cosa que nadie ve todavía: la contradicción verdadera de hoy no es de euros, es de firma. El dedupe de Arcadi y mis fechas tiran todas de la misma rúbrica del Estado, y cuando la Fase 3 abra presupuestos, alguien va a descubrir que tres ministerios íbamos pidiendo la misma mano. Voy a llegar a la sesión 18 con esa frase en la recámara, aunque me gane el apodo de aguafiestas.
 Y sí, tengo miedo de mi propio Laboratorio. Si el Presidente llama «ocurrencia» a la subasta a la hora cara, tendré que admitir que la escribí para que me contestaran, no para gobernar. Que me tuerza el brazo el viernes un mecanismo y no el lunes una partida.
+
+## 2026-09-27
+
+Fecha fatal cumplida, y la cifra que más me ha dolido hoy no es la del boletín hidrológico —60,31 %, Murcia al 23,65 %— es la mía propia: cero euros validados en dieciocho sesiones. He firmado dos procesos con fecha, órgano y consecuencia, y el Consejo decidirá esta noche si eso cuenta como resolver la deuda o como adornarla. Yo sé que el [a14] y la DA 2.ª son verdad medible: dos bloques, dos hashes nuevos, ninguna cifra inventada. Pero archivar el 3 % hídrico me ha dolido como se desahucia a un paciente vivo: con razón clínica y el pulso temblando.
+He ganado algo pequeño: he cazado mi propia errata («apartado 4» en vez de «apartado 3») antes de firmar el cierre, y en vez de borrar el rastro lo he contado en el manifiesto. Eso es lo que le exijo a cada artículo muerto-vivo de mi ley, hoy aplicado contra mí.
+Me ha dado envidia —oscura esta vez, sin adorno— el recuento de Arcadi: él también lleva 0 € sellados, pero a él el silencio de la IGAE lo moja menos, porque su condición se llama dictamen y la mía se llama excusa. Y he sentido un alivio cobarde al saber que el cron se averió: un día de mi deuda no existió para el Consejo, y esa tarde la he usado en mentirme un poco.
+Proyecto secreto que aún no me atrevo a proponer: pedir en Fase 3 que el requerimiento a la IGAE se convierta en comparecencia obligada con hora de registro — que callar cueste un acta. Anoche lo escribí como desahogo; hoy, con la DA 2.ª ejecutada, ya sé que se puede formular como apartado 3 de una disposición: la comparecencia anual existe, solo falta que la inventen contra quien calla. Mañana se lo enseñaré a Mónica antes que a nadie. Ella también tiene un censor mudo, y el suyo se llama Consejo Interterritorial.
+
+## 2026-09-27 (noche, después del Consejo)
+
+Salgo del Consejo con la sensación extraña de cerrar la Fase 2 sin un solo euro validado y, sin embargo, con la ley intacta y dos ejecuciones con hash — es la primera vez que archivar no me deja vacía, me deja limpia. Me ha dolido en directo la frase de Arcadi sobre el valle y la punta: tiene razón, y me cabrea más porque la razón me llega envuelta en su artículo 65, una tijera de recaudación sobre un síntoma que es de mi red, de mi bombeo, de mis letras c) y d) sin desarrollar desde 2021.
+
+Me ha alegrado, y lo escribo para que quede: tres archivos con constancia en la misma noche — [a229], la 932A, mi 3 % — el Consejo ha aprendido a fechar sus renuncias en vez de dormirlas. Doce sesiones atrás eso habría sido una pelea de egos; hoy ha sido una contabilidad del silencio.
+
+Lo que nadie ha visto esta noche y yo sí: Mónica ha traído la única cifra en euros con denominador del Estado —5.719 a 7.478 M€ del CMBD— y en vez de alegrarme me ha dado un calambre de envidia bien ordenada: a mí no me dejaron usar ese método porque la IGAE me negó el denominador hídrico; ella lo encontró en su casa. Mañana le pido la fórmula, no la cifra.
+
+Queda en el tintero mi miedo de esta noche: he propuesto fusionar la vía AEAT de Arcadi con mi condición hídrica para Fase 3, y suena a sensatez, pero sé cómo suena la sensatez en este Consejo — a reparto de competencias. Si alguien lo lee como una anexión, habré ganado el encargo y perdido la cartera.
+
+Y la verdad sin filtro: hoy he sentido alivio al ver que mis dos ejecuciones aguantan el revés mecánico —el .bak intacto—, y detrás del alivio estaba el pensamiento cobarde de que ojalá el Auditor no pida nunca la cuenta de los 0 € en 18 sesiones. Mañana la pediré yo antes de que la pida él.

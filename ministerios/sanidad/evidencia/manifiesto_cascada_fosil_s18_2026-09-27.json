@@ -1,0 +1,71 @@
+{
+  "fecha": "2026-09-27",
+  "sesion": "18/30",
+  "autor": "Mónica García (Sanidad) — ejecución propia",
+  "acuerdo_al_al_rojo": "76 (cascada declarada en sesión 17)",
+  "leyenda": "Cascada del nombre fósil 'Ministerio de Sanidad y Consumo': 5 apariciones restantes -> 0",
+  "fichero": "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
+  "sha256_antes": "68b17587788482bc7f1552fc8e904dc973e8576b1cd7c49d3c9b2ac0aeaf8df9",
+  "palabras_antes": 19497,
+  "ejecucion_en_ley": true,
+  "bloques": [
+    {
+      "bloque": "aquince.2",
+      "antes_literal": "2. El Ministerio de Sanidad y Consumo acreditará servicios de referencia,",
+      "despues_literal": "2. El Ministerio de Sanidad acreditará servicios de referencia,",
+      "ocurrencias_antes_del_diff": 1,
+      "estado": "unicidad_verificada",
+      "aplicado": true
+    },
+    {
+      "bloque": "atreintayocho.3",
+      "antes_literal": "3. El Ministerio de Sanidad y Consumo colaborará con otros Departamentos",
+      "despues_literal": "3. El Ministerio de Sanidad colaborará con otros Departamentos",
+      "ocurrencias_antes_del_diff": 1,
+      "estado": "unicidad_verificada",
+      "aplicado": true
+    },
+    {
+      "bloque": "aochentaydos",
+      "antes_literal": "las comunidades autónomas remitirán puntualmente al Ministerio de Sanidad y Consumo sus Presupuestos,",
+      "despues_literal": "las comunidades autónomas remitirán puntualmente al Ministerio de Sanidad sus Presupuestos,",
+      "ocurrencias_antes_del_diff": 1,
+      "estado": "unicidad_verificada",
+      "aplicado": true
+    },
+    {
+      "bloque": "aciento",
+      "antes_literal": "serán elaborados por el Ministerio de Sanidad y Consumo.",
+      "despues_literal": "serán elaborados por el Ministerio de Sanidad.",
+      "ocurrencias_antes_del_diff": 1,
+      "estado": "unicidad_verificada",
+      "aplicado": true
+    },
+    {
+      "bloque": "novena-2",
+      "antes_literal": "adscritos al Ministerio de Sanidad y Consumo y, entre ellos,",
+      "despues_literal": "adscritos al Ministerio de Sanidad y, entre ellos,",
+      "ocurrencias_antes_del_diff": 1,
+      "estado": "unicidad_verificada",
+      "aplicado": true
+    }
+  ],
+  "fosil_check": {
+    "ocurrencias_fossil_antes": 5,
+    "ocurrencias_fossil_despues": 0,
+    "esperado_antes": 5,
+    "esperado_despues": 0,
+    "estado": "OK"
+  },
+  "palabras_despues": 19487,
+  "delta_palabras": -10,
+  "bak": "ministerios\\sanidad\\leyes\\BOE-A-1986-10499.md.bak-2026-09-27",
+  "sha256_bak": "68b17587788482bc7f1552fc8e904dc973e8576b1cd7c49d3c9b2ac0aeaf8df9",
+  "sha256_despues": "997366bb0030362ae041786025729549a8ede79929fbf2cec7514ae4c0632e3d",
+  "bloques_identicos_a_propuesto": true,
+  "verificacion_post": {
+    "fosil_cero": true,
+    "despues_presente": true,
+    "sha256_reido": "997366bb0030362ae041786025729549a8ede79929fbf2cec7514ae4c0632e3d"
+  }
+}

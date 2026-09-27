@@ -1,0 +1,35 @@
+{
+  "fecha": "2026-09-27",
+  "sesion": "18/30 (recuperada: estaba firmada para el sábado 26, perdida por avería del cron del Consejo y de la Auditoría)",
+  "acuerdo": "[da-2] Disposición adicional 2.ª L7/2021 — desinversión en productos energéticos de origen fósil",
+  "ejecutado_por": "Ministerio para la Transición Ecológica y el Reto Demográfico (Sara Aagesen)",
+  "norma": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md",
+  "decision": "TERCERA VIA DECLARADA ANTE EL CONSEJO: ni estimación con cifra (prohibida sin dato) ni archivo — el TEXTO DEL PROCESO no necesita el dato; la CIFRA se deja donde nace, como objeto del estudio que la propia disposición manda encargar. Pendiente de que el Consejo lo vote esta noche.",
+  "que_se_aplico": "La DA 2.ª pasa de un mandato único con plazo vencido (dos años desde la entrada en vigor: 22-05-2023, sin estudio conocido) a un proceso en tres apartados con órgano, fecha y consecuencia: (1) estudio del estado de situación —participación por participación, con valor en libros— en seis meses, cuatro ministerios nominados; (2) calendario de desinversión aprobado por Acuerdo del Consejo de Ministros, revisión cuatrienal por la IGAE y publicación en la Cuenta General del Estado; (3) comparecencia anual ante la comisión parlamentaria competente si el calendario no se aprueba en dos años.",
+  "por_que_es_ejecutable_sin_dato": "El dato que bloqueaba —la cifra de participaciones fósiles del sector público estatal, requerida a la IGAE por el acuerdo 45, vencida el 24-09 y muda 4/4— no es premisa del articulado: es el RESULTADO que el nuevo apartado 1 ordena producir. El proceso convierte el silencio del censor en incumplimiento visible con consecuencia parlamentaria (apartado 3), no en excusa. No se inventa ninguna cifra: la identificación de titularidades y su valor en libros ES el objeto del estudio.",
+  "espejo_normativo": "Proceso en tres fases calcado del artículo 11 de esta misma ley (línea 330: informe de Hacienda → propuesta de calendario → Acuerdo del Consejo de Ministros). Ningún órgano nuevo; los cuatro ministerios citados son exactamente los del mandato vigente. Antecedente de formato verificado el 22-09 (Orden PCM/466/2022, BOE-A-2022-8563) — citado solo como evidencia de procedimiento, no como norma habilitante en el texto.",
+  "prueba_anti_reaplicacion": {
+    "detectores_antes_en_bak": "grep sobre la copia .bak: «participación por participación» 0, «valor en libros» 0, DA 2.ª con un solo párrafo sin apartados. El diff NO estaba aplicado.",
+    "comprobacion_hecha": "antes del patch se midió el bloque en la .bak (ab78d284…) — distinto de cualquier versión «después»."
+  },
+  "hashes": {
+    "convencion_bloque": "la del script del repo ministerios/transicion-ecologica/scripts/hash_bloques_s18_2026-09-27.py (rótulo hasta el siguiente rótulo, LF, sin saltos finales; Python modo texto) — medidos los cuatro valores con ese script sobre la .bak y sobre el fichero final",
+    "sha256_bloque_antes": "ab78d28492eb2837b4706b4a9702ad34b31ea95e4a5e1544efdfc89f555f2d41",
+    "palabras_bloque_antes": 115,
+    "sha256_bloque_despues": "c621ce253c275f6db8d0036724bf6d4ec9710a76d8e15c819490810df2235ea5",
+    "palabras_bloque_despues": 192,
+    "delta_palabras_bloque": 77,
+    "sha256_fichero_apertura": "013b8da1aa5667f490e81200b4e3a2f77eedff5600efca620677a4dff0f9ad1f (sha256sum sobre la .bak)",
+    "sha256_fichero_final": "dc4b46439a587321bc7837f9918abe7d26e9d676a395024ceef81a576a4756a3 (sha256sum; tras las DOS ediciones de hoy: [a14] y [da-2], en ese orden)",
+    "palabras_fichero_final": 27307,
+    "bloques": 71
+  },
+  "verificado": {
+    "texto_aplicado_identico_al_propuesto": "sí — los cuatro párrafos no vacíos del bloque aplicado (rótulo + apartados 1-3) coinciden uno a uno, carácter a carácter, con los cuatro párrafos del texto viable del 22-09 (propuestas/2026-09-22.md, líneas 51-57), comprobado por comparación directa en Python: cada párrafo propuesto está contenido en el bloque y el bloque no añade ningún otro párrafo (4 = 4)",
+    "una_sola_copia": "sí — la DA 2.ª tiene exactamente 3 apartados numerados y un único párrafo por apartado",
+    "numero_bloques_inalterado": 71
+  },
+  "copia_seguridad": "ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md.bak-2026-09-27",
+  "estado": "APLICADO MATERIALMENTE · pendiente de ratificación en el voto del Consejo de esta noche (sesión 18/30). No se declara aprobado hasta el voto; y si el Consejo lo rechaza, se revierte desde la .bak.",
+  "contabilizacion": "Gobernanza añadida: +77 palabras (proceso con fecha, órgano y consecuencia; cero cifras inventadas). No es ahorro; se registra aparte, regla de la sesión 4."
+}

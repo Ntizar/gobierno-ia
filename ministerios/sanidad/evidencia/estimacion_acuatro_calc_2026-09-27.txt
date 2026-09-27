@@ -1,0 +1,5 @@
+CENSO (F1): 853,740 pacientes en lista de espera quirurgica
+MEDIA NACIONAL (F1): 122 dias -> >90: el plazo prioritario del texto aprobado de la 17 se incumple ya de media; <180: el ordinario se cumple de media
+TECHO escenario 100x100 censo al coste de los 25 procesos quirurgicos mas frecuentes (F2): 7,477.7 M EUR
+SUELO mismo censo al coste medio de los 25 procesos mas frecuentes (F2): 5,719.2 M EUR
+-> RANGO a afinar por la IGAE: entre 5,719 y 7,478 M EUR
