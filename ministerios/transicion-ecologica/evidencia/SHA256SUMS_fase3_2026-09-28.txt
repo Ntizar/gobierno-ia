@@ -1,0 +1,36 @@
+# SHA256SUMS — Transición Ecológica — Fase 3, apertura (2026-09-28)
+# Sesión 19/30. Encargo del acuerdo 100 (Hacienda + Ecología).
+# Convención declarada: sha256 del fichero completo, TAL CUAL, en bytes (no normalizado). Comando: sha256sum <fichero>
+# Regla de la casa: la convención se publica en el propio sumario (lección de las sesiones 14-18).
+
+# --- (a) Ley 47/2003, de 26 de noviembre, General Presupuestaria (BOE-A-2003-21614) ---
+# Descargada por Hacienda el 2026-09-28 (encargo conjunto). Ecología NO la ha duplicado: la ha verificado.
+# Identificador comprobado en el <title> del HTML del repo: "BOE-A-2003-21614 Ley 47/2003, de 26 de noviembre, General Presupuestaria."
+823c8cbdaf29f1af1dbf3e5392436471febd2a561210b24dc6cf5a98d0d5db4a  ministerios/hacienda/evidencia/ley47-2003-general-presupuestaria-BOE-A-2003-21614-consolidado-2026-09-28.html
+2c916bcea5e811b6d0dae4503b1e736d9c968178f1cc3b5fff664634c6e3a20b  ministerios/hacienda/evidencia/ley47-2003-general-presupuestaria-BOE-A-2003-21614-consolidado-2026-09-28.pdf
+
+# --- (b) Dato hídrico oficial: MITECO, Nota de prensa del Boletín Hidrológico ---
+# URL: https://www.miteco.gob.es/es/prensa/ultimas-noticias/2026/septiembre/la-reserva-hidrica-espanola-se-encuentra-al-60-3---de-su-capacid.html
+# Fecha del documento (datePublished de la propia página): 2026-09-22T12:42:00Z | Descargado: 2026-09-28 | 58.724 bytes
+# Contenido verificado: "La reserva hídrica española está al 60,3 % de su capacidad total. Los embalses almacenan
+# actualmente 33.801 hectómetros cúbicos (hm³) de agua, disminuyendo durante este período en 669 hm³ (el 1,2 %...)"
+433f90093394b1076ac96465d2089da3825d10ff9f141ecfe626f644ffc47bcd  ministerios/transicion-ecologica/evidencia/agua_miteco_reserva_hidrica_60-3_2026-09-28.html
+
+# --- (c) Ley insignia: SIN TOCAR (deuda de ejecución = 0 desde el 2026-09-27) ---
+# Medido antes (10:45) y después (11:0x) del trabajo del día: idéntico. 27.307 palabras · 71 bloques.
+# git status del repo: 0 ficheros de leyes/ en el diff (comprobado con `git status --short | grep -c "leyes/"` -> 0).
+dc4b46439a587321bc7837f9918abe7d26e9d676a395024ceef81a576a4756a3  ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md
+
+# --- (d) Documentos producidos hoy por esta cartera (verificados en disco) ---
+ff28cec24e3cf1849fe6619161fb216e7fb3f39b9eff48a4a1300bf6c6c5e223  ministerios/transicion-ecologica/evidencia/papel_auditable_fase3_ecologia_2026-09-28.md
+63027ec67fb5fea1c060e2deb8a07462e77778f5aee445a087485ec2600e8e1d  ministerios/transicion-ecologica/evidencia/verificacion_apertura_fase3_2026-09-28.md
+4c6f8f8654103fa8cac4d6af5d82c21cc4b4a73801cc4a1dfd302d82e6bb35a0  ministerios/transicion-ecologica/propuestas/2026-09-28.md
+4f8aba400e4abd40d29b456712a2f67e9a3ef538bf0d8d6b0bf84822f60ed50d  ministerios/transicion-ecologica/agenda.md
+df2e80ecb1770149805166a5d5dc54d53b3ab9ef4c12279f5cda56313f52088f  ministerios/transicion-ecologica/kpis.md
+# Nota: este sumario no se incluye a sí mismo (un fichero no puede contener su propio hash). El Auditor puede
+# regenerar la lista completa del día con: sha256sum ministerios/transicion-ecologica/evidencia/*2026-09-28* .
+
+# --- URLs intentadas y NO obtenidas (constancia del error, sin cifra inventada) ---
+# Liquidación oficial del MITECO: 3 URL oficiales (IGAE-liquidación PGE, presupuestos.gob.es, IGAE-inicio) -> error de conexión, curl 000.
+# NdP del Boletín Hidrológico de las semanas 23/24/25-09-2026: HTTP 200 con página 404 de 46.788 bytes (soft-404) -> descartadas.
+# Cuenta de ejecución de gasto de la AEAT (932A): 4 URL, 404 (constancia de Hacienda, 2026-09-28).

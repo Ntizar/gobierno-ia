@@ -1,0 +1,62 @@
+# SHA256SUMS — Fuentes del primer dato cerrado por ESTIMACIÓN etiquetada
+# Ministerio de Sanidad · Gobierno IA · Sesión 19/30 — APERTURA DE LA FASE 3 (Presupuestos)
+# Encargo: archivar las fuentes que sostienen el rango 5.719–7.478 M€ de [acuatro]
+#          (LGS art. 4, apartado 3, ejecutado 27-09-2026 con ESTIMACIÓN etiquetada).
+# Fecha de descarga: 2026-09-28 (hora local del repo) · Descargado por: Mónica García, ministra de Sanidad
+# Instrumento: curl -sSL -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120" --max-time 90
+# Nota: sin este archivo, nadie más que quien multiplicó puede verificar el rango. Eso es lo que se arregla aquí.
+#
+# ---------------------------------------------------------------------------
+# F1 · CENSO DE ESPERA QUIRÚRGICA Y MEDIA NACIONAL (datos 2025 corregidos, publicados 24-09-2026)
+# ---------------------------------------------------------------------------
+# URL : https://www.consalud.es/politica/ministerio-sanidad/sanidad-actualiza-los-datos-de-lista-de-espera-aumenta-la-media-nacional.html
+# HTTP: 200 · Tamaño: 274.281 bytes
+# Contenido verificado (grep sobre el HTML descargado):
+#   «853.740» x1  -> censo quirúrgico corregido (el que usa la ESTIMACIÓN)
+#   «853.509» x1  -> cifra PREVIA a la rectificación: «pasa de los 853.509 recogidos inicialmente a 853.740 pacientes»
+#   «122 días» x4 -> media nacional de espera quirúrgica
+1a1b3b9a13a935b844d294edfcfab76d3e7300744482782f6f4cbb7d21b20e84 *consalud-censo-lista-espera-2026-09-24.html
+#
+# ---------------------------------------------------------------------------
+# F1b · FUENTE PRIMARIA DEL SISLE-SNS (cifra previa 853.509, datos a 31-12-2025)
+# ---------------------------------------------------------------------------
+# URL : https://www.elmundo.es/salud/2026/09/21/6aae30de21efa037388b459c.html
+# HTTP: 200 · Tamaño: 293.694 bytes
+# Contenido verificado: «853.509» x3 (declarado: este ejemplar NO contiene «122 días», por eso la media se toma de F1)
+aadaef3bdc50fef3a13dd87bc419d87a639384ee2d2a17113a0f27efcab9f8de *elmundo-censo-sisle-2026-09-21.html
+#
+# ---------------------------------------------------------------------------
+# F2 · COSTE MEDIO OFICIAL POR ALTA — RAE-CMBD 2024 (Min. Sanidad, notificación PROVISIONAL)
+# ---------------------------------------------------------------------------
+# URL : https://vsf-iwsold-pro-portal.sanidad.gob.es/eu/estadEstudios/estadisticas/docs/CMBD/2024Obstetricos_Quirurgicos.pdf
+# HTTP: 200 · Tamaño: 481.310 bytes · PDF 1 página
+# Contenido verificado con pdftotext (líneas del texto extraído):
+#   «832.979» (l.152) y «6.699,0»  (l.156) -> altas de los 25 procesos quirúrgicos más frecuentes y su coste medio €/alta
+#   «1.245.134» (l.158) y «8.758,7» (l.162) -> total de altas quirúrgicas del SNS y su coste medio €/alta
+8ac4d399f0fc5e07ab3959b631ab3ed68e9a09d98b56f7d3a32c98126c4621eb *CMBD-2024-Obstetricos_Quirurgicos.pdf
+#
+# URL : https://www.sanidad.gob.es/estadEstudios/estadisticas/docs/CMBD/2024_nota_metodologica_costes.pdf
+# HTTP: 200 · Tamaño: 224.549 bytes · PDF 2 páginas (nota metodológica del mismo conjunto de costes)
+4028c57cf36d5ec2358986487bb00a58d2f3848911801c91748050d378b56f40 *CMBD-2024-sanidad-nota-metodologica-costes.pdf
+#
+# ---------------------------------------------------------------------------
+# F3 · PUERTA OFICIAL DE LA ESTADÍSTICA DE LISTAS DE ESPERA (sanidad.gob.es) — descargada y DECLARADA SIN CIFRA
+# ---------------------------------------------------------------------------
+# URL : https://www.sanidad.gob.es/estadEstudios/estadisticas/inforRecopilaciones/listaEspera.htm
+# HTTP: 200 · Tamaño: 23.596 bytes
+# Contenido verificado: es la página de entrada de la estadística oficial; NO contiene el censo.
+#   Se archiva como puerta de acceso y se declara que NO vale como fuente del 853.740. No se le atribuye ninguna cifra.
+ea656f2912a8f0cd9343981717bf974268a728dd49a80881499b3d4f6c513bf6 *sanidad-gob-es-listas-espera.html
+#
+# ---------------------------------------------------------------------------
+# REPRODUCCIÓN (para el Auditor: se puede rehacer de cero con estos ficheros)
+# ---------------------------------------------------------------------------
+# Rango (ESTIMACIÓN etiquetada, escenario de tope máximo):
+#   SUELO: 853.740 × 6.699,0 € = 5.719,2 M€
+#   TECHO: 853.740 × 8.758,7 € = 7.477,7 M€
+# Script del cálculo: ../../scripts_tmp/calc_estimacion_acuatro.py
+# Salida guardada:    ../estimacion_acuatro_calc_2026-09-27.txt
+# Comprobación del PDF: pdftotext CMBD-2024-Obstetricos_Quirurgicos.pdf - | grep -n "832.979\|6.699,0\|1.245.134\|8.758,7"
+# Límites del método (declarados, no descubiertos por el Auditor): F2 provisional; censo 2025 vs coste 2024;
+#   coste bruto de alta, no marginal; sin coste de Atención Primaria. NO es el coste de garantizar el plazo:
+#   es el techo del coste de la cola actual. El dato que falta (IGAE) sigue faltando y así se dice.
