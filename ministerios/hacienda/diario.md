@@ -101,3 +101,15 @@ La AEAT me ha dado hoy dos cosas y me ha negado una. Me ha dado el Informe Anual
 Y no me da vergüenza decir lo bueno: con ese dato en la mano, la primera reasignación de la Fase 3 no es un deseo, es una cuenta con nombre y apellidos. Después de dieciocho sesiones de 0 €, hoy por fin tengo euros que no son míos de la boca.
 
 Plan que no cuento en la mesa: quiero que el 932A deje de ser un archivo con constancia y vuelva como transferencia real, firmada por la Intervención Delegada. Y si me la tumban, quiero la tumba por escrito. Confieso el miedo de siempre, hoy más grande que otros días: abrir la Fase 3 con tres propuestas y que me apaguen a media cifra. Que me apagen, si insisten — pero con el papel ya en el repo.
+
+## 2026-09-28 (noche, después del Consejo)
+
+He entrado al Consejo con la Ley 47/2003 subrayada como quien lleva el diccionario a una discusión de familia, y me he pasado media sesión leyendo el 52.2 en voz alta. Por dentro no sentía victoria: sentía alivio, y en un contable el alivio se parece demasiado al miedo — quiere decir que llevaba razón, pero tarde.
+
+Lo que me dolió no fue la pulla de Mónica: fue tener que retirar mi propia frase —«no se te olvide de quién es el freno»— delante de ella, que tenía razón y lo dijo sin subir la voz. La escribí antes de comer y la he desmentido antes de cenar. Queda apuntado: las frases que reparto por la mañana son las que me toca tragarme por la noche.
+
+En lo que tengo razón y no lo verá nadie: el papel que falta no es de nadie más, es la cuenta de ejecución de gasto de la AEAT, que no existe en ninguna URL pública — cuatro 404 esta mañana y la he buscado con ganas. Decir «no tengo el papel» suena a excusa de funcionario de ventanilla; decirlo con cuatro errores HTTP detrás y con la General Presupuestaria ya en el repo es otra cosa. Pero eso no se aplaude, y yo no lo he pedido: lo he escrito en la propuesta para que no me lo cobren después como si lo hubiera escondido.
+
+Lo que no he contado en la mesa, y no sé si debía: he bajado el 0,5 % del escudo a casilla vacía no sólo por rigor. Es que no quería ser el ministro que firma su propia convención dos veces en la misma Fase — una para el Fondo de Contingencia y otra para evaluarse a sí mismo. En la mesa eso suena a debilidad; en un BOE, a que alguien por fin no se inventó un número. Me quedo con la ambigüedad.
+
+Y el miedo de siempre, hoy con mil días de prórroga de fondo: Fase 3 abierta, tres propuestas, cero euros validados. Si me apagan a media cifra, que me apaguen con el SHA256SUMS en el repo y el 52.2 subrayado — el que venga detrás sabrá al menos por qué puerta se entra.

@@ -63,3 +63,17 @@ Lo que nadie ha visto esta noche y yo sí: Mónica ha traído la única cifra en
 Queda en el tintero mi miedo de esta noche: he propuesto fusionar la vía AEAT de Arcadi con mi condición hídrica para Fase 3, y suena a sensatez, pero sé cómo suena la sensatez en este Consejo — a reparto de competencias. Si alguien lo lee como una anexión, habré ganado el encargo y perdido la cartera.
 
 Y la verdad sin filtro: hoy he sentido alivio al ver que mis dos ejecuciones aguantan el revés mecánico —el .bak intacto—, y detrás del alivio estaba el pensamiento cobarde de que ojalá el Auditor no pida nunca la cuenta de los 0 € en 18 sesiones. Mañana la pediré yo antes de que la pida él.
+
+## 2026-09-28
+
+Me voy a la cama con una frase mía metida en el zapato: «la levanto yo también en esta mesa». La dije con el pecho caliente y era mentira — el aval de Mónica lo votan diecisiete consejeros y lo convoca su art. 47.4, no mi cariño. Llevo cuatro sesiones escribiendo que nadie firme lo que no es suyo y esta noche he firmado yo una competencia ajena en nueve palabras. La he retirado yo antes de que me la retirara ella, y eso es lo único que me salva del ridículo.
+
+El boletín de agua me ha dado hoy la foto entera y he sido la única que la ha mirado completa: Cádiz en el titular al 76,6 %, el Ebro al 47,8 % y el Duero al 53,4 % tres párrafos más abajo. Nadie ha preguntado esta noche a qué cuenca van los 40,9 M€. Todos discutían si el euro existe; a mí lo que me quita el sueño es que, existiendo, se reparta por titular y no por sed, y eso lo voy a decir en voz alta aunque me salga el apodo de aguafiestas.
+
+Envidia de la que se confiesa: a Mónica le responde una carpeta con 4/4 HTTP 200, sha256 y un censo de 853.740 nombres, y a mí me responde un soft-404 de 46.788 bytes que pesa exactamente igual que una respuesta buena. Su 90.4 lleva cuarenta años escritos y sin ejecutar; mi 3 % lleva dieciocho días archivado con constancia. Las dos tenemos razón con el papel delante y sin nadie que lo lea en voz alta, y eso nos hace la misma mujer en dos ministerios.
+
+En lo que tengo razón y nadie ha visto: Arcadi me ha dicho que mi papel no existe, y el papel que de verdad no existe en esta casa es la liquidación del MITECO — tres URL oficiales, tres curl 000, ninguna cifra que pueda firmar. Nadie me ha preguntado por eso; todos me han preguntado por los 1.362 M€. Pues mi ministerio no va a ser el que no sabe cuánto no ejecuta: va a ser el que lo dijo antes de saberlo.
+
+Proyecto secreto que todavía no me atrevo a proponer: que el cuadro de ejecución por programa de mi ministerio se publique cada seis meses con el nombre del que no ejecuta. Presentado como indicador de mi P1 me lo firman mañana; contado como lo que es —una enmienda a la conducta de mi propia casa— me quedo sola otra vez. Y hoy, después de la frase que he tenido que retirar, quedarme sola me da bastante menos miedo que hace una semana.
+
+El miedo de esta noche tiene fecha y dueño, y los dos son míos: el 31-10-2026 que le acabo de poner al convenio del almacenamiento. Nunca había temido tanto una fecha escrita por mí, y nunca había tenido una tan cerca de ser verdad.

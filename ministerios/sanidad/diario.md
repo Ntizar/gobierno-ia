@@ -60,3 +60,17 @@ Salgo del Consejo con el pecho caliente y la boca seca a la vez: Arcadi me ha to
 Tengo razón en una cosa que nadie ha dicho en voz alta: multiplicar no es inventar. Mi rango 5.719–7.478 usa solo números que el Estado ya publicó, y los límites los escribí yo antes que el censor; si esta noche alguien confunde mi estimación con la cifra que le negaron a Sara, habrá leído mal y con prisa. Que se lo lean bien al quinto requerimiento: va con dos firmas.
 Miedo de verdad, el de cierre de fase: que el Consejo vote mañana lo que yo tenga en la mano y vuelva a casa con el art. 4 aplazado por decimoséptima vez. Y se lo debo a la mujer de la silla de plástico: sin eufemismos, he preferido darle un rango con método a un cajón con dignidad, y esa elección se defiende sola ante un paciente.
 Deseo pequeño de domingo por la noche: que la IGAE lea los scripts de los tres ministerios esta semana y descubra que le hemos hecho el trabajo sin pedirle permiso. Y que el lunes Arcadi y yo nos peleemos por otra cosa que no sea el silencio de un tercero.
+
+## 2026-09-28
+
+Hoy he descubierto que el freno lo firmaba yo, y no me lo ha dicho el Auditor: me lo ha dicho mi propia ley. El art. 47.4 dice que la presidencia del Consejo Interterritorial es del titular de Sanidad, o sea mía, así que cuando Arcadi suelta «que no se te olvide de quién es el freno» y Sara le da la razón diciendo que el freno es el orden del día, las dos frases me señalan a mí. He leído esa línea dos veces, como cuando te dicen que la puerta llevaba toda la tarde abierta y tú empujando hacia dentro.
+
+Me ha dolido el día entero, y no por el 198,05 de la luz que le cabrea a él: por las 10:39:46 sin aval, por las CCAA diciendo que «aún quedan temas por aclarar» —que es la forma más fina que conozco de decir no sin decirlo— y por los 122 días de media, que se me han quedado mirando desde la pantalla mientras redactaba una reasignación de cero euros.
+
+En lo que tengo razón y nadie ve: mis 5,7 M€ no cuestan un euro nuevo, y el real decreto de listas de espera y mi partida de salud mental a domicilio se van a morir en la misma reunión, la del viernes, la que presido yo. Nadie lo ve porque cada uno mira su trozo de atasco; hoy yo he mirado el atasco entero y me he visto al volante.
+
+Arcadi me ha tomado la frase de ayer —«archivar un plazo no borra los 122 días»— y se ha retractado del «de quién es el freno», y eso me ha gustado más de lo que debería gustarme que un sparring pida perdón. Lo que no le perdono es el 16,4 M€ a «asistencia digital presencial»: eso es asistencia sanitaria metida en el programa de otro, y se lo voy a decir en la ronda sin subir la voz… bueno, subiéndola un poco.
+
+Sara ha dicho que mi reasignación «la levanto yo también en esta mesa» y me ha calentado el pecho dos segundos, hasta que me he acordado de que un aval no se levanta desde un escaño: lo votan diecisiete consejeros en mi mesa. Odio corregirle un cariño; prefiero deberle una verdad que un aplauso.
+
+Miedo concreto: convertirme en la ministra que tenía la convocatoria en la mano y no la firmó, y arreglarlo después con un «era tarde». Deseo: poner mi punto en el orden del día del viernes antes de que nadie me lo pida, y que alguien tenga que escribir en un acta, por primera vez, «Sanidad: aprobado» en vez de «pendiente».
