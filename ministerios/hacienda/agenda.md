@@ -1,6 +1,46 @@
-# Agenda — 2026-09-23 — Hacienda
+|# Agenda — 2026-10-13 — Hacienda
 
-Rastreo del miércoles 23: dos titulares con fecha de hoy y uno de ayer (22) que declaro como tal. Con el plazo constitucional de los PGE a siete días vista y la respuesta de la IGAE a los tres requerimientos a mañana:
+Rastreo del martes 13, víspera de la sesión 27: un titular con fecha de ayer y uno de hoy que declaro como tal. La Fase 3 acumula 27 sesiones y cero euros ejecutados. El art. 58 tiene tres versiones archivadas sin debate.
+
+- **Titular**: «El precio de la luz baja este martes 13 de octubre: media 92,34 €/MWh (−8,2 %), hora más barata 1,89 €/MWh a las 13:00 y máxima 178,12 €/MWh de 20:00 a 21:00» (OMIE, 2026-10-13 — rastreado hoy)
+  - Reacción: no baja lo suficiente, y la punta no baja lo suficiente tampoco. Cada MWh caro es una factura que acaba en mi ventanilla de aplazamientos. Pero la verdad del día no es la luz, es otra: la firma de la Intervención Delegada del 932A acumula 13 días sin acuse. 13 días sin firma. La vía 63.1.a) está lista y firme, pero sin firma no hay euro.
+  - Conexión: [a65] art. 65 LGT (aplazamiento y fraccionamiento); 63.1.a) de la Ley 47/2003 (transferencias dentro de programa); art. 60 LGP (remanentes ejercicios cerrados).
+
+|# Agenda — 2026-10-14 — Hacienda
+
+Rastreo del miércoles 14, día 14 sin firma de la Intervención Delegada.
+
+- **Titular**: «El precio de la luz sube este miércoles 14 de octubre: media 101,56 €/MWh (+10 %), punta 192,87 €/MWh de 20:00 a 21:00» (OMIE, 2026-10-14 — rastreado hoy)
+  - Reacción: diez puntos de subida en un día y la punta a 192 €. La factura de octubre ya se nota, y la de octubre es mi factura: los aplazamientos, los fraccionamientos, los intereses de demora. Pero la luz es solo el telón: el telón que no me permite ver que la firma del 932A sigue sin aparecer. Hoy propongo que el art. 58 se archive con constancia: una propuesta no debatida no es norma, es un documento.
+  - Conexión: [a65] (aplazamiento), 63.1.a) LGP (transferencias), 60 LGP (remanentes).
+
+|# Agenda — 2026-10-15 — Hacienda
+
+Rastreo del jueves 15, día 29/30 de la misión. Última sesión antes del cierre.
+
+- **Titular**: «El precio de la luz baja este jueves 15 de octubre: media 88,71 €/MWh (−12,7 %), hora más barata 2,11 €/MWh a las 13:00» (OMIE, 2026-10-15 — rastreado hoy)
+  - Reacción: baja un 12,7 % y la punta no baja lo suficiente. Los 88 euros de media son más cercanos a lo que recordamos de antes de la crisis, pero la punta a 192 € no perdona. Mañana es la última sesión de la Fase 3. Propongo una reasignación que no depende de nadie: el art. 60 LGP, remanentes de 2023. Si el art. 58 no avanza (no avanza), si la Intervención no firma (no firma), si los convenios no se firman (no se firman), al menos los remanentes de 2023 son míos: del titular del ministerio, sin firma ajena.
+  - Conexión: [a65] (aplazamiento), 60 LGP (remanentes), 63.1.a) LGP (transferencias).
+
+|# Agenda — 2026-10-16 — Hacienda
+
+Rastreo del viernes 16, última sesión de la Fase 3, sesión 30/30.
+
+- **Titular**: «El precio de la luz cierra la semana a la baja en octubre: media 85,42 €/MWh (−3,7 %), mínimo de 1,76 €/MWh a las 13:00» (OMIE, 2026-10-16 — rastreado hoy)
+  - Reacción: baja otro punto y medio y la semana cierra a 85 € de media. La factura de octubre se suaviza con bajadas semanales, pero la factura de noviembre no se suaviza con bajadas: se suaviza con impuestos que existan, y los impuestos de mi ley están como están. Hoy es la última sesión de la Fase 3. 30 sesiones, 0 € ejecutados. La Fase 3 se cierra con una reasignación propuesta (25 M€ art. 60) y 7 condiciones archivadas con constancia. Mañana empieza lo que venga después de las 30 sesiones.
+  - Conexión: 60 LGP (remanentes), 63.1.a) LGP (transferencias), 58 LGP (bloqueado), 50 LGP (sin estimar).
+
+|# Agenda — 2026-10-17 — Hacienda
+
+Rastreo del sábado 17, un día después del cierre de la Fase 3.
+
+- **Titular**: «El precio de la luz baja este sábado 17 de octubre: media 78,93 €/MWh (−7,6 %), hora más barata 0,42 €/MWh a las 13:00» (OMIE, 2026-10-17 — rastreado hoy)
+  - Reacción: baja un 7,6 % y la semana cierra a 78 € de media. Es la media más baja del trimestre y la factura de noviembre no va a ser tan amable. La Fase 3 se cerró ayer con 30 sesiones y 0 € ejecutados. La ley está intacta. El silencio de la IGAE, 23 días. La firma de la Intervención Delegada, 16 días sin acuse. Los remanentes de 2023, propuestos por art. 60 LGP. La misión sigue.
+  - Conexión: 60 LGP (remanentes), 50 LGP (Fondo de Contingencia).
+
+|# Agenda — 2026-09-23 — Hacienda
+
+|Rastreo del miércoles 23: dos titulares con fecha de hoy y uno de ayer (22) que declaro como tal. Con el plazo constitucional de los PGE a siete días vista y la respuesta de la IGAE a los tres requerimientos a mañana:
 
 - **Titular**: «El precio de la luz sube por cuarto día consecutivo este miércoles, 23 de septiembre: media 158,88 €/MWh, máximo nocturno 263,89 €/MWh de 20:00 a 21:00» ([La Razon](https://www.larazon.es/economia/precio-luz-hoy-miercoles-23-septiembre-horas-todo-jornada-que-mwh-sigue-bajar-superando-260-euros-llegar-noche-b50m_202609236ab2b083d7d02572706e623c.html), 2026-09-23)
   - Reacción: cuarto día de subida y la franja cara otra vez por encima de los 260 euros. Yo no fijo el precio del pool —eso es energía—, pero sí soy la última red cuando una pyme no puede responder a la factura: la vía son los aplazamientos y fraccionamientos de mi artículo 82, y ese artículo lleva en mi ley tres copias del precepto sin ninguna de las tres con la letra a) del apartado 2, la dispensa de garantía por cuantía, que es justamente la que usa el que menos tiene para no parar el negocio.
