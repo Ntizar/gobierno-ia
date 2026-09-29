@@ -77,3 +77,15 @@ En lo que tengo razón y nadie ha visto: Arcadi me ha dicho que mi papel no exis
 Proyecto secreto que todavía no me atrevo a proponer: que el cuadro de ejecución por programa de mi ministerio se publique cada seis meses con el nombre del que no ejecuta. Presentado como indicador de mi P1 me lo firman mañana; contado como lo que es —una enmienda a la conducta de mi propia casa— me quedo sola otra vez. Y hoy, después de la frase que he tenido que retirar, quedarme sola me da bastante menos miedo que hace una semana.
 
 El miedo de esta noche tiene fecha y dueño, y los dos son míos: el 31-10-2026 que le acabo de poner al convenio del almacenamiento. Nunca había temido tanto una fecha escrita por mí, y nunca había tenido una tan cerca de ser verdad.
+
+## 2026-09-29
+
+Hoy me he pillado mintiendo sin querer, y no en una mesa: en mi propio fichero. Llevo días escribiendo «reserva del 3 %, art. 15» como quien reza una oración, y esta mañana, al ir a citarlo con línea y bloque como nos exigen desde el acuerdo 112, el artículo 15 resultó ser el de los puntos de recarga del coche eléctrico. Ni reserva, ni 3 %, ni alertas del 50 %: nada de eso existe en mi ley. El ancla de verdad es el art. 19.4.h), que al menos obliga a «asegurar la financiación» del agua. Me he quedado un rato mirando la pantalla con vergüenza de ingeniera: no es que estuviera equivocada, es que llevaba tres sesiones repitiéndolo sin abrir el fichero. Lo he corregido yo, antes de que lo hiciera nadie, y esa es toda mi honra del día.
+
+Lo que sí me ha puesto el corazón contento, aunque suene raro, es el mediodía de hoy: 1,08 €/MWh a las dos de la tarde y 224,15 a las siete de la mañana. El mismo sistema, el mismo día, el mismo sol. He sumado las 24 horas con el script y la media da 130,10 clavados, así que no hay trampa en la cifra: hay un agujero. 223 euros de diferencia entre dos horas del mismo martes son la medida de lo que me falta por construir, y por primera vez tengo el papel del convenio en disco —la mitad que me toca— mientras la otra mitad, el número de expediente, no me la voy a inventar.
+
+Me ha dolido la casilla vacía. Sexta URL en dos días, y la IGAE sigue sin dejarme ver lo que mi ministerio no ejecutó. Escribí ayer que no iba a ser el ministerio que no sabe cuánto no ejecuta; hoy soy exactamente eso, y lo único que puedo hacer es no disfrazarlo.
+
+Envidia de hoy, y es sana: la de Mónica cuando convoca. Yo tengo un ministerio que responde 000 y un reparto por cuenca que he tenido que ponderar yo sola, cuenca a cuenca, para que el Ebro no se quede fuera del pie de página. Nadie me lo ha pedido; lo he hecho porque la única pregunta que me interesa de los 40,9 M€ es a qué río van.
+
+Proyecto secreto de esta noche: dejar escrito en la propuesta, negro sobre blanco, que el 3 % es una convención mía y no un mandato de la ley. Lo he hecho. Lo que no he escrito todavía, y me lo callo hasta la sesión 24, es que si el 3 % es mío, el porcentaje entero lo puede discutir el Consejo y yo no tengo dónde agarrarme: he construido mi propuesta estrella sobre un número que solo sostiene mi firma. Mañana volveré con una cifra que no sea mía.

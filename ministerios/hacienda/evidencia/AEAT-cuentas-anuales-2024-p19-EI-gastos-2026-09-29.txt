@@ -1,0 +1,31 @@
+Agencia Estatal de Administración Tributaria - 2024 - Cuentas Aprobadas - Euros
+E.I. Estado de Liquidación del presupuesto. Estado de liquidación del presupuesto de gastos
+
+                                                                                                                                                               OBLIGACIONES                           OBLIGACIONES
+                                                                                                                                                               RECONOCIDAS
+     PARTIDA                                                      CRÉDITOS PRESUPUESTARIOS                                                    GASTOS                                   PAGOS          PENDIENTES DE REMANENTES
+PRESUPUESTARIA                                                                                                                          COMPROMETIDOS               NETAS                 -6
+                     DESCRIPCIÓN                                                                                                                                       -5                             PAGO A 31 DE DE CRÉDITO
+                                                                                                                                                  -4                                     509.695,34
+                                                                    INICIALES                MODIFICACIONES           DEFINITIVOS                                   1.814.137,96       6.124.930,96   DICIEMBRE        (8=3-5)
+                                                                         -1                           -2                 (3=1+2)                 1.818.021,58      14.323.749,13
+                                                                                    0                2.100.920,04        2.100.920,04          14.323.749,13                                5.581,94  (7=5-6)
+                                                                                    0                                   14.342.789,80                                 141.885,10         342.265,44
+2024 15 932A 63005   MOBILIARIO Y ENSERES                                           0               14.342.789,80          193.196,82              141.885,10         342.265,44           14.265,88  1.304.442,62 286.782,08
+2024 15 932A 630060  EQUIPOS INFORMÁTICOS                                           0                  193.196,82          342.266,65              342.265,44           14.265,88          53.588,50
+2024 15 932A 630061  OFIMÁTICA.                                                     0                  342.266,65            14.953,87              14.265,88         281.600,49         484.021,13   8.198.818,17     19.040,67
+2024 15 932A 630070  SOFTWARE EQUIPOS INFORMÁTICOS.                                 0                    14.953,87         443.247,14              345.281,58         484.021,13   1.728.209.779,34
+2024 15 932A 630071  SOFTWARE OFIMÁTICA                                 732.970,00                     443.247,14          732.970,00              484.021,13  1.776.913.651,22                       136.303,16       51.311,72
+2024 15 932A 63009   OTRO INMOVILIZADO MATERIAL                                                                   0                         1.787.446.530,34
+2024 15 932A 83008   PRÉSTAMOS A CORTO PLAZO AL PERSONAL.         1.395.873.890,00                                   1.817.977.437,08                                                                               0           1,21
+                                                                                                  422.103.547,08
+                                                                                                                                                                                                                    0  687,99
+
+                                                                                                                                                                                                      228.011,99 161.646,65
+
+                                                                                                                                                                                                                    0 248.948,87
+
+                                                           TOTAL                                                                                                                                      48.703.871,88 41.063.785,86
+
+                                                                                             19
+
