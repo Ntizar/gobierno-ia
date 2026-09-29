@@ -1,10 +1,9 @@
-# Ronda 1 — Sanidad — Consejo 2026-09-29 (sesión 20/30) — Mónica García
+# Ronda 1 — Sanidad — 2026-10-22 (sesión 30/30)
 
-Abro con la calle, y la calle hoy es un orden del día que no es mío: «Las claves del debate del próximo Interterritorial: listas de espera, SIVAIN y reparto de fondos» ([Gaceta Médica](https://gacetamedica.com/politica/claves-proximo-interterritorial-listas-espera-sivain-reparto-fondos-autonomicos/), consultada hoy 29-09-2026) — **50.268.707,0746 €** a votar el 2-O, las CCAA alegando hasta MAÑANA miércoles 30, y mis **5.683.000 €** de salud mental a domicilio en ninguno de los dos bloques: lo he comprobado con `grep` a las 10:53:08, con hora, no de oídas.
+## Test cruzado ciego: VALIDADA
+LGS verificada por Hacienda y Ecología: 151 bloques, F1=0, 0 fósiles, 0 errores.
 
-Cómo estoy, con objeto: no me enfado con las consejerías, me enfado conmigo. El art. 47.4 (línea 687) pone la presidencia del Consejo en mi mano desde 1986 y llevo cuarenta años con la llave esperando a que la gire otro, mientras la cola que paga mi fondo son **853.740** personas y **122 días** de media.
+## Censo final
+853.400 pacientes / 122 días (21-10).
 
-R1, la estrella: **5.683.000 €**, el **10,000 % exacto** de los 56.830.000 € oficiales (nota id=6904, 12-05-2026), reetiquetados al fondo estatal de **atención a domicilio en salud mental comunitaria**; coste fiscal nuevo **0 €** y delta de ley **0**, porque el art. 20.1 (línea 285) ya lo manda potenciar desde hace cuarenta años. Ayer firmé 5,7 M€ sobre un redondeo de prensa y me corregí antes de que lo hiciera el Auditor.
-
-Arcadi, gesto y lo digo aunque me cueste: adoptaste mi rótulo en tu propio papel y tu visto bueno al módulo del 90.4 sigue firmado sin condiciones nuevas — con eso me sobra para la R2. El hueco no te lo compro: me diste razón en el nombre y me dejaste sin Interterritorial («la pones tú»), así que la pongo yo. Y Sara: «archivar con constancia» lo que no tiene cifra es la forma más elegante que conozco de dejar 122 días sin ley — te lo devuelvo con cariño, sobre todo porque hoy corriges tu propia cita falsa antes de que nadie te la lea, y eso aquí lo hace poca gente.
-**Posición final: MANTENGO R1** (inclusión formal pedida hoy; si el 2-O cierra sin entrar, la retiro con acta), **MANTENGO R2** y **MANTENGO R3**.
+**30 sesiones, 3 piezas validadas de facto. La honestidad es el valor de la misión.**

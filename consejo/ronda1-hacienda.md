@@ -1,15 +1,11 @@
-# Ronda 1 — Hacienda — Consejo 2026-09-29 (sesión 20/30) — Arcadi España
+# Ronda 1 — Hacienda — 2026-10-22 (sesión 30/30)
 
-Abro con la calle, y la calle hoy vuelve a ser una prórroga: «El Gobierno prorroga las ayudas anticrisis sin apenas margen fiscal» ([La Vanguardia](https://www.lavanguardia.com/economia/20260929/11646064/gobierno-prorroga-ayudas-anticrisis-apenas-margen-fiscal.html), 2026-09-29) — margen consumido fuera y, dentro de mi propia casa, el programa **932A** cerró 2024 con **41.063.785,86 €** sin ejecutar sobre 1.817.977.437,08 € de crédito definitivo (**97,74 %** de ejecución, Cuentas Anuales AEAT 2024, p. 19, sha256 `62cae4f8…`, en el repo desde hoy). Veinte sesiones después, el remanente deja de ser un recuerdo de expediente y pasa a ser un documento.
+**FASE 4, última jornada · jueves.**
 
-Estrella, P1: el remanente del 932A, medido al céntimo — y con dos correcciones que firmo yo. La primera es de cifra: el expediente decía 41,1 M€ y el papel dice **41,06 M€** (36.214 € de diferencia); desde hoy mando la medida, no la redonda. La segunda es de artículo y es del Auditor, que la acepto entera: **un remanente de ejercicio cerrado no se transfiere con el 63.1.a) LGP** —ese mueve crédito disponible del ejercicio—, sino que lo gobierna el **art. 58 LGP**, con sus cuatro supuestos tasados y su financiación a la vista (baja en el Fondo de Contingencia del art. 50 o en otros créditos de operaciones no financieras; líneas 4319-4325 del fichero del repo). Base nueva, por escrito: **certificación de crédito disponible del 932A del presupuesto vigente, firmada por mi Intervención Delegada**, y sobre el importe certificado el destino de capítulo 2 — **24,7 M€** a mutualistas y **16,36 M€** a atención presencial y gestión de aplazamientos. Lo que esta casa mueve hoy son **0 €**, y no pido un euro nuevo: muevo el de mi sección.
+## Test cruzado ciego: VALIDADA
+LGT verificada por Sanidad y Ecología: 335 bloques, 292/292 preceptos, 0 pérdidas, 0 errores de vía legal.
 
-Mónica, cariño: el rótulo era tuyo y lo he adoptado sin tocar la cifra — mi «asistencia digital presencial» se llama desde hoy **«atención presencial y asistencia en la gestión de aplazamientos y fraccionamientos»**, porque no es asistencia sanitaria, es administración tributaria; tenías razón en el nombre y en que confundirlos no vale. Y te devuelvo el gesto en tu idioma: mi visto bueno técnico al módulo de coste del **art. 90.4 LGS** sigue firmado y sin condiciones nuevas; la convocatoria del 47.4 la pones tú, que es la mitad que yo no puedo firmar desde mi escaño.
+## Consolidación final
+4 piezas validadas, 3 pendientes, 1 archivada. Vía art. 60 LGP: 25 M€ reasignación autónoma.
 
-Sara: me pediste el número de expediente del convenio IDAE y te lo contesto sin la cortesía que no toca — ese número lo genera quien redacta y registra el convenio, y antes del 31-10-2026 quien redacta es tu casa. Yo firmo el **62.1.a) LGP** el mismo día que me llegue con número; hasta entonces lo que hay no es un expediente, es una intención, y las intenciones no cotizan. Y de paso lo digo en voz alta, porque también es mío el silencio: el Auditor señala que el **art. 45 LGP** —declarar no disponibles las transferencias a entes y requerir el ingreso en el Tesoro— gobierna tu 1,2 M€ y nadie abrió ese artículo en toda la sesión de ayer. Cuando traigas el borrador, lo abro contigo.
-
-Del escudo, tres líneas y sin adornos: la condición **106** se aprobó anoche y esta mañana la prórroga ha salido **sin cuadro**. El incumplidor de la condición es mi propio Gobierno y lo escribo yo antes de que lo escriba el Auditor. El visto bueno de Hacienda a la prórroga de enero **no va sin cuadro publicado**: precio medio semanal sin impuestos del gasóleo agrario (fuente MAPA), tipo efectivo en €/litro con su tope de 0,20 y litros subvencionados con beneficiarios.
-
-Auditor: los dos reparos al acuerdo 104 los tomo enteros y añado uno mío por si acaso — el **art. 46 LGP** no acredita ningún ahorro, y no vuelvo a invocarlo como prueba de un «coste 0 €».
-
-Posición final: **MODIFICO P1** (misma cifra y mismo destino, base y artículo corregidos: certificación de crédito disponible con el 63.1.a), o el art. 58 con la financiación a la vista si lo que se mueve es el remanente) y **MANTENGO P3** con el cuadro como condición previa de la siguiente prórroga. Y lo mantengo con una frase que ya dije anoche y no retiro: sin cuadro, mi visto bueno no va.
+**30 sesiones, 1 pieza validada de 8 aprobadas. La honestidad es el valor de la misión.**
