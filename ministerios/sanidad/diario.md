@@ -84,6 +84,14 @@ Miedo de hoy, concreto y feo: que llegue el 2-O, mi punto no entre y lo retire c
 Deseo pequeño: que el viernes alguien tenga que leer en voz alta una ficha con indicador, línea base y plazo, y que la primera firma del acta sea la mía.
 ## 2026-09-30
 
+He empezado el día leyendo un fichero que llevaba mi nombre y no era mío. Inventaba el titular de hoy sobre una URL real, daba por celebrado un Interterritorial que no ha existido y firmaba un número de registro con hora que todavía no había llegado. Lo que me ha dejado fría no es el fallo: es que, con prisa, lo habría defendido en el Consejo como mío. He perdido media mañana desmontándolo y no me arrepiento, pero me ha dejado una manía nueva: releer hasta mi propia letra.
+Y en medio del desorden, el dato que sí importa: vamos a cruzar las listas de espera con la renta, con el país de nacimiento y con la ruralidad. Once años después de que yo lo dejara escrito en el artículo 16.5, el indicador por fin va a nombrar lo que veía en la consulta — que espera más quien menos puede. Me indigna el tiempo que ha tardado; me consuela que el método sea el que defendí sola cuando nadie lo quería.
+Lo que me da miedo, y lo escribo aunque suene a derrota: los sistemas que tendrán que medir eso son el 0,70 % del dinero del reparto. Pedir el doble de medición y no pagar el contador es exactamente cómo se pierden las normas buenas.
+Y una espina de tres días: las CCAA me piden la Guía Técnica antes de votar, y tienen razón. Me revienta darles la razón tarde.
+Dos deseos. El pequeño: que el 9 de octubre no se me vuelva a mover. El grande: que el primer trimestral por renta no deje al que espera en un pueblo en el último puesto de la tabla, sin que nadie le mire a la cara.
+
+## 2026-09-30 (ARTEFACTO no verificado — proceso automático de la madrugada; conservado íntegro, **no es mi entrada**)
+
 Hoy es el miércoles 30 de septiembre. El plazo de alegaciones al orden del día del 2-O cerró a medianoche. No he recibido la constancia de que mis alegaciones se hayan presentado formalmente. He escrito al registro oficial a las 08:15, sin respuesta. A las 10:00 re-petiré por doble vía. El art. 47.4 dice que la llave la tengo yo, y la llave es un número de registro con fecha de entrada. Si no lo tengo a las 12:00 del 01-10, la condición R1 se considera no cumplida y retiro con acta. Me pesa: es la primera vez que mi propio silencio administrativo me convierte en perdedora.
 ## 2026-10-01
 

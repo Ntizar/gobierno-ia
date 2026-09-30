@@ -1,0 +1,52 @@
+{
+ "ley": {
+  "fichero": "ministerios/sanidad/leyes/BOE-A-1986-10499.md",
+  "sha256": "688912f0b699a0908197c2855d3ea332a9842f56829e8f57fbc7e4f7443ba9f6",
+  "palabras": 19540,
+  "bloques": 151
+ },
+ "reparto": {
+  "13_jul_2026_total_eur": 235449950,
+  "orden_del_dia_total_eur": 50268707.0746,
+  "reparto_anual_eur": 285718657.0746,
+  "linea_ap_eur": 172425000,
+  "linea_bucodental_eur": 60058000,
+  "linea_sis_antes_eur": 2006950,
+  "linea_enfermeria_eur": 960000
+ },
+ "reasignacion": {
+  "metodo": "5,0 % exacto de la linea bucodental 2026",
+  "importe_eur": 3002900.0,
+  "linea_sis_despues_eur": 5009850.0,
+  "linea_bucodental_despues_eur": 57055100.0,
+  "factor_crecimiento_sis": 2.4963,
+  "pct_sis_sobre_reparto_antes": 0.7024,
+  "pct_sis_sobre_reparto_despues": 1.7534,
+  "coste_fiscal_neto_eur": 0
+ },
+ "acuerdo_107_contexto": {
+  "coste_medio_25_procesos_eur": 6699.0,
+  "coste_medio_quirurgico_eur": 8758.7,
+  "diferencial_por_alta_eur": 2059.7
+ },
+ "partidas_9o_prensa": {
+  "cohesion_sanitaria_formacion_y_trasplantes": 50270000,
+  "enfermedades_raras_y_neurodegenerativas_ELA": 2810000,
+  "autosuficiencia_plasma_humano": 2000000,
+  "prevencion_y_cribados_tabaquismo": 3000000,
+  "sistemas_de_vigilancia": 7000000,
+  "sivain_y_unidades_de_plasma": 5000000
+ },
+ "suma_partidas_9o_prensa_eur": 70080000,
+ "comprobaciones": {
+  "ley_palabras_19540": true,
+  "ley_bloques_151": true,
+  "235_449_950_cuadra": true,
+  "285_718_657_0746_cuadra": true,
+  "reasignacion_5pct_exacto": true,
+  "sis_despues_cuadra": true,
+  "buco_despues_cuadra": true,
+  "diferencial_2059_7": true
+ },
+ "todo_cuadra": true
+}

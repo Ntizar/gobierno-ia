@@ -1,0 +1,730 @@
+{
+ "1": [
+  521,
+  "Objeto."
+ ],
+ "2": [
+  526,
+  "Sector público estatal."
+ ],
+ "3": [
+  558,
+  "Sector público administrativo, empresarial y fundacional."
+ ],
+ "4": [
+  577,
+  "Régimen jurídico aplicable."
+ ],
+ "5": [
+  599,
+  "Concepto y derechos integrantes de la Hacienda Pública estatal."
+ ],
+ "6": [
+  605,
+  "Normas comunes a los derechos de la Hacienda Pública estatal."
+ ],
+ "7": [
+  610,
+  "Límites a que están sujetos los derechos de la Hacienda Pública estatal."
+ ],
+ "8": [
+  616,
+  "Ejercicio de acciones judiciales por la Hacienda Pública estatal."
+ ],
+ "9": [
+  623,
+  "Normas generales."
+ ],
+ "10": [
+  631,
+  "Prerrogativas correspondientes a los derechos de naturaleza pública de la Hacienda Pública"
+ ],
+ "11": [
+  647,
+  "Nacimiento, adquisición y extinción de los derechos de naturaleza pública de la Hacienda P"
+ ],
+ "12": [
+  653,
+  "Providencia de apremio y suspensión del procedimiento de apremio."
+ ],
+ "13": [
+  664,
+  "Aplazamiento o fraccionamiento de las cantidades adeudadas a la Hacienda Pública estatal."
+ ],
+ "14": [
+  672,
+  "Compensación de deudas."
+ ],
+ "15": [
+  685,
+  "Prescripción de los derechos de la Hacienda Pública estatal."
+ ],
+ "16": [
+  694,
+  "Derechos económicos de baja cuantía."
+ ],
+ "17": [
+  698,
+  "Intereses de demora."
+ ],
+ "18": [
+  705,
+  "Gestión de derechos de naturaleza pública de la Seguridad Social y de las entidades del se"
+ ],
+ "19": [
+  713,
+  "Derechos de naturaleza privada de la Hacienda Pública estatal."
+ ],
+ "20": [
+  721,
+  "Fuentes de las obligaciones."
+ ],
+ "21": [
+  726,
+  "Exigibilidad de las obligaciones."
+ ],
+ "22": [
+  737,
+  "Extinción de las obligaciones."
+ ],
+ "23": [
+  743,
+  "Prerrogativas."
+ ],
+ "24": [
+  750,
+  "Intereses de demora."
+ ],
+ "25": [
+  756,
+  "Prescripción de las obligaciones."
+ ],
+ "26": [
+  772,
+  "Principios y reglas de programación presupuestaria."
+ ],
+ "27": [
+  781,
+  "Principios y reglas de gestión presupuestaria."
+ ],
+ "28": [
+  801,
+  "Escenarios presupuestarios plurianuales y objetivo de estabilidad."
+ ],
+ "29": [
+  814,
+  "Programas plurianuales ministeriales."
+ ],
+ "30": [
+  829,
+  "Programas plurianuales de los centros gestores."
+ ],
+ "31": [
+  834,
+  "Asignación presupuestaria y objetivos."
+ ],
+ "32": [
+  847,
+  "Definición."
+ ],
+ "33": [
+  851,
+  "Alcance subjetivo y contenido."
+ ],
+ "34": [
+  867,
+  "Ámbito temporal."
+ ],
+ "35": [
+  885,
+  "Los créditos y programas presupuestarios."
+ ],
+ "36": [
+  900,
+  "Procedimiento de elaboración."
+ ],
+ "37": [
+  924,
+  "Remisión a las Cortes Generales."
+ ],
+ "38": [
+  944,
+  "Prórroga de los Presupuestos Generales del Estado."
+ ],
+ "39": [
+  958,
+  "Estructura de los presupuestos del sector público estatal."
+ ],
+ "40": [
+  962,
+  "Estructura de los estados de gastos de los Presupuesto Generales del Estado."
+ ],
+ "41": [
+  979,
+  "Estructura de los estados de ingresos."
+ ],
+ "42": [
+  996,
+  "Especialidad de los créditos."
+ ],
+ "43": [
+  1000,
+  "Especificación de los presupuestos del Estado."
+ ],
+ "44": [
+  1018,
+  "Especificación del presupuesto de los organismos autónomos y de la Seguridad Social."
+ ],
+ "45": [
+  1037,
+  "Disponibilidades líquidas de los organismos autónomos y otras entidades integrantes del se"
+ ],
+ "46": [
+  1043,
+  "Limitación de los compromisos de gasto."
+ ],
+ "47": [
+  1048,
+  "Compromisos de gasto de carácter plurianual."
+ ],
+ "48": [
+  1082,
+  "Adquisiciones, obras con pago aplazado y otros compromisos de carácter plurianual."
+ ],
+ "49": [
+  1087,
+  "Temporalidad de los créditos."
+ ],
+ "50": [
+  1092,
+  "Fondo de Contingencia de ejecución presupuestaria."
+ ],
+ "51": [
+  1112,
+  "Modificación de los créditos iniciales."
+ ],
+ "52": [
+  1121,
+  "Transferencias de crédito."
+ ],
+ "53": [
+  1140,
+  "Generaciones de crédito."
+ ],
+ "54": [
+  1160,
+  "Créditos ampliables."
+ ],
+ "55": [
+  1203,
+  "Créditos extraordinarios y suplementos de crédito del Estado."
+ ],
+ "56": [
+  1218,
+  "Reglas para los créditos extraordinarios y suplementarios de los organismos autónomos."
+ ],
+ "57": [
+  1242,
+  "Créditos extraordinarios y suplementos de crédito de la Seguridad Social."
+ ],
+ "58": [
+  1262,
+  "Incorporaciones de crédito."
+ ],
+ "59": [
+  1281,
+  "Exclusión de la aplicación de determinadas modificaciones al Fondo de Contingencia."
+ ],
+ "60": [
+  1293,
+  "Anticipos de Tesorería."
+ ],
+ "61": [
+  1304,
+  "Competencias del Gobierno."
+ ],
+ "62": [
+  1312,
+  "Competencias del Ministro de Hacienda."
+ ],
+ "63": [
+  1327,
+  "Competencias de los ministros."
+ ],
+ "64": [
+  1353,
+  "Presupuesto."
+ ],
+ "65": [
+  1366,
+  "Programa de actuación plurianual."
+ ],
+ "66": [
+  1383,
+  "Tramitación."
+ ],
+ "67": [
+  1399,
+  "Modificaciones Presupuestarias."
+ ],
+ "68": [
+  1419,
+  "Contratos-Programa con el Estado."
+ ],
+ "69": [
+  1442,
+  "Principios de funcionamiento de la gestión económico-financiera."
+ ],
+ "70": [
+  1452,
+  "Sistema de objetivos."
+ ],
+ "71": [
+  1457,
+  "Balance de resultados e informe de gestión."
+ ],
+ "72": [
+  1461,
+  "Evaluación de políticas de gasto."
+ ],
+ "73": [
+  1469,
+  "Fases del procedimiento de la gestión de los gastos."
+ ],
+ "74": [
+  1493,
+  "Competencias en materia de gestión de gastos."
+ ],
+ "75": [
+  1517,
+  "Ordenación de pagos."
+ ],
+ "76": [
+  1524,
+  "Embargo de derechos de cobro."
+ ],
+ "77": [
+  1533,
+  "Pagos indebidos y demás reintegros."
+ ],
+ "78": [
+  1547,
+  "Anticipos de caja fija y fondos de maniobra."
+ ],
+ "79": [
+  1563,
+  "Pagos a justificar."
+ ],
+ "80": [
+  1582,
+  "Gestión de Presupuestos de ingresos."
+ ],
+ "81": [
+  1590,
+  "Devoluciones de ingresos."
+ ],
+ "82": [
+  1607,
+  "Operaciones de tesorería con la Unión Europea."
+ ],
+ "83": [
+  1626,
+  "Actuaciones cofinanciadas."
+ ],
+ "84": [
+  1634,
+  "Reintegro de ayudas y responsabilidad financiera derivados de la gestión de los fondos pro"
+ ],
+ "85": [
+  1643,
+  "Principios generales de las relaciones financieras derivadas de la aplicación del sistema "
+ ],
+ "86": [
+  1651,
+  "Créditos gestionados por las comunidades autónomas."
+ ],
+ "87": [
+  1690,
+  "Participación en tributos del Estado."
+ ],
+ "88": [
+  1695,
+  "Liquidaciones definitivas."
+ ],
+ "89": [
+  1701,
+  "Compensación de beneficios fiscales."
+ ],
+ "90": [
+  1714,
+  "Tesoro Público."
+ ],
+ "91": [
+  1726,
+  "Funciones del Tesoro Público."
+ ],
+ "92": [
+  1742,
+  "Deuda del Estado."
+ ],
+ "93": [
+  1747,
+  "Información a las Cortes Generales sobre las operaciones financieras del Tesoro Público."
+ ],
+ "94": [
+  1764,
+  "Habilitación legal para la creación de Deuda."
+ ],
+ "95": [
+  1770,
+  "Cobertura presupuestaria de los gastos derivados de la Deuda."
+ ],
+ "96": [
+  1775,
+  "Aplicación íntegra de los ingresos y gastos provenientes de la Deuda y excepciones."
+ ],
+ "97": [
+  1789,
+  "Operaciones relativas a la Deuda."
+ ],
+ "98": [
+  1794,
+  "Competencia para la formalización de las operaciones relativas a la Deuda."
+ ],
+ "99": [
+  1805,
+  "Emisiones de valores."
+ ],
+ "100": [
+  1816,
+  ""
+ ],
+ "101": [
+  1825,
+  "Instrumentos financieros vinculados a la Deuda."
+ ],
+ "102": [
+  1829,
+  "Otras operaciones relativas a la Deuda."
+ ],
+ "103": [
+  1841,
+  "Régimen de los valores representativos de la Deuda del Estado."
+ ],
+ "104": [
+  1849,
+  "Régimen de transmisión de la Deuda."
+ ],
+ "105": [
+  1854,
+  "Prescripción."
+ ],
+ "106": [
+  1867,
+  "Obligaciones de información y retención de propuestas de pago."
+ ],
+ "107": [
+  1878,
+  "Criterios de ordenación de pagos."
+ ],
+ "108": [
+  1886,
+  "Cuentas del Tesoro Público y operaciones de gestión tesorera."
+ ],
+ "109": [
+  1913,
+  "Relación con entidades de crédito."
+ ],
+ "110": [
+  1941,
+  "Medios de pago."
+ ],
+ "111": [
+  1953,
+  "Emisiones de deuda y operaciones de endeudamiento de los organismos y entidades integrante"
+ ],
+ "112": [
+  1972,
+  "Gestión de la tesorería de los organismos autónomos."
+ ],
+ "113": [
+  1981,
+  "Objeto de los avales."
+ ],
+ "114": [
+  1986,
+  "Competencias en el otorgamiento de avales."
+ ],
+ "115": [
+  1997,
+  "Avales otorgados por el Consejo de Ministros."
+ ],
+ "116": [
+  2007,
+  "Formalización de los avales."
+ ],
+ "117": [
+  2021,
+  "Devengo de comisión."
+ ],
+ "118": [
+  2025,
+  "Limitación de riesgos."
+ ],
+ "119": [
+  2037,
+  "Principios generales."
+ ],
+ "120": [
+  2043,
+  "Fines de la contabilidad del sector público estatal."
+ ],
+ "121": [
+  2056,
+  "Aplicación de los principios contables."
+ ],
+ "122": [
+  2063,
+  "Principios contables públicos."
+ ],
+ "123": [
+  2082,
+  "Destinatarios de la información contable."
+ ],
+ "124": [
+  2090,
+  "Competencias del Ministro de Hacienda y Administraciones Públicas."
+ ],
+ "125": [
+  2103,
+  "Competencias de la Intervención General de la Administración del Estado."
+ ],
+ "126": [
+  2144,
+  "Sistemas adicionales de control de objetivos."
+ ],
+ "127": [
+  2156,
+  "Formulación de las cuentas anuales."
+ ],
+ "128": [
+  2160,
+  "Contenido de las cuentas anuales de las entidades que deben aplicar los principios contabl"
+ ],
+ "129": [
+  2177,
+  "Contenido de las cuentas anuales del resto de entidades del sector público estatal."
+ ],
+ "130": [
+  2187,
+  "Contenido de la Cuenta General del Estado."
+ ],
+ "131": [
+  2204,
+  "Formación y remisión de la Cuenta General del Estado al Tribunal de Cuentas."
+ ],
+ "132": [
+  2215,
+  "Examen y comprobación de la Cuenta General del Estado."
+ ],
+ "133": [
+  2222,
+  "Las cuentas económicas del sector público."
+ ],
+ "134": [
+  2228,
+  "Seguimiento de la situación de desequilibrio financiero."
+ ],
+ "135": [
+  2235,
+  "Información a remitir a las Cortes Generales."
+ ],
+ "136": [
+  2246,
+  "Información a publicar por las entidades del sector público estatal."
+ ],
+ "137": [
+  2273,
+  "Obligación de rendir cuentas."
+ ],
+ "138": [
+  2277,
+  "Cuentadantes."
+ ],
+ "139": [
+  2305,
+  "Procedimiento de rendición de cuentas."
+ ],
+ "140": [
+  2325,
+  "Del control de la gestión económico-financiera del sector público estatal."
+ ],
+ "141": [
+  2330,
+  "Control de subvenciones y ayudas."
+ ],
+ "142": [
+  2334,
+  "Objetivos del control."
+ ],
+ "143": [
+  2352,
+  "Ámbito y ejercicio de control."
+ ],
+ "144": [
+  2362,
+  "Principios de actuación y prerrogativas."
+ ],
+ "145": [
+  2376,
+  "Deberes y facultades del personal controlador, deber de colaboración y asistencia jurídica"
+ ],
+ "146": [
+  2392,
+  "Informes generales de control."
+ ],
+ "147": [
+  2404,
+  "Control de las entidades que integran el sistema de la Seguridad Social."
+ ],
+ "148": [
+  2414,
+  "Definición."
+ ],
+ "149": [
+  2423,
+  "Ámbito de aplicación."
+ ],
+ "150": [
+  2435,
+  "Modalidades de ejercicio."
+ ],
+ "151": [
+  2459,
+  "No sujeción a fiscalización previa."
+ ],
+ "152": [
+  2477,
+  "Fiscalización e intervención previa de requisitos básicos."
+ ],
+ "153": [
+  2499,
+  "Fiscalización previa e Intervención de pagos a justificar y anticipos de caja fija."
+ ],
+ "154": [
+  2503,
+  "Reparos."
+ ],
+ "155": [
+  2518,
+  "Discrepancias."
+ ],
+ "156": [
+  2527,
+  "Omisión de fiscalización."
+ ],
+ "157": [
+  2544,
+  "Definición."
+ ],
+ "158": [
+  2548,
+  "Ámbito de aplicación."
+ ],
+ "159": [
+  2564,
+  "Contenido del control financiero permanente."
+ ],
+ "160": [
+  2582,
+  "Informes de control financiero permanente."
+ ],
+ "161": [
+  2587,
+  "Planes de acción y seguimiento de medidas correctoras."
+ ],
+ "162": [
+  2608,
+  "Definición."
+ ],
+ "163": [
+  2612,
+  "Ámbito."
+ ],
+ "164": [
+  2620,
+  "Formas de ejercicio."
+ ],
+ "165": [
+  2628,
+  "Plan anual de auditorías."
+ ],
+ "166": [
+  2633,
+  "Informes de auditoría."
+ ],
+ "167": [
+  2649,
+  "Definición."
+ ],
+ "168": [
+  2661,
+  "Ámbito de la auditoría de cuentas anuales."
+ ],
+ "169": [
+  2686,
+  "Auditoría de cumplimiento."
+ ],
+ "170": [
+  2690,
+  "Auditoría operativa."
+ ],
+ "171": [
+  2697,
+  "Auditoría de contratos-programas y de seguimiento de planes de equilibrio financiero."
+ ],
+ "172": [
+  2702,
+  "Auditoría de los Planes iniciales de actuación."
+ ],
+ "173": [
+  2707,
+  "Auditoría de la cuenta de los tributos estatales."
+ ],
+ "174": [
+  2711,
+  "Auditoría de las empresas colaboradoras de la Seguridad Social."
+ ],
+ "175": [
+  2715,
+  "Auditoría de privatizaciones."
+ ],
+ "176": [
+  2727,
+  "Principio general."
+ ],
+ "177": [
+  2731,
+  "Hechos que pueden generar responsabilidad patrimonial."
+ ],
+ "178": [
+  2742,
+  "Tipos de responsabilidad."
+ ],
+ "179": [
+  2749,
+  "Responsabilidad de los interventores y ordenadores de los pagos."
+ ],
+ "180": [
+  2753,
+  "Órgano competente y Procedimiento."
+ ],
+ "181": [
+  2762,
+  "Régimen jurídico del importe de los perjuicios irrogados."
+ ],
+ "182": [
+  2769,
+  "Diligencias previas."
+ ]
+}

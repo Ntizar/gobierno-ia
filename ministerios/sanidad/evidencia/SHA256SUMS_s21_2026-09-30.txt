@@ -1,0 +1,17 @@
+# Sanidad — sesión 21/30 — 2026-09-30
+# generado con: sha256sum
+4d36c3fbf785c4656286250db346a043c077854e34f028abab5794b0f90af86a *aritmetica_s21_sanidad_2026-09-30.py
+cf5573ca01b22b0e1cec0dcaef7ddc0b13f43c31af4a32b76d1d6e9a2fdea56b *aritmetica_s21_sanidad_2026-09-30.json
+3e0c4a49841068b503fee9ee25d4e720088abcbe1cc41258413314995951b902 *repara_agenda_s21_2026-09-30.py
+c17f51a24cb9ab63f3f29b99db749185093fbdb7f3640fafb99aed0e92189818 *fuentes_fase3_2026-09-30/gacetamedica-aplaza-interterritorial-9oct-2026-09-29.html
+1b651b2e3ab4dfe7449d4cc30a7756e73d160a983062576ada5bc53f75e78c4b *fuentes_fase3_2026-09-30/larazon-retraso-9-octubre-2026-09-29.html
+3fbe8e9f3037fd65111b191b13b3a38bacdfc564fbabaa80d7821c591139887e *fuentes_fase3_2026-09-30/que-es-renta-listas-espera-2026-09-30.html
+2bef19143e8fc4a20d7407c437f2c4da3d529b0c9b14ec523af86b5df19f60d7 *fuentes_fase3_2026-09-30/redaccionmedica-aplaza-interterritorial-2026-09-29.html
+2af8b912f1f310e6cb5f8cddf0e3c8951d989e40dd091b902e4c818f41831e1d *fuentes_fase3_2026-09-30/sanidad-gob-es-nota-6979-rd-listas-espera.html
+8e8bcd0ff23f62a93d067e60e36eb9abe5e2870feecd20c97f2df9c833cae217 *fuentes_fase3_2026-09-30/SHA256SUMS_fase3_2026-09-30.txt
+688912f0b699a0908197c2855d3ea332a9842f56829e8f57fbc7e4f7443ba9f6 *../leyes/BOE-A-1986-10499.md
+40d2ee23afa99beebeacd89ba861667adaef1d4aa320a11cc2164eebcf87e6c4 *../propuestas/2026-09-30.md
+212e11bf47afb570354772f8537b0edfacf25ba3ddb5cf29e73051f38d27c573 *../propuestas/2026-09-30.proceso-automatico-0104.md
+f471df7af1154cb5758918ce4a62f5d07442c68ee6602c80a570c40045922c37 *../agenda.md
+494d2877ddc3480621386c8899c8c416ccaff26dfc9ca2a9437da099ef410e80 *../kpis.md
+215579fdcfca248214a17a90e7a09e2d35af02c8227b6225f216c924ec996f8a *../diario.md

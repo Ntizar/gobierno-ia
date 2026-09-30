@@ -1,0 +1,40 @@
+{
+ "932A_2024": {
+  "coincide_con_ayer": true,
+  "creditos_definitivos": 1817977437.08,
+  "obligaciones_reconocidas": 1776913651.22,
+  "remanente": 41063785.86
+ },
+ "hashes_evidencia": {
+  "AEAT-cuentas-anuales-2024.pdf": "62cae4f8fb5bf79cceb662492e1f51da487f0d729fc53fcc4d5c3c911859a094",
+  "ley47-2003-general-presupuestaria-BOE-A-2003-21614-consolidado-2026-09-28.html": "823c8cbdaf29f1af1dbf3e5392436471febd2a561210b24dc6cf5a98d0d5db4a",
+  "lgp_texto_limpio_2026-09-30.txt": "abcf93db077f51eccb206e391a7c82248034598cbc6320049cfd8f1e968a6e89",
+  "mapa_cm_2026-09-29_ampliacion_medidas_iran.pdf": "d717c1a4dac78d8d4d638c5c9d6c2253665ea244825ec1f77b8b3da59f859698",
+  "mapa_cm_2026-09-29_texto_2026-09-30.txt": "d4e7c9ada23a3901870b5ebdb24b1ac57e17d96d35fbd324640d26d01283ae31"
+ },
+ "ley": {
+  "bloques": 335,
+  "encabezados_a": 292,
+  "hash_esperado_coincide": true,
+  "palabras": 131823,
+  "sha256": "d0b7ef2268f9516d4618ece1847e460517075954fc798107f4d68c0f46ed9368"
+ },
+ "mapa_q4_2026": {
+  "agricola_M_eur": 159.0,
+  "amortiguacion_total_M_eur": 209.0,
+  "comprueba_159": true,
+  "comprueba_209": true,
+  "comprueba_50": true,
+  "comprueba_67": true,
+  "pesquero_M_eur": 50.0,
+  "prorroga_4T_M_eur": 67.0
+ },
+ "mutualistas_estimacion": {
+  "anios_de_remanente_que_los_paga": 7.96,
+  "etiqueta": "ESTIMACION con metodo escrito; TECHO, no prevision",
+  "intereses_anio_eur": 5159529.37,
+  "media_expediente_eur": 1400.0,
+  "principal_pendiente_eur": 127003800.0,
+  "tipo_demora_pct": 4.0625
+ }
+}

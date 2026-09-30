@@ -1,0 +1,135 @@
+{
+  "ley": {
+    "sha256": "dc4b46439a587321bc7837f9918abe7d26e9d676a395024ceef81a576a4756a3",
+    "palabras": 27307,
+    "lineas": 1083,
+    "bloques_rotulo_##[": 71,
+    "bloques_unicos": 71
+  },
+  "bloques": {
+    "a1-7": {
+      "sha256": "c5480214ddd6ed15d462b378b741c034881f099b3fc6692e377937cd8f6a0098",
+      "palabras": 1445,
+      "primera_linea": "## [a1-7] Artículo 15"
+    },
+    "a1-11": {
+      "sha256": "6f10e0c618462e2fc1b30227f823fffca6abba2cfb3e422b20ad26a5c5526cd1",
+      "palabras": 756,
+      "primera_linea": "## [a1-11] Artículo 19"
+    },
+    "a7": {
+      "sha256": "7bb5b1cd8d10f99b59649177983da8a66ba545159b10732500d8317bba6d3bfe",
+      "palabras": 301,
+      "primera_linea": "## [a7] Artículo 7"
+    },
+    "da-9": {
+      "sha256": "ef1562664053347641ed64d60063556a1d834b1f100243884613fe4eb06f2311",
+      "palabras": 215,
+      "primera_linea": "## [da-9] Disposición adicional novena"
+    }
+  },
+  "ndp_pdf": {
+    "sha256": "46d9ecc7918d7e0e600ad7e14cb5b919ddb04192a892659c3a88b0cf00ba1767",
+    "bytes": 242492
+  },
+  "reparto": {
+    "media_nacional_pct": 59.2,
+    "cuencas_bajo_media": 8,
+    "deficit_total_puntos": 50.6,
+    "euro_por_punto": 0.8083,
+    "total_M€": 40.9,
+    "suma_M€": 40.9,
+    "detalle": {
+      "Ebro": {
+        "pct": 46.0,
+        "deficit_puntos": 13.2,
+        "M€": 10.67
+      },
+      "Segura": {
+        "pct": 50.1,
+        "deficit_puntos": 9.1,
+        "M€": 7.36
+      },
+      "Duero": {
+        "pct": 51.4,
+        "deficit_puntos": 7.8,
+        "M€": 6.3
+      },
+      "Galicia Costa": {
+        "pct": 51.8,
+        "deficit_puntos": 7.4,
+        "M€": 5.98
+      },
+      "Júcar": {
+        "pct": 51.9,
+        "deficit_puntos": 7.3,
+        "M€": 5.9
+      },
+      "Tajo": {
+        "pct": 54.9,
+        "deficit_puntos": 4.3,
+        "M€": 3.48
+      },
+      "Miño-Sil": {
+        "pct": 58.3,
+        "deficit_puntos": 0.9,
+        "M€": 0.73
+      },
+      "Cantábrico Occidental": {
+        "pct": 58.6,
+        "deficit_puntos": 0.6,
+        "M€": 0.48
+      }
+    },
+    "cuencas_excluidas_por_encima_media": {
+      "Cantábrico Oriental": 60.3,
+      "Cuencas internas del País Vasco": 71.4,
+      "Guadiana": 72.1,
+      "Tinto, Odiel y Piedras": 65.1,
+      "Guadalete-Barbate": 75.9,
+      "Guadalquivir": 69.6,
+      "Cuenca Mediterránea Andaluza": 64.3,
+      "Cuencas internas de Cataluña": 73.6
+    },
+    "cotejo_con_29_09": {
+      "Ebro": {
+        "M€_29_09": 11.77,
+        "M€_30_09": 10.67
+      },
+      "Júcar": {
+        "M€_29_09": 8.64,
+        "M€_30_09": 5.9
+      },
+      "Segura": {
+        "M€_29_09": 8.16,
+        "M€_30_09": 7.36
+      },
+      "Galicia Costa": {
+        "M€_29_09": 6.26,
+        "M€_30_09": 5.98
+      },
+      "Duero": {
+        "M€_29_09": 6.07,
+        "M€_30_09": 6.3
+      }
+    }
+  },
+  "omie_3009": {
+    "horas": 24,
+    "suma": 3959.43,
+    "media_calculada": 164.98,
+    "min": 89.07,
+    "max": 249.61,
+    "diferencial": 160.54,
+    "ratio_max_min": 2.8,
+    "horas_por_encima_200": 8,
+    "horas_por_debajo_100": 2,
+    "media_dia_anterior": 130.1,
+    "variacion_pct": 26.81
+  },
+  "plazos": {
+    "dias_hasta_31_10_2026": 31,
+    "dias_hasta_30_06_2027": 273,
+    "dias_hasta_31_12_2026": 92
+  }
+}
