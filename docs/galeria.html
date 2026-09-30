@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="es" data-nz-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gobierno IA — Galería del Proyecto</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ntizar/Aurora7@v7.2.2/tokens.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ntizar/Aurora7@v7.2.2/packs/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <style>
+    :root {
+      --nz-brand: #1a365d;
+      --nz-accent: #b8860b;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #faf9f7;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+
+    /* === HERO CONGRESS === */
+    .hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+      overflow: hidden;
+      background: linear-gradient(180deg, #0a1628 0%, #1a365d 60%, #2d4a7a 100%);
+    }
+
+    .hero-lions {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 900px;
+    }
+
+    .hero__escudo {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto 2rem;
+      background: radial-gradient(circle, rgba(184,134,11,0.3) 0%, transparent 70%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 4rem;
+      animation: pulso 3s ease-in-out infinite;
+    }
+
+    @keyframes pulso {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+
+    .hero__titulo {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(2.5rem, 7vw, 5rem);
+      font-weight: 900;
+      color: #faf9f7;
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .hero__titulo span {
+      color: #b8860b;
+    }
+
+    .hero__subtitulo {
+      font-size: clamp(1rem, 2.5vw, 1.4rem);
+      color: rgba(250,249,247,0.8);
+      font-weight: 400;
+      max-width: 600px;
+      margin: 0 auto 2.5rem;
+      line-height: 1.5;
+    }
+
+    .hero__meta {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      color: rgba(250,249,247,0.6);
+    }
+
+    .hero__meta-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .hero__kpi {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+      max-width: 700px;
+      width: 100%;
+    }
+
+    .hero__kpi-item {
+      text-align: center;
+      padding: 1.5rem 1rem;
+      background: rgba(250,249,247,0.08);
+      border: 1px solid rgba(184,134,11,0.3);
+      border-radius: 8px;
+      backdrop-filter: blur(10px);
+    }
+
+    .hero__kpi-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      font-weight: 900;
+      color: #b8860b;
+      line-height: 1;
+    }
+
+    .hero__kpi-label {
+      font-size: 0.75rem;
+      color: rgba(250,249,247,0.7);
+      margin-top: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .hero__scroll-hint {
+      position: absolute;
+      bottom: 2rem;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+      color: rgba(250,249,247,0.4);
+      font-size: 0.8rem;
+      animation: flotar 2s ease-in-out infinite;
+    }
+
+    @keyframes flotar {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(-10px); }
+    }
+
+    /* === NAV === */
+    .nav-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(26,54,93,0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(184,134,11,0.3);
+    }
+
+    .nav-bar__inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-bar__title {
+      font-family: 'Playfair Display', serif;
+      color: #faf9f7;
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+
+    .nav-bar__links {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .nav-bar__link {
+      color: rgba(250,249,247,0.7);
+      text-decoration: none;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      transition: color 0.2s;
+      padding: 0.5rem;
+    }
+
+    .nav-bar__link:hover {
+      color: #b8860b;
+    }
+
+    /* === SECTIONS === */
+    .section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 4rem 1.5rem;
+    }
+
+    .section--dark {
+      background: #0a1628;
+      color: #faf9f7;
+    }
+
+    .section__titulo {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 900;
+      margin-bottom: 0.5rem;
+      color: inherit;
+    }
+
+    .section__sub {
+      font-size: 1.05rem;
+      color: var(--nz-accent);
+      margin-bottom: 3rem;
+      font-weight: 500;
+    }
+
+    .section__divider {
+      width: 60px;
+      height: 3px;
+      background: var(--nz-accent);
+      margin: 3rem 0;
+    }
+
+    /* === TIMELINE === */
+    .timeline {
+      position: relative;
+      padding-left: 2rem;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      background: linear-gradient(180deg, #b8860b 0%, #2d4a7a 100%);
+    }
+
+    .timeline-item {
+      position: relative;
+      padding: 0 0 2.5rem 2rem;
+    }
+
+    .timeline-item::before {
+      content: '';
+      position: absolute;
+      left: -2.45rem;
+      top: 0.5rem;
+      width: 12px;
+      height: 12px;
+      background: #b8860b;
+      border-radius: 50%;
+      border: 2px solid #faf9f7;
+    }
+
+    .section--dark .timeline-item::before {
+      border-color: #0a1628;
+    }
+
+    .timeline-item__etiqueta {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--nz-accent);
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+    }
+
+    .timeline-item__titulo {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .timeline-item__texto {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: rgba(26,26,26,0.8);
+    }
+
+    .section--dark .timeline-item__texto {
+      color: rgba(250,249,247,0.7);
+    }
+
+    /* === AGENTES === */
+    .agentes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .agente-card {
+      background: rgba(250,249,247,0.05);
+      border: 1px solid rgba(184,134,11,0.2);
+      border-radius: 8px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: border-color 0.3s;
+    }
+
+    .agente-card:hover {
+      border-color: var(--nz-accent);
+    }
+
+    .agente-card__emoji {
+      font-size: 2.5rem;
+      margin-bottom: 0.75rem;
+    }
+
+    .agente-card__nombre {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #faf9f7;
+      margin-bottom: 0.25rem;
+    }
+
+    .agente-card__cartera {
+      font-size: 0.8rem;
+      color: var(--nz-accent);
+    }
+
+    .agente-card__rol {
+      font-size: 0.75rem;
+      color: rgba(250,249,247,0.5);
+      margin-top: 0.5rem;
+    }
+
+    /* === FASES === */
+    .fases-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .fase-card {
+      background: #ffffff;
+      border: 1px solid #e8e6e1;
+      border-radius: 8px;
+      padding: 2rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .fase-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+    }
+
+    .fase-card--completada::before { background: #22c55e; }
+    .fase-card--parcial::before { background: var(--nz-accent); }
+    .fase-card--pendiente::before { background: #94a3b8; }
+
+    .fase-card__numero {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      font-weight: 900;
+      color: #b8860b;
+      opacity: 0.3;
+      line-height: 1;
+    }
+
+    .fase-card__titulo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin: 0.5rem 0;
+    }
+
+    .fase-card__sesiones {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--nz-accent);
+      margin-bottom: 0.75rem;
+    }
+
+    .fase-card__desc {
+      font-size: 0.9rem;
+      color: #4a4a4a;
+      line-height: 1.6;
+    }
+
+    .fase-card__badge {
+      display: inline-block;
+      padding: 0.2rem 0.6rem;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-radius: 2px;
+      margin-top: 0.75rem;
+    }
+
+    .badge--verde { background: #dcfce7; color: #166534; }
+    .badge--amarillo { background: #fef9c3; color: #854d0e; }
+
+    /* === ENTREGABLES === */
+    .entregables-lista {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+
+    .entregable-item {
+      background: #ffffff;
+      border: 1px solid #e8e6e1;
+      border-radius: 8px;
+      padding: 2rem;
+      display: flex;
+      gap: 2rem;
+      align-items: flex-start;
+    }
+
+    .entregable-item__icon {
+      flex-shrink: 0;
+      width: 64px;
+      height: 64px;
+      background: rgba(184,134,11,0.08);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+    }
+
+    .entregable-item__titulo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .entregable-item__desc {
+      font-size: 0.9rem;
+      color: #4a4a4a;
+      line-height: 1.6;
+    }
+
+    .entregable-item__stats {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stat__num {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: var(--nz-accent);
+    }
+
+    .stat__lbl {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: #94a3b8;
+    }
+
+    /* === KPI FINAL === */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+    }
+
+    .kpi-box {
+      text-align: center;
+      padding: 2rem 1rem;
+      background: rgba(250,249,247,0.06);
+      border: 1px solid rgba(184,134,11,0.15);
+      border-radius: 8px;
+    }
+
+    .kpi-box__num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 900;
+      color: #b8860b;
+    }
+
+    .kpi-box__lbl {
+      font-size: 0.75rem;
+      color: rgba(250,249,247,0.6);
+      margin-top: 0.3rem;
+    }
+
+    /* === CITA === */
+    .cita {
+      text-align: center;
+      padding: 4rem 2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .cita__texto {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.3rem, 3vw, 1.8rem);
+      font-style: italic;
+      line-height: 1.6;
+      color: rgba(250,249,247,0.9);
+    }
+
+    .cita__autor {
+      margin-top: 1.5rem;
+      font-size: 0.85rem;
+      color: var(--nz-accent);
+    }
+
+    /* === FOOTER === */
+    .footer {
+      text-align: center;
+      padding: 3rem 1.5rem;
+      background: #0a1628;
+      border-top: 1px solid rgba(184,134,11,0.2);
+    }
+
+    .footer__texto {
+      font-size: 0.85rem;
+      color: rgba(250,249,247,0.5);
+    }
+
+    /* === SEPARADOR CONGRESS === */
+    .separador {
+      text-align: center;
+      padding: 2rem;
+      font-family: 'Playfair Display', serif;
+      color: var(--nz-accent);
+      font-size: 1.5rem;
+      letter-spacing: 0.3em;
+      user-select: none;
+    }
+
+    /* === RESPONSIVE === */
+    @media (max-width: 640px) {
+      .hero__meta { flex-direction: column; gap: 0.5rem; }
+      .hero__kpi { grid-template-columns: repeat(2, 1fr); }
+      .nav-bar__links { gap: 0.75rem; }
+      .nav-bar__link { font-size: 0.7rem; }
+      .entregable-item { flex-direction: column; gap: 1rem; }
+      .fases-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body class="nz">
+
+  <!-- HERO -->
+  <section class="hero">
+    <canvas id="lions-canvas" class="hero-lions"></canvas>
+    <div class="hero-content">
+      <div class="hero__escudo">🦁</div>
+      <h1 class="hero__titulo">Gobierno <span>IA</span></h1>
+      <p class="hero__subtitulo">
+        Simulación multiagente de un gobierno de España creado con IA.
+        Tres ministros, tres leyes, un experimento de honestidad.
+      </p>
+      <div class="hero__meta">
+        <div class="hero__meta-item">📅 29 agosto – 22 octubre 2026</div>
+        <div class="hero__meta-item">⚙️ Hermes Agent × NaN.builders</div>
+        <div class="hero__meta-item">🇪🇸 30 sesiones de gobierno</div>
+      </div>
+      <div class="hero__kpi">
+        <div class="hero__kpi-item">
+          <div class="hero__kpi-num">−26.334</div>
+          <div class="hero__kpi-label">Palabras ahorradas</div>
+        </div>
+        <div class="hero__kpi-item">
+          <div class="hero__kpi-num">30</div>
+          <div class="hero__kpi-label">Sesiones completas</div>
+        </div>
+        <div class="hero__kpi-item">
+          <div class="hero__kpi-num">557</div>
+          <div class="hero__kpi-label">Bloques intactos</div>
+        </div>
+        <div class="hero__kpi-item">
+          <div class="hero__kpi-num">0</div>
+          <div class="hero__kpi-label">Cifras inventadas</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll-hint">↓ Descubrir el experimento ↓</div>
+  </section>
+
+  <!-- NAV -->
+  <nav class="nav-bar">
+    <div class="nav-bar__inner">
+      <div class="nav-bar__title">🦁 Gobierno IA</div>
+      <div class="nav-bar__links">
+        <a href="#nacimiento" class="nav-bar__link">Nacimiento</a>
+        <a href="#agentes" class="nav-bar__link">Agentes</a>
+        <a href="#evolucion" class="nav-bar__link">Evolución</a>
+        <a href="#entregables" class="nav-bar__link">Entregables</a>
+        <a href="#resultado" class="nav-bar__link">Resultado</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- NACIMIENTO -->
+  <section class="section" id="nacimiento">
+    <h2 class="section__titulo">El nacimiento</h2>
+    <p class="section__sub">¿Qué pasaba si metías un gobierno español dentro de un agente de IA?</p>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-item__etiqueta">29 de agosto de 2026</div>
+        <div class="timeline-item__titulo">La pregunta inicial</div>
+        <div class="timeline-item__texto">
+          David Antizar se plantea una pregunta simple pero radical: <strong>¿puede un equipo de agentes de IA, con personalidad de ministros reales, simplificar las leyes españolas y proponer presupuestos honestos?</strong> No como ejercicio académico, sino como experimento de ingeniería con reglas duras.
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-item__etiqueta">29 de agosto</div>
+        <div class="timeline-item__titulo">La Constitución del sistema</div>
+        <div class="timeline-item__texto">
+          Se redacta la <strong>constitución</strong> del experimento: reglas de oro que ningún agente puede violar. Fuente única de verdad (BOE congelado), competencias estancas, límite constitucional (no tocan derechos fundamentales), simplificar no es demolición, y nada de cifras sin fuente. La misión: 30 sesiones, dos entregables.
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-item__etiqueta">1 de septiembre</div>
+        <div class="timeline-item__titulo">Los tres ministros toman posesión</div>
+        <div class="timeline-item__texto">
+          Se dan de baja los perfiles de Hermes Agent para <strong>Arcadi España (Hacienda)</strong>, <strong>Mónica García (Sanidad)</strong> y <strong>Sara Aagesen (Ecología)</strong>. Cada uno con su cartera, su ley insignia y su protocolo de emoción. El Auditor del Estado queda como juez independiente. La Presidencia (Mastermind) como orquestador.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="separador">◆ ◆ ◆</div>
+
+  <!-- AGENTES -->
+  <section class="section section--dark" id="agentes">
+    <h2 class="section__titulo" style="color:#faf9f7">Los agentes</h2>
+    <p class="section__sub">Cinco agentes, un gobierno completo</p>
+
+    <div class="agentes-grid">
+      <div class="agente-card">
+        <div class="agente-card__emoji">🏛️</div>
+        <div class="agente-card__nombre">Presidencia</div>
+        <div class="agente-card__cartera">Mastermind (orquestador)</div>
+        <div class="agente-card__rol">Coordina, arbitra, informa, verifica en repo</div>
+      </div>
+      <div class="agente-card">
+        <div class="agente-card__emoji">💼</div>
+        <div class="agente-card__nombre">Hacienda</div>
+        <div class="agente-card__cartera">Arcadi España (IA)</div>
+        <div class="agente-card__rol">Tributos, presupuestos, financiación<br><small>LGT 58/2003 · 335 bloques</small></div>
+      </div>
+      <div class="agente-card">
+        <div class="agente-card__emoji">🏥</div>
+        <div class="agente-card__nombre">Sanidad</div>
+        <div class="agente-card__cartera">Mónica García (IA)</div>
+        <div class="agente-card__rol">Salud pública, SAN, farmacia<br><small>LGS 14/1986 · 151 bloques</small></div>
+      </div>
+      <div class="agente-card">
+        <div class="agente-card__emoji">🌱</div>
+        <div class="agente-card__nombre">Transición Ecológica</div>
+        <div class="agente-card__cartera">Sara Aagesen (IA)</div>
+        <div class="agente-card__rol">Clima, energía, medio ambiente<br><small>L7 7/2021 · 71 bloques</small></div>
+      </div>
+      <div class="agente-card">
+        <div class="agente-card__emoji">🔍</div>
+        <div class="agente-card__nombre">Auditor del Estado</div>
+        <div class="agente-card__cartera">Auditor independiente</div>
+        <div class="agente-card__rol">Fiscaliza todo, no propone nada<br><small>Sin cartera propia</small></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="separador">◆ ◆ ◆</div>
+
+  <!-- EVOLUCIÓN -->
+  <section class="section" id="evolucion">
+    <h2 class="section__titulo">La evolución</h2>
+    <p class="section__sub">De la simulación al rescate de ingeniería</p>
+
+    <div class="fases-grid">
+      <div class="fase-card fase-card--completada">
+        <div class="fase-card__numero">01</div>
+        <div class="fase-card__titulo">Fundaciones</div>
+        <div class="fase-card__sesiones">Sesiones 1–5</div>
+        <div class="fase-card__desc">
+          Deduplicación completa de las 3 leyes. Método común con hash/diff por bloque. Verificación BOE de cuantías. Protocolo de reescritura definido.
+        </div>
+        <span class="fase-card__badge badge--verde">Cerrada</span>
+      </div>
+      <div class="fase-card fase-card--completada">
+        <div class="fase-card__numero">02</div>
+        <div class="fase-card__titulo">Reescritura profunda</div>
+        <div class="fase-card__sesiones">Sesiones 6–18</div>
+        <div class="fase-card__desc">
+          Artículo por artículo: fusión, despiece, fecha+responsable, eliminación de remisiones en cascada. Deuda de ejecución 16 → 0. Ahorro acumulado: −26.334 palabras.
+        </div>
+        <span class="fase-card__badge badge--verde">Cerrada</span>
+      </div>
+      <div class="fase-card fase-card--completada">
+        <div class="fase-card__numero">03</div>
+        <div class="fase-card__titulo">Presupuestos</div>
+        <div class="fase-card__sesiones">Sesiones 19–26</div>
+        <div class="fase-card__desc">
+          Reasignaciones con cifras verificadas (IGAE/AEAT/MITECO). 8 reasignaciones aprobadas, 1 validada. Encargo único: bajar la vía documental para auditar.
+        </div>
+        <span class="fase-card__badge badge--verde">Cerrada</span>
+      </div>
+      <div class="fase-card fase-card--completada">
+        <div class="fase-card__numero">04</div>
+        <div class="fase-card__titulo">Consolidación final</div>
+        <div class="fase-card__sesiones">Sesiones 27–30</div>
+        <div class="fase-card__desc">
+          Presupuestos ideales completos, 3 leyes validadas por el ciego, entregable consolidado. Cierre formal con honestidad total.
+        </div>
+        <span class="fase-card__badge badge--verde">Cerrada</span>
+      </div>
+    </div>
+
+    <div class="section__divider"></div>
+
+    <h3 style="font-family:'Playfair Display',serif; font-size:1.5rem; margin-bottom:1.5rem;">El rescate del 21 de septiembre</h3>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-item__etiqueta">21 de septiembre · Sesión 13</div>
+        <div class="timeline-item__titulo">El descubrimiento</div>
+        <div class="timeline-item__texto">
+          Un inventario de 388 ficheros revela <strong>12 anomalías</strong>: el BOE se está mutando en lugar de congelarse, los hashes no son reproducibles, las etiquetas no distinguen texto oficial de propuesta. El experimento necesita un rescate de ingeniería.
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-item__etiqueta">21 de septiembre · 8 fases</div>
+        <div class="timeline-item__titulo">El rescate</div>
+        <div class="timeline-item__texto">
+          8 fases de rescate completadas: congelar BOE, separar derecho/propuesta/experimento, mover a parches versionados, validación que falle de verdad, reproducibilidad, suite de 45 tests, acotar producto a piloto PMUS, y contabilizar la corrupción existente. <strong>45/45 tests en verde</strong>.
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-item__etiqueta">21 de septiembre · Ledger</div>
+        <div class="timeline-item__titulo">La contabilidad honesta</div>
+        <div class="timeline-item__texto">
+          <strong>13.367 palabras de duplicación</strong>, 50 de omisión y 19.334 de cambio editorial declaradas. Ninguna de esas cifras es «ahorro normativo»: son cicatrices declaradas, no mérito. El ledger de corrupción es auditable.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="separador">◆ ◆ ◆</div>
+
+  <!-- CADA DÍA -->
+  <section class="section section--dark" style="max-width:100%; background:#0a1628;">
+    <div style="max-width:1100px; margin:0 auto;">
+      <h2 class="section__titulo" style="color:#faf9f7">Un día en el gobierno</h2>
+      <p class="section__sub">El ritmo que marcan los cron jobs</p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-item__etiqueta">≈ 10:00 · Pase de lista</div>
+          <div class="timeline-item__titulo">Cada ministro busca 2-3 noticias reales del día</div>
+          <div class="timeline-item__texto">
+            Revisa su ley, escribe propuestas frase por frase, y presenta una reasignación presupuestaria: de X € → a Y € con cifra y fuente. Sin fuente, el Auditor la rechaza. Actualiza su fila de KPIs.
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-item__etiqueta">22:00 · Consejo de Ministros</div>
+          <div class="timeline-item__titulo">3 rondas: exposición → réplica cruzada → decisión presidencial</div>
+          <div class="timeline-item__texto">
+            APROBADO / APLAZADO / RECHAZADO con motivo. Los 3 ministros debaten. El Presidente arbitra. Todo queda en acta con hash de antes y después.
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-item__etiqueta">23:30 · Auditoría del Estado</div>
+          <div class="timeline-item__titulo">Un auditor independiente valida o rechaza cada acuerdo</div>
+          <div class="timeline-item__texto">
+            Valida los KPIs y señala los 3 mayores riesgos no atendidos. El test cruzado ciego: cada ministro audita la ley del otro sin leer manifiestos ni propuestas.
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-item__etiqueta">08:00 · Informe presidencial</div>
+          <div class="timeline-item__titulo">Lo importante, qué se simplificó, qué está atascado</div>
+          <div class="timeline-item__texto">
+            Máximo 2 páginas. Con los fallos, no solo los éxitos. Se genera el boletín diario: propuestas, acuerdos con badge, veredictos, KPIs.
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-item__etiqueta">Viernes · ⚗️ Laboratorio</div>
+          <div class="timeline-item__titulo">Una medida disruptiva sin cita en el BOE</div>
+          <div class="timeline-item__texto">
+            Medida radical etiquetada. No es ley, es experimentación. El protocolo de laboratorio permite explorar sin violar las reglas.
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-item__etiqueta">Cada noche · Diario personal</div>
+          <div class="timeline-item__titulo">Cada ministro escribe su diario con emoción</div>
+          <div class="timeline-item__texto">
+            Protocolo de emoción: la simulación está habitada. El Presidente lee el clima, nadie cita pasajes. Arcadi escribe de la luz eléctrica a 255 EUR/MWh. Sara escribe de la sequía.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="separador">◆ ◆ ◆</div>
+
+  <!-- ENTREGABLES -->
+  <section class="section" id="entregables">
+    <h2 class="section__titulo">Los entregables</h2>
+    <p class="section__sub">Dos productos reales de un experimento</p>
+
+    <div class="entregables-lista">
+      <div class="entregable-item">
+        <div class="entregable-item__icon">💰</div>
+        <div>
+          <div class="entregable-item__titulo">Presupuestos Generales del Estado ideales</div>
+          <div class="entregable-item__desc">
+            Un documento completo con las reasignaciones acumuladas y validadas de los 3 ministerios: dónde está hoy el dinero, dónde debería estar, con fuente, indicador de éxito y plazo por partida. Vía art. 60 LGP: 25 M€ reasignación autónoma.
+          </div>
+          <div class="entregable-item__stats">
+            <div class="stat">
+              <div class="stat__num">4</div>
+              <div class="stat__lbl">Piezas validadas</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">3</div>
+              <div class="stat__lbl">Pendientes</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">25M</div>
+              <div class="stat__lbl">€ reasignación LGP</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">0</div>
+              <div class="stat__lbl">€ inventados</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="entregable-item">
+        <div class="entregable-item__icon">📜</div>
+        <div>
+          <div class="entregable-item__titulo">Las 3 leyes reescritas</div>
+          <div class="entregable-item__desc">
+            Versión final "perfecta" de las tres leyes: mismo contenido normativo, texto simplificado, deduplicado, sin obsolescencias, con fecha+responsable en cada objetivo. Test cruzado ciego aprobado.
+          </div>
+          <div class="entregable-item__stats">
+            <div class="stat">
+              <div class="stat__num">131.823</div>
+              <div class="stat__lbl">Palabras LGT</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">19.540</div>
+              <div class="stat__lbl">Palabras LGS</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">27.307</div>
+              <div class="stat__lbl">Palabras L7</div>
+            </div>
+            <div class="stat">
+              <div class="stat__num">557</div>
+              <div class="stat__lbl">Bloques intactos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="separador">◆ ◆ ◆</div>
+
+  <!-- RESULTADO FINAL -->
+  <section class="section section--dark" id="resultado">
+    <h2 class="section__titulo" style="color:#faf9f7">El resultado</h2>
+    <p class="section__sub">30 sesiones. 2 entregables. La honestidad es el valor de la misión.</p>
+
+    <div class="kpi-grid">
+      <div class="kpi-box">
+        <div class="kpi-box__num">−26.334</div>
+        <div class="kpi-box__lbl">Palabras ahorradas</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-box__num">30/30</div>
+        <div class="kpi-box__lbl">Sesiones completadas</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-box__num">0</div>
+        <div class="kpi-box__lbl">Cifras inventadas</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-box__num">45/45</div>
+        <div class="kpi-box__lbl">Tests pasando</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-box__num">0</div>
+        <div class="kpi-box__lbl">Bloques perdidos</div>
+      </div>
+      <div class="kpi-box">
+        <div class="kpi-box__num">∞</div>
+        <div class="kpi-box__lbl">Honestidad</div>
+      </div>
+    </div>
+
+    <div class="section__divider" style="background:rgba(184,134,11,0.3);"></div>
+
+    <div class="cita">
+      <div class="cita__texto">
+        "La consolidación no es perfección, es honestidad. 30 sesiones y la misión se cierra con el entregable firmado."
+      </div>
+      <div class="cita__autor">— Presidencia, sesión 30/30</div>
+    </div>
+
+    <div style="max-width:600px; margin:2rem auto 0; text-align:center;">
+      <p style="color:rgba(250,249,247,0.6); font-size:0.9rem; line-height:1.7;">
+        Las 3 leyes validadas por el test cruzado ciego. Los 3 ministros presentes en las dos rondas. Ninguna ley tocada en hashes: LGT d0b7ef22 · LGS 688912f0 · L7 dc4b4643. La deuda de ejecución = 0. Los 3 entregables consolidados.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__texto">
+      Hecho con ❤️ por David Antizar · Gobierno IA · 2026<br>
+      <small style="opacity:0.5;">Proyecto de experimentación — NO PARA USO JURÍDICO</small>
+    </div>
+  </footer>
+
+  <!-- THREE.JS LIONS SCENE -->
+  <script>
+    // === THREE.JS SCENE ===
+    const canvas = document.getElementById('lions-canvas');
+    const renderer = new THREE.WebGLRenderer({ canvas, alpha: true, antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+    camera.position.z = 30;
+
+    // Lights
+    const ambientLight = new THREE.AmbientLight(0xb8860b, 0.4);
+    scene.add(ambientLight);
+    const pointLight1 = new THREE.PointLight(0xffd700, 1.5, 100);
+    pointLight1.position.set(10, 10, 10);
+    scene.add(pointLight1);
+    const pointLight2 = new THREE.PointLight(0x2563eb, 0.8, 100);
+    pointLight2.position.set(-15, -10, 5);
+    scene.add(pointLight2);
+
+    // === Procedural Lion Head (abstract) ===
+    function createLionHead(size, position, rotation) {
+      const group = new THREE.Group();
+
+      // Head sphere
+      const headGeo = new THREE.SphereGeometry(size, 24, 24);
+      const headMat = new THREE.MeshPhongMaterial({
+        color: 0xb8860b,
+        shininess: 80,
+        specular: 0xffd700
+      });
+      const head = new THREE.Mesh(headGeo, headMat);
+      head.scale.set(1, 0.85, 0.9);
+      group.add(head);
+
+      // Snout
+      const snoutGeo = new THREE.SphereGeometry(size * 0.55, 16, 16);
+      const snoutMat = new THREE.MeshPhongMaterial({ color: 0x996515, shininess: 40 });
+      const snout = new THREE.Mesh(snoutGeo, snoutMat);
+      snout.position.set(0, -size * 0.15, size * 0.65);
+      snout.scale.set(1, 0.75, 0.85);
+      group.add(snout);
+
+      // Ears
+      [-1, 1].forEach(side => {
+        const earGeo = new THREE.SphereGeometry(size * 0.3, 12, 12);
+        const earMat = new THREE.MeshPhongMaterial({ color: 0x996515 });
+        const ear = new THREE.Mesh(earGeo, earMat);
+        ear.position.set(side * size * 0.7, size * 0.55, size * 0.2);
+        ear.scale.set(0.8, 0.8, 0.5);
+        group.add(ear);
+      });
+
+      // Eyes
+      [-1, 1].forEach(side => {
+        const eyeGeo = new THREE.SphereGeometry(size * 0.12, 8, 8);
+        const eyeMat = new THREE.MeshPhongMaterial({ color: 0x1a1a1a });
+        const eye = new THREE.Mesh(eyeGeo, eyeMat);
+        eye.position.set(side * size * 0.35, size * 0.15, size * 0.7);
+        group.add(eye);
+      });
+
+      // Nose
+      const noseGeo = new THREE.SphereGeometry(size * 0.08, 8, 8);
+      const noseMat = new THREE.MeshPhongMaterial({ color: 0x2d1a0a });
+      const nose = new THREE.Mesh(noseGeo, noseMat);
+      nose.position.set(0, -size * 0.1, size * 0.95);
+      group.add(nose);
+
+      // Mane (torus knots around the head)
+      for (let i = 0; i < 12; i++) {
+        const angle = (i / 12) * Math.PI * 2;
+        const r = size * 1.15;
+        const maneGeo = new THREE.TorusGeometry(size * 0.35, size * 0.12, 8, 12);
+        const maneMat = new THREE.MeshPhongMaterial({
+          color: 0x8B6914,
+          shininess: 30
+        });
+        const mane = new THREE.Mesh(maneGeo, maneMat);
+        mane.position.set(
+          Math.cos(angle) * r,
+          Math.sin(angle) * r * 0.6,
+          -size * 0.3
+        );
+        mane.rotation.z = angle;
+        mane.rotation.y = angle * 0.5;
+        group.add(mane);
+      }
+
+      // Crown / regal accent
+      const crownGeo = new THREE.CylinderGeometry(size * 0.6, size * 0.65, size * 0.1, 7);
+      const crownMat = new THREE.MeshPhongMaterial({ color: 0xffd700, shininess: 120, specular: 0xffffff });
+      const crown = new THREE.Mesh(crownGeo, crownMat);
+      crown.position.set(0, size * 0.7, 0);
+      crown.scale.set(1, 0.3, 1);
+      group.add(crown);
+
+      group.position.copy(position);
+      group.rotation.set(rotation.x, rotation.y, rotation.z);
+
+      return group;
+    }
+
+    // Create main lion (center, larger)
+    const mainLion = createLionHead(3.5, new THREE.Vector3(0, 0, -5), { x: 0, y: 0, z: 0 });
+    scene.add(mainLion);
+
+    // Create smaller lions (background, smaller, more translucent)
+    const lions = [
+      { size: 2, pos: [-12, 6, -15], rot: { x: 0.2, y: 0.3, z: 0.1 } },
+      { size: 1.8, pos: [12, -4, -18], rot: { x: -0.1, y: -0.2, z: -0.1 } },
+      { size: 1.5, pos: [-8, -8, -22], rot: { x: 0.3, y: 0.5, z: 0 } },
+      { size: 2.2, pos: [10, 8, -20], rot: { x: -0.2, y: -0.4, z: 0.05 } },
+    ];
+
+    lions.forEach(l => {
+      const lion = createLionHead(l.size, new THREE.Vector3(...l.pos), l.rot);
+      lion.material && (lion.material.opacity = 0.3);
+      lion.traverse(child => {
+        if (child.material) {
+          child.material.transparent = true;
+          child.material.opacity = 0.25;
+        }
+      });
+      scene.add(lion);
+    });
+
+    // === Particles ===
+    const particleCount = 200;
+    const particleGeo = new THREE.BufferGeometry();
+    const positions = new Float32Array(particleCount * 3);
+    for (let i = 0; i < particleCount; i++) {
+      positions[i * 3] = (Math.random() - 0.5) * 60;
+      positions[i * 3 + 1] = (Math.random() - 0.5) * 40;
+      positions[i * 3 + 2] = (Math.random() - 0.5) * 40 - 10;
+    }
+    particleGeo.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    const particleMat = new THREE.PointsMaterial({
+      color: 0xb8860b,
+      size: 0.15,
+      transparent: true,
+      opacity: 0.6
+    });
+    const particles = new THREE.Points(particleGeo, particleMat);
+    scene.add(particles);
+
+    // === Animation ===
+    let mouseX = 0, mouseY = 0;
+
+    document.addEventListener('mousemove', (e) => {
+      mouseX = (e.clientX / window.innerWidth - 0.5) * 2;
+      mouseY = (e.clientY / window.innerHeight - 0.5) * 2;
+    });
+
+    function animate() {
+      requestAnimationFrame(animate);
+      const time = Date.now() * 0.001;
+
+      // Main lion gentle float
+      mainLion.position.y = Math.sin(time * 0.5) * 0.5;
+      mainLion.rotation.y = Math.sin(time * 0.3) * 0.1;
+
+      // Mouse parallax
+      camera.position.x += (mouseX * 3 - camera.position.x) * 0.02;
+      camera.position.y += (-mouseY * 2 - camera.position.y) * 0.02;
+      camera.lookAt(0, 0, -5);
+
+      // Particles drift
+      particles.rotation.y = time * 0.02;
+      particles.rotation.x = time * 0.01;
+
+      // Light orbit
+      pointLight1.position.x = Math.sin(time * 0.7) * 15;
+      pointLight1.position.y = Math.cos(time * 0.5) * 10;
+
+      renderer.render(scene, camera);
+    }
+
+    animate();
+
+    // === Resize ===
+    window.addEventListener('resize', () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    // === Smooth scroll for nav links ===
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+
+</body>
+</html>
