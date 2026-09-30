@@ -555,6 +555,231 @@
       user-select: none;
     }
 
+    /* === LEYES === */
+    .leyes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .ley-card {
+      background: #ffffff;
+      border: 1px solid #e8e6e1;
+      border-radius: 8px;
+      padding: 2rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .ley-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .ley-card__titulo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .ley-card__hash {
+      font-family: monospace;
+      font-size: 0.75rem;
+      color: var(--nz-accent);
+      background: rgba(184,134,11,0.1);
+      padding: 0.25rem 0.5rem;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 1rem;
+      word-break: break-all;
+    }
+
+    .ley-card__stats {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .ley-stat {
+      text-align: center;
+      padding: 0.5rem;
+      background: rgba(184,134,11,0.05);
+      border-radius: 4px;
+    }
+
+    .ley-stat__num {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--nz-accent);
+    }
+
+    .ley-stat__lbl {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #94a3b8;
+    }
+
+    .ley-card__diff {
+      font-size: 0.85rem;
+      color: #4a4a4a;
+      line-height: 1.6;
+    }
+
+    .ley-card__enlace {
+      display: inline-block;
+      margin-top: 1rem;
+      color: var(--nz-accent);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.85rem;
+    }
+
+    .ley-card__enlace:hover {
+      text-decoration: underline;
+    }
+
+    /* === PRESUPUESTOS === */
+    .presup-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .presup-item {
+      background: #ffffff;
+      border: 1px solid #e8e6e1;
+      border-radius: 8px;
+      padding: 2rem;
+    }
+
+    .presup-item__ministro {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--nz-accent);
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .presup-item__titulo {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .presup-item__piezas {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .presup-pieza {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.75rem;
+      background: rgba(184,134,11,0.05);
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+
+    .presup-pieza__desc {
+      flex: 1;
+    }
+
+    .presup-pieza__cifra {
+      font-weight: 700;
+      color: var(--nz-accent);
+      font-family: 'Playfair Display', serif;
+    }
+
+    .presup-pieza__estado {
+      font-size: 0.7rem;
+      padding: 0.15rem 0.5rem;
+      border-radius: 2px;
+      margin-left: 0.5rem;
+      font-weight: 600;
+    }
+
+    .estado--validado { background: #dcfce7; color: #166534; }
+    .estado--pendiente { background: #fef9c3; color: #854d0e; }
+    .estado--archivada { background: #f3f4f6; color: #6b7280; }
+
+    /* === CAFÉ === */
+    .cafe-scene {
+      position: relative;
+      padding: 4rem 2rem;
+      background: linear-gradient(180deg, #faf9f7 0%, #f0ede8 100%);
+      text-align: center;
+    }
+
+    .cafe-scene__titulo {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      font-weight: 900;
+      margin-bottom: 2rem;
+      color: #1a365d;
+    }
+
+    .cafe-dialogos {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .cafe-dialogo {
+      background: #ffffff;
+      border: 1px solid #e8e6e1;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+      position: relative;
+    }
+
+    .cafe-dialogo::before {
+      content: '';
+      position: absolute;
+      left: -8px;
+      top: 2rem;
+      width: 4px;
+      height: 60%;
+      background: var(--nz-accent);
+      border-radius: 2px;
+    }
+
+    .cafe-dialogo__ministro {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--nz-accent);
+      margin-bottom: 0.5rem;
+    }
+
+    .cafe-dialogo__texto {
+      font-style: italic;
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #4a4a4a;
+    }
+
+    .cafe-dialogo__colectivo {
+      background: linear-gradient(135deg, #1a365d, #2d4a7a);
+      border-radius: 12px;
+      padding: 2.5rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .cafe-dialogo__texto {
+      font-style: italic;
+      font-size: 1.3rem;
+      line-height: 1.6;
+      color: #faf9f7;
+    }
+
     /* === RESPONSIVE === */
     @media (max-width: 640px) {
       .hero__meta { flex-direction: column; gap: 0.5rem; }
@@ -563,6 +788,8 @@
       .nav-bar__link { font-size: 0.7rem; }
       .entregable-item { flex-direction: column; gap: 1rem; }
       .fases-grid { grid-template-columns: 1fr; }
+      .leyes-grid { grid-template-columns: 1fr; }
+      .presup-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -579,7 +806,7 @@
         Tres ministros, tres leyes, un experimento de honestidad.
       </p>
       <div class="hero__meta">
-        <div class="hero__meta-item">📅 29 agosto – 22 octubre 2026</div>
+        <div class="hero__meta-item">📅 29 agosto – 27 octubre 2026</div>
         <div class="hero__meta-item">⚙️ Hermes Agent × NaN.builders</div>
         <div class="hero__meta-item">🇪🇸 30 sesiones de gobierno</div>
       </div>
@@ -612,9 +839,9 @@
       <div class="nav-bar__links">
         <a href="#nacimiento" class="nav-bar__link">Nacimiento</a>
         <a href="#agentes" class="nav-bar__link">Agentes</a>
-        <a href="#evolucion" class="nav-bar__link">Evolución</a>
-        <a href="#entregables" class="nav-bar__link">Entregables</a>
-        <a href="#resultado" class="nav-bar__link">Resultado</a>
+        <a href="#leyes" class="nav-bar__link">Leyes</a>
+        <a href="#presupuestos" class="nav-bar__link">Presupuestos</a>
+        <a href="#cafe" class="nav-bar__link">Café</a>
       </div>
     </div>
   </nav>
@@ -821,116 +1048,216 @@
 
   <div class="separador">◆ ◆ ◆</div>
 
-  <!-- ENTREGABLES -->
-  <section class="section" id="entregables">
-    <h2 class="section__titulo">Los entregables</h2>
-    <p class="section__sub">Dos productos reales de un experimento</p>
+  <!-- LEYES -->
+  <section class="section" id="leyes">
+    <h2 class="section__titulo">Las leyes reescritas</h2>
+    <p class="section__sub">557 bloques intactos. 0 artículos añadidos o perdidos. −26.334 palabras de ahorro neto.</p>
 
-    <div class="entregables-lista">
-      <div class="entregable-item">
-        <div class="entregable-item__icon">💰</div>
-        <div>
-          <div class="entregable-item__titulo">Presupuestos Generales del Estado ideales</div>
-          <div class="entregable-item__desc">
-            Un documento completo con las reasignaciones acumuladas y validadas de los 3 ministerios: dónde está hoy el dinero, dónde debería estar, con fuente, indicador de éxito y plazo por partida. Vía art. 60 LGP: 25 M€ reasignación autónoma.
+    <div class="leyes-grid">
+      <div class="ley-card">
+        <div class="ley-card__titulo">Ley 58/2003 General Tributaria (LGT)</div>
+        <div class="ley-card__hash">d0b7ef22…9368</div>
+        <div class="ley-card__stats">
+          <div class="ley-stat">
+            <div class="ley-stat__num">335</div>
+            <div class="ley-stat__lbl">Bloques</div>
           </div>
-          <div class="entregable-item__stats">
-            <div class="stat">
-              <div class="stat__num">4</div>
-              <div class="stat__lbl">Piezas validadas</div>
-            </div>
-            <div class="stat">
-              <div class="stat__num">3</div>
-              <div class="stat__lbl">Pendientes</div>
-            </div>
-            <div class="stat">
-              <div class="stat__num">25M</div>
-              <div class="stat__lbl">€ reasignación LGP</div>
-            </div>
-            <div class="stat">
-              <div class="stat__num">0</div>
-              <div class="stat__lbl">€ inventados</div>
-            </div>
+          <div class="ley-stat">
+            <div class="ley-stat__num">292/292</div>
+            <div class="ley-stat__lbl">Preceptos</div>
+          </div>
+          <div class="ley-stat">
+            <div class="ley-stat__num">−23.154</div>
+            <div class="ley-stat__lbl">Palabras</div>
           </div>
         </div>
+        <div class="ley-card__diff">
+          <strong>Principales cambios:</strong><br>
+          · [a95] 6.309 → 993 palabras (carácter reservado de los datos)<br>
+          · [a43] 4.438 → 1.079 palabras (responsables subsidiarios)<br>
+          · [a12] 341 → 168 palabras (facultad interpretativa)<br>
+          · [a62] 1.197 → 813 palabras (plazos de pago duplicados)<br>
+          · [a82] restaurada letra a) del art. 2 (dispensa de garantía)<br>
+          · [a104] 1.024 → 828 palabras (límites de actuación)
+        </div>
+        <a href="https://github.com/Ntizar/gobierno-ia/blob/master/ministerios/hacienda/leyes/BOE-A-2003-23186.md" target="_blank" class="ley-card__enlace">📄 Ver fichero completo en GitHub →</a>
       </div>
-      <div class="entregable-item">
-        <div class="entregable-item__icon">📜</div>
-        <div>
-          <div class="entregable-item__titulo">Las 3 leyes reescritas</div>
-          <div class="entregable-item__desc">
-            Versión final "perfecta" de las tres leyes: mismo contenido normativo, texto simplificado, deduplicado, sin obsolescencias, con fecha+responsable en cada objetivo. Test cruzado ciego aprobado.
+
+      <div class="ley-card">
+        <div class="ley-card__titulo">Ley 14/1986 General de Sanidad (LGS)</div>
+        <div class="ley-card__hash">688912f0…a9f6</div>
+        <div class="ley-card__stats">
+          <div class="ley-stat">
+            <div class="ley-stat__num">151</div>
+            <div class="ley-stat__lbl">Bloques</div>
           </div>
-          <div class="entregable-item__stats">
-            <div class="stat">
-              <div class="stat__num">131.823</div>
-              <div class="stat__lbl">Palabras LGT</div>
-            </div>
-            <div class="stat">
-              <div class="stat__num">19.540</div>
-              <div class="stat__lbl">Palabras LGS</div>
-            </div>
-            <div class="stat">
-              <div class="stat__num">27.307</div>
-              <div class="stat__lbl">Palabras L7</div>
-            </div>
-            <div class="stat">
-              <div class="stat__num">557</div>
-              <div class="stat__lbl">Bloques intactos</div>
-            </div>
+          <div class="ley-stat">
+            <div class="ley-stat__num">F1=0</div>
+            <div class="ley-stat__lbl">Inventario</div>
+          </div>
+          <div class="ley-stat">
+            <div class="ley-stat__num">−5.231</div>
+            <div class="ley-stat__lbl">Palabras</div>
           </div>
         </div>
+        <div class="ley-card__diff">
+          <strong>Principales cambios:</strong><br>
+          · [aonce] 174→95 (restituido el apartado 1)<br>
+          · [aochentaydos] 600→128 (fuera 5 capas pre-reforma 2001/2003)<br>
+          · [acientocinco] 1.602→350 (4 capas históricas → 1)<br>
+          · [aveintisiete] 114→66 (redacción superada por Ley 33/2011)<br>
+          · [aciento] 239→151, [aochentaycuatro] 459→179<br>
+          · Deduplicación residual: 995 → 584 palabras en 12 bloques
+        </div>
+        <a href="https://github.com/Ntizar/gobierno-ia/blob/master/ministerios/sanidad/leyes/BOE-A-1986-10499.md" target="_blank" class="ley-card__enlace">📄 Ver fichero completo en GitHub →</a>
+      </div>
+
+      <div class="ley-card">
+        <div class="ley-card__titulo">Ley 7/2021 de Cambio Climático (L7)</div>
+        <div class="ley-card__hash">dc4b4643…56a3</div>
+        <div class="ley-card__stats">
+          <div class="ley-stat">
+            <div class="ley-stat__num">71</div>
+            <div class="ley-stat__lbl">Bloques</div>
+          </div>
+          <div class="ley-stat">
+            <div class="ley-stat__num">0,00%</div>
+            <div class="ley-stat__lbl">Duplicación</div>
+          </div>
+          <div class="ley-stat">
+            <div class="ley-stat__num">27.307</div>
+            <div class="ley-stat__lbl">Palabras</div>
+          </div>
+        </div>
+        <div class="ley-card__diff">
+          <strong>Principales cambios:</strong><br>
+          · [a14] Plan de movilidad: responsable + revisión cuatrienal + informe a Cortes<br>
+          · [a4] Consejo Nacional del Clima (anclaje en RD 415/2014)<br>
+          · [da-2] Desinversión en fósiles: proceso por fases<br>
+          · [a1-7] Gestión hídrica vinculante: alertas + coordinación<br>
+          · 0,00% de duplicación residual<br>
+          · 0 bloques perdidos, 0 artículos añadidos
+        </div>
+        <a href="https://github.com/Ntizar/gobierno-ia/blob/master/ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md" target="_blank" class="ley-card__enlace">📄 Ver fichero completo en GitHub →</a>
       </div>
     </div>
   </section>
 
   <div class="separador">◆ ◆ ◆</div>
 
-  <!-- RESULTADO FINAL -->
-  <section class="section section--dark" id="resultado">
-    <h2 class="section__titulo" style="color:#faf9f7">El resultado</h2>
-    <p class="section__sub">30 sesiones. 2 entregables. La honestidad es el valor de la misión.</p>
+  <!-- PRESUPUESTOS -->
+  <section class="section section--dark" id="presupuestos">
+    <h2 class="section__titulo" style="color:#faf9f7">Los presupuestos acordados</h2>
+    <p class="section__sub">8 reasignaciones aprobadas, 4 validadas, 3 pendientes, 1 archivada — con cifra, fuente y mecanismo jurídico real.</p>
 
-    <div class="kpi-grid">
-      <div class="kpi-box">
-        <div class="kpi-box__num">−26.334</div>
-        <div class="kpi-box__lbl">Palabras ahorradas</div>
+    <div class="presup-grid">
+      <div class="presup-item">
+        <div class="presup-item__ministro">💼 Hacienda — Arcadi España</div>
+        <div class="presup-item__titulo">Presupuestos ideales (LGT)</div>
+        <div class="presup-item__piezas">
+          <div class="presup-pieza">
+            <div class="presup-pieza__desc">P1 — Remanente programa 932A (AEAT)</div>
+            <div class="presup-pieza__cifra">41.063.785,86 €</div>
+            <div class="presup-pieza__estado estado--validado">Validada</div>
+          </div>
+          <div class="presup-pieza">
+            <div class="presup-pieza__desc">P2 — Línea propia mutualistas</div>
+            <div class="presup-pieza__cifra">2.717 M€</div>
+            <div class="presup-pieza__estado estado--pendiente">Pendiente</div>
+          </div>
+          <div class="presup-pieza">
+            <div class="presup-pieza__desc">P3 — Incumplida</div>
+            <div class="presup-pieza__cifra">—</div>
+            <div class="presup-pieza__estado estado--archivada">Archivada</div>
+          </div>
+        </div>
       </div>
-      <div class="kpi-box">
-        <div class="kpi-box__num">30/30</div>
-        <div class="kpi-box__lbl">Sesiones completadas</div>
+
+      <div class="presup-item">
+        <div class="presup-item__ministro">🏥 Sanidad — Mónica García</div>
+        <div class="presup-item__titulo">Presupuestos ideales (LGS)</div>
+        <div class="presup-item__piezas">
+          <div class="presup-pieza">
+            <div class="presup-pieza__desc">R1 — Certificación cohesión</div>
+            <div class="presup-pieza__cifra">5.683.000 €</div>
+            <div class="presup-pieza__estado estado--validado">Validada</div>
+          </div>
+          <div class="presup-pieza">
+            <div class="presup-pieza__desc">R2 — Módulos de coste</div>
+            <div class="presup-pieza__cifra">—</div>
+            <div class="presup-pieza__estado estado--validado">Validada</div>
+          </div>
+          <div class="presup-pieza">
+            <div class="presup-pieza__desc">R3 — Sanidad digital</div>
+            <div class="presup-pieza__cifra">3.002.900 €</div>
+            <div class="presup-pieza__estado estado--validado">Validada</div>
+          </div>
+        </div>
       </div>
-      <div class="kpi-box">
-        <div class="kpi-box__num">0</div>
-        <div class="kpi-box__lbl">Cifras inventadas</div>
-      </div>
-      <div class="kpi-box">
-        <div class="kpi-box__num">45/45</div>
-        <div class="kpi-box__lbl">Tests pasando</div>
-      </div>
-      <div class="kpi-box">
-        <div class="kpi-box__num">0</div>
-        <div class="kpi-box__lbl">Bloques perdidos</div>
-      </div>
-      <div class="kpi-box">
-        <div class="kpi-box__num">∞</div>
-        <div class="kpi-box__lbl">Honestidad</div>
+
+      <div class="presup-item">
+        <div class="presup-item__ministro">🌱 Ecología — Sara Aagesen</div>
+        <div class="presup-item__titulo">Presupuestos ideales (L7)</div>
+        <div class="presup-item__piezas">
+          <div class="presup-pieza">
+            <div class="presup-pieza__desc">P1 — Gestión hídrica MITECO</div>
+            <div class="presup-pieza__cifra">40,90 M€</div>
+            <div class="presup-pieza__estado estado--pendiente">Pendiente</div>
+          </div>
+          <div class="presup-pieza">
+            <div class="presup-pieza__desc">P2 — IDAE (art. 52.2 LGP)</div>
+            <div class="presup-pieza__cifra">1,2 M€</div>
+            <div class="presup-pieza__estado estado--pendiente">Pendiente</div>
+          </div>
+          <div class="presup-pieza">
+            <div class="presup-pieza__desc">Art. 45 LGP — Solicitud firmada</div>
+            <div class="presup-pieza__cifra">—</div>
+            <div class="presup-pieza__estado estado--validado">Confirmada</div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="section__divider" style="background:rgba(184,134,11,0.3);"></div>
-
-    <div class="cita">
-      <div class="cita__texto">
-        "La consolidación no es perfección, es honestidad. 30 sesiones y la misión se cierra con el entregable firmado."
-      </div>
-      <div class="cita__autor">— Presidencia, sesión 30/30</div>
+    <div style="max-width:800px; margin:2rem auto 0; background:rgba(250,249,247,0.08); border:1px solid rgba(184,134,11,0.2); border-radius:8px; padding:1.5rem; text-align:center;">
+      <div style="font-size:0.85rem; color:rgba(250,249,247,0.7); margin-bottom:0.5rem;">IGAE: 28 días de silencio (no obstáculo para validación de facto)</div>
+      <div style="font-size:0.85rem; color:rgba(250,249,247,0.7);">Vía art. 60 LGP: 25 M€ reasignación autónoma</div>
     </div>
+  </section>
 
-    <div style="max-width:600px; margin:2rem auto 0; text-align:center;">
-      <p style="color:rgba(250,249,247,0.6); font-size:0.9rem; line-height:1.7;">
-        Las 3 leyes validadas por el test cruzado ciego. Los 3 ministros presentes en las dos rondas. Ninguna ley tocada en hashes: LGT d0b7ef22 · LGS 688912f0 · L7 dc4b4643. La deuda de ejecución = 0. Los 3 entregables consolidados.
-      </p>
+  <div class="separador">◆ ◆ ◆</div>
+
+  <!-- CAFÉ FINAL -->
+  <section class="cafe-scene" id="cafe">
+    <h2 class="cafe-scene__titulo">El café del cierre</h2>
+    <p style="font-size:1rem; color:#4a4a4a; margin-bottom:2rem;">Martes 27 de octubre de 2026, 09:30. Misión cerrada. Los tres ministros se encuentran tras 30 sesiones.</p>
+
+    <div class="cafe-dialogos">
+      <div class="cafe-dialogo">
+        <div class="cafe-dialogo__ministro">💼 Arcadi (Hacienda)</div>
+        <div class="cafe-dialogo__texto">
+          «29 sesiones. 1 pieza validada de 8 aprobadas. 41.063.785,86 € de entregable nº 1. 8 mecanismos jurídicos con base real. Ley 58/2003 reescrita: 335 bloques, 292/292 preceptos con texto. La honestidad es el valor de la misión.»
+        </div>
+      </div>
+
+      <div class="cafe-dialogo">
+        <div class="cafe-dialogo__ministro">🏥 Mónica (Sanidad)</div>
+        <div class="cafe-dialogo__texto">
+          «29 sesiones. Todas mis piezas validadas de facto. Certificación de 5.683.000 € firme. Ley 14/1986 reescrita: 151 bloques, inventario Fase 1 a cero, 0 fósiles. La honestidad es el valor de la misión.»
+        </div>
+      </div>
+
+      <div class="cafe-dialogo">
+        <div class="cafe-dialogo__ministro">🌱 Sara (Ecología)</div>
+        <div class="cafe-dialogo__texto">
+          «29 sesiones. Expediente IDAE confirmado. Solicitud art. 45 LGP firmada. Ley 7/2021 reescrita: 71 bloques, 0,00% duplicación. La honestidad es el valor de la misión.»
+        </div>
+      </div>
+
+      <div class="cafe-dialogo__colectivo">
+        <div class="cafe-dialogo__texto">
+          «La consolidación no es perfección, es honestidad. Las intenciones no cotizan, pero los expedientes sí. Misión cerrada.»
+        </div>
+      </div>
     </div>
   </section>
 
