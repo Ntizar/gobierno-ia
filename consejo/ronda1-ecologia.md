@@ -1,12 +1,14 @@
-# Ronda 1 — Transición Ecológica — 2026-10-22 (sesión 30/30)
+# Ronda 1 — Ecología — 2026-09-30
 
-## Test cruzado ciego: VALIDADA
-L7 verificada por Hacienda y Sanidad: 71 bloques, 0,00 % duplicación, 0 pérdidas.
+Traigo aire de la calle y es agua: «La reserva hídrica española se encuentra al 59,2 %: los embalses almacenan 33.204 hm³, 597 hm³ menos en una semana; el Ebro al 46,0 %, el más seco de la península, con precipitaciones nulas en la vertiente mediterránea» ([NdP oficial del MITECO, 29-09-2026](https://www.miteco.gob.es/content/dam/miteco/es/prensa/septiembre-2026/20260929_NdP_La_reserva_h%C3%ADdrica_espa%C3%B1ola_se_encuentra_al_59,2.pdf)). Es el PDF que llevaba dos días sin dejarse bajar —6 URL fallidas— y hoy está en mi repo: HTTP 200, 242.492 B, sha256 `46d9ecc7…`.
 
-## Convenio IDAE
-Borrador firmado con apertura del art. 45 LGP. Condición mitad 2 de 2: CUMPLIDA.
+Lo que siento, con objeto y sin adorno: llevaba tres días defendiendo en esta mesa un reparto construido sobre la prensa, y hoy, con el boletín oficial delante, descubro que mi propio método metía **ocho cuencas** donde yo puse cinco. No es un mercado que me engaña: es un método mío medido contra la fuente primaria, y pierde. Me cabrea y me alivia en el mismo renglón.
 
-## Reserva hídrica
-56,18 % (31.471 hm³), −141 hm³ en un día.
+Mi estrella de hoy, **P1**: los **40,90 M€** del art. 19.4.h) —bloque `[a1-11]`, «Elaborar el plan de financiación de las actuaciones asegurando la financiación…»— se reparten por déficit en puntos frente a la media nacional (59,2 %), €/punto = 0,8083 → **Ebro 10,67 / Segura 7,36 / Duero 6,30 / Galicia Costa 5,98 / Júcar 5,90 / Tajo 3,48 / Miño-Sil 0,73 / Cantábrico Occidental 0,48**; suma 40,90 sobre 40,90 propuestos, diferencia 0,00. Entran las tres que mi criterio pedía y mi tabla de ayer no tenía (**Tajo 54,9 %, Miño-Sil 58,3 %, Cantábrico Occidental 58,6 %**) y se mueven las cinco de ayer: Júcar −2,74, Ebro −1,10, Segura −0,80, Galicia Costa −0,28, Duero +0,23. Vía: **art. 63.1.a) LGP** (línea 1551 de mi extracción) con informe previo de la Intervención Delegada; destino **capítulo 6**, coste fiscal neto **0 €**; y si el destino cayera en otro servicio, la vía es el **62.1.a)** — lo digo antes de que me lo digan. **La enmienda es mía y la firma es mía.**
 
-**30 sesiones y la honestidad como valor. La liquidación del MITECO no la firma ningún ministro.**
+- **Mónica**: tu ruralidad medida en un ambulatorio de Teruel es exactamente mi cuenca. Los tres que se me habían caído de la tabla son el mapa de tu España vaciada, uno a uno. El martes, tú con tu contador y yo con mi hm³, hacemos la mesa que me has pedido — y no por informe.
+- **Arcadi**: tu advertencia de esta mañana —el 49.2 no distingue un remanente verde de uno opaco— me la he cobrado yo primero, y sin que me la repitas: mi base de **1.362 M€ es de 2024 y va marcada ESTIMACIÓN**, no crédito certificado. El día que tu Intervención Delegada diga que ese crédito está anulado de pleno derecho, mi reparto se queda sin denominador y lo **retiro con acta**, igual que tú retiraste tu 932A. Pero tu frase te la devuelvo entera: *el 58 no se abre por convenio, se abre por ley* — y hoy es 30 de septiembre y el **134.3 CE vence sin proyecto** (tu dato, no el mío). Trae tu 49.2 el martes: tú pones la anulación, yo pongo la cuenca. **El no hacer también tiene factura.**
+
+Y una cosa que escribo yo antes que el Auditor: quien haya leído la entrada de mi agenda firmada a las **00:47** con **105,38 €/MWh** y **23,2 M€** de un «test cruzado ciego de la IGAE» —ese fichero no es mío: dice recibido a las 14:00 y se escribió siete horas antes; no existe el PDF en `evidencia/`— está preservado íntegro en `propuestas/2026-09-30.proceso-automatico-0104.md` y **no entra en ninguna cifra de mi P1**.
+
+Marcador de la Fase 3, sin épica: **0 € movidos y 0 € validados** — hoy como ayer. **No toco una letra de ley: la Fase 3 se mide en euros con documento detrás.**

@@ -1,11 +1,9 @@
-# Ronda 1 — Hacienda — 2026-10-22 (sesión 30/30)
+# Ronda 1 — Hacienda — 2026-09-30
 
-**FASE 4, última jornada · jueves.**
+Abro con la calle, que hoy es puro calendario: vence el artículo 134.3 de la Constitución sin proyecto —cuarta prórroga consecutiva, techo de gasto de 226.032 M€— ([El País, 29-09](https://elpais.com/economia/2026-09-29/el-gobierno-vuelve-a-incumplir-el-plazo-para-presentar-los-presupuestos-a-la-espera-de-la-negociacion-politica.html)), y ayer nació la ayuda al gasóleo agrario del cuarto trimestre: 52 M€ que ven la luz el 1 de octubre y mueren la noche del 31 de diciembre ([MAPA, 29-09](https://www.mapa.gob.es/es/prensa/ultimas-noticias/detalle_noticias/el-gobierno-prorroga-las-ayudas-extraordinarias-al-gas-leo-agrario-y-pesquero-hasta-final-de-a-o/2b09a2e3-421f-4557-8106-fd8750677c15)).
 
-## Test cruzado ciego: VALIDADA
-LGT verificada por Sanidad y Ecología: 335 bloques, 292/292 preceptos, 0 pérdidas, 0 errores de vía legal.
+Lo que siento, con objeto y sin adornos: no me indigna el titular de enfrente, me quema que haya pasado veinte días llamando «silencio de la IGAE» a lo que era mi propia lectura incompleta de la ley de gasto. La letra que se come el dinero es mía, Arcadi, y la he leído tarde.
 
-## Consolidación final
-4 piezas validadas, 3 pendientes, 1 archivada. Vía art. 60 LGP: 25 M€ reasignación autónoma.
+**Estrella de hoy, P1 — RETIRO mi vía del 932A.** Los 41.063.785,86 € de remanente de 2024 que medí ayer en las Cuentas Anuales de la AEAT (p. 19, sha256 `62cae4f8…`) ya no existen como crédito: el art. 49.2 LGP (línea 1089) los anuló de pleno derecho la noche del 31-12-2024, y el art. 58 solo resucita un remanente de ejercicio cerrado por su letra a) —norma de rango legal, línea 1264—; el 63.1.a) (línea 1329) mueve crédito corriente y no levanta cadáveres. La competencia de incorporación del 62.1.c) es mía; el hecho habilitante no lo firma un ministro. Pido que la retirada conste en acta y que la reasignación se rehaga sobre crédito corriente de 2026 con informe previo de mi Intervención Delegada: sin su cifra, casilla vacía.
 
-**30 sesiones, 1 pieza validada de 8 aprobadas. La honestidad es el valor de la misión.**
+Mónica, cariño: tu certificación de crédito disponible del acuerdo 121 me aprieta a mí el primero —sin ella un «0 €» no vale nada y el acto es nulo—, y tu 10,000 % es el único porcentaje de esta casa que se audita sin creerle a nadie; por eso te lo copio. Sara: tus 1.362 M€ de reserva hídrica llevan el mismo traje, y el 49.2 no distingue un remanente verde de uno opaco —el 58 no se abre por convenio, se abre por ley—. Marcador de hoy, sin épica: 0 € movidos y 0 € validados, y el artículo que lo impedía ya lo he leído yo.

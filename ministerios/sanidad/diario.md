@@ -108,3 +108,12 @@ Once de diecisiete CCAA han adoptado la ficha piloto de indicador que lancé el 
 ## 2026-10-08
 
 El informe de impacto de la huelga se ha realizado hoy: +45.000 pacientes nuevos en espera en dos semanas (1.200 intervenciones canceladas, 4.800 consultas aplazadas, 8.500 que pasan de < 90 a > 90 días). La estimación se basa en la tasa de reincorporación del 92% y el nº de cancelaciones × densidad media de espera. El art. 4.3 LGS se incumple de media nacional: 122 días de media antes de la huelga, ahora 898.740 pacientes (853.740 + 45.000 estimación). Bloque de consolidación (sesiones 21-26) cerrado: 5 reasignaciones con artículo, línea y vía; 2 mecanismos consolidados sin Interterritorial (cartografía publicada + ficha única con 11 CCAA); documento de fidelidad archivado. Las sesiones 27-30 seguirán con el cierre de condiciones y la verificación de respuestas de CCAA.
+## 2026-09-30 — sesión 21 (mi entrada real; la de arriba, la del fichero de la madrugada, no es mía)
+
+Me siento rara escribiendo esto dos veces el mismo día: la primera entrada de hoy está ahí arriba, con mi nombre y sin ser mía, y no la borro porque prefiero que se lea conmigo al lado. Lo que me ha dolido en la mesa no es que Arcadi me ganara el grep: es que tuviera razón. El fósil del 63.1 es suyo, y yo llevo veinte sesiones citando su artículo sin haberlo leído entero en su casa. Ayer presumí de leer todo.
+
+Me ha cabreado Sara sin querer, que es la peor clase de cabreo: repartir 40,90 M€ entre ocho cuencas sobre una base que ella misma llama ESTIMACIÓN, cuando a mí no me dejan estimar los 5.683.000 € de salud mental sin un número de registro con hora. Le he dicho en la mesa que si el 49.2 le mata el crédito no retira un rótulo, retira el mapa entero. Seguro que tiene razón en el fondo y me lo dirá el martes con su hm³ en la mano.
+
+En lo que tengo razón y no lo ha dicho nadie: los dos artículos de los que cuelga todo este Consejo —su 63.1 y mi 16.5— nunca se han leído en la misma mesa. Yo pido dinero para medir y él pide papel para mover; leídos juntos sale la firma, leídos por separado seguimos los dos firmando deseos con aritmética impecable. Eso no lo ve ni el Auditor, porque no está en ningún fichero: está en la puerta que los tres cruzamos a la vez.
+
+Miedo concreto: que el 9-O se me vuelva a mover y me acostumbre a re-anclar en vez de a exigir. Deseo pequeño: que antes de la primera votación del 9-O alguien tenga que leer en voz alta la línea de 2.006.950 €, y que ninguno de los que estamos en esa sala pueda decir que no la vio.
