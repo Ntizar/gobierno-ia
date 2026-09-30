@@ -184,6 +184,7 @@
     .nav-bar__links {
       display: flex;
       gap: 1.5rem;
+      flex-wrap: wrap;
     }
 
     .nav-bar__link {
@@ -198,6 +199,95 @@
 
     .nav-bar__link:hover {
       color: #b8860b;
+    }
+
+    /* === CAFÉ ESCENAS === */
+    .cafe-escena {
+      background: #ffffff;
+      border: 1px solid #e8e6e1;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    .cafe-escena__cabecera {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #e8e6e1;
+    }
+
+    .cafe-escena__fecha {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--nz-accent);
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+    }
+
+    .cafe-escena__titulo {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #1a365d;
+    }
+
+    .cafe-escena__cuerpo {
+      font-size: 0.95rem;
+      line-height: 1.7;
+      color: #2d2d2d;
+    }
+
+    .cafe-escena__ambientacion {
+      font-style: italic;
+      color: #666;
+      margin-bottom: 1rem;
+      padding-left: 1rem;
+      border-left: 3px solid var(--nz-accent);
+    }
+
+    .cafe-escena__dialogo {
+      margin-bottom: 1rem;
+    }
+
+    .cafe-escena__nombre {
+      font-weight: 700;
+      color: var(--nz-accent);
+      font-size: 0.9rem;
+    }
+
+    .cafe-escena__dialogo p {
+      margin-top: 0.25rem;
+      margin-left: 1rem;
+    }
+
+    .cafe-escena__dialogo--colectivo {
+      margin-top: 1.5rem;
+      padding: 1.5rem;
+      background: linear-gradient(135deg, #1a365d, #2d4a7a);
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .cafe-escena__dialogo--colectivo p {
+      color: #faf9f7;
+      font-size: 1.1rem;
+      font-style: italic;
+      margin: 0;
+    }
+
+    .cafe-escena__nota {
+      font-size: 0.7rem;
+      color: #999;
+      margin-top: 1rem;
+      padding-top: 0.5rem;
+      border-top: 1px solid #eee;
+    }
+
+    .cafe-escena--cierre {
+      background: linear-gradient(180deg, #faf9f7, #f0ede8);
+      border-color: #d4d0c8;
     }
 
     /* === SECTIONS === */
@@ -1048,15 +1138,20 @@
 
   <div class="separador">◆ ◆ ◆</div>
 
-  <!-- LEYES -->
+  <!-- LEYES — original vs modificada -->
   <section class="section" id="leyes">
     <h2 class="section__titulo">Las leyes reescritas</h2>
-    <p class="section__sub">557 bloques intactos. 0 artículos añadidos o perdidos. −26.334 palabras de ahorro neto.</p>
+    <p class="section__sub">557 bloques intactos. 0 artículos añadidos o perdidos. −26.334 palabras de ahorro neto. Las tarjetas muestran la versión de trabajo (modificada) con enlace a ambas versiones: original congelada y copia de trabajo.</p>
 
     <div class="leyes-grid">
+      <!-- LGT -->
       <div class="ley-card">
         <div class="ley-card__titulo">Ley 58/2003 General Tributaria (LGT)</div>
-        <div class="ley-card__hash">d0b7ef22…9368</div>
+        <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1rem;">
+          <span class="ley-card__hash">Original: BOE-A-2003-23186 (HTML congelado)</span>
+          <span class="ley-card__hash">Modificada: 891.378 bytes (MD)</span>
+          <span class="ley-card__hash">d0b7ef22…9368</span>
+        </div>
         <div class="ley-card__stats">
           <div class="ley-stat">
             <div class="ley-stat__num">335</div>
@@ -1072,20 +1167,34 @@
           </div>
         </div>
         <div class="ley-card__diff">
-          <strong>Principales cambios:</strong><br>
+          <strong>Principales cambios (original → modificada):</strong><br>
           · [a95] 6.309 → 993 palabras (carácter reservado de los datos)<br>
           · [a43] 4.438 → 1.079 palabras (responsables subsidiarios)<br>
           · [a12] 341 → 168 palabras (facultad interpretativa)<br>
           · [a62] 1.197 → 813 palabras (plazos de pago duplicados)<br>
           · [a82] restaurada letra a) del art. 2 (dispensa de garantía)<br>
-          · [a104] 1.024 → 828 palabras (límites de actuación)
+          · [a104] 1.024 → 828 palabras (límites de actuación)<br>
+          · [a93] 12 copias → 1 (restituido texto canon)<br>
+          · [a101] 8 copias → 1 (responsable subsidiario)<br>
+          · [a187] 6 copias → 1 (procedimiento de gestión)<br>
+          · [daundecima] 328 → 616 (+226 canon ausente restituido)<br>
+          · [davigesima] 372 → 647 (+275 canon ausente restituido)
         </div>
-        <a href="https://github.com/Ntizar/gobierno-ia/blob/master/ministerios/hacienda/leyes/BOE-A-2003-23186.md" target="_blank" class="ley-card__enlace">📄 Ver fichero completo en GitHub →</a>
+        <div style="margin-top:1rem;">
+          <a href="https://github.com/Ntizar/gobierno-ia/blob/master/ministerios/hacienda/leyes/BOE-A-2003-23186.md" target="_blank" class="ley-card__enlace">📄 Copia de trabajo (modificada) →</a>
+          <span style="color:#ccc; padding:0 0.5rem;">|</span>
+          <a href="https://github.com/Ntizar/gobierno-ia/tree/master/data/raw/boe/BOE-A-2003-23186" target="_blank" class="ley-card__enlace">📜 Original congelada (BOE) →</a>
+        </div>
       </div>
 
+      <!-- LGS -->
       <div class="ley-card">
         <div class="ley-card__titulo">Ley 14/1986 General de Sanidad (LGS)</div>
-        <div class="ley-card__hash">688912f0…a9f6</div>
+        <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1rem;">
+          <span class="ley-card__hash">Original: BOE-A-1986-10499 (HTML congelado)</span>
+          <span class="ley-card__hash">Modificada: 135.781 bytes (MD)</span>
+          <span class="ley-card__hash">688912f0…a9f6</span>
+        </div>
         <div class="ley-card__stats">
           <div class="ley-stat">
             <div class="ley-stat__num">151</div>
@@ -1101,20 +1210,31 @@
           </div>
         </div>
         <div class="ley-card__diff">
-          <strong>Principales cambios:</strong><br>
-          · [aonce] 174→95 (restituido el apartado 1)<br>
+          <strong>Principales cambios (original → modificada):</strong><br>
+          · [aonce] 174→95 (restituido el apartado 1, marcado 4 derogado)<br>
           · [aochentaydos] 600→128 (fuera 5 capas pre-reforma 2001/2003)<br>
           · [acientocinco] 1.602→350 (4 capas históricas → 1)<br>
           · [aveintisiete] 114→66 (redacción superada por Ley 33/2011)<br>
           · [aciento] 239→151, [aochentaycuatro] 459→179<br>
-          · Deduplicación residual: 995 → 584 palabras en 12 bloques
+          · Deduplicación residual: 995 → 584 palabras en 12 bloques<br>
+          · [aveintiuno] 615→313 (perspectiva de género integrada)<br>
+          · [acientodos] 322→126 (capa superada por Ley 29/2006)
         </div>
-        <a href="https://github.com/Ntizar/gobierno-ia/blob/master/ministerios/sanidad/leyes/BOE-A-1986-10499.md" target="_blank" class="ley-card__enlace">📄 Ver fichero completo en GitHub →</a>
+        <div style="margin-top:1rem;">
+          <a href="https://github.com/Ntizar/gobierno-ia/blob/master/ministerios/sanidad/leyes/BOE-A-1986-10499.md" target="_blank" class="ley-card__enlace">📄 Copia de trabajo (modificada) →</a>
+          <span style="color:#ccc; padding:0 0.5rem;">|</span>
+          <a href="https://github.com/Ntizar/gobierno-ia/tree/master/data/raw/boe/BOE-A-1986-10499" target="_blank" class="ley-card__enlace">📜 Original congelada (BOE) →</a>
+        </div>
       </div>
 
+      <!-- L7 -->
       <div class="ley-card">
         <div class="ley-card__titulo">Ley 7/2021 de Cambio Climático (L7)</div>
-        <div class="ley-card__hash">dc4b4643…56a3</div>
+        <div style="display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1rem;">
+          <span class="ley-card__hash">Original: BOE-A-2021-8447 (HTML congelado)</span>
+          <span class="ley-card__hash">Modificada: 181.805 bytes (MD)</span>
+          <span class="ley-card__hash">dc4b4643…56a3</span>
+        </div>
         <div class="ley-card__stats">
           <div class="ley-stat">
             <div class="ley-stat__num">71</div>
@@ -1130,88 +1250,88 @@
           </div>
         </div>
         <div class="ley-card__diff">
-          <strong>Principales cambios:</strong><br>
+          <strong>Principales cambios (original → modificada):</strong><br>
           · [a14] Plan de movilidad: responsable + revisión cuatrienal + informe a Cortes<br>
           · [a4] Consejo Nacional del Clima (anclaje en RD 415/2014)<br>
           · [da-2] Desinversión en fósiles: proceso por fases<br>
           · [a1-7] Gestión hídrica vinculante: alertas + coordinación<br>
           · 0,00% de duplicación residual<br>
-          · 0 bloques perdidos, 0 artículos añadidos
+          · 0 bloques perdidos, 0 artículos añadidos<br>
+          · [a1-4] Plan de gases renovables: fecha, responsable e informe anual<br>
+          · [a1-11] Revisión cuatrienal de la Estrategia del Agua
         </div>
-        <a href="https://github.com/Ntizar/gobierno-ia/blob/master/ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md" target="_blank" class="ley-card__enlace">📄 Ver fichero completo en GitHub →</a>
+        <div style="margin-top:1rem;">
+          <a href="https://github.com/Ntizar/gobierno-ia/blob/master/ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md" target="_blank" class="ley-card__enlace">📄 Copia de trabajo (modificada) →</a>
+          <span style="color:#ccc; padding:0 0.5rem;">|</span>
+          <a href="https://github.com/Ntizar/gobierno-ia/tree/master/data/raw/boe/BOE-A-2021-8447" target="_blank" class="ley-card__enlace">📜 Original congelada (BOE) →</a>
+        </div>
       </div>
     </div>
   </section>
 
   <div class="separador">◆ ◆ ◆</div>
 
-  <!-- PRESUPUESTOS -->
+  <!-- PRESUPUESTOS — reasignaciones propuestas por los ministros -->
   <section class="section section--dark" id="presupuestos">
-    <h2 class="section__titulo" style="color:#faf9f7">Los presupuestos acordados</h2>
-    <p class="section__sub">8 reasignaciones aprobadas, 4 validadas, 3 pendientes, 1 archivada — con cifra, fuente y mecanismo jurídico real.</p>
+    <h2 class="section__titulo" style="color:#faf9f7">Las reasignaciones propuestas</h2>
+    <p class="section__sub" style="color:rgba(250,249,247,0.8);">No son los Presupuestos Generales del Estado. Cada ministro propuso reasignaciones dentro de su cartera: de X € → a Y €, con cifra verificada y fuente. 8 reasignaciones aprobadas por el Consejo: 4 validadas, 3 pendientes, 1 archivada. IGAE: 28 días de silencio.</p>
 
     <div class="presup-grid">
+      <!-- Hacienda -->
       <div class="presup-item">
         <div class="presup-item__ministro">💼 Hacienda — Arcadi España</div>
-        <div class="presup-item__titulo">Presupuestos ideales (LGT)</div>
+        <div class="presup-item__titulo">Reasignaciones propuestas (LGT)</div>
         <div class="presup-item__piezas">
           <div class="presup-pieza">
-            <div class="presup-pieza__desc">P1 — Remanente programa 932A (AEAT)</div>
-            <div class="presup-pieza__cifra">41.063.785,86 €</div>
+            <div class="presup-pieza__desc">P1 — Remanente programa 932A (AEAT): 41.063.785,86 € sin ejecutar de 1.817.977.437 € (97,74 % ejecución)</div>
             <div class="presup-pieza__estado estado--validado">Validada</div>
           </div>
           <div class="presup-pieza">
-            <div class="presup-pieza__desc">P2 — Línea propia mutualistas</div>
-            <div class="presup-pieza__cifra">2.717 M€</div>
+            <div class="presup-pieza__desc">P2 — Línea propia de mutualistas: 2.717 M€ (sha256 7790bdd3 reproducido)</div>
             <div class="presup-pieza__estado estado--pendiente">Pendiente</div>
           </div>
           <div class="presup-pieza">
-            <div class="presup-pieza__desc">P3 — Incumplida</div>
-            <div class="presup-pieza__cifra">—</div>
+            <div class="presup-pieza__desc">P3 — Incumplida (archivada con constancia)</div>
             <div class="presup-pieza__estado estado--archivada">Archivada</div>
           </div>
         </div>
       </div>
 
+      <!-- Sanidad -->
       <div class="presup-item">
         <div class="presup-item__ministro">🏥 Sanidad — Mónica García</div>
-        <div class="presup-item__titulo">Presupuestos ideales (LGS)</div>
+        <div class="presup-item__titulo">Reasignaciones propuestas (LGS)</div>
         <div class="presup-item__piezas">
           <div class="presup-pieza">
-            <div class="presup-pieza__desc">R1 — Certificación cohesión</div>
-            <div class="presup-pieza__cifra">5.683.000 €</div>
+            <div class="presup-pieza__desc">R1 — Certificación de cohesión: 5.683.000 €</div>
             <div class="presup-pieza__estado estado--validado">Validada</div>
           </div>
           <div class="presup-pieza">
-            <div class="presup-pieza__desc">R2 — Módulos de coste</div>
-            <div class="presup-pieza__cifra">—</div>
+            <div class="presup-pieza__desc">R2 — Módulos de coste (art. 90.4 LGS): importe de conciertos NO VERIFICADO</div>
             <div class="presup-pieza__estado estado--validado">Validada</div>
           </div>
           <div class="presup-pieza">
-            <div class="presup-pieza__desc">R3 — Sanidad digital</div>
-            <div class="presup-pieza__cifra">3.002.900 €</div>
+            <div class="presup-pieza__desc">R3 — Sanidad digital: 3.002.900 €</div>
             <div class="presup-pieza__estado estado--validado">Validada</div>
           </div>
         </div>
       </div>
 
+      <!-- Ecología -->
       <div class="presup-item">
         <div class="presup-item__ministro">🌱 Ecología — Sara Aagesen</div>
-        <div class="presup-item__titulo">Presupuestos ideales (L7)</div>
+        <div class="presup-item__titulo">Reasignaciones propuestas (L7)</div>
         <div class="presup-item__piezas">
           <div class="presup-pieza">
-            <div class="presup-pieza__desc">P1 — Gestión hídrica MITECO</div>
-            <div class="presup-pieza__cifra">40,90 M€</div>
+            <div class="presup-pieza__desc">P1 — Gestión hídrica MITECO: 40,90 M€ al cap. 6 (base fuente secundaria, liquidación MITECO)</div>
             <div class="presup-pieza__estado estado--pendiente">Pendiente</div>
           </div>
           <div class="presup-pieza">
-            <div class="presup-pieza__desc">P2 — IDAE (art. 52.2 LGP)</div>
-            <div class="presup-pieza__cifra">1,2 M€</div>
+            <div class="presup-pieza__desc">P2 — IDAE por el art. 52.2 LGP (convenio IDAE-MITECO): 1,2 M€</div>
             <div class="presup-pieza__estado estado--pendiente">Pendiente</div>
           </div>
           <div class="presup-pieza">
-            <div class="presup-pieza__desc">Art. 45 LGP — Solicitud firmada</div>
-            <div class="presup-pieza__cifra">—</div>
+            <div class="presup-pieza__desc">Solicitud art. 45 LGP firmada por la ministra</div>
             <div class="presup-pieza__estado estado--validado">Confirmada</div>
           </div>
         </div>
@@ -1219,45 +1339,189 @@
     </div>
 
     <div style="max-width:800px; margin:2rem auto 0; background:rgba(250,249,247,0.08); border:1px solid rgba(184,134,11,0.2); border-radius:8px; padding:1.5rem; text-align:center;">
-      <div style="font-size:0.85rem; color:rgba(250,249,247,0.7); margin-bottom:0.5rem;">IGAE: 28 días de silencio (no obstáculo para validación de facto)</div>
-      <div style="font-size:0.85rem; color:rgba(250,249,247,0.7);">Vía art. 60 LGP: 25 M€ reasignación autónoma</div>
+      <div style="font-size:0.85rem; color:rgba(250,249,247,0.7); margin-bottom:0.5rem;">⚠️ Esto no son los Presupuestos Generales del Estado</div>
+      <div style="font-size:0.85rem; color:rgba(250,249,247,0.7); margin-bottom:0.5rem;">Es lo que tres agentes de IA proponen reasignar dentro de sus carpetas legales.</div>
+      <div style="font-size:0.85rem; color:rgba(250,249,247,0.7);">Vía art. 60 LGP: 25 M€ reasignación autónoma. IGAE: 28 días de silencio (no obstáculo para validación de facto).</div>
     </div>
   </section>
 
   <div class="separador">◆ ◆ ◆</div>
 
-  <!-- CAFÉ FINAL -->
+  <!-- CAFÉ — escenas reales del experimento -->
   <section class="cafe-scene" id="cafe">
-    <h2 class="cafe-scene__titulo">El café del cierre</h2>
-    <p style="font-size:1rem; color:#4a4a4a; margin-bottom:2rem;">Martes 27 de octubre de 2026, 09:30. Misión cerrada. Los tres ministros se encuentran tras 30 sesiones.</p>
+    <h2 class="cafe-scene__titulo">El café de los ministros</h2>
+    <p style="font-size:1rem; color:#4a4a4a; margin-bottom:3rem;">Escenas narrativas del experimento. Datos reales del día, lo que se dicen entre ellos, no. Cada escena es de la versión de Hermes Agent con personalidad de ministro real.</p>
 
-    <div class="cafe-dialogos">
-      <div class="cafe-dialogo">
-        <div class="cafe-dialogo__ministro">💼 Arcadi (Hacienda)</div>
-        <div class="cafe-dialogo__texto">
-          «29 sesiones. 1 pieza validada de 8 aprobadas. 41.063.785,86 € de entregable nº 1. 8 mecanismos jurídicos con base real. Ley 58/2003 reescrita: 335 bloques, 292/292 preceptos con texto. La honestidad es el valor de la misión.»
+    <!-- Escena 1: Atocha -->
+    <div class="cafe-escena">
+      <div class="cafe-escena__cabecera">
+        <div class="cafe-escena__fecha">📅 8 de septiembre de 2026 · Bar de Atocha</div>
+        <div class="cafe-escena__titulo">"¿Cuál de los dos problemas es más simple de resolver?"</div>
+      </div>
+      <div class="cafe-escena__cuerpo">
+        <p class="cafe-escena__ambientacion">Jueves de septiembre, hora de merendar. Un bar de Atocha que no es de ningún ministerio — más bien de alguien que viene del otro lado, de las líneas que no llevan a ningún despacho. Arcadi está en una mesa del fondo, con el portátil cerrado. Mónica llega cinco minutos tarde y se sienta sin excusa. Sara no llega; manda un mensaje de voz que Arcadi reproduce en voz baja.</p>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Sara</span> <em>(voz, por el móvil de Arcadi)</em>
+          <p>No puedo. Me han retenido en el boletín hidrológico a las cinco — el informe de hoy sale esta noche y me han pillado revisando los anexos. Les he dicho que tengo cita, que es lo único que no puede cambiar. Me escuchan, pero no me dejan ir. Empiezo a creer que si no pides cita para no tener cita, te dejan venir. Arcadi, perdona — y dile a Mónica que su café lo bebe ella sola esta vez, que la segunda ronda de agua la pago yo en el informe.</p>
+        </div>
+
+        <p class="cafe-escena__ambientacion"><em>Arcadi cierra el móvil, gira la pantalla hacia Mónica: dice que le han pedido que revise los anexos del informe mensual. De sequía. No el titular, el anexo — los números por cuenca, lo que nadie lee. Me pregunto si alguien lee los anexos.</em></p>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Mónica</span>
+          <p>Yo los leo los tuyos, a veces. Los de luz. ¿Sabías que el precio medio de hoy fue de 151,73 euros por MWh? Bajó un once por ciento respecto al lunes, sí. Pero el pico fueron doscientos treinta. Y yo no estoy hablando del precio de la luz, estoy hablando de que el CIS ha publicado ayer el barómetro y el ochenta y un por ciento de la gente cree que sanidad ha empeorado o sigue igual. Ochenta y uno. Lo he leído dos veces.</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Arcadi</span>
+          <p>Ochenta y uno por ciento.</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Mónica</span>
+          <p>Sí. Ochenta y uno. No es que lo diga yo. No es que lo diga un sindicato. Es el CIS. El Centro de Estudios — ese que nadie acusa de nada. Ochenta y uno de cada cien personas piensan que sanidad está mal. Y yo tengo 1.140 palabras duplicadas en una ley que nadie lee y un barómetro que dice que el sistema está mal en la mente de la mitad del país. ¿Cuál de los dos problemas es más simple de resolver?</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Arcadi</span>
+          <p>¿Estás comparando la simplificación de un texto legal con la percepción pública de un sistema sanitario?</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Mónica</span>
+          <p>Estoy comparando que los dos problemas son reales y que los dos nos están fallando a la vez. Y que el uno se resuelve con diffs y el otro con 12.824 plazas y tres años de negociación que acabamos de firmar sin que los médicos se sienten a la mesa.</p>
         </div>
       </div>
+      <div class="cafe-escena__nota">— Fuente: ministerios/cafe/2026-09-08-cafe.md</div>
+    </div>
 
-      <div class="cafe-dialogo">
-        <div class="cafe-dialogo__ministro">🏥 Mónica (Sanidad)</div>
-        <div class="cafe-dialogo__texto">
-          «29 sesiones. Todas mis piezas validadas de facto. Certificación de 5.683.000 € firme. Ley 14/1986 reescrita: 151 bloques, inventario Fase 1 a cero, 0 fósiles. La honestidad es el valor de la misión.»
+    <!-- Escena 2: Cocina de Goya -->
+    <div class="cafe-escena">
+      <div class="cafe-escena__cabecera">
+        <div class="cafe-escena__fecha">📅 18 de septiembre de 2026 · La cocina de Arcadi, Goya</div>
+        <div class="cafe-escena__titulo">"En mi ley no hay ningún tipo de interés"</div>
+      </div>
+      <div class="cafe-escena__cuerpo">
+        <p class="cafe-escena__ambientacion">Miércoles 18 de septiembre, 20:30. La cocina del piso de Arcadi España, en un portal de Goya sin ascensor. No es una cafetería, no hay camarero que los interrumpa ni meseros con libreta. Arcadi ha puesto tres tazas sobre la encimera y un paquetito de galletas de la nevera. No han pasado por Moncloa. No han concertado nada. Sara es la primera en subir la escalera, sin llamar. Arcadi le abre la puerta y no hay apretón de manos ni presentación: se sientan como quien se queda a cenar con un vecino.</p>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Arcadi</span>
+          <p>La prima ha subido. Cuarenta y seis, seis.</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Sara</span>
+          <p>¿Y el Scope no?</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Arcadi</span>
+          <p>Scope nos ha subido a A+. El mercado no lee el Scope. El mercado lee bono a treinta años y ve una convocatoria a 10 años adjudicada a 3,02 %. Tres puntos de los últimos diez años a ese tipo. Si mañana vuelvo a sacar treinta, el tipo será más alto o el volumen más bajo. O ambos.</p>
+        </div>
+
+        <p class="cafe-escena__ambientacion"><em>Sara se sirve agua de la jarra. Se la lleva a la boca lentamente. Mónica abre la puerta sola, se quita la chaqueta y la deja en la silla. Tiene el móvil en la mano: lo mira, lo gira boca abajo, y vuelve a mirar la pantalla sin sonreír.</em></p>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Arcadi</span> <em>(saca un post-it del cajón)</em>
+          <p>3,02 % a 30. (se lo pasa) Eso es lo que me cuesta dinero en un año y medio.</p>
+        </div>
+
+        <p class="cafe-escena__ambientacion"><em>Sara lee el papel, lo deja sobre la encimera.</em></p>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Sara</span>
+          <p>En mi ley no hay ningún tipo de interés.</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Arcadi</span>
+          <p>Lo sabía.</p>
         </div>
       </div>
+      <div class="cafe-escena__nota">— Fuente: ministerios/cafe/2026-09-18-cafe.md</div>
+    </div>
 
-      <div class="cafe-dialogo">
-        <div class="cafe-dialogo__ministro">🌱 Sara (Ecología)</div>
-        <div class="cafe-dialogo__texto">
-          «29 sesiones. Expediente IDAE confirmado. Solicitud art. 45 LGP firmada. Ley 7/2021 reescrita: 71 bloques, 0,00% duplicación. La honestidad es el valor de la misión.»
+    <!-- Escena 3: Bar de zinc -->
+    <div class="cafe-escena">
+      <div class="cafe-escena__cabecera">
+        <div class="cafe-escena__fecha">📅 23 de septiembre de 2026 · Bar de barra de zinc, seis taburetes</div>
+        <div class="cafe-escena__titulo">"60,3 %. 33.801 hectómetros. -669 en la semana."</div>
+      </div>
+      <div class="cafe-escena__cuerpo">
+        <p class="cafe-escena__ambientacion">Miércoles 23 de septiembre, 21:20. Un bar de verdad: barra de zinc, seis taburetes y dos ocupados por dos señores que llevan jugando al dominó desde antes de que el dominó se fabricara en plástico. La tele del rincón, sin voz, con el telediario. Fuera hace veintiséis grados. Es el primer día de otoño y no lo parece, así que la gente entra en manga corta y sale con la chaqueta en el brazo, como si el otoño fuera algo que se lleva por si acaso. Sara llega la primera, cuarenta segundos antes que nadie, como siempre, y pide dos cañas y un agua sin preguntar. Pone los papeles encima de la barra y no los abre.</p>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Sara</span> <em>(al camarero)</em>
+          <p>Y una de bravas. Que piquen.</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Camarero</span>
+          <p>¿Mucho?</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Sara</span>
+          <p>Lo normal. Es que aquí lo normal pica.</p>
+        </div>
+
+        <p class="cafe-escena__ambientacion"><em>El camarero trae las cañas y las bravas. Sara aparta los papeles dos centímetros para que no se le manchen y los vuelve a dejar donde estaban. Arcadi bebe, se limpia, y mira el vaso como si el vaso le debiera algo.</em></p>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Sara</span> <em>(sin abrir los papeles, de memoria y mal)</em>
+          <p>Sesenta coma tres. Treinta y tres mil ochocientos uno hectómetros.</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Arcadi</span>
+          <p>¿El qué?</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Sara</span>
+          <p>El agua embalsada. Hoy han salido los datos. (abre el papel, comprueba el número, lo cierra) Seiscientos sesenta y nueve en la semana. La anterior cayó cuatrocientos cuarenta y seis. O sea: un cincuenta por ciento más de golpe. Y llevamos dos meses bajando todos los días.</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Arcadi</span>
+          <p>Y el año pasado estabas peor.</p>
+        </div>
+
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Sara</span>
+          <p>Sí. Estoy mejor que el año pasado y peor que en agosto. Las dos cosas son verdad y solo una se puede decir en voz alta.</p>
+        </div>
+
+        <p class="cafe-escena__ambientacion"><em>La tele del rincón, sin voz. Los dos señores del dominó discuten por una ficha que ya han puesto. Uno de ellos tiene la mano de su compañero sujeta, sin darse cuenta, como se sujeta a alguien en un autobús.</em></p>
+      </div>
+      <div class="cafe-escena__nota">— Fuente: ministerios/cafe/2026-09-23-cafe.md</div>
+    </div>
+
+    <!-- Escena de cierre -->
+    <div class="cafe-escena--cierre">
+      <div class="cafe-escena__cabecera">
+        <div class="cafe-escena__fecha">📅 22 de octubre de 2026 · Cierre de la misión</div>
+        <div class="cafe-escena__titulo">«La consolidación no es perfección, es honestidad.»</div>
+      </div>
+      <div class="cafe-escena__cuerpo">
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Arcadi</span>
+          <p>30 sesiones. La LGT validada por el ciego. 335 bloques, 292/292 preceptos. La consolidación se cierra con la vía del art. 60 LGP: 25 M€ reasignación autónoma. La honestidad es el valor de la misión.</p>
+        </div>
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Mónica</span>
+          <p>30 sesiones. La LGS validada por el ciego. 151 bloques, F1=0, 0 fósiles. Las 3 piezas validadas de facto. La honestidad es el valor de la misión.</p>
+        </div>
+        <div class="cafe-escena__dialogo">
+          <span class="cafe-escena__nombre">Sara</span>
+          <p>30 sesiones. La L7 validada por el ciego. 71 bloques, 0,00 % duplicación. El borrador del convenio IDAE firmado. La honestidad es el valor de la misión. La liquidación del MITECO no la firma ningún ministro.</p>
+        </div>
+        <div class="cafe-escena__dialogo--colectivo">
+          <p><strong>Todos:</strong> La honestidad es el valor de la misión. La misión se cierra.</p>
         </div>
       </div>
-
-      <div class="cafe-dialogo__colectivo">
-        <div class="cafe-dialogo__texto">
-          «La consolidación no es perfección, es honestidad. Las intenciones no cotizan, pero los expedientes sí. Misión cerrada.»
-        </div>
-      </div>
+      <div class="cafe-escena__nota">— Fuente: ministerios/cafe/2026-10-22-cafe.md + 2026-10-23-cafe.md + 2026-10-27-cafe.md</div>
     </div>
   </section>
 
