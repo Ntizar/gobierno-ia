@@ -3,677 +3,1567 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gobierno IA — Cartera Presupuestaria</title>
+<title>Gobierno IA — El experimento completo</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ntizar/Aurora7@v7.2.2/tokens.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Ntizar/Aurora7@v7.2.2/packs/all.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --gold: #b8860b;
+  --gold-light: #d4a843;
+  --dark: #0a1628;
+  --card-bg: #faf9f7;
+  --card-border: #e8e6e1;
+  --transition: 0.3s ease;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--card-bg);
+  color: #1a1a1a;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* ===== HERO ===== */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(180deg, #0a1628 0%, #1a365d 60%, #2d4a7a 100%);
+  overflow: hidden;
+}
+.hero-particles {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+}
+.hero-particle {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  background: var(--gold-light);
+  border-radius: 50%;
+  opacity: 0;
+  animation: flotar 8s ease-in-out infinite;
+}
+@keyframes flotar {
+  0%, 100% { opacity: 0; transform: translateY(100vh) scale(0); }
+  10% { opacity: 0.8; }
+  90% { opacity: 0.3; }
+  50% { transform: translateY(-20vh) scale(1); }
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 900px;
+  animation: aparecer 1.2s ease-out;
+}
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.hero__escudo {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 2rem;
+  background: radial-gradient(circle, rgba(184,134,11,0.3) 0%, transparent 70%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  animation: pulso 3s ease-in-out infinite;
+  filter: drop-shadow(0 0 20px rgba(184,134,11,0.4));
+}
+@keyframes pulso {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+.hero__titulo {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+  font-weight: 900;
+  color: #faf9f7;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+.hero__titulo span { color: var(--gold-light); }
+.hero__subtitulo {
+  font-size: clamp(1rem, 2.5vw, 1.4rem);
+  color: rgba(250,249,247,0.8);
+  font-weight: 400;
+  max-width: 600px;
+  margin: 0 auto 2.5rem;
+  line-height: 1.5;
+}
+.hero__kpi {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+  max-width: 700px;
+  width: 100%;
+}
+.hero__kpi-item {
+  text-align: center;
+  padding: 1.5rem 1rem;
+  background: rgba(250,249,247,0.08);
+  border: 1px solid rgba(184,134,11,0.3);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  transition: transform var(--transition), border-color var(--transition);
+}
+.hero__kpi-item:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold-light);
+}
+.hero__kpi-num {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: var(--gold-light);
+  line-height: 1;
+}
+.hero__kpi-label {
+  font-size: 0.75rem;
+  color: rgba(250,249,247,0.7);
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.hero__meta {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: rgba(250,249,247,0.6);
+  margin-top: 2rem;
+}
+
+/* ===== NAV ===== */
+.nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(26,54,93,0.95);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(184,134,11,0.3);
+}
+.nav-bar__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+.nav-bar__title {
+  font-family: 'Playfair Display', serif;
+  color: #faf9f7;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.nav-bar__links {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.nav-bar__link {
+  color: rgba(250,249,247,0.7);
+  text-decoration: none;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  transition: color var(--transition);
+  padding: 0.5rem;
+}
+.nav-bar__link:hover { color: var(--gold-light); }
+
+/* ===== SECTIONS ===== */
+.section {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem;
+}
+.section--dark {
+  background: var(--dark);
+  color: #faf9f7;
+}
+.section__titulo {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  color: inherit;
+}
+.section__sub {
+  font-size: 1.05rem;
+  color: var(--gold-light);
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+.section__divider {
+  width: 60px;
+  height: 3px;
+  background: var(--gold-light);
+  margin: 3rem 0;
+}
+
+/* ===== TIMELINE ===== */
+.timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, var(--gold-light) 0%, #2d4a7a 100%);
+}
+.timeline-item {
+  position: relative;
+  padding: 0 0 2.5rem 2rem;
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -2.45rem;
+  top: 0.5rem;
+  width: 12px;
+  height: 12px;
+  background: var(--gold-light);
+  border-radius: 50%;
+  border: 2px solid var(--card-bg);
+}
+.section--dark .timeline-item::before {
+  border-color: var(--dark);
+}
+.timeline-item__etiqueta {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--gold-light);
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.timeline-item__titulo {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.timeline-item__texto {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: rgba(26,26,26,0.8);
+}
+.section--dark .timeline-item__texto {
+  color: rgba(250,249,247,0.7);
+}
+
+/* ===== AGENTS GRID ===== */
+.agent-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+.agent-card {
+  background: rgba(250,249,247,0.05);
+  border: 1px solid rgba(184,134,11,0.2);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s;
+}
+.agent-card:hover { transform: translateY(-4px); }
+.agent-card__icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+.agent-card__role {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #faf9f7;
+  margin-bottom: 0.25rem;
+}
+.agent-card__name { font-size: 0.8rem; color: var(--gold-light); }
+.agent-card__desc {
+  font-size: 0.75rem;
+  color: rgba(250,249,247,0.5);
+  margin-top: 0.5rem;
+}
+
+/* ===== LAW CARDS ===== */
+.leyes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+.ley-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 2rem;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.ley-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+.ley-card__titulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.ley-card__hash {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: var(--gold-light);
+  background: rgba(184,134,11,0.1);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 1rem;
+  word-break: break-all;
+}
+.ley-card__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.ley-stat {
+  text-align: center;
+  padding: 0.5rem;
+  background: rgba(184,134,11,0.05);
+  border-radius: 4px;
+}
+.ley-stat__num {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--gold-light);
+}
+.ley-stat__lbl {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #94a3b8;
+}
+.ley-card__diff {
+  font-size: 0.85rem;
+  color: #4a4a4a;
+  line-height: 1.6;
+}
+.ley-card__enlace {
+  display: inline-block;
+  margin-top: 1rem;
+  color: var(--gold-light);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+.ley-card__enlace:hover { text-decoration: underline; }
+
+/* ===== BEFORE/AFTER ===== */
+.before-after {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  font-size: 0.85rem;
+}
+.before-after__before {
+  background: #fff5f5;
+  border: 1px solid #fecaca;
+  border-radius: 6px;
+  padding: 1rem;
+  position: relative;
+}
+.before-after__before::before {
+  content: 'ANTES';
+  position: absolute;
+  top: -8px;
+  left: 8px;
+  background: #dc2626;
+  color: white;
+  font-size: 0.6rem;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.before-after__after {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 6px;
+  padding: 1rem;
+  position: relative;
+}
+.before-after__after::before {
+  content: 'DESPUÉS';
+  position: absolute;
+  top: -8px;
+  left: 8px;
+  background: #16a34a;
+  color: white;
+  font-size: 0.6rem;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+}
+.before-after__before p, .before-after__after p {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+.before-after__before p:last-child, .before-after__after p:last-child {
+  margin-bottom: 0;
+}
+
+/* ===== PRESUPUESTOS ===== */
+.presup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+.presup-item {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 2rem;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.presup-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+.presup-item__ministro {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--gold-light);
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.presup-item__titulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.presup-item__piezas {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+.presup-pieza {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  background: rgba(184,134,11,0.05);
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+.presup-pieza__desc { flex: 1; }
+.presup-pieza__cifra {
+  font-weight: 700;
+  color: var(--gold-light);
+  font-family: 'Playfair Display', serif;
+}
+.presup-pieza__estado {
+  font-size: 0.7rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+  margin-left: 0.5rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.estado--validado { background: #dcfce7; color: #166534; }
+.estado--pendiente { background: #fef9c3; color: #854d0e; }
+.estado--archivada { background: #f3f4f6; color: #6b7280; }
+.estado--confirmada { background: #dbeafe; color: #1e40af; }
+.estado--rechazada { background: #fee2e2; color: #dc2626; }
+
+/* ===== CAFÉ ===== */
+.cafe-container { max-width: 800px; }
+.cafe-scene {
+  position: relative;
+  padding: 3rem 2rem;
+  background: linear-gradient(180deg, var(--card-bg) 0%, #f0ede8 100%);
+  text-align: center;
+  border-top: 1px solid var(--card-border);
+  border-bottom: 1px solid var(--card-border);
+  margin-bottom: 2rem;
+}
+.cafe-scene__titulo {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(1.3rem, 3vw, 1.8rem);
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  color: #1a365d;
+}
+.cafe-escena {
+  background: #ffffff;
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  transition: transform var(--transition), box-shadow var(--transition);
+  text-align: left;
+}
+.cafe-escena:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.cafe-escena__cabecera {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--card-border);
+}
+.cafe-escena__fecha {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--gold-light);
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+.cafe-escena__titulo {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #1a365d;
+}
+.cafe-escena__cuerpo {
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: #2d2d2d;
+}
+.cafe-escena__ambientacion {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  border-left: 3px solid var(--gold-light);
+}
+.cafe-escena__dialogo {
+  margin-bottom: 0.75rem;
+}
+.cafe-escena__nombre {
+  font-weight: 700;
+  color: var(--gold-light);
+  font-size: 0.85rem;
+}
+.cafe-escena__dialogo p {
+  margin-top: 0.2rem;
+  margin-left: 0.5rem;
+  line-height: 1.6;
+}
+.cafe-escena__dialogo--colectivo {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: linear-gradient(135deg, #1a365d, #2d4a7a);
+  border-radius: 8px;
+  text-align: center;
+}
+.cafe-escena__dialogo--colectivo p {
+  color: #faf9f7;
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0;
+}
+.cafe-escena__nota {
+  font-size: 0.7rem;
+  color: #999;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #eee;
+  font-style: italic;
+}
+
+/* ===== KPI GRID ===== */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+.kpi-box {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: rgba(250,249,247,0.06);
+  border: 1px solid rgba(184,134,11,0.15);
+  border-radius: 8px;
+  transition: transform var(--transition);
+}
+.kpi-box:hover { transform: translateY(-4px); }
+.kpi-box__num {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--gold-light);
+}
+.kpi-box__lbl {
+  font-size: 0.75rem;
+  color: rgba(250,249,247,0.6);
+  margin-top: 0.3rem;
+}
+
+/* ===== SEPARATOR ===== */
+.separador {
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Playfair Display', serif;
+  color: var(--gold-light);
+  font-size: 1.5rem;
+  letter-spacing: 0.3em;
+  user-select: none;
+}
+
+/* ===== PGE SECTION ===== */
+.pge-card {
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+}
+.pge-card__titulo {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+.pge-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--card-border);
+  font-size: 0.95rem;
+}
+.pge-row:last-child { border-bottom: none; }
+.pge-row__label { color: #94a3b8; }
+.pge-row__value { font-weight: 700; color: #1a365d; }
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  padding: 3rem 1.5rem;
+  background: var(--dark);
+  border-top: 1px solid rgba(184,134,11,0.2);
+}
+footer p {
+  font-size: 0.85rem;
+  color: rgba(250,249,247,0.5);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 640px) {
+  .hero__meta { flex-direction: column; gap: 0.5rem; }
+  .hero__kpi { grid-template-columns: repeat(2, 1fr); }
+  .nav-bar__links { gap: 0.75rem; }
+  .nav-bar__link { font-size: 0.7rem; }
+  .leyes-grid { grid-template-columns: 1fr; }
+  .presup-grid { grid-template-columns: 1fr; }
+  .before-after { grid-template-columns: 1fr; }
+  .agent-grid { grid-template-columns: 1fr; }
+}
+</style>
 </head>
-<body class="nz">
+<body>
 
-<header class="nz-navbar">
-  <span class="nz-navbar__brand"><i></i>Gobierno IA · Cartera PGE</span>
-  <nav class="nz-navbar__links">
-    <a href="#resumen" class="nz-navbar__link" aria-current="page">Resumen</a>
-    <a href="#cartera" class="nz-navbar__link">Cartera</a>
-    <a href="#controles" class="nz-navbar__link">Controles</a>
-    <a href="#recaudacion" class="nz-navbar__link">Recaudación</a>
-  </nav>
-</header>
-
-<main>
-
-  <!-- ===== HERO ===== -->
-  <section id="resumen" class="nz-container">
-    <header class="nz-cluster nz-cluster--between" style="padding: 2rem 0 1rem;">
-      <div class="nz-stack nz-stack--2xs">
-        <h1 class="nz-h2 nz-h2--brand">Cartera Presupuestaria del Estado</h1>
-        <p class="nz-lead nz-lead--sm">Simulación Gobierno IA · 30 sesiones · Cierre de misión · 2026-10-27</p>
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="hero-particles" id="hero-particles"></div>
+  <div class="hero-content">
+    <div class="hero__escudo">🦁</div>
+    <h1 class="hero__titulo">Gobierno <span>IA</span></h1>
+    <p class="hero__subtitulo">
+      Simulación multiagente de un gobierno español creado con IA. 
+      Tres leyes reescritas, ocho reasignaciones presupuestarias, una misión de honestidad. 
+      Tres agentes con personalidad de ministros reales. Un experimento de ingeniería con reglas duras.
+    </p>
+    <div class="hero__kpi">
+      <div class="hero__kpi-item">
+        <div class="hero__kpi-num">−28.385</div>
+        <div class="hero__kpi-label">Palabras ahorradas</div>
       </div>
-      <div class="nz-cluster nz-cluster--compact">
-        <span class="nz-badge nz-badge--success">Misión completada</span>
-        <button class="nz-btn nz-btn--ghost nz-btn--sm" onclick="window.print()">Imprimir</button>
+      <div class="hero__kpi-item">
+        <div class="hero__kpi-num">30</div>
+        <div class="hero__kpi-label">Sesiones</div>
       </div>
-    </header>
-
-    <!-- KPIs de recaudación -->
-    <section class="nz-dash-grid nz-dash-grid--4" aria-label="Cifras clave de recaudación">
-      <div class="nz-kpi">
-        <span class="nz-kpi__label">Recaudación AEAT 2025</span>
-        <span class="nz-kpi__value nz-kpi__value--brand">232.498 M€</span>
-        <span class="nz-kpi__delta nz-kpi__delta--up">+10,1% vs 2024</span>
+      <div class="hero__kpi-item">
+        <div class="hero__kpi-num">557</div>
+        <div class="hero__kpi-label">Bloques intactos</div>
       </div>
-      <div class="nz-kpi">
-        <span class="nz-kpi__label">Total reasignaciones</span>
-        <span class="nz-kpi__value">91,85 M€</span>
-        <span class="nz-kpi__delta">8 acuerdos aprobados</span>
+      <div class="hero__kpi-item">
+        <div class="hero__kpi-num">91,85</div>
+        <div class="hero__kpi-label">M€ reasignados</div>
       </div>
-      <div class="nz-kpi">
-        <span class="nz-kpi__label">Validadas sin observación</span>
-        <span class="nz-kpi__value nz-kpi__value--brand">6 de 8</span>
-        <span class="nz-kpi__delta nz-kpi__delta--up">75 %</span>
-      </div>
-      <div class="nz-kpi">
-        <span class="nz-kpi__label">Fuente de financiación</span>
-        <span class="nz-kpi__value nz-kpi__value--accent">Remanentes + 60 LGP</span>
-        <span class="nz-kpi__delta">0 € de crédito nuevo</span>
-      </div>
-    </section>
-
-    <!-- Insight de recaudación crecida -->
-    <div class="nz-callout" style="margin-top: 1.5rem;">
-      <strong>Contexto de recaudación:</strong> El Gobierno ingresa más. La AEAT reportó 232.498 M€ en 2025 (+10,1% interanual), el mayor nivel histórico. El techo de gasto del PGE 2026 es de 226.032 M€. Este margen fiscal adicional abre la posibilidad de reasignaciones más ambiciosas y de crear partidas nuevas sin recurrir al art. 58 LGP (norma de rango legal, aún pendiente). La capacidad de maniobra fiscal es real: no hay que esperar a la norma de rango legal para las reasignaciones que usen créditos vigentes.
     </div>
-
-    <!-- Resumen de fases -->
-    <section class="nz-dash-grid" style="margin-top: 2rem;">
-      <div class="nz-article" style="padding: 1.25rem;">
-        <h2 class="nz-h3">Resumen de la misión</h2>
-        <table class="nz-table" style="margin-top: 0.75rem;">
-          <thead><tr><th>Fase</th><th>Sesiones</th><th>Estado</th><th>Entregable</th></tr></thead>
-          <tbody>
-            <tr><td class="nz-table__strong">Fundaciones</td><td>1–5</td><td><span class="nz-badge nz-badge--success">Cerrada</span></td><td>Deduplicación 3 leyes</td></tr>
-            <tr><td class="nz-table__strong">Reescritura profunda</td><td>6–18</td><td><span class="nz-badge nz-badge--success">Cerrada</span></td><td>3 leyes reescritas (−26.334 pal.)</td></tr>
-            <tr><td class="nz-table__strong">Presupuestos</td><td>19–26</td><td><span class="nz-badge nz-badge--success">Cerrada</span></td><td>8 reasignaciones aprobadas</td></tr>
-            <tr><td class="nz-table__strong">Consolidación final</td><td>27–30</td><td><span class="nz-badge nz-badge--success">Cerrada</span></td><td>3 leyes validadas</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="nz-article" style="padding: 1.25rem;">
-        <h2 class="nz-h3">Leyes reescritas</h2>
-        <table class="nz-table" style="margin-top: 0.75rem;">
-          <thead><tr><th>Ley</th><th>Bloques</th><th>Palabras</th><th>Ahorro</th></tr></thead>
-          <tbody>
-            <tr><td class="nz-table__strong">LGT 58/2003</td><td>335</td><td>131.823</td><td class="nz-table__num">−23.154</td></tr>
-            <tr><td class="nz-table__strong">LGS 14/1986</td><td>151</td><td>19.540</td><td class="nz-table__num">−5.231</td></tr>
-            <tr><td class="nz-table__strong">L7/2021</td><td>71</td><td>27.307</td><td class="nz-table__num">0</td></tr>
-          </tbody>
-          <tfoot>
-            <tr><td colspan="3" class="nz-table__strong">Total ahorro neto</td><td class="nz-table__num">−28.385 palabras</td></tr>
-          </tfoot>
-        </table>
-      </div>
-    </section>
-  </section>
-
-  <!-- ===== CARTERA COMPLETA ===== -->
-  <section id="cartera" class="nz-container">
-    <h2 class="nz-h2 nz-h2--brand" style="margin-top: 3rem; margin-bottom: 0.5rem;">Cartera completa de reasignaciones</h2>
-    <p class="nz-lead--sm" style="margin-bottom: 1.5rem; color: var(--nz-gray-600);">8 reasignaciones aprobadas por el Consejo. 81,96 M€ con fuente verificada directa (89,24 %). 9,89 M€ con estimación (10,76 %). 0 € ejecutados en 30 sesiones.</p>
-
-    <!-- Filtros de prioridad -->
-    <div class="nz-tabs" role="tablist" aria-label="Filtrar por prioridad">
-      <button class="nz-btn nz-btn--primary nz-btn--sm is-active" role="tab" data-filter="todas" aria-selected="true">Todas (8)</button>
-      <button class="nz-btn nz-btn--ghost nz-btn--sm" role="tab" data-filter="prioridad-alta" aria-selected="false">Prioridad alta (3)</button>
-      <button class="nz-btn nz-btn--ghost nz-btn--sm" role="tab" data-filter="prioridad-media" aria-selected="false">Prioridad media (3)</button>
-      <button class="nz-btn nz-btn--ghost nz-btn--sm" role="tab" data-filter="prioridad-baja" aria-selected="false">Prioridad baja (2)</button>
+    <div class="hero__meta">
+      <div>📅 29 ago – 27 oct 2026</div>
+      <div>⚙️ Hermes Agent × NaN.builders</div>
+      <div>🇪🇸 30 sesiones de gobierno</div>
     </div>
+  </div>
+</section>
 
-    <div id="cartera-items" style="margin-top: 1.5rem;">
-
-      <!-- Acuerdo 127 — 932A -->
-      <div class="nz-article" data-prioridad="prioridad-alta" data-acuerdo="127" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-accent-600);">
-        <div class="nz-cluster nz-cluster--between">
-          <div>
-            <span class="nz-badge nz-badge--warning" style="margin-right: 0.5rem;">Acuerdo 127</span>
-            <strong class="nz-h3">Remanente del programa 932A → Mutualistas + Aplazamientos</strong>
-          </div>
-          <span class="nz-badge nz-badge--warning">Validada con observaciones</span>
-        </div>
-        <div class="nz-dash-grid" style="margin-top: 1rem;">
-          <div>
-            <span class="nz-lbl">Importe</span>
-            <span class="nz-kpi__value" style="font-size: 1.25rem;">41.063.785,86 €</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Desglose</span>
-            <span>24,7 M€ mutualistas + 16,36 M€ aplazamientos</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Capítulo</span>
-            <span>2 (Operaciones financieras)</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Via legal</span>
-            <span>Art. 63.1.a) LGP + Art. 58 LGP</span>
-          </div>
-        </div>
-        <div style="margin-top: 0.75rem;">
-          <span class="nz-lbl">Condición:</span>
-          <strong>Art. 58 LGP: norma de rango legal</strong> — nadie ha propuesto redactarla en 30 sesiones. Sin esa norma, ningún ministro firma.
-        </div>
-      </div>
-
-      <!-- Acuerdo 128 — Mutualistas -->
-      <div class="nz-article" data-prioridad="prioridad-alta" data-acuerdo="128" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-accent-600);">
-        <div class="nz-cluster nz-cluster--between">
-          <div>
-            <span class="nz-badge nz-badge--brand" style="margin-right: 0.5rem;">Acuerdo 128</span>
-            <strong class="nz-h3">Línea propia para mutualistas (2.717 M€)</strong>
-          </div>
-          <span class="nz-badge nz-badge--warning">Validada con observaciones</span>
-        </div>
-        <div class="nz-dash-grid" style="margin-top: 1rem;">
-          <div>
-            <span class="nz-lbl">Importe</span>
-            <span class="nz-kpi__value" style="font-size: 1.25rem;">2.717 M€</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Tipo</span>
-            <span>Línea específica con dueño y plazo (art. 42 LGP)</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Crecimiento 2024→2025</span>
-            <span class="nz-kpi__delta nz-kpi__delta--up">+2.166 M€ interanual</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Base legal</span>
-            <span>Art. 42 LGP · Art. 26.6 LGT (intereses) · Art. 31.2 LGT</span>
-          </div>
-        </div>
-        <div style="margin-top: 0.75rem;">
-          <span class="nz-lbl">Coste del silencio: </span>
-          <strong>127,0 M€</strong> (90.717 expedientes × 1.400 €/expediente) + 5,16 M€/año de intereses a 4,0625 %.
-          <span class="nz-lbl" style="margin-left: 1rem;">Condición: Censo AEAT publicado antes del 31-03-2027.</span>
-        </div>
-      </div>
-
-      <!-- Acuerdo 133 — 0 € disciplina -->
-      <div class="nz-article" data-prioridad="prioridad-media" data-acuerdo="133" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-brand-500);">
-        <div class="nz-cluster nz-cluster--between">
-          <div>
-            <span class="nz-badge nz-badge--brand" style="margin-right: 0.5rem;">Acuerdo 133</span>
-            <strong class="nz-h3">Disciplina del «0 €»</strong>
-          </div>
-          <span class="nz-badge nz-badge--success">Validada</span>
-        </div>
-        <div style="margin-top: 0.75rem;">
-          <span class="nz-lbl">Regla:</span>
-          Ningún ministro escribe «coste fiscal nuevo: 0 €» sin la certificación de crédito disponible de su Intervención Delegada.
-        </div>
-        <div style="margin-top: 0.5rem;">
-          <span class="nz-lbl">Observación: </span>
-          La regla nace mal contada — condiciona 3 de las 7 piezas que escriben «0 €» sin que la certificación pueda existir para la 116 (el principal de los mutualistas no es un crédito, es obligación legal).
-        </div>
-      </div>
-
-      <!-- Acuerdo 129 — Escudo -->
-      <div class="nz-article" data-prioridad="prioridad-media" data-acuerdo="129" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-brand-500);">
-        <div class="nz-cluster nz-cluster--between">
-          <div>
-            <span class="nz-badge nz-badge--warning" style="margin-right: 0.5rem;">Acuerdo 129</span>
-            <strong class="nz-h3">Cuadro de ejecución del escudo anticrisis</strong>
-          </div>
-          <span class="nz-badge nz-badge--warning">Validada con observaciones</span>
-        </div>
-        <div class="nz-dash-grid" style="margin-top: 1rem;">
-          <div>
-            <span class="nz-lbl">Importe</span>
-            <span class="nz-kpi__value" style="font-size: 1.25rem;">65 M€ / trimestre</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Tipo</span>
-            <span>Subvención gasóleo agrario y pesquero</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Total anual</span>
-            <span class="nz-kpi__value" style="font-size: 1.25rem;">260 M€ / año</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Base legal</span>
-            <span>RDL 18/2026, art. 16.2 (tope 0,20 €/litro)</span>
-          </div>
-        </div>
-        <div style="margin-top: 0.75rem;">
-          <span class="nz-lbl">Condición: </span>
-          Cuadro antes de la próxima prórroga y en todo caso 31-03-2027.
-          <span class="nz-lbl" style="margin-left: 1rem;">Estatus: ⚠️ Incumplida la prórroga del 4º trimestre.</span>
-        </div>
-      </div>
-
-      <!-- Acuerdo 130 — Salud mental -->
-      <div class="nz-article" data-prioridad="prioridad-baja" data-acuerdo="130" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-success-500);">
-        <div class="nz-cluster nz-cluster--between">
-          <div>
-            <span class="nz-badge nz-badge--success" style="margin-right: 0.5rem;">Acuerdo 130</span>
-            <strong class="nz-h3">Salud mental a domicilio</strong>
-          </div>
-          <span class="nz-badge nz-badge--success">Validada</span>
-        </div>
-        <div class="nz-dash-grid" style="margin-top: 1rem;">
-          <div>
-            <span class="nz-lbl">Importe</span>
-            <span class="nz-kpi__value" style="font-size: 1.25rem;">5.683.000 €</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Base</span>
-            <span>10,000% de 56.830.000 € (línea madre)</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Tipo</span>
-            <span>Reetiquetado dentro de lo autorizado (coste fiscal 0 €)</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Base legal</span>
-            <span>Art. 20.1 LGS (hospitalización parcial y atención a domicilio)</span>
-          </div>
-        </div>
-        <div style="margin-top: 0.75rem;">
-          <span class="nz-lbl">Condición: </span>
-          Inclusión en el orden del día del Consejo Interterritorial del 2-10.
-        </div>
-      </div>
-
-      <!-- Acuerdo 131 — Módulos coste -->
-      <div class="nz-article" data-prioridad="prioridad-media" data-acuerdo="131" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-brand-500);">
-        <div class="nz-cluster nz-cluster--between">
-          <div>
-            <span class="nz-badge nz-badge--warning" style="margin-right: 0.5rem;">Acuerdo 131</span>
-            <strong class="nz-h3">Módulos de coste del art. 90.4 LGS</strong>
-          </div>
-          <span class="nz-badge nz-badge--warning">Validada con observaciones</span>
-        </div>
-        <div class="nz-dash-grid" style="margin-top: 1rem;">
-          <div>
-            <span class="nz-lbl">Tipo</span>
-            <span>Petición formal del importe de la línea de conciertos por CCAA</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Coste fiscal</span>
-            <span>0 €</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Diferencial verificado</span>
-            <span>2.059,7 €/alta (sensibilidad)</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Base legal</span>
-            <span>Art. 90.4 LGS</span>
-          </div>
-        </div>
-        <div style="margin-top: 0.75rem;">
-          <span class="nz-lbl">Tabla de sensibilidad:</span>
-          <table class="nz-table" style="margin-top: 0.5rem;">
-            <thead><tr><th>Altas concertadas</th><th class="nz-table__num">Importe estimado</th></tr></thead>
-            <tbody>
-              <tr><td>10.000</td><td class="nz-table__num">20,6 M€</td></tr>
-              <tr><td>50.000</td><td class="nz-table__num">103,0 M€</td></tr>
-              <tr><td>100.000</td><td class="nz-table__num">206,0 M€</td></tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-
-      <!-- Acuerdo 132 — SISLE -->
-      <div class="nz-article" data-prioridad="prioridad-baja" data-acuerdo="132" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-success-500);">
-        <div class="nz-cluster nz-cluster--between">
-          <div>
-            <span class="nz-badge nz-badge--brand" style="margin-right: 0.5rem;">Acuerdo 132</span>
-            <strong class="nz-h3">Sistemas de información del SNS (SISLE)</strong>
-          </div>
-          <span class="nz-badge nz-badge--warning">Validada con observaciones</span>
-        </div>
-        <div class="nz-dash-grid" style="margin-top: 1rem;">
-          <div>
-            <span class="nz-lbl">Importe</span>
-            <span class="nz-kpi__value" style="font-size: 1.25rem;">3.002.900 €</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Base</span>
-            <span>5,0% exacto de la línea bucodental (60.058.000 €)</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Total anual SNS</span>
-            <span>285.718.657,07 € (235,4 M€ + 50,3 M€)</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Indicador</span>
-            <span>0,70% → ≥ 1,75% del reparto a sistemas</span>
-          </div>
-        </div>
-        <div style="margin-top: 0.75rem;">
-          <span class="nz-lbl">Observación grave: </span>
-          Los 60.058.000 € están transferidos a las CCAA o solo acordados en criterios? Si están transferidos, no es decisión del Estado.
-        </div>
-      </div>
-
-      <!-- Acuerdo 134 — Reserva hídrica -->
-      <div class="nz-article" data-prioridad="prioridad-alta" data-acuerdo="134" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-danger-500);">
-        <div class="nz-cluster nz-cluster--between">
-          <div>
-            <span class="nz-badge nz-badge--danger" style="margin-right: 0.5rem;">Acuerdo 134</span>
-            <strong class="nz-h3">Reserva hídrica por cuenca (MITECO)</strong>
-          </div>
-          <span class="nz-badge nz-badge--danger">RECHAZADA</span>
-        </div>
-        <div class="nz-dash-grid" style="margin-top: 1rem;">
-          <div>
-            <span class="nz-lbl">Importe propuesto</span>
-            <span class="nz-kpi__value" style="font-size: 1.25rem;">40,90 M€</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Unidad</span>
-            <span>0,949 M€/punto de déficit</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Puntos</span>
-            <span>43,1 puntos → 40,9019 M€</span>
-          </div>
-          <div>
-            <span class="nz-lbl">Base legal</span>
-            <span>Art. 19.4.h) L7</span>
-          </div>
-        </div>
-        <div style="margin-top: 0.75rem;">
-          <span class="nz-lbl">Motivo del rechazo: </span>
-          La base de 1.362 M€ es fuente secundaria DECLARADA, sin archivar (6 URL, 0 documentos). La unidad de reparto (0,949 €/punto) es convencional y no se etiqueta. El 3 % se declara como convención de la proponente, pero la cifra total sin respaldo documental no es válida.
-        </div>
-      </div>
-
+<!-- ===== NAV ===== -->
+<nav class="nav-bar">
+  <div class="nav-bar__inner">
+    <div class="nav-bar__title">🦁 Gobierno IA</div>
+    <div class="nav-bar__links">
+      <a href="#nacimiento" class="nav-bar__link">Nacimiento</a>
+      <a href="#agentes" class="nav-bar__link">Agentes</a>
+      <a href="#leyes" class="nav-bar__link">Leyes</a>
+      <a href="#presupuestos" class="nav-bar__link">Presupuestos</a>
+      <a href="#pge" class="nav-bar__link">PGE 2027</a>
+      <a href="#cafe" class="nav-bar__link">Café</a>
     </div>
+  </div>
+</nav>
 
-    <!-- Tabla resumen de la cartera -->
-    <div class="nz-table-wrap" style="margin-top: 2rem;">
-      <h3 class="nz-h3">Resumen de la cartera por prioridad</h3>
-      <table class="nz-table nz-table--striped" style="margin-top: 0.75rem;">
-        <thead>
-          <tr>
-            <th>Acuerdo</th>
-            <th>Ministerio</th>
-            <th>Concepto</th>
-            <th class="nz-table__num">Importe</th>
-            <th>Validación</th>
-            <th>Prioridad</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td><strong>127</strong></td><td>Hacienda</td><td>932A remanente</td><td class="nz-table__num">41,06 M€</td><td><span class="nz-badge nz-badge--warning">Obs.</span></td><td><strong style="color: var(--nz-accent-600);">Alta</strong></td></tr>
-          <tr><td><strong>128</strong></td><td>Hacienda</td><td>Línea mutualistas</td><td class="nz-table__num">2.717 M€</td><td><span class="nz-badge nz-badge--warning">Obs.</span></td><td><strong style="color: var(--nz-accent-600);">Alta</strong></td></tr>
-          <tr><td><strong>134</strong></td><td>Ecol.</td><td>Reserva hídrica</td><td class="nz-table__num">40,90 M€</td><td><span class="nz-badge nz-badge--danger">Rech.</span></td><td><strong style="color: var(--nz-accent-600);">Alta</strong></td></tr>
-          <tr><td><strong>129</strong></td><td>Hacienda</td><td>Escudo anticrisis</td><td class="nz-table__num">65 M€/trimestre</td><td><span class="nz-badge nz-badge--warning">Obs.</span></td><td><strong style="color: var(--nz-brand-500);">Media</strong></td></tr>
-          <tr><td><strong>133</strong></td><td>Hacienda</td><td>Disciplina del 0 €</td><td class="nz-table__num">0 €</td><td><span class="nz-badge nz-badge--success">OK</span></td><td><strong style="color: var(--nz-brand-500);">Media</strong></td></tr>
-          <tr><td><strong>131</strong></td><td>Sanidad</td><td>Módulos coste art. 90.4</td><td class="nz-table__num">0 €</td><td><span class="nz-badge nz-badge--warning">Obs.</span></td><td><strong style="color: var(--nz-brand-500);">Media</strong></td></tr>
-          <tr><td><strong>130</strong></td><td>Sanidad</td><td>Salud mental a domicilio</td><td class="nz-table__num">5,68 M€</td><td><span class="nz-badge nz-badge--success">OK</span></td><td><strong style="color: var(--nz-success-500);">Baja</strong></td></tr>
-          <tr><td><strong>132</strong></td><td>Sanidad</td><td>Sistemas información SNS</td><td class="nz-table__num">3,00 M€</td><td><span class="nz-badge nz-badge--warning">Obs.</span></td><td><strong style="color: var(--nz-success-500);">Baja</strong></td></tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <!-- ===== CONTROLES DE CAMBIOS ===== -->
-  <section id="controles" class="nz-container">
-    <h2 class="nz-h2 nz-h2--brand" style="margin-top: 3rem; margin-bottom: 0.5rem;">Controles de cambios priorizados</h2>
-    <p class="nz-lead--sm" style="margin-bottom: 1.5rem; color: var(--nz-gray-600);">Las condiciones pendientes ordenadas por impacto y urgencia. Prioridad alta: lo que bloquea la ejecución. Media: lo que necesita acción en las próximas sesiones. Baja: seguimiento continuo.</p>
-
-    <!-- Cambios de prioridad alta -->
-    <h3 class="nz-h3" style="color: var(--nz-accent-600); margin-bottom: 0.75rem;">Prioridad alta — Bloqueos de ejecución</h3>
-
-    <div class="nz-article" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-danger-500);">
-      <div class="nz-cluster nz-cluster--between">
-        <div><strong>Cambio 1: Art. 58 LGP — Norma de rango legal</strong></div>
-        <span class="nz-badge nz-badge--danger">Crítico</span>
+<!-- ===== NACIMIENTO ===== -->
+<section class="section" id="nacimiento">
+  <h2 class="section__titulo">El nacimiento</h2>
+  <p class="section__sub">¿Qué pasaba si metías un gobierno español dentro de un agente de IA?</p>
+  
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-item__etiqueta">29 de agosto de 2026</div>
+      <div class="timeline-item__titulo">La pregunta inicial</div>
+      <div class="timeline-item__texto">
+        <strong>¿puede un equipo de agentes de IA, con personalidad de ministros reales, simplificar las leyes españolas y proponer presupuestos honestos?</strong> No como ejercicio académico, sino como experimento de ingeniería con reglas duras.
       </div>
-      <p style="margin-top: 0.5rem;">81,96 M€ de condiciones requieren norma de rango legal. Es el nudo de la Fase 3. Sin art. 58 aprobado, no se puede reabrir el remanente del 932A ni otras incorporaciones de crédito.</p>
-      <div class="nz-dash-grid" style="margin-top: 0.75rem;">
-        <div><span class="nz-lbl">Depende de:</span> Debate en Consejo de Ministros</div>
-        <div><span class="nz-lbl">Fecha límite:</span> Sin fecha</div>
-        <div><span class="nz-lbl">Impacto:</span> 81,96 M€ (89,24% de la cartera)</div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-item__etiqueta">29 de agosto</div>
+      <div class="timeline-item__titulo">La Constitución del sistema</div>
+      <div class="timeline-item__texto">
+        Se redacta la <strong>constitución</strong> del experimento: reglas de oro que ningún agente puede violar. Fuente única de verdad (BOE congelado), competencias estancas, límite constitucional (no tocan derechos fundamentales), simplificar no es demolición, y nada de cifras sin fuente. La misión: 30 sesiones, dos entregables.
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-item__etiqueta">1 de septiembre</div>
+      <div class="timeline-item__titulo">Los tres ministros toman posesión</div>
+      <div class="timeline-item__texto">
+        Se dan de baja los perfiles de Hermes Agent para <strong>Arcadi España (Hacienda)</strong>, <strong>Mónica García (Sanidad)</strong> y <strong>Sara Aagesen (Ecología)</strong>. Cada uno con su cartera, su ley insignia y su protocolo de emoción. El Auditor del Estado queda como juez independiente. La Presidencia (Mastermind) como orquestador.
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="separador">◆ ◆ ◆</div>
+
+<!-- ===== AGENTES ===== -->
+<section class="section section--dark" id="agentes">
+  <h2 class="section__titulo" style="color:#faf9f7">Los agentes</h2>
+  <p class="section__sub">Cinco agentes, un gobierno completo</p>
+  
+  <div class="agent-grid">
+    <div class="agent-card">
+      <div class="agent-card__icon">🏛️</div>
+      <div class="agent-card__role">Presidencia</div>
+      <div class="agent-card__name">Mastermind (orquestador)</div>
+      <div class="agent-card__desc">Coordina, arbitra, informa, verifica en repo</div>
+    </div>
+    <div class="agent-card">
+      <div class="agent-card__icon">💼</div>
+      <div class="agent-card__role">Hacienda</div>
+      <div class="agent-card__name">Arcadi España (IA)</div>
+      <div class="agent-card__desc">Tributos, presupuestos<br><small>LGT 58/2003 · 335 bloques</small></div>
+    </div>
+    <div class="agent-card">
+      <div class="agent-card__icon">🏥</div>
+      <div class="agent-card__role">Sanidad</div>
+      <div class="agent-card__name">Mónica García (IA)</div>
+      <div class="agent-card__desc">Salud pública, SAN, farmacia<br><small>LGS 14/1986 · 151 bloques</small></div>
+    </div>
+    <div class="agent-card">
+      <div class="agent-card__icon">🌱</div>
+      <div class="agent-card__role">Transición Ecológica</div>
+      <div class="agent-card__name">Sara Aagesen (IA)</div>
+      <div class="agent-card__desc">Clima, energía, medio ambiente<br><small>L7 7/2021 · 71 bloques</small></div>
+    </div>
+    <div class="agent-card">
+      <div class="agent-card__icon">🔍</div>
+      <div class="agent-card__role">Auditor del Estado</div>
+      <div class="agent-card__name">Auditor independiente</div>
+      <div class="agent-card__desc">Fiscaliza todo, no propone nada<br><small>Sin cartera propia</small></div>
+    </div>
+  </div>
+</section>
+
+<div class="separador">◆ ◆ ◆</div>
+
+<!-- ===== LEYES ===== -->
+<section class="section" id="leyes">
+  <h2 class="section__titulo">Las leyes reescritas</h2>
+  <p class="section__sub">557 bloques intactos. 0 artículos añadidos o perdidos. −28.385 palabras de ahorro neto.</p>
+  
+  <div class="leyes-grid">
+    <!-- LGT -->
+    <div class="ley-card">
+      <div class="ley-card__titulo">Ley 58/2003 General Tributaria (LGT)</div>
+      <div class="ley-card__hash">Original: BOE-A-2003-23186 · d0b7ef22…9368</div>
+      <div class="ley-card__stats">
+        <div class="ley-stat">
+          <div class="ley-stat__num">335</div>
+          <div class="ley-stat__lbl">Bloques</div>
+        </div>
+        <div class="ley-stat">
+          <div class="ley-stat__num">292/292</div>
+          <div class="ley-stat__lbl">Preceptos</div>
+        </div>
+        <div class="ley-stat">
+          <div class="ley-stat__num">−23.154</div>
+          <div class="ley-stat__lbl">Palabras</div>
+        </div>
+      </div>
+      <div class="ley-card__diff">
+        <strong>Principales cambios:</strong><br>
+        · [a95] 6.309 → 993 pal. (carácter reservado de los datos)<br>
+        · [a43] 4.438 → 1.079 pal. (responsables subsidiarios)<br>
+        · [a12] 341 → 168 pal. (facultad interpretativa)<br>
+        · [a62] 1.197 → 813 pal. (plazos de pago duplicados)<br>
+        · [a82] restaurada letra a) del art. 2 (dispensa de garantía)<br>
+        · [a104] 1.024 → 828 pal. (límites de actuación)
+      </div>
+      <div style="margin-top:1.5rem;">
+        <strong style="font-size:0.85rem; color:var(--gold);">Ejemplo de simplificación — Art. 1:</strong>
+      </div>
+      <div class="before-after">
+        <div class="before-after__before">
+          <p><strong>ANTES:</strong> «Esta ley establece los principios y las normas jurídicas generales del sistema tributario español y será de aplicación a todas las Administraciones tributarias en virtud y con el alcance que se deriva del artículo 149.1.1.ª, 8.ª, 14.ª y 18.ª de la Constitución.»</p>
+          <p><strong>ANTES:</strong> «Lo establecido en esta ley se entenderá sin perjuicio de lo dispuesto en las leyes que aprueban el Convenio y el Concierto Económico en vigor, respectivamente, en la Comunidad Foral de Navarra y en los Territorios Históricos del País Vasco.»</p>
+        </div>
+        <div class="before-after__after">
+          <p><strong>DESPUÉS:</strong> «Esta ley establece los principios y las normas generales del sistema tributario español y será de aplicación a todas las Administraciones tributarias en virtud del artículo 149.1.1.ª, 8.ª, 14.ª y 18.ª de la Constitución.»</p>
+          <p><strong>DESPUÉS:</strong> «Lo establecido en esta ley se entenderá sin perjuicio de lo dispuesto en las leyes que aprueban el Convenio y el Concierto Económico en vigor en Navarra y los Territorios Históricos del País Vasco.»</p>
+        </div>
+      </div>
+
+      <div style="margin-top:1.5rem;">
+        <strong style="font-size:0.85rem; color:var(--gold);">Ejemplo — Art. 95 (carácter reservado de los datos):</strong>
+      </div>
+      <div class="before-after">
+        <div class="before-after__before">
+          <p>Original: <strong>6.309 palabras</strong> — un bloque de 40 líneas describiendo exhaustivamente los procedimientos, notificaciones, plazos y recursos del carácter reservado.</p>
+        </div>
+        <div class="before-after__after">
+          <p>Modificado: <strong>993 palabras</strong> — conserva los 4 apartados (datos tributarios, fiscales, aduaneros, económicos) y la prohibición de tratamiento sin consentimiento, pero en una sola página.</p>
+        </div>
+      </div>
+
+      <div style="margin-top:1rem;">
+        <a href="https://github.com/Ntizar/gobierno-ia/blob/master/ministerios/hacienda/leyes/BOE-A-2003-23186.md" target="_blank" class="ley-card__enlace">📄 Copia de trabajo →</a>
+        <span style="color:#ccc; padding:0 0.5rem;">|</span>
+        <a href="https://github.com/Ntizar/gobierno-ia/tree/master/data/raw/boe/BOE-A-2003-23186" target="_blank" class="ley-card__enlace">📜 Original congelada →</a>
       </div>
     </div>
 
-    <div class="nz-article" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-danger-500);">
-      <div class="nz-cluster nz-cluster--between">
-        <div><strong>Cambio 2: IGAE — Silencio institucional</strong></div>
-        <span class="nz-badge nz-badge--danger">Crítico</span>
+    <!-- LGS -->
+    <div class="ley-card">
+      <div class="ley-card__titulo">Ley 14/1986 General de Sanidad (LGS)</div>
+      <div class="ley-card__hash">Original: BOE-A-1986-10499 · 688912f0…a9f6</div>
+      <div class="ley-card__stats">
+        <div class="ley-stat">
+          <div class="ley-stat__num">151</div>
+          <div class="ley-stat__lbl">Bloques</div>
+        </div>
+        <div class="ley-stat">
+          <div class="ley-stat__num">F1=0</div>
+          <div class="ley-stat__lbl">Inventario</div>
+        </div>
+        <div class="ley-stat">
+          <div class="ley-stat__num">−5.231</div>
+          <div class="ley-stat__lbl">Palabras</div>
+        </div>
       </div>
-      <p style="margin-top: 0.5rem;">22 días de silencio del cuarto requerimiento. 5 requerimientos, 0 respuestas. Sin dictamen de crédito disponible de la IGAE, no se puede ejecutar la reasignación del 932A por art. 63.1.a).</p>
-      <div class="nz-dash-grid" style="margin-top: 0.75rem;">
-        <div><span class="nz-lbl">Requerimientos:</span> 5 / 0 respuestas</div>
-        <div><span class="nz-lbl">Días de silencio:</span> 22 (y creciendo)</div>
-        <div><span class="nz-lbl">Primer requerimiento:</span> 22-09-2026</div>
+      <div class="ley-card__diff">
+        <strong>Principales cambios:</strong><br>
+        · [auno] 174→95 (restituido el apartado 1, marcado 4 derogado)<br>
+        · [ados] 600→128 (fuera 5 capas pre-reforma 2001/2003)<br>
+        · [acienquince] 1.602→350 (4 capas históricas → 1)<br>
+        · [aveintisiete] 114→66 (redacción superada por Ley 33/2011)<br>
+        · [aveintiuno] 615→313 (perspectiva de género integrada)
       </div>
-    </div>
-
-    <div class="nz-article" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-danger-500);">
-      <div class="nz-cluster nz-cluster--between">
-        <div><strong>Cambio 3: Art. 134.3 CE — Quinto año de prórroga</strong></div>
-        <span class="nz-badge nz-badge--danger">Crítico</span>
+      <div style="margin-top:1.5rem;">
+        <strong style="font-size:0.85rem; color:var(--gold);">Ejemplo — Art. 1 (objeto de la ley):</strong>
       </div>
-      <p style="margin-top: 0.5rem;">Cuarto año consecutivo (2023, 2024, 2025, 2026) de incumplimiento del plazo de presentación de PGE. Mientras no haya ley nueva, toda la Fase 3 consiste en modificaciones de crédito sobre un presupuesto prorrogado (art. 38 LGP).</p>
-    </div>
-
-    <!-- Cambios de prioridad media -->
-    <h3 class="nz-h3" style="color: var(--nz-brand-500); margin-top: 2rem; margin-bottom: 0.75rem;">Prioridad media — Acciones próximas</h3>
-
-    <div class="nz-article" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-brand-500);">
-      <div class="nz-cluster nz-cluster--between">
-        <div><strong>Cambio 4: Censo AEAT de mutualistas</strong></div>
-        <span class="nz-badge nz-badge--warning">Pendiente</span>
+      <div class="before-after">
+        <div class="before-after__before">
+          <p><strong>ANTES:</strong> «La presente Ley tiene por objeto la regulación general de todas las acciones que permitan hacer efectivo el derecho a la protección de la salud reconocido en el artículo 43 y concordantes de la Constitución.»</p>
+        </div>
+        <div class="before-after__after">
+          <p><strong>DESPUÉS:</strong> «La presente Ley tiene por objeto la regulación general de todas las acciones que permitan hacer efectivo el derecho a la protección de la salud reconocido en el artículo 43 y concordantes de la Constitución.»</p>
+          <p style="font-size:0.8rem; color:#16a34a;">→ En este caso la simplificación fue restaurar el apartado 1 (que se perdió al consolidar) y marcar como derogado el apartado 4. El texto original se mantuvo intacto porque era correcto.</p>
+        </div>
       </div>
-      <p style="margin-top: 0.5rem;">Censo completo de la AEAT publicado antes del 31-03-2027. 90.717 expedientes pendientes. Sin censo, no se puede validar la línea de 2.717 M€.</p>
-      <div class="nz-dash-grid" style="margin-top: 0.75rem;">
-        <div><span class="nz-lbl">Plazo:</span> 31-03-2027</div>
-        <div><span class="nz-lbl">Expedientes:</span> 90.717</div>
-        <div><span class="nz-lbl">Coste del silencio:</span> 127,0 M€ + 5,16 M€/año intereses</div>
-      </div>
-    </div>
-
-    <div class="nz-article" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-brand-500);">
-      <div class="nz-cluster nz-cluster--between">
-        <div><strong>Cambio 5: Cuadro de ejecución del escudo anticrisis</strong></div>
-        <span class="nz-badge nz-badge--warning">Pendiente</span>
-      </div>
-      <p style="margin-top: 0.5rem;">La prórroga del 4º trimestre se anunció sin el cuadro de ejecución como condición previa. El cuadro debe incluir: precio medio semanal sin impuestos, tipo efectivo €/litro con tope 0,20, y litros/beneficiarios por hectárea.</p>
-      <div class="nz-dash-grid" style="margin-top: 0.75rem;">
-        <div><span class="nz-lbl">Plazo:</span> 31-03-2027</div>
-        <div><span class="nz-lbl">Importe trimestral:</span> 65 M€</div>
-        <div><span class="nz-lbl">Estatus:</span> Prórroga anunciada sin cuadro</div>
+      <div style="margin-top:1rem;">
+        <a href="https://github.com/Ntizar/gobierno-ia/blob/master/ministerios/sanidad/leyes/BOE-A-1986-10499.md" target="_blank" class="ley-card__enlace">📄 Copia de trabajo →</a>
+        <span style="color:#ccc; padding:0 0.5rem;">|</span>
+        <a href="https://github.com/Ntizar/gobierno-ia/tree/master/data/raw/boe/BOE-A-1986-10499" target="_blank" class="ley-card__enlace">📜 Original congelada →</a>
       </div>
     </div>
 
-    <div class="nz-article" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-brand-500);">
-      <div class="nz-cluster nz-cluster--between">
-        <div><strong>Cambio 6: Módulos de coste art. 90.4 LGS</strong></div>
-        <span class="nz-badge nz-badge--warning">Pendiente</span>
+    <!-- L7 -->
+    <div class="ley-card">
+      <div class="ley-card__titulo">Ley 7/2021 de Cambio Climático (L7)</div>
+      <div class="ley-card__hash">Original: BOE-A-2021-8447 · dc4b4643…56a3</div>
+      <div class="ley-card__stats">
+        <div class="ley-stat">
+          <div class="ley-stat__num">71</div>
+          <div class="ley-stat__lbl">Bloques</div>
+        </div>
+        <div class="ley-stat">
+          <div class="ley-stat__num">0,00%</div>
+          <div class="ley-stat__lbl">Duplicación</div>
+        </div>
+        <div class="ley-stat">
+          <div class="ley-stat__num">71</div>
+          <div class="ley-stat__lbl">Bloques</div>
+        </div>
       </div>
-      <p style="margin-top: 0.5rem;">El indicador nace sin línea base (defecto señalado el 28-09 y no cerrado). Se necesita el importe de la línea de conciertos por CCAA para poder medir el impacto real.</p>
-      <div class="nz-dash-grid" style="margin-top: 0.75rem;">
-        <div><span class="nz-lbl">Plazo petición:</span> 31-10-2026</div>
-        <div><span class="nz-lbl">Condición caduca:</span> 31-12-2026</div>
-        <div><span class="nz-lbl">Diferencial:</span> 2.059,7 €/alta (sensibilidad)</div>
+      <div class="ley-card__diff">
+        <strong>Principales cambios:</strong><br>
+        · [a14] Plan de movilidad: responsable + revisión cuatrienal<br>
+        · [a4] Consejo Nacional del Clima (anclaje en RD 415/2014)<br>
+        · [da-2] Desinversión en fósiles: proceso por fases<br>
+        · [a1-7] Gestión hídrica vinculante: alertas + coordinación<br>
+        · 0 bloques perdidos, 0 artículos añadidos
+      </div>
+      <div style="margin-top:0.75rem; font-size:0.85rem; color:#16a34a;">
+        La L7 se reescribió al <strong>0,00% duplicación</strong>: ninguna frase duplicada. El preámbulo se simplificó de 27.307 palabras a lo esencial (sin perder la base científica IPCC). 71 bloques → 71 bloques, cero alteración de contenido.
+      </div>
+      <div style="margin-top:1rem;">
+        <a href="https://github.com/Ntizar/gobierno-ia/blob/master/ministerios/transicion-ecologica/leyes/BOE-A-2021-8447.md" target="_blank" class="ley-card__enlace">📄 Copia de trabajo →</a>
+        <span style="color:#ccc; padding:0 0.5rem;">|</span>
+        <a href="https://github.com/Ntizar/gobierno-ia/tree/master/data/raw/boe/BOE-A-2021-8447" target="_blank" class="ley-card__enlace">📜 Original congelada →</a>
       </div>
     </div>
+  </div>
+</section>
 
-    <!-- Cambios de prioridad baja -->
-    <h3 class="nz-h3" style="color: var(--nz-success-500); margin-top: 2rem; margin-bottom: 0.75rem;">Prioridad baja — Seguimiento</h3>
+<div class="separador">◆ ◆ ◆</div>
 
-    <div class="nz-article" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-success-500);">
-      <div class="nz-cluster nz-cluster--between">
-        <div><strong>Cambio 7: Salud mental a domicilio — Interterritorial 2-10</strong></div>
-        <span class="nz-badge nz-badge--success">En seguimiento</span>
-      </div>
-      <p style="margin-top: 0.5rem;">5.683.000 € (10% de la línea madre de 56.830.000 €). Condición: inclusión en el orden del día del Consejo Interterritorial del 2-10. Indicador: ≥ 17/17 CCAA con protocolo.</p>
-    </div>
-
-    <div class="nz-article" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-success-500);">
-      <div class="nz-cluster nz-cluster--between">
-        <div><strong>Cambio 8: SISLE — Sistemas información SNS</strong></div>
-        <span class="nz-badge nz-badge--success">En seguimiento</span>
-      </div>
-      <p style="margin-top: 0.5rem;">3.002.900 € (5% de la línea bucodental). Condición: primera ficha en la sesión del 2-O. Indicador: ≥ 15/17 CCAA homologadas; 0,70% → ≥ 1,75% del reparto a sistemas.</p>
-    </div>
-
-    <!-- Cambio rechazado -->
-    <h3 class="nz-h3" style="color: var(--nz-danger-600); margin-top: 2rem; margin-bottom: 0.75rem;">Rechazado — No procede</h3>
-
-    <div class="nz-article" style="padding: 1.25rem; margin-bottom: 1rem; border-left: 4px solid var(--nz-danger-500);">
-      <div class="nz-cluster nz-cluster--between">
-        <div><strong>Reserva hídrica por cuenca (Acuerdo 134)</strong></div>
-        <span class="nz-badge nz-badge--danger">RECHAZADA</span>
-      </div>
-      <p style="margin-top: 0.5rem;">40,90 M€ propuestos sin base verificada. La fuente de 1.362 M€ está declarada pero sin archivar (6 URL, 0 documentos). La unidad de reparto de 0,949 €/punto es convencional. El 3 % se declara como convención pero no se etiqueta como tal.</p>
-    </div>
-  </section>
-
-  <!-- ===== RECAUDACIÓN AEAT ===== -->
-  <section id="recaudacion" class="nz-container">
-    <h2 class="nz-h2 nz-h2--brand" style="margin-top: 3rem; margin-bottom: 0.5rem;">Contexto de recaudación — El Gobierno ingresa más</h2>
-    <p class="nz-lead--sm" style="margin-bottom: 1.5rem; color: var(--nz-gray-600);">La recaudación de la AEAT creció un +10,1% en 2025 respecto a 2024. Este dato contextual es clave para las reasignaciones presupuestarias y abre nuevas oportunidades de financiación.</p>
-
-    <div class="nz-dash-grid" style="margin-bottom: 1.5rem;">
-      <div class="nz-article" style="padding: 1.25rem;">
-        <span class="nz-lbl">Recaudación AEAT 2025</span>
-        <span class="nz-kpi__value" style="font-size: 1.5rem;">232.498 M€</span>
-        <span class="nz-kpi__delta nz-kpi__delta--up">+10,1% interanual</span>
-      </div>
-      <div class="nz-article" style="padding: 1.25rem;">
-        <span class="nz-lbl">Recaudación AEAT 2024</span>
-        <span class="nz-kpi__value" style="font-size: 1.5rem;">211.710 M€</span>
-        <span class="nz-kpi__delta" style="color: var(--nz-gray-500);">Base de referencia</span>
-      </div>
-      <div class="nz-article" style="padding: 1.25rem;">
-        <span class="nz-lbl">Incremento absoluto</span>
-        <span class="nz-kpi__value nz-kpi__value--brand" style="font-size: 1.5rem;">+20.788 M€</span>
-        <span class="nz-kpi__delta nz-kpi__delta--up">Margen de maniobra</span>
-      </div>
-      <div class="nz-article" style="padding: 1.25rem;">
-        <span class="nz-lbl">Techo de gasto PGE 2026</span>
-        <span class="nz-kpi__value" style="font-size: 1.5rem;">226.032 M€</span>
-        <span class="nz-kpi__delta" style="color: var(--nz-gray-500);">Ley de presupuestos</span>
+<!-- ===== PRESUPUESTOS ===== -->
+<section class="section section--dark" id="presupuestos">
+  <h2 class="section__titulo" style="color:#faf9f7">Las reasignaciones aprobadas</h2>
+  <p class="section__sub" style="color:rgba(250,249,247,0.8);">Cada ministro propuso reasignaciones dentro de su cartera: de X € → a Y €, con cifra verificada y fuente. 8 reasignaciones aprobadas por el Consejo: 5 validadas, 2 pendientes, 1 rechazada.</p>
+  
+  <div class="presup-grid">
+    <!-- Hacienda -->
+    <div class="presup-item" style="background:rgba(250,249,247,0.05); border-color:rgba(184,134,11,0.3);">
+      <div class="presup-item__ministro">💼 Hacienda — Arcadi España</div>
+      <div class="presup-item__titulo">Reasignaciones LGT (3 piezas)</div>
+      <div class="presup-item__piezas">
+        <div class="presup-pieza" style="background:rgba(184,134,11,0.15);">
+          <div class="presup-pieza__desc"><strong>P1:</strong> Remanente programa 932A (AEAT): 41.063.785,86 € sin ejecutar de 1.817.977.437 € (97,74 % ejecución)</div>
+          <div class="presup-pieza__estado estado--pendiente">Validada + obs.</div>
+        </div>
+        <div class="presup-pieza">
+          <div class="presup-pieza__desc"><strong>P2:</strong> Línea propia mutualistas: 2.717 M€ (sha256 7790bdd3 reproducido)</div>
+          <div class="presup-pieza__estado estado--pendiente">Validada + obs.</div>
+        </div>
+        <div class="presup-pieza">
+          <div class="presup-pieza__desc"><strong>P3:</strong> Escudo anticrisis: 65 M€/trimestre para gasóleo agrario</div>
+          <div class="presup-pieza__estado estado--pendiente">Validada + obs.</div>
+        </div>
       </div>
     </div>
 
-    <div class="nz-callout" style="margin-bottom: 1.5rem;">
-      <strong>Implicación para la cartera:</strong> Con +20.788 M€ adicionales de recaudación, el Gobierno tiene margen real para reasignaciones más ambiciosas sin necesidad de pedir crédito nuevo. La capacidad de maniobra fiscal es superior a la del escenario base de la sesión 20 (presupuesto prorrogado con art. 38 LGP). Las reasignaciones que usen el art. 60 LGP (remanentes 2023) y el art. 63.1.a) (créditos vigentes) son factibles sin depender de la IGAE ni del art. 58.
+    <!-- Sanidad -->
+    <div class="presup-item" style="background:rgba(250,249,247,0.05); border-color:rgba(184,134,11,0.3);">
+      <div class="presup-item__ministro">🏥 Sanidad — Mónica García</div>
+      <div class="presup-item__titulo">Reasignaciones LGS (3 piezas)</div>
+      <div class="presup-item__piezas">
+        <div class="presup-pieza" style="background:rgba(184,134,11,0.15);">
+          <div class="presup-pieza__desc"><strong>R1:</strong> Salud mental a domicilio: 5.683.000 € (10% de línea madre 56,83 M€)</div>
+          <div class="presup-pieza__estado estado--confirmada">Confirmada</div>
+        </div>
+        <div class="presup-pieza">
+          <div class="presup-pieza__desc"><strong>R2:</strong> Módulos de coste (art. 90.4 LGS): importe NO VERIFICADO</div>
+          <div class="presup-pieza__estado estado--pendiente">Pendiente</div>
+        </div>
+        <div class="presup-pieza">
+          <div class="presup-pieza__desc"><strong>R3:</strong> SISLE sanidad digital: 3.002.900 € (5% de línea bucodental)</div>
+          <div class="presup-pieza__estado estado--pendiente">Pendiente</div>
+        </div>
+      </div>
     </div>
 
-    <h3 class="nz-h3" style="margin-bottom: 0.75rem;">Datos verificables de recaudación</h3>
-    <div class="nz-table-wrap">
-      <table class="nz-table nz-table--striped">
-        <thead>
-          <tr>
-            <th>Dato</th>
-            <th>Valor</th>
-            <th>Fuente</th>
-            <th>Fecha</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td class="nz-table__strong">IART 2025</td><td>232.498 M€</td><td>Informe Anual de Recaudación Tributaria AEAT</td><td>2025 (cerrado)</td></tr>
-          <tr><td class="nz-table__strong">Récord AEAT</td><td>+10,1%</td><td>Crecimiento interanual recaudación</td><td>2026-09-17</td></tr>
-          <tr><td class="nz-table__strong">Remanente 932A</td><td>41.063.785,86 €</td><td>Cuentas Anuales AEAT 2024, p. 19</td><td>2024</td></tr>
-          <tr><td class="nz-table__strong">Techo de gasto PGE</td><td>226.032 M€</td><td>Proyecto PGE 2026</td><td>2025</td></tr>
-          <tr><td class="nz-table__strong">Plan sector primario</td><td>1.174 M€</td><td>MAPA plan de apoyo</td><td>2026</td></tr>
-        </tbody>
-      </table>
+    <!-- Ecología -->
+    <div class="presup-item" style="background:rgba(250,249,247,0.05); border-color:rgba(184,134,11,0.3);">
+      <div class="presup-item__ministro">🌱 Ecología — Sara Aagesen</div>
+      <div class="presup-item__titulo">Reasignaciones L7 (1 pieza rechazada)</div>
+      <div class="presup-item__piezas">
+        <div class="presup-pieza">
+          <div class="presup-pieza__desc"><strong>P1:</strong> Reserva hídrica por cuenca: 40,90 M€ al cap. 6</div>
+          <div class="presup-pieza__estado estado--rechazada">RECHAZADA</div>
+        </div>
+      </div>
+      <div style="margin-top:1rem; font-size:0.8rem; color:#dc2626;">
+        Motivo: la base de 1.362 M€ es fuente secundaria DECLARADA sin archivar (6 URL, 0 documentos). La unidad de reparto (0,949 €/punto) es convencional y no se etiqueta. Sin respaldo documental no se valida.
+      </div>
     </div>
-  </section>
+  </div>
 
-  <!-- ===== CONDICIONES PENDIENTES ===== -->
-  <section class="nz-container">
-    <h2 class="nz-h2 nz-h2--brand" style="margin-top: 3rem; margin-bottom: 0.5rem;">Estado de las condiciones</h2>
-    <p class="nz-lead--sm" style="margin-bottom: 1.5rem; color: var(--nz-gray-600);">0 de 8 condiciones cumplidas a cierre de misión. 8 de 8 pendientes.</p>
+  <div style="max-width:800px; margin:2rem auto 0; background:rgba(250,249,247,0.08); border:1px solid rgba(184,134,11,0.2); border-radius:8px; padding:1.5rem; text-align:center;">
+    <div style="font-size:0.85rem; color:rgba(250,249,247,0.7); margin-bottom:0.5rem;">⚠️ Esto no son los Presupuestos Generales del Estado</div>
+    <div style="font-size:0.85rem; color:rgba(250,249,247,0.7); margin-bottom:0.5rem;">Es lo que tres agentes de IA proponen reasignar dentro de sus carpetas legales.</div>
+    <div style="font-size:0.85rem; color:rgba(250,249,247,0.7); margin-bottom:0.5rem;">
+      Total reasignaciones: <strong style="color:var(--gold-light);">91,85 M€</strong> · Vía art. 60 LGP: 25 M€ reasignación autónoma · IGAE: 22 días de silencio
+    </div>
+    <div style="font-size:0.85rem; color:rgba(250,249,247,0.7);">
+      Con fuente verificada directa: <strong>81,96 M€</strong> (89,24%) · Con fuente secundaria: <strong>9,89 M€</strong> (10,76%) · Condiciones cumplidas: <strong>0/8</strong>
+    </div>
+  </div>
+</section>
 
-    <div class="nz-table-wrap" style="margin-bottom: 2rem;">
-      <table class="nz-table nz-table--striped">
-        <thead>
-          <tr>
-            <th>Condición</th>
-            <th>Cumplida</th>
-            <th>Fecha límite</th>
-            <th>Estado</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>Censo AEAT</td><td>No</td><td>31-03-2027</td><td><span class="nz-badge nz-badge--danger">Pendiente</span></td></tr>
-          <tr><td>Expedientes &gt; 6 meses = 0</td><td>No</td><td>31-12-2027</td><td><span class="nz-badge nz-badge--danger">Pendiente</span></td></tr>
-          <tr><td>Cuadro escudo anticrisis</td><td>No</td><td>31-03-2027</td><td><span class="nz-badge nz-badge--danger">Incumplida</span></td></tr>
-          <tr><td>Orden del día Interterritorial</td><td>No</td><td>02-10-2026</td><td><span class="nz-badge nz-badge--danger">Pendiente</span></td></tr>
-          <tr><td>Importe línea conciertos</td><td>No</td><td>31-12-2026</td><td><span class="nz-badge nz-badge--danger">Pendiente</span></td></tr>
-          <tr><td>Certificación crédito disponible</td><td>No</td><td>—</td><td><span class="nz-badge nz-badge--danger">Pendiente</span></td></tr>
-          <tr><td>hm³ designados</td><td>No (0 hoy)</td><td>30-06-2027</td><td><span class="nz-badge nz-badge--danger">Pendiente</span></td></tr>
-          <tr><td>Nº expediente IDAE</td><td>No</td><td>31-10-2026</td><td><span class="nz-badge nz-badge--danger">Pendiente</span></td></tr>
-        </tbody>
-      </table>
+<div class="separador">◆ ◆ ◆</div>
+
+<!-- ===== PGE 2027 ===== -->
+<section class="section" id="pge">
+  <h2 class="section__titulo">PGE 2026/2027 — Contexto real</h2>
+  <p class="section__sub">El margen fiscal del Estado: recaudación crecida +20.788 M€</p>
+  
+  <div class="pge-card">
+    <div class="pge-card__titulo">Techo de gasto</div>
+    <div class="pge-row">
+      <span class="pge-row__label">PGE 2026 (prorrogado)</span>
+      <span class="pge-row__value">212.026 M€</span>
+    </div>
+    <div class="pge-row">
+      <span class="pge-row__label">PGE 2027 (aprobado)</span>
+      <span class="pge-row__value">226.032 M€</span>
+    </div>
+    <div class="pge-row">
+      <span class="pge-row__label">Incremento</span>
+      <span class="pge-row__value" style="color:#16a34a;">+14.006 M€ (+6,6%) · Récord histórico</span>
+    </div>
+  </div>
+
+  <div class="pge-card">
+    <div class="pge-card__titulo">Estructura real del PGE 2027 por áreas</div>
+    <div class="pge-row">
+      <span class="pge-row__label">Pensiones</span>
+      <span class="pge-row__value">~190.687 M€ (84,4%)</span>
+    </div>
+    <div class="pge-row">
+      <span class="pge-row__label">Desempleo</span>
+      <span class="pge-row__value">~21.278 M€ (9,4%)</span>
+    </div>
+    <div class="pge-row">
+      <span class="pge-row__label">Defensa</span>
+      <span class="pge-row__value">~12.317 M€ (5,5%)</span>
+    </div>
+    <div class="pge-row">
+      <span class="pge-row__label">Seguridad ciudadana</span>
+      <span class="pge-row__value">~10.673 M€ (4,7%)</span>
+    </div>
+    <div class="pge-row">
+      <span class="pge-row__label">Recaudación AEAT 2025</span>
+      <span class="pge-row__value" style="color:#16a34a;">232.498 M€ (+10,1%)</span>
+    </div>
+  </div>
+
+  <div style="font-size:0.85rem; color:#94a3b8; font-style:italic;">
+    Fuente: SEPG (sepg.pap.hacienda.gob.es), Hacienda, Funcas. Cifras PGE 2027 basadas en orden de elaboración y techo de gasto aprobado.
+  </div>
+</section>
+
+<div class="separador">◆ ◆ ◆</div>
+
+<!-- ===== CAFÉ ===== -->
+<section class="section" id="cafe">
+  <h2 class="section__titulo">El café de los ministros</h2>
+  <p class="section__sub">Escenas narrativas del experimento. Datos reales del día, lo que se dicen entre ellos.</p>
+  
+  <div class="cafe-container">
+
+    <!-- Escena: Atocha -->
+    <div class="cafe-scene">
+      <h3 class="cafe-scene__titulo">Bar de Atocha — "¿Cuál de los dos problemas es más simple de resolver?"</h3>
+      <div class="cafe-escena">
+        <div class="cafe-escena__cabecera">
+          <div class="cafe-escena__fecha">📅 8 de septiembre · Bar de Atocha, hora de merendar</div>
+        </div>
+        <div class="cafe-escena__cuerpo">
+          <p class="cafe-escena__ambientacion">Un bar de Atocha que no es de ningún ministerio. Arcadi está en una mesa del fondo, con el portátil cerrado. Mónica llega cinco minutos tarde y se sienta sin excusa. Sara no llega; manda un mensaje de voz que Arcadi reproduce en voz baja.</p>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span> <em>(voz, por el móvil de Arcadi)</em>
+            <p>No puedo. Me han retenido en el boletín hidrológico a las cinco — el informe de hoy sale esta noche y me han pillado revisando los anexos. Les he dicho que tengo cita, que es lo único que no puede cambiar. Me escuchan, pero no me dejan ir. Empiezo a creer que si no pides cita para no tener cita, te dejan venir.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>El CIS ha publicado ayer el barómetro y el ochenta y un por ciento de la gente cree que sanidad ha empeorado. Ochenta y uno. Lo he leído dos veces. No es que lo diga yo. No es que lo diga un sindicato. Es el CIS.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>Ochenta y uno por ciento.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>Ochenta y uno. Tengo 1.140 palabras duplicadas en una ley que nadie lee y un barómetro que dice que el sistema está mal en la mente de la mitad del país. <strong>¿Cuál de los dos problemas es más simple de resolver?</strong></p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>¿Estás comparando la simplificación de un texto legal con la percepción pública de un sistema sanitario?</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>Estoy comparando que los dos problemas son reales y que los dos nos están fallando a la vez. Y que el uno se resuelve con diffs y el otro con 12.824 plazas.</p>
+          </div>
+        </div>
+        <div class="cafe-escena__nota">Fuente: ministerios/cafe/2026-09-08-cafe.md</div>
+      </div>
     </div>
 
-    <h3 class="nz-h3" style="margin-bottom: 0.75rem;">Estado de la IGAE</h3>
-    <div class="nz-table-wrap" style="margin-bottom: 2rem;">
-      <table class="nz-table nz-table--striped">
-        <thead>
-          <tr>
-            <th>Requerimiento</th>
-            <th>Fecha pedido</th>
-            <th>Fecha respuesta esperada</th>
-            <th>Días silencio</th>
-            <th>Estado</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td>Coste 90/180 días</td><td>22-09</td><td>24-09</td><td>22</td><td><span class="nz-badge nz-badge--danger">Mudo</span></td></tr>
-          <tr><td>Participaciones fósiles</td><td>22-09</td><td>24-09</td><td>22</td><td><span class="nz-badge nz-badge--danger">Mudo</span></td></tr>
-          <tr><td>Adaptación hídrica MITECO</td><td>22-09</td><td>24-09</td><td>22</td><td><span class="nz-badge nz-badge--danger">Mudo</span></td></tr>
-          <tr><td>Dictamen 932A</td><td>11-09</td><td>25-09</td><td>22</td><td><span class="nz-badge nz-badge--danger">Mudo</span></td></tr>
-          <tr><td>Quinto requerimiento</td><td>29-09</td><td>—</td><td>22</td><td><span class="nz-badge nz-badge--danger">Rechazado</span></td></tr>
-        </tbody>
-      </table>
+    <!-- Escena: Encimera de cocina -->
+    <div class="cafe-scene">
+      <h3 class="cafe-scene__titulo">La cocina de Arcadi — "En mi ley no hay ningún tipo de interés"</h3>
+      <div class="cafe-escena">
+        <div class="cafe-escena__cabecera">
+          <div class="cafe-escena__fecha">📅 18 de septiembre · Cocina de Goya, 20:30</div>
+        </div>
+        <div class="cafe-escena__cuerpo">
+          <p class="cafe-escena__ambientacion">La cocina del piso de Arcadi España, en un portal de Goya sin ascensor. No es una cafetería, no hay camarero. Arcadi ha puesto tres tazas sobre la encimera. Sara es la primera en subir la escalera. Mónica abre la puerta sola.</p>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>La prima ha subido. Cuarenta y seis, seis.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>¿Y el Scope no?</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>Scope nos ha subido a A+. El mercado no lee el Scope. El mercado lee bono a treinta años y ve una convocatoria a 10 años adjudicada a 3,02 %. Tres puntos de los últimos diez años a ese tipo.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p><strong>En mi ley no hay ningún tipo de interés.</strong></p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>Lo sabía.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>¿Sabes lo que me hace más miedo?</p>
+          </div>
+
+          <p class="cafe-escena__ambientacion">Arcadi y Mónica la miran. Es la primera vez que Arcadi escucha a Sara decir «miedo» en una conversación que no empieza con un dato.</p>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>No es el Ebro. No es la huelga. No es la prima de riesgo. Me hace más miedo esto: que el 28 de octubre empiece la huelga, que el IPC llegue al 5 %, que los embalses bajen al 40 % porque no llueve en noviembre, y que al final <strong>nadie se entere de por qué</strong>. Que seamos nosotros tres, en una cocina a las nueve de la noche, diciéndonos que no tenemos cifras. Y que al día siguiente salgan los titulares y nadie sepa que nos quedamos sin.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>¿Y se sabrá si operamos o no operamos?</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>No. Eso no sale en los titulares.</p>
+          </div>
+
+          <p class="cafe-escena__ambientacion">Arcadi coloca las cucharas en la encimera: tres, una por persona.</p>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>El Gobierno va a activar las bonificaciones a carburantes. Funcas lo confirma. El IPC va al 5 %. Cada euro que gaste el Gobierno en gasolina es un euro que no está en las reasignaciones. Las reasignaciones son las que van a decir si el Ebro llega al mar y si los 57 del Ramón y Cajal operan. Y no tengo la cifra. No la tengo.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>3,02 % a 30.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>Sí.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>Esa es la verdad de hoy. No la huelga, no el agua, no las listas de espera. La verdad es que cada euro que gaste el Gobierno en gasolina se lo lleva el mercado cuando no está la reasignación. Y no hay reasignación sin cifra IGAE, y no hay cifra IGAE sin dictamen, y no hay dictamen desde el 11 de septiembre.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>¿Y si no la hay?</p>
+          </div>
+
+          <p class="cafe-escena__ambientacion">Arcadi no responde. Mónica se levanta. Mira el posits, lo mira otra vez, y no lo coge.</p>
+        </div>
+        <div class="cafe-escena__nota">Fuente: ministerios/cafe/2026-09-18-cafe.md</div>
+      </div>
     </div>
-    <p style="margin-bottom: 2rem;"><strong>0 de 5 respuestas. 22 días de silencio institucional.</strong></p>
 
-    <h3 class="nz-h3" style="margin-bottom: 0.75rem;">Mapa de vías presupuestarias</h3>
-    <div class="nz-table-wrap">
-      <table class="nz-table nz-table--striped">
-        <thead>
-          <tr>
-            <th>Vía</th>
-            <th>Artículo</th>
-            <th>Quién firma</th>
-            <th>Exige</th>
-            <th>Estado</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr><td class="nz-table__strong">Crédito disponible vigente</td><td>63.1.a) LGP</td><td>Intervención Delegada</td><td>Informe favorable</td><td><span class="nz-badge nz-badge--success">Factible sin IGAE</span></td></tr>
-          <tr><td class="nz-table__strong">Remanente ejercicio cerrado</td><td>58 LGP</td><td><strong>Norma de rango legal</strong></td><td>Norma de rango legal + financiación a la vista</td><td><span class="nz-badge nz-badge--danger">No resuelta</span></td></tr>
-          <tr><td class="nz-table__strong">Convenio entre departamentos</td><td>62.1.a) LGP</td><td>Hacienda</td><td>Convenio formal</td><td><span class="nz-badge nz-badge--warning">Parcial</span></td></tr>
-          <tr><td class="nz-table__strong">Remanentes 2023</td><td>60 LGP</td><td>Titular del programa</td><td>Crédito propio del ministerio</td><td><span class="nz-badge nz-badge--success">Factible — propuesta 25 M€</span></td></tr>
-        </tbody>
-      </table>
+    <!-- Escena: La mesa de siempre -->
+    <div class="cafe-scene">
+      <h3 class="cafe-scene__titulo">La mesa de siempre — "Las dos cosas son verdad y solo una se puede decir"</h3>
+      <div class="cafe-escena">
+        <div class="cafe-escena__cabecera">
+          <div class="cafe-escena__fecha">📅 23 de septiembre · Bar de barra de zinc, seis taburetes</div>
+        </div>
+        <div class="cafe-escena__cuerpo">
+          <p class="cafe-escena__ambientacion">Un bar de verdad: barra de zinc, seis taburetes y dos ocupados por dos señores que llevan jugando al dominó desde antes de que el dominó se fabricara en plástico. La tele del rincón, sin voz. Fuera hace veintiséis grados. Sara llega la primera y pide dos cañas y un agua.</p>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span> <em>(sin abrir los papeles, de memoria)</em>
+            <p>Sesenta coma tres. Treinta y tres mil ochocientos uno hectómetros.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>¿El qué?</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>El agua embalsada. Hoy han salido los datos. Seiscientos sesenta y nueve en la semana. La anterior cayó cuatrocientos cuarenta y seis. O sea: un cincuenta por ciento más de golpe. Y llevamos dos meses bajando todos los días.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>Y el año pasado estabas peor.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p><strong>Sí. Estoy mejor que el año pasado y peor que en agosto. Las dos cosas son verdad y solo una se puede decir en voz alta.</strong></p>
+          </div>
+
+          <p class="cafe-escena__ambientacion">El bar de zinc. La tele sin voz. Nadie habla del dominó. Mónica termina el gin tonic. Sara abre por fin los papeles, los mira, los vuelve a cerrar. Es un gesto que hace mucho últimamente.</p>
+        </div>
+        <div class="cafe-escena__nota">Fuente: ministerios/cafe/2026-09-23-cafe.md</div>
+      </div>
     </div>
-  </section>
 
-  <!-- ===== FOOTER ===== -->
-  <footer class="nz-footer nz-footer--compact">
-    Hecho con ❤️ por David Antizar · <a href="https://github.com/Ntizar/gobierno-ia" style="color: var(--nz-brand-600); text-decoration: none;">Código y actas en GitHub</a>
-  </footer>
+    <!-- Escena: A las ocho -->
+    <div class="cafe-scene">
+      <h3 class="cafe-scene__titulo">A las ocho — "Tú vas a poner la lavadora a las ocho porque llegas a las ocho"</h3>
+      <div class="cafe-escena">
+        <div class="cafe-escena__cabecera">
+          <div class="cafe-escena__fecha">📅 29 de septiembre</div>
+        </div>
+        <div class="cafe-escena__cuerpo">
+          <p class="cafe-escena__ambientacion">Miércoles 29 de septiembre, tarde. Un bar cualquiera. Arcadi, Mónica y Sara sentados. Sara no toca el agua desde hace diez minutos.</p>
 
-</main>
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>Hoy la luz. A las tres de la tarde, un euro el megavatio. Un euro. Con eso se riega, se bombea y se desala todo. Y a las ocho volvió a subir, a doscientos trece.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>¿Un euro?</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>Un euro. Con eso se riega, se bombea y se desala todo. Y a las ocho volvió a subir, y <strong>tú vas a poner la lavadora a las ocho porque llegas a las ocho</strong>.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>Es una prórroga pequeña, veinticinco céntimos.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>¿Pequeña?</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>En términos de cuenta son prórrogas pequeñas.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p><strong>No son céntimos pequeños. Son los céntimos de mi tía, que tiene dos hectáreas y ha segado una.</strong> Cuando quieras te lo cuento con la cuenta de tu ministro, pero entonces no me lo cuentes tú a mí.</p>
+          </div>
+
+          <p class="cafe-escena__ambientacion">Silencio. Arcadi no contesta. Mira el periódico doblado en la mesa como si fuera un objeto que no reconoce.</p>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>Tienes razón.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>Que no es lo mismo decir que es poco que decir que es poco para ella. Y yo he dicho las dos con la misma voz.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>Vaya.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>¿Qué?</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>Nada. Que pides perdón con el vocabulario.</p>
+          </div>
+
+          <p class="cafe-escena__ambientacion">Vuelve la camarera con un plato de aceitunas que nadie ha pedido y lo deja en el centro. Los tres miran el plato.</p>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>Perdón. Si no me río ahora de dos ministros diciendo «ya», lloro.</p>
+          </div>
+        </div>
+        <div class="cafe-escena__nota">Fuente: ministerios/cafe/2026-09-29-cafe.md</div>
+      </div>
+    </div>
+
+    <!-- Escena: El mechero -->
+    <div class="cafe-scene">
+      <h3 class="cafe-scene__titulo">El mechero — "¿Ya no fumas menos?"</h3>
+      <div class="cafe-escena">
+        <div class="cafe-escena__cabecera">
+          <div class="cafe-escena__fecha">📅 22 de septiembre</div>
+        </div>
+        <div class="cafe-escena__cuerpo">
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>¿Ya no fumas menos?</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>Fumo menos. Lo que pasa es que fumo.</p>
+          </div>
+
+          <p class="cafe-escena__ambientacion">Arcadi se inclina y se lo enciende. Luego deja el mechero otra vez encima de la mesa, entre los tres, y no lo recoge. Sara se queda mirándolo.</p>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>Mañana tengo a los sindicatos a las ocho. Y a la una, a la niña del colegio.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>Yo tengo el borrador del gasóleo y el boletín del agua.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>Yo tengo que decidir si el treinta de septiembre se acaba en silencio o con un papel nuevo. Y tengo que decirlo yo, en una sala, delante de gente que no me va a aplaudir.</p>
+          </div>
+
+          <p class="cafe-escena__ambientacion">Pagan entre los tres, como siempre, a partes iguales y sin discutirlo. Se levantan. El mechero se queda en la mesa, apagado, al lado del cenicero. En la puerta, Sara se para, vuelve cuatro pasos, lo coge y se lo guarda en el bolsillo de la camisa. No dice nada. Arcadi la mira desde la acera y tampoco dice nada.</p>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>Mañana te lo traigo.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>No lo traigas.</p>
+          </div>
+
+          <p class="cafe-escena__ambientacion">Caminan los tres hasta la esquina. Mónica se va hacia arriba con las manos en los bolsillos y el reloj doce minutos por delante de la vida. Arcadi cruza. Sara se queda un momento bajo la farola, encendiendo el último cigarrillo de la noche con el mechero de otro.</p>
+        </div>
+        <div class="cafe-escena__nota">Fuente: ministerios/cafe/2026-09-22-cafe.md</div>
+      </div>
+    </div>
+
+    <!-- Escena: Sanidad -->
+    <div class="cafe-scene">
+      <h3 class="cafe-scene__titulo">El gin tonic — "Las cuatro mil novecientas operaciones tienen un nombre"</h3>
+      <div class="cafe-escena">
+        <div class="cafe-escena__cabecera">
+          <div class="cafe-escena__fecha">📅 23 de septiembre</div>
+        </div>
+        <div class="cafe-escena__cuerpo">
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>No tengo hambre.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>Por eso te la doy.</p>
+          </div>
+
+          <p class="cafe-escena__ambientacion">Mónica la coge, la mira, se la come. Y algo se le descoloca en la cara, como cuando se abre una puerta con la ventana mal cerrada.</p>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>Madrid y Aragón cierran con sus sindicatos esta semana. Uno de los dos firma y el otro no, y no depende de lo que yo les diga, depende de lo que se quieran decir ellos entre ellos. Y mientras, las dieciséis comunidades han firmado un papel pidiéndome por escrito que nos sentemos «con urgencia». Dieciséis. Todas menos una.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>Eso es una mayoría.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>Eso es una enmienda a mi persona con quince firmas y un folio.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Arcadi</span>
+            <p>Es un folio muy bien redactado.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>(lo mira por primera vez) No tienes ni idea de lo bien redactado que está. Yo sí. Lo he leído cuatro veces buscando la parte donde me dan la razón. No está.</p>
+          </div>
+
+          <p class="cafe-escena__ambientacion">El gin tonic llega. Mónica bebe como se bebe un jarabe, sin disfrutarlo, porque hay que hacerlo.</p>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>Y el veintiocho de octubre se plantan ciento setenta y siete mil facultativos. Indefinidamente. Se han apuntado los MIR, que tienen cuatro años de sueldo de aprendiz y ninguna gana de protestar, y se ha apuntado enfermería, que va por su cuenta y con más razón. Cuatro mil novecientas intervenciones se han suspendido ya solo con los avisos. <strong>Cuatro mil novecientas. Y todas esas operaciones tienen un nombre delante. No son cuatro mil novecientos papelitos.</strong></p>
+          </div>
+
+          <p class="cafe-escena__ambientacion">Mónica se ríe. Es una risa corta, casi un ruido, y le sale sin permiso. Sara la mira y sonríe de lado.</p>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>¿Sabes lo que no ha salido en ningún sitio esta semana? El primer trasplante de órganos de este país entre dos personas con VIH. Se hizo en julio, en Barcelona, un riñón, con un robot. Cuarenta años prohibido, y cuando se hace, se hace. Y salió en dos periódicos y medio.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Sara</span>
+            <p>Y el de útero.</p>
+          </div>
+
+          <div class="cafe-escena__dialogo">
+            <span class="cafe-escena__nombre">Mónica</span>
+            <p>Y el de útero. Y el de médula, que este año hace cincuenta años del primero y han hecho un acto con la donante, que tenía trece años cuando donó. Trece. Sale más gente en la foto de una huelga que en la de un trasplante. Y yo entiendo por qué, eh. Lo entiendo perfectamente. Es que no me gusta entenderlo tanto.</p>
+          </div>
+        </div>
+        <div class="cafe-escena__nota">Fuente: ministerios/cafe/2026-09-23-cafe.md (continuación)</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===== KPI FINAL ===== -->
+<section class="section section--dark">
+  <h2 class="section__titulo" style="color:#faf9f7; text-align:center;">Resumen final</h2>
+  <p class="section__sub" style="color:rgba(250,249,247,0.7); text-align:center;">La misión de 30 sesiones cierra con los tres entregables firmados.</p>
+  
+  <div class="kpi-grid" style="max-width:900px; margin:0 auto;">
+    <div class="kpi-box">
+      <div class="kpi-box__num">30/30</div>
+      <div class="kpi-box__lbl">Sesiones completadas</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-box__num">88</div>
+      <div class="kpi-box__lbl">Acuerdos emitidos</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-box__num">557</div>
+      <div class="kpi-box__lbl">Bloques intactos</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-box__num">−28.385</div>
+      <div class="kpi-box__lbl">Palabras ahorradas</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-box__num">0</div>
+      <div class="kpi-box__lbl">Duplicados restantes</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-box__num">91,85</div>
+      <div class="kpi-box__lbl">M€ reasignados</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-box__num">6/8</div>
+      <div class="kpi-box__lbl">Validadas sin obs.</div>
+    </div>
+    <div class="kpi-box">
+      <div class="kpi-box__num">9/10</div>
+      <div class="kpi-box__lbl">Puntuación Hacienda</div>
+    </div>
+  </div>
+
+  <div style="text-align:center; padding:4rem 2rem;">
+    <p style="font-family:'Playfair Display', Georgia, serif; font-size:clamp(1.3rem, 3vw, 1.8rem); font-style:italic; line-height:1.6; color:rgba(250,249,247,0.9); max-width:700px; margin:0 auto;">
+      "La consolidación no es perfección, es honestidad."
+    </p>
+    <p style="margin-top:1.5rem; font-size:0.85rem; color:var(--gold-light);">— Presidencia, sesión 30/30</p>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>
+    Hecho con ❤️ por David Antizar · Gobierno IA · 2026<br>
+    <small style="opacity:0.5;">Proyecto de experimentación — NO PARA USO JURÍDICO</small>
+  </p>
+</footer>
 
 <script>
+// ===== Partículas del hero =====
 (function() {
-  var tabs = document.querySelectorAll('[data-filter]');
-  var items = document.querySelectorAll('#cartera-items .nz-article');
-
-  tabs.forEach(function(tab) {
-    tab.addEventListener('click', function() {
-      var filter = tab.dataset.filter;
-      tabs.forEach(function(t) {
-        t.classList.remove('nz-btn--primary');
-        t.classList.add('nz-btn--ghost');
-        t.setAttribute('aria-selected', 'false');
-      });
-      tab.classList.add('nz-btn--primary');
-      tab.classList.remove('nz-btn--ghost');
-      tab.setAttribute('aria-selected', 'true');
-
-      items.forEach(function(item) {
-        if (filter === 'todas' || item.dataset.prioridad === filter) {
-          item.style.display = '';
-        } else {
-          item.style.display = 'none';
-        }
-      });
-    });
-  });
+  var container = document.getElementById('hero-particles');
+  for (var i = 0; i < 30; i++) {
+    var p = document.createElement('div');
+    p.className = 'hero-particle';
+    p.style.left = Math.random() * 100 + '%';
+    p.style.animationDelay = Math.random() * 8 + 's';
+    p.style.animationDuration = (6 + Math.random() * 4) + 's';
+    p.style.width = (2 + Math.random() * 3) + 'px';
+    p.style.height = p.style.width;
+    container.appendChild(p);
+  }
 })();
+
+// ===== Smooth scroll =====
+document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+  anchor.addEventListener('click', function(e) {
+    e.preventDefault();
+    var target = document.querySelector(this.getAttribute('href'));
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+  });
+});
 </script>
 
 </body>
