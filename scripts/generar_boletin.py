@@ -188,7 +188,10 @@ def main():
         for f in listar(os.path.join(REPO, f"ministerios/{m_}/propuestas")):
             fm = re.match(r"(\d{4}-\d{2}-\d{2})", f)
             if fm: fechas.add(fm.group(1))
-    dias = sorted(fechas, reverse=True)[:14]  # últimos 14 días con actividad
+    # Solo fechas hasta HOY: un boletín público no publica sesiones futuras
+    # (el repo puede contener material pre-generado; la portada no lo anticipa).
+    hoy = datetime.date.today().isoformat()
+    dias = sorted((f for f in fechas if f <= hoy), reverse=True)[:22]
 
     if dias:
         cuerpo = "".join(dia_md(datetime.date.fromisoformat(d)) for d in dias)
